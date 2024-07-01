@@ -1,0 +1,52 @@
+<!-- # Frequently Asked Questions
+1. [I cannot launch the version of Maya that I would like to use, it is disabled](#I cannot launch the version of Maya that I would like to use, it is disabled)
+
+
+## I cannot launch the version of Maya that I would like to use, it is disabled -->
+
+# FAQ
+- [FAQ](#faq)
+  - [Camera/Footage](#camerafootage)
+    - [Does FCS require marker on the actor footage?](#does-fcs-require-marker-on-the-actor-footage)
+    - [Does FCS support my camera?](#does-fcs-support-my-camera)
+  - [Maya](#maya)
+    - [The UI won't let me launch the correct version of maya](#the-ui-wont-let-me-launch-the-correct-version-of-maya)
+    - [My Maya is installed in a different location](#my-maya-is-installed-in-a-different-location)
+    - [Does FCS support my character?](#does-fcs-support-my-character)
+  - [Performance](#performance)
+    - [Video playback is too slow](#video-playback-is-too-slow)
+  - [Privacy](#privacy)
+    - [Why does FCS always require an active internet connection?](#why-does-fcs-always-require-an-active-internet-connection)
+    - [Does FCS upload my character or actor footage for ?](#does-fcs-upload-my-character-or-actor-footage-for-)
+  
+## Camera/Footage
+### Does FCS require marker on the actor footage?
+No. FCS does not require a marker on the actor footage. It is recommended against in fact. 
+
+### Does FCS support my camera?
+FCS supports most head mounted and fixed cameras. 
+If you are using a non-fisheye lens camera, please uncheck solver/global/fisheye.
+
+## Maya
+### The UI won't let me launch the correct version of maya
+Go to File -> Session -> Info and review the current maya version designated to the session. To edit the associated verion, please right click on the current version, and edit. 
+
+### My Maya is installed in a different location 
+Go to settings -> Maya -> Install dir to edit the path to the autodesk folder. 
+
+### Does FCS support my character?
+As long as it has a controller attached. 
+
+## Performance
+### Video playback is too slow
+You can change the resolution of the playback video by adjusting the "Scale" dropdown at the timeline window, a lower scale will result in faster playback.
+
+
+
+## Privacy
+### Why does FCS always require an active internet connection?
+FCS requires an active internet connection for validating the license. 
+
+### Does FCS upload my character or actor footage for ?
+No. Your character model and video footage is never uploaded anywhere. 
+
