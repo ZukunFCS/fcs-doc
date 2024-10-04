@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../003_overview.md:1
 msgid "作業フロー"
-msgstr "Work flow"
+msgstr "Workflow"
 
 #: ../../003_overview.md:2
 msgid "FCS起動"
@@ -48,4 +48,4 @@ msgstr "Animation output"
 
 #: ../../003_overview.md:11
 msgid "FCSで使用するファイルやフォルダ名は全て半角英数字にしてください。"
-msgstr "Please use lowercase letters to name all files and folders in FCS."
+msgstr "We recommend lowercase letters for all files and folders in FCS."

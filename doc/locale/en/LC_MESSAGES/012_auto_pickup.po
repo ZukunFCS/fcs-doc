@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Manual latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-11 12:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../012_auto_pickup.md:1
+msgid "Auto pickup (experimental)"
+msgstr ""
+
+#: ../../012_auto_pickup.md:2
+msgid ""
+"FCS introduces a new way to select frames for retargetting from video "
+"effectively with little to no human supervision.  This allows you to get "
+"the most out of FCS with the least effort."
+msgstr ""
+
+#: ../../012_auto_pickup.md:6
+msgid ""
+"This feature is currently in beta and we expect it would break for "
+"particular cases. We welcome feedback from the community regarding the "
+"implementation."
+msgstr ""
+
+#: ../../012_auto_pickup.md:9
+msgid "How to use Auto Pickup"
+msgstr ""
+
+#: ../../012_auto_pickup.md:10
+msgid ""
+"Auto pickup window can be opened by right clicking on the video in the "
+"Video tab."
+msgstr ""
+
+#: ../../012_auto_pickup.md:12
+msgid "![](images/012_auto_profiles.jpg)"
+msgstr ""
+
+#: ../../012_auto_pickup.md:14
+msgid ""
+"This should bring up the auto profile window.  "
+"![](images/012_auto_profile_window.jpg)"
+msgstr ""
+
+#: ../../012_auto_pickup.md:17
+msgid ""
+"This window allows you to automatically select frames from the video. "
+"After confirming the video is correctly selected, you are provided with a"
+" couple options regarding what kind of frames you would like to pick up "
+"from the video."
+msgstr ""
+
+#: ../../012_auto_pickup.md:19
+msgid "Selection method"
+msgstr ""
+
+#: ../../012_auto_pickup.md:20
+msgid ""
+"Currently, two methods are implemented to allow you to select frames, "
+"based on the type of video, `General` and `ROM`, for slightly different "
+"use case."
+msgstr ""
+
+#: ../../012_auto_pickup.md:22
+msgid ""
+"**General** is designed for using on any video. It will looks for frame "
+"that is a good representation of the overall facial expression as it "
+"appears in the video."
+msgstr ""
+
+#: ../../012_auto_pickup.md:24
+msgid ""
+"Inside *General* you can decide any number of profiles that you would "
+"like to add from the video, the algorithm will look at the entire video, "
+"and look for facial expression(s) that can overall represent the video."
+msgstr ""
+
+#: ../../012_auto_pickup.md:26
+msgid ""
+"**ROM** looks for video frames that match that the specific facial "
+"expressions as included in the ROM.pdf included with starter kit."
+msgstr ""
+
+#: ../../012_auto_pickup.md:28
+msgid ""
+"In the *ROM* method, you can choose what exact facial expression that you"
+" are looking for inside the video. The algorithm will look for the "
+"closest match inside the video."
+msgstr ""
+
+#: ../../012_auto_pickup.md:30
+msgid ""
+"In the future we will release another version where custom ROM sequence "
+"can used."
+msgstr ""
+

@@ -15,19 +15,19 @@ FCS起動後、Sessionデータへアクセスするため
 .lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル<br>
 ![](images/folder.jpg)
 - Facial：動画やMayaシーンデータ等素材を保存する場所  
-　- Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所  
-　- RecData：ROM体操やFCSで解析したい動画を保存する場所  
-　- Scene：アニメーション出力時のデフォルト出力先  
-　- SetData：アニメーション出力で「audio」を選択した場合にはwavファイルが、  
+  - Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所  
+  - RecData：ROM体操やFCSで解析したい動画を保存する場所  
+  - Scene：アニメーション出力時のデフォルト出力先  
+  - SetData：アニメーション出力で「audio」を選択した場合にはwavファイルが、  
 　　「Frame」「Landmark Frame」を選択した場合は連番画像が作成され、保存される  
 
 - FCS：解析に使用するデータが保存されるプロジェクトフォルダ  
-　- Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される  
-　- Character：Characterで作成したフォルダ。Characterで入力した名前が表記される  
-　- RetargetData（IMG/PARAM）：作成したProfileの編集データ（画像や数値情報）が保存される  
-　- VideoData：解析する動画のキャッシュが保存される  
-　- .lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される  
-　-  fcs_session.yaml：session情報を保存しているファイル
+  - Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される  
+  - Character：Characterで作成したフォルダ。Characterで入力した名前が表記される  
+  - RetargetData（IMG/PARAM）：作成したProfileの編集データ（画像や数値情報）が保存される  
+  - VideoData：解析する動画のキャッシュが保存される  
+  - .lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される  
+  -  fcs_session.yaml：session情報を保存しているファイル
 
 ### Sessionの新規作成   
 

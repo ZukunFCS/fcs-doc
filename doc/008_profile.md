@@ -32,7 +32,7 @@ Videosウィンドウに解析したい動画が表示されます。
 - << >>：登録したprofileにジャンプする
 - ＞ ||：動画の再生 - 停止（再生すると一時停止ボタンが表示される）
 - 1:2▼：表示する動画の解像度を変更する（Scaleが小さくなるほどプレビューが鮮明に、大きくなるほど荒くなる）
-- Sync：- [x] でTimeline操作状況をMayaのTimeSliderと一致させる
+- Sync：☑ でTimeline操作状況をMayaのTimeSliderと一致させる
 - EveryFrame/Realtime：再生速度を変更する
 - Video：Video playerに表示されている動画名
 
@@ -92,15 +92,15 @@ Count:○○：登録しているprofileの総数
 
 All▼：該当する項目を絞り込む
 - All：すべてのprofileを表示する
-- Enabled：解析に使用するprofileを表示する。Enabledに- [x] を入れて登録したprofileが対象となる。
-- Disabled：解析に使用しないprofileを表示する。Enabledに- [x] を入れず登録したprofileが対象となる。
+- Enabled：解析に使用するprofileを表示する。Enabledに ☑ を入れて登録したprofileが対象となる。
+- Disabled：解析に使用しないprofileを表示する。Enabledに ☑ を入れず登録したprofileが対象となる。
 - Default：数値がdefaultのprofileを表示する。
 - Not Default：数値がdefaultではないprofileを表示する。
 - Neutral：Neutralにチェックを入れて登録したprofileを表示する。
-- （Region）Enabled：該当する（Region）に- [x] を入れて登録したprofileを表示する。
-- （Region）Disabled：該当する（Region）に- [x] を入れず登録したprofileを表示する。
+- （Region）Enabled：該当する（Region）に ☑ を入れて登録したprofileを表示する。
+- （Region）Disabled：該当する（Region）に ☑ を入れず登録したprofileを表示する。
 
-Sync timeline- [x] ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。
+Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。
 ▼▲：ソートの昇順 降順を変更する
 
 Video▼：ソート機能
@@ -110,10 +110,10 @@ Video▼：ソート機能
 - （controller名）：該当する（controller）に登録した数値でソート
   
 ピックアップした画像
-- 緑：「Neutral」に- [x] を入れて登録したProfile  
+- 緑：「Neutral」に ☑ を入れて登録したProfile  
 - 赤：数値がデフォルト状態/未編集のProfile  
 - 青：選択中（編集中）のprofile  
-- 黒：「Enabled」の- [x] を外し、「Disabled」で登録したprofile  
+- 黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile  
 - 白：リターゲット後、登録したprofile  
 
 
@@ -159,7 +159,7 @@ VideoTimelineウィンドウの
 Neutral表情とは、アクターの表情筋に力が入っていないナチュラルな表情のことです。  
 セッション内で必ず一つNeutral表情を設定してください。 
 
- - Neutralに- [x]   
+ - Neutralに ☑  
  - 任意の名前に変更  
  - Save
 ![](images/P010.png)
@@ -284,7 +284,7 @@ MayaにPredict結果が出るので、
 
 #### 目を閉じる/薄目の時のGaze登録について
 ```{warning}
-目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの- [x] を外してください  
+目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの ☑ を外してください  
 解析結果の精度が低下してしまう可能性があります  
 ```
 
@@ -294,7 +294,7 @@ MayaにPredict結果が出るので、
  - 表情を調整した上で
 ![](images/P025.png)
 
- - Regionのgaze/lowerの- [x] を外す
+ - Regionのgaze/lowerの ☑ を外す
 ![](images/P026.png)
 
  - Save
@@ -310,7 +310,7 @@ Videosウィンドウの「Profiles」をご参照ください
 
 「Profiles」が表示されない場合  
  - メニューバー上部で右クリック  
- - 「Profiles」に- [x] を入れる  
+ - 「Profiles」に ☑ を入れる  
 ![](images/P026-03.png)
 
 ### トラブルシューティング
