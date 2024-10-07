@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Manual latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-11 12:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../000_release_note.md:1
+msgid "FCS 24.10.01"
+msgstr ""
+
+#: ../../000_release_note.md:2
+msgid "リリース日: 2024/08/29"
+msgstr ""
+
+#: ../../000_release_note.md:3
+msgid "リリースバージョン: 24.10.01"
+msgstr ""
+
+#: ../../000_release_note.md:4
+msgid "リリースステージ: Beta"
+msgstr ""
+
+#: ../../000_release_note.md:7
+msgid "概要"
+msgstr ""
+
+#: ../../000_release_note.md:8
+msgid "マニュアル関連"
+msgstr ""
+
+#: ../../000_release_note.md:9
+msgid "24.07, 24.10など、バージョンごとマニュアルが確認できるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:10
+msgid ""
+"[English manual](https://zukunfcs.github.io/fcs-doc/24.10/en/index.html) "
+"(draft) now available"
+msgstr ""
+
+#: ../../000_release_note.md:12
+msgid "セットアップ"
+msgstr ""
+
+#: ../../000_release_note.md:13
+msgid "インストーラーができるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:14
+msgid "ffmpegがシステムにインストールされていない場合、自動的にダウンロードできるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:16
+msgid "Auto Pickup α"
+msgstr ""
+
+#: ../../000_release_note.md:17
+msgid ""
+"[動画から特定のフレームを自動的にGalleryに追加する機能を実装しました。](https://zukunfcs.github.io/fcs-"
+"doc/latest/en/012_auto_pickup.html)"
+msgstr ""
+
+#: ../../000_release_note.md:19 ../../000_release_note.md:64
+msgid "自動更新"
+msgstr ""
+
+#: ../../000_release_note.md:20
+msgid "新しいバージョンが発行された際に、FCSのUIから更新内容の表示およびダウンロードできるようになりました。"
+msgstr ""
+
+#: ../../000_release_note.md:22 ../../000_release_note.md:72
+msgid "Linuxサポート"
+msgstr ""
+
+#: ../../000_release_note.md:23
+msgid "実験的Linuxサポートを始めました"
+msgstr ""
+
+#: ../../000_release_note.md:25
+msgid "アップデート注意"
+msgstr ""
+
+#: ../../000_release_note.md:26
+msgid "以下のバージョンを使用しこれからアップデートする方に関しては以下の事項を注意していただければと思います。"
+msgstr ""
+
+#: ../../000_release_note.md:28
+msgid "24.07    特になし"
+msgstr ""
+
+#: ../../000_release_note.md:31
+msgid "詳細"
+msgstr ""
+
+#: ../../000_release_note.md:32
+msgid "マニュアル"
+msgstr ""
+
+#: ../../000_release_note.md:33
+msgid "マニュアルサイトに日本語、英語バージョンを作成しました、左下で切り替えられます"
+msgstr ""
+
+#: ../../000_release_note.md:34
+msgid "FCSソフトから開く際にはソフトに対応するバージョンを自動的に開くようになります"
+msgstr ""
+
+#: ../../000_release_note.md:37
+msgid "インストール"
+msgstr ""
+
+#: ../../000_release_note.md:38
+msgid "ビルド方式にThemidaに変更しました、その際に、バーチャルマシン（VM）やデバッガーとの共同使用が対象外になりました。環境によって利用できなくなった方はご連絡ください。"
+msgstr ""
+
+#: ../../000_release_note.md:39
+msgid "インストーラーを追加しました、デフォルトではC:\\FCSで作成されるようになります。インストール先のフォルダの書き込み権限が必要になりますので、書き込み権限のないフォルダに入れると問題が発生します。"
+msgstr ""
+
+#: ../../000_release_note.md:41
+msgid "FFMPEG"
+msgstr ""
+
+#: ../../000_release_note.md:42
+msgid ""
+"起動時に、ffmpegがシステムパスに存在しないとき、自動的に[github](https://github.com/BtbN/FFmpeg-"
+"Builds/)からダウンロードするようになっております。"
+msgstr ""
+
+#: ../../000_release_note.md:43
+msgid "Githubへの接続ができないお客様は手動でffmpegをインストールし、pathに追加するようにお願いいたします。"
+msgstr ""
+
+#: ../../000_release_note.md:45
+msgid "ユーザインタフェース"
+msgstr ""
+
+#: ../../000_release_note.md:46
+msgid "ビデオ名をダブルクリックで開けるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:47
+msgid "プログラム終了時のタブのレイアウトが保存されるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:48
+msgid "FCS初回起動時のタブのレイアウトを整理しました"
+msgstr ""
+
+#: ../../000_release_note.md:49
+msgid "タイムラインのドラッグする際に、範囲からカーソルをずらしても動くようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:50
+msgid "一部のUIから選択できる項目がプログラム終了されても保存されるようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:51
+msgid "UIの日本語訳を更新しました"
+msgstr ""
+
+#: ../../000_release_note.md:52
+msgid "キーボードショットを修飾キーに対応させました"
+msgstr ""
+
+#: ../../000_release_note.md:53
+msgid "一部の機能にキーボードショットを対応させました"
+msgstr ""
+
+#: ../../000_release_note.md:54
+msgid "Profile保存"
+msgstr ""
+
+#: ../../000_release_note.md:55
+msgid "Profileから動画を開く"
+msgstr ""
+
+#: ../../000_release_note.md:56
+msgid "Editorの値をMayaへ送信 (To Maya)"
+msgstr ""
+
+#: ../../000_release_note.md:57
+msgid "Mayaからリグの値を受信 (From Maya)"
+msgstr ""
+
+#: ../../000_release_note.md:58
+msgid "レイアウトの変更"
+msgstr ""
+
+#: ../../000_release_note.md:59
+msgid "Enforce AnnotationをPrioritize Profileへ名称変更"
+msgstr ""
+
+#: ../../000_release_note.md:61
+msgid "Maya"
+msgstr ""
+
+#: ../../000_release_note.md:62
+msgid "FCSからmayaへ送信する際に、Disabledされたリージョンを送信しなくなりました"
+msgstr ""
+
+#: ../../000_release_note.md:65
+msgid "プログラム起動時に、新しいアップデータを検出するようになりました"
+msgstr ""
+
+#: ../../000_release_note.md:66
+msgid "アップデートに関しては以下の設定がSettingsウィンドウから変更できます"
+msgstr ""
+
+#: ../../000_release_note.md:67
+msgid ""
+"Update channel: All | Patch | None   "
+"すべてのアップデート、もしくはバグ修正のみ保守アップデートのみ、またはアップデートしないことが選択できます"
+msgstr ""
+
+#: ../../000_release_note.md:69
+msgid "Use Beta 安定しない機能を含めたベータ版の利用ができるようになります"
+msgstr ""
+
+#: ../../000_release_note.md:73
+msgid "Fedora 8にて、FCS対応させました。   ご興味のある方はご連絡ください。"
+msgstr ""
+
+#: ../../000_release_note.md:76
+msgid "その他"
+msgstr ""
+
+#: ../../000_release_note.md:77
+msgid "プログラムデータの保存先が`$USER/.fcs/Cortado`から`$USER/.fcs/Cortado/$version`**に変更しました**"
+msgstr ""
+

@@ -24,12 +24,12 @@ all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の区分
 
 Maya  
 Add selected：選択したコントローラーを登録  
-Sync：- [x] 数値操作をMayaと連動する
+Sync：☑ 数値操作をMayaと連動する
 
 Selected  
 Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録  
-Remove：- [x] を入れたコントローラーを削除する  
-select All/Unselect All：controller上に表示されているコントローラーすべてに- [x] /- [x] 解除 
+Remove：☑ を入れたコントローラーを削除する  
+select All/Unselect All：controller上に表示されているコントローラーすべてに ☑ / ☑ 解除 
 
 ▼Advanced  
 Remove empty：Regionが登録されていないコントローラー(null)を削除する  
@@ -155,7 +155,7 @@ Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら
 #### セーブできない場合
 
 登録すべきものか確認後  
- - 削除したい項目に- [x] →Remove  
+ - 削除したい項目に ☑ →Remove  
 ![](images/C019.png)
  - nullのままのコントローラーを一括削除
 ![](images/C020.png)

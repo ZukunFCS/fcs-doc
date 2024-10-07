@@ -1,4 +1,3 @@
-(export-header-target)=
 # Auto pickup (experimental) 
 FCS introduces a new way to select frames for retargetting from video effectively with little to no human supervision. 
 This allows you to get the most out of FCS with the least effort. 

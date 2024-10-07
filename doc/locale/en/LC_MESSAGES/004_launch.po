@@ -3,16 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 15:18+0900\n"
+"POT-Creation-Date: 2024-09-11 12:30+0900\n"
 "PO-Revision-Date: 2024-07-27 07:32+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../004_launch.md:3
 msgid "FCS起動"
@@ -23,12 +23,10 @@ msgid "![](images/003_downloaded.PNG)"
 msgstr ""
 
 #: ../../004_launch.md:7
-msgid "任意の場所に保存した「exeファイル」をダブルクリックし起動してください。   インストール不要なプログラムになります。"
+msgid "ランチャーの指示に沿って、FCSをインストールしてください。"
 msgstr ""
-"Double click on the executable file to launch, the program does not "
-"require installation."
 
-#: ../../004_launch.md:12
+#: ../../004_launch.md:11
 msgid ""
 "初回起動時、PC環境によってセキュリティソフトでブロックされることがあります。   "
 "その際には、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
@@ -37,47 +35,55 @@ msgstr ""
 "depending on the PC environment. In this case, please contact us from the"
 " HELTEC website (https://sensing.heltec.co.jp/contact/)."
 
-#: ../../004_launch.md:16
+#: ../../004_launch.md:15
 msgid "ライセンスの入力"
 msgstr "Entering the license"
 
-#: ../../004_launch.md:18
+#: ../../004_launch.md:17
 msgid "FCS初回起動時ライセンスキーの入力を求められます。"
 msgstr "A license key is required during the intial setup."
 
-#: ../../004_launch.md:19
+#: ../../004_launch.md:18
 msgid "New Licenseにライセンスキーを入力"
 msgstr "Input the license key in `New License'"
 
-#: ../../004_launch.md:20
+#: ../../004_launch.md:19
 msgid "Update   ![](images/L001.png)"
 msgstr ""
 
-#: ../../004_launch.md:23
+#: ../../004_launch.md:22
 msgid "ライセンス認証完了後FCSを操作できるようになります。"
 msgstr "After license authentication is completed, you will be able to use FCS."
 
-#: ../../004_launch.md:26
+#: ../../004_launch.md:25
 msgid "ライセンスの更新"
 msgstr "Updating license"
 
-#: ../../004_launch.md:28
+#: ../../004_launch.md:27
 msgid "FCSを起動後、ライセンスの期限切れだった場合にはLicenseInfoがポップします。"
-msgstr "If your license has expired, a license info window will allow you to enter a new license key."
+msgstr ""
+"If your license has expired, a license info window will allow you to "
+"enter a new license key."
 
-#: ../../004_launch.md:29
+#: ../../004_launch.md:28
 msgid "新しいライセンスキーをNew Licenseに入力"
 msgstr "Input the new key to `New License'"
 
-#: ../../004_launch.md:30
+#: ../../004_launch.md:29
 msgid "Update ![](images/L002.png)"
 msgstr "Update ![](images/L002.png)"
 
-#: ../../004_launch.md:34
+#: ../../004_launch.md:33
 msgid ""
 "Updateを押しても正常に動作しない場合があります。    "
 "その際には、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
 msgstr ""
 "Note   Even if you click Update, it may not process properly.   In this "
 "case, please contact us from the HELTEC website."
+
+#~ msgid "任意の場所に保存した「exeファイル」をダブルクリックし起動してください。   インストール不要なプログラムになります。"
+#~ msgstr ""
+#~ "Double click on the executable file "
+#~ "to launch, the program does not "
+#~ "require installation."
 
