@@ -1,0 +1,531 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Release Note &mdash; FCS Manual latest documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=c6e86fd7"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="What is FCS?" href="001_intro.html" />
+    <link rel="prev" title="FCS Manual" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Manual
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Release Note</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-09">FCS 24.10.09</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#overview">Overview</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-08">FCS 24.10.08</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Overview</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-07">FCS 24.10.07</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Overview</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-06">FCS 24.10.06</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cannot-be-downgraded">!Cannot be downgraded!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Overview</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#fixed-animation-timeline-off-by-1-frame">Fixed animation timeline off by 1 frame</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-05">FCS 24.10.05</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Overview</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-04">FCS 24.10.04</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Overview</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-03">FCS 24.10.03</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#detail">Detail</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#fixed-gallery-issues">Fixed gallery issues</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fixed-installer-issues">Fixed installer issues</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#misc">Misc</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-02">FCS 24.10.02</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Detail</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#improved-filtering-feature-in-gallery-allowing-batch-edit-delete">Improved filtering feature in Gallery, allowing batch edit/delete</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fixed-a-bug-where-the-cursor-position-does-not-exactly-move-to">Fixed a bug where the cursor position does not exactly move to</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#prioritize-profile">Prioritize Profile</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#batch-rename-controller">Batch rename controller</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#improved-video-playback-speed">Improved video playback speed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#added-a-solver-export-feature-for-real-time-use">Added a solver export feature for real time use</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-01">FCS 24.10.01</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id9">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#info-for-upgrading-from-a-previous-version">Info for upgrading from a previous version</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Detail</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#installer">Installer</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ffmpeg">FFMPEG</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ui">UI</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#maya">Maya</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#updater">Updater</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#linux-support">Linux Support</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Misc.</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">What is FCS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">Prerequisite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">Launching FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Create or open a Session</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Launching Maya</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Register controller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Creating profiles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html">Output animation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solver (advanced settings for detailed adjustments)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">Export</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">Auto pickup (experimental)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="014_release_schedule.html">Release Schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">Development roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html">Glossary of terms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88.html">FCS Starter Kit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html">Frequently Asked Question</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Manual</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Release Note</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/000_release_note.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="release-note">
+<h1>Release Note<a class="headerlink" href="#release-note" title="Link to this heading"></a></h1>
+<section id="fcs-24-10-09">
+<h2>FCS 24.10.09<a class="headerlink" href="#fcs-24-10-09" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/11/05</p></li>
+<li><p>Version: 24.10.09</p></li>
+<li><p>Stage: Stable</p></li>
+</ul>
+<section id="overview">
+<h3>Overview<a class="headerlink" href="#overview" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Fixed profile image being saved at a different resolution in some cases, introduced at 24.10.06.<br />
+This affects the predicted animation’s result. If you are using version 24.10.06 - 24.10.08, we recommend upgrading immediately. An automatic update will be applied to fix the resolution of the image.</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-24-10-08">
+<h2>FCS 24.10.08<a class="headerlink" href="#fcs-24-10-08" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/10/30</p></li>
+<li><p>Version: 24.10.08</p></li>
+<li><p>Stage: Stable</p></li>
+</ul>
+<section id="id1">
+<h3>Overview<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Fixed Maya imagePlane is setup incorrectly</p></li>
+<li><p>Changed default imagePlane and camera name to imagePlane and fcs_cam respectively</p></li>
+<li><p>Fixed an error which prevent switching to the newly created Actor and character when creating new session</p></li>
+<li><p>Fixed prediction result not being sent to Maya even when To maya is ON.</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-24-10-07">
+<h2>FCS 24.10.07<a class="headerlink" href="#fcs-24-10-07" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/10/29</p></li>
+<li><p>Version: 24.10.07</p></li>
+<li><p>Stage: Stable</p></li>
+</ul>
+<section id="id2">
+<h3>Overview<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Fixed program crashes when trying to display LM</p></li>
+<li><p>Fixed session info profile count shows incorrect value</p></li>
+<li><p>Fixed an error where the Maya image plane is named incorrectly</p></li>
+<li><p>Added a feature to clear all caches when opening session in a different version</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-24-10-06">
+<h2>FCS 24.10.06<a class="headerlink" href="#fcs-24-10-06" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/10/16</p></li>
+<li><p>Version: 24.10.06</p></li>
+<li><p>Stage: Stable</p></li>
+</ul>
+<section id="cannot-be-downgraded">
+<h3>!Cannot be downgraded!<a class="headerlink" href="#cannot-be-downgraded" title="Link to this heading"></a></h3>
+<p><strong>Once opened in this version, your FCS session will not be abled to downgraded to a previous version of FCS, including FCS 24.10.05. We strongly recommend you to backup your files before using the update.</strong></p>
+</section>
+<section id="id3">
+<h3>Overview<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Fixed animation timeline off by 1 frame</p></li>
+<li><p>Optimized launch spped</p></li>
+<li><p>Improved logging</p></li>
+</ol>
+<section id="fixed-animation-timeline-off-by-1-frame">
+<h4>Fixed animation timeline off by 1 frame<a class="headerlink" href="#fixed-animation-timeline-off-by-1-frame" title="Link to this heading"></a></h4>
+<p>Fixed a bug where the first frame of a video is used twice (i.e., the 99th frame is presented as the 100th frame). All previously created profiles are all off by one frame, which will be fixed once imported using the new version of FCS. However, it also means that it will be incorrect if the fixed profile is imported back to a previous version of FCS. Therefore, once imported to the new version, it is not possible to downgrade to use the previous version.</p>
+</section>
+</section>
+</section>
+<section id="fcs-24-10-05">
+<h2>FCS 24.10.05<a class="headerlink" href="#fcs-24-10-05" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/10/11</p></li>
+<li><p>Version: 24.10.05</p></li>
+<li><p>Stage: Stable</p></li>
+</ul>
+<section id="id4">
+<h3>Overview<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Fixed a bug where video is not cached when opened for viewing</p></li>
+<li><p>Fixed a bug where the auto profile assigns the wrong name to the profile in ROM mode</p></li>
+<li><p>Added a new feature for exported solver for real-time use</p></li>
+<li><p>Added a warning sign for invalid controller info.</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-24-10-04">
+<h2>FCS 24.10.04<a class="headerlink" href="#fcs-24-10-04" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/10/07</p></li>
+<li><p>Version: 24.10.04</p></li>
+<li><p>Stage: Stable</p></li>
+</ul>
+<section id="id5">
+<h3>Overview<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Fixed a bug where landmark frame output crashes the application under specific circumstances.</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-24-10-03">
+<h2>FCS 24.10.03<a class="headerlink" href="#fcs-24-10-03" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/09/25</p></li>
+<li><p>Version: 24.10.03</p></li>
+<li><p>Stage: Stable</p></li>
+</ul>
+<section id="id6">
+<h3>Overview<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Fixed gallery issues</p></li>
+<li><p>Fixed installer issues</p></li>
+<li><p>Misc.</p></li>
+</ol>
+</section>
+<section id="detail">
+<h3>Detail<a class="headerlink" href="#detail" title="Link to this heading"></a></h3>
+<section id="fixed-gallery-issues">
+<h4>Fixed gallery issues<a class="headerlink" href="#fixed-gallery-issues" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Fixed an issue where reset on FCS UI doesn’t get send to Maya</p></li>
+<li><p>Fixed a bug where disabled regions’ values are still sent to Maya</p></li>
+</ol>
+</section>
+<section id="fixed-installer-issues">
+<h4>Fixed installer issues<a class="headerlink" href="#fixed-installer-issues" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Changed the default install path to C drive</p></li>
+<li><p>Updated the installer icon</p></li>
+<li><p>Added Japanese support</p></li>
+</ol>
+</section>
+<section id="misc">
+<h4>Misc<a class="headerlink" href="#misc" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Fixed a bug where controller rename triggers app crashes</p></li>
+<li><p>Fixed a bug where smoothing is not applied （Fixed in 24.10.01）</p></li>
+<li><p>Fixed Prioritize Profile</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="fcs-24-10-02">
+<h2>FCS 24.10.02<a class="headerlink" href="#fcs-24-10-02" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/09/09</p></li>
+<li><p>Version: 24.10.02</p></li>
+<li><p>Stage: Beta</p></li>
+</ul>
+<section id="id7">
+<h3>Overview<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Improved filtering feature in Gallery, allowing batch edit/delete</p></li>
+<li><p>Fixed a bug where editor landmark preview is turned off when opening a new profile.</p></li>
+<li><p>Fixed a bug where the cursor position does not exactly move to</p></li>
+<li><p>Optimized gallery render speed</p></li>
+<li><p>Added Prioritize Profile</p></li>
+<li><p>Added a feature to batch rename all controllers</p></li>
+<li><p>Improved video playback speed</p></li>
+</ol>
+</section>
+<section id="id8">
+<h3>Detail<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<section id="improved-filtering-feature-in-gallery-allowing-batch-edit-delete">
+<h4>Improved filtering feature in Gallery, allowing batch edit/delete<a class="headerlink" href="#improved-filtering-feature-in-gallery-allowing-batch-edit-delete" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Add filtering by region, video name etc.</p></li>
+</ol>
+</section>
+<section id="fixed-a-bug-where-the-cursor-position-does-not-exactly-move-to">
+<h4>Fixed a bug where the cursor position does not exactly move to<a class="headerlink" href="#fixed-a-bug-where-the-cursor-position-does-not-exactly-move-to" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Ctrl + Left mouse button click to enter value directly</p></li>
+<li><p>Cursor position will translate to the value of the slider</p></li>
+</ol>
+</section>
+<section id="prioritize-profile">
+<h4>Prioritize Profile<a class="headerlink" href="#prioritize-profile" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Added a feature to match the output animation with the defined profiles.</p></li>
+<li><p>Enabled by checking Solver/Post-processing/Prioritize Profile</p></li>
+</ol>
+</section>
+<section id="batch-rename-controller">
+<h4>Batch rename controller<a class="headerlink" href="#batch-rename-controller" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Select controllers in Controller Info to rename, useful for adding prefix/suffix etc.</p></li>
+<li><p>The change will propagate to the profiles previously created.</p></li>
+</ol>
+</section>
+<section id="improved-video-playback-speed">
+<h4>Improved video playback speed<a class="headerlink" href="#improved-video-playback-speed" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Added a feature to use RAM to speed up video playback, mostly useful for legacy computers.</p></li>
+<li><p>Default to enabled.</p></li>
+<li><p>You can store a maximum of 5 videos to your memory if it allows.</p></li>
+</ol>
+</section>
+<section id="added-a-solver-export-feature-for-real-time-use">
+<h4>Added a solver export feature for real time use<a class="headerlink" href="#added-a-solver-export-feature-for-real-time-use" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Export a solver file using Solver/Export.</p></li>
+<li><p>Import the file into the real time application (WIP) for view your character moving in real-time</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="fcs-24-10-01">
+<h2>FCS 24.10.01<a class="headerlink" href="#fcs-24-10-01" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/08/29</p></li>
+<li><p>Version: 24.10.01</p></li>
+<li><p>Stage: Beta</p></li>
+</ul>
+<section id="id9">
+<h3>Overview<a class="headerlink" href="#id9" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Added a language and version switcher for the manual (left bottom)</p></li>
+<li><p><a class="reference external" href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">English manual</a> (draft) now available</p></li>
+<li><p>Added experimental linux support</p></li>
+<li><p>Added an installer for FCS</p></li>
+<li><p>Added a feature to download ffmpeg if it doesn’t exist on the user system.</p></li>
+<li><p><a class="reference external" href="https://zukunfcs.github.io/fcs-doc/latest/en/012_auto_pickup.html">Added a feature to automatically generate profile from video</a></p></li>
+<li><p>Added UI elements and download for the new version.</p></li>
+</ol>
+</section>
+<section id="info-for-upgrading-from-a-previous-version">
+<h3>Info for upgrading from a previous version<a class="headerlink" href="#info-for-upgrading-from-a-previous-version" title="Link to this heading"></a></h3>
+<p>You can safely open your session from 24.07.</p>
+</section>
+<section id="id10">
+<h3>Detail<a class="headerlink" href="#id10" title="Link to this heading"></a></h3>
+<section id="installer">
+<h4>Installer<a class="headerlink" href="#installer" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Changed build method to Themida. Using virtual machine and debugger together with FCS is unsupported. If you need to allow these for specific reason please contact us.</p></li>
+<li><p>Added installer, default installation path is C:\FCS. Please ensure the program has write access to the folder.</p></li>
+</ol>
+</section>
+<section id="ffmpeg">
+<h4>FFMPEG<a class="headerlink" href="#ffmpeg" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Pull ffmpeg directly from <a class="reference external" href="https://github.com/BtbN/FFmpeg-Builds/">github</a> if it doesn’t exist in the user system.</p></li>
+<li><p>If you cannot connect to github please directly install ffmpeg and add it to path.</p></li>
+</ol>
+</section>
+<section id="ui">
+<h4>UI<a class="headerlink" href="#ui" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>You can now open and view a video using double click</p></li>
+<li><p>Fixed a bug where the layout is not retained</p></li>
+<li><p>Fixed the initial layout of FCS when first launch in a new computer</p></li>
+<li><p>Added timeline drag</p></li>
+<li><p>Added a feature to retain user interface states so it persist between program launches.</p></li>
+<li><p>Updated japanese translations</p></li>
+<li><p>Added support for modifier keys</p></li>
+<li><p>Added support for shortcut keys</p>
+<ul class="simple">
+<li><p>Save profile</p></li>
+<li><p>Open Profile from video</p></li>
+<li><p>Send value from Editor to Maya (To Maya)</p></li>
+<li><p>Receive controller value from Maya (From Maya)</p></li>
+<li><p>Change layout</p></li>
+</ul>
+</li>
+<li><p>Renamed Enforce Annotation to Prioritize Profile</p></li>
+</ol>
+</section>
+<section id="maya">
+<h4>Maya<a class="headerlink" href="#maya" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Disabled region values are not sent from FCS to maya</p></li>
+</ol>
+</section>
+<section id="updater">
+<h4>Updater<a class="headerlink" href="#updater" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Added a new feature to check for new updates</p></li>
+<li><p>Update settings are as follow</p>
+<ol class="arabic simple">
+<li><p>Update channel: All | Patch | None<br />
+Decide what kind of updates are checked for.</p></li>
+<li><p>Use Beta
+Use the unstable build.</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="linux-support">
+<h4>Linux Support<a class="headerlink" href="#linux-support" title="Link to this heading"></a></h4>
+<p>FCS supports Fedora 8 now, please contact us if you are interested.</p>
+</section>
+<section id="id11">
+<h4>Misc.<a class="headerlink" href="#id11" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Program data location is changed from <code class="docutils literal notranslate"><span class="pre">$USER/.fcs/Cortado</span></code> to <code class="docutils literal notranslate"><span class="pre">$USER/.fcs/Cortado/$version</span></code>.</p></li>
+</ol>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="FCS Manual" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="001_intro.html" class="btn btn-neutral float-right" title="What is FCS?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: latest Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/latest/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/latest/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/latest/en/index.html">latest</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
