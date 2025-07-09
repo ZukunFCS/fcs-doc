@@ -1,0 +1,124 @@
+## アニメーションの出力方法
+
+```{caution}
+解析する動画が広角レンズを使って撮影されている場合、Solverの設定変更が必要です。  
+詳しくはSolverの詳細設定ページをご確認ください。
+```
+
+### 単体のアニメーション出力
+
+#### 出力画面説明
+
+![](images/A001.png)
+
+▼Process
+
+☑ Reprocess：作成したProfile情報を読み取る
+
+```{note}
+基本的に ☑ を付けることをオススメします。
+```
+
+Upload Options
+-  ☑ Animation：アニメーションデータを生成、Mayaに反映
+-  ☑ Audio：解析する動画の音声データをMayaに反映
+-  ☑ Frames：解析する動画の連番画像を生成、Mayaのイメージプレーン上に反映
+-  ☑ Landmark Frames：顔の動きをオートトラッキングする連番画像を生成、Mayaのイメージプレーン上に反映
+
+Export Options
+-  ☑ Playblast：出力されたアニメーションをmov形式の動画で出力、保存する
+-  ☑ Scene：出力されたMayaシーンを自動で保存する
+
+Start process：アニメーションの出力を開始する
+
+#### 単体のアニメーション出力方法
+
+Videoウィンドウで
+ - 解析/出力したい動画名の上で右クリック
+
+画像のメニューが表示されるので
+ - ▼Process　を選択
+ - 該当する項目に ☑ を入れ
+
+![](images/A002.png)
+
+ - Start process
+![](images/A004.png)
+
+```{note}
+ - 解析結果を見てから再度調整を行いたい場合はPlayblastやSceneの ☑ を外しておくと時間短縮できます。
+```
+![](images/A003.png)
+
+ - 初回出力時は時間がかかるため待機
+![](images/A005.png)
+
+- Mayaシーン上に ☑ を入れた項目が反映されていく
+   - タイムスライダーに音声データ
+   - イメージプレーンに連番画像
+   - アニメーションデータ の順で反映される
+   - アニメーションデータ反映時はスライダーが動く
+
+![](images/image133.png)
+
+```{note}
+【playblastやsceneに ☑ していた場合】
+
+出力が完了したらエクスプローラーがポップアップします。
+```
+![](images/image127.png)
+
+
+### 複数のアニメーション出力
+
+#### 出力画面説明
+
+![](images/A006.png)
+Output Folder：出力先を指定
+
+Output Targets
+-  ☑ Animation：アニメーションデータを生成、Mayaに反映
+-  ☑ Audio：解析する動画の音声データをMayaに反映
+-  ☑ Frames：解析する動画の連番画像を生成、Mayaのイメージプレーン上に反映
+-  ☑ Landmark Frames：顔の動きをオートトラッキングする連番画像を生成、Mayaのイメージプレーン上に反映
+-  ☑ Playblast：出力されたアニメーションをmov形式の動画で出力、保存する
+-  ☑ Scene：出力されたMayaシーンを自動で保存する
+
+Advenced  
+-  ☑ Reprocess：作成したProfile情報を読み取る
+
+Output Filename：出力されるデータ名。任意の名前に変更可能
+
+Start：アニメーションの出力を開始する
+
+#### 複数のアニメーション出力方法
+
+Videoウィンドウで
+
+ - 解析/出力したい動画名の左側の ☑ をつける
+![](images/A007.png)
+
+ - Processorウインドウを開く
+![](images/A008.png)
+<br>
+
+![](images/P37_processorWindow.PNG)
+
+ - 該当する項目に ☑ を入れ
+ - Output Filename を任意の名前に変更
+```{note}
+- {solver} → solverの名前
+- {video} → ビデオのファイル名
+- {user} → windows ユーザ名
+- {project} → 案件フォルダ名
+- {chara} → キャラクター名
+- {actor} → 役者名
+- {%Y%m%d}, {%H%M%S} → 年月日、時間分秒
+
+{video}のみにするとimportした動画名で出力される
+```
+ - Start
+![](images/A009.png)
+
+出力が完了したらエクスプローラーがポップアップします。
+![](images/image136.png)  
