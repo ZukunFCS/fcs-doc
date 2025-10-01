@@ -1,0 +1,679 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profileの作成 &mdash; FCS Docs 25.01 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=992b97f0"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="アニメーションの出力方法" href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html" />
+    <link rel="prev" title="Contorollerの登録" href="007_Controlinfo.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="000_release_note.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">事前準備</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">FCSのインストール</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">FCS起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Session作成もしくはオープン</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Mayaの起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Contorollerの登録</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Profileの作成</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Profileの作成の前に...</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">解析動画を開く方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#timeline">Timelineの画面説明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#editor">Editorの画面説明</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gallery">Galleryの画面説明</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Profileの作成</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">解析したい動画の読み込み方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Profileの追加方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#neutral">Neutralの表情の登録</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#maya">Mayaで表情を調整する場合</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fcs">FCS上で表情を調整する場合</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#predictprofile">PredictでProfileを作成する場合</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">Profileを作成するときの注意点</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#gaze">目を閉じる/薄目の時のGaze登録について</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">解析結果が好ましくない場合</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">トラブルシューティング</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#galleryprofile">＋キーを押してもGalleryにProfileが追加されない場合</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html">アニメーションの出力方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solverの詳細設定（細かな調整が必要な方向け）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">エクスポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">オートピックアップ（ベータ版）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="014_release_schedule.html">リリーススケジュール</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">サポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88.html">FCSスターターキット</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html">よくある質問（FAQ）</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Profileの作成</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/008_profile.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="profile">
+<h1>Profileの作成<a class="headerlink" href="#profile" title="Link to this heading"></a></h1>
+<section id="id1">
+<h2>Profileの作成の前に...<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<section id="id2">
+<h3>解析動画を開く方法<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>Window→VideosでVideosウィンドウが開きます。<br />
+Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。</p>
+<figure class="align-center" id="id9">
+<a class="reference internal image-reference" href="_images/P26_VideosWindow.PNG"><img alt="_images/P26_VideosWindow.PNG" src="_images/P26_VideosWindow.PNG" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Windows→Videos</span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id10">
+<a class="reference internal image-reference" href="_images/P002.png"><img alt="_images/P002.png" src="_images/P002.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Import</span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>ウィンドウがポップアップされるので</p>
+<figure class="align-center" id="id11">
+<a class="reference internal image-reference" href="_images/P003.png"><img alt="_images/P003.png" src="_images/P003.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">解析したい動画をクリックし開く</span><a class="headerlink" href="#id11" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Shift+クリックで複数同時にimportできます。</p>
+</div>
+<figure class="align-center" id="id12">
+<a class="reference internal image-reference" href="_images/P004.png"><img alt="_images/P004.png" src="_images/P004.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Videosウィンドウに解析したい動画が表示されます。</span><a class="headerlink" href="#id12" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="timeline">
+<h3>Timelineの画面説明<a class="headerlink" href="#timeline" title="Link to this heading"></a></h3>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P019.png"><img alt="_images/P019.png" src="_images/P019.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>Timeline：バーを左右に動かし、ビデオを手動で再生させる</p></li>
+<li><p>[0][20130]：ビデオの縮尺を変更できる。</p></li>
+<li><p>[7967]：現在のフレーム数</p></li>
+<li><p>|&lt; &gt;|：1フレーム前/後に移動する</p></li>
+<li><p>&lt;&lt; &gt;&gt;：登録したprofileにジャンプする</p></li>
+<li><p>＞ ||：動画の再生 - 停止（再生すると一時停止ボタンが表示される）</p></li>
+<li><p>1:2▼：表示する動画の解像度を変更する（Scaleが小さくなるほどプレビューが鮮明に、大きくなるほど荒くなる）</p></li>
+<li><p>Sync：☑ でTimeline操作状況をMayaのTimeSliderと一致させる</p></li>
+<li><p>EveryFrame/Realtime：再生速度を変更する</p></li>
+<li><p>Video：Video playerに表示されている動画名</p></li>
+</ul>
+</section>
+<section id="editor">
+<h3>Editorの画面説明<a class="headerlink" href="#editor" title="Link to this heading"></a></h3>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P007.png"><img alt="_images/P007.png" src="_images/P007.png" style="width: 80%;" />
+</a>
+</figure>
+<p>Sync:</p>
+<ul class="simple">
+<li><p>To Maya：登録されているprofile情報をMayaに転送する</p></li>
+<li><p>From Maya at save：saveする際にMaya上での調整データを取得しFCSに反映する</p></li>
+<li><p>Both：FCSとMayaを双方向で連動させる</p></li>
+<li><p>No Sync：FCSとMayaを連動させない</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>本ページではProfileの追加手順 - 編集手順について記載しております<br />
+Mayaをベースに表情を調整するのか、FCSをベースに表情を調整するのかは任意で使い分けることができますが、<br />
+最初は「Both」での使用をオススメします。</p>
+</div>
+<ul class="simple">
+<li><p>Neutral：デフォルトの表情として必ず1つ登録する</p></li>
+<li><p>Enabled：解析する素材として使用する</p></li>
+</ul>
+<p>Controller▼</p>
+<ul class="simple">
+<li><p>Controller：コントローラー表示が名前になる</p></li>
+<li><p>Value：コントローラー表示が数字になる</p></li>
+</ul>
+<p>▼Region</p>
+<ul class="simple">
+<li><p>Upper/Eyelid/Gaze/Lower：調整した情報を登録する</p></li>
+</ul>
+<p>▼Utils</p>
+<ul class="simple">
+<li><p>To Maya：FCS上で操作した値をMayaへ送る</p></li>
+<li><p>From Maya：Mayaで操作した値をFCSへ送る</p></li>
+<li><p>Predict：画像から表情を解析し、Mayaの3Dモデルに反映する機能</p></li>
+</ul>
+<p>LM：LandMarkを表示する</p>
+<p>▼Filter</p>
+<ul class="simple">
+<li><p>▼all/Upper/Eyelid/Gaze/Lower：選択した項目でコントローラーを絞り込む</p></li>
+<li><p>[ ]：入力した文字でコントローラーを絞り込む</p></li>
+</ul>
+<p>▼Reset：入力した情報を削除する</p>
+<ul class="simple">
+<li><p>Name：Profileとして登録する名前</p></li>
+<li><p>Save：変更した情報を保存する</p></li>
+<li><p>画像部分：Timelineから+で追加した画像が表示される</p></li>
+<li><p>コントローラー：Controller Infoで登録したコントローラーが表示される</p></li>
+</ul>
+</section>
+<section id="gallery">
+<h3>Galleryの画面説明<a class="headerlink" href="#gallery" title="Link to this heading"></a></h3>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P008.png"><img alt="_images/P008.png" src="_images/P008.png" style="width: 80%;" />
+</a>
+</figure>
+<p>作成したProfileが表示されるウィンドウ</p>
+<p>←→：1列に表示するprofileの数を変更する。◀を押すと少なく、→を押すと多くなる。最小3、最大10。
+Count:○○：登録しているprofileの総数</p>
+<p>All↓：該当する項目を絞り込む</p>
+<ul class="simple">
+<li><p>All：すべてのprofileを表示する</p></li>
+<li><p>Enabled：解析に使用するprofileを表示する。Enabledに ☑ を入れて登録したprofileが対象となる。</p></li>
+<li><p>Disabled：解析に使用しないprofileを表示する。Enabledに ☑ を入れずに登録したprofileが対象となる。</p></li>
+<li><p>Default：数値がdefaultのprofileを表示する。</p></li>
+<li><p>Not Default：数値がdefaultではないprofileを表示する。</p></li>
+<li><p>Neutral：Neutralにチェックを入れて登録したprofileを表示する。</p></li>
+<li><p>（Region）Enabled：該当する（Region）に ☑ を入れて登録したprofileを表示する。</p></li>
+<li><p>（Region）Disabled：該当する（Region）に ☑ を入れず登録したprofileを表示する。</p></li>
+</ul>
+<p>Sync timeline ☑ ：登録したprofileと同じ動画を開いた状態でprofileを選択すると、該当するフレームにジャンプする。</p>
+<p>↑↓：ソートの昇順 降順を変更する</p>
+<p>Video▼：ソート機能</p>
+<ul class="simple">
+<li><p>Video：profileのName順にソート</p></li>
+<li><p>Created At：profileを作成した日時で順にソート</p></li>
+<li><p>Saved At：saveした日時で順にソート</p></li>
+<li><p>（controller名）：該当する（controller）に登録した数値でソート</p></li>
+</ul>
+<p>ピックアップした画像</p>
+<ul class="simple">
+<li><p>緑：「Neutral」に ☑ を入れて登録したProfile</p></li>
+<li><p>赤：数値がデフォルト状態/未編集のProfile</p></li>
+<li><p>青：選択中（編集中）のprofile</p></li>
+<li><p>黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile</p></li>
+<li><p>白：リターゲット後、登録したprofile</p></li>
+</ul>
+</section>
+</section>
+<section id="id3">
+<h2>Profileの作成<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>様々な表示のProfileを追加することで解析の精度が上がっていきます。<br />
+単純に数が多ければ良いわけではなく、似た表情のProfileに対し、コントローラーの数字が違ってしまった場合、ノイズになってしまうため注意が必要です。
+また、解析する動画毎にProfileを1つ以上作成する必要があります。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>ROM体操と呼ばれる約50個のProfileの作成をオススメしています
+ROM体操の表情については、スターターキットをご参照ください</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>profileには基本的に全てのRegionの登録を推奨していますが
+一部例外があります。
+「Profileを作成するときの注意点 目を閉じる/薄目の時のGaze登録について」をご参照ください</p>
+</div>
+<section id="id4">
+<h3>解析したい動画の読み込み方法<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>開いた動画ファイル名の上で右クリック</p>
+<figure class="align-center" id="id13">
+<a class="reference internal image-reference" href="_images/P005.png"><img alt="_images/P005.png" src="_images/P005.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Open</span><a class="headerlink" href="#id13" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id14">
+<a class="reference internal image-reference" href="_images/P006.png"><img alt="_images/P006.png" src="_images/P006.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">VideoPlayerに動画が表示されます</span><a class="headerlink" href="#id14" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id5">
+<h3>Profileの追加方法<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>VideoTimelineウィンドウの</p>
+<ul class="simple">
+<li><p>スライダーを動かし表情の登録を行いたいフレームで止め</p></li>
+<li><p>+を押す</p></li>
+</ul>
+<figure class="align-center" id="id15">
+<a class="reference internal image-reference" href="_images/P009.png"><img alt="_images/P009.png" src="_images/P009.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Galleryに指定したフレームの画像が追加される</span><a class="headerlink" href="#id15" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>値が0（未登録）のProfileは赤枠</p>
+</div>
+</section>
+<section id="neutral">
+<h3>Neutralの表情の登録<a class="headerlink" href="#neutral" title="Link to this heading"></a></h3>
+<p>Neutral表情とは、アクターの表情筋に力が入っていないナチュラルな表情のことです。<br />
+セッション内で必ず一つNeutral表情を設定してください。</p>
+<ul class="simple">
+<li><p>Neutralに ☑</p></li>
+<li><p>任意の名前に変更</p></li>
+<li><p>Save</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P010.png"><img alt="_images/P010.png" src="_images/P010.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>NeutralのProfileは登録が完了すると緑になります。</p>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P011.png"><img alt="_images/P011.png" src="_images/P011.png" style="width: 80%;" />
+</a>
+</figure>
+</section>
+<section id="maya">
+<h3>Mayaで表情を調整する場合<a class="headerlink" href="#maya" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す</p></li>
+</ul>
+<p>Galleryに指定したフレームの画像が追加されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P012.png"><img alt="_images/P012.png" src="_images/P012.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>値が0（未登録）のProfileは赤枠</p>
+</div>
+<figure class="align-center" id="id16">
+<a class="reference internal image-reference" href="_images/P013.png"><img alt="_images/P013.png" src="_images/P013.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認</span><a class="headerlink" href="#id16" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id17">
+<a class="reference internal image-reference" href="_images/image90.png"><img alt="_images/image90.png" src="_images/image90.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節</span><a class="headerlink" href="#id17" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id18">
+<a class="reference internal image-reference" href="_images/P014.png"><img alt="_images/P014.png" src="_images/P014.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">From Mayaをクリックで、Mayaでの調整情報がFCSに反映されます。</span><a class="headerlink" href="#id18" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Syncのプルダウンで「From Maya at save」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>コントローラーの登録忘れがあった場合は再度開いたときに作成した表情と異なる場合があります。
+その際は、再度登録し忘れたコントローラーを登録しプロファイルの再登録を行ってください。</p>
+</div>
+<ul class="simple">
+<li><p>Nameを任意の名前に変更</p></li>
+<li><p>Save</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P015.png"><img alt="_images/P015.png" src="_images/P015.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>名前は必ずしも変更する必要はありません。</p>
+</div>
+</section>
+<section id="fcs">
+<h3>FCS上で表情を調整する場合<a class="headerlink" href="#fcs" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す</p></li>
+</ul>
+<p>Galleryに指定したフレームの画像が追加されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P012.png"><img alt="_images/P012.png" src="_images/P012.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>値が0（未登録）のProfileは赤枠</p>
+</div>
+<ul class="simple">
+<li><p>追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P013.png"><img alt="_images/P013.png" src="_images/P013.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Syncが「No Sync」の場合はProfileの自動情報共有が行われないためMaya上は1つ前に登録した表情のままになっています。</p>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/image83.png"><img alt="_images/image83.png" src="_images/image83.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Syncを「Both」にした状態で開きなおすと デフォルトの表情になります。<br />
+既にしている場合はスキップ</p>
+</div>
+<ul class="simple">
+<li><p>Mayaのコントローラーリグで、追加したアクターの表情が同じになるようにキャラクターの表情を調節</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P020.png"><img alt="_images/P020.png" src="_images/P020.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>To Mayaをクリック</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P016.png"><img alt="_images/P016.png" src="_images/P016.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Syncのプルダウンで「To Maya」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。</p>
+</div>
+<p>FCSで調整した内容がMayaに反映されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P017.png"><img alt="_images/P017.png" src="_images/P017.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>絞り込みたい項目（文字含む）のみ表示されるようにするには…</p>
+<ul class="simple">
+<li><p>▼Filterから搾りたい項目をクリック</p></li>
+</ul>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P018.png"><img alt="_images/P018.png" src="_images/P018.png" style="width: 80%;" />
+</a>
+</figure>
+</section>
+<section id="predictprofile">
+<h3>PredictでProfileを作成する場合<a class="headerlink" href="#predictprofile" title="Link to this heading"></a></h3>
+<p>本ソフトでは、作成したProfileから自動でリターゲットをしてくる<br />
+Predict機能を搭載しています<br />
+ある程度のProfileを登録した後で、追加のProfileを登録する際にPredict機能を使えば、<br />
+登録済のProfileを基に、ソフトが予想した表情を作成してくれます。</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。<br />
+また、動画全体を解析するわけではないので注意が必要です。</p>
+</div>
+<ul class="simple">
+<li><p>VideoTimelineウィンドウのスライダーを動かし表情の登録を行いたいフレームで止め+を押す</p></li>
+</ul>
+<p>Galleryに指定したフレームの画像が追加される</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P012.png"><img alt="_images/P012.png" src="_images/P012.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>値が0（未登録）のProfileは赤枠</p>
+</div>
+<ul class="simple">
+<li><p>追加した赤色の画像をクリックし、Editor画面に表示されている画像が同じであることを確認</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P013.png"><img alt="_images/P013.png" src="_images/P013.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>Predict実行<br />
+valueの数値が変動します。</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P021.png"><img alt="_images/P021.png" src="_images/P021.png" style="width: 80%;" />
+</a>
+</figure>
+<p>MayaにPredict結果が出るので、<br />
+調整が必要な場合は調整し、登録できる内容になったら</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P022.png"><img alt="_images/P022.png" src="_images/P022.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>Save</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P023.png"><img alt="_images/P023.png" src="_images/P023.png" style="width: 80%;" />
+</a>
+</figure>
+</section>
+</section>
+<section id="id6">
+<h2>Profileを作成するときの注意点<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<section id="gaze">
+<h3>目を閉じる/薄目の時のGaze登録について<a class="headerlink" href="#gaze" title="Link to this heading"></a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>目を閉じる、薄目のプロファイルで黒目が見えないものは登録する際にGazeの ☑ を外してください<br />
+解析結果の精度が低下してしまう可能性があります</p>
+</div>
+<p>例：眉のぎゅっと絞る動きを作りたい時には</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P024.png"><img alt="_images/P024.png" src="_images/P024.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>表情を調整した上で</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P025.png"><img alt="_images/P025.png" src="_images/P025.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>Regionのgaze/lowerの ☑ を外す</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P026.png"><img alt="_images/P026.png" src="_images/P026.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>Save</p></li>
+</ul>
+</section>
+<section id="id7">
+<h3>解析結果が好ましくない場合<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>解析する動画は、必ず1動画1profile以上作成するようにしてください
+Profileを作成していない場合、精度が十分ではない解析結果が出力される可能性があります</p>
+</div>
+<p>Videosウィンドウの「Profiles」をご参照ください</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P026-02.png"><img alt="_images/P026-02.png" src="_images/P026-02.png" style="width: 80%;" />
+</a>
+</figure>
+<p>「Profiles」が表示されない場合</p>
+<ul class="simple">
+<li><p>メニューバー上部で右クリック</p></li>
+<li><p>「Profiles」に ☑ を入れる</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P026-03.png"><img alt="_images/P026-03.png" src="_images/P026-03.png" style="width: 80%;" />
+</a>
+</figure>
+</section>
+</section>
+<section id="id8">
+<h2>トラブルシューティング<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<section id="galleryprofile">
+<h3>＋キーを押してもGalleryにProfileが追加されない場合<a class="headerlink" href="#galleryprofile" title="Link to this heading"></a></h3>
+<p>＋キーを押してもGalleryにProfileが追加されない場合<br />
+Galleryの表示ウィンドウが小さいケースが考えられます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P027.png"><img alt="_images/P027.png" src="_images/P027.png" style="width: 80%;" />
+</a>
+</figure>
+<p>その場合、Galleryウィンドウの◀→をクリックすると追加したProfileが表示されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P028.png"><img alt="_images/P028.png" src="_images/P028.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>FCSでは同一フレームのProfileは重複して追加されないようになっています。<br />
+重複した場合、Logウィンドウで<br />
+WARNIG:Frame ○○ already has a Profile associated with it<br />
+と表示されます。</p>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P029.png"><img alt="_images/P029.png" src="_images/P029.png" style="width: 80%;" />
+</a>
+</figure>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="007_Controlinfo.html" class="btn btn-neutral float-left" title="Contorollerの登録" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html" class="btn btn-neutral float-right" title="アニメーションの出力方法" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 25.01 Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
