@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Session作成もしくはオープン &mdash; FCS Docs 24.10 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=4b5affb7"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Mayaの起動" href="006_maya.html" />
+    <link rel="prev" title="FCS起動" href="004_launch.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="000_release_note.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">事前準備</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">FCSのインストール</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">FCS起動</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Session作成もしくはオープン</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#create-new-session">Create new Sessionで作成されるフォルダ構造</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Sessionの新規作成</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#project-folder">①Project Folderの設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#actor">②Actorの設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#character">③Characterの設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mayascene">④MayaSceneの設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mayabase">⑤MayaBaseの設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mayaver">⑥MayaVerの設定</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">既にSessionが作成されている場合</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">履歴から開く場合</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fcs-session-yaml">fcs_session.yamlファイルから開く場合</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#seesion">Seesionを開く際の注意</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Sessionの同時起動について</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#maya-ver">「⑥Maya Verの設定」をしても反映されない場合</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Mayaの起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Contorollerの登録</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Profileの作成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html">アニメーションの出力方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solverの詳細設定（細かな調整が必要な方向け）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">エクスポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html#id2">エクスポート手順</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">オートピックアップ（ベータ版）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">サポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88.html">FCSスターターキット</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html">よくある質問（FAQ）</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Session作成もしくはオープン</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/005_session.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="session">
+<h1>Session作成もしくはオープン<a class="headerlink" href="#session" title="Link to this heading"></a></h1>
+<p>FCSではアクター情報、キャラクター情報、Mayaシーン情報とその解析データを紐づけたファイルのことを「Session」と呼びます。</p>
+<p>FCS起動後、Sessionデータへアクセスするため
+「New...（新規作成）」または「Open（開く）」を実行します。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>初めにSessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。</p>
+</div>
+<section id="create-new-session">
+<h2>Create new Sessionで作成されるフォルダ構造<a class="headerlink" href="#create-new-session" title="Link to this heading"></a></h2>
+<p>赤枠：Project Folderで作成されるフォルダ<br>
+青枠：Actorで作成されるフォルダ<br>
+緑枠：Characterで作成されるフォルダ<br>
+.lock/fcs_session.yaml：sessionをSaveした後に作成されるファイル<br>
+<img alt="" src="_images/folder.jpg" /></p>
+<ul class="simple">
+<li><p>Facial：動画やMayaシーンデータ等素材を保存する場所</p>
+<ul>
+<li><p>Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所</p></li>
+<li><p>RecData：ROM体操やFCSで解析したい動画を保存する場所</p></li>
+<li><p>Scene：アニメーション出力時のデフォルト出力先</p></li>
+<li><p>SetData：アニメーション出力で「audio」を選択した場合にはwavファイルが、<br />
+　　「Frame」「Landmark Frame」を選択した場合は連番画像が作成され、保存される</p></li>
+</ul>
+</li>
+<li><p>FCS：解析に使用するデータが保存されるプロジェクトフォルダ</p>
+<ul>
+<li><p>Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される</p></li>
+<li><p>Character：Characterで作成したフォルダ。Characterで入力した名前が表記される</p></li>
+<li><p>RetargetData（IMG/PARAM）：作成したProfileの編集データ（画像や数値情報）が保存される</p></li>
+<li><p>VideoData：解析する動画のキャッシュが保存される</p></li>
+<li><p>.lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される</p></li>
+<li><p>fcs_session.yaml：session情報を保存しているファイル</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id1">
+<h2>Sessionの新規作成<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>File▶Session▶New…を選択
+<img alt="" src="_images/S001.png" /></p></li>
+</ul>
+<p><img alt="" src="_images/S002.png" /><br />
+①Project Folder：FCSの作業データを置きたい場所を指定<br />
+②Actor：モーションキャプチャアクター名<br />
+③Character：3Dモデルのキャラクター名<br />
+④Maya Scene：3DモデルのMayaシーンへのパス<br />
+⑤Maya Base：Assets、workspace.melがあるフォルダへのパス<br />
+⑥Maya Ver：3Dモデルを作成したMayaのバージョンを指定</p>
+<section id="project-folder">
+<h3>①Project Folderの設定<a class="headerlink" href="#project-folder" title="Link to this heading"></a></h3>
+<p>Browseボタンをクリックし、Project Folderを指定するためウィンドウを起動します。</p>
+<ul class="simple">
+<li><p>FCSのデータを保存したい任意のフォルダを選択
+<img alt="" src="_images/S003.png" /></p></li>
+</ul>
+<p>Project Folderを作成します。</p>
+<ul class="simple">
+<li><p>Create</p></li>
+</ul>
+<p><img alt="" src="_images/S004.png" /></p>
+<p>問題なく作成できたらポップアップが表示されます。</p>
+<ul class="simple">
+<li><p>close
+<img alt="" src="_images/F001.png" /></p></li>
+</ul>
+<p>エクスプローラーで「Facial」「FCS」のフォルダが作成されます。
+<img alt="" src="_images/F003.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Project Folder作成後</p>
+<ul class="simple">
+<li><p>Project Folder▶Facial▶Assetsフォルダに紐付けるMayaシーンを、</p></li>
+<li><p>Project Folder▶Facial▶Recdataフォルダに解析したい動画を移動しておくことを推奨します。<br />
+※別の場所に保存していてもアクセスできます。</p></li>
+</ul>
+</div>
+<p><img alt="" src="_images/F004.png" /></p>
+<p><img alt="" src="_images/F005.png" /></p>
+</section>
+<section id="actor">
+<h3>②Actorの設定<a class="headerlink" href="#actor" title="Link to this heading"></a></h3>
+<p>「+」ボタンをクリックし、ActorFolderを作成するための 「Create new actor folder」ウィンドウを起動します。</p>
+<ul class="simple">
+<li><p>「Actor Name」に登録したい名前を入力</p></li>
+<li><p>「Actor」＝モーションキャプチャアクター名</p></li>
+<li><p>Create
+<img alt="" src="_images/S006.png" /></p></li>
+</ul>
+<p>問題なく作成できたらポップアップが表示されます。</p>
+<ul class="simple">
+<li><p>close
+<img alt="" src="_images/F006.png" /></p></li>
+</ul>
+<p>エクスプローラーでProject Folderフォルダ直下に入力したActerフォルダが作成されます。
+<img alt="" src="_images/F007.png" /></p>
+</section>
+<section id="character">
+<h3>③Characterの設定<a class="headerlink" href="#character" title="Link to this heading"></a></h3>
+<p>「+」ボタンをクリックし、characterFolderを作成するための「Create new character Folder」ウィンドウを起動します。</p>
+<ul class="simple">
+<li><p>「Character Name」の入力欄に登録したい名前を入力</p></li>
+<li><p>Create
+<img alt="" src="_images/S008.png" /></p></li>
+</ul>
+<p>エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。
+<img alt="" src="_images/F008.png" /></p>
+</section>
+<section id="mayascene">
+<h3>④MayaSceneの設定<a class="headerlink" href="#mayascene" title="Link to this heading"></a></h3>
+<p>Browseボタンをクリックし、MayaSceneを指定するためウィンドウを起動します。</p>
+<ul class="simple">
+<li><p>MayaSceneデータのパスを指定
+<img alt="" src="_images/S009.png" /></p></li>
+</ul>
+</section>
+<section id="mayabase">
+<h3>⑤MayaBaseの設定<a class="headerlink" href="#mayabase" title="Link to this heading"></a></h3>
+<p>Browseボタンをクリックし、MayaBaseを指定するためウィンドウを起動します。</p>
+<ul class="simple">
+<li><p>workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定</p></li>
+</ul>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>FCS上でポップアップするウィンドウにはworkspace.melが表示されません</p>
+</div>
+<p><img alt="" src="_images/S010.png" /></p>
+</section>
+<section id="mayaver">
+<h3>⑥MayaVerの設定<a class="headerlink" href="#mayaver" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>④で設定したsceneを作成したMayaのバージョンを指定
+<img alt="" src="_images/S011.png" /></p></li>
+</ul>
+<p>全て入力を終えたらSaveボタンを押してください。</p>
+<ul class="simple">
+<li><p>Save<br />
+<img alt="" src="_images/S012.png" /></p></li>
+</ul>
+<p>エクスプローラーでcharacterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。<br />
+<img alt="" src="_images/F009.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>.lockファイルは
+作業中にほかの人からのアクセスを防ぐためのものです。<br />
+正常に終了した際には自動で削除されます。</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>不正に終了するなどして.lockファイルが残ってしまった場合、<br />
+FCSの起動時にポップアップから削除するか、<br />
+.lockファイルをエクスプローラーで直接削除してください。</p>
+</div>
+<br>
+</section>
+</section>
+<section id="id2">
+<h2>既にSessionが作成されている場合<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>履歴またはfcs_session.yamlファイルからSessionを開いてください。</p>
+<section id="id3">
+<h3>履歴から開く場合<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>以前にSessionを起動している場合、File▶Session▶Openの下に履歴が表示されます。</p>
+<ul class="simple">
+<li><p>作業したいデータをクリック
+<img alt="" src="_images/P16_Session_log.PNG" /></p></li>
+</ul>
+</section>
+<section id="fcs-session-yaml">
+<h3>fcs_session.yamlファイルから開く場合<a class="headerlink" href="#fcs-session-yaml" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>File▶Session▶Open▶Open...<br />
+OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。</p></li>
+<li><p>Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開く
+<img alt="" src="_images/S017.png" /></p></li>
+</ul>
+<br>
+</section>
+</section>
+<section id="seesion">
+<h2>Seesionを開く際の注意<a class="headerlink" href="#seesion" title="Link to this heading"></a></h2>
+<section id="id4">
+<h3>Sessionの同時起動について<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Sessionの新規作成/Open後、続けて別のSession作成や起動は出来ません。<br />
+別のSessionを開きたい場合は、現在のSessionを終了し、FCSの再起動後開きなおしてください。</p>
+</div>
+</section>
+<section id="maya-ver">
+<h3>「⑥Maya Verの設定」をしても反映されない場合<a class="headerlink" href="#maya-ver" title="Link to this heading"></a></h3>
+<p>session作成時に設定した項目は File▶Session▶info で確認することができます。
+<img alt="" src="_images/S014.png" /></p>
+<p>NewSessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMayaVersionを右クリックし、Editから変更ができます。
+<img alt="" src="_images/S015.png" />
+<img alt="" src="_images/S016.png" /></p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>設定の変更後は必ずSaveボタンを押してください</p>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="004_launch.html" class="btn btn-neutral float-left" title="FCS起動" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="006_maya.html" class="btn btn-neutral float-right" title="Mayaの起動" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 24.10 Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
