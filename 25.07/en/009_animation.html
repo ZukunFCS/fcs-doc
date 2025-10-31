@@ -1,0 +1,400 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Output animation &mdash; FCS Docs 25.07 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=9004a856"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Solver (advanced settings for detailed adjustments)" href="010_Solver.html" />
+    <link rel="prev" title="Creating profiles" href="008_profile.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="000_release_note.html">Release Note</a></li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">What is FCS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">Prerequisite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">Launching FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Create or open a Session</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Launching Maya</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Register controller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Creating profiles</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Output animation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Animation output for a facial expression</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Output screen description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Output animation from one video</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">動画の一部範囲のみを再処理して出力</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">Multiple animation output</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Output screen description</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Output animation from multiple videos in batch</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">カメラ・イメージプレーンについて</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solver (advanced settings for detailed adjustments)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">Export</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">Auto pickup (experimental)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="014_release_schedule.html">Release Schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">Development roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_Glossary.html">Glossary of terms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_StarterKit.html">FCS Starter Kit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_FAQ.html">Frequently Asked Question</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_doc_link.html">Advanced-doc</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Output animation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/009_animation.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>Output animation<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>If the analyzed video was shot using a wide-angle lens, Solver settings needs to be changed. Please refer to the Solver Advanced Settings page for details.</p>
+</div>
+<section id="id2">
+<h2>Animation output for a facial expression<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<section id="id3">
+<h3>Output screen description<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/A001.png"><img alt="_images/A001.png" src="_images/A001.png" style="width: 80%;" />
+</a>
+</figure>
+<p>▼Process</p>
+<p>☑ Reprocess: read the created Profile information</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is recommended to turn it on.</p>
+</div>
+<p>Upload Options</p>
+<ul class="simple">
+<li><p>☑ Animation: generate animation data and reflect it in Maya</p></li>
+<li><p>☑ Audio: generate audio data of the video to be analyzed and reflect it in Maya</p></li>
+<li><p>☑ Frames: generate sequentially numbered images of the video to be analyzed and reflect them on Maya’s image plane.</p></li>
+<li><p>☑ Landmark Frames: generate a series of numbered images for auto-tracking facial movements and reflect them on image plane of Maya.</p></li>
+</ul>
+<p>Export Options</p>
+<ul class="simple">
+<li><p>☑ Playblast: output and save the output animation in mov format video</p></li>
+<li><p>☑ Scene: save the output Maya scene automatically</p></li>
+</ul>
+<p>Start process: start outputting animation</p>
+</section>
+<section id="id4">
+<h3>Output animation from one video<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>In the Video window</p>
+<ul class="simple">
+<li><p>Right-click on the name of the video　you want to analyze/output.</p></li>
+</ul>
+<p>The menu shown in the image will appear.</p>
+<ul class="simple">
+<li><p>Select ▼Process.</p></li>
+<li><p>Check the box ☑ for the relevant item.</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/A002.png"><img alt="_images/A002.png" src="_images/A002.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>Start process</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/A004.png"><img alt="_images/A004.png" src="_images/A004.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>If you want to make adjustments after viewing the analysis results, remove the ☑ buttons from Playblast and Scene so you can shorten the processing time.</p></li>
+</ul>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/A003.png"><img alt="_images/A003.png" src="_images/A003.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>初回出力時は時間がかかるため待機</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/A005.png"><img alt="_images/A005.png" src="_images/A005.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>The items with ☑ are reflected on the Maya scene.</p>
+<ul>
+<li><p>Audio data in the time slider</p></li>
+<li><p>Sequentially numbered images on the image plane</p></li>
+<li><p>Animation data is reflected in this order</p></li>
+<li><p>Slider moves when animation data is reflected.</p></li>
+</ul>
+</li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/image133.png"><img alt="_images/image133.png" src="_images/image133.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>【If you are selecting playblast or scene with ☑】</p>
+<p>Explorer window will pop up when output is complete.</p>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/image127.png"><img alt="_images/image127.png" src="_images/image127.png" style="width: 80%;" />
+</a>
+</figure>
+<br>
+</section>
+<section id="id5">
+<h3>動画の一部範囲のみを再処理して出力<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>（FCS 25.04.02～）</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>タイムラインの一部表示機能を使用して、FCSのタイムラインで表示している範囲のみのアニメーションを出力することができます。</p>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/Partialprocess_timeline.png"><img alt="_images/Partialprocess_timeline.png" src="_images/Partialprocess_timeline.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>FCSのタイムライン範囲をアニメーション出力したい部分に設定</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/Partialprocess_rightClick.png"><img alt="_images/Partialprocess_rightClick.png" src="_images/Partialprocess_rightClick.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>FCSのタイムラインの動画名を右クリックして表示されるメニューからのみ実行可能(Videosウィンドウからは実行不可)</p></li>
+<li><p>☑ Partial Process：動画の一部範囲のみ出力、選択項目はアニメーションのみ</p></li>
+<li><p>Start processingで処理開始</p></li>
+</ul>
+<figure class="align-center" id="id10">
+<a class="reference internal image-reference" href="_images/Partialprocess_maya.png"><img alt="_images/Partialprocess_maya.png" src="_images/Partialprocess_maya.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">実行結果</span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<br>
+</section>
+</section>
+<section id="id6">
+<h2>Multiple animation output<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<section id="id7">
+<h3>Output screen description<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/A006.png"><img alt="_images/A006.png" src="_images/A006.png" style="width: 80%;" />
+</a>
+</figure>
+<p>Output Folder：出力先を指定</p>
+<p>Output Targets</p>
+<ul class="simple">
+<li><p>☑ Animation: generate animation data and reflect it in Maya</p></li>
+<li><p>☑ Audio: generate audio data of the video to be analyzed and reflect it in Maya</p></li>
+<li><p>☑ Frames: generate sequentially numbered images of the video to be analyzed and reflect them on Maya’s image plane.</p></li>
+<li><p>☑ Landmark Frames: generate a series of numbered images for auto-tracking facial movements and reflect them on image plane of Maya.</p></li>
+<li><p>☑ Playblast: output and save the output animation in mov format video</p></li>
+<li><p>☑ Scene: save the output Maya scene automatically</p></li>
+</ul>
+<p>Advenced</p>
+<ul class="simple">
+<li><p>☑ Reprocess: read the created Profile information</p></li>
+</ul>
+<p>Output Filename: name of the output data. You can change the file to any name.</p>
+<p>Start process: start outputting animation</p>
+</section>
+<section id="id8">
+<h3>Output animation from multiple videos in batch<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<p>In the Video window</p>
+<ul class="simple">
+<li><p>解析/出力したい動画名の左側の ☑ をつける</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/A007.png"><img alt="_images/A007.png" src="_images/A007.png" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>Processorウインドウを開く</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/A008.png"><img alt="_images/A008.png" src="_images/A008.png" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/P37_processorWindow.PNG"><img alt="_images/P37_processorWindow.PNG" src="_images/P37_processorWindow.PNG" style="width: 80%;" />
+</a>
+</figure>
+<ul class="simple">
+<li><p>Check the box ☑ for the relevant item.</p></li>
+<li><p>Change the Output Filename to any desired name.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>{solver} → solver name</p></li>
+<li><p>{video} → video filename</p></li>
+<li><p>{user} → windows user name</p></li>
+<li><p>{project} → project folder name</p></li>
+<li><p>{chara} → character name</p></li>
+<li><p>{actor} → actor name</p></li>
+<li><p>{%Y%m%d}, {%H%M%S} → year, month, date, hour, minute, second   If only</p></li>
+</ul>
+<p>{video} is selected, the imported video name will be used as a file name.</p>
+</div>
+<ul class="simple">
+<li><p>Start</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/A009.png"><img alt="_images/A009.png" src="_images/A009.png" style="width: 80%;" />
+</a>
+</figure>
+<p>Explorer window will pop up when output is complete.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/image136.png"><img alt="_images/image136.png" src="_images/image136.png" style="width: 80%;" />
+</a>
+</figure>
+<br>
+</section>
+</section>
+<section id="id9">
+<h2>カメラ・イメージプレーンについて<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
+<p>Frames、またはLM Framesにチェックを入れた場合、Maya内のイメージプレーンに連番画像がセットされます。<br />
+連番画像をセットしたいカメラ・イメージプレーンの名前を「Settings/Maya/Camera」「Settings/Maya/ImagePlane」から設定してください。</p>
+<p>デフォルトの設定は以下の通りです。</p>
+<ul class="simple">
+<li><p>イメージプレーン → imagePlane1</p></li>
+<li><p>カメラ → fcs_cam1</p></li>
+</ul>
+<p>指定した名前のカメラ・イメージプレーンがシーン内に無い場合は新しく作成されます。<br />
+パイプラインに合わせてカメラの名前を随時設定してください。</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="008_profile.html" class="btn btn-neutral float-left" title="Creating profiles" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="010_Solver.html" class="btn btn-neutral float-right" title="Solver (advanced settings for detailed adjustments)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 25.07 Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

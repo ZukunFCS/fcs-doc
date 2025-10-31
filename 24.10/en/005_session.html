@@ -1,0 +1,361 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create or open a Session &mdash; FCS Docs 24.10 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2d84d4c5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Launching Maya" href="006_maya.html" />
+    <link rel="prev" title="Launching FCS" href="004_launch.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="000_release_note.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">What is FCS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">Prerequisite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">Installation of FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">Launching FCS</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Create or open a Session</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#create-new-session">Folder structure created by Create new Session</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Creating a new Session</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#project-folder">①Project Folder settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#actor">② Actor settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#character">③Setting Character</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mayascene">④Setting Maya Scene</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mayabase">⑤Setting Maya Base</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mayaver">⑥Setting Maya Ver</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">If a Session has already been created</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Open Session from history</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#fcs-session-yaml">Open Session from fcs_session.yaml file</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#seesion">Cautions regarding opening a Session</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Startup multiple sessions concurrently</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#maya-ver">If “⑥Maya Ver setting” is not reflected</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Launching Maya</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Register controller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Creating profiles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html">Output animation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solver (advanced settings for detailed adjustments)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">Export</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html#id2">Export Procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">Auto pickup (experimental)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">Development roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88.html">FCS Starter Kit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html">Frequently Asked Question</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Create or open a Session</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/005_session.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="session">
+<h1>Create or open a Session<a class="headerlink" href="#session" title="Link to this heading"></a></h1>
+<p>In FCS, a file that links actor information, character information, Maya scene information, and analysis data is called a “Session.”</p>
+<p>After starting FCS, go to “New…(Create new Session)” or “Open” to access the Session data.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By settings details for a Session at the beginning, you can start working with the buttons on FCS without having to operate Maya separately.</p>
+</div>
+<section id="create-new-session">
+<h2>Folder structure created by Create new Session<a class="headerlink" href="#create-new-session" title="Link to this heading"></a></h2>
+<p>Red: Folders created when setting up a new project<br> Blue: Folders created when setting up a new actor<br> Green: Folders created when setting up a new character<br> .lock/fcs_session.yaml: File create after setting up a new session<br> <img alt="" src="_images/folder.jpg" /></p>
+<ul class="simple">
+<li><p>Facial：動画やMayaシーンデータ等素材を保存する場所</p>
+<ul>
+<li><p>Assets：Mayaのプロジェクトファイル（Assets以下）を保存する場所</p></li>
+<li><p>RecData：ROM体操やFCSで解析したい動画を保存する場所</p></li>
+<li><p>Scene：アニメーション出力時のデフォルト出力先</p></li>
+<li><p>SetData：アニメーション出力で「audio」を選択した場合にはwavファイルが、<br />
+　　「Frame」「Landmark Frame」を選択した場合は連番画像が作成され、保存される</p></li>
+</ul>
+</li>
+<li><p>FCS：解析に使用するデータが保存されるプロジェクトフォルダ</p>
+<ul>
+<li><p>Actor：Actorで作成したフォルダ。Actorで入力した名前が表記される</p></li>
+<li><p>Character：Characterで作成したフォルダ。Characterで入力した名前が表記される</p></li>
+<li><p>RetargetData（IMG/PARAM）：作成したProfileの編集データ（画像や数値情報）が保存される</p></li>
+<li><p>VideoData：解析する動画のキャッシュが保存される</p></li>
+<li><p>.lock：競合を防ぐためのロックファイル。起動時/終了時に自動で作成/消去される</p></li>
+<li><p>fcs_session.yaml：session情報を保存しているファイル</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="id1">
+<h2>Creating a new Session<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>File▶Session▶Select New… <img alt="" src="_images/S001.png" /></p></li>
+</ul>
+<p><img alt="" src="_images/S002.png" />   1. Project Folder: Select the location where you want to save the FCS project data<br />
+2. Actor: Motion capture actor name<br />
+3. Character: 3D model character name<br />
+4. Maya Scene: Path to the 3D model Maya scene<br />
+5. Maya Base: Path to the folder where Assets and workspace.mel are located<br />
+6. Maya Ver: Select the version of the data created in the scene</p>
+<section id="project-folder">
+<h3>①Project Folder settings<a class="headerlink" href="#project-folder" title="Link to this heading"></a></h3>
+<p>Click the Browse button to launch a window for selecting the project folder.</p>
+<ul class="simple">
+<li><p>Select the folder where you want to save FCS data <img alt="" src="_images/S003.png" /></p></li>
+</ul>
+<p>Create Project Folder.</p>
+<ul class="simple">
+<li><p>Create</p></li>
+</ul>
+<p><img alt="" src="_images/F004.png" /></p>
+<p>A pop-up will appear after the folder is successfully created.</p>
+<ul class="simple">
+<li><p>close
+<img alt="" src="_images/F001.png" /></p></li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">Facial</span></code> and <code class="docutils literal notranslate"><span class="pre">FCS</span></code> folders will be created. <img alt="" src="_images/F003.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>After creating Project Folder</p>
+<ul class="simple">
+<li><p>Put Maya scene at Project Folder▶Facial▶Assets folder</p></li>
+<li><p>It is recommended to move the video you want to analyze to the Project Folder ▶ Facial ▶ Recdata folder. *Note: You can still access the video if it is saved in a different location.</p></li>
+</ul>
+</div>
+<p><img alt="" src="_images/F004.png" /></p>
+<p><img alt="" src="_images/F005.png" /></p>
+</section>
+<section id="actor">
+<h3>② Actor settings<a class="headerlink" href="#actor" title="Link to this heading"></a></h3>
+<p>Click “+” and launch “Create new actor folder” to create an Actor Folder.</p>
+<ul class="simple">
+<li><p>Enter the name you want to register in “Actor Name.”</p></li>
+<li><p>“Actor” ＝ name of the motion actor</p></li>
+<li><p>Create
+<img alt="" src="_images/S006.png" /></p></li>
+</ul>
+<p>A pop-up will appear after the folder is successfully created.</p>
+<ul class="simple">
+<li><p>close
+<img alt="" src="_images/F006.png" /></p></li>
+</ul>
+<p>The Actor folder you entered will be created directly under the Project Folder folder in Explorer. <img alt="" src="_images/F007.png" /></p>
+</section>
+<section id="character">
+<h3>③Setting Character<a class="headerlink" href="#character" title="Link to this heading"></a></h3>
+<p>Click the “+” button to launch the “Create New Character Folder” window to create a character folder.</p>
+<ul class="simple">
+<li><p>Enter the desired name in the “Character Name” input field.</p></li>
+<li><p>Create
+<img alt="" src="_images/S008.png" /></p></li>
+</ul>
+<p>The Character folder you entered will be created directly under the Actor folder in Explorer. <img alt="" src="_images/F008.png" /></p>
+</section>
+<section id="mayascene">
+<h3>④Setting Maya Scene<a class="headerlink" href="#mayascene" title="Link to this heading"></a></h3>
+<p>Click the Browse button to launch a window for selecting a MayaScene.</p>
+<ul class="simple">
+<li><p>Specify the path for the MayaScene data. <img alt="" src="_images/S010.png" /></p></li>
+</ul>
+</section>
+<section id="mayabase">
+<h3>⑤Setting Maya Base<a class="headerlink" href="#mayabase" title="Link to this heading"></a></h3>
+<p>Click the Browse button to launch the window to select the MayaBase.</p>
+<ul class="simple">
+<li><p>Select the location where workspace.mel is located (the location registered in the Maya scene project settings)</p></li>
+</ul>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>“workspace.mel” is not displayed in the popup window in FCS</p>
+</div>
+<p><img alt="" src="_images/S010.png" /></p>
+</section>
+<section id="mayaver">
+<h3>⑥Setting Maya Ver<a class="headerlink" href="#mayaver" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Select the version of Maya that was used to create the scene in ④<img alt="" src="_images/S011.png" /></p></li>
+</ul>
+<p>After completing all inputs, please press the Save button.</p>
+<ul class="simple">
+<li><p>Save  <img alt="" src="_images/S010.png" /></p></li>
+</ul>
+<p>fcs_session.yaml (FCS file) will be created directly under the character folder in Explorer.   <img alt="" src="_images/F009.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The .lock file is used to prevent others from accessing the file while you are working on it.   They are automatically deleted when you finish your work properly.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the .lock file remains because of incorrect shut down, etc, please delete the file from the popup when you are starting FCS or delete the file directly in Explorer.</p>
+</div>
+<br>
+</section>
+</section>
+<section id="id2">
+<h2>If a Session has already been created<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>Open Session from history or fcs_session.yaml file.</p>
+<section id="id3">
+<h3>Open Session from history<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>If you have started the Session before, the history will be displayed under File▶Session▶Open.</p>
+<ul class="simple">
+<li><p>Click on the session to work on <img alt="" src="_images/P16_Session_log.PNG" /></p></li>
+</ul>
+</section>
+<section id="fcs-session-yaml">
+<h3>Open Session from fcs_session.yaml file<a class="headerlink" href="#fcs-session-yaml" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>File▶Session▶Open▶Open…   After you open the Open Session window, local and network drives will be displayed.</p></li>
+<li><p>Select and open the fcs_session.yaml file located directly under the Character folder.<img alt="" src="_images/S017.png" /></p></li>
+</ul>
+<br>
+</section>
+</section>
+<section id="seesion">
+<h2>Cautions regarding opening a Session<a class="headerlink" href="#seesion" title="Link to this heading"></a></h2>
+<section id="id4">
+<h3>Startup multiple sessions concurrently<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>While creating/opening a new Session, you cannot create or start another Session.   To open another session, close the current session, restart FCS, and reopen it.</p>
+</div>
+</section>
+<section id="maya-ver">
+<h3>If “⑥Maya Ver setting” is not reflected<a class="headerlink" href="#maya-ver" title="Link to this heading"></a></h3>
+<p>You can check the setting details when you create the session under File▶Session▶info. <img alt="" src="_images/S014.png" /></p>
+<p>If the MayaVersion setting in NewSession is not reflected in info, right-click MayaVersion on the info screen and select Edit so that you can edit the details.<img alt="" src="_images/S015.png" /> <img alt="" src="_images/S016.png" /></p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Please click the Save button after changing settings.</p>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="004_launch.html" class="btn btn-neutral float-left" title="Launching FCS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="006_maya.html" class="btn btn-neutral float-right" title="Launching Maya" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 24.10 Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
