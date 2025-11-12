@@ -1,0 +1,201 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auto pickup (experimental) &mdash; FCS Docs 25.07 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=9004a856"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Release Schedule" href="014_release_schedule.html" />
+    <link rel="prev" title="Export" href="011_export.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="000_release_note.html">Release Note</a></li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">What is FCS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">Prerequisite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">Launching FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Create or open a Session</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Launching Maya</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Register controller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Creating profiles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_animation.html">Output animation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solver (advanced settings for detailed adjustments)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">Export</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Auto pickup (experimental)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">How to use Auto Pickup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Selection method</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="014_release_schedule.html">Release Schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">Development roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_Glossary.html">Glossary of terms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_StarterKit.html">FCS Starter Kit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_FAQ.html">Frequently Asked Question</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_doc_link.html">Advanced-doc</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Auto pickup (experimental)</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/012_auto_pickup.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>Auto pickup (experimental)<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>FCS introduces a new way to select frames for retargetting from video effectively with little to no human supervision.</p>
+<p>This allows you to get the most out of FCS with the least effort.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>This feature is currently in beta and we expect it would break for particular cases. We welcome feedback from the community regarding the implementation.</p>
+</div>
+<section id="id2">
+<h2>How to use Auto Pickup<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>Auto pickup window can be opened by right clicking on the video in the Video tab.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/012_auto_profiles.jpg"><img alt="_images/012_auto_profiles.jpg" src="_images/012_auto_profiles.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p>This should bring up the auto profile window.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/012_auto_profile_window.jpg"><img alt="_images/012_auto_profile_window.jpg" src="_images/012_auto_profile_window.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p>This window allows you to automatically select frames from the video.</p>
+<p>After confirming the video is correctly selected, you are provided with a couple options regarding what kind of frames you would like to pick up from the video.</p>
+</section>
+<section id="id3">
+<h2>Selection method<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>Currently, two methods are implemented to allow you to select frames, based on the type of video, <code class="docutils literal notranslate"><span class="pre">General</span></code> and <code class="docutils literal notranslate"><span class="pre">ROM</span></code>, for slightly different use case.</p>
+<p><strong>General</strong> is designed for using on any video. It will looks for frame that is a good representation of the overall facial expression as it appears in the video.</p>
+<p>Inside <em>General</em> you can decide any number of profiles that you would like to add from the video, the algorithm will look at the entire video, and look for facial expression(s) that can overall represent the video.</p>
+<br>
+<p><strong>ROM</strong> looks for video frames that match that the specific facial expressions as included in the ROM.pdf included with starter kit.</p>
+<p>In the <em>ROM</em> method, you can choose what exact facial expression that you are looking for inside the video. The algorithm will look for the closest match inside the video.</p>
+<p>In the future we will release another version where custom ROM sequence can used.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="011_export.html" class="btn btn-neutral float-left" title="Export" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="014_release_schedule.html" class="btn btn-neutral float-right" title="Release Schedule" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 25.07 Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

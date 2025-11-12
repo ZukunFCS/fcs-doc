@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solverの詳細設定（細かな調整が必要な方向け） &mdash; FCS Docs 25.04 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=c122094e"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="エクスポート" href="011_export.html" />
+    <link rel="prev" title="アニメーションの出力方法" href="009_animation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="000_release_note.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">事前準備</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">FCSのインストール</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">FCS起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Session作成もしくはオープン</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Mayaの起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Contorollerの登録</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Profileの作成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_animation.html">アニメーションの出力方法</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Solverの詳細設定（細かな調整が必要な方向け）</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Solverの画面説明</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">エクスポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">オートピックアップ（ベータ版）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="014_release_schedule.html">リリーススケジュール</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">サポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_Glossary.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_StarterKit.html">FCSスターターキット</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_FAQ.html">よくある質問（FAQ）</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Solverの詳細設定（細かな調整が必要な方向け）</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/010_Solver.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="solver">
+<h1>Solverの詳細設定（細かな調整が必要な方向け）<a class="headerlink" href="#solver" title="Link to this heading"></a></h1>
+<p>本ページは、おもに解析したアニメーション出力結果を更に細かく調整したい方向けのページになります。<br />
+必要に応じて、各種設定を自由にカスタマイズすることが可能です。</p>
+<section id="id1">
+<h2>Solverの画面説明<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/Sol001.png"><img alt="_images/Sol001.png" src="_images/Sol001.png" style="width: 80%;" />
+</a>
+</figure>
+<p>▼Global：解析時の設定を変更できます。</p>
+<ul class="simple">
+<li><p>☑ Fisheye：チェックを入れると、魚眼レンズで撮影された動画を解析する仕様に最適化される</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>デフォルト設定ではチェックが入っているため、広角レンズで撮影された動画を解析する際はチェックを外してください。</p>
+</div>
+<ul class="simple">
+<li><p>Smoothing：アニメーション出力時にスムージング処理をかける設定を変更できます。各Regionごとに個別に変更可能です。</p>
+<ul>
+<li><p>Smoothing：スムージング処理の有無（基本的には有りを推奨）</p></li>
+<li><p>Weight：一回あたりのスムージング処理の強度<br />
+数値が大きいほどスムージング処理が強くかかる（アニメーションカーブが滑らかになる）</p></li>
+<li><p>Reps：スムージング処理の回数<br />
+回数を多くするほどアニメーションカーブが滑らかになる</p></li>
+<li><p>Save current smoothing profile：スムージング設定の保存
+保存したスムージング設定はボタンの下に表示されます(クリックで反映、右クリックでメニュー表示)</p></li>
+</ul>
+</li>
+</ul>
+<p>▼Post processing：アニメーション出力時にクランプ処理をかける設定などを変更できます。</p>
+<ul class="simple">
+<li><p>Prioritize profile：アニメーション出力範囲内にProfileを作成したフレームが含まれる場合、チェックを入れると解析による予測値よりもリターゲット値を優先する</p></li>
+<li><p>Clamp mode：クランプ処理の設定を切り替える</p>
+<ul>
+<li><p>No Clamp：クランプ処理なし</p></li>
+<li><p>Hard Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - 最小値でクランプする（クランプされた範囲のスムージング処理なし）</p></li>
+<li><p>Soft Clamp：アニメーションカーブを、Controllerウィンドウで設定した最大値 - 最小値でクランプする（クランプされた範囲のスムージング処理あり）</p></li>
+</ul>
+</li>
+<li><p>Train：ユーザーが変更したprofile設定を参照し、Solverを再構築します。<br />
+Solverは動画出力やアニメーション出力などを行う度に自動で再構築されるため、基本的には使用する必要はありません。</p></li>
+<li><p>Delete cache：ユーザーが変更する前のprofile設定で構築した解析キャッシュを削除します。</p></li>
+<li><p>Export：リアルタイムアニメーション用のソルバーを出力します。</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="009_animation.html" class="btn btn-neutral float-left" title="アニメーションの出力方法" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="011_export.html" class="btn btn-neutral float-right" title="エクスポート" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 25.04 Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

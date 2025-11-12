@@ -1,0 +1,382 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>リリースノート &mdash; FCS Docs 25.01 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=992b97f0"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="FCSとは" href="001_intro.html" />
+    <link rel="prev" title="FCSマニュアル" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">リリースノート</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-25-01-05">FCS 25.01.05</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#general">一般</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-25-01-04">FCS 25.01.04</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">一般</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-25-01-03">FCS 25.01.03</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">一般</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-25-01-02">FCS 25.01.02</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">一般</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-25-01-01">FCS 25.01.01</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cannot-be-downgraded">！Cannot be downgraded！</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">一般</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#controller">Controller</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#creating-session">セッション作成</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#maya">Maya</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#timeline">タイムライン</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#videos">動画</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#solver">ソルバー</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#gallery">Gallery</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#editor">エディター</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">事前準備</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">FCSのインストール</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">FCS起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Session作成もしくはオープン</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Mayaの起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Contorollerの登録</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Profileの作成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html">アニメーションの出力方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solverの詳細設定（細かな調整が必要な方向け）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">エクスポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">オートピックアップ（ベータ版）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="014_release_schedule.html">リリーススケジュール</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">サポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88.html">FCSスターターキット</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html">よくある質問（FAQ）</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">リリースノート</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/000_release_note.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="release-note">
+<h1>リリースノート<a class="headerlink" href="#release-note" title="Link to this heading"></a></h1>
+<p><a class="reference external" href="https://github.com/ZukunFCS/fcs-doc/releases">Download FCS</a></p>
+<section id="fcs-25-01-05">
+<h2>FCS 25.01.05<a class="headerlink" href="#fcs-25-01-05" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>日付: 2025/02/17</p></li>
+<li><p>バージョン: 25.01.05</p></li>
+<li><p>ステージ：Stable</p></li>
+</ul>
+<section id="general">
+<h3>一般<a class="headerlink" href="#general" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>浮動小数点のフレームレート(fps)の動画をMayaへ送信する際、fpsが整数になっているバグを解消しました</p></li>
+<li><p>大量の動画を処理する際、一部システムにおいてUIの不具合が生じる問題を解消しました</p></li>
+<li><p>バッチプロセス(Processer)ウィンドウに選択中の動画数を表示する機能を追加しました</p></li>
+<li><p>コントローラー(Controller)ウィンドウで最大値・最小値を設定する際、違う入力欄に数値が入るバグを修正しました</p></li>
+<li><p>以前のバージョンのFCSセッションを読み込む際のプロセスを最適化しました</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-25-01-04">
+<h2>FCS 25.01.04<a class="headerlink" href="#fcs-25-01-04" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>日付: 2025/01/10</p></li>
+<li><p>バージョン: 25.01.04</p></li>
+<li><p>ステージ：Stable</p></li>
+</ul>
+<section id="id1">
+<h3>一般<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>コントローラーを登録する際、リージョン(Region)を選択できない問題を修正しました</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-25-01-03">
+<h2>FCS 25.01.03<a class="headerlink" href="#fcs-25-01-03" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>日付: 2025/01/07</p></li>
+<li><p>バージョン: 25.01.03</p></li>
+<li><p>ステージ：Stable</p></li>
+</ul>
+<section id="id2">
+<h3>一般<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>右クリックで操作できるメニュー項目に、インジケーターを追加しました。</p></li>
+<li><p>セッションの読み込みが遅くなるバグを修正しました。</p></li>
+<li><p>現在のタイムライン範囲外のMayaアニメーションが削除されないバグを修正しました。</p></li>
+<li><p>ビデオ処理中に特定のレースコンディションが発生し、クラッシュにつながるバグを修正しました。</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-25-01-02">
+<h2>FCS 25.01.02<a class="headerlink" href="#fcs-25-01-02" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/12/16</p></li>
+<li><p>Version: 25.01.02</p></li>
+<li><p>Stage: Preview</p></li>
+</ul>
+<section id="id3">
+<h3>一般<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>ギャラリーフィルターを大文字・小文字を区別しない仕様にしました。</p></li>
+<li><p>エディタのリセット機能のバグを修正しました。</p></li>
+<li><p>ギャラリーの一括編集用UIを修正しました。</p></li>
+<li><p>Mayaのコントローラー選択に関する不具合を修正しました。</p></li>
+<li><p>動画をシングルクリックで開く仕様から、ダブルクリックで開く仕様に修正しました。</p></li>
+<li><p>その他のバックエンドに関する不具合を修正しました。</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-25-01-01">
+<h2>FCS 25.01.01<a class="headerlink" href="#fcs-25-01-01" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2024/12/01</p></li>
+<li><p>Version: 25.01.01</p></li>
+<li><p>Stage: Preview</p></li>
+</ul>
+<section id="cannot-be-downgraded">
+<h3>！Cannot be downgraded！<a class="headerlink" href="#cannot-be-downgraded" title="Link to this heading"></a></h3>
+<p>FCS 25.01で開いたセッションは、以前のバージョンとの互換性がありません。 既存のセッションをアップグレードする前に必ずバックアップを取ってください。</p>
+<section id="id4">
+<h4>一般<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>アプリのタイトルバーにマイナーバージョン番号を表示するようにしました。</p></li>
+<li><p>スタートアッププロセスを最適化し、起動が若干速くなりました。</p></li>
+<li><p>サードパーティライセンスが読み込まれない不具合を修正しました。</p></li>
+<li><p>右クリックメニューが画面外に表示されるバグを修正しました。</p></li>
+<li><p>パフォーマンス向上のため、カスタムアニメーションを削除しました。</p></li>
+<li><p>既にセッションが開かれている場合でも、別のセッションを開ける新機能を追加しました。（現状では、アプリを再起動することで対応していますが、より恒久的な解決策は現在検討中です。）</p></li>
+<li><p>ショートカットキーの処理を改善し、キーを離すと次のフレームでその機能が停止するようになりました。</p></li>
+<li><p>コマンドライン起動オプションを追加しました。</p>
+<ol class="arabic simple">
+<li><p>—session: 起動後にセッションファイル (.yaml) を開きます。</p></li>
+<li><p>—maya_command_port: 設定で指定されたものではなく、別の Maya のコマンドポートを使用します。</p></li>
+</ol>
+</li>
+<li><p>プロフィールのタグ付け用に、ユーザータグを追加しました。</p></li>
+<li><p>Added Video Rotation Support</p></li>
+</ol>
+</section>
+<section id="controller">
+<h4>Controller<a class="headerlink" href="#controller" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>新規に追加されたコントローラーは、初期状態でチェックボックスがオンになっています。すぐに値やリージョンを割り当てる際に便利です。</p></li>
+<li><p>コントローラーの並べ替え機能は、デフォルトでは無効になっていますが、詳細設定の「並べ替え」チェックボックスにチェックを入れると、並べ替えを行うことができます。</p></li>
+<li><p>コントローラーのチェックボックス操作がより簡単になりました。コントローラー名を左クリックすると、チェックを入れることができます。</p></li>
+<li><p>テーブルを保存する際の検証機能を追加し、領域が未設定のテーブルは保存できなくなりました。</p></li>
+<li><p>チェック済みのすべてのコントローラーの値を一括で変更できる、Value Set機能を追加しました。</p></li>
+</ol>
+</section>
+<section id="creating-session">
+<h4>セッション作成<a class="headerlink" href="#creating-session" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>タスクが完了した際に、読み込みインジケーターを非表示にしました。</p></li>
+<li><p>workspace.melファイルが近くに見つかった場合に、Mayaベースに自動入力される機能を追加しました。</p></li>
+</ol>
+</section>
+<section id="maya">
+<h4>Maya<a class="headerlink" href="#maya" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>接続不可能な属性がコントローラーに追加されてしまう不具合を修正しました。</p></li>
+</ol>
+</section>
+<section id="timeline">
+<h4>タイムライン<a class="headerlink" href="#timeline" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>「To Maya」がONになっているにもかかわらず、Predict結果がMayaに送信されない問題を修正しました。</p></li>
+<li><p>タイムラインの外側でドラッグしても、タイムラインが動いてしまうバグを修正しました。</p></li>
+<li><p>スナップ機能を無効にするためのフラグを追加しました。</p></li>
+</ol>
+</section>
+<section id="videos">
+<h4>動画<a class="headerlink" href="#videos" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>ビデオ処理時に、処理が完了するまでの残り時間がわかる進捗バーが表示されるようになりました。</p></li>
+<li><p>ファイルが存在しないなど無効なビデオを開こうとした際に、アプリがクラッシュする不具合を修正しました。</p></li>
+<li><p>動画のインポート時に回転ができる機能を追加しました。</p>
+<ol class="arabic simple">
+<li><p>この回転処理は動的に行われるため、元の動画ファイル自体は変更されず、追加のディスク容量も必要ありません。しかし、ローカルマシンでのリアルタイムデコードにより負荷がかかる可能性があります。</p></li>
+</ol>
+</li>
+<li><p>ビデオを開く操作を、シングルクリックからダブルクリックに変更しました。</p></li>
+<li><p>動画のインポート時に回転できる機能を追加しました。</p></li>
+</ol>
+</section>
+<section id="solver">
+<h4>ソルバー<a class="headerlink" href="#solver" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>FCSRT用のソルバーをエクスポートしようとした際にソルバーオブジェクトが存在しない場合は、隣のボタンをクリックしてトレーニングできるというリマインダーを追加しました。</p></li>
+<li><p>安定性が高くリアルタイムトラッキング向けに最適化された新しい顔トラッカーオプション（その代わり情報量は少なめ）を追加しました。</p></li>
+</ol>
+</section>
+<section id="gallery">
+<h4>Gallery<a class="headerlink" href="#gallery" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>ツールチップを非表示にするためのチェックボックスを追加しました。</p></li>
+<li><p>予測機能の動作を、オンになっている領域のみに適用するよう変更しました。</p></li>
+<li><p>タグに基づくフィルター機能を追加しました。</p></li>
+<li><p>日本語・英語両方に対応するインストーラを追加しました。</p>
+<ol class="arabic simple">
+<li><p>アルゴリズムの予測との一致度に基づいてプロファイルを並べ替えられるようになりました。誤って何かを作成してしまったかどうかを確認する際のデバッグが容易になります。</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="editor">
+<h4>エディター<a class="headerlink" href="#editor" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>インストーラが日本語・英語両方に対応しました。</p>
+<ol class="arabic simple">
+<li><p>プロフィールにカスタムタグを追加・削除できるようになりました。</p></li>
+<li><p>新規作成したプロフィールに自動的に適用されるデフォルトタグの追加が可能になりました。</p></li>
+</ol>
+</li>
+<li><p>無効な領域にあるコントローラーの値は、対象から除外されるようになりました。</p>
+<ol class="arabic simple">
+<li><p>Mayaから</p></li>
+<li><p>Mayaへ</p></li>
+<li><p>予測</p></li>
+</ol>
+</li>
+</ol>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="FCSマニュアル" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="001_intro.html" class="btn btn-neutral float-right" title="FCSとは" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 25.01 Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
