@@ -29,5 +29,3 @@ FCSマニュアル
    098_StarterKit.md
    099_FAQ.md
    advanced_doc_link.rst
-   FCSMenu.md
-   FCS_Tips.md
