@@ -367,7 +367,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ### Controller
 コントローラーの登録を行うためのウィンドウです。
 
-<img height="668" alt="image" src=https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_controller01.png>
+<img height="668" alt="image" src=https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_controller01.jpg>
 
 
 ##### Controllerウィンドウ
@@ -413,7 +413,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 #### Gallery
 プロファイルの一覧が表示されるウィンドウです。
 
-<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_gallery01.png">
+<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_gallery01.jpg">
 
 | 項目 |プルダウン内容| 説明 | 
 |:-------------:|:--------------:|:--------------|
@@ -441,7 +441,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 プロファイルを登録するウィンドウです。<BR>
 画像に対応する表情をMayaで作成し、FCSに読み込みます。
 
-<img height="668" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor01.png">
+<img height="668" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor01.jpg">
 
 ##### Editorウィンドウ
 
@@ -464,10 +464,10 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 コントローラーウィンドウ右部のスライダーはCtrl＋クリックで直接数値を入力することが可能です。
 ```
 
-##### Region
+##### 
 |Region|Utils|Filter|Reset|Tracking|Tags|Info|
 |:--------------|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------|
-|<img width="206" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor10.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor04.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor05.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor06.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor07.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor08.png">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor09.png">|
+|<img width="206" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor10.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor04.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor05.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor06.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor07.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor08.jpg">|<img width="200" alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Profiles_Editor09.jpg">|
 
 ||項目|デフォルト|説明|
 |:--------------|:--------------:|:--------------:|:--------------|
@@ -492,7 +492,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 アニメーション出力についての設定を行うウィンドウです。
 基本的にはデフォルトの設定のまま使用します。
 
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Solver01.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Solver01.jpg">
 
 |対象|項目| デフォルト |説明|
 |:--------------|:--------------:|:--------------:|:--------------|
@@ -514,7 +514,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ログが表示されます。
 最新のログは常にFCS上部に表示されるため、普段はあまり使用しません。
 
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Log01.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Log01.jpg">
 
 |項目|説明|
 |:--------------:|:--------------|
@@ -531,7 +531,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ### Player
 現在開いている動画を表示します。
 
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_player01.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_player01.jpg">
 
 ### Timeline
 タイムラインの操作を行います。
@@ -551,7 +551,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 
 ##### タイムライン右クリックメニュー（Playback Settings）
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline002.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline002.jpg">
 
 |項目|説明|
 |:--------------:|:--------------|
@@ -561,7 +561,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 
 ##### ▼Resolution
 
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline003.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline003.jpg">
 
 |項目|説明|
 |:--------------:|:--------------|
@@ -577,7 +577,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |From Maya|Mayaのタイムスライダーの値をFCSのタイムラインへ送信します。　※要プラグイン|
 |Both|FCSとMayaのタイムラインを相互に同期します。　※要プラグイン|
 
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline005.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Timeline005.jpg">
 ▼Speed
 
 |項目|説明|
@@ -588,7 +588,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 <BR><BR><BR>
 
 ## Maya
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Maya001.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Maya001.jpg">
 
 |項目||説明|
 |:--------------:|:--------------:|:--------------|
@@ -600,7 +600,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 <BR><BR><BR>
 
 ## View
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_View001.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_View001.jpg">
 
 |項目|説明|
 |:--------------:|:--------------|
@@ -610,7 +610,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 |☑ Always on Top|FCSを常に最前面に表示します。|
 |Layout▶|プリセットのレイアウトに切り替えます。プリセットは以下の通りです。|
 
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_View002.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_View002.jpg">
 
 |項目||説明|
 |:--------------:|:--------------:|:--------------|
@@ -640,7 +640,7 @@ Processerウィンドウでは複数の動画を一括で処理するバッチ�
 ## Explore
 Windowsエクスプローラーを開きます。
 
-<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer001.png">
+<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer001.jpg">
 
 |項目|説明|
 |:--------------:|:--------------|
@@ -649,7 +649,7 @@ Windowsエクスプローラーを開きます。
 |Facial|Facialフォルダを開きます。|
 |tmp|Logなどが格納されているユーザー設定フォルダを開きます。|
 
-<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer002.png">
+<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer002.jpg">
 
 ### FCS
 ||項目|説明|
@@ -660,7 +660,7 @@ Windowsエクスプローラーを開きます。
 ||Video Data|VideoDataフォルダを開きます。|
 
 ### Facial
-<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer003.png">
+<img alt="image" src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Explorer003.jpg">
 
 ||項目|説明|
 |:--------------|:--------------:|:--------------|
@@ -675,7 +675,7 @@ Windowsエクスプローラーを開きます。
 <BR><BR><BR>
 
 ## Info
-<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Info001.png">
+<img  src="https://github.com/ZukunFCS/fcs-doc/blob/main/doc/images/FCSMenu_Info001.jpg">
 
 |項目|説明|
 |:--------------:|:--------------|
