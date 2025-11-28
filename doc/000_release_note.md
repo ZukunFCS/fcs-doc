@@ -27,10 +27,16 @@ We will include more comparison in our [Advanced Manual](https://zukunfcs.github
 
 Facial tracking results generated with the new pipelines can be edited in a later version of FCS.
 
+Added on November 28;  
+Although facial tracking accuracy itself has improved, we have confirmed that its contribution to the overall quality of output facial animation is small. Furthermore, new pipelines currently have issues in process of converting face tracking data into controller animation. While we aim to address these issues in an early update, we anticipate that it will require a significant amount of time.
+
 #### Retarget Accuracy
 We also fixed a few longstanding bugs in our prediction pipeline. As a result, it should generate much more stable animation even for older pipelines (Rich, RP, Robust).
 
 In addition, we also create a new ****experimental**** feature to boost accuracy for retargeting, by allowing the user to create more fine-grain control over the controller beyond the four regions. This is for advanced users who would want to create very accurate, low-noise result. This will be completely optional. Please see the [Advanced manual](https://ryota-nakajima-toei.github.io/fcs-doc-advanced/25.10/en/002_processing.html) here for instructions on how to use it.
+
+Added on November 28;  
+In version 25.10, retargeting accuracy has improved regardless of pipelines used. Therefore, output animation results may differ even with older pipelines compared to version 25.07. For this reason, legacy pipelines will remain available for your continued use.
 
 ### Misc
 
