@@ -1,0 +1,520 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>リリースノート &mdash; FCS Docs 24.10 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2d84d4c5"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="What is FCS?" href="001_intro.html" />
+    <link rel="prev" title="FCS Manual" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">リリースノート</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-06">FCS 24.10.06</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">！ダウングレードできません！</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Overview</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id4">動画表示が１フレームずれていることを修正しました</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-05">FCS 24.10.05</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">Overview</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-04">FCS 24.10.04</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Overview</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-03">FCS 24.10.03</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Details</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#gallery">Gallery機能修正</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">インストーラ修正</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Others</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-02">FCS 24.10.02</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id11">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">Details</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id13">Galleryのフィルタリング</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#editor">Editorのコントローラー値の表示方式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">プロフィール優先機能</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id15">コントローラーの名前を一括変更</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id16">ビデオ再生の速度を向上させました</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id17">リアルタイム版への出力機能</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-24-10-01">FCS 24.10.01</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id18">Overview</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id19">User guide and manual</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id20">Setup</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#auto-pickup">Auto Pickup α</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id21">Automatic Update</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#linux">Linux support</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id22">Important notes regarding the update</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id23">Details</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id24">Manual</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id25">Installation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ffmpeg">FFMPEG</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id26">User Interface</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#maya">Maya</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id27">Automatic Update</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id28">Linux support</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id29">Others</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">What is FCS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">Prerequisite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">Installation of FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">Launching FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Create or open a Session</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Launching Maya</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Register controller</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Creating profiles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html">Output animation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solver (advanced settings for detailed adjustments)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">Export</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html#id2">Export Procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">Auto pickup (experimental)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">Development roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88.html">FCS Starter Kit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html">Frequently Asked Question</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">リリースノート</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/000_release_note.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>リリースノート<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<section id="fcs-24-10-06">
+<h2>FCS 24.10.06<a class="headerlink" href="#fcs-24-10-06" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>リリース日: 2024/10/16</p></li>
+<li><p>リリースバージョン: 24.10.06</p></li>
+<li><p>リリースステージ: Stable</p></li>
+</ul>
+<section id="id2">
+<h3>！ダウングレードできません！<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p><strong>このバージョンで作成または開いたセッションを24.10.05を含む、以前のバージョンを開くことができません。
+ご注意ください。</strong>
+アップデートされる前に、プロジェクトフォルダーをバックアップすることを強く推奨いたします。</p>
+</section>
+<section id="id3">
+<h3>Overview<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>動画表示が１フレームずれていることを修正しました</p></li>
+<li><p>ソフト起動時の最適化</p></li>
+<li><p>ログ方式の改善</p></li>
+</ol>
+<section id="id4">
+<h4>動画表示が１フレームずれていることを修正しました<a class="headerlink" href="#id4" title="Link to this heading"></a></h4>
+<p>Video/Playerの０フレームが重複して出力されていたことを修正いたしました。 （１００フレーム目が９９フレーム目として表示されていました）<br />
+Profileのフレームカウントも1フレームずれていました。
+そのため、以前のバージョンンで作成されたセッションについては、現バージョンで開くことにより、自動的に修正されるようになります。
+ただし、修正されたものに関しては、以前のバージョン（24.10.05を含む）で開くことができなるなりました。
+お手数をおかけしまして、大変申し訳ございません。</p>
+</section>
+</section>
+</section>
+<section id="fcs-24-10-05">
+<h2>FCS 24.10.05<a class="headerlink" href="#fcs-24-10-05" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>リリース日: 2024/10/11</p></li>
+<li><p>リリースバージョン: 24.10.05</p></li>
+<li><p>リリースステージ: Stable</p></li>
+</ul>
+<section id="id5">
+<h3>Overview<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>動画開く際に、キャッシュされるはずのデータがキャッシュされていないことを修正しました</p></li>
+<li><p>Auto　Profileのプロファイルの出力番号がずれていることを修正</p></li>
+<li><p>リアルタイムアプリへの出力するソルバーの形式を修正</p></li>
+<li><p>コントローラーの可動域が正しくない場合、エラーが表示されるように修正</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-24-10-04">
+<h2>FCS 24.10.04<a class="headerlink" href="#fcs-24-10-04" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>リリース日: 2024/10/07</p></li>
+<li><p>リリースバージョン: 24.10.04</p></li>
+<li><p>リリースステージ: Stable</p></li>
+</ul>
+<section id="id6">
+<h3>Overview<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>特定の場合において、ランドマーク画像の出力時にアプリケーションがクラッシュするバグを修正しました。</p></li>
+</ol>
+</section>
+</section>
+<section id="fcs-24-10-03">
+<h2>FCS 24.10.03<a class="headerlink" href="#fcs-24-10-03" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>リリース日: 2024/09/25</p></li>
+<li><p>リリースバージョン: 24.10.03</p></li>
+<li><p>リリースステージ: Stable</p></li>
+</ul>
+<section id="id7">
+<h3>Overview<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Gallery機能修正</p></li>
+<li><p>インストーラ修正</p></li>
+<li><p>その他修正</p></li>
+</ol>
+</section>
+<section id="id8">
+<h3>Details<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
+<section id="gallery">
+<h4>Gallery機能修正<a class="headerlink" href="#gallery" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Syncにチェックが入っている状態でResetボタンを押すとMayaにも反映されるようになりました</p></li>
+<li><p>Editorにて、To Mayaなどの際にDisabledになっているリージョンの値は送信しないようになりました</p></li>
+</ol>
+</section>
+<section id="id9">
+<h4>インストーラ修正<a class="headerlink" href="#id9" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>デフォルトのインストール先をCドライブに変更しました</p></li>
+<li><p>インストーラのアイコンを変更しました</p></li>
+<li><p>インストーラが日本語・英語両方に対応しました</p></li>
+</ol>
+</section>
+<section id="id10">
+<h4>Others<a class="headerlink" href="#id10" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>コントローラーをリネームする際にアプリが落ちてしまう問題を修正しました</p></li>
+<li><p>スムージングが適用されていない問題を修正しました（24.10.01）</p></li>
+<li><p>Prioritize Profileの動作を修正しました<br />
+<br></p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="fcs-24-10-02">
+<h2>FCS 24.10.02<a class="headerlink" href="#fcs-24-10-02" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>リリース日: 2024/09/09</p></li>
+<li><p>リリースバージョン: 24.10.02</p></li>
+<li><p>Release version: Beta</p></li>
+</ul>
+<section id="id11">
+<h3>Overview<a class="headerlink" href="#id11" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Galleryのフィルタリング機能強化<br />
+プロフィールの一括変更や削除ができるようになりました</p></li>
+<li><p>EditorのLMの表示がONの場合、別のプロフィールを開いてもONの状態のままにしました（計算済みの場合のみ）</p></li>
+<li><p>Editorのコントローラー値を変更する箇所の表示方式を変更しました</p></li>
+<li><p>Galleryの表示方式を改善しました</p></li>
+<li><p>プロフィール優先機能(Prioritize Profile)を追加しました</p></li>
+<li><p>コントローラーの名前を一括変更する機能を追加しました</p></li>
+<li><p>ビデオ再生の速度を向上させました</p></li>
+<li><p>リアルタイム版への出力機能を追加しました</p></li>
+</ol>
+</section>
+<section id="id12">
+<h3>Details<a class="headerlink" href="#id12" title="Link to this heading"></a></h3>
+<section id="id13">
+<h4>Galleryのフィルタリング<a class="headerlink" href="#id13" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>動画名、各Regionの状態などでフィルタリングする機能、一括リージョンON/OFF・一括削除などの機能を追加しました</p></li>
+</ol>
+</section>
+<section id="editor">
+<h4>Editorのコントローラー値の表示方式<a class="headerlink" href="#editor" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Ctrl＋クリックで数値を入力</p></li>
+<li><p>カーソルに合わせて数値が設定されるようになりました</p></li>
+</ol>
+</section>
+<section id="id14">
+<h4>プロフィール優先機能<a class="headerlink" href="#id14" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>FCSから出力されたアニメーションに関して、プロファイルが存在するフレームにおいて表情を厳密に一致させる機能を追加しました</p></li>
+<li><p>有効化するにはSolver/Post-processing/Prioritize ProfileをONにしてください</p></li>
+</ol>
+</section>
+<section id="id15">
+<h4>コントローラーの名前を一括変更<a class="headerlink" href="#id15" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Controller Infoでコントローラーを選択し、Renameを押すと、コントローラーのリネームができるようになりました</p></li>
+<li><p>名前の変更に伴い、Galleryで登録された情報も変更されます</p></li>
+</ol>
+</section>
+<section id="id16">
+<h4>ビデオ再生の速度を向上させました<a class="headerlink" href="#id16" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>動画をメモリーにコピーすることにより、HDDなどのストレージ媒体より早く再生できるようになります</p></li>
+<li><p>デフォルトで有効になります</p></li>
+<li><p>メモリーに余裕があれば開いた動画（5本まで）をメモリーに保存することができます、複数の動画を同時に編集してもメモリーにキャッシュするようになります</p></li>
+</ol>
+</section>
+<section id="id17">
+<h4>リアルタイム版への出力機能<a class="headerlink" href="#id17" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>Solver/ExportでFCSで作成されたソルバーが出力されます</p></li>
+<li><p>リアルタイムサーバ（準備中）に読み込むとFCSでオフライン出力に近いクオリティーのアニメーションがリアルタイムで出力できるようになります<br />
+<br></p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="fcs-24-10-01">
+<h2>FCS 24.10.01<a class="headerlink" href="#fcs-24-10-01" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Release date: 2024/08/29</p></li>
+<li><p>Release version: 24.10.01</p></li>
+<li><p>Release version: Beta</p></li>
+</ul>
+<section id="id18">
+<h3>Overview<a class="headerlink" href="#id18" title="Link to this heading"></a></h3>
+<section id="id19">
+<h4>User guide and manual<a class="headerlink" href="#id19" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>24.07, 24.10など、バージョンごとのマニュアルが確認できるようになりました</p></li>
+<li><p><a class="reference external" href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">English manual</a> (draft) now available</p></li>
+</ol>
+</section>
+<section id="id20">
+<h4>Setup<a class="headerlink" href="#id20" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>インストーラーからインストールができるようになりました</p></li>
+<li><p>If ffmpeg is not installed on your system, you can now download it automatically.</p></li>
+</ol>
+</section>
+<section id="auto-pickup">
+<h4>Auto Pickup α<a class="headerlink" href="#auto-pickup" title="Link to this heading"></a></h4>
+<p><a class="reference external" href="https://zukunfcs.github.io/fcs-doc/latest/en/012_auto_pickup.html">We have implemented a feature that automatically adds specific frames from a video to the Gallery.</a></p>
+</section>
+<section id="id21">
+<h4>Automatic Update<a class="headerlink" href="#id21" title="Link to this heading"></a></h4>
+<p>新しいバージョンが発行された際に、FCSのUIから更新内容の表示およびダウンロードができるようになりました</p>
+</section>
+<section id="linux">
+<h4>Linux support<a class="headerlink" href="#linux" title="Link to this heading"></a></h4>
+<p>実験的にLinux対応を始めました</p>
+</section>
+</section>
+<section id="id22">
+<h3>Important notes regarding the update<a class="headerlink" href="#id22" title="Link to this heading"></a></h3>
+<p>以下のバージョンを使用しこれからアップデートする方は以下の事項に注意していただければと思います</p>
+<ol class="arabic simple">
+<li><p>24.07 no change</p></li>
+</ol>
+</section>
+<section id="id23">
+<h3>Details<a class="headerlink" href="#id23" title="Link to this heading"></a></h3>
+<section id="id24">
+<h4>Manual<a class="headerlink" href="#id24" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>マニュアルサイトが日本語・英語に対応しました。左下で切り替えられます</p></li>
+<li><p>FCSソフトから開く際にはソフトに対応するバージョンが自動で開くようになります</p></li>
+</ol>
+</section>
+<section id="id25">
+<h4>Installation<a class="headerlink" href="#id25" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>ビルド方式をThemidaに変更しました。その際に、バーチャルマシン（VM）やデバッガーとの共同使用が対象外になりました。環境によって利用できなくなった方はご連絡ください。</p></li>
+<li><p>インストーラーを追加しました。デフォルトではC:\FCSで作成されるようになります。インストール先フォルダの書き込み権限が必要になりますので、書き込み権限のないフォルダに入れると問題が発生します。</p></li>
+</ol>
+</section>
+<section id="ffmpeg">
+<h4>FFMPEG<a class="headerlink" href="#ffmpeg" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>起動時に、ffmpegがシステムパスに存在しないとき、自動的に<a class="reference external" href="https://github.com/BtbN/FFmpeg-Builds/">github</a>からダウンロードするようになっています。</p></li>
+<li><p>For customers who are unable to connect to GitHub, please manually install ffmpeg and add it to the system path.</p></li>
+</ol>
+</section>
+<section id="id26">
+<h4>User Interface<a class="headerlink" href="#id26" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>You can now open video files by double-clicking on the video name.</p></li>
+<li><p>The tab layout is now saved upon exiting the program.</p></li>
+<li><p>The tab layout has been organized upon the first launch of FCS.</p></li>
+<li><p>タイムラインをドラッグする際に、範囲からカーソルをずらしても動くようになりました</p></li>
+<li><p>一部のUIから選択できる項目がプログラムを終了しても保存されるようになりました</p></li>
+<li><p>The Japanese translation of the UI has been updated.</p></li>
+<li><p>キーボードショートカットを修飾キーに対応させました</p></li>
+<li><p>一部の機能にキーボードショートカットを対応させました</p>
+<ul class="simple">
+<li><p>Save Profile</p></li>
+<li><p>Open video from Profile</p></li>
+<li><p>Send the values from the Editor to Maya (To Maya).</p></li>
+<li><p>Receive rig values from Maya</p></li>
+<li><p>Change layouts</p></li>
+</ul>
+</li>
+<li><p>Enforce AnnotationをPrioritize Profileへ名称変更しました</p></li>
+</ol>
+</section>
+<section id="maya">
+<h4>Maya<a class="headerlink" href="#maya" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>When sending data from FCS to Maya, disabled regions are no longer sent.</p></li>
+</ol>
+</section>
+<section id="id27">
+<h4>Automatic Update<a class="headerlink" href="#id27" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>The program now detects new updates upon startup.</p></li>
+<li><p>Settings related to updates can be modified from the Settings window.</p>
+<ol class="arabic simple">
+<li><p>Update channel: All | Patch | None<br />
+すべてをアップデートする、もしくはバグ修正（保守アップデート）のみ、またはアップデートしないことが選択できます</p></li>
+<li><p>Use Beta: Enables the option to use the beta version, which includes unstable features.</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="id28">
+<h4>Linux support<a class="headerlink" href="#id28" title="Link to this heading"></a></h4>
+<p>FCSがFedora 8に対応しました。ご興味のある方はご連絡ください。</p>
+</section>
+<section id="id29">
+<h4>Others<a class="headerlink" href="#id29" title="Link to this heading"></a></h4>
+<ol class="arabic simple">
+<li><p>プログラムデータの保存先を<code class="docutils literal notranslate"><span class="pre">$USER/.fcs/Cortado</span></code>から<code class="docutils literal notranslate"><span class="pre">$USER/.fcs/Cortado/$version</span></code>に変更しました</p></li>
+</ol>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="FCS Manual" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="001_intro.html" class="btn btn-neutral float-right" title="What is FCS?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 24.10 Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
