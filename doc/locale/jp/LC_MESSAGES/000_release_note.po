@@ -121,9 +121,7 @@ msgid ""
 " have issues in process of converting face tracking data into controller "
 "animation. While we aim to address these issues in an early update, we "
 "anticipate that it will require a significant amount of time."
-msgstr "11月28日 追記 ; <br>
-トラッキング精度自体は向上していますが、出力アニメーションのクオリティ向上への寄与が小さいことを確認しています。<br>
-また、新パイプラインではトラッキングからコントローラアニメーションに変換する過程の処理に課題があり、これらは早い段階でのアップデートにて改善を目標としていますが、相当に時間を要すると見積もっています。"
+msgstr "11月28日 追記 ; <br>トラッキング精度自体は向上していますが、出力アニメーションのクオリティ向上への寄与が小さいことを確認しています。<br>また、新パイプラインではトラッキングからコントローラアニメーションに変換する過程の処理に課題があり、これらは早い段階でのアップデートにて改善を目標としていますが、相当に時間を要すると見積もっています。"
 
 #: ../../000_release_note.md:33
 msgid "Retarget Accuracy"
@@ -158,9 +156,7 @@ msgid ""
 "results may differ even with older pipelines compared to version 25.07. "
 "For this reason, legacy pipelines will remain available for your "
 "continued use."
-msgstr "11月28日 追記 ; <br>
-25.10ではリターゲット精度がパイプラインに依らず向上しているため、　旧来のパイプラインでも25.07に比べて出力アニメーションの結果が変わることがあります。<br>
-そのため、旧来のパイプラインも引き続きご利用いただくことができます。"
+msgstr "11月28日 追記 ; <br>25.10ではリターゲット精度がパイプラインに依らず向上しているため、旧来のパイプラインでも25.07に比べて出力アニメーションの結果が変わることがあります。<br>そのため、旧来のパイプラインも引き続きご利用いただくことができます。"
 
 #: ../../000_release_note.md:41
 msgid "Misc"
