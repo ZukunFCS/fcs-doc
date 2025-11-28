@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-11-04 07:39+0000\n"
+"POT-Creation-Date: 2025-11-28 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,17 +107,27 @@ msgid ""
 msgstr ""
 
 #: ../../000_release_note.md:30
+msgid ""
+"Added on November 28;   Although facial tracking accuracy itself has "
+"improved, we have confirmed that its contribution to the overall quality "
+"of output facial animation is small. Furthermore, new pipelines currently"
+" have issues in process of converting face tracking data into controller "
+"animation. While we aim to address these issues in an early update, we "
+"anticipate that it will require a significant amount of time."
+msgstr ""
+
+#: ../../000_release_note.md:33
 msgid "Retarget Accuracy"
 msgstr ""
 
-#: ../../000_release_note.md:31
+#: ../../000_release_note.md:34
 msgid ""
 "We also fixed a few longstanding bugs in our prediction pipeline. As a "
 "result, it should generate much more stable animation even for older "
 "pipelines (Rich, RP, Robust)."
 msgstr ""
 
-#: ../../000_release_note.md:33
+#: ../../000_release_note.md:36
 msgid ""
 "In addition, we also create a new ****experimental**** feature to boost "
 "accuracy for retargeting, by allowing the user to create more fine-grain "
@@ -129,21 +139,30 @@ msgid ""
 "use it."
 msgstr ""
 
-#: ../../000_release_note.md:35
+#: ../../000_release_note.md:38
+msgid ""
+"Added on November 28;   In version 25.10, retargeting accuracy has "
+"improved regardless of pipelines used. Therefore, output animation "
+"results may differ even with older pipelines compared to version 25.07. "
+"For this reason, legacy pipelines will remain available for your "
+"continued use."
+msgstr ""
+
+#: ../../000_release_note.md:41
 msgid "Misc"
 msgstr ""
 
-#: ../../000_release_note.md:37
+#: ../../000_release_note.md:43
 msgid ""
 "Remove Hover text for controller tab, this has been known to cause "
 "crashes in some systems and do not provide too much helpful information."
 msgstr ""
 
-#: ../../000_release_note.md:38
+#: ../../000_release_note.md:44
 msgid "Optimize the application launch time"
 msgstr ""
 
-#: ../../000_release_note.md:39
+#: ../../000_release_note.md:45
 msgid "Optimize controller table saving"
 msgstr ""
 

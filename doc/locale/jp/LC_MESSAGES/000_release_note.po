@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 07:39+0000\n"
+"POT-Creation-Date: 2025-11-28 11:46+0000\n"
 "PO-Revision-Date: 2025-02-24 09:53+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -114,17 +114,27 @@ msgid ""
 msgstr "また、これらの新しいパイプラインは、後のFCSバージョンでトラッキングの編集が可能になる予定です。"
 
 #: ../../000_release_note.md:30
+msgid ""
+"Added on November 28;   Although facial tracking accuracy itself has "
+"improved, we have confirmed that its contribution to the overall quality "
+"of output facial animation is small. Furthermore, new pipelines currently"
+" have issues in process of converting face tracking data into controller "
+"animation. While we aim to address these issues in an early update, we "
+"anticipate that it will require a significant amount of time."
+msgstr ""
+
+#: ../../000_release_note.md:33
 msgid "Retarget Accuracy"
 msgstr "リターゲット精度の向上"
 
-#: ../../000_release_note.md:31
+#: ../../000_release_note.md:34
 msgid ""
 "We also fixed a few longstanding bugs in our prediction pipeline. As a "
 "result, it should generate much more stable animation even for older "
 "pipelines (Rich, RP, Robust)."
 msgstr "予測パイプラインに長期間存在していたバグを修正しました。これにより、旧来のパイプライン（Rich、RP、Robust）でも安定したアニメーションが生成されやすくなります。"
 
-#: ../../000_release_note.md:33
+#: ../../000_release_note.md:36
 msgid ""
 "In addition, we also create a new ****experimental**** feature to boost "
 "accuracy for retargeting, by allowing the user to create more fine-grain "
@@ -134,23 +144,35 @@ msgid ""
 "://ryota-nakajima-toei.github.io/fcs-doc-"
 "advanced/25.10/en/002_processing.html) here for instructions on how to "
 "use it."
-msgstr "さらにリターゲット精度の向上を目的として、実験的機能を追加しました。コントローラー設定においてこれまでの4つの領域設定（Upper・Eyelid・Gaze・Lower）に加えて、より細かいコントローラーの制御を行えるようになります。こちらはより精度の高い、ノイズの少ないアニメーションを求めるユーザー向けのオプション機能です。こちらの詳細についてはマニュアルサイト[fcs-doc-advanced](https://ryota-nakajima-toei.github.io/fcs-doc-advanced/25.10/jp/002_processing.html)をご参照ください。"
+msgstr ""
+"さらにリターゲット精度の向上を目的として、実験的機能を追加しました。コントローラー設定においてこれまでの4つの領域設定（Upper・Eyelid・Gaze・Lower）に加えて、より細かいコントローラーの制御を行えるようになります。こちらはより精度の高い、ノイズの少ないアニメーションを求めるユーザー向けのオプション機能です。こちらの詳細についてはマニュアルサイト"
+"[fcs-doc-advanced](https://ryota-nakajima-toei.github.io/fcs-doc-"
+"advanced/25.10/jp/002_processing.html)をご参照ください。"
 
-#: ../../000_release_note.md:35
+#: ../../000_release_note.md:38
+msgid ""
+"Added on November 28;   In version 25.10, retargeting accuracy has "
+"improved regardless of pipelines used. Therefore, output animation "
+"results may differ even with older pipelines compared to version 25.07. "
+"For this reason, legacy pipelines will remain available for your "
+"continued use."
+msgstr ""
+
+#: ../../000_release_note.md:41
 msgid "Misc"
 msgstr "その他"
 
-#: ../../000_release_note.md:37
+#: ../../000_release_note.md:43
 msgid ""
 "Remove Hover text for controller tab, this has been known to cause "
 "crashes in some systems and do not provide too much helpful information."
 msgstr "コントローラタブのホバーテキストを削除しました。<br>これは一部のシステムでクラッシュを引き起こすことが知られており、有用性も低かったためです。"
 
-#: ../../000_release_note.md:38
+#: ../../000_release_note.md:44
 msgid "Optimize the application launch time"
 msgstr "アプリケーションの起動時間を最適化を行いました。"
 
-#: ../../000_release_note.md:39
+#: ../../000_release_note.md:45
 msgid "Optimize controller table saving"
 msgstr "コントローラテーブルの保存処理を最適化しました。"
 

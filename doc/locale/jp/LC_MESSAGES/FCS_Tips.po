@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-28 11:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../FCS_Tips.md:1
+msgid "Tips"
+msgstr ""
+
+#: ../../FCS_Tips.md:2
+msgid "レイアウトについて"
+msgstr ""
+
+#: ../../FCS_Tips.md:3
+msgid "FCSにはレイアウトの変更・保存機能があります。 モニターの数や作業環境に合わせてカスタマイズしてください。"
+msgstr ""
+
+#: ../../FCS_Tips.md:6
+msgid "配置例（二画面）"
+msgstr ""
+
+#: ../../FCS_Tips.md:10
+msgid "配置例（一画面）"
+msgstr ""
+
+#: ../../FCS_Tips.md:13
+msgid "レイアウトの変更方法"
+msgstr ""
+
+#: ../../FCS_Tips.md:14
+msgid ""
+"View＞Layout からプリセットを呼び出すことができます。 また、各ウィンドウはドラッグ＆ドロップでFCS内を移動・配置することができます。"
+" お好きな配置で作業してください。"
+msgstr ""
+
+#: ../../FCS_Tips.md:18
+msgid "現在のレイアウトを保存することも可能です。<BR> View＞Layout＞Save current"
+msgstr ""
+
+#: ../../FCS_Tips.md:21
+msgid "保存したレイアウトのデータは以下のパスに格納されます。"
+msgstr ""
+
+#: ../../FCS_Tips.md:26
+msgid "<BR><BR><BR>"
+msgstr ""
+
+#: ../../FCS_Tips.md:28
+msgid "ベースシーンについて"
+msgstr ""
+
+#: ../../FCS_Tips.md:29
+msgid ""
+"FCSは、シーン内にFCS用のカメラが無い場合、perspのカメラの位置を参照してカメラを作成します。<BR> "
+"常に一定の画角でプレイブラストを出力するためには、あらかじめ適切な位置やサイズのイメージプレーンをシーンに配置し、ベースシーンとして保存しておく方法を推奨しています。"
+msgstr ""
+
+#: ../../FCS_Tips.md:32
+msgid ""
+"※作成する前にFCSの設定ウィンドウ（File＞Settings＞▼Maya）でカメラ名とイメージプレーン名がどのように指定されているかを確認してください。<BR>"
+" 以下fcs_cam、imagePlaneという名前が指定されているものとして説明します。"
+msgstr ""
+
+#: ../../FCS_Tips.md:35
+msgid "ベースシーンの作成"
+msgstr ""
+
+#: ../../FCS_Tips.md:36
+msgid ""
+"①FCS用のカメラを顔のモデルが中心に来るように配置します。<BR> "
+"使用アトリビュート例：fcs_cam.translateY、fcs_cam.translateZ、fcs_camShape.focalLength"
+" <img width=\"269\" height=\"379\" alt=\"image\" src=\"https://github.com"
+"/user-attachments/assets/cbf2e24d-b4a6-43e1-b138-8780fb67f8b4\" />"
+msgstr ""
+
+#: ../../FCS_Tips.md:42
+msgid ""
+"②FCS用のカメラを使用した状態でView ＞ Image Plane ＞ Import "
+"Image...から静止画用イメージプレーンを配置します。 ![basescene2](https://github.com/user-"
+"attachments/assets/09d31116-7ed4-4678-8f73-8613f409b28b)"
+msgstr ""
+
+#: ../../FCS_Tips.md:42
+msgid "basescene2"
+msgstr ""
+
+#: ../../FCS_Tips.md:47
+msgid ""
+"③イメージプレーンをお好みの大きさに変更し、配置したい場所へ移動します。<BR> "
+"使用アトリビュート例：imagePlaneShape.depth、imagePlaneShape.sizeX、imagePlaneShape.sizeY、imagePlaneShape.offsetX、imagePlaneShape.offsetY"
+msgstr ""
+
+#: ../../FCS_Tips.md:50
+msgid ""
+"![basescene3](https://github.com/user-attachments/assets/b80464be-1d39"
+"-423a-8d70-2503c64f0eba)"
+msgstr ""
+
+#: ../../FCS_Tips.md:50
+msgid "basescene3"
+msgstr ""
+
+#: ../../FCS_Tips.md:54
+msgid ""
+"④静止画連番画像を再生するためにimagePlaneShape.useFrameExtensionをON（1）にします。 "
+"![basescene4](https://github.com/user-attachments/assets/8e62aa82-d97e-"
+"48d9-9377-12744e83ec98)"
+msgstr ""
+
+#: ../../FCS_Tips.md:54
+msgid "basescene4"
+msgstr ""
+
+#: ../../FCS_Tips.md:59
+msgid ""
+"⑤Mayaシーンを保存し、File＞Session▶＞Info...からMaya Sceneに登録します。 "
+"![basescene5](https://github.com/user-"
+"attachments/assets/ae7cbed2-08e3-47d8-95eb-4ea58aecacec)"
+msgstr ""
+
+#: ../../FCS_Tips.md:59
+msgid "basescene5"
+msgstr ""
+

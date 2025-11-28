@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 07:39+0000\n"
+"POT-Creation-Date: 2025-11-28 11:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -62,8 +62,9 @@ msgstr ""
 msgid "Create new Sessionウィンドウ"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:147
-#: ../../FCS_Menu.md:350 ../../FCS_Menu.md:397 ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:133
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:361 ../../FCS_Menu.md:408
+#: ../../FCS_Menu.md:463
 msgid "項目"
 msgstr ""
 
@@ -71,8 +72,9 @@ msgstr ""
 msgid "ボタン"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:147
-#: ../../FCS_Menu.md:350 ../../FCS_Menu.md:397 ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:133
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:361 ../../FCS_Menu.md:408
+#: ../../FCS_Menu.md:463
 msgid "説明"
 msgstr ""
 
@@ -100,8 +102,7 @@ msgstr ""
 msgid "FCSのプロジェクトフォルダを作成します。"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:617
-#: ../../FCS_Menu.md:622
+#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:463
 msgid "Actor"
 msgstr ""
 
@@ -117,7 +118,7 @@ msgstr ""
 msgid "「Create new actor」ウィンドウを起動して、アクター名のフォルダを作成します。<BR>アクター名はプルダウンに追加されます。"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:618
+#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:463
 msgid "Character"
 msgstr ""
 
@@ -159,8 +160,8 @@ msgstr ""
 msgid "3Dモデルに対応するMayaのバージョン入力欄"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:147
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md ../../FCS_Menu.md:64 ../../FCS_Menu.md:159
+#: ../../FCS_Menu.md:408
 msgid "▼"
 msgstr ""
 
@@ -168,7 +169,7 @@ msgstr ""
 msgid "2018 - 2026の範囲のバージョンを選択できます。"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:220
+#: ../../FCS_Menu.md ../../FCS_Menu.md:232
 msgid "Save"
 msgstr ""
 
@@ -177,9 +178,7 @@ msgid "入力した内容で新規Session(セッション)を作成します。"
 msgstr ""
 
 #: ../../FCS_Menu.md
-msgid ""
-"characterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。<BR>*現時点のセッション作成後の正式な挙動確認"
-"　プロジェクトが開く？*"
+msgid "characterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。<BR>現在開いているセッションを閉じ、新しいセッションを開きます。<BR>FCSの再起動が完了するまでしばらくお待ちください。"
 msgstr ""
 
 #: ../../FCS_Menu.md:39
@@ -190,7 +189,7 @@ msgstr ""
 msgid "色"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:350 ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md ../../FCS_Menu.md:361 ../../FCS_Menu.md:408
 msgid "内容"
 msgstr ""
 
@@ -226,7 +225,7 @@ msgstr ""
 msgid "子フォルダ"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:621
+#: ../../FCS_Menu.md ../../FCS_Menu.md:463 ../../FCS_Menu.md:662
 msgid "Facial"
 msgstr ""
 
@@ -234,7 +233,7 @@ msgstr ""
 msgid "動画やMayaシーンデータ等の素材を保存するフォルダ"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:623
+#: ../../FCS_Menu.md ../../FCS_Menu.md:463
 msgid "Assets"
 msgstr ""
 
@@ -242,7 +241,7 @@ msgstr ""
 msgid "モデル・テクスチャなど、Mayaのプロジェクトファイル(Assets以下)を保存するフォルダ"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:625
+#: ../../FCS_Menu.md ../../FCS_Menu.md:463
 msgid "RecData"
 msgstr ""
 
@@ -258,7 +257,7 @@ msgstr ""
 msgid "FCSでアニメーションを出力する際のMayaシーンのデフォルト出力先"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:626
+#: ../../FCS_Menu.md ../../FCS_Menu.md:463
 msgid "SetData"
 msgstr ""
 
@@ -266,7 +265,7 @@ msgstr ""
 msgid "FCSでアニメーションを出力する際のwavファイルや連番画像の出力先"
 msgstr ""
 
-#: ../../FCS_Menu.md ../../FCS_Menu.md:616
+#: ../../FCS_Menu.md ../../FCS_Menu.md:463 ../../FCS_Menu.md:654
 msgid "FCS"
 msgstr ""
 
@@ -340,7 +339,7 @@ msgstr ""
 msgid "最近使用したセッションのパスが表示されます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:78 ../../FCS_Menu.md:633
+#: ../../FCS_Menu.md:78 ../../FCS_Menu.md:463 ../../FCS_Menu.md:677
 msgid "Info"
 msgstr ""
 
@@ -379,7 +378,7 @@ msgstr ""
 msgid "リネーム・コピー"
 msgstr ""
 
-#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:159
 msgid "キャラクター名"
 msgstr ""
 
@@ -463,51 +462,51 @@ msgstr ""
 msgid "Save ▶"
 msgstr ""
 
-#: ../../FCS_Menu.md:102
+#: ../../FCS_Menu.md:106
 msgid "Session"
 msgstr ""
 
-#: ../../FCS_Menu.md:103
-msgid "*セッションを保存するとは?*"
+#: ../../FCS_Menu.md:107
+msgid "セッションデータを保存します。随時操作の度に保存されているため基本的には使用しません。"
 msgstr ""
 
-#: ../../FCS_Menu.md:104 ../../FCS_Menu.md:147 ../../FCS_Menu.md:401
+#: ../../FCS_Menu.md:109 ../../FCS_Menu.md:159 ../../FCS_Menu.md:412
 msgid "Profiles"
 msgstr ""
 
-#: ../../FCS_Menu.md:105
+#: ../../FCS_Menu.md:110
 msgid "Editウィンドウのプロファイルを保存します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:106 ../../FCS_Menu.md:356
+#: ../../FCS_Menu.md:112 ../../FCS_Menu.md:367
 msgid "Controller"
 msgstr ""
 
-#: ../../FCS_Menu.md:107
+#: ../../FCS_Menu.md:113
 msgid "コントローラーウィンドウの表を保存します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:111
+#: ../../FCS_Menu.md:117
 msgid "Export"
 msgstr ""
 
-#: ../../FCS_Menu.md:112
+#: ../../FCS_Menu.md:118
 msgid ""
 "Export Sessionウィンドウが開きます。 <img width=\"795\" height=\"322\" alt=\"image\""
 " src=\"https://github.com/user-"
 "attachments/assets/00fb49e7-d1f5-47d7-9478-7120e0ddf660\" />"
 msgstr ""
 
-#: ../../FCS_Menu.md:114
+#: ../../FCS_Menu.md:120
 msgid "Export Sessionウィンドウ"
 msgstr ""
 
-#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:408
 msgid "プルダウン内容"
 msgstr ""
 
 #: ../../FCS_Menu.md:64
-msgid "エクスポート先のフォルダパス入力欄（フルパスで指定）"
+msgid "エクスポート先のプロジェクトフォルダパス入力欄（フルパスで指定）"
 msgstr ""
 
 #: ../../FCS_Menu.md:64
@@ -526,7 +525,7 @@ msgstr ""
 msgid "プロファイルを含めて出力するかどうかを指定"
 msgstr ""
 
-#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:242
+#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:254
 msgid "Videos"
 msgstr ""
 
@@ -566,1915 +565,2518 @@ msgstr ""
 msgid "出力先にFacial/Assets以下のフォルダー・ファイルをコピーするかを指定"
 msgstr ""
 
-#: ../../FCS_Menu.md:127 ../../FCS_Menu.md:231
+#: ../../FCS_Menu.md:134
+msgid ""
+"Project Folderの項目ではエクスポート先のプロジェクトフォルダのパスを指定します。 "
+"このときプロジェクトフォルダ以下のフォルダ構造が存在しない場合は新しくフォルダが作成されるので、 "
+"例えばE:\\test\\FCS\\testActor\\testCharacterと同じ階層にtestCharacter2をエクスポートしたい場合には"
+" Project Folderの項目に「E:\\test」を指定し、Characterの項目に「testCharacter2」と入れてください。"
+msgstr ""
+
+#: ../../FCS_Menu.md:139 ../../FCS_Menu.md:243
 msgid "<BR><BR>"
 msgstr ""
 
-#: ../../FCS_Menu.md:129
+#: ../../FCS_Menu.md:141
 msgid "Settings"
 msgstr ""
 
-#: ../../FCS_Menu.md:130
+#: ../../FCS_Menu.md:142
 msgid "FCS全般の設定メニューです。"
 msgstr ""
 
-#: ../../FCS_Menu.md:131
+#: ../../FCS_Menu.md:143
 msgid "▼ UI"
 msgstr ""
 
-#: ../../FCS_Menu.md:134
+#: ../../FCS_Menu.md:146
 msgid "Settings > UI"
 msgstr ""
 
-#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:147 ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:133 ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "対象"
 msgstr ""
 
-#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:147 ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:133 ../../FCS_Menu.md:159 ../../FCS_Menu.md:408
+#: ../../FCS_Menu.md:463
 msgid "デフォルト"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
-msgid "要 再起動"
-msgstr ""
-
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Global"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Font Size"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "25"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "文字の大きさ"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
-msgid "〇"
-msgstr ""
-
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Language"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "en"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "言語設定"
 msgstr ""
 
-#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:402
+#: ../../FCS_Menu.md:133 ../../FCS_Menu.md:413
 msgid "Gallery"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Thumbnail width"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "200"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "ギャラリーに表示されるプロファイル画像の横幅"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Default Cols"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "3"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "ギャラリーのデフォルトの列数"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Video Player"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Cache Frame Max"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "2000"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "メモリにキャッシュするフレームの最大値"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Default Tags"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "デフォルトで付与するタグ名"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Video Library"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Skip rotation prompt"
 msgstr ""
 
-#: ../../FCS_Menu.md:64 ../../FCS_Menu.md:147 ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:133 ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "☐"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Videoインポートで回転処理の設定画面を表示するかどうか"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Default Rotation"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "0"
 msgstr ""
 
-#: ../../FCS_Menu.md:64
+#: ../../FCS_Menu.md:133
 msgid "Videoインポートの際のデフォルトの回転値（0で回転しない）"
 msgstr ""
 
-#: ../../FCS_Menu.md:148
+#: ../../FCS_Menu.md:160
 msgid ""
 "Cache Frame Maxは数値を上げるほど多くのメモリ容量を消費します。<BR> "
 "FullHDサイズだと10000fごとに約64GB使用される目安です。<BR> "
 "-1を指定すると無制限にキャッシュを保存します。この設定は十分なメモリがある場合のみ使用してください。"
 msgstr ""
 
-#: ../../FCS_Menu.md:152
+#: ../../FCS_Menu.md:164
 msgid "▼Output"
 msgstr ""
 
-#: ../../FCS_Menu.md:155
+#: ../../FCS_Menu.md:167
 msgid "Settings > Output"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
-msgid "再起動"
-msgstr ""
-
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Default output options"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Default Folder"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 #, python-brace-format, python-format
 msgid "Facial/Scenes/_Outputs/<BR>%Y%m%d_%H%M%S_{user}"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "デフォルトの出力先フォルダ"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Default Filename"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 #, python-brace-format
 msgid "{video}"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "デフォルトのファイル名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Default Filename (Batch)"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "バッチ出力時のデフォルトファイル名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Default Maya scene format"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid ".mb"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "デフォルトのMaya保存形式"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Playblast"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Encoder"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "H.265/HEVC"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プレイブラストのエンコード設定"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Width"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "1920"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プレイブラストの横幅"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Height"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "1080"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プレイブラストの立幅"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Quality"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "100"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プレイブラストの画質"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Percent"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プレイブラストの解像度"
 msgstr ""
 
-#: ../../FCS_Menu.md:169
+#: ../../FCS_Menu.md:181
 msgid "▼Keyboard Shortcuts"
 msgstr ""
 
-#: ../../FCS_Menu.md:170
+#: ../../FCS_Menu.md:182
 msgid "同時押しはキー1種+修飾キー2種の3ボタンまで登録可能です。"
 msgstr ""
 
-#: ../../FCS_Menu.md:174
+#: ../../FCS_Menu.md:186
 msgid "Settings > Keyboard Shortcuts"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "・Timeline"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Next Frame"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid ".+Alt"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "次のフレームへ"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Previous Frame"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid ",+Alt"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "前のフレームへ"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Next ROM"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "."
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "次のプロファイルへ"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Previous ROM"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid ","
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "前のプロファイルへ"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Play / Pause Timeline"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "v+Alt"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "タイムラインの再生 / 一時停止"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Add current frame to ROM"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Q"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "現在のフレームをプロファイルとして追加"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Open profile on timeline"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "E"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
-msgid "*タイムラインのプロファイルを開く？*"
+#: ../../FCS_Menu.md:159
+msgid "*タイムラインのプロファイルを開く*確認"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "・Editor"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Save ROM edits"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "S+Ctrl"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プロファイルの保存"
 msgstr ""
 
-#: ../../FCS_Menu.md:147 ../../FCS_Menu.md:397 ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:408 ../../FCS_Menu.md:463
 msgid "From Maya"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "V+Ctrl"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "表情の値をMayaから読み込み"
 msgstr ""
 
-#: ../../FCS_Menu.md:147 ../../FCS_Menu.md:397 ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:408 ../../FCS_Menu.md:463
 msgid "To Maya"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "C+Ctrl"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "表情の値をMayaへ送信"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "・Layout"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Active Pickup"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "1+Ctrl"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Pickupのプリセットレイアウトに変更"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Active Process"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "2+Ctrl"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Processのプリセットレイアウトに変更"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Active Register"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "3+Ctrl"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Registerのプリセットレイアウトに変更"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Active Retarget"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "4+Ctrl"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Retargetのプリセットレイアウトに変更"
 msgstr ""
 
-#: ../../FCS_Menu.md:192
+#: ../../FCS_Menu.md:204
 msgid "▼Maya"
 msgstr ""
 
-#: ../../FCS_Menu.md:195
+#: ../../FCS_Menu.md:207
 msgid "Settings > Maya"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
+msgid "再起動不要"
+msgstr ""
+
+#: ../../FCS_Menu.md:159
 msgid "CommandPort"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "42069"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Mayaとの接続に使用するコマンドポート"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "SliderSyncPort"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "42070"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Mayaのタイムラインを取得するコマンドポート"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Open maya scene at launch"
 msgstr ""
 
-#: ../../FCS_Menu.md:147 ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "☑"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Launch Maya時に登録したMayaシーンも開く"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
+msgid "〇"
+msgstr ""
+
+#: ../../FCS_Menu.md:159
 msgid "Use gallery character preview"
 msgstr ""
 
-#: ../../FCS_Menu.md:147 ../../FCS_Menu.md:229 ../../FCS_Menu.md:350
-#: ../../FCS_Menu.md:397
-msgid "*確認*"
+#: ../../FCS_Menu.md:159
+msgid "ギャラリーウィンドウのキャラクター表示切替機能を使用する"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Image Plane"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "imagePlane"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "イメージプレーン名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Camera"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "fcs_cam"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "カメラ名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Install path"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "C:/Program Files/Autodesk/"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Mayaのインストール先"
 msgstr ""
 
-#: ../../FCS_Menu.md:206
-msgid "▼Misk"
+#: ../../FCS_Menu.md:218
+msgid "▼Misc"
 msgstr ""
 
-#: ../../FCS_Menu.md:209
-msgid "Settings > Misk"
+#: ../../FCS_Menu.md:221
+msgid "Settings > Misc"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Keep max N video in memory"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "1"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
+msgid "*確認*"
+msgstr ""
+
+#: ../../FCS_Menu.md:159
 msgid "Backend"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "cpu"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "データの処理方法"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Update Channel"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Patch"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
-msgid "アップデート*確認*"
+#: ../../FCS_Menu.md:159
+msgid "アップデート通知設定"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "All"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
+msgid "メジャーバージョンアップ・マイナーバージョンアップ両方のアップデート通知を受け取る"
+msgstr ""
+
+#: ../../FCS_Menu.md:159
+msgid "マイナーバージョンアップ通知のみ受け取る"
+msgstr ""
+
+#: ../../FCS_Menu.md:159
 msgid "None"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
+msgid "バージョンアップ通知を受け取らない"
+msgstr ""
+
+#: ../../FCS_Menu.md:159
 msgid "Use Beta"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "ベータ版機能を使用する"
 msgstr ""
 
-#: ../../FCS_Menu.md:222
-msgid "設定を保存します。設定によってはFCSを再起動することで反映されます。"
+#: ../../FCS_Menu.md:234
+msgid "設定を保存します。設定は基本的にFCSを再起動することで反映されます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:224
+#: ../../FCS_Menu.md:236
 msgid "Restore"
 msgstr ""
 
-#: ../../FCS_Menu.md:226
+#: ../../FCS_Menu.md:238
 msgid "設定をデフォルトに戻し、FCSを再起動します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:228
+#: ../../FCS_Menu.md:240
 msgid "Import"
 msgstr ""
 
-#: ../../FCS_Menu.md:233
+#: ../../FCS_Menu.md:241
+msgid "他のバージョンなどから設定をインポートします。C:\\Users\\[ユーザー名]\\.fcs\\Cortado\\[FCSバージョン]にあるmy_conf.yamlを読み込んでください。"
+msgstr ""
+
+#: ../../FCS_Menu.md:245
 msgid "Quit"
 msgstr ""
 
-#: ../../FCS_Menu.md:235
-msgid "FCSを終了します。「.Lockファイル」を削除します。"
+#: ../../FCS_Menu.md:247
+msgid "FCSを終了します。「.Lockファイル」を削除します。UI設定なども"
 msgstr ""
 
-#: ../../FCS_Menu.md:237 ../../FCS_Menu.md:550 ../../FCS_Menu.md:567
-#: ../../FCS_Menu.md:610 ../../FCS_Menu.md:631
+#: ../../FCS_Menu.md:249 ../../FCS_Menu.md:588 ../../FCS_Menu.md:600
+#: ../../FCS_Menu.md:638 ../../FCS_Menu.md:675 ../../FCS_Menu.md:687
 msgid "<BR><BR><BR>"
 msgstr ""
 
-#: ../../FCS_Menu.md:239
+#: ../../FCS_Menu.md:251
 msgid "Window"
 msgstr ""
 
-#: ../../FCS_Menu.md:240
+#: ../../FCS_Menu.md:252
 msgid "ウィンドウを表示するメニューです。ここでは各ウィンドウの説明を行います。"
 msgstr ""
 
-#: ../../FCS_Menu.md:243
+#: ../../FCS_Menu.md:255
 msgid ""
 "Videosウィンドウが開きます。<BR> "
 "Videosウィンドウでは読み込んだHMC動画を一覧で表示します。読み込んだ動画に対しての処理も右クリックから可能です。"
 msgstr ""
 
-#: ../../FCS_Menu.md:246
+#: ../../FCS_Menu.md:258
 msgid ""
 "![videos](https://github.com/user-"
 "attachments/assets/9efd43b0-5951-4b55-9050-0449e1ee2d33)"
 msgstr ""
 
-#: ../../FCS_Menu.md:246
+#: ../../FCS_Menu.md:258
 msgid "videos"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "①"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Filter入力欄"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "動画名を文字列でフィルターします。"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "②"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Importボタン"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "ダイアログを開いて新しい動画をインポートします。シフトキーで複数選択が可能です。"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "③"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Video表見出し"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
-msgid "右クリックメニューで表示する内容を変更することができます。"
+#: ../../FCS_Menu.md:159
+msgid "右クリックメニューから表示する内容を変更することができます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "④"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "選択ON/OFF"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "バッチ処理の対象にするかどうか切り替えます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "⑤"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "動画名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "動画名を右クリックでメニューが表示されます。メニューから単体のアニメーション出力などを行うことができます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "⑥"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "選択ON/OFF(全)"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Videosウィンドウのすべての動画に対して選択のON/OFFを切り替えます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "⑦"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
-msgid "⑧"
-msgstr ""
-
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Removeボタン"
 msgstr ""
 
-#: ../../FCS_Menu.md:259
-msgid "Videos 右クリックメニュー"
-msgstr ""
-
-#: ../../FCS_Menu.md:147
-msgid "Open"
-msgstr ""
-
-#: ../../FCS_Menu.md:147
-msgid "動画を開く（PlayerとTimelineに表示されます）"
-msgstr ""
-
-#: ../../FCS_Menu.md:147 ../../FCS_Menu.md:350
-msgid "Remove"
-msgstr ""
-
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Remove Videos and Sequencesウィンドウを表示します。"
 msgstr ""
 
 #: ../../FCS_Menu.md:270
+msgid "Videos 右クリックメニュー"
+msgstr ""
+
+#: ../../FCS_Menu.md:159
+msgid "Open"
+msgstr ""
+
+#: ../../FCS_Menu.md:159
+msgid "動画を開く（PlayerとTimelineに表示されます）"
+msgstr ""
+
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:361
+msgid "Remove"
+msgstr ""
+
+#: ../../FCS_Menu.md:281
 msgid "Remove Videos and Sequencesウィンドウ"
 msgstr ""
 
-#: ../../FCS_Menu.md:271
+#: ../../FCS_Menu.md:282
 msgid "オプションを指定して動画をFCSから削除します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プルダウン"
 msgstr ""
 
-#: ../../FCS_Menu.md:147 ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "Video"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Delete caches option："
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "キャッシュデータについて"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ SetData"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "セットデータ内のファイル（音声・静止画連番）も削除するかどうか"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ Tracking Sequence"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "動画のトラッキングデータも削除するかどうか"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "削除対象の動画から追加したプロファイルについて"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Keep"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プロファイルはそのまま維持します"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Keep but unlink"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プロファイルは維持しますが、動画との関連付けは削除します*確認*"
 msgstr ""
 
-#: ../../FCS_Menu.md:147 ../../FCS_Menu.md:602
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:463
 msgid "Delete"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "すべて削除します"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Execute"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "実行"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Cancel"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "キャンセル"
 msgstr ""
 
-#: ../../FCS_Menu.md:286
+#: ../../FCS_Menu.md:297
 msgid "▼Process"
 msgstr ""
 
-#: ../../FCS_Menu.md:287
+#: ../../FCS_Menu.md:298
 msgid ""
 "![Process](https://github.com/user-attachments/assets/03c9170b-9c75-4ede-"
 "896a-6c109dd82f47)"
 msgstr ""
 
-#: ../../FCS_Menu.md:287 ../../FCS_Menu.md:588
+#: ../../FCS_Menu.md:298 ../../FCS_Menu.md:463 ../../FCS_Menu.md:628
 msgid "Process"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ Reprocess"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "キャッシュが既に存在する場合も一から解析します"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Sequence Options"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Sequence Name"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "シーケンスの名前を設定します"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Upload Options"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ Animation"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "アニメーションデータを出力します"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ Audio"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "音声データをMayaに読み込みます"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ Frames"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "動画の連番画像を出力、Mayaのイメージプレーンに読み込みます"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ LM Frames"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "ランドマーク付の連番画像を生成、Mayaのイメージプレーンに読み込みます（+パイプラインでは使用不可）"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Export Options"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ Playblast"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プレイブラストをmov形式の動画で出力、保存します"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ Scene"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Mayaシーンを出力、保存します"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Start processing"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "上記の設定で処理を実行します"
 msgstr ""
 
-#: ../../FCS_Menu.md:301
+#: ../../FCS_Menu.md:312
 msgid "Copy"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Filename"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "動画のファイル名をクリップボードにコピーします"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Full path"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "動画のフルパスをクリップボードにコピーします"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Parent"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "動画の親ディレクトリのパスをクリップボードにコピーします"
 msgstr ""
 
-#: ../../FCS_Menu.md:312 ../../FCS_Menu.md:316
+#: ../../FCS_Menu.md:323 ../../FCS_Menu.md:327
 msgid "Processer"
 msgstr ""
 
-#: ../../FCS_Menu.md:313
+#: ../../FCS_Menu.md:324
 msgid ""
 "Processerウィンドウが開きます。<BR> "
 "Processerウィンドウでは複数の動画を一括で処理するバッチ機能が使用できます。VideosウィンドウでチェックボックスがONになっている動画が処理の対象になります。"
 msgstr ""
 
-#: ../../FCS_Menu.md:316
+#: ../../FCS_Menu.md:327
 msgid ""
 "![Processer](https://github.com/user-attachments/assets/725a26ec-501c-"
 "4c05-b730-a8583014b603)"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Output Folder"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "出力先を指定します"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Output Targets"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "出力する内容を指定します"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "アニメーションデータを出力する"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "音声データをMayaに読み込む"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "動画の連番画像を出力、Mayaのイメージプレーンに読み込む"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ Landmark Frames"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "ランドマーク付の連番画像を生成、Mayaのイメージプレーンに読み込む（+パイプラインでは使用不可）"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プレイブラストをmov形式の動画で出力、保存する"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Mayaシーンを保存する"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Format"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "出力するMayaの保存形式(.mb / .ma)"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "☑ Distribute"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "配布用YAMLファイルを出力する？、出力ファイル名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Advanced"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "キャッシュが既に存在する場合も一から解析する"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Output Filename"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "出力されるデータ名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "Start"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "アニメーションの出力を開始する"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "プログレスバー"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "処理状況の表示をします"
 msgstr ""
 
-#: ../../FCS_Menu.md:147 ../../FCS_Menu.md:477
+#: ../../FCS_Menu.md:159 ../../FCS_Menu.md:513
 msgid "Log"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "処理状況のログが表示されます"
 msgstr ""
 
-#: ../../FCS_Menu.md:338
+#: ../../FCS_Menu.md:349
 msgid "フォルダ名・動画名を指定するパラメータについて"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 #, python-brace-format
 msgid "{solver}"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "solverの名前"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "ビデオのファイル名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 #, python-brace-format
 msgid "{user}"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "windowsユーザ名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 #, python-brace-format
 msgid "{project}"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "案件フォルダ名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 #, python-brace-format
 msgid "{chara}"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 #, python-brace-format
 msgid "{actor}"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "役者名"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 #, python-brace-format, python-format
 msgid "{%Y%m%d}"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "年 月 日"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 #, python-brace-format
 msgid "{%H%M%S}"
 msgstr ""
 
-#: ../../FCS_Menu.md:147
+#: ../../FCS_Menu.md:159
 msgid "時間 分 秒"
 msgstr ""
 
-#: ../../FCS_Menu.md:357
+#: ../../FCS_Menu.md:368
 msgid "コントローラーの登録を行うためのウィンドウです。"
 msgstr ""
 
-#: ../../FCS_Menu.md:362
+#: ../../FCS_Menu.md:373
 msgid "Controllerウィンドウ"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361 ../../FCS_Menu.md:463
 msgid "Filter"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "入力したコントローラー名でコントローラー表にフィルターをかけます"
+#: ../../FCS_Menu.md:361
+msgid "入力したコントローラー名でコントローラー表にフィルターをかけます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "all▼"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "all / null / upper / lower / gaze / eyelid"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "指定した項目（Region）を絞り込んで表示します"
+#: ../../FCS_Menu.md:361
+msgid "指定した項目（Region）を絞り込んで表示します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350 ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:361 ../../FCS_Menu.md:408
 msgid "save"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "コントローラー設定を登録・保存します"
+#: ../../FCS_Menu.md:361
+msgid "コントローラー設定を登録・保存します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350 ../../FCS_Menu.md:552
+#: ../../FCS_Menu.md:361 ../../FCS_Menu.md:590
 msgid "Maya"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "Add selected"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "選択したコントローラーを登録します"
+#: ../../FCS_Menu.md:361
+msgid "選択したコントローラーを登録します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "☑ Sync"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "表の数値の操作をMayaと同期させます"
+#: ../../FCS_Menu.md:361
+msgid "表の数値の操作をMayaと同期させます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "▼Value"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "▼Min / Max / Default"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "☑ を入れたコントローラーのどの値に対しての処理か指定します"
+#: ../../FCS_Menu.md:361
+msgid "☑ を入れたコントローラーのどの値に対しての処理か指定します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "0.000"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "入力する数値"
 msgstr ""
 
-#: ../../FCS_Menu.md:350 ../../FCS_Menu.md:599
+#: ../../FCS_Menu.md:361 ../../FCS_Menu.md:463
 msgid "Apply"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "実行ボタン"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "▼Region"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "Upper / Lower / Gaze / Eyelid"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "☑ を入れたコントローラーのRegionを設定します"
+#: ../../FCS_Menu.md:361
+msgid "☑ を入れたコントローラーのRegionを設定します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "☑ を入れたコントローラーを表から削除します"
+#: ../../FCS_Menu.md:361
+msgid "☑ を入れたコントローラーを表から削除します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "Select All/Unselect All"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "controller上に表示されているコントローラーすべての ☑ / □ を切り替えます"
+#: ../../FCS_Menu.md:361
+msgid "controller上に表示されているコントローラーすべての ☑ / □ を切り替えます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "▼Advanced"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "Remove empty"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "Regionが登録されていないコントローラー(null)を表から削除します"
+#: ../../FCS_Menu.md:361
+msgid "Regionが登録されていないコントローラー(null)を表から削除します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "Delete all"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "登録したコントローラー情報をすべて削除します"
+#: ../../FCS_Menu.md:361
+msgid "登録したコントローラー情報をすべて削除します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361 ../../FCS_Menu.md:463
 msgid "Reset"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
-msgid "以前Saveした際のデータの状態に戻します"
+#: ../../FCS_Menu.md:361
+msgid "以前Saveした際のデータの状態に戻します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:350
+#: ../../FCS_Menu.md:361
 msgid "Rearrange"
 msgstr ""
 
-#: ../../FCS_Menu.md:388
+#: ../../FCS_Menu.md:361
+msgid "コントローラー表の順番をドラッグ＆ドロップで変更できるようにします。"
+msgstr ""
+
+#: ../../FCS_Menu.md:399
 msgid "プルダウンメニューについて："
 msgstr ""
 
-#: ../../FCS_Menu.md:389
+#: ../../FCS_Menu.md:400
 msgid ""
 "Region名 … 現在登録しているRegionのコントローラーが表示されます。プルダウンがRegionの状態でAdd "
 "Selectedを押すと、コントローラーをそのRegionに設定された状態で読み込むことができます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:390
+#: ../../FCS_Menu.md:401
 msgid ""
 "all … "
 "すべてのRegionのコントローラーが表示されます。allの状態でコントローラーを読み込むとRegionにはnull(リージョン未設定)が設定されます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:391
+#: ../../FCS_Menu.md:402
 msgid ""
 "null … リージョンが設定されていないコントローラーが表示されます。 "
 "コントローラー表に一つでもnullがあると登録したコントローラーを保存できないため、Save前にリージョンがnullになっているコントローラーがないか確認してください。"
 msgstr ""
 
-#: ../../FCS_Menu.md:395
+#: ../../FCS_Menu.md:406
 msgid "最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。"
 msgstr ""
 
-#: ../../FCS_Menu.md:398
+#: ../../FCS_Menu.md:409
 msgid "数値ではない(True/False)アトリビュートがあると正常に動作しないため、登録から除外してください。"
 msgstr ""
 
-#: ../../FCS_Menu.md:403
+#: ../../FCS_Menu.md:414
 msgid "プロファイルの一覧が表示されるウィンドウです。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
 msgid "Count"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "pプロファイルの登録数を表示します*確認*"
+#: ../../FCS_Menu.md:408
+msgid "現在表示されているプロファイル数を表示します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "フィルターをかけます*確認*"
+#: ../../FCS_Menu.md:408
+msgid "[  ]"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "フィルターをかけます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Enabled"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "Enabled状態のプロファイルを表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Disabled"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "Disabled状態のプロファイルを表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Default"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "数値未設定含む、すべてのRegionがデフォルトの値のプロファイルを表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Not Default"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "デフォルトの値ではないプロファイルを表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Neutral"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "ニュートラルのプロファイルを表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "No Tags"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "Upper Enabled"
+#: ../../FCS_Menu.md:408
+msgid "タグのついていないプロファイルを表示します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "[Region名] Enabled"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
+msgid "そのRegionに値が登録されているプロファイルを表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Sync timeline"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "選択したプロファイルが含まれる動画を開いている場合、そのプロファイルのフレームに移動します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Adbanced"
 msgstr ""
 
-#: ../../FCS_Menu.md:421
-msgid "Misk"
+#: ../../FCS_Menu.md:408
+msgid "詳細機能を表示します。（今授業では使用しません）"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:432
+msgid "Misc"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Hide Tooltip"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408 ../../FCS_Menu.md:463
 msgid "□"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "登録されているRegionの図の表示 / 非表示を切り替えます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Display Mode"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408 ../../FCS_Menu.md:463
 msgid "Image"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "プロファイルをアクターの写真で表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
+msgid "Render"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
+msgid "プロファイルをキャラクターモデルのスクリーンショットで表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Refresh Renders"
 msgstr ""
 
-#: ../../FCS_Menu.md:428
+#: ../../FCS_Menu.md:408
+msgid "Display Mode＞Render表示用にスクリーンショットを現在のMayaの設定で再出力します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:440
 msgid "Editor"
 msgstr ""
 
-#: ../../FCS_Menu.md:429
+#: ../../FCS_Menu.md:441
 msgid "プロファイルを登録するウィンドウです。<BR> 画像に対応する表情をMayaで作成し、FCSに読み込みます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:434
+#: ../../FCS_Menu.md:446
 msgid "Editorウィンドウ"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
 msgid "No Sync▼"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "数値の操作をMayaと同期させます　*確認*"
+#: ../../FCS_Menu.md:408
+msgid "数値の操作をMayaと同期させるかどうかの設定です。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "現在登録されているprofile情報をMayaに転送する"
+#: ../../FCS_Menu.md:408
+msgid "FCSのスライダー上でのプロファイルの数値変更をMayaに転送します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "saveボタンを押す際にMaya上での表情データを取得しFCSに反映・登録する"
+#: ../../FCS_Menu.md:408
+msgid "saveボタンを押す際にMaya上での表情データを取得しFCSに反映させてから登録します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397 ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:408 ../../FCS_Menu.md:463
 msgid "Both"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "「To Maya」と「From Maya」をどちらも行い、FCSとMayaを双方向で同期させる"
+#: ../../FCS_Menu.md:408
+msgid "「To Maya」と「From Maya」をどちらも行い、FCSとMayaを双方向で同期させます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397 ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:408 ../../FCS_Menu.md:463
 msgid "No Sync"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "FCSとMayaを同期させない"
+#: ../../FCS_Menu.md:408
+msgid "FCSとMayaを同期させません。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "Neutral表情かどうかを設定します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
+msgid "このプロファイルを表情推定の計算に含めるかどうか設定します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Controller▼"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "プロファイル画像右のスライダー表記を切り替えます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "controller"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "スライダーにコントローラー名を表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Value"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:408
+msgid "スライダーに値を表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:408
 msgid "Name"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "プロファイル名"
+#: ../../FCS_Menu.md:408
+msgid "プロファイル名を表示します。任意の名前に変更することも可能です。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "プロファイルを登録・保存します"
+#: ../../FCS_Menu.md:408
+msgid "現在の設定でプロファイルを登録・保存します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:451
+#: ../../FCS_Menu.md:464
+msgid "コントローラーウィンドウ右部のスライダーはCtrl＋クリックで直接数値を入力することが可能です。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "Region"
 msgstr ""
 
-#: ../../FCS_Menu.md:455
+#: ../../FCS_Menu.md:463
+msgid "Utils"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Tracking"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Tags"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid ""
+"<img width=\"206\" alt=\"image\" src=\"https://github.com/ZukunFCS/fcs-"
+"doc/blob/main/doc/images/FCSMenu_Profiles_Editor10.jpg\">"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid ""
+"<img width=\"200\" alt=\"image\" src=\"https://github.com/ZukunFCS/fcs-"
+"doc/blob/main/doc/images/FCSMenu_Profiles_Editor04.jpg\">"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid ""
+"<img width=\"200\" alt=\"image\" src=\"https://github.com/ZukunFCS/fcs-"
+"doc/blob/main/doc/images/FCSMenu_Profiles_Editor05.jpg\">"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid ""
+"<img width=\"200\" alt=\"image\" src=\"https://github.com/ZukunFCS/fcs-"
+"doc/blob/main/doc/images/FCSMenu_Profiles_Editor06.jpg\">"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid ""
+"<img width=\"200\" alt=\"image\" src=\"https://github.com/ZukunFCS/fcs-"
+"doc/blob/main/doc/images/FCSMenu_Profiles_Editor07.jpg\">"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid ""
+"<img width=\"200\" alt=\"image\" src=\"https://github.com/ZukunFCS/fcs-"
+"doc/blob/main/doc/images/FCSMenu_Profiles_Editor08.jpg\">"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid ""
+"<img width=\"200\" alt=\"image\" src=\"https://github.com/ZukunFCS/fcs-"
+"doc/blob/main/doc/images/FCSMenu_Profiles_Editor09.jpg\">"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Region▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Upper/ Lower / Gaze / Eyelid"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "このプロファイルにどのRegionの表情が含まれるか指定します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Utils▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "FCSのプロファイルの値をMayaのコントローラーに送信します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Mayaのコントローラーの値をFCSのプロファイルに送信します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Predict"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "プレディクト機能でプロファイルの表情を推定します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "LM"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "顔のランドマークを表示します。デフォルトのパイプラインでは使用しません。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "プロファイルの画像を表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Filter▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Upper/ Lower / Gaze / Eyelid / all"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "all"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "対応するRegionのコントローラーのみ表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Reset▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "対応するコントローラーの値を0にリセットします。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Tracking▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "この機能は今授業では使用しません。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Tags▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "プロファイルにタグを追加します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Info▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Video/Frame/Time/Create/Create"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "各情報を表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:491
 msgid "Solver"
 msgstr ""
 
-#: ../../FCS_Menu.md:456
+#: ../../FCS_Menu.md:492
 msgid "アニメーション出力についての設定を行うウィンドウです。 基本的にはデフォルトの設定のまま使用します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "▼Global"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "Fisheye"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "Processing Pipeline"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "RP＋"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "動画を処理するためのパイプラインを指定します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "▼Denoising"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "Type"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "Smoothing"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "スムージング機能の設定を行います。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "Weight"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "-2"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "スムージングの強さ"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "Reps"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "5"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "スムージングの回数"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "▼Denoising Preview"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "Raw"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
-msgid "Denoising"
+#: ../../FCS_Menu.md:463
+msgid "スムージングをかけた後のカーブの形状を推測します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "Raw / Denoising"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "スムージング前 / スムージング後"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "Save current denoising profile"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "現在のスムージング設定をプリセットとして保存します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "▼Post processing"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "Gaze Freezing"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "今授業では使用しません。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "Prioritize profile"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "プロファイルのあるフレームでプロファイル表情を100％使用します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "Clamp mode"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "Hard Clamp"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "アニメーションカーブにクランプをかけます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "Train"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "Solverの計算を実行します。通常はアニメーション出力の際に自動で計算されるため、このボタンを敢えて押す必要はありません。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "Delete cache"
 msgstr ""
 
-#: ../../FCS_Menu.md:478
+#: ../../FCS_Menu.md:463
+msgid "キャッシュを削除します。今授業では使用しません。"
+msgstr ""
+
+#: ../../FCS_Menu.md:514
 msgid "ログが表示されます。 最新のログは常にFCS上部に表示されるため、普段はあまり使用しません。"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
 msgid "INFO"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "インフォメーションログを表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "WARNING"
 msgstr ""
 
-#: ../../FCS_Menu.md:397
+#: ../../FCS_Menu.md:463
+msgid "警告ログを表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "ERROR"
 msgstr ""
 
-#: ../../FCS_Menu.md:490
-msgid "以下のウィンドウは初めから表示されており、メニューの中に含まれません。"
+#: ../../FCS_Menu.md:463
+msgid "エラーログを表示します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:494
+#: ../../FCS_Menu.md:531
 msgid "Player"
 msgstr ""
 
-#: ../../FCS_Menu.md:495
+#: ../../FCS_Menu.md:532
 msgid "現在開いている動画を表示します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:499
+#: ../../FCS_Menu.md:536
 msgid "Timeline"
 msgstr ""
 
-#: ../../FCS_Menu.md:500
+#: ../../FCS_Menu.md:537
 msgid "タイムラインの操作を行います。"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "[0]/[100]"
+#: ../../FCS_Menu.md:539
+msgid ""
+"![timeline](https://github.com/user-attachments/assets/62133ecb-"
+"7d53-4850-b039-9b2eef91c878)"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "動画の再生範囲を変更します"
+#: ../../FCS_Menu.md:539
+msgid "timeline"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "[0]"
+#: ../../FCS_Menu.md:463
+msgid "[0]/[3933]"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "現在のフレーム"
+#: ../../FCS_Menu.md:463
+msgid "動画の再生範囲を変更します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:463
+msgid "[106]"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "現在のフレームを表示します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "|<  / >|"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "1フレーム前 / 後に移動します"
+#: ../../FCS_Menu.md:463
+msgid "1フレーム前 / 後に移動します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:463
 msgid "<<  / >>"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "次のプロファイルにジャンプします"
+#: ../../FCS_Menu.md:463
+msgid "次のプロファイルにジャンプします。"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:463
 msgid "＞ / ||"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:463
 msgid "動画の再生 / 停止（再生すると一時停止ボタンが、一時停止すると再生ボタンが表示されます）"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "動画名が表示されます（Videosウィンドウと同じ右クリックメニューが使用できる）"
+#: ../../FCS_Menu.md:463
+msgid "動画名が表示されます（Videosウィンドウと同じ右クリックメニューが使用可能です）"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:463
 msgid "Profile"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "プロファイル名が表示されます？*確認*"
+#: ../../FCS_Menu.md:463
+msgid "現在タイムライン上でカーソルを乗せているプロファイルの名前が表示されます。"
 msgstr ""
 
-#: ../../FCS_Menu.md:515
+#: ../../FCS_Menu.md:553
 msgid "タイムライン右クリックメニュー（Playback Settings）"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:463
 msgid "Snap"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "タイムラインをドラッグした際にプロファイルにスナップする"
+#: ../../FCS_Menu.md:463
+msgid "タイムラインをドラッグした際にプロファイルにスナップします。"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:463
 msgid "Loop"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "タイムラインをループ再生する"
+#: ../../FCS_Menu.md:463
+msgid "タイムラインをループ再生します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
+#: ../../FCS_Menu.md:463
 msgid "Mute"
 msgstr ""
 
-#: ../../FCS_Menu.md:489
-msgid "タイムライン再生時に音声をミュートする"
-msgstr ""
-
-#: ../../FCS_Menu.md:524
-msgid "▼Resolution"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "1 : 1 - 1 : 8"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "表示している動画の解像度を変更する"
-msgstr ""
-
-#: ../../FCS_Menu.md:534
-msgid "▼Sync"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "タイムラインをMayaと同期しない"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "FCSのタイムラインの値をMayaのタイムスライダーへ送信する"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "Mayaのタイムスライダーの値をFCSのタイムラインへ送信する　※要プラグイン"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "FCSとMayaのタイムラインを相互に同期する"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "Every Frame"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "すべてのフレームを再生"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "Real Time"
-msgstr ""
-
-#: ../../FCS_Menu.md:489
-msgid "リアルタイム再生"
-msgstr ""
-
-#: ../../FCS_Menu.md:555
-msgid "Status"
-msgstr ""
-
-#: ../../FCS_Menu.md:556
-msgid "Mayaとの接続状況を確認、クリックで接続をテストします。"
-msgstr ""
-
-#: ../../FCS_Menu.md:558
-msgid "OpenScene"
-msgstr ""
-
-#: ../../FCS_Menu.md:559
-msgid "セッションに登録しているMayaシーンを開きます。"
-msgstr ""
-
-#: ../../FCS_Menu.md:561
-msgid "Launch"
+#: ../../FCS_Menu.md:463
+msgid "タイムライン再生時に音声をミュートします。"
 msgstr ""
 
 #: ../../FCS_Menu.md:562
-msgid ""
-"2018 - 2026　セッションに登録しているバージョンのMayaを新規で開きます。 SettingsでOpen maya scene at "
-"launchをONにしている場合、Mayaシーンも開きます。"
+msgid "▼Resolution"
 msgstr ""
 
-#: ../../FCS_Menu.md:565
-msgid "GenerateMesh for Tracking Edits"
+#: ../../FCS_Menu.md:463
+msgid "1 : 1 - 1 : 8"
 msgstr ""
 
-#: ../../FCS_Menu.md:569
-msgid "View"
+#: ../../FCS_Menu.md:463
+msgid "表示している動画の解像度を変更します。"
 msgstr ""
 
 #: ../../FCS_Menu.md:572
+msgid "▼Sync"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "タイムラインをMayaと同期しません。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "FCSのタイムラインの値をMayaのタイムスライダーへ送信します。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Mayaのタイムスライダーの値をFCSのタイムラインへ送信します。　※要プラグイン"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "FCSとMayaのタイムラインを相互に同期します。　※要プラグイン"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Every Frame"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "すべてのフレームを再生"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Real Time"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "リアルタイム再生"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Status"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Mayaとの接続状況を確認、クリックで接続をテストします。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Open Scene"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "セッションに登録しているMayaシーンを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Launch▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "2018 - 2026"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid ""
+"セッションに登録しているバージョンのMayaを新規で開きます。<br>SettingsでOpen maya scene at "
+"launchをONにしている場合、Mayaシーンも開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "GenerateMesh for Tracking Edits"
+msgstr ""
+
+#: ../../FCS_Menu.md:602
+msgid "View"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "☑ Fullscreen"
 msgstr ""
 
-#: ../../FCS_Menu.md:573
+#: ../../FCS_Menu.md:463
 msgid "全画面表示"
 msgstr ""
 
-#: ../../FCS_Menu.md:575
+#: ../../FCS_Menu.md:463
 msgid "☑ VSync"
 msgstr ""
 
-#: ../../FCS_Menu.md:576
+#: ../../FCS_Menu.md:463
+msgid "垂直同期を設定します。基本的にはONにしてください。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "Scale"
 msgstr ""
 
-#: ../../FCS_Menu.md:577
-msgid "UI表示の拡大率"
+#: ../../FCS_Menu.md:463
+msgid "UI表示の拡大率を変更します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:579
+#: ../../FCS_Menu.md:463
 msgid "☑ Always on Top"
 msgstr ""
 
-#: ../../FCS_Menu.md:580
-msgid "FCSを常に最前面に表示する"
+#: ../../FCS_Menu.md:463
+msgid "FCSを常に最前面に表示します。"
 msgstr ""
 
-#: ../../FCS_Menu.md:582
+#: ../../FCS_Menu.md:463
 msgid "Layout▶"
 msgstr ""
 
-#: ../../FCS_Menu.md:583
-msgid "プリセットのレイアウトに切り替えます。"
+#: ../../FCS_Menu.md:463
+msgid "プリセットのレイアウトに切り替えます。プリセットは以下の通りです。"
 msgstr ""
 
-#: ../../FCS_Menu.md:585
+#: ../../FCS_Menu.md:463 ../../FCS_Menu.md:625
 msgid "Pickup"
 msgstr ""
 
-#: ../../FCS_Menu.md:591
+#: ../../FCS_Menu.md:463
+msgid "Pickupレイアウトに切り替える"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Processレイアウトに切り替える"
+msgstr ""
+
+#: ../../FCS_Menu.md:463 ../../FCS_Menu.md:631
 msgid "Register"
 msgstr ""
 
-#: ../../FCS_Menu.md:594
+#: ../../FCS_Menu.md:463
+msgid "Registerレイアウトに切り替える"
+msgstr ""
+
+#: ../../FCS_Menu.md:463 ../../FCS_Menu.md:634
 msgid "Retarget"
 msgstr ""
 
-#: ../../FCS_Menu.md:597
-msgid "*無くなったかも…？確認▼*"
+#: ../../FCS_Menu.md:463
+msgid "Retargetレイアウトに切り替える"
 msgstr ""
 
-#: ../../FCS_Menu.md:598
-msgid "(Layout名)▶"
+#: ../../FCS_Menu.md:463
+msgid "sample_Layout(Layout名)▶"
 msgstr ""
 
-#: ../../FCS_Menu.md:600
-msgid "保存したレイアウトに変更します。"
+#: ../../FCS_Menu.md:463
+msgid "保存したレイアウトに変更する"
 msgstr ""
 
-#: ../../FCS_Menu.md:603
-msgid "保存したレイアウトを削除します。 *無くなったかも…？確認▲*"
+#: ../../FCS_Menu.md:463
+msgid "保存したレイアウトを削除する"
 msgstr ""
 
-#: ../../FCS_Menu.md:606
+#: ../../FCS_Menu.md:463
 msgid "Save current"
 msgstr ""
 
-#: ../../FCS_Menu.md:607
-msgid "現在のレイアウトに名前をつけて保存します。"
-msgstr ""
-
-#: ../../FCS_Menu.md:612
-msgid "Explore"
-msgstr ""
-
-#: ../../FCS_Menu.md:613
-msgid "Windowsエクスプローラーを開きます。"
-msgstr ""
-
-#: ../../FCS_Menu.md:615
-msgid "Project"
-msgstr ""
-
-#: ../../FCS_Menu.md:619
-msgid "Retarget Folder"
-msgstr ""
-
-#: ../../FCS_Menu.md:620
-msgid "Video Data"
-msgstr ""
-
-#: ../../FCS_Menu.md:624
-msgid "Scenes"
-msgstr ""
-
-#: ../../FCS_Menu.md:627
-msgid "Output Scene"
-msgstr ""
-
-#: ../../FCS_Menu.md:628
-msgid "tmp"
-msgstr ""
-
-#: ../../FCS_Menu.md:629
-msgid "Logなどが格納されているフォルダ"
-msgstr ""
-
-#: ../../FCS_Menu.md:636
-msgid "License"
-msgstr ""
-
-#: ../../FCS_Menu.md:637
-msgid "ライセンスの管理"
-msgstr ""
-
-#: ../../FCS_Menu.md:639
-msgid "About"
+#: ../../FCS_Menu.md:463
+msgid "現在のレイアウトに名前を付けて保存する"
 msgstr ""
 
 #: ../../FCS_Menu.md:640
+msgid "Explore"
+msgstr ""
+
+#: ../../FCS_Menu.md:641
+msgid "Windowsエクスプローラーを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Project"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "プロジェクトフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "FCSフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Facialフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "tmp"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Logなどが格納されているユーザー設定フォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "FCS▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Actorフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Characterフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Retarget Folder"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "RetargetDataフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Video Data"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "VideoDataフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Facial▶"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "workspaceフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "RecDataフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Scenes"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Scenesフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "SetDataフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "Output Scene"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "_Outputsフォルダを開きます。"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "License"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "ライセンスの管理"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
+msgid "About"
+msgstr ""
+
+#: ../../FCS_Menu.md:463
 msgid "FCSについて"
 msgstr ""
 
-#: ../../FCS_Menu.md:642
+#: ../../FCS_Menu.md:463
 msgid "Help"
 msgstr ""
 
-#: ../../FCS_Menu.md:643
+#: ../../FCS_Menu.md:463
 msgid "FCSマニュアルの表示"
 msgstr ""
 
-#: ../../FCS_Menu.md:645
+#: ../../FCS_Menu.md:463
 msgid "3rd party licenses"
 msgstr ""
 
-#: ../../FCS_Menu.md:646
+#: ../../FCS_Menu.md:463
 msgid "サードパーティーライセンスについて"
 msgstr ""
+
+#~ msgid ""
+#~ "characterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。<BR>*現時点のセッション作成後の正式な挙動確認"
+#~ "　プロジェクトが開く？*"
+#~ msgstr ""
+
+#~ msgid "*セッションを保存するとは?*"
+#~ msgstr ""
+
+#~ msgid "エクスポート先のフォルダパス入力欄（フルパスで指定）"
+#~ msgstr ""
+
+#~ msgid "要 再起動"
+#~ msgstr ""
+
+#~ msgid "再起動"
+#~ msgstr ""
+
+#~ msgid "*タイムラインのプロファイルを開く？*"
+#~ msgstr ""
+
+#~ msgid "▼Misk"
+#~ msgstr ""
+
+#~ msgid "Settings > Misk"
+#~ msgstr ""
+
+#~ msgid "アップデート*確認*"
+#~ msgstr ""
+
+#~ msgid "設定を保存します。設定によってはFCSを再起動することで反映されます。"
+#~ msgstr ""
+
+#~ msgid "FCSを終了します。「.Lockファイル」を削除します。"
+#~ msgstr ""
+
+#~ msgid "右クリックメニューで表示する内容を変更することができます。"
+#~ msgstr ""
+
+#~ msgid "⑧"
+#~ msgstr ""
+
+#~ msgid "入力したコントローラー名でコントローラー表にフィルターをかけます"
+#~ msgstr ""
+
+#~ msgid "指定した項目（Region）を絞り込んで表示します"
+#~ msgstr ""
+
+#~ msgid "コントローラー設定を登録・保存します"
+#~ msgstr ""
+
+#~ msgid "選択したコントローラーを登録します"
+#~ msgstr ""
+
+#~ msgid "表の数値の操作をMayaと同期させます"
+#~ msgstr ""
+
+#~ msgid "☑ を入れたコントローラーのどの値に対しての処理か指定します"
+#~ msgstr ""
+
+#~ msgid "☑ を入れたコントローラーのRegionを設定します"
+#~ msgstr ""
+
+#~ msgid "☑ を入れたコントローラーを表から削除します"
+#~ msgstr ""
+
+#~ msgid "controller上に表示されているコントローラーすべての ☑ / □ を切り替えます"
+#~ msgstr ""
+
+#~ msgid "Regionが登録されていないコントローラー(null)を表から削除します"
+#~ msgstr ""
+
+#~ msgid "登録したコントローラー情報をすべて削除します"
+#~ msgstr ""
+
+#~ msgid "以前Saveした際のデータの状態に戻します"
+#~ msgstr ""
+
+#~ msgid "pプロファイルの登録数を表示します*確認*"
+#~ msgstr ""
+
+#~ msgid "フィルターをかけます*確認*"
+#~ msgstr ""
+
+#~ msgid "Upper Enabled"
+#~ msgstr ""
+
+#~ msgid "Misk"
+#~ msgstr ""
+
+#~ msgid "数値の操作をMayaと同期させます　*確認*"
+#~ msgstr ""
+
+#~ msgid "現在登録されているprofile情報をMayaに転送する"
+#~ msgstr ""
+
+#~ msgid "saveボタンを押す際にMaya上での表情データを取得しFCSに反映・登録する"
+#~ msgstr ""
+
+#~ msgid "「To Maya」と「From Maya」をどちらも行い、FCSとMayaを双方向で同期させる"
+#~ msgstr ""
+
+#~ msgid "FCSとMayaを同期させない"
+#~ msgstr ""
+
+#~ msgid "プロファイル名"
+#~ msgstr ""
+
+#~ msgid "プロファイルを登録・保存します"
+#~ msgstr ""
+
+#~ msgid "Denoising"
+#~ msgstr ""
+
+#~ msgid "以下のウィンドウは初めから表示されており、メニューの中に含まれません。"
+#~ msgstr ""
+
+#~ msgid "[0]/[100]"
+#~ msgstr ""
+
+#~ msgid "動画の再生範囲を変更します"
+#~ msgstr ""
+
+#~ msgid "[0]"
+#~ msgstr ""
+
+#~ msgid "現在のフレーム"
+#~ msgstr ""
+
+#~ msgid "1フレーム前 / 後に移動します"
+#~ msgstr ""
+
+#~ msgid "次のプロファイルにジャンプします"
+#~ msgstr ""
+
+#~ msgid "動画名が表示されます（Videosウィンドウと同じ右クリックメニューが使用できる）"
+#~ msgstr ""
+
+#~ msgid "プロファイル名が表示されます？*確認*"
+#~ msgstr ""
+
+#~ msgid "タイムラインをドラッグした際にプロファイルにスナップする"
+#~ msgstr ""
+
+#~ msgid "タイムラインをループ再生する"
+#~ msgstr ""
+
+#~ msgid "タイムライン再生時に音声をミュートする"
+#~ msgstr ""
+
+#~ msgid "表示している動画の解像度を変更する"
+#~ msgstr ""
+
+#~ msgid "タイムラインをMayaと同期しない"
+#~ msgstr ""
+
+#~ msgid "FCSのタイムラインの値をMayaのタイムスライダーへ送信する"
+#~ msgstr ""
+
+#~ msgid "Mayaのタイムスライダーの値をFCSのタイムラインへ送信する　※要プラグイン"
+#~ msgstr ""
+
+#~ msgid "FCSとMayaのタイムラインを相互に同期する"
+#~ msgstr ""
+
+#~ msgid "OpenScene"
+#~ msgstr ""
+
+#~ msgid "Launch"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "2018 - 2026　セッションに登録しているバージョンのMayaを新規で開きます。 "
+#~ "SettingsでOpen maya scene at "
+#~ "launchをONにしている場合、Mayaシーンも開きます。"
+#~ msgstr ""
+
+#~ msgid "UI表示の拡大率"
+#~ msgstr ""
+
+#~ msgid "FCSを常に最前面に表示する"
+#~ msgstr ""
+
+#~ msgid "プリセットのレイアウトに切り替えます。"
+#~ msgstr ""
+
+#~ msgid "*無くなったかも…？確認▼*"
+#~ msgstr ""
+
+#~ msgid "(Layout名)▶"
+#~ msgstr ""
+
+#~ msgid "保存したレイアウトに変更します。"
+#~ msgstr ""
+
+#~ msgid "保存したレイアウトを削除します。 *無くなったかも…？確認▲*"
+#~ msgstr ""
+
+#~ msgid "現在のレイアウトに名前をつけて保存します。"
+#~ msgstr ""
+
+#~ msgid "Logなどが格納されているフォルダ"
+#~ msgstr ""
 
