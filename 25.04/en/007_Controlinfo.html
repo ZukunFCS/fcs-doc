@@ -1,0 +1,476 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register controller &mdash; FCS Docs 25.04 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=a7fc223c"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Creating profiles" href="008_profile.html" />
+    <link rel="prev" title="Launching Maya" href="006_maya.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="000_release_note.html">Release Note</a></li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">What is FCS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">Prerequisite</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">Launching FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Create or open a Session</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Launching Maya</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Register controller</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#controller">Registering controller</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#upper">Registering Upper</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eyelid">Registering Eyelid</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gaze">Registering gaze</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lower">Registering Lower</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Troubleshooting</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">If you cannot save</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">If you want to register a controller other than what’s in this user’s guide</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-select">If you cannot add a controller with Add select</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">If you want to change the registration order of controllers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">If you want to revert the registration order of controllers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">After rearranging to make it easier to work,</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Creating profiles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_animation.html">Output animation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solver (advanced settings for detailed adjustments)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">Export</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">Auto pickup (experimental)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="014_release_schedule.html">Release Schedule</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">Development roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_Glossary.html">Glossary of terms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_StarterKit.html">FCS Starter Kit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_FAQ.html">Frequently Asked Question</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Register controller</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/007_Controlinfo.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="contoroller">
+<h1>Register controller<a class="headerlink" href="#contoroller" title="Link to this heading"></a></h1>
+<p>Launch controller window from Window→Controller<br />
+In the controller window, you can register the controller rig of Maya Scene that you are connected to.</p>
+<p>In FCS, segmentation of facial parts is called “Region”.   For animation analysis, please register one or more controller rigs for “upper”, “eyelid”, “gaze” and “lower”.</p>
+<p>You can register the maximum and minimum values ​​of Region when registering the controller rig.</p>
+<figure class="align-center" id="id7">
+<a class="reference internal image-reference" href="_images/C001.png"><img alt="_images/C001.png" src="_images/C001.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Launch controller window from Window→Controller<br />
+In the controller window, you can register the controller rig of Maya Scene that you are connected to.</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The maximum and minimum values will be automatically entered, but if the values ​​are too large, please adjust them.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please exclude non-numeric attributes from registration. If there is a non-numeric (True/False) attribute, FCS will not work properly.</p>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/C002.png"><img alt="_images/C002.png" src="_images/C002.png" style="width: 80%;" />
+</a>
+</figure>
+<p>all▼: all/Upper/Eyelid/Gaze/Lower/null   Select items (part segment) that you want to display.</p>
+<ul class="simple">
+<li><p>Maya</p>
+<ul>
+<li><p>Add selected: Register the selected controller</p></li>
+<li><p>Sync: ☑ sync numerical operations with Maya</p></li>
+</ul>
+</li>
+<li><p>Add selected</p>
+<ul>
+<li><p>Upper/Eyelid/Gaze/Lower: Region Register controller for each part segment</p></li>
+<li><p>Remove: delete the selected controller with ☑</p></li>
+<li><p>Select All/Unselect All: Check/uncheck ☑ for all controllers displayed on the controller.</p></li>
+</ul>
+</li>
+<li><p>▼Advanced</p>
+<ul>
+<li><p>Remove empty: delete a controller that does not have any regions registered (null)</p></li>
+<li><p>Delete all: delete all the added/registered controller information</p></li>
+<li><p>Reset: revert to the latest saved data</p></li>
+</ul>
+</li>
+<li><p>Save: register controller Info.</p></li>
+</ul>
+<section id="controller">
+<h2>Registering controller<a class="headerlink" href="#controller" title="Link to this heading"></a></h2>
+<section id="upper">
+<h3>Registering Upper<a class="headerlink" href="#upper" title="Link to this heading"></a></h3>
+<figure class="align-center" id="id8">
+<a class="reference internal image-reference" href="_images/image36.png"><img alt="_images/image36.png" src="_images/image36.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select the controllers that you want to register in Upper on Maya</span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id9">
+<a class="reference internal image-reference" href="_images/C003.png"><img alt="_images/C003.png" src="_images/C003.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Add selected</span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>The controller selected in Maya will be displayed under “Controller”.</p>
+<figure class="align-center" id="id10">
+<a class="reference internal image-reference" href="_images/C004.png"><img alt="_images/C004.png" src="_images/C004.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select the controller you want to register in Upper with “select All”. *null=Region not specified</span><a class="headerlink" href="#id10" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>If we want to register a controller for Upper,</p>
+<figure class="align-center" id="id11">
+<a class="reference internal image-reference" href="_images/C005.png"><img alt="_images/C005.png" src="_images/C005.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select Upper.  Once “Upper” is displayed under Region, registration is complete.```{figure} images/C005.pn</span><a class="headerlink" href="#id11" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="eyelid">
+<h3>Registering Eyelid<a class="headerlink" href="#eyelid" title="Link to this heading"></a></h3>
+<figure class="align-center" id="id12">
+<a class="reference internal image-reference" href="_images/image49.png"><img alt="_images/image49.png" src="_images/image49.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select the controllers that you want to register in Eyelid on Maya</span><a class="headerlink" href="#id12" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id13">
+<a class="reference internal image-reference" href="_images/C006.png"><img alt="_images/C006.png" src="_images/C006.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">The controller selected in “Add selected” will be displayed under Upper</span><a class="headerlink" href="#id13" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id14">
+<a class="reference internal image-reference" href="_images/C007.png"><img alt="_images/C007.png" src="_images/C007.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select the all▼ tab on the top right and change it to null▼<br />
+You can hide the controllers registered in Upper in order to display controllers that are not registered yet.</span><a class="headerlink" href="#id14" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are selecting Select All, Upper will be included in the display. You can clear the selection by clicking Unselect All.</p>
+</div>
+<figure class="align-center" id="id15">
+<a class="reference internal image-reference" href="_images/C008.png"><img alt="_images/C008.png" src="_images/C008.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select the controller you want to register to Eyelid by clicking Select All (=select all)     ```{figure} images/C008.pn</span><a class="headerlink" href="#id15" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id16">
+<a class="reference internal image-reference" href="_images/C009.png"><img alt="_images/C009.png" src="_images/C009.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Registering Eyelid</span><a class="headerlink" href="#id16" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Since this is set as “null”, the segment part will not be displayed once it is registered for a Region.</p>
+</div>
+<p>If you select the all tab, all segment parts will be displayed again.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/C010.png"><img alt="_images/C010.png" src="_images/C010.png" style="width: 80%;" />
+</a>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This is a demonstration of how to re-display all segment parts, so you can keep the setting under “null” until all controllers are registered. You can also narrow down the display by selecting registered Region.</p>
+</div>
+</section>
+<section id="gaze">
+<h3>Registering gaze<a class="headerlink" href="#gaze" title="Link to this heading"></a></h3>
+<figure class="align-center" id="id17">
+<a class="reference internal image-reference" href="_images/image47.png"><img alt="_images/image47.png" src="_images/image47.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select the controllers that you want to register in Upper on Maya</span><a class="headerlink" href="#id17" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id18">
+<a class="reference internal image-reference" href="_images/C011.png"><img alt="_images/C011.png" src="_images/C011.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Add selected: the added controller will be displayed under the registered controllers.</span><a class="headerlink" href="#id18" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id19">
+<a class="reference internal image-reference" href="_images/C012.png"><img alt="_images/C012.png" src="_images/C012.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select the all▼ tab on the top right window and change it to null▼</span><a class="headerlink" href="#id19" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id20">
+<a class="reference internal image-reference" href="_images/C013.png"><img alt="_images/C013.png" src="_images/C013.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select All</span><a class="headerlink" href="#id20" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id21">
+<a class="reference internal image-reference" href="_images/C014.png"><img alt="_images/C014.png" src="_images/C014.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Registering gaze</span><a class="headerlink" href="#id21" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Since this is set as “null”, the segment part will not be displayed once it is registered for a Region.</p>
+</div>
+</section>
+<section id="lower">
+<h3>Registering Lower<a class="headerlink" href="#lower" title="Link to this heading"></a></h3>
+<figure class="align-center" id="id22">
+<a class="reference internal image-reference" href="_images/image60.png"><img alt="_images/image60.png" src="_images/image60.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select the controllers you want to register in Lower on Maya</span><a class="headerlink" href="#id22" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Since this was set under “null” in the previous step, only nulls are displayed.</p>
+</div>
+<figure class="align-center" id="id23">
+<a class="reference internal image-reference" href="_images/C015.png"><img alt="_images/C015.png" src="_images/C015.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Add selected</span><a class="headerlink" href="#id23" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id24">
+<a class="reference internal image-reference" href="_images/C016.png"><img alt="_images/C016.png" src="_images/C016.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select All</span><a class="headerlink" href="#id24" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id25">
+<a class="reference internal image-reference" href="_images/C017.png"><img alt="_images/C017.png" src="_images/C017.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Registering Lower</span><a class="headerlink" href="#id25" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Since this is set under “null”, your selection will be hidden once you register it for Region.</p>
+</div>
+<p>Register all the controllers for Upper/Eyelid/Gaze/Lower</p>
+<figure class="align-center" id="id26">
+<a class="reference internal image-reference" href="_images/C018.png"><img alt="_images/C018.png" src="_images/C018.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Save</span><a class="headerlink" href="#id26" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If there are unregistered items, they cannot be saved.</p>
+</div>
+</section>
+</section>
+<section id="id1">
+<h2>Troubleshooting<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<section id="id2">
+<h3>If you cannot save<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>After confirming what needs to be registered</p>
+<figure class="align-center" id="id27">
+<a class="reference internal image-reference" href="_images/C019.png"><img alt="_images/C019.png" src="_images/C019.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">For the item you want to delete, check the box ☑ → Remove</span><a class="headerlink" href="#id27" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id28">
+<a class="reference internal image-reference" href="_images/C020.png"><img alt="_images/C020.png" src="_images/C020.png" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Bulk delete controllers that remain null.</span><a class="headerlink" href="#id28" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="id3">
+<h3>If you want to register a controller other than what’s in this user’s guide<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>In this user’s guide, we are using UnrealEngine Metahuman, but any controller created in other 3DCG creation software is also usable as long as you have a controller rig that can link each part. Only the minimum necessary controllers are registered as a default setting. You can add as many controllers as you want to register.</p>
+</section>
+<section id="add-select">
+<h3>If you cannot add a controller with Add select<a class="headerlink" href="#add-select" title="Link to this heading"></a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please make sure the version of Maya matches with the setting when you created Maya Scene.</p>
+</div>
+</section>
+<section id="id4">
+<h3>If you want to change the registration order of controllers<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>Example: L/R blinks are registered far to each other and it’s not convenient to use since I wan to line blink vertically (adjacent).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can change the order of controllers by drag and drop.</p>
+</div>
+</section>
+<section id="id5">
+<h3>If you want to revert the registration order of controllers<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Reset   It will revert to the order when it was registered. ```{figure} images/C021.pn</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/C021.png"><img alt="_images/C021.png" src="_images/C021.png" style="width: 80%;" />
+</a>
+</figure>
+</section>
+<section id="id6">
+<h3>After rearranging to make it easier to work,<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Save</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="_images/C018.png"><img alt="_images/C018.png" src="_images/C018.png" style="width: 80%;" />
+</a>
+</figure>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="006_maya.html" class="btn btn-neutral float-left" title="Launching Maya" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="008_profile.html" class="btn btn-neutral float-right" title="Creating profiles" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 25.04 Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,380 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contorollerの登録 &mdash; FCS Docs 24.07 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=e41cbf3e"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Profileの作成" href="008_profile.html" />
+    <link rel="prev" title="Mayaの起動" href="006_maya.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">事前準備</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">FCS起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Session作成もしくはオープン</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Mayaの起動</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contorollerの登録</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#controller">Controllerの登録</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#upper">Upperの登録方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eyelid">Eyelidの登録方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gaze">gazeの登録方法</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#lower">lowerの登録方法</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">トラブルシューティング</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">セーブできない場合</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">マニュアル以外のコントローラーを登録したい場合</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#add-select">Add selectでコントローラーの追加ができない場合</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">コントローラーの登録順番を変えたい場合</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">コントローラーの登録順番を戻したい場合</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Profileの作成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html">アニメーションの出力方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solverの詳細設定（細かな調整が必要な方向け）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">エクスポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">サポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%82%AD%E3%83%83%E3%83%88.html">FCSスターターキット</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html">よくある質問（FAQ）</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Contorollerの登録</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/007_Controlinfo.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="contoroller">
+<h1>Contorollerの登録<a class="headerlink" href="#contoroller" title="Link to this heading"></a></h1>
+<p>Window▶ControllerでConrollerウィンドウが起動します。<br />
+Contollerウィンドウでは、接続しているMayaSceneのコントローラーリグを登録することができます。</p>
+<p>FCSでは顔のパーツ区分のことをRegionと呼びます。<br />
+アニメーション解析のため、Upper、Eyelid、Gaze、Lowerにそれぞれコントローラーリグを１つ以上登録してください。</p>
+<p>また、コントローラーリグの登録時にRegionの最大値最小値も登録できます。
+<img alt="" src="_images/C001.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>数値ではない(True/False)アトリビュートがあると正常に動作しないため、登録から除外してください。</p>
+</div>
+<p><img alt="" src="_images/C002.png" /></p>
+<p>一覧<br />
+all▼：all/Upper/Eyelid/Gaze/Lower/null　指定した項目（部位の区分）を絞り込んで表示</p>
+<p>Maya<br />
+Add selected：選択したコントローラーを登録<br />
+Sync：- [x] 数値操作をMayaと連動する</p>
+<p>Selected<br />
+Upper/Eyelid/Gaze/Lower：Region　部位の区分ごとにコントローラーを登録<br />
+Remove：- [x] を入れたコントローラーを削除する<br />
+select All/Unselect All：controller上に表示されているコントローラーすべてに- [x] /- [x] 解除</p>
+<p>▼Advanced<br />
+Remove empty：Regionが登録されていないコントローラー(null)を削除する<br />
+Delete all：追加 - 登録したコントローラー情報をすべて削除する<br />
+Reset：Saveされているデータの状態に戻す</p>
+<p>save：controller Infoを登録。</p>
+<section id="controller">
+<h2>Controllerの登録<a class="headerlink" href="#controller" title="Link to this heading"></a></h2>
+<section id="upper">
+<h3>Upperの登録方法<a class="headerlink" href="#upper" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>MayaでUpperに登録したいコントローラーを選択
+<img alt="" src="_images/image36.png" /></p></li>
+</ul>
+<p>FCSに戻り</p>
+<ul class="simple">
+<li><p>Add selected
+<img alt="" src="_images/C003.png" /></p></li>
+</ul>
+<p>Mayaで選択したコントローラーが「Controller」に表示されるので</p>
+<ul class="simple">
+<li><p>select All（=全選択）でUpperに登録したいコントローラーを選択<br />
+※null＝Regionが未指定
+<img alt="" src="_images/C004.png" /></p></li>
+</ul>
+<p>今回はUpperに登録したいので</p>
+<ul class="simple">
+<li><p>Upperを選択<br />
+RegionにUpperと表示されたら登録できます。
+<img alt="" src="_images/C005.png" /></p></li>
+</ul>
+</section>
+<section id="eyelid">
+<h3>Eyelidの登録方法<a class="headerlink" href="#eyelid" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>MayaでEyelidに登録したいコントローラーを選択
+<img alt="" src="_images/image49.png" /></p></li>
+</ul>
+<p>FCSに戻り</p>
+<ul class="simple">
+<li><p>Add selected<br />
+Upperの下にAdd selectedで追加したコントローラーが表示されます。
+<img alt="" src="_images/C006.png" /></p></li>
+<li><p>右上のall▼のタブを選択し、null▼に変更する<br />
+Upperに登録したものを非表示にし、未登録のコントローラーのみ表示させることができます。
+<img alt="" src="_images/C007.png" /></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>allのままだとUpperも表示されているため、select AllするとUpperも選択されてしまいます。<br />
+間違って全選択してしまった場合はUnselect Allで選択解除が可能です。</p>
+</div>
+<p>nullにすることで登録されていない項目が絞り込まれるのでUpperと同様に</p>
+<ul class="simple">
+<li><p>select All（=全選択）でEyelidに登録したいコントローラーを選択<br />
+<img alt="" src="_images/C008.png" /></p></li>
+<li><p>Eyelidを選択<br />
+<img alt="" src="_images/C009.png" /></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>nullで絞り込んでいるのでRegionを登録すると非表示になります。</p>
+</div>
+<p>allに戻すとすべて表示されます。
+<img alt="" src="_images/C010.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>再表示したい場合の例なので、すべて登録するまでnullのままでも問題ありません。<br />
+また、登録したRegionで絞り込むこともできます。</p>
+</div>
+</section>
+<section id="gaze">
+<h3>gazeの登録方法<a class="headerlink" href="#gaze" title="Link to this heading"></a></h3>
+<p>同様に</p>
+<ul class="simple">
+<li><p>gazeに登録したいコントローラーを選択し
+<img alt="" src="_images/image47.png" /></p></li>
+<li><p>Add selected
+登録済みのコントローラーの下に追加したコントローラーが表示されます。
+<img alt="" src="_images/C011.png" /></p></li>
+<li><p>右上のall▼のタブを選択し、null▼に変更</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>nullから変更していない場合はこの手順はスキップ</p>
+</div>
+<p><img alt="" src="_images/C012.png" /></p>
+<ul class="simple">
+<li><p>select All
+<img alt="" src="_images/C013.png" /></p></li>
+<li><p>gaze
+<img alt="" src="_images/C014.png" /></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>nullで絞り込んでいるのでRegionを登録すると非表示になります。</p>
+</div>
+</section>
+<section id="lower">
+<h3>lowerの登録方法<a class="headerlink" href="#lower" title="Link to this heading"></a></h3>
+<p>同様に</p>
+<ul class="simple">
+<li><p>Mayaでlowerに登録したいコントローラーを選択<br />
+<img alt="" src="_images/image60.png" /></p></li>
+<li><p>Add selected</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>前段でnullで絞り込んでいるのでnullのみが表示されます</p>
+</div>
+<p><img alt="" src="_images/C015.png" /></p>
+<ul class="simple">
+<li><p>select All
+<img alt="" src="_images/C016.png" /></p></li>
+<li><p>lower
+<img alt="" src="_images/C017.png" /></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>nullで絞り込んでいるのでRegionを登録すると非表示になります</p>
+</div>
+<p>Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら</p>
+<ul class="simple">
+<li><p>save
+<img alt="" src="_images/C018.png" /></p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>未登録状態のものがあるとSave出来ません</p>
+</div>
+</section>
+</section>
+<section id="id1">
+<h2>トラブルシューティング<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<section id="id2">
+<h3>セーブできない場合<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>登録すべきものか確認後</p>
+<ul class="simple">
+<li><p>削除したい項目に- [x] →Remove<br />
+<img alt="" src="_images/C019.png" /></p></li>
+<li><p>nullのままのコントローラーを一括削除
+<img alt="" src="_images/C020.png" /></p></li>
+</ul>
+</section>
+<section id="id3">
+<h3>マニュアル以外のコントローラーを登録したい場合<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<p>本マニュアルでは、UnrealEngineのMetahumanを使用していますが、<br />
+別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。<br />
+また、必要最低限のコントローラーのみを登録していますので、<br />
+任意で登録するコントローラーを増やすことができます。</p>
+</section>
+<section id="add-select">
+<h3>Add selectでコントローラーの追加ができない場合<a class="headerlink" href="#add-select" title="Link to this heading"></a></h3>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>設定したMayaバージョンとsceneを作成したMayaバージョンが一致しているか確認してください。</p>
+</div>
+</section>
+<section id="id4">
+<h3>コントローラーの登録順番を変えたい場合<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>例：L/R　blinkが離れていて不便なのでblinkを上下（隣接するよう）に並べたい</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>並び替えたいコントローラーをドラッグしドロップで順番を変更できます。</p>
+</div>
+</section>
+<section id="id5">
+<h3>コントローラーの登録順番を戻したい場合<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Reset<br />
+controller info登録時の順番に戻ります。
+<img alt="" src="_images/C021.png" /></p></li>
+</ul>
+<p>作業しやすいように並び替えたら</p>
+<ul class="simple">
+<li><p>Save
+<img alt="" src="_images/C018.png" /></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="006_maya.html" class="btn btn-neutral float-left" title="Mayaの起動" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="008_profile.html" class="btn btn-neutral float-right" title="Profileの作成" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 24.07
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
