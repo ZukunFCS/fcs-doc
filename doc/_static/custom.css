@@ -2,3 +2,11 @@
 table.list-table > tbody > tr:last-child > td {
     border-bottom: none;
 }
+
+@media print {
+  .admonition,
+  .admonition > .admonition-title {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
