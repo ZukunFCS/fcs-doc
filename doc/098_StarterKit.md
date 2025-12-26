@@ -96,11 +96,11 @@ Profileの具体的な作成方法については、[Profileの作成ページ](
 
 FCS Sessionは、予め構築されたFCS Sessionフォルダ構造内に格納されています。  
 FCS Sessionフォルダ構造の詳細については、[Session作成もしくはオープンページ](https://zukunfcs.github.io/fcs-doc/latest/jp/005_session.html#session)をご確認ください。  
-※ Mayaデータ、動画データについては必ずしもFCS Sessionフォルダ構造内に置く必要はありません。
 <br>
 
 ダウンロードいただいた直後では、Mayaデータやサンプル動画のパスが異なるため再設定が必要です。  
-Mayaデータのパス再設定方法、サンプル動画のインポート方法については下記の手順を参考にしてください。
+Mayaデータのパス再設定方法、サンプル動画のインポート方法については下記の手順を参考にしてください。  
+  *<span style="font-size:75%;">Mayaデータ、サンプル動画は必ずしもFCS Sessionフォルダ構造内に格納する必要はありません。</span>
 
 <details>
 <summary>Mayaデータのパス再設定方法</summary>
