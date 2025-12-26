@@ -30,7 +30,7 @@ Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデ�
 :align: center
 ```
 
-DIGITAL HUMANとは、東映ツークン研究所のデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作された3Dモデルです。  
+DIGITAL HUMANとは、東映ツークン研究所が長年培ってきたデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作された3Dモデルです。  
 MetaHumanに関する詳細は、Epic Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。  
   
 DIGITAL HUMANは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。  
@@ -94,8 +94,9 @@ Profile作成をしなくても解析自体は可能ですが、それだけで�
 Profileの具体的な作成方法については、[Profileの作成ページ](https://zukunfcs.github.io/fcs-doc/latest/jp/008_profile.html#profile)をご確認ください。
 ```
 
-参考例データでは、解析に使用する各データ（スターターキットコンテンツ1 - 3 - 4と同一内容）が、予め作成されたFCS Sessionフォルダ構造内に置かれています。  
-FCS Sessionフォルダ構造の詳細については、[Session作成もしくはオープンページ](https://zukunfcs.github.io/fcs-doc/latest/jp/005_session.html#session)をご確認ください。
+Sessionに関連するデータは、予め作成されたFCS Sessionフォルダ構造内に事前に作成されています。  
+FCS Sessionフォルダ構造の詳細については、[Session作成もしくはオープンページ](https://zukunfcs.github.io/fcs-doc/latest/jp/005_session.html#session)をご確認ください。  
+※ Mayaデータ、動画データについては必ずしもFCS Sessionフォルダ構造内に置く必要はありません。
 <br>
 
 ダウンロードいただいた直後では、Mayaデータやサンプル動画のパスが異なるため再設定が必要です。  
