@@ -79,14 +79,14 @@ FCSに読み込ませてご利用ください。
 <details>
 <summary>サンプル動画の内容について</summary>
 
- - DIGITAL NAGAKI：FCS紹介動画  
+ - DIGITAL HUMAN：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）  
  - NIKE SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）  
-  *<span style="font-size:75%;">株式会社モーションアクター - Mao様のご協力を得て収録</span>
+  *<span style="font-size:75%;">株式会社モーションアクター - 杉口秀樹様・Mao様のご協力を得て収録</span>
 </details>
 <br>
 
 ### 5: Profile作成済みのFCS Session参考例データ
-動画解析をお試しいただく際の参考例として作成された、DIGITAL NAGAKI＆NIKE SHIKINOのFCS Sessionデータです。  
+動画解析をお試しいただく際の参考例として作成された、DIGITAL HUMAN＆NIKE SHIKINOのFCS Sessionデータです。  
 どちらもフェイシャルROM体操動画から約50程度のProfileが既に作成済みのため、サンプル動画を読み込んでProfile作成をしていただくことで、ゼロからSessionを作成することなくFCSをご体験いただけます。
 
 ```{warning}
@@ -94,7 +94,7 @@ Profile作成をしなくても解析自体は可能ですが、それだけで�
 Profileの具体的な作成方法については、[Profileの作成ページ](https://zukunfcs.github.io/fcs-doc/latest/jp/008_profile.html#profile)をご確認ください。
 ```
 
-Sessionに関連するデータは、予め作成されたFCS Sessionフォルダ構造内に事前に作成されています。  
+FCS Sessionは、予め構築されたFCS Sessionフォルダ構造内に格納されています。  
 FCS Sessionフォルダ構造の詳細については、[Session作成もしくはオープンページ](https://zukunfcs.github.io/fcs-doc/latest/jp/005_session.html#session)をご確認ください。  
 ※ Mayaデータ、動画データについては必ずしもFCS Sessionフォルダ構造内に置く必要はありません。
 <br>
