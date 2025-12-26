@@ -1,0 +1,286 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FCSスターターキット &mdash; FCS Docs 24.07 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=e41cbf3e"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="よくある質問（FAQ）" href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html" />
+    <link rel="prev" title="用語集" href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">事前準備</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">FCS起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Session作成もしくはオープン</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Mayaの起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Contorollerの登録</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Profileの作成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.html">アニメーションの出力方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solverの詳細設定（細かな調整が必要な方向け）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">エクスポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">サポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html">用語集</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">FCSスターターキット</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">FCSスターターキットのコンテンツ一覧</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#maya3d">1. Mayaの3Dモデルデータ</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#digital-nagaki">DIGITAL NAGAKI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nike-shikino">NIKE SHIKINO</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#rompdf">2. フェイシャルROM体操の表情一覧PDF</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#rom">3. フェイシャルROM体操動画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">4. 動画解析 - アニメーション出力用のサンプル動画</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#profilefcs-session">5. Profile作成済みのFCS Session参考例データ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html">よくある質問（FAQ）</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">FCSスターターキット</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/098_スターターキット.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="fcs">
+<h1>FCSスターターキット<a class="headerlink" href="#fcs" title="Link to this heading"></a></h1>
+<p>FCS製品版のご購入、体験版のトライアル申し込みをされた方は、FCSスターターキットをご利用いただくことができます。<br />
+FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析 - 3Dモデルへのアニメーション出力 - ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。</p>
+<section id="id1">
+<h2>FCSスターターキットのコンテンツ一覧<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>FCSスターターキットには、以下のコンテンツが含まれています。</p>
+<p><img alt="" src="_images/013_image001.PNG" /></p>
+<ol class="arabic simple">
+<li><p>Mayaの3Dモデルデータ</p></li>
+<li><p>フェイシャルROM体操の表情一覧PDF</p></li>
+<li><p>フェイシャルROM体操動画</p></li>
+<li><p>動画解析 - アニメーション出力用のサンプル動画</p></li>
+<li><p>Profile作成済みのFCS Session参考例データ</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>一部コンテンツのご利用には、サードパーティー製のゲームエンジン - プラグインを別途ご用意いただく必要がある場合があります。</p>
+</div>
+</section>
+<section id="maya3d">
+<h2>1. Mayaの3Dモデルデータ<a class="headerlink" href="#maya3d" title="Link to this heading"></a></h2>
+<p>Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデータが含まれています。</p>
+<section id="digital-nagaki">
+<h3>DIGITAL NAGAKI<a class="headerlink" href="#digital-nagaki" title="Link to this heading"></a></h3>
+<p><img alt="" src="_images/013_DIGITALNAGAKI.png" /></p>
+<p>DIGITAL NAGAKIとは、ツークン研究所のデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作されたハイエンド3Dモデルです。<br />
+MetaHumanに関する詳細は、Epic Games社が提供する<a class="reference external" href="https://www.unrealengine.com/ja/metahuman">MetaHuman紹介ホームページ</a>をご確認ください。</p>
+<p>DIGITAL NAGAKIは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。<br />
+MetaHumanフェイシャルコントローラの使い方は、Epic Games社が提供する<a class="reference external" href="https://www.youtube.com/watch?v=GEpH3o44_58">こちらのYouTube解説動画</a>をご確認ください。</p>
+<p>ご利用の際には、同梱されているreadme.txtを必ずお読みください。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>DIGITAL NAGAKIをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。<br />
+事前にUnreal Engineのインストール、確認用プロジェクトの作成をお願いいたします。<br />
+Unreal Engineに関する詳細は、Epic Games社が提供する<a class="reference external" href="https://www.unrealengine.com/ja">Unreal Engine紹介ホームページ</a>をご確認ください。</p>
+</div>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Mayaでのレンダリングや、Unity*でのご利用はできませんのでご注意ください。<br />
+*<span style="font-size:75%;">Unity Technologies社が開発 - 提供するゲームエンジン</span></p>
+</div>
+</section>
+<section id="nike-shikino">
+<h3>NIKE SHIKINO<a class="headerlink" href="#nike-shikino" title="Link to this heading"></a></h3>
+<p><img alt="" src="_images/013_NIKESHIKINO.png" /></p>
+<p>NIKE SHIKINOとは、ツークン研究所が制作したオリジナルのセルルック3Dモデルです。<br />
+モデルの顔にはApple ARKit*に準拠したブレンドシェイプが設定されており、各ターゲットシェイプの数値を変えることでアニメーションさせることができます。<br />
+*<span style="font-size:75%;">Apple社が開発 - 提供するARフレームワークであり、フェイストラッキングシステムには52パターンの表情ターゲットシェイプが採用されている</span></p>
+<p>NIKE SHIKINOは、MayaやUnreal Engine、Unityでのご利用が可能です。<br />
+ご利用の際には、同梱されているreadme.txtを必ずお読みください。</p>
+</section>
+</section>
+<section id="rompdf">
+<h2>2. フェイシャルROM体操の表情一覧PDF<a class="headerlink" href="#rompdf" title="Link to this heading"></a></h2>
+<p>フェイシャルキャプチャーによる動画解析では、撮影された人物が取り得る表情の強度的な限界を知ることで、動画解析の効率性を高めることができます。<br />
+眉や目、口などといった顔の各パーツの可動域（= ROM：<strong>R</strong>ange <strong>O</strong>f <strong>M</strong>otion）取得を目的とした一連の表情パターンのことを、フェイシャルROM体操と呼びます。<br />
+本スターターキットでは、ツークン研究所がフェイシャルキャプチャー撮影で実際に使用している、約50パターンの表情リストをPDF化して同梱しています。</p>
+</section>
+<section id="rom">
+<h2>3. フェイシャルROM体操動画<a class="headerlink" href="#rom" title="Link to this heading"></a></h2>
+<p>フェイシャルROM体操を収録した動画です。<br />
+FCSに読み込ませてご利用ください。</p>
+</section>
+<section id="id2">
+<h2>4. 動画解析 - アニメーション出力用のサンプル動画<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>動画解析で使用するサンプル動画です。<br />
+FCSに読み込ませてご利用ください。</p>
+<details>
+<summary>サンプル動画の内容について</summary>
+<ul class="simple">
+<li><p>DIGITAL NAGAKI：FCS紹介動画</p></li>
+<li><p>NIKE SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）<br />
+*<span style="font-size:75%;">株式会社モーションアクター - Mao様のご協力を得て収録</span></p></li>
+</ul>
+</details>
+<br>
+</section>
+<section id="profilefcs-session">
+<h2>5. Profile作成済みのFCS Session参考例データ<a class="headerlink" href="#profilefcs-session" title="Link to this heading"></a></h2>
+<p>動画解析をお試しいただく際の参考例として作成された、DIGITAL NAGAKI＆NIKE SHIKINOのFCS Sessionデータです。<br />
+どちらもフェイシャルROM体操動画から約50程度のProfileが既に作成済みのため、サンプル動画を読み込んでProfile作成をしていただくことで、ゼロからSessionを作成することなくFCSをご体験いただけます。</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Profile作成をしなくても解析自体は可能ですが、それだけでは精度が十分ではないため、サンプル動画内からも最低1以上のProfile作成が必要です。<br />
+Profileの具体的な作成方法については、<a class="reference external" href="https://zukunfcs.github.io/fcs-doc/008_profile.html">Profileの作成ページ</a>をご確認ください。</p>
+</div>
+<p>参考例データでは、解析に使用する各データ（スターターキットコンテンツ1 - 3 - 4と同一内容）が、予め作成されたFCS Sessionフォルダ構造内に置かれています。<br />
+FCS Sessionフォルダ構造の詳細については、<a class="reference external" href="https://zukunfcs.github.io/fcs-doc/005_session.html">Session作成もしくはオープンページ</a>をご確認ください。
+<br></p>
+<p>ダウンロードいただいた直後では、Mayaデータやサンプル動画のパスが異なるため再設定が必要です。<br />
+Mayaデータのパス再設定方法、サンプル動画のインポート方法については下記の手順を参考にしてください。</p>
+<details>
+<summary>Mayaデータのパス再設定方法</summary>
+<p>Mayaデータについては、FCS上でMaya Sceneパス - Maya Baseパスそれぞれの再設定が必要です。<br />
+どちらのパスも以下の手順で同様に再設定ができます。
+<br></p>
+<p>①．FCSを起動してSessionを開いた後、File▶Session▶Infoウインドウを立ち上げる<br />
+②．現在のパスが表示されている欄で右クリックし、Editボタンをクリックする<br />
+③．Changeウインドウ内のBrowseボタンをクリックして、ファイルダイアログを起動する<br />
+④．FCS Sessionフォルダ構造内の該当ファイルを選択して、開くボタンをクリックする<br />
+⑤．Changeウインドウ内のパスが変更されたことを確認した後、Saveボタンをクリックする</p>
+<p><img alt="" src="_images/013_mayaDataRepath_01.png" />
+<img alt="" src="_images/013_mayaDataRepath_02.png" /></p>
+</details>
+<details>
+<summary>サンプル動画のインポート方法</summary>
+<p>サンプル動画は、以下の手順でインポートできます。
+<br></p>
+<p>①．FCSを起動してSessionを開いた後、Videosウインドウを立ち上げる<br />
+②．Importボタンをクリックして、ファイルダイアログを起動する<br />
+③．FCS Sessionフォルダ構造内の該当ファイルを選択し、開くボタンをクリックする</p>
+<p><img alt="" src="_images/013_movieImport.png" /></p>
+</details>
+<br>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="097_%E7%94%A8%E8%AA%9E%E9%9B%86.html" class="btn btn-neutral float-left" title="用語集" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="099_%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E8%B3%AA%E5%95%8F.html" class="btn btn-neutral float-right" title="よくある質問（FAQ）" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 24.07
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

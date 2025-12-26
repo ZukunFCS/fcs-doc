@@ -1,0 +1,251 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>リリースノート &mdash; FCS Docs 25.07 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=f6da8324"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="FCSとは" href="001_intro.html" />
+    <link rel="prev" title="FCSマニュアル" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">リリースノート</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-25-07-03">FCS 25.07.03</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#bug-fixes">バグ修正</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#misc">その他</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-25-07-02">FCS 25.07.02</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">バグ修正</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-25-07-01">FCS 25.07.01</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#new-manual">追加のマニュアルサイト</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#character-preview">Character Preview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#denosing-previously-smoothing">ノイズ除去（旧「Smoothing」）</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">その他</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="001_intro.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="002_install.html">事前準備</a></li>
+<li class="toctree-l1"><a class="reference internal" href="013_install_fcs.html">FCSのインストール</a></li>
+<li class="toctree-l1"><a class="reference internal" href="003_overview.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="004_launch.html">FCS起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="005_session.html">Session作成もしくはオープン</a></li>
+<li class="toctree-l1"><a class="reference internal" href="006_maya.html">Mayaの起動</a></li>
+<li class="toctree-l1"><a class="reference internal" href="007_Controlinfo.html">Contorollerの登録</a></li>
+<li class="toctree-l1"><a class="reference internal" href="008_profile.html">Profileの作成</a></li>
+<li class="toctree-l1"><a class="reference internal" href="009_animation.html">アニメーションの出力方法</a></li>
+<li class="toctree-l1"><a class="reference internal" href="010_Solver.html">Solverの詳細設定（細かな調整が必要な方向け）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="011_export.html">エクスポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="012_auto_pickup.html">オートピックアップ（ベータ版）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="014_release_schedule.html">リリーススケジュール</a></li>
+<li class="toctree-l1"><a class="reference internal" href="095_roadmap.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="096_support.html">サポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="097_Glossary.html">用語集</a></li>
+<li class="toctree-l1"><a class="reference internal" href="098_StarterKit.html">FCSスターターキット</a></li>
+<li class="toctree-l1"><a class="reference internal" href="099_FAQ.html">よくある質問（FAQ）</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced_doc_link.html">上級マニュアル</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">リリースノート</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/000_release_note.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="release-note">
+<h1>リリースノート<a class="headerlink" href="#release-note" title="Link to this heading"></a></h1>
+<p><a class="reference external" href="https://github.com/ZukunFCS/fcs-doc/releases">Download FCS here</a></p>
+<section id="fcs-25-07-03">
+<h2>FCS 25.07.03<a class="headerlink" href="#fcs-25-07-03" title="Link to this heading"></a></h2>
+<p>日付: 2025/06/25</p>
+<ul class="simple">
+<li><p>バージョン: 25.07.03</p></li>
+<li><p>ステージ：Stable</p></li>
+</ul>
+<section id="bug-fixes">
+<h3>バグ修正<a class="headerlink" href="#bug-fixes" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>修飾キーが押されているときにショートカットキーが誤って動作する問題を修正しました（例：Ctrl + ピリオドを押す際にピリオドのショットカットが呼び出される）</p></li>
+<li><p>プロファイルを削除するとFCSがクラッシュする不具合を修正しました</p></li>
+</ul>
+</section>
+<section id="misc">
+<h3>その他<a class="headerlink" href="#misc" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>「processor」から「Distrubte」を削除しました（CLIアプリが完成次第リリース予定）</p></li>
+</ul>
+</section>
+</section>
+<section id="fcs-25-07-02">
+<h2>FCS 25.07.02<a class="headerlink" href="#fcs-25-07-02" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>日付: 2025/06/16</p></li>
+<li><p>バージョン: 25.07.02</p></li>
+<li><p>ステージ：Beta</p></li>
+</ul>
+<section id="id1">
+<h3>バグ修正<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>プロファイルの名前を変更した際に、CharacterPreviewのプロファイルが削除されず複製される問題を修正しました</p></li>
+<li><p>バッチ処理時に「scene」と「video」のチェックが外れていても生成される問題を修正しました</p></li>
+<li><p>一部のテキストボックスでキーボードのショートカットが無効になる問題を修正しました</p></li>
+<li><p>Galleryの表示モードを切り替えた際の不具合を修正しました</p></li>
+</ul>
+</section>
+</section>
+<section id="fcs-25-07-01">
+<h2>FCS 25.07.01<a class="headerlink" href="#fcs-25-07-01" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>日付: 2025/06/09</p></li>
+<li><p>バージョン: 25.07.01</p></li>
+<li><p>ステージ：Beta</p></li>
+</ul>
+<section id="new-manual">
+<h3>追加のマニュアルサイト<a class="headerlink" href="#new-manual" title="Link to this heading"></a></h3>
+<p>新しいマニュアル<a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/latest/jp/index.html">fcs-doc-advanced</a>を追加しましたこのマニュアルにはFCSのアルゴリズムのベンチマークや評価・検証を掲載しており、FCSを使用する中でのクオリティや工数面の課題解決にお役立てください</p>
+</section>
+<section id="character-preview">
+<h3>Character Preview<a class="headerlink" href="#character-preview" title="Link to this heading"></a></h3>
+<p>プロファイルを保存すると、FCSにキャラクター（Maya）のスクリーンショットが自動で保存されますこれによりMayaを使用せずプロファイルをダブルチェックできるようになりますまた、Galleryの表示をHMC画像からキャラクター画像に切り替えることも可能ですこの機能は自動的に有効になりますが、Mayaカメラのセットアップが必要です（セットアップされていない場合は空白の画像になります）設定画面から無効にすることも可能です。</p>
+</section>
+<section id="denosing-previously-smoothing">
+<h3>ノイズ除去（旧「Smoothing」）<a class="headerlink" href="#denosing-previously-smoothing" title="Link to this heading"></a></h3>
+<p>アニメーション出力時のカーブ生成・調整機能の名称を、より伝わりやすくするため「Smoothing」から「ノイズ除去（Denosing）」に変更しました。またSmoothingを伴わない新しいノイズ除去手法である、ピーク保持型ノイズ除去も追加しました基本的に可能な限りピークを維持しながらアニメーション曲線を平坦化します新しいノイズ除去のパイプラインの一部として、プレビュー機能を追加しましたこれにより、「Denosing」操作の前後のアニメーションカーブがどのように見えるかを確認したり、パラメータなどをすばやく変更したりすることができます</p>
+</section>
+<section id="id2">
+<h3>その他<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Maya 2026 に対応しました</p></li>
+<li><p>新しいポストプロセッシング機能「Gaze-freezing」を追加しました<br>目を閉じたときに視線のアニメーションを自動で停止させます</p></li>
+<li><p>セキュリティ強化：インストーラーだけでなく、すべての実行ファイル（exe、dll など）に署名するよう変更しましたこれにより、セキュリティソフトウェアがFCSを検知する可能性が低くなります<br>それでもウイルス対策ソフトが検知する場合は、お問い合わせください</p></li>
+</ol>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="FCSマニュアル" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="001_intro.html" class="btn btn-neutral float-right" title="FCSとは" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 25.07 Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
