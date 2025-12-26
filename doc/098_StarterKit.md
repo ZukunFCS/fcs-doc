@@ -23,23 +23,23 @@ FCSスターターキットには、以下のコンテンツが含まれてい�
 ### 1: Mayaの3Dモデルデータ
 Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデータが含まれています。
 
-#### DIGITAL NAGAKI
+#### DIGITAL HUMAN
 
-```{figure} images/013_DIGITALNAGAKI.jpg
+```{figure} images/013_DIGITALHUMAN.jpg
 :width: 80%
 :align: center
 ```
 
-DIGITAL NAGAKIとは、ツークン研究所のデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作されたハイエンド3Dモデルです。  
+DIGITAL HUMANとは、東映ツークン研究所のデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作された3Dモデルです。  
 MetaHumanに関する詳細は、Epic Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。  
   
-DIGITAL NAGAKIは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。  
+DIGITAL HUMANは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。  
 MetaHumanフェイシャルコントローラの使い方は、Epic Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。  
 
 ご利用の際には、同梱されているreadme.txtを必ずお読みください。
 
 ```{note}
-DIGITAL NAGAKIをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。  
+DIGITAL HUMANをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。  
 事前にUnreal Engineのインストール、確認用プロジェクトの作成をお願いいたします。  
 Unreal Engineに関する詳細は、Epic Games社が提供する[Unreal Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。
 ```
