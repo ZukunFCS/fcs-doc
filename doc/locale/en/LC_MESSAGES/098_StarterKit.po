@@ -74,20 +74,18 @@ msgid "Mayaの3Dモデルデータフォルダには、以下の2種類のモデ
 msgstr "Maya folder contains the following 2 models"
 
 #: ../../098_StarterKit.md:26
-#, fuzzy
 msgid "DIGITAL HUMAN"
-msgstr "DIGITAL NAGAKI"
+msgstr "DIGITAL HUMAN"
 
 #: ../../098_StarterKit.md:33
-#, fuzzy
 msgid ""
 "DIGITAL HUMANとは、東映ツークン研究所が長年培ってきたデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal "
 "Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作された3Dモデルです。"
 "   MetaHumanに関する詳細は、Epic "
 "Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
 msgstr ""
-"DIGITAL NAGAKI is our digital human model created based on UnrealEngine "
-"MetaHumanFor more information about MetaHuman, please refer toEpic Games "
+"DIGITAL HUMAN is our digital human model created based on UnrealEngine. "
+"MetaHuman for more information about MetaHuman, please refer toEpic Games "
 "[MetaHuman](https://www.unrealengine.com/ja/metahuman)"
 
 #: ../../098_StarterKit.md:36
@@ -97,7 +95,7 @@ msgid ""
 "MetaHumanフェイシャルコントローラの使い方は、Epic "
 "Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
 msgstr ""
-"DIGITAL NAGAKI uses the MetaHuman control rig.Please refer to EpicGames "
+"DIGITAL HUMAN uses the MetaHuman control rig.Please refer to EpicGames "
 "[Youtube channel](https://www.youtube.com/watch?v=GEpH3o44_58) if you "
 "require more information."
 
