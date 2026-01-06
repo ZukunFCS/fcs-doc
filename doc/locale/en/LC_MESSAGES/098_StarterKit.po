@@ -71,7 +71,7 @@ msgstr "1: 3D model in Maya"
 
 #: ../../098_StarterKit.md:24
 msgid "Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデータが含まれています。"
-msgstr "Maya folder contains the following 2 models"
+msgstr "Maya folder contains the following 2 models ; "
 
 #: ../../098_StarterKit.md:26
 msgid "DIGITAL HUMAN"
@@ -85,35 +85,33 @@ msgid ""
 "Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
 msgstr ""
 "DIGITAL HUMAN is our digital human model created based on UnrealEngine. "
-"MetaHuman for more information about MetaHuman, please refer toEpic Games "
-"[MetaHuman](https://www.unrealengine.com/ja/metahuman)"
+"MetaHuman for more information about MetaHuman, please refer to Epic Games "
+"[MetaHuman](https://www.unrealengine.com/ja/metahuman)."
 
 #: ../../098_StarterKit.md:36
-#, fuzzy
 msgid ""
 "DIGITAL HUMANは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。   "
 "MetaHumanフェイシャルコントローラの使い方は、Epic "
 "Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
 msgstr ""
-"DIGITAL HUMAN uses the MetaHuman control rig.Please refer to EpicGames "
+"DIGITAL HUMAN uses the MetaHuman control rig. Please refer to EpicGames "
 "[Youtube channel](https://www.youtube.com/watch?v=GEpH3o44_58) if you "
 "require more information."
 
 #: ../../098_StarterKit.md:39
 msgid "ご利用の際には、同梱されているreadme.txtを必ずお読みください。"
-msgstr "Please read the readme.txt included in your starter kit"
+msgstr "Please read the readme.txt included in your starter kit."
 
 #: ../../098_StarterKit.md:42
-#, fuzzy
 msgid ""
 "DIGITAL HUMANをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。   事前にUnreal "
 "Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal Engineに関する詳細は、Epic "
 "Games社が提供する[Unreal "
 "Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
 msgstr ""
-"When using DIGITAL NAGAKI, confirmation/rendering with Unreal Engine will"
+"When using DIGITAL HUMAN, confirmation/rendering with Unreal Engine will"
 " be required.Please install the Unreal Engine and create a project for "
-"testing before using DIGITAL NAGAKI.For more details on the Unreal "
+"testing before using DIGITAL HUMAN. For more details on the Unreal "
 "Engine, please refer to the website provided by Epic Games "
 "(https://www.unrealengine.com/en-US)."
 
