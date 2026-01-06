@@ -195,16 +195,17 @@ msgstr ""
 #: ../../098_StarterKit.md:82
 msgid "DIGITAL HUMAN：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）"
 msgstr ""
+"DIGITAL HUMAN: A total of 9 different emotion-based dialogue videos (the "
+"dialogue itself is the same in all videos)\n"
 
 #: ../../098_StarterKit.md:83
-#, fuzzy
 msgid ""
 "NIKE SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）   *<span style=\"font-"
 "size:75%;\">株式会社モーションアクター - 杉口秀樹様・Mao様のご協力を得て収録</span>"
 msgstr ""
 "NIKE SHIKINO: A total of 9 different emotion-based dialogue videos (the "
 "dialogue itself is the same in all videos)\n"
-"*<span style=“font-size:75%;”>Recorded with the cooperation of Mao from "
+"*<span style=“font-size:75%;”>Recorded with the cooperation of Hideki Sugiguchi / Mao from "
 "Motion Actor Co., Ltd. </span>"
 
 #: ../../098_StarterKit.md:88
