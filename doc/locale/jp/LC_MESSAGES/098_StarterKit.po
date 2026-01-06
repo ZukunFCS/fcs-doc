@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"POT-Creation-Date: 2026-01-06 04:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -16,102 +16,101 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
-#: ../../098_スターターキット.md:1
+#: ../../098_StarterKit.md:1
 msgid "FCSスターターキット"
 msgstr ""
 
-#: ../../098_スターターキット.md:2
+#: ../../098_StarterKit.md:2
 msgid ""
 "FCS製品版のご購入、体験版のトライアル申し込みをされた方は、FCSスターターキットをご利用いただくことができます。   "
 "FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析 - 3Dモデルへのアニメーション出力 - "
 "ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。"
 msgstr ""
 
-#: ../../098_スターターキット.md:5
+#: ../../098_StarterKit.md:5
 msgid "FCSスターターキットのコンテンツ一覧"
 msgstr ""
 
-#: ../../098_スターターキット.md:6
+#: ../../098_StarterKit.md:6
 msgid "FCSスターターキットには、以下のコンテンツが含まれています。"
 msgstr ""
 
-#: ../../098_スターターキット.md:13
+#: ../../098_StarterKit.md:13
 msgid "Mayaの3Dモデルデータ"
 msgstr ""
 
-#: ../../098_スターターキット.md:14
+#: ../../098_StarterKit.md:14
 msgid "フェイシャルROM体操の表情一覧PDF"
 msgstr ""
 
-#: ../../098_スターターキット.md:15
+#: ../../098_StarterKit.md:15
 msgid "フェイシャルROM体操動画"
 msgstr ""
 
-#: ../../098_スターターキット.md:16
+#: ../../098_StarterKit.md:16
 msgid "動画解析 - アニメーション出力用のサンプル動画"
 msgstr ""
 
-#: ../../098_スターターキット.md:17
+#: ../../098_StarterKit.md:17
 msgid "Profile作成済みのFCS Session参考例データ"
 msgstr ""
 
-#: ../../098_スターターキット.md:20
+#: ../../098_StarterKit.md:20
 msgid "一部コンテンツのご利用には、サードパーティー製のゲームエンジン - プラグインを別途ご用意いただく必要がある場合があります。"
 msgstr ""
 
-#: ../../098_スターターキット.md:23
+#: ../../098_StarterKit.md:23
 msgid "1: Mayaの3Dモデルデータ"
 msgstr ""
 
-#: ../../098_スターターキット.md:24
+#: ../../098_StarterKit.md:24
 msgid "Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデータが含まれています。"
 msgstr ""
 
-#: ../../098_スターターキット.md:26
-msgid "DIGITAL NAGAKI"
+#: ../../098_StarterKit.md:26
+msgid "DIGITAL HUMAN"
 msgstr ""
 
-#: ../../098_スターターキット.md:33
+#: ../../098_StarterKit.md:33
 msgid ""
-"DIGITAL NAGAKIとは、ツークン研究所のデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal "
-"Engineを開発するEpic "
-"Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作されたハイエンド3Dモデルです。   "
-"MetaHumanに関する詳細は、Epic "
+"DIGITAL HUMANとは、東映ツークン研究所が長年培ってきたデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal "
+"Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作された3Dモデルです。"
+"   MetaHumanに関する詳細は、Epic "
 "Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
 msgstr ""
 
-#: ../../098_スターターキット.md:36
+#: ../../098_StarterKit.md:36
 msgid ""
-"DIGITAL NAGAKIは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。   "
+"DIGITAL HUMANは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。   "
 "MetaHumanフェイシャルコントローラの使い方は、Epic "
 "Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
 msgstr ""
 
-#: ../../098_スターターキット.md:39
+#: ../../098_StarterKit.md:39
 msgid "ご利用の際には、同梱されているreadme.txtを必ずお読みください。"
 msgstr ""
 
-#: ../../098_スターターキット.md:42
+#: ../../098_StarterKit.md:42
 msgid ""
-"DIGITAL NAGAKIをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。   事前にUnreal "
+"DIGITAL HUMANをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。   事前にUnreal "
 "Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal Engineに関する詳細は、Epic "
 "Games社が提供する[Unreal "
 "Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
 msgstr ""
 
-#: ../../098_スターターキット.md:48
+#: ../../098_StarterKit.md:48
 msgid ""
 "Mayaでのレンダリングや、Unity*でのご利用はできませんのでご注意ください。   *<span style=\"font-"
 "size:75%;\">Unity Technologies社が開発 - 提供するゲームエンジン</span>"
 msgstr ""
 
-#: ../../098_スターターキット.md:52
+#: ../../098_StarterKit.md:52
 msgid "NIKE SHIKINO"
 msgstr ""
 
-#: ../../098_スターターキット.md:59
+#: ../../098_StarterKit.md:59
 msgid ""
 "NIKE SHIKINOとは、ツークン研究所が制作したオリジナルのセルルック3Dモデルです。   モデルの顔にはApple "
 "ARKit*に準拠したブレンドシェイプが設定されており、各ターゲットシェイプの数値を変えることでアニメーションさせることができます。   "
@@ -119,17 +118,17 @@ msgid ""
 "提供するARフレームワークであり、フェイストラッキングシステムには52パターンの表情ターゲットシェイプが採用されている</span>"
 msgstr ""
 
-#: ../../098_スターターキット.md:63
+#: ../../098_StarterKit.md:63
 msgid ""
 "NIKE SHIKINOは、MayaやUnreal Engine、Unityでのご利用が可能です。   "
 "ご利用の際には、同梱されているreadme.txtを必ずお読みください。"
 msgstr ""
 
-#: ../../098_スターターキット.md:66
+#: ../../098_StarterKit.md:66
 msgid "2: フェイシャルROM体操の表情一覧PDF"
 msgstr ""
 
-#: ../../098_スターターキット.md:67
+#: ../../098_StarterKit.md:67
 msgid ""
 "フェイシャルキャプチャーによる動画解析では、撮影された人物が取り得る表情の強度的な限界を知ることで、動画解析の効率性を高めることができます。   "
 "眉や目、口などといった顔の各パーツの可動域（= ROM：**R**ange **O**f "
@@ -137,71 +136,71 @@ msgid ""
 "本スターターキットでは、ツークン研究所がフェイシャルキャプチャー撮影で実際に使用している、約50パターンの表情リストをPDF化して同梱しています。"
 msgstr ""
 
-#: ../../098_スターターキット.md:71
+#: ../../098_StarterKit.md:71
 msgid "3: フェイシャルROM体操動画"
 msgstr ""
 
-#: ../../098_スターターキット.md:72
+#: ../../098_StarterKit.md:72
 msgid "フェイシャルROM体操を収録した動画です。   FCSに読み込ませてご利用ください。"
 msgstr ""
 
-#: ../../098_スターターキット.md:75
+#: ../../098_StarterKit.md:75
 msgid "4: 動画解析 - アニメーション出力用のサンプル動画"
 msgstr ""
 
-#: ../../098_スターターキット.md:76
+#: ../../098_StarterKit.md:76
 msgid "動画解析で使用するサンプル動画です。   FCSに読み込ませてご利用ください。"
 msgstr ""
 
-#: ../../098_スターターキット.md:82
-msgid "DIGITAL NAGAKI：FCS紹介動画"
+#: ../../098_StarterKit.md:82
+msgid "DIGITAL HUMAN：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）"
 msgstr ""
 
-#: ../../098_スターターキット.md:83
+#: ../../098_StarterKit.md:83
 msgid ""
 "NIKE SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）   *<span style=\"font-"
-"size:75%;\">株式会社モーションアクター - Mao様のご協力を得て収録</span>"
+"size:75%;\">株式会社モーションアクター - 杉口秀樹様・Mao様のご協力を得て収録</span>"
 msgstr ""
 
-#: ../../098_スターターキット.md:88
+#: ../../098_StarterKit.md:88
 msgid "5: Profile作成済みのFCS Session参考例データ"
 msgstr ""
 
-#: ../../098_スターターキット.md:89
+#: ../../098_StarterKit.md:89
 msgid ""
-"動画解析をお試しいただく際の参考例として作成された、DIGITAL NAGAKI＆NIKE SHIKINOのFCS Sessionデータです。"
-"   "
+"動画解析をお試しいただく際の参考例として作成された、DIGITAL HUMAN＆NIKE SHIKINOのFCS Sessionデータです。   "
 "どちらもフェイシャルROM体操動画から約50程度のProfileが既に作成済みのため、サンプル動画を読み込んでProfile作成をしていただくことで、ゼロからSessionを作成することなくFCSをご体験いただけます。"
 msgstr ""
 
-#: ../../098_スターターキット.md:93
+#: ../../098_StarterKit.md:93
 msgid ""
 "Profile作成をしなくても解析自体は可能ですが、それだけでは精度が十分ではないため、サンプル動画内からも最低1以上のProfile作成が必要です。"
 "   Profileの具体的な作成方法については、[Profileの作成ページ](https://zukunfcs.github.io/fcs-"
 "doc/latest/jp/008_profile.html#profile)をご確認ください。"
 msgstr ""
 
-#: ../../098_スターターキット.md:97
+#: ../../098_StarterKit.md:97
 msgid ""
-"参考例データでは、解析に使用する各データ（スターターキットコンテンツ1 - 3 - 4と同一内容）が、予め作成されたFCS "
-"Sessionフォルダ構造内に置かれています。   FCS "
+"FCS Sessionは、予め構築されたFCS Sessionフォルダ構造内に格納されています。   FCS "
 "Sessionフォルダ構造の詳細については、[Session作成もしくはオープンページ](https://zukunfcs.github.io"
 "/fcs-doc/latest/jp/005_session.html#session)をご確認ください。 <br>"
 msgstr ""
 
-#: ../../098_スターターキット.md:101
+#: ../../098_StarterKit.md:101
 msgid ""
-"ダウンロードいただいた直後では、Mayaデータやサンプル動画のパスが異なるため再設定が必要です。   "
-"Mayaデータのパス再設定方法、サンプル動画のインポート方法については下記の手順を参考にしてください。"
+"ダウンロードいただいた直後では、Mayaデータやサンプル動画のパスが異なるため再設定*が必要です。   "
+"Mayaデータのパス再設定方法、サンプル動画のインポート方法については下記の手順を参考にしてください。     *<span style"
+"=\"font-size:75%;\">Mayaデータ、サンプル動画は必ずしもFCS "
+"Sessionフォルダ構造内に格納する必要はありません。</span>"
 msgstr ""
 
-#: ../../098_スターターキット.md:107
+#: ../../098_StarterKit.md:108
 msgid ""
 "Mayaデータについては、FCS上でMaya Sceneパス - Maya Baseパスそれぞれの再設定が必要です。   "
 "どちらのパスも以下の手順で同様に再設定ができます。 <br>"
 msgstr ""
 
-#: ../../098_スターターキット.md:111
+#: ../../098_StarterKit.md:112
 msgid ""
 "①．FCSを起動してSessionを開いた後、File&rarr;Session&rarr;Infoウインドウを立ち上げる   "
 "②．現在のパスが表示されている欄で右クリックし、Editボタンをクリックする   "
@@ -210,11 +209,11 @@ msgid ""
 "⑤．Changeウインドウ内のパスが変更されたことを確認した後、Saveボタンをクリックする"
 msgstr ""
 
-#: ../../098_スターターキット.md:130
+#: ../../098_StarterKit.md:131
 msgid "サンプル動画は、以下の手順でインポートできます。 <br>"
 msgstr ""
 
-#: ../../098_スターターキット.md:133
+#: ../../098_StarterKit.md:134
 msgid ""
 "①．FCSを起動してSessionを開いた後、Videosウインドウを立ち上げる   "
 "②．Importボタンをクリックして、ファイルダイアログを起動する   ③．FCS "
@@ -236,5 +235,57 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "```{figure} images/013_movieImport.pn"
+#~ msgstr ""
+
+#~ msgid "DIGITAL NAGAKI"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "DIGITAL NAGAKIとは、ツークン研究所のデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal"
+#~ " Engineを開発するEpic "
+#~ "Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作されたハイエンド3Dモデルです。   "
+#~ "MetaHumanに関する詳細は、Epic "
+#~ "Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "DIGITAL NAGAKIは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。"
+#~ "   MetaHumanフェイシャルコントローラの使い方は、Epic "
+#~ "Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "DIGITAL NAGAKIをご利用される際は、Unreal Engineでの確認 - "
+#~ "レンダリングが前提となります。   事前にUnreal "
+#~ "Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal "
+#~ "Engineに関する詳細は、Epic Games社が提供する[Unreal "
+#~ "Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
+#~ msgstr ""
+
+#~ msgid "DIGITAL NAGAKI：FCS紹介動画"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "NIKE SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）   *<span "
+#~ "style=\"font-size:75%;\">株式会社モーションアクター - "
+#~ "Mao様のご協力を得て収録</span>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "動画解析をお試しいただく際の参考例として作成された、DIGITAL NAGAKI＆NIKE SHIKINOのFCS"
+#~ " Sessionデータです。   "
+#~ "どちらもフェイシャルROM体操動画から約50程度のProfileが既に作成済みのため、サンプル動画を読み込んでProfile作成をしていただくことで、ゼロからSessionを作成することなくFCSをご体験いただけます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "参考例データでは、解析に使用する各データ（スターターキットコンテンツ1 - 3 - "
+#~ "4と同一内容）が、予め作成されたFCS Sessionフォルダ構造内に置かれています。   FCS "
+#~ "Sessionフォルダ構造の詳細については、[Session作成もしくはオープンページ](https://zukunfcs.github.io"
+#~ "/fcs-doc/latest/jp/005_session.html#session)をご確認ください。 <br>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "ダウンロードいただいた直後では、Mayaデータやサンプル動画のパスが異なるため再設定が必要です。   "
+#~ "Mayaデータのパス再設定方法、サンプル動画のインポート方法については下記の手順を参考にしてください。"
 #~ msgstr ""
 
