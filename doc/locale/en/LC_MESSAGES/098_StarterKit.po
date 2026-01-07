@@ -298,6 +298,9 @@ msgstr ""
 "relevant file within the FCS session folder structure and click the Open "
 "button."
 
+msgid "サンプル動画の内容について"
+msgstr "Content of Sample Video"
+
 #~ msgid "```{figure} images/013_image001.PN"
 #~ msgstr "```{figure} images/013_image001.PN"
 
@@ -306,9 +309,6 @@ msgstr ""
 
 #~ msgid "```{figure} images/013_NIKESHIKINO.pn"
 #~ msgstr "```{figure} images/013_NIKESHIKINO.pn"
-
-#~ msgid "サンプル動画の内容について"
-#~ msgstr "Content of Sample Video"
 
 #~ msgid "Mayaデータのパス再設定方法"
 #~ msgstr "How to Reset Paths for Maya Data"
