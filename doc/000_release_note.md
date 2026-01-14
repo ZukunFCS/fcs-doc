@@ -1,6 +1,21 @@
 # Release Note
 [Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)
 
+## FCS 25.10.03
+- Date: 2026/01/13
+- Version: 25.10.03
+- Stage: Stable
+
+### Fix
+- Removed denoising preview
+- Fixed an issue where jumping to the next profile in timeline moves you back one profile, when you are at the end of the timeline
+- Removed several experimental features
+    - Edit Tracking feature
+    - Manual Solver Train feature
+- Fixed the shortcut to open Assets folder
+- Removed individual contributors from the about window
+- Removed Save features in menu bar, all necessary changes are saved immediately after pressing the respective save buttons.
+
 ## FCS 25.10.02
 - Date: 2025/10/06
 - Version: 25.10.02
