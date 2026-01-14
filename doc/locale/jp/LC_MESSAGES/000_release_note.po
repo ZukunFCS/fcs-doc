@@ -27,19 +27,16 @@ msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-#, fuzzy
 msgid "FCS 25.10.03"
-msgstr "FCS 25.10.02"
+msgstr "FCS 25.10.03"
 
 #: ../../000_release_note.md:5
-#, fuzzy
 msgid "Date: 2026/01/13"
-msgstr "日付: 2025/09/30"
+msgstr "日付: 2026/01/13"
 
 #: ../../000_release_note.md:6
-#, fuzzy
 msgid "Version: 25.10.03"
-msgstr "バージョン: 25.10.02"
+msgstr "バージョン: 25.10.03"
 
 #: ../../000_release_note.md:7 ../../000_release_note.md:22
 #: ../../000_release_note.md:31
@@ -52,40 +49,40 @@ msgstr "修正"
 
 #: ../../000_release_note.md:10
 msgid "Removed denoising preview"
-msgstr ""
+msgstr "「ノイズ除去（Denosing）」のプレビュー機能を削除しました。"
 
 #: ../../000_release_note.md:11
 msgid ""
 "Fixed an issue where jumping to the next profile in timeline moves you "
 "back one profile, when you are at the end of the timeline"
-msgstr ""
+msgstr "Timelineの最終フレームで次のProfileにジャンプを押すと、1つ前のProfileに戻ってしまう不具合を修正しました。"
 
 #: ../../000_release_note.md:12
 msgid "Removed several experimental features"
-msgstr ""
+msgstr "下記の実験的機能(Beta機能)を削除しました。"
 
 #: ../../000_release_note.md:13
-#, fuzzy
 msgid "Edit Tracking feature"
-msgstr "トラッキング精度の向上"
+msgstr "Edit Tracking（トラッキングの編集機能）"
 
 #: ../../000_release_note.md:14
 msgid "Manual Solver Train feature"
-msgstr ""
+msgstr "Manual Solver Train機能 "
 
 #: ../../000_release_note.md:15
 msgid "Fixed the shortcut to open Assets folder"
-msgstr ""
+msgstr "Assets folderを開くショートカットを修正しました。"
 
 #: ../../000_release_note.md:16
 msgid "Removed individual contributors from the about window"
-msgstr ""
+msgstr "About ウィンドウから開発関係者の個人名を削除しました。"
 
 #: ../../000_release_note.md:17
 msgid ""
 "Removed Save features in menu bar, all necessary changes are saved "
 "immediately after pressing the respective save buttons."
-msgstr ""
+msgstr "メニューバーから Save 機能を削除しました。<br>"
+"（各保存ボタンを押した時点ですべての必要な変更が保存されます）"
 
 #: ../../000_release_note.md:19
 msgid "FCS 25.10.02"
