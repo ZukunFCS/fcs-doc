@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-28 11:46+0000\n"
+"POT-Creation-Date: 2026-01-14 08:56+0000\n"
 "PO-Revision-Date: 2025-02-24 09:53+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -27,64 +27,117 @@ msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-msgid "FCS 25.10.02"
+#, fuzzy
+msgid "FCS 25.10.03"
 msgstr "FCS 25.10.02"
 
 #: ../../000_release_note.md:5
-msgid "Date: 2025/10/06"
-msgstr "日付: 2025/10/06"
+#, fuzzy
+msgid "Date: 2026/01/13"
+msgstr "日付: 2025/09/30"
 
 #: ../../000_release_note.md:6
-msgid "Version: 25.10.02"
+#, fuzzy
+msgid "Version: 25.10.03"
 msgstr "バージョン: 25.10.02"
 
-#: ../../000_release_note.md:7 ../../000_release_note.md:16
+#: ../../000_release_note.md:7 ../../000_release_note.md:22
+#: ../../000_release_note.md:31
 msgid "Stage: Stable"
 msgstr "ステージ：Stable"
 
-#: ../../000_release_note.md:9
+#: ../../000_release_note.md:9 ../../000_release_note.md:24
 msgid "Fix"
 msgstr "修正"
 
 #: ../../000_release_note.md:10
+msgid "Removed denoising preview"
+msgstr ""
+
+#: ../../000_release_note.md:11
+msgid ""
+"Fixed an issue where jumping to the next profile in timeline moves you "
+"back one profile, when you are at the end of the timeline"
+msgstr ""
+
+#: ../../000_release_note.md:12
+msgid "Removed several experimental features"
+msgstr ""
+
+#: ../../000_release_note.md:13
+#, fuzzy
+msgid "Edit Tracking feature"
+msgstr "トラッキング精度の向上"
+
+#: ../../000_release_note.md:14
+msgid "Manual Solver Train feature"
+msgstr ""
+
+#: ../../000_release_note.md:15
+msgid "Fixed the shortcut to open Assets folder"
+msgstr ""
+
+#: ../../000_release_note.md:16
+msgid "Removed individual contributors from the about window"
+msgstr ""
+
+#: ../../000_release_note.md:17
+msgid ""
+"Removed Save features in menu bar, all necessary changes are saved "
+"immediately after pressing the respective save buttons."
+msgstr ""
+
+#: ../../000_release_note.md:19
+msgid "FCS 25.10.02"
+msgstr "FCS 25.10.02"
+
+#: ../../000_release_note.md:20
+msgid "Date: 2025/10/06"
+msgstr "日付: 2025/10/06"
+
+#: ../../000_release_note.md:21
+msgid "Version: 25.10.02"
+msgstr "バージョン: 25.10.02"
+
+#: ../../000_release_note.md:25
 msgid "Fixed segmented animation output not being processed properly"
 msgstr "アニメーションを一部のみMayaの任意フレームに出力する際に違った値が出力される不具合を修正しました"
 
-#: ../../000_release_note.md:11
+#: ../../000_release_note.md:26
 msgid "Fixed release note not being wrapped properly to the window"
 msgstr "ソフト上のリリースノートのレイアウトを修正しまし"
 
-#: ../../000_release_note.md:13
+#: ../../000_release_note.md:28
 msgid "FCS 25.10.01"
 msgstr "FCS 25.10.01"
 
-#: ../../000_release_note.md:14
+#: ../../000_release_note.md:29
 msgid "Date: 2025/09/30"
 msgstr "日付: 2025/09/30"
 
-#: ../../000_release_note.md:15
+#: ../../000_release_note.md:30
 msgid "Version: 25.10.01"
 msgstr "バージョン: 25.10.01"
 
-#: ../../000_release_note.md:18
+#: ../../000_release_note.md:33
 msgid "25.10 mostly focus on accuracy update."
 msgstr "　　"
 
-#: ../../000_release_note.md:20
+#: ../../000_release_note.md:35
 msgid "New Features"
 msgstr "新機能"
 
-#: ../../000_release_note.md:21
+#: ../../000_release_note.md:36
 msgid ""
 "This version introduces two big main improvement, improved tracking and "
 "improved retargeting."
 msgstr "このバージョンでは下記2点の精度の向上に重点を置いています。<br>・トラッキング精度<br>・リターゲット精度"
 
-#: ../../000_release_note.md:23
+#: ../../000_release_note.md:38
 msgid "Tracking Accuracy"
 msgstr "トラッキング精度の向上"
 
-#: ../../000_release_note.md:24
+#: ../../000_release_note.md:39
 msgid ""
 "We introduce two new pipelines, RP+ and Robust+. They use a new facial "
 "tracking algorithm developed by Zukun. They are essentially upgrades over"
@@ -97,7 +150,7 @@ msgstr ""
 "を導入しました。<br>これらは、ツークン研究所が開発した新しいフェイシャルトラッキングのアルゴリズムを使用しており、既存の「RP」「Robust」パイプラインのアップグレード版です。<br>特にProfile数が50未満と少ない場合でも、アニメーション精度が向上するように設計されています。これらのパイプラインを使用して生成された結果は視覚化できません"
 " (LM プロットは無効です)。<br>"
 
-#: ../../000_release_note.md:26
+#: ../../000_release_note.md:41
 msgid ""
 "We will include more comparison in our [Advanced "
 "Manual](https://zukunfcs.github.io/fcs-doc-"
@@ -107,13 +160,13 @@ msgstr ""
 "advanced](https://zukunfcs.github.io/fcs-doc-"
 "advanced/latest/jp/index.html)に掲載予定です。"
 
-#: ../../000_release_note.md:28
+#: ../../000_release_note.md:43
 msgid ""
 "Facial tracking results generated with the new pipelines can be edited in"
 " a later version of FCS."
 msgstr "また、これらの新しいパイプラインは、後のFCSバージョンでトラッキングの編集が可能になる予定です。"
 
-#: ../../000_release_note.md:30
+#: ../../000_release_note.md:45
 msgid ""
 "Added on November 28;   Although facial tracking accuracy itself has "
 "improved, we have confirmed that its contribution to the overall quality "
@@ -121,20 +174,22 @@ msgid ""
 " have issues in process of converting face tracking data into controller "
 "animation. While we aim to address these issues in an early update, we "
 "anticipate that it will require a significant amount of time."
-msgstr "11月28日 追記 ; <br>トラッキング精度自体は向上していますが、出力アニメーションのクオリティ向上への寄与が小さいことを確認しています。<br>また、新パイプラインではトラッキングからコントローラアニメーションに変換する過程の処理に課題があり、これらは早い段階でのアップデートにて改善を目標としていますが、相当に時間を要すると見積もっています。"
+msgstr ""
+"11月28日 追記 ; "
+"<br>トラッキング精度自体は向上していますが、出力アニメーションのクオリティ向上への寄与が小さいことを確認しています。<br>また、新パイプラインではトラッキングからコントローラアニメーションに変換する過程の処理に課題があり、これらは早い段階でのアップデートにて改善を目標としていますが、相当に時間を要すると見積もっています。"
 
-#: ../../000_release_note.md:33
+#: ../../000_release_note.md:48
 msgid "Retarget Accuracy"
 msgstr "リターゲット精度の向上"
 
-#: ../../000_release_note.md:34
+#: ../../000_release_note.md:49
 msgid ""
 "We also fixed a few longstanding bugs in our prediction pipeline. As a "
 "result, it should generate much more stable animation even for older "
 "pipelines (Rich, RP, Robust)."
 msgstr "予測パイプラインに長期間存在していたバグを修正しました。これにより、旧来のパイプライン（Rich、RP、Robust）でも安定したアニメーションが生成されやすくなります。"
 
-#: ../../000_release_note.md:36
+#: ../../000_release_note.md:51
 msgid ""
 "In addition, we also create a new ****experimental**** feature to boost "
 "accuracy for retargeting, by allowing the user to create more fine-grain "
@@ -149,30 +204,32 @@ msgstr ""
 "[fcs-doc-advanced](https://ryota-nakajima-toei.github.io/fcs-doc-"
 "advanced/25.10/jp/002_processing.html)をご参照ください。"
 
-#: ../../000_release_note.md:38
+#: ../../000_release_note.md:53
 msgid ""
 "Added on November 28;   In version 25.10, retargeting accuracy has "
 "improved regardless of pipelines used. Therefore, output animation "
 "results may differ even with older pipelines compared to version 25.07. "
 "For this reason, legacy pipelines will remain available for your "
 "continued use."
-msgstr "11月28日 追記 ; <br>25.10ではリターゲット精度がパイプラインに依らず向上しているため、旧来のパイプラインでも25.07に比べて出力アニメーションの結果が変わることがあります。<br>そのため、旧来のパイプラインも引き続きご利用いただくことができます。"
+msgstr ""
+"11月28日 追記 ; "
+"<br>25.10ではリターゲット精度がパイプラインに依らず向上しているため、旧来のパイプラインでも25.07に比べて出力アニメーションの結果が変わることがあります。<br>そのため、旧来のパイプラインも引き続きご利用いただくことができます。"
 
-#: ../../000_release_note.md:41
+#: ../../000_release_note.md:56
 msgid "Misc"
 msgstr "その他"
 
-#: ../../000_release_note.md:43
+#: ../../000_release_note.md:58
 msgid ""
 "Remove Hover text for controller tab, this has been known to cause "
 "crashes in some systems and do not provide too much helpful information."
 msgstr "コントローラタブのホバーテキストを削除しました。<br>これは一部のシステムでクラッシュを引き起こすことが知られており、有用性も低かったためです。"
 
-#: ../../000_release_note.md:44
+#: ../../000_release_note.md:59
 msgid "Optimize the application launch time"
 msgstr "アプリケーションの起動時間を最適化を行いました。"
 
-#: ../../000_release_note.md:45
+#: ../../000_release_note.md:60
 msgid "Optimize controller table saving"
 msgstr "コントローラテーブルの保存処理を最適化しました。"
 
