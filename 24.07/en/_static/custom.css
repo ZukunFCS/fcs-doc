@@ -1,0 +1,4 @@
+/* Remove bottom border from the last row of list-table */
+table.list-table > tbody > tr:last-child > td {
+    border-bottom: none;
+}
