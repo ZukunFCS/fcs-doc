@@ -1,6 +1,16 @@
 # Release Note
 [Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)
 
+## FCS 25.10.04
+- Date: 2026/02/27
+- Version: 25.10.04
+- Stage: Stable
+
+### Fix
+- Fixed freeze gaze feature missing
+- Fixed animation clamp not reflecting to the final animation result 
+
+
 ## FCS 25.10.03
 - Date: 2026/01/13
 - Version: 25.10.03
