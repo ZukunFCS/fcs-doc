@@ -27,19 +27,16 @@ msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr ""
 
 #: ../../000_release_note.md:4
-#, fuzzy
 msgid "FCS 25.10.04"
-msgstr "FCS 25.10.03"
+msgstr "FCS 25.10.04"
 
 #: ../../000_release_note.md:5
-#, fuzzy
 msgid "Date: 2026/02/27"
-msgstr "日付: 2026/01/13"
+msgstr "日付: 2026/02/27"
 
 #: ../../000_release_note.md:6
-#, fuzzy
 msgid "Version: 25.10.04"
-msgstr "バージョン: 25.10.03"
+msgstr "バージョン: 25.10.04"
 
 #: ../../000_release_note.md:7 ../../000_release_note.md:17
 #: ../../000_release_note.md:32 ../../000_release_note.md:41
@@ -53,11 +50,11 @@ msgstr "修正"
 
 #: ../../000_release_note.md:10
 msgid "Fixed freeze gaze feature missing"
-msgstr ""
+msgstr "『Gaze Freezing』(目線固定の機能)が一時的に無効化していた問題を修正しました。"
 
 #: ../../000_release_note.md:11
 msgid "Fixed animation clamp not reflecting to the final animation result"
-msgstr ""
+msgstr "アニメーションのクランプ値がMayaに反映されない問題を修正しました"
 
 #: ../../000_release_note.md:14
 msgid "FCS 25.10.03"
