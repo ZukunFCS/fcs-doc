@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-14 08:56+0000\n"
+"POT-Creation-Date: 2026-02-27 05:31+0000\n"
 "PO-Revision-Date: 2024-09-18 02:57+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../098_StarterKit.md:1
 msgid "FCSスターターキット"
@@ -74,12 +74,13 @@ msgid "Mayaの3Dモデルデータフォルダには、以下の2種類のモデ
 msgstr "Maya folder contains the following 2 models ; "
 
 #: ../../098_StarterKit.md:26
-msgid "DIGITAL HUMAN"
-msgstr "DIGITAL HUMAN"
+msgid "AVERAGE HUMAN"
+msgstr ""
 
 #: ../../098_StarterKit.md:33
+#, fuzzy
 msgid ""
-"DIGITAL HUMANとは、東映ツークン研究所が長年培ってきたデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal "
+"AVERAGE HUMANとは、東映ツークン研究所が長年培ってきたデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal "
 "Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作された3Dモデルです。"
 "   MetaHumanに関する詳細は、Epic "
 "Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
@@ -89,8 +90,9 @@ msgstr ""
 "Games [MetaHuman](https://www.unrealengine.com/ja/metahuman)."
 
 #: ../../098_StarterKit.md:36
+#, fuzzy
 msgid ""
-"DIGITAL HUMANは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。   "
+"AVERAGE HUMANは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。   "
 "MetaHumanフェイシャルコントローラの使い方は、Epic "
 "Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
 msgstr ""
@@ -103,8 +105,9 @@ msgid "ご利用の際には、同梱されているreadme.txtを必ずお読み
 msgstr "Please read the readme.txt included in your starter kit."
 
 #: ../../098_StarterKit.md:42
+#, fuzzy
 msgid ""
-"DIGITAL HUMANをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。   事前にUnreal "
+"AVERAGE HUMANをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。   事前にUnreal "
 "Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal Engineに関する詳細は、Epic "
 "Games社が提供する[Unreal "
 "Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
@@ -193,7 +196,8 @@ msgstr ""
 " for use."
 
 #: ../../098_StarterKit.md:82
-msgid "DIGITAL HUMAN：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）"
+#, fuzzy
+msgid "AVERAGE HUMAN：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）"
 msgstr ""
 "DIGITAL HUMAN: A total of 9 different emotion-based dialogue videos (the "
 "dialogue itself is the same in all videos)\n"
@@ -213,8 +217,9 @@ msgid "5: Profile作成済みのFCS Session参考例データ"
 msgstr "5: Sample Data of an FCS Session with Created Profiles"
 
 #: ../../098_StarterKit.md:89
+#, fuzzy
 msgid ""
-"動画解析をお試しいただく際の参考例として作成された、DIGITAL HUMAN＆NIKE SHIKINOのFCS Sessionデータです。   "
+"動画解析をお試しいただく際の参考例として作成された、AVERAGE HUMAN＆NIKE SHIKINOのFCS Sessionデータです。   "
 "どちらもフェイシャルROM体操動画から約50程度のProfileが既に作成済みのため、サンプル動画を読み込んでProfile作成をしていただくことで、ゼロからSessionを作成することなくFCSをご体験いただけます。"
 msgstr ""
 "Here’s the revised translation without the word “exercise”: This is the "
@@ -330,4 +335,7 @@ msgstr ""
 
 #~ msgid "サンプル動画の内容について"
 #~ msgstr "Content of Sample Video"
+
+#~ msgid "DIGITAL HUMAN"
+#~ msgstr "DIGITAL HUMAN"
 
