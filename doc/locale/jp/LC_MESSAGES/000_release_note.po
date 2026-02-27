@@ -54,7 +54,7 @@ msgstr "『Gaze Freezing』(目線固定の機能)が一時的に無効化して
 
 #: ../../000_release_note.md:11
 msgid "Fixed animation clamp not reflecting to the final animation result"
-msgstr "アニメーションのクランプ値がMayaに反映されない問題を修正しました"
+msgstr "アニメーションのクランプ値がMayaに反映されない問題を修正しました。"
 
 #: ../../000_release_note.md:14
 msgid "FCS 25.10.03"
