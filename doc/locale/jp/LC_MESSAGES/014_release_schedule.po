@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
@@ -28,10 +27,12 @@ msgid ""
 " FCS will change from the previous quarterly updates to semi-annual "
 "updates in April and October (twice a year).<br>"
 msgstr ""
+"※2026年1月30日 "
+"更新<br>FCSのリリースサイクルは、2026年より従来の四半期ごとの更新から4月と10月の半年ごと（年2回）の更新となりました。"
 
 #: ../../014_release_schedule.md:5
 msgid "1. Regular releases (major versions)"
-msgstr ""
+msgstr "1.定期リリース（メジャーバージョン）"
 
 #: ../../014_release_schedule.md:6
 msgid ""
@@ -39,11 +40,11 @@ msgid ""
 "new features and changing algorithms, will be released twice a year, in "
 "April and October.<br> By changing the release frequency, we aim to "
 "further stabilize the quality of each version."
-msgstr ""
+msgstr "新機能追加やアルゴリズムの更新・変更などのメジャーバージョンのリリースは、毎年4月と10月の年2回実施予定となっております。<br>リリース頻度を集約することで、各バージョンにおける品質のさらなる安定化を図ってまいります。"
 
 #: ../../014_release_schedule.md:9
 msgid "2. Hotfix releases (minor versions)"
-msgstr ""
+msgstr "2.マイナーバージョンによる修正対応"
 
 #: ../../014_release_schedule.md:10
 msgid ""
@@ -51,7 +52,7 @@ msgid ""
 "regular release.<br> Minor version could include subtle improvements such"
 " as UI refinement and bug fixes, will be released as needed (e.g., "
 "24.10.01). <br>"
-msgstr ""
+msgstr "一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br>UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：24.10.01〜）は、必要に応じて随時実施されます。"
 
 #: ../../014_release_schedule.md:14
 msgid "Upgrading FCS"
@@ -64,13 +65,14 @@ msgid ""
 "operations, we have now standardized our format, providing all customers "
 "with the same support period and the latest updates."
 msgstr ""
+"サポート状況などによる製品のバージョン分け（Standard/LTS/Preview）を廃止いたしました。"
+"現在は運用をシンプルにするために形態を一本化し最新のアップデートを提供しています。"
 
 #: ../../014_release_schedule.md:18
 msgid "Compatibility"
 msgstr "互換性"
 
 #: ../../014_release_schedule.md:19
-#, fuzzy
 msgid ""
 "FCS sessions are forward-compatible unless explicitly noted otherwise; "
 "however, backward compatibility is not always guaranteed, especially "
@@ -83,9 +85,8 @@ msgid ""
 "version (e.g., across 25.10.01–25.10.04); however, this is not "
 "guaranteed.<br>"
 msgstr ""
-"FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。しかし、特にメジャーバージョン間（例：24.07 と "
-"24.10）では、後方互換性が必ずしも保証されるわけではありません。 "
-"以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
+"FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。<br>しかし、特にメジャーバージョン間（例：25.07 と "
+"25.10）では、後方互換性が必ずしも保証されるわけではありません。<br>以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。<br>そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。<br>同一メジャーバージョン内（例：25.10.01~25.10.04）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 
 #: ../../014_release_schedule.md:24
 msgid "Steps to upgrade"
