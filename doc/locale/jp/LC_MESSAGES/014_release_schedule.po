@@ -8,16 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-28 16:14+0900\n"
+"POT-Creation-Date: 2026-03-05 09:42+0000\n"
 "PO-Revision-Date: 2025-02-24 10:33+0900\n"
 "Last-Translator: \n"
-"Language-Team: jp <LL@li.org>\n"
 "Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
-"X-Generator: Poedit 3.5\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../014_release_schedule.md:1
 msgid "Release Schedule"
@@ -25,230 +24,221 @@ msgstr "リリーススケジュール"
 
 #: ../../014_release_schedule.md:2
 msgid ""
-"FCS follows a quarterly release schedule, on January, April, July, and "
-"October.  Each major version released is supported either for 3 months "
-"(standard) or 1 year for Long-term Support(LTS).  Once released a major "
-"version will receive no update beside bug fixes that come as minor "
-"version updates (i.e., 24.07.02~)"
+"Updated: January 30, 2026<br><br> Starting in 2026, the release cycle for"
+" FCS will change from the previous quarterly updates to semi-annual "
+"updates in April and October (twice a year).<br>"
 msgstr ""
-"FCSは、1月、4月、7月、10月の各四半期にリリースされます。各メジャーバー"
-"ジョンは、スタンダード版の場合は3ヶ月間、LTS版（長期サポート版）の場合は1"
-"年間サポートされます。また、一度リリースされたメジャーバージョンには、バ"
-"グ修正のためのマイナーバージョンアップデート（例：24.07.02～）以外の更新"
-"は行われません。"
+
+#: ../../014_release_schedule.md:5
+msgid "1. Regular releases (major versions)"
+msgstr ""
 
 #: ../../014_release_schedule.md:6
-msgid "Schedule"
-msgstr "スケジュール"
+msgid ""
+"Major versions that mainly include specification changes, such as adding "
+"new features and changing algorithms, will be released twice a year, in "
+"April and October.<br> By changing the release frequency, we aim to "
+"further stabilize the quality of each version."
+msgstr ""
 
-#: ../../014_release_schedule.md:7
-msgid "Major Version"
-msgstr "メジャーバージョン"
+#: ../../014_release_schedule.md:9
+msgid "2. Hotfix releases (minor versions)"
+msgstr ""
 
-#: ../../014_release_schedule.md:7
-msgid "Timeframe"
-msgstr "タイムフレーム"
+#: ../../014_release_schedule.md:10
+msgid ""
+"Once a major version is released, feature set is frozen until the next "
+"regular release.<br> Minor version could include subtle improvements such"
+" as UI refinement and bug fixes, will be released as needed (e.g., "
+"24.10.01). <br>"
+msgstr ""
 
-#: ../../014_release_schedule.md:7
-msgid "Support period"
-msgstr "サポート期間"
-
-#: ../../014_release_schedule.md:7
-msgid "24.07 LTS"
-msgstr "24.07 LTS"
-
-#: ../../014_release_schedule.md:7
-msgid "2024/07"
-msgstr "2024/07"
-
-#: ../../014_release_schedule.md:7
-msgid "1 year"
-msgstr "1年"
-
-#: ../../014_release_schedule.md:7
-msgid "24.10"
-msgstr "24.10"
-
-#: ../../014_release_schedule.md:7
-msgid "2024/10"
-msgstr "2024/10"
-
-#: ../../014_release_schedule.md:7
-msgid "3 months"
-msgstr "３ヶ月"
-
-#: ../../014_release_schedule.md:7
-msgid "25.01 Preview"
-msgstr "25.01 プレビュー"
-
-#: ../../014_release_schedule.md:7
-msgid "2024/12"
-msgstr "2024/12"
-
-#: ../../014_release_schedule.md:7
-msgid "None"
-msgstr "なし"
-
-#: ../../014_release_schedule.md:7
-msgid "25.01"
-msgstr "25.01"
-
-#: ../../014_release_schedule.md:7
-msgid "2025/01"
-msgstr "2025/01"
-
-#: ../../014_release_schedule.md:7
-msgid "25.04 Preview"
-msgstr "25.04 プレビュー"
-
-#: ../../014_release_schedule.md:7
-msgid "2025/03"
-msgstr "2025/03"
-
-#: ../../014_release_schedule.md:7
-msgid "25.04"
-msgstr "25.04"
-
-#: ../../014_release_schedule.md:7
-msgid "2025/04"
-msgstr "2025/04"
-
-#: ../../014_release_schedule.md:7
-msgid "25.07 Preview"
-msgstr "25.07 プレビュー"
-
-#: ../../014_release_schedule.md:7
-msgid "2025/06"
-msgstr "2025/06"
-
-#: ../../014_release_schedule.md:7
-msgid "25.07 LTS"
-msgstr "25.07 LTS"
-
-#: ../../014_release_schedule.md:7
-msgid "2025/07"
-msgstr "2025/07"
-
-#: ../../014_release_schedule.md:7
-msgid "25.10 Preview"
-msgstr "25.10 Preview"
-
-#: ../../014_release_schedule.md:7
-msgid "25.10"
-msgstr "25.10"
-
-#: ../../014_release_schedule.md:7
-msgid "2025/10"
-msgstr "2025/10"
-
-#: ../../014_release_schedule.md:7
-msgid "26.01 Preview"
-msgstr "26.01 プレビュー"
-
-#: ../../014_release_schedule.md:7
-msgid "2025/12"
-msgstr "2025/12"
-
-#: ../../014_release_schedule.md:7
-msgid "26.01"
-msgstr "26.01"
-
-#: ../../014_release_schedule.md:7
-msgid "2026/01"
-msgstr "2026/01"
-
-#: ../../014_release_schedule.md:7
-msgid "26.04 Preview"
-msgstr "26.04 Preview"
-
-#: ../../014_release_schedule.md:7
-msgid "2026/03"
-msgstr "2026/03"
-
-#: ../../014_release_schedule.md:7
-msgid "26.04"
-msgstr "26.04"
-
-#: ../../014_release_schedule.md:7
-msgid "2026/04"
-msgstr "2026/04"
-
-#: ../../014_release_schedule.md:29
+#: ../../014_release_schedule.md:14
 msgid "Upgrading FCS"
 msgstr "FCSのアップグレード"
 
-#: ../../014_release_schedule.md:30
-msgid "Standard vs LTS vs Preview"
-msgstr "スタンダード版 vs LTS版 vs プレビュー版"
-
-#: ../../014_release_schedule.md:31
+#: ../../014_release_schedule.md:15
 msgid ""
-"The main difference between standard and LTS version lies in the support "
-"period, 3 months vs 1 year. During support period we will issue critical "
-"bug fixes to the version once fixed. LTS is recommended if the current "
-"supported LTS version meets all your requirements and you work on "
-"projects that last for longer than the standard supported period.   "
-"Preview versions provides a glimpse of upcoming features of new version "
-"of FCS and provide a chance to provide feedback to the developers. It is "
-"where we release non-critical bug fixes and are subject to constant "
-"changes and no support is guaranteed, you should never use the preview "
-"version without making backup of the data. You should only use the "
-"preview if and only if you some specific features and you understand the "
-"risk."
+"We have discontinued dividing our products into different versions "
+"(LTS/Standard/Preview) based on support status, etc. To simplify "
+"operations, we have now standardized our format, providing all customers "
+"with the same support period and the latest updates."
 msgstr ""
-"Standard版とLTS版の主な違いはサポート期間にあり、Standard版は3ヶ月間、LTS"
-"版は1年間サポートされます。サポート期間中、致命的なバグが修正され次"
-"第、迅速にアップデートとしてリリースされます。もし、現在サポート中のLTS版"
-"がすべての要件を満たしており、かつプロジェクトの期間がStandard版のサポー"
-"ト期間を超える場合は、LTS版の利用が推奨されます。Preview版は、新しいFCS"
-"バージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行"
-"う機会を提供します。この版では、軽微なバグの修正が含まれ、常に変"
-"更が加えられるため、サポートは保証されません。そのため、データのバック"
-"アップを行わずにPreview版を使用することは避けてください。特定の機能が必要"
-"であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討し"
-"てください。"
 
-#: ../../014_release_schedule.md:36
+#: ../../014_release_schedule.md:18
 msgid "Compatibility"
 msgstr "互換性"
 
-#: ../../014_release_schedule.md:37
+#: ../../014_release_schedule.md:19
+#, fuzzy
 msgid ""
-"FCS Sessions are forward compatible unless explicit noted otherwise, "
-"however backward compatibility is not always guaranteed especially "
-"across major version (e.g., 24.07, 24.10). That means, you can open FCS "
-"sessions created in a previous version of FCS with newer versions of "
-"FCS. However, once opened in a newer version, you might not be able to "
-"open the session in an older version of FCS anymore. Hence it is "
-"critical for you to backup your files before moving to a newer version "
-"of FCS.  We try to keep session backward compatible as much as possible "
-"within a major version (e.g., across 24.07.01~24.07.10) however there is "
-"no guarantee.  In case of using the same FCS session with others, it is "
-"critical for you to ensure that your team use the same minor version of "
-"FCS."
+"FCS sessions are forward-compatible unless explicitly noted otherwise; "
+"however, backward compatibility is not always guaranteed, especially "
+"across major versions (e.g., 25.07, 25.10).<br> This means you can open "
+"FCS sessions created in a previous version of FCS using newer versions. "
+"However, once a session is opened in a newer version, it may no longer be"
+" possible to open it in an older version of FCS.<br> Therefore, it is "
+"critical to back up your files before upgrading to a newer version of "
+"FCS.<br> We strive to maintain backward compatibility within a major "
+"version (e.g., across 25.10.01–25.10.04); however, this is not "
+"guaranteed.<br>"
 msgstr ""
-"FCSセッションは、特に注意事項が記載されていない限り、前方互換性があ"
-"ります。しかし、特にメジャーバージョン間（例：24.07 と 24.10）では、後方"
-"互換性が必ずしも保証されるわけではありません。 以前のFCSバージョンで作成"
-"されたセッションは新しいバージョンのFCSで開くことができますが、一度新しい"
-"バージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性"
-"があります。そのため、新しいバージョンに移行する前に、必ずファイルのバッ"
-"クアップを取るようにしてください。同一メジャーバージョン内（例：24.07.01"
-"～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ず"
-"しも保証されるものではありません。また、複数のユーザーで同じFCSセッション"
-"を利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを"
-"推奨します。"
+"FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。しかし、特にメジャーバージョン間（例：24.07 と "
+"24.10）では、後方互換性が必ずしも保証されるわけではありません。 "
+"以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 
-#: ../../014_release_schedule.md:41
+#: ../../014_release_schedule.md:24
 msgid "Steps to upgrade"
 msgstr "アップグレード手順"
 
-#: ../../014_release_schedule.md:42
+#: ../../014_release_schedule.md:25
 msgid "[Export your data](#export-header-target)."
 msgstr "セッションデータを[エクスポート](#export-header-target)してください。"
 
-#: ../../014_release_schedule.md:43
+#: ../../014_release_schedule.md:26
 msgid "Open the exported data using the newly downloaded version of FCS."
-msgstr ""
-"新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを"
-"開いてください。"
+msgstr "新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを開いてください。"
+
+#~ msgid ""
+#~ "FCS follows a quarterly release "
+#~ "schedule, on January, April, July, and"
+#~ " October.  Each major version released "
+#~ "is supported either for 3 months "
+#~ "(standard) or 1 year for Long-term"
+#~ " Support(LTS).  Once released a major "
+#~ "version will receive no update beside"
+#~ " bug fixes that come as minor "
+#~ "version updates (i.e., 24.07.02~)"
+#~ msgstr "FCSは、1月、4月、7月、10月の各四半期にリリースされます。各メジャーバージョンは、スタンダード版の場合は3ヶ月間、LTS版（長期サポート版）の場合は1年間サポートされます。また、一度リリースされたメジャーバージョンには、バグ修正のためのマイナーバージョンアップデート（例：24.07.02～）以外の更新は行われません。"
+
+#~ msgid "Schedule"
+#~ msgstr "スケジュール"
+
+#~ msgid "Major Version"
+#~ msgstr "メジャーバージョン"
+
+#~ msgid "Timeframe"
+#~ msgstr "タイムフレーム"
+
+#~ msgid "Support period"
+#~ msgstr "サポート期間"
+
+#~ msgid "24.07 LTS"
+#~ msgstr "24.07 LTS"
+
+#~ msgid "2024/07"
+#~ msgstr "2024/07"
+
+#~ msgid "1 year"
+#~ msgstr "1年"
+
+#~ msgid "24.10"
+#~ msgstr "24.10"
+
+#~ msgid "2024/10"
+#~ msgstr "2024/10"
+
+#~ msgid "3 months"
+#~ msgstr "３ヶ月"
+
+#~ msgid "25.01 Preview"
+#~ msgstr "25.01 プレビュー"
+
+#~ msgid "2024/12"
+#~ msgstr "2024/12"
+
+#~ msgid "None"
+#~ msgstr "なし"
+
+#~ msgid "25.01"
+#~ msgstr "25.01"
+
+#~ msgid "2025/01"
+#~ msgstr "2025/01"
+
+#~ msgid "25.04 Preview"
+#~ msgstr "25.04 プレビュー"
+
+#~ msgid "2025/03"
+#~ msgstr "2025/03"
+
+#~ msgid "25.04"
+#~ msgstr "25.04"
+
+#~ msgid "2025/04"
+#~ msgstr "2025/04"
+
+#~ msgid "25.07 Preview"
+#~ msgstr "25.07 プレビュー"
+
+#~ msgid "2025/06"
+#~ msgstr "2025/06"
+
+#~ msgid "25.07 LTS"
+#~ msgstr "25.07 LTS"
+
+#~ msgid "2025/07"
+#~ msgstr "2025/07"
+
+#~ msgid "25.10 Preview"
+#~ msgstr "25.10 Preview"
+
+#~ msgid "25.10"
+#~ msgstr "25.10"
+
+#~ msgid "2025/10"
+#~ msgstr "2025/10"
+
+#~ msgid "26.01 Preview"
+#~ msgstr "26.01 プレビュー"
+
+#~ msgid "2025/12"
+#~ msgstr "2025/12"
+
+#~ msgid "26.01"
+#~ msgstr "26.01"
+
+#~ msgid "2026/01"
+#~ msgstr "2026/01"
+
+#~ msgid "26.04 Preview"
+#~ msgstr "26.04 Preview"
+
+#~ msgid "2026/03"
+#~ msgstr "2026/03"
+
+#~ msgid "26.04"
+#~ msgstr "26.04"
+
+#~ msgid "2026/04"
+#~ msgstr "2026/04"
+
+#~ msgid "Standard vs LTS vs Preview"
+#~ msgstr "スタンダード版 vs LTS版 vs プレビュー版"
+
+#~ msgid ""
+#~ "The main difference between standard and"
+#~ " LTS version lies in the support "
+#~ "period, 3 months vs 1 year. During"
+#~ " support period we will issue "
+#~ "critical bug fixes to the version "
+#~ "once fixed. LTS is recommended if "
+#~ "the current supported LTS version meets"
+#~ " all your requirements and you work"
+#~ " on projects that last for longer "
+#~ "than the standard supported period.   "
+#~ "Preview versions provides a glimpse of"
+#~ " upcoming features of new version of"
+#~ " FCS and provide a chance to "
+#~ "provide feedback to the developers. It"
+#~ " is where we release non-critical "
+#~ "bug fixes and are subject to "
+#~ "constant changes and no support is "
+#~ "guaranteed, you should never use the "
+#~ "preview version without making backup of"
+#~ " the data. You should only use "
+#~ "the preview if and only if you "
+#~ "some specific features and you "
+#~ "understand the risk."
+#~ msgstr "Standard版とLTS版の主な違いはサポート期間にあり、Standard版は3ヶ月間、LTS版は1年間サポートされます。サポート期間中、致命的なバグが修正され次第、迅速にアップデートとしてリリースされます。もし、現在サポート中のLTS版がすべての要件を満たしており、かつプロジェクトの期間がStandard版のサポート期間を超える場合は、LTS版の利用が推奨されます。Preview版は、新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。この版では、軽微なバグの修正が含まれ、常に変更が加えられるため、サポートは保証されません。そのため、データのバックアップを行わずにPreview版を使用することは避けてください。特定の機能が必要であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討してください。"
+
