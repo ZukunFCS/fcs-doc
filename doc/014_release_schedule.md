@@ -1,5 +1,5 @@
 ## Release Schedule
-Updated: January 30, 2026<br><br>
+Updated: February 27, 2026<br><br>
 Starting in 2026, the release cycle for FCS will change from the previous quarterly updates to semi-annual updates in April and October (twice a year).<br>
 
 #### 1. Regular releases (major versions)
