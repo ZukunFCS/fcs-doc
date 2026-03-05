@@ -24,9 +24,8 @@ msgid "開発ロードマップ"
 msgstr "Development roadmap"
 
 #: ../../095_roadmap.md:2
-#, fuzzy
 msgid "※2026年2月27日 更新"
-msgstr "Update 2026/1/30"
+msgstr "Update February 27, 2026"
 
 #: ../../095_roadmap.md:4
 msgid ""
@@ -147,6 +146,11 @@ msgid ""
 "製品に関するご質問やご要望、あるいは導入にあたっての技術的な課題などがございましたら、[HELTECホームページ](https://sensing.heltec.co.jp/product"
 "/zukun-lab/fcs/)よりお気軽にご相談ください。"
 msgstr ""
+"FCS aims to be a tool that can make a deeper contribution to our customers' actual production sites, so we are always open to receiving requests for additional features."
+"In addition to providing standard functions, we can also customize builds optimized for your company's specific production pipeline and workflow[^1]"
+"If you have any questions or requests about our products, or any technical issues you may be facing during implementation, please feel free to contact us via the [HELTEC website].(https://sensing.heltec.co.jp/product"
+"/zukun-lab/fcs/)"
+
 
 #: ../../095_roadmap.md:72
 msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。"
