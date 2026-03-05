@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 09:42+0000\n"
+"POT-Creation-Date: 2026-03-05 10:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -23,7 +23,7 @@ msgid "開発ロードマップ"
 msgstr ""
 
 #: ../../095_roadmap.md:2
-msgid "※2026年1月30日 更新"
+msgid "※2026年2月27日 更新"
 msgstr ""
 
 #: ../../095_roadmap.md:4
@@ -149,5 +149,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。 <br>"
+#~ msgstr ""
+
+#~ msgid "※2026年1月30日 更新"
 #~ msgstr ""
 
