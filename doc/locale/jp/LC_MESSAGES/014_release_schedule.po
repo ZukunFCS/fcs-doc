@@ -22,13 +22,12 @@ msgid "Release Schedule"
 msgstr "リリーススケジュール"
 
 #: ../../014_release_schedule.md:2
-#, fuzzy
 msgid ""
 "Updated: February 27, 2026<br><br> Starting in 2026, the release cycle "
 "for FCS will change from the previous quarterly updates to semi-annual "
 "updates in April and October (twice a year).<br>"
 msgstr ""
-"※2026年1月30日 "
+"※2026年2月27日 "
 "更新<br>FCSのリリースサイクルは、2026年より従来の四半期ごとの更新から4月と10月の半年ごと（年2回）の更新となりました。"
 
 #: ../../014_release_schedule.md:5
