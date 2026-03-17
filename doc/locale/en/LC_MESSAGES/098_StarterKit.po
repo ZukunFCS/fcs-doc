@@ -75,46 +75,45 @@ msgstr "Maya folder contains the following 2 models ; "
 
 #: ../../098_StarterKit.md:26
 msgid "AVERAGE HUMAN"
-msgstr ""
+msgstr "AVERAGE HUMAN"
 
 #: ../../098_StarterKit.md:33
-#, fuzzy
 msgid ""
 "AVERAGE HUMANとは、東映ツークン研究所が長年培ってきたデジタルヒューマン技術（実在の人物をCGで再現する技術）と、Unreal "
 "Engineを開発するEpic Games社が提供するMetaHuman（デジタルヒューマン作成ツール）を組み合わせて制作された3Dモデルです。"
 "   MetaHumanに関する詳細は、Epic "
 "Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
 msgstr ""
-"DIGITAL HUMAN is our digital human model created based on UnrealEngine. "
-"MetaHuman for more information about MetaHuman, please refer to Epic "
+"AVERAGE HUMAN is our digital human model created based on Unreal Engine "
+"and MetaHuman (a digital human creation tool) provided by Epic Games. "
+"For more information about MetaHuman, please refer to Epic "
 "Games [MetaHuman](https://www.unrealengine.com/ja/metahuman)."
 
 #: ../../098_StarterKit.md:36
-#, fuzzy
 msgid ""
 "AVERAGE HUMANは、MetaHuman標準のフェイシャルコントローラを使ってアニメーションさせることができます。   "
 "MetaHumanフェイシャルコントローラの使い方は、Epic "
 "Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
 msgstr ""
-"DIGITAL HUMAN uses the MetaHuman control rig. Please refer to Epic Games "
-"[Youtube channel](https://www.youtube.com/watch?v=GEpH3o44_58) if you "
-"require more information."
+"AVERAGE HUMAN can be animated using the standard MetaHuman facial controller. "
+"Please refer to Epic Games "
+"[Youtube channel](https://www.youtube.com/watch?v=GEpH3o44_58) for more "
+"information on how to use the MetaHuman facial controller."
 
 #: ../../098_StarterKit.md:39
 msgid "ご利用の際には、同梱されているreadme.txtを必ずお読みください。"
 msgstr "Please read the readme.txt included in your starter kit."
 
 #: ../../098_StarterKit.md:42
-#, fuzzy
 msgid ""
 "AVERAGE HUMANをご利用される際は、Unreal Engineでの確認 - レンダリングが前提となります。   事前にUnreal "
 "Engineのインストール、確認用プロジェクトの作成をお願いいたします。   Unreal Engineに関する詳細は、Epic "
 "Games社が提供する[Unreal "
 "Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
 msgstr ""
-"When using DIGITAL HUMAN, confirmation/rendering with Unreal Engine will "
-"be required.Please install the Unreal Engine and create a project for "
-"testing before using DIGITAL HUMAN. For more details on the Unreal "
+"When using AVERAGE HUMAN, confirmation/rendering with Unreal Engine will "
+"be required. Please install the Unreal Engine and create a project for "
+"testing before using AVERAGE HUMAN. For more details on the Unreal "
 "Engine, please refer to the website provided by Epic Games "
 "(https://www.unrealengine.com/en-US)."
 
@@ -195,12 +194,11 @@ msgstr ""
 "This is a sample video used for video analysis. Please import it into FCS"
 " for use."
 
-#: ../../098_StarterKit.md:82
-#, fuzzy
+#: ../../098_StarterKit.md:80
 msgid "AVERAGE HUMAN：感情の異なる、全9種類のセリフ動画*（セリフ自体は全て同一です）"
 msgstr ""
-"DIGITAL HUMAN: A total of 9 different emotion-based dialogue videos (the "
-"dialogue itself is the same in all videos)\n"
+"AVERAGE HUMAN: A total of 9 different emotion-based dialogue videos (the "
+"dialogue itself is the same in all videos)"
 
 #: ../../098_StarterKit.md:83
 msgid ""
@@ -216,16 +214,14 @@ msgstr ""
 msgid "5: Profile作成済みのFCS Session参考例データ"
 msgstr "5: Sample Data of an FCS Session with Created Profiles"
 
-#: ../../098_StarterKit.md:89
-#, fuzzy
+#: ../../098_StarterKit.md:87
 msgid ""
 "動画解析をお試しいただく際の参考例として作成された、AVERAGE HUMAN＆NIKE SHIKINOのFCS Sessionデータです。   "
 "どちらもフェイシャルROM体操動画から約50程度のProfileが既に作成済みのため、サンプル動画を読み込んでProfile作成をしていただくことで、ゼロからSessionを作成することなくFCSをご体験いただけます。"
 msgstr ""
-"Here’s the revised translation without the word "exercise": This is the "
-"FCS session data for DIGITAL HUMAN & NIKE SHIKINO, created as reference "
-"examples for trying out video analysis. Both include approximately 50 "
-"profiles already created from the Facial ROM videos, allowing you to "
+"This is the FCS session data for AVERAGE HUMAN & NIKE SHIKINO, created as "
+"reference examples for trying out video analysis. Both include approximately "
+"50 profiles already created from the Facial ROM videos, allowing you to "
 "experience FCS without needing to start a session from scratch. By "
 "loading the sample video, you can create profiles directly."
 
@@ -304,6 +300,14 @@ msgstr ""
 "② Click the Import button to open the file dialog.   ③ Select the "
 "relevant file within the FCS session folder structure and click the Open "
 "button."
+
+#: ../../098_StarterKit.md:114
+msgid ":::{figure} images/013_mayaDataRepath_01.jpg :width: 80% :align: center ::: :::{figure} images/013_mayaDataRepath_02.jpg :width: 80% :align: center :::"
+msgstr ":::{figure} images/013_mayaDataRepath_01.jpg :width: 80% :align: center ::: :::{figure} images/013_mayaDataRepath_02.jpg :width: 80% :align: center :::"
+
+#: ../../098_StarterKit.md:132
+msgid ":::{figure} images/013_movieImport.jpg :width: 80% :align: center :::"
+msgstr ":::{figure} images/013_movieImport.jpg :width: 80% :align: center :::"
 
 #: ../../098_StarterKit.md:79
 msgid "サンプル動画の内容について"

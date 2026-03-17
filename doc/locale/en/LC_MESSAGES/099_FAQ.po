@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 09:35+0000\n"
+"POT-Creation-Date: 2026-03-17 14:52+0900\n"
 "PO-Revision-Date: 2024-09-26 23:05+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../099_FAQ.md:1
 msgid "よくある質問（FAQ）"
@@ -27,411 +27,410 @@ msgstr "Frequently Asked Question"
 msgid "FCSを使うにあたって"
 msgstr "Using FCS"
 
-#: ../../099_FAQ.md:8
-msgid ""
-"**ネット接続は必須です。ライセンス情報の定期的なチェックにインターネットが必要です。   Wi-"
-"Fi接続も可能ですが、有線接続を推奨しています。**"
+#: ../../099_FAQ.md:0
+msgid "Q：FCS操作時にインターネット接続は必要ですか？"
+msgstr "Q: Is an Internet connection required when operating the FCS?"
+
+#: ../../099_FAQ.md:6
+msgid "**ネット接続は必須です。ライセンス情報の定期的なチェックにインターネットが必要です。 Wi-Fi接続も可能ですが、有線接続を推奨しています。**"
 msgstr ""
 "**FCS requires constant internet access for checking the validity of the "
-"license.    WiFi should work but we recommend using wired internet.**"
+"license. WiFi should work but we recommend using wired internet.**"
 
-#: ../../099_FAQ.md:17
-msgid ""
-"**最低スペック：   CPU：Intel Core i5-9400F   GPU：-    メモリー：DDR4 16GB以上   推奨スペック："
-"   CPU：Intel Core i7-13700K   GPU：Nvidia RTX 3080   メモリー：DDR4 128GB以上**"
+#: ../../099_FAQ.md:0
+msgid "Q：PCのスペックの決まりはありますか？"
+msgstr "Q: Are there any specific requirements for PC specifications?"
+
+#: ../../099_FAQ.md:11
+msgid "**最低スペック： CPU：Intel Core i5-9400F GPU：- メモリー：DDR4 16GB以上 推奨スペック： CPU：Intel Core i7-13700K GPU：Nvidia RTX 3080 メモリー：DDR4 128GB以上**"
 msgstr ""
 "**Minimum Specs:<BR>CPU: Intel Core i5-9400F<BR>GPU: - <BR>Memory: DDR4 "
 "16GB or more<BR>Recommended Specs:<BR>CPU: Intel Core i7-13700K<BR>GPU: "
 "Nvidia RTX 3080<BR>Memory: DDR4 128GB or more**"
 
-#: ../../099_FAQ.md:33
-msgid ""
-"**専用のカメラは不要です。   "
-"市販のカメラ（Gopro、iPhone、Androidなど）を使用できます。固定カメラやヘッドマウントカメラも問題ありません。   "
-"ご購入前に30日の無償トライアルライセンスで動作確認をおすすめします。**"
+#: ../../099_FAQ.md:0
+msgid "Q：専用のヘッドマウントカメラは必要ですか？"
+msgstr "Q: Is a dedicated head-mounted camera required?"
+
+#: ../../099_FAQ.md:22
+msgid "**専用のカメラは不要です。 市販のカメラ（Gopro、iPhone、Androidなど）を使用できます。固定カメラやヘッドマウントカメラも問題ありません。 ご購入前に30日の無償トライアルライセンスで動作確認をおすすめします。**"
 msgstr ""
-"**No specific camera is required Commercial cameras (i.e., Gopro, iPhone)"
-" would work, both table mounted or head mounted.\n"
+"**No specific camera is required. Commercial cameras (i.e., Gopro, iPhone)"
+" would work, both table mounted or head mounted. "
 "You can test your own footage with our 30 days free trials. (No credit "
 "card required.)**"
 
-#: ../../099_FAQ.md:44
+#: ../../099_FAQ.md:0
+msgid "Q：MacOSには対応していますか？"
+msgstr "Q: Is MacOS supported?"
+
+#: ../../099_FAQ.md:28
 msgid "**現時点では対応していませんが、将来的には対応する予定です。（※2024年6月現在）**"
 msgstr ""
 "**It is not supported at this time, but it is planned to be supported in "
 "the future. (As of June 2024)**"
 
-#: ../../099_FAQ.md:53
+#: ../../099_FAQ.md:0
+msgid "Q：FCSを使用するにあたって、何か別のソフトは必要になりますか？"
+msgstr "Q: Is any additional software required to use the FCS?"
+
+#: ../../099_FAQ.md:32
 msgid "**Mayaが必要です。（Maya 2018/2020/2022/2023/2024に対応）**"
 msgstr "**Maya is required. (Compatible with Maya 2018/2020/2022/2023/2024)**"
 
-#: ../../099_FAQ.md:56 ../../099_FAQ.md:264
-msgid "<br><br>"
-msgstr "<br><br>"
-
-#: ../../099_FAQ.md:58
+#: ../../099_FAQ.md:37
 msgid "FCSの機能について"
 msgstr "FCS features"
 
-#: ../../099_FAQ.md:63
+#: ../../099_FAQ.md:0
+msgid "Q：FCSは撮影の際、アクターにマーカーを付ける必要はありますか？"
+msgstr "Q: Does FCS require markers on the actor footage?"
+
+#: ../../099_FAQ.md:40
 msgid "**FCSはオートトラッキングを搭載しているため、アクターにマーカーを付ける必要はありません。**"
 msgstr ""
 "**Since FCS is equipped with auto-tracking, there is no need to apply "
 "markers to the actor.**"
 
-#: ../../099_FAQ.md:72
+#: ../../099_FAQ.md:0
+msgid "Q：ランドマークがズレた際に修正できますか？"
+msgstr "Q: Can the landmarks be corrected if they are misaligned?"
+
+#: ../../099_FAQ.md:44
 msgid "**オートトラッキングのため、ランドマークのズレは修正できません。**"
 msgstr "**Due to auto-tracking, landmark misalignment cannot be corrected.**"
 
-#: ../../099_FAQ.md:81
+#: ../../099_FAQ.md:0
+msgid "Q：舌のトラッキングはできますか？"
+msgstr "Q: Is tongue tracking possible?"
+
+#: ../../099_FAQ.md:48
 msgid "**舌のトラッキングには対応していません。**"
 msgstr "**Tongue tracking is not supported.**"
 
-#: ../../099_FAQ.md:89
+#: ../../099_FAQ.md:0
+msgid "Q：モーフではなくスケルトンにも対応していますか？"
+msgstr "Q: Does it support skeletons as well as morphs?"
+
+#: ../../099_FAQ.md:52
 msgid "**FCSはモーフだけでなくスケルトンにも対応しています。**"
 msgstr "**FCS supports not only morphs but also skeletons.**"
 
-#: ../../099_FAQ.md:97
-msgid "**同じリグであればできます。   Exportで新しいセッションファイルを作成していただき、紐付けるMayaファイルを変更してください。**"
+#: ../../099_FAQ.md:0
+msgid "Q：同じ役者が複数キャラクターを担当しているのですが、Profileの使い回しはできますか？"
+msgstr "Q: The same actor is playing multiple characters. Is it possible to reuse their profile?"
+
+#: ../../099_FAQ.md:56
+msgid "**同じリグであればできます。 Exportで新しいセッションファイルを作成していただき、紐付けるMayaファイルを変更してください。**"
 msgstr ""
-"**It is possible if it’s the same rig. Please create a new session file "
+"**It is possible if it's the same rig. Please create a new session file "
 "through Export, and change the Maya file you want to link.**"
 
-#: ../../099_FAQ.md:106
+#: ../../099_FAQ.md:0
+msgid "Q：新規キャラクターのセッション作成時、同じアクター間でセッションデータを使い回したり、同じキャラクターのコントローラー情報を別アクターでのセッション作成に利用することはできますか？"
+msgstr "Q: When creating a session for a new character, can session data be reused between the same actors, or can controller information for the same character be used for sessions with different actors?"
+
+#: ../../099_FAQ.md:61
 msgid ""
 "**[エクスポート機能](https://zukunfcs.github.io/fcs-"
-"doc/24.10/jp/011_export.html)が利用できます。   "
+"doc/24.10/jp/011_export.html)が利用できます。 "
 "登録コントローラーの一括リネーム機能もございますので、適宜コントローラー名の変更を行ってください。**"
 msgstr ""
+"**The [Export function](https://zukunfcs.github.io/fcs-doc/24.10/jp/011_export.html) "
+"can be used. A batch rename feature for registered controllers is also "
+"available, so please change the controller names as needed.**"
 
-#: ../../099_FAQ.md:115
-msgid ""
-"**現在のFCSのアルゴリズムはアクターが同一人物であることを前提として設計されております。   "
-"操作上は可能ですが、異なるアクター間でのプロファイルの使い回しは出力精度の観点からお勧めできません。**"
+#: ../../099_FAQ.md:0
+msgid "Q：異なるアクター間でROM体操のプロファイルを使い回すことはできますか？"
+msgstr "Q: Is it possible to reuse ROM exercise profiles between different actors?"
+
+#: ../../099_FAQ.md:66
+msgid "**現在のFCSのアルゴリズムはアクターが同一人物であることを前提として設計されております。 操作上は可能ですが、異なるアクター間でのプロファイルの使い回しは出力精度の観点からお勧めできません。**"
 msgstr ""
+"**The current FCS algorithm is designed on the assumption that the actor "
+"is the same person. While it is operationally possible, reusing profiles "
+"between different actors is not recommended from an output accuracy perspective.**"
 
-#: ../../099_FAQ.md:124
+#: ../../099_FAQ.md:0
+msgid "Q：Mayaを別途、起動する必要はありますか？"
+msgstr "Q: Is it necessary to launch Maya separately?"
+
+#: ../../099_FAQ.md:71
 msgid "**プロジェクトファイルを一度設定すれば、FCSからMayaをワンクリックで起動できます。**"
 msgstr ""
 "**Once the project file is set up, you can launch Maya with a single "
 "click from FCS.**"
 
-#: ../../099_FAQ.md:132
+#: ../../099_FAQ.md:0
+msgid "Q：ライブキャラクターアニメーションはできますか？"
+msgstr "Q: Is live character animation possible?"
+
+#: ../../099_FAQ.md:75
 msgid "**現時点ではできませんが、将来的には対応する予定です。（※2024年6月現在）**"
 msgstr ""
 "**It is not possible at this time, but we plan to provide support in the "
 "future. (As of June 2024)**"
 
-#: ../../099_FAQ.md:141
+#: ../../099_FAQ.md:0
+msgid "Q：Profileには、ROM体操は必須ですか？"
+msgstr "Q: Is ROM required for the profile?"
+
+#: ../../099_FAQ.md:79
 msgid "**ProfileにはROM体操が必須ではありませんが、精度向上のために追加することをおすすめします。**"
 msgstr ""
 "**While ROM is not mandatory for the profile, it is recommended to add it"
 " for improved accuracy.**"
 
-#: ../../099_FAQ.md:150
+#: ../../099_FAQ.md:0
+msgid "Q：プラグインなどの関係上、Mayaを別途で起動させる必要がありますが、どうしたらよろしいでしょうか？"
+msgstr "Q: Due to plugin requirements, it is necessary to launch Maya separately. How should I proceed?"
+
+#: ../../099_FAQ.md:83
 msgid ""
-"**その際はMayaで手動でポート解放してください。   Maya起動後、以下のコマンドをスクリプトエディター(Mel)に入力してください。"
-"     ```commandPort -stp \"python\" -n \":42069\"```   "
-"Mayaを起動するスクリプトに同じコマンドをテクニカル担当者様に追加していただければ同じ挙動ができるようになります。     "
+"**その際はMayaで手動でポート解放してください。 "
+"Maya起動後、以下のコマンドをスクリプトエディター(Mel)に入力してください。 "
+"```commandPort -stp \"python\" -n \":42069\"``` "
+"Mayaを起動するスクリプトに同じコマンドをテクニカル担当者様に追加していただければ同じ挙動ができるようになります。 "
 "すでにポート42069が使われていた際、Settingsでポートを変更できるようになっております。**"
 msgstr ""
 "**In that case, please manually open the port in Maya. After launching "
 "Maya, enter the following command in the script editor (Mel): commandPort"
-" -stp “python” -n “:42069” If you ask your technical staff to add the "
+" -stp \"python\" -n \":42069\" If you ask your technical staff to add the "
 "same command to the script that launches Maya, you will achieve the same "
 "behavior. If port 42069 is already in use, you can change the port in "
 "Settings.**"
 
-#: ../../099_FAQ.md:162
+#: ../../099_FAQ.md:0
+msgid "Q：マニュアル以外のコントローラーリグを追加することはできますか？"
+msgstr "Q: Is it possible to add controller rigs other than those in the manual?"
+
+#: ../../099_FAQ.md:91
 msgid "**手順書以外のコントローラーリグでもUpper/eyelid/gaze/lowerに分類できる場合、任意で追加できます。**"
 msgstr ""
 "**If the controller rig other than the instruction manual can be "
 "categorized as Upper/eyelid/gaze/lower, it can be added optionally.**"
 
-#: ../../099_FAQ.md:170
-msgid ""
-"**コントローラーのあるリグであれば基本的に対応しています。   "
-"ブレンドシェイプやジョイントでもコントローラー登録とアニメーション出力が可能です。**"
+#: ../../099_FAQ.md:0
+msgid "Q：Metahuman以外のコントローラーリグにも対応していますか？"
+msgstr "Q: Does it support controller rigs other than Metahuman?"
+
+#: ../../099_FAQ.md:95
+msgid "**コントローラーのあるリグであれば基本的に対応しています。 ブレンドシェイプやジョイントでもコントローラー登録とアニメーション出力が可能です。**"
 msgstr ""
 "**It generally supports rigs with controllers. Blend shapes and joints "
 "can also be registered as controllers and allow for animation output.**"
 
-#: ../../099_FAQ.md:179
-msgid "**画角が同じであれば撮影場所が変わっても問題ありません。   Profileのピックアップを追加することで対応できます。**"
+#: ../../099_FAQ.md:0
+msgid "Q：解析動画に関して、画角が同じであれば撮影場所が変わっても問題ありませんか？"
+msgstr "Q: Regarding analysis videos, is it okay if the filming location changes as long as the angle of view remains the same?"
+
+#: ../../099_FAQ.md:100
+msgid "**画角が同じであれば撮影場所が変わっても問題ありません。 Profileのピックアップを追加することで対応できます。**"
 msgstr ""
 "**As long as the angle of view is the same, it is not a problem if the "
 "shooting location changes. You can accommodate this by adding a pickup in"
 " the profile.**"
 
-#: ../../099_FAQ.md:189
+#: ../../099_FAQ.md:0
+msgid "Q：動画の画質(フルHDと4Kなど)が変わると、オートトラッキング精度に影響がありますか？そのほかに影響が出るところはありますか？推奨はありますか？"
+msgstr "Q: Does a change in video quality (e.g., Full HD and 4K) affect auto-tracking accuracy? Are there any other areas that may be impacted? Do you have any recommendations?"
+
+#: ../../099_FAQ.md:105
 msgid "**極端に解像度の低い（480P以下）、または画質が悪いもの（照明が極めて暗い）を除き、動画の画質はオートトラッキング精度への影響が少ないです。**"
 msgstr ""
 "**Except for extremely low resolution (below 480P) or poor quality "
 "(extremely dark lighting) videos, the quality of the video has little "
 "impact on auto-tracking accuracy.**"
 
-#: ../../099_FAQ.md:198
+#: ../../099_FAQ.md:0
+msgid "Q：動画のリフレッシュレート(60fpsと120fpsなど)が変わると、オートトラッキング精度に影響がありますか？そのほかに影響が出るところはありますか？推奨はありますか？"
+msgstr "Q: Does a change in video refresh rate (e.g., 60fps or 120fps) affect auto-tracking accuracy? Are there any other areas that might be impacted? Do you have any recommendations?"
+
+#: ../../099_FAQ.md:109
 msgid "**できれば明るい場所で撮影してください。また、アクションシーンなどではフレームレートの高いカメラでモーションブラーの少ない撮影を心がけていただければ問題ありません。**"
 msgstr ""
 "**If possible, please shoot in a well-lit area. Additionally, for action "
 "scenes, it is advisable to use a high frame rate camera to minimize "
-"motion blur, but this is not a problem.**"
+"motion blur.**"
 
-#: ../../099_FAQ.md:206
-#, fuzzy
-msgid "**FCSの File&rarr;Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再起動が必要です。**"
+#: ../../099_FAQ.md:0
+msgid "Q：再起動が必要な場合はありますか？"
+msgstr "Q: Are there situations where a restart is required?"
+
+#: ../../099_FAQ.md:113
+msgid "**FCSの File&rarr;Setting にて各種項目を変更できます。 変更した内容は、再起動後に反映されるため、再起動が必要です。** :::{figure} images/Set001.jpg :width: 80% :align: center :::"
 msgstr ""
 "**You can change various items in FCS under File &rarr; Settings. Changes"
-" will be reflected after restarting, so a restart is required."
+" will be reflected after restarting, so a restart is required.** "
+":::{figure} images/Set001.jpg :width: 80% :align: center :::"
 
-#: ../../099_FAQ.md:219
+#: ../../099_FAQ.md:0
+msgid "Q：レイアウトの登録はできますか？"
+msgstr "Q: Is it possible to save layouts?"
+
+#: ../../099_FAQ.md:122
 msgid "**FCSの View&rarr;Layout にて登録時のレイアウト情報を保存できます。**"
 msgstr ""
 "**You can save the layout information at registration in FCS under View "
 "&rarr; Layout.**"
 
-#: ../../099_FAQ.md:221
+#: ../../099_FAQ.md:124
 msgid "View&rarr;Layout&rarr;Save current　で　「Layout Registration」ウィンドウを起動<br>"
 msgstr ""
-"Activate the “Layout Registration” window by selecting View &rarr; Layout"
+"Activate the \"Layout Registration\" window by selecting View &rarr; Layout"
 " &rarr; Save Current.<br>"
 
-#: ../../099_FAQ.md:222
+#: ../../099_FAQ.md:125
 msgid "「Layout Name」を入力し<br>"
-msgstr "Enter the “Layout Name”<br>"
+msgstr "Enter the \"Layout Name\"<br>"
 
-#: ../../099_FAQ.md:223
-msgid "Save<br> で登録することができます"
+#: ../../099_FAQ.md:126
+msgid "Save<br> で登録することができます :::{figure} images/Layout_02_Open-Save.jpg :width: 80% :align: center :::"
 msgstr ""
+"You can register by clicking Save<br> "
+":::{figure} images/Layout_02_Open-Save.jpg :width: 80% :align: center :::"
 
-#: ../../099_FAQ.md:236
-msgid ""
-"**Mayaが立ち上がっていない状態でMaya SyncをONにすると動作が遅くなります。もしMaya "
-"SyncがONであれば、OFFにしてください。**"
+#: ../../099_FAQ.md:0
+msgid "Q：FCSの動作が極端に重い時はどうすればよいですか？"
+msgstr "Q: What should I do when FCS is extremely slow?"
+
+#: ../../099_FAQ.md:135
+msgid "**Mayaが立ち上がっていない状態でMaya SyncをONにすると動作が遅くなります。もしMaya SyncがONであれば、OFFにしてください。**"
 msgstr ""
+"**If Maya Sync is turned ON while Maya is not running, FCS will become slow. "
+"If Maya Sync is ON, please turn it OFF.**"
 
-#: ../../099_FAQ.md:244
+#: ../../099_FAQ.md:0
+msgid "Q：ROM体操の資料にある「アイウエオ」と「パピプペポ」の違いは何ですか？どちらも必要ですか？"
+msgstr "Q: What is the difference between \"A-I-U-E-O\" and \"Pa-Pi-Pu-Pe-Po\" in the ROM exercise materials? Are both necessary?"
+
+#: ../../099_FAQ.md:139
 msgid "**スターターキットに同梱されている「zukun_facialROM.pdf」ｐ.46~47を参考に、「アイウエオ」は開いた形状5つを、「パピプペポ」は唇の巻き込み(破裂音)形状1つを選んでプロファイルの登録をしてください。**"
 msgstr ""
+"**Referring to pages 46-47 of \"zukun_facialROM.pdf\" included in the starter "
+"kit, please register profiles by selecting 5 open shapes for \"A-I-U-E-O\" "
+"and 1 lip-tucking (plosive) shape for \"Pa-Pi-Pu-Pe-Po\".**"
 
-#: ../../099_FAQ.md:252
+#: ../../099_FAQ.md:0
+msgid "Q：Editorでのプロファイル登録の際、スライダー部分へ値を直接入力することはできますか？"
+msgstr "Q: When registering profiles in the Editor, is it possible to directly input values into the slider?"
+
+#: ../../099_FAQ.md:143
 msgid "**Ctrl＋クリックで直接数値を入力できます。**"
-msgstr ""
+msgstr "**You can directly input values by Ctrl+clicking.**"
 
-#: ../../099_FAQ.md:260
+#: ../../099_FAQ.md:0
+msgid "Q：アニメーションを出力した際にイメージプレーンがモデルの後ろへ行ってしまうのは何故ですか？"
+msgstr "Q: Why does the image plane go behind the model when outputting animation?"
+
+#: ../../099_FAQ.md:147
 msgid ""
-"**FCSではMaya内で使われるカメラの指定が可能です。指定した名前のカメラがシーン内に無い場合は新しく作成されます。   "
-"「Settings/Maya/Image "
-"Plane」や「Settings/Maya/camera」から、使用するカメラやイメージプレーンの名前を設定してください。**"
+"**FCSではMaya内で使われるカメラの指定が可能です。指定した名前のカメラがシーン内に無い場合は新しく作成されます。 "
+"「Settings/Maya/Image Plane」や「Settings/Maya/camera」から、使用するカメラやイメージプレーンの名前を設定してください。**"
 msgstr ""
+"**In FCS, you can specify the camera used in Maya. If a camera with the "
+"specified name does not exist in the scene, a new one will be created. "
+"Please set the camera and image plane names from \"Settings/Maya/Image Plane\""
+" and \"Settings/Maya/camera\".**"
 
-#: ../../099_FAQ.md:266
+#: ../../099_FAQ.md:153
 msgid "ライセンスについて"
-msgstr "Regarding license "
+msgstr "Regarding license"
 
-#: ../../099_FAQ.md:271
+#: ../../099_FAQ.md:0
+msgid "Q：1ライセンスの場合、2台のPCで同時作業できますか？"
+msgstr "Q: With a single license, is it possible to work on two PCs at the same time?"
+
+#: ../../099_FAQ.md:156
 msgid "**できません。ただし、同時に起動しなければ複数台のPCで作業可能です。**"
 msgstr ""
 "**No, it is not possible. However, you can work on multiple PCs as long "
 "as they are not launched simultaneously.**"
 
-#: ../../099_FAQ.md:279
+#: ../../099_FAQ.md:0
+msgid "Q：金額はいくらですか？"
+msgstr "Q: How much does the subscription cost?"
+
+#: ../../099_FAQ.md:160
 msgid "**年間サブスクリプションは40万円（税抜き）です。2024年12月末までに購入される方には、1ライセンスにつきもう1ライセンスが無償で付与されます。**"
 msgstr ""
 "**The annual subscription is 400,000 yen (excluding tax). For those who "
 "purchase by the end of December 2024, an additional license will be "
 "granted free of charge for each license purchased.**"
 
-#: ../../099_FAQ.md:287
+#: ../../099_FAQ.md:0
+msgid "Q：購入後に自動的に契約更新になりますか？"
+msgstr "Q: Will the subscription automatically renew after purchase?"
+
+#: ../../099_FAQ.md:164
 msgid "**購入後、自動的に契約更新は行われません。サブスクリプション終了1ヵ月前にFCSソフト内でポップアップが表示され、更新を希望する場合は弊社担当者にご連絡いただく必要があります。**"
 msgstr ""
 "**After purchase, the contract will not automatically renew. A popup will"
 " appear in the FCS software one month before the subscription ends, and "
 "if you wish to renew, you will need to contact our representative.**"
 
-#: ../../099_FAQ.md:295
+#: ../../099_FAQ.md:0
+msgid "Q：更新をやめたいときはどうすればいいですか？"
+msgstr "Q: What should I do if I don't want to renew the subscription?"
+
+#: ../../099_FAQ.md:168
 msgid "**特別な操作は必要ありません。サブスクリプション終了期間までは使用できますが、終了後は使用できなくなります。**"
 msgstr ""
 "**No special actions are required. You can use it until the subscription "
 "period ends, but it will no longer be usable afterward.**"
 
-#: ../../099_FAQ.md:303
+#: ../../099_FAQ.md:0
+msgid "Q：6か月で使用をやめたいときに、返金はありますか？"
+msgstr "Q: If I want to stop using it after 6 months, will there be a refund?"
+
+#: ../../099_FAQ.md:172
 msgid "**年間でのサブスクリプション契約のため、途中解約での返金はありません。**"
 msgstr ""
 "**Since it is an annual subscription contract, there are no refunds for "
 "early cancellation.**"
 
-#: ../../099_FAQ.md:311
+#: ../../099_FAQ.md:0
+msgid "Q：トライアルはどのくらいの期間、使用できますか？"
+msgstr "Q: How long can I use the trial version?"
+
+#: ../../099_FAQ.md:176
 msgid ""
-"**トライアルは30日間お試しいただけます。   "
+"**トライアルは30日間お試しいただけます。 "
 "詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
 msgstr ""
 "**You can try the trial for 30 days. For more details, please contact us "
-"through the [HELTEC webpage].(https://sensing.heltec.co.jp/contact/)**"
+"through the [HELTEC webpage](https://sensing.heltec.co.jp/contact/).**"
 
-#: ../../099_FAQ.md:320
+#: ../../099_FAQ.md:0
+msgid "Q：FCSを使用するにあたって、接続するドメインを教えてください。"
+msgstr "Q: What domains does FCS connect to?"
+
+#: ../../099_FAQ.md:181
 msgid "**こちらになります: api.toei-fcs.com, google.com**"
-msgstr ""
+msgstr "**The domains are: api.toei-fcs.com, google.com**"
 
-#: ../../099_FAQ.md:328
+#: ../../099_FAQ.md:0
+msgid "Q：トライアル後に自動的に契約更新になりますか？"
+msgstr "Q: Will the subscription automatically renew after the trial?"
+
+#: ../../099_FAQ.md:185
 msgid ""
-"**トライアル版から製品版への移行には別途購入手続きが必要です。   "
+"**トライアル版から製品版への移行には別途購入手続きが必要です。 "
 "詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。**"
 msgstr ""
 "**A separate purchase process is required to transition from the trial "
 "version to the full version. For more details, please contact us through "
-"the [HELTEC website].(https://sensing.heltec.co.jp/contact/)**"
+"the [HELTEC website](https://sensing.heltec.co.jp/contact/).**"
 
-#: ../../099_FAQ.md:337
+#: ../../099_FAQ.md:0
+msgid "Q：\"Internal Server Error\"というメッセージが表示されてFCSを使用できません。どうしたら良いですか？"
+msgstr "Q: \"Internal Server Error\" message pops up, and I cannot use the FCS. What should I do?"
+
+#: ../../099_FAQ.md:190
 msgid ""
-"**ライセンス情報をチェックするサーバーに問題が生じている状況です。   "
+"**ライセンス情報をチェックするサーバーに問題が生じている状況です。 "
 "サーバー側での対応が必要ですので、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からご連絡ください。**"
 msgstr ""
 "**There is an issue with the server that checks the license information. "
 "Since action is required on the server side, please contact us through "
-"the [HELTEC website].(https://sensing.heltec.co.jp/contact/)**"
-
-#: ../../099_FAQ.md:5
-msgid "Q：FCS操作時にインターネット接続は必要ですか？"
-msgstr "Q: Is an Internet connection required when operating the FCS?"
-
-#: ../../099_FAQ.md:14
-msgid "Q：PCのスペックの決まりはありますか？"
-msgstr "Q: Are there any specific requirements for PC specifications?"
-
-#: ../../099_FAQ.md:29
-msgid "Q：専用のヘッドマウントカメラは必要ですか？"
-msgstr "Q: Is a dedicated head-mounted camera required?"
-
-#: ../../099_FAQ.md:37
-msgid "Q：MacOSには対応していますか？"
-msgstr "Q: Is MacOS supported?"
-
-#: ../../099_FAQ.md:43
-msgid "Q：FCSを使用するにあたって、何か別のソフトは必要になりますか？"
-msgstr "Q: Is any additional software required to use the FCS?"
-
-#: ../../099_FAQ.md:60
-msgid "Q：FCSは撮影の際、アクターにマーカーを付ける必要はありますか？"
-msgstr "Q: Does FCS require markers on the actor footage?"
-
-#: ../../099_FAQ.md:67
-msgid "Q：ランドマークがズレた際に修正できますか？"
-msgstr "Q: Can the landmarks be corrected if they are misaligned?"
-
-#: ../../099_FAQ.md:74
-msgid "Q：舌のトラッキングはできますか？"
-msgstr "Q: Is tongue tracking possible?"
-
-#: ../../099_FAQ.md:81
-msgid "Q：モーフではなくスケルトンにも対応していますか？"
-msgstr "Q: Does it support skeletons as well as morphs?"
-
-#: ../../099_FAQ.md:88
-msgid "Q：同じ役者が複数キャラクターを担当しているのですが、Profileの使い回しはできますか？"
-msgstr "Q: The same actor is playing multiple characters. Is it possible to reuse their profile?"
-
-#: ../../099_FAQ.md:95
-msgid "Q：新規キャラクターのセッション作成時、同じアクター間でセッションデータを使い回したり、同じキャラクターのコントローラー情報を別アクターでのセッション作成に利用することはできますか？"
-msgstr "Q: When creating a session for a new character, can session data be reused between the same actors, or can controller information for the same character be used for sessions with different actors?"
-
-#: ../../099_FAQ.md:105
-msgid "Q：異なるアクター間でROM体操のプロファイルを使い回すことはできますか？"
-msgstr "Q: Is it possible to reuse ROM exercise profiles between different actors?"
-
-#: ../../099_FAQ.md:113
-msgid "Q：Mayaを別途、起動する必要はありますか？"
-msgstr "Q: Is it necessary to launch Maya separately?"
-
-#: ../../099_FAQ.md:119
-msgid "Q：ライブキャラクターアニメーションはできますか？"
-msgstr "Q: Is live character animation possible?"
-
-#: ../../099_FAQ.md:125
-msgid "Q：Profileには、ROM体操は必須ですか？"
-msgstr "Q: Is ROM required for the profile?"
-
-#: ../../099_FAQ.md:131
-msgid "Q：プラグインなどの関係上、Mayaを別途で起動させる必要がありますが、どうしたらよろしいでしょうか？"
-msgstr "Q: Due to plugin requirements, it is necessary to launch Maya separately. How should I proceed?"
-
-#: ../../099_FAQ.md:145
-msgid "Q：マニュアル以外のコントローラーリグを追加することはできますか？"
-msgstr "Q: Is it possible to add controller rigs other than those in the manual?"
-
-#: ../../099_FAQ.md:151
-msgid "Q：Metahuman以外のコントローラーリグにも対応していますか？"
-msgstr "Q: Does it support controller rigs other than Metahuman?"
-
-#: ../../099_FAQ.md:158
-msgid "Q：解析動画に関して、画角が同じであれば撮影場所が変わっても問題ありませんか？"
-msgstr "Q: Regarding analysis videos, is it okay if the filming location changes as long as the angle of view remains the same?"
-
-#: ../../099_FAQ.md:165
-msgid "Q：動画の画質(フルHDと4Kなど)が変わると、オートトラッキング精度に影響がありますか？そのほかに影響が出るところはありますか？推奨はありますか？"
-msgstr "Q: Does a change in video quality (e.g., Full HD and 4K) affect auto-tracking accuracy? Are there any other areas that may be impacted? Do you have any recommendations?"
-
-#: ../../099_FAQ.md:172
-msgid "Q：動画のリフレッシュレート(60fpsと120fpsなど)が変わると、オートトラッキング精度に影響がありますか？そのほかに影響が出るところはありますか？推奨はありますか？"
-msgstr "Q: Does a change in video refresh rate (e.g., 60fps or 120fps) affect auto-tracking accuracy? Are there any other areas that might be impacted? Do you have any recommendations?"
-
-#: ../../099_FAQ.md:179
-msgid "Q：再起動が必要な場合はありますか？"
-msgstr "Q: Are there situations where a restart is required?"
-
-#: ../../099_FAQ.md:189
-msgid "Q：レイアウトの登録はできますか？"
-msgstr "Q: Is it possible to save layouts?"
-
-#: ../../099_FAQ.md:201
-msgid "Q：FCSの動作が極端に重い時はどうすればよいですか？"
-msgstr "Q: What should I do when FCS is extremely slow?"
-
-#: ../../099_FAQ.md:207
-msgid "Q：ROM体操の資料にある「アイウエオ」と「パピプペポ」の違いは何ですか？どちらも必要ですか？"
-msgstr "Q: What is the difference between \"A-I-U-E-O\" and \"Pa-Pi-Pu-Pe-Po\" in the ROM exercise materials? Are both necessary?"
-
-#: ../../099_FAQ.md:213
-msgid "Q：Editorでのプロファイル登録の際、スライダー部分へ値を直接入力することはできますか？"
-msgstr "Q: When registering profiles in the Editor, is it possible to directly input values into the slider?"
-
-#: ../../099_FAQ.md:219
-msgid "Q：アニメーションを出力した際にイメージプレーンがモデルの後ろへ行ってしまうのは何故ですか？"
-msgstr "Q: Why does the image plane go behind the model when outputting animation?"
-
-#: ../../099_FAQ.md:230
-msgid "Q：1ライセンスの場合、2台のPCで同時作業できますか？"
-msgstr "Q: With a single license, is it possible to work on two PCs at the same time?"
-
-#: ../../099_FAQ.md:237
-msgid "Q：金額はいくらですか？"
-msgstr "Q: How much does the subscription cost?"
-
-#: ../../099_FAQ.md:243
-msgid "Q：購入後に自動的に契約更新になりますか？"
-msgstr "Q: Will the subscription automatically renew after purchase?"
-
-#: ../../099_FAQ.md:249
-msgid "Q：更新をやめたいときはどうすればいいですか？"
-msgstr "Q: What should I do if I don’t want to renew the subscription?"
-
-#: ../../099_FAQ.md:255
-msgid "Q：6か月で使用をやめたいときに、返金はありますか？"
-msgstr "Q: If I want to stop using it after 6 months, will there be a refund?"
-
-#: ../../099_FAQ.md:261
-msgid "Q：トライアルはどのくらいの期間、使用できますか？"
-msgstr "Q: How long can I use the trial version?"
-
-#: ../../099_FAQ.md:269
-msgid "Q：FCSを使用するにあたって、接続するドメインを教えてください。"
-msgstr "Q: What domains does FCS connect to?"
-
-#: ../../099_FAQ.md:275
-msgid "Q：トライアル後に自動的に契約更新になりますか？"
-msgstr "Q: Will the subscription automatically renew after the trial?"
-
-#: ../../099_FAQ.md:282
-msgid "Q：\"Internal Server Error\"というメッセージが表示されてFCSを使用できません。どうしたら良いですか？"
-msgstr "Q: \"Internal Server Error\" message pops up, and I cannot use the FCS. What should I do?"
-
+"the [HELTEC website](https://sensing.heltec.co.jp/contact/).**"
