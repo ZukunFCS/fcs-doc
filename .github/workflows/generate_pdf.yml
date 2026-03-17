@@ -1,0 +1,53 @@
+name: Generate PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Document version (e.g. 25.07)'
+        required: true
+        default: '25.07'
+      language:
+        description: 'Language (e.g. en, jp)'
+        required: true
+        default: 'en'
+
+permissions:
+  contents: read
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v3
+
+      - name: Install Python dependencies
+        run: |
+          pip install sphinx sphinx_rtd_theme myst_parser sphinx-design pyyaml rst2pdf
+
+      - name: Install LaTeX dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-luatex texlive-lang-japanese fonts-ipafont latexmk
+
+      - name: Build PDF
+        env:
+          INPUT_VERSION: ${{ github.event.inputs.version }}
+          INPUT_LANGUAGE: ${{ github.event.inputs.language }}
+        run: |
+          cd doc
+          mkdir -p _build
+          python3 build_docs_pdf.py
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: fcs-manual-${{ github.event.inputs.version }}-${{ github.event.inputs.language }}
+          path: |
+            doc/_build/pdf/
+            doc/_build/latex/*.pdf
+          if-no-files-found: warn
