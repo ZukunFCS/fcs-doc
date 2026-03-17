@@ -305,6 +305,18 @@ msgstr ""
 "relevant file within the FCS session folder structure and click the Open "
 "button."
 
+#: ../../098_StarterKit.md:79
+msgid "サンプル動画の内容について"
+msgstr "Content of Sample Video"
+
+#: ../../098_StarterKit.md:103
+msgid "Mayaデータのパス再設定方法"
+msgstr "How to Reset Paths for Maya Data"
+
+#: ../../098_StarterKit.md:124
+msgid "サンプル動画のインポート方法"
+msgstr "How to Import Sample Video"
+
 #~ msgid "```{figure} images/013_image001.PN"
 #~ msgstr "```{figure} images/013_image001.PN"
 
@@ -314,9 +326,6 @@ msgstr ""
 #~ msgid "```{figure} images/013_NIKESHIKINO.pn"
 #~ msgstr "```{figure} images/013_NIKESHIKINO.pn"
 
-#~ msgid "Mayaデータのパス再設定方法"
-#~ msgstr "How to Reset Paths for Maya Data"
-
 #~ msgid ""
 #~ "```{figure} images/013_mayaDataRepath_01.pn```{figure} "
 #~ "images/013_mayaDataRepath_02.pn"
@@ -324,17 +333,11 @@ msgstr ""
 #~ "```{figure} images/013_mayaDataRepath_01.pn```{figure} "
 #~ "images/013_mayaDataRepath_02.pn"
 
-#~ msgid "サンプル動画のインポート方法"
-#~ msgstr "How to Import Sample Video"
-
 #~ msgid "```{figure} images/013_movieImport.pn"
 #~ msgstr "```{figure} images/013_movieImport.pn"
 
 #~ msgid "DIGITAL NAGAKI：FCS紹介動画"
 #~ msgstr "DIGITAL NAGAKI: FCS Introduction Video"
-
-#~ msgid "サンプル動画の内容について"
-#~ msgstr "Content of Sample Video"
 
 #~ msgid "DIGITAL HUMAN"
 #~ msgstr "DIGITAL HUMAN"

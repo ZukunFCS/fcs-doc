@@ -291,132 +291,147 @@ msgstr ""
 "Since action is required on the server side, please contact us through "
 "the [HELTEC website].(https://sensing.heltec.co.jp/contact/)**"
 
-#~ msgid "Q：FCS操作時にインターネット接続は必要ですか？"
-#~ msgstr "Q: Is an Internet connection required when operating the FCS?"
+#: ../../099_FAQ.md:5
+msgid "Q：FCS操作時にインターネット接続は必要ですか？"
+msgstr "Q: Is an Internet connection required when operating the FCS?"
 
-#~ msgid "Q：PCのスペックの決まりはありますか？ "
-#~ msgstr "Q: Are there any specific requirements for PC specifications?"
+#: ../../099_FAQ.md:14
+msgid "Q：PCのスペックの決まりはありますか？"
+msgstr "Q: Are there any specific requirements for PC specifications?"
 
-#~ msgid "Q：専用のヘッドマウントカメラは必要ですか？  "
-#~ msgstr "Q: Is a dedicated head-mounted camera required?"
+#: ../../099_FAQ.md:29
+msgid "Q：専用のヘッドマウントカメラは必要ですか？"
+msgstr "Q: Is a dedicated head-mounted camera required?"
 
-#~ msgid "Q：MacOSには対応していますか？"
-#~ msgstr "Q: Is MacOS supported?"
+#: ../../099_FAQ.md:37
+msgid "Q：MacOSには対応していますか？"
+msgstr "Q: Is MacOS supported?"
 
-#~ msgid "Q：FCSを使用するにあたって、何か別のソフトは必要になりますか？ "
-#~ msgstr "Q: Is any additional software required to use the FCS?"
+#: ../../099_FAQ.md:43
+msgid "Q：FCSを使用するにあたって、何か別のソフトは必要になりますか？"
+msgstr "Q: Is any additional software required to use the FCS?"
 
-#~ msgid "Q：FCSは撮影の際、アクターにマーカーを付ける必要はありますか？  "
-#~ msgstr "Q: Does FCS require marker on the actor footage?"
+#: ../../099_FAQ.md:60
+msgid "Q：FCSは撮影の際、アクターにマーカーを付ける必要はありますか？"
+msgstr "Q: Does FCS require markers on the actor footage?"
 
-#~ msgid "Q：ランドマークがズレた際に修正できますか？    "
-#~ msgstr "Q: Can the landmarks be corrected if they are misaligned?"
+#: ../../099_FAQ.md:67
+msgid "Q：ランドマークがズレた際に修正できますか？"
+msgstr "Q: Can the landmarks be corrected if they are misaligned?"
 
-#~ msgid "Q：舌のトラッキングはできますか？  "
-#~ msgstr "Q: Is tongue tracking possible?"
+#: ../../099_FAQ.md:74
+msgid "Q：舌のトラッキングはできますか？"
+msgstr "Q: Is tongue tracking possible?"
 
-#~ msgid "Q：モーフではなくスケルトンにも対応していますか？  "
-#~ msgstr "Q: Does it support skeletons as well as morphs?"
+#: ../../099_FAQ.md:81
+msgid "Q：モーフではなくスケルトンにも対応していますか？"
+msgstr "Q: Does it support skeletons as well as morphs?"
 
-#~ msgid "Q：同じ役者が複数キャラクターを担当しているのですが、Profileの使い回しができますか？  "
-#~ msgstr ""
-#~ "Q: The same actor is playing "
-#~ "multiple characters. is it possible to"
-#~ " reuse their profile?"
+#: ../../099_FAQ.md:88
+msgid "Q：同じ役者が複数キャラクターを担当しているのですが、Profileの使い回しはできますか？"
+msgstr "Q: The same actor is playing multiple characters. Is it possible to reuse their profile?"
 
-#~ msgid "Q：Mayaを別途、起動する必要はありますか？  "
-#~ msgstr "Q: Is it necessary to launch Maya separately?"
+#: ../../099_FAQ.md:95
+msgid "Q：新規キャラクターのセッション作成時、同じアクター間でセッションデータを使い回したり、同じキャラクターのコントローラー情報を別アクターでのセッション作成に利用することはできますか？"
+msgstr "Q: When creating a session for a new character, can session data be reused between the same actors, or can controller information for the same character be used for sessions with different actors?"
 
-#~ msgid "Q：ライブキャラクターアニメーションはできますか？  "
-#~ msgstr "Q: Is live character animation possible?"
+#: ../../099_FAQ.md:105
+msgid "Q：異なるアクター間でROM体操のプロファイルを使い回すことはできますか？"
+msgstr "Q: Is it possible to reuse ROM exercise profiles between different actors?"
 
-#~ msgid "Q：Profileには、ROM体操は必須ですか？  "
-#~ msgstr "Q: Is ROM required for the profile?"
+#: ../../099_FAQ.md:113
+msgid "Q：Mayaを別途、起動する必要はありますか？"
+msgstr "Q: Is it necessary to launch Maya separately?"
 
-#~ msgid "Q：プラグインなどの関係上、Mayaを別途で起動させる必要がありますが、どうしたらよろしいでしょうか？  "
-#~ msgstr ""
-#~ "Q: Due to plugin requirements, it "
-#~ "is necessary to launch Maya separately."
-#~ " How should I proceed?"
+#: ../../099_FAQ.md:119
+msgid "Q：ライブキャラクターアニメーションはできますか？"
+msgstr "Q: Is live character animation possible?"
 
-#~ msgid "Q：マニュアル以外のコントローラーリグを追加することはできますか？ "
-#~ msgstr ""
-#~ "Q: Is it possible to add "
-#~ "controller rigs other than those in "
-#~ "the manual?"
+#: ../../099_FAQ.md:125
+msgid "Q：Profileには、ROM体操は必須ですか？"
+msgstr "Q: Is ROM required for the profile?"
 
-#~ msgid "Q：Metahuman以外のコントローラーリグにも対応していますか？  "
-#~ msgstr "Q: Does it support controller rigs other than Metahuman?"
+#: ../../099_FAQ.md:131
+msgid "Q：プラグインなどの関係上、Mayaを別途で起動させる必要がありますが、どうしたらよろしいでしょうか？"
+msgstr "Q: Due to plugin requirements, it is necessary to launch Maya separately. How should I proceed?"
 
-#~ msgid "Q：解析動画に関して、画角が同じであれば撮影場所が変わっても問題ありませんか？   "
-#~ msgstr ""
-#~ "Q: Regarding analysis videos, is it "
-#~ "okay if the filming location changes "
-#~ "as long as the angle of view "
-#~ "remains the same?"
+#: ../../099_FAQ.md:145
+msgid "Q：マニュアル以外のコントローラーリグを追加することはできますか？"
+msgstr "Q: Is it possible to add controller rigs other than those in the manual?"
 
-#~ msgid ""
-#~ "Q：動画の画質(フルHDと4Kなど)が変わると、オートトラッキング精度に影響がありますか？  "
-#~ "そのほかに影響が出るところはありますか？推奨はありますか？   "
-#~ msgstr ""
-#~ "Q: Does a change in video quality"
-#~ " (e.g., Full HD and 4K) affect "
-#~ "auto-tracking accuracy? Are there any "
-#~ "other areas that may be impacted? "
-#~ "Do you have any recommendations?"
+#: ../../099_FAQ.md:151
+msgid "Q：Metahuman以外のコントローラーリグにも対応していますか？"
+msgstr "Q: Does it support controller rigs other than Metahuman?"
 
-#~ msgid ""
-#~ "Q：動画のリフレッシュレート(60fpsと120fpsなど)が変わると、オートトラッキング精度に影響がありますか？  "
-#~ "そのほかに影響が出るところはありますか？推奨はありますか？  "
-#~ msgstr ""
-#~ "Q: Does a change in video refresh"
-#~ " rate (e.g., 60fps or 120fps) affect"
-#~ " auto-tracking accuracy? Are there "
-#~ "any other areas that might be "
-#~ "impacted? Do you have any "
-#~ "recommendations?"
+#: ../../099_FAQ.md:158
+msgid "Q：解析動画に関して、画角が同じであれば撮影場所が変わっても問題ありませんか？"
+msgstr "Q: Regarding analysis videos, is it okay if the filming location changes as long as the angle of view remains the same?"
 
-#~ msgid "Q：再起動が必要な場合はありますか？  "
-#~ msgstr "Q: Are there situations where a restart is required?"
+#: ../../099_FAQ.md:165
+msgid "Q：動画の画質(フルHDと4Kなど)が変わると、オートトラッキング精度に影響がありますか？そのほかに影響が出るところはありますか？推奨はありますか？"
+msgstr "Q: Does a change in video quality (e.g., Full HD and 4K) affect auto-tracking accuracy? Are there any other areas that may be impacted? Do you have any recommendations?"
 
-#~ msgid "Q：レイアウトの登録はできますか？  "
-#~ msgstr "Q: Is it possible to save layouts?"
+#: ../../099_FAQ.md:172
+msgid "Q：動画のリフレッシュレート(60fpsと120fpsなど)が変わると、オートトラッキング精度に影響がありますか？そのほかに影響が出るところはありますか？推奨はありますか？"
+msgstr "Q: Does a change in video refresh rate (e.g., 60fps or 120fps) affect auto-tracking accuracy? Are there any other areas that might be impacted? Do you have any recommendations?"
 
-#~ msgid "Save<br> で登録することができます ```{figure} images/Layout_02_Open-Save.pn"
-#~ msgstr ""
-#~ "You can register by clicking "
-#~ "Save<br>```{figure} images/Layout_02_Open-Save.pn"
+#: ../../099_FAQ.md:179
+msgid "Q：再起動が必要な場合はありますか？"
+msgstr "Q: Are there situations where a restart is required?"
 
-#~ msgid ">Q：1ライセンスの場合、2台のPCで同時作業できますか？  "
-#~ msgstr ""
-#~ "Q: With a single license, is it"
-#~ " possible to work on two PCs at"
-#~ " the same time?"
+#: ../../099_FAQ.md:189
+msgid "Q：レイアウトの登録はできますか？"
+msgstr "Q: Is it possible to save layouts?"
 
-#~ msgid "Q：金額はいくらですか？  "
-#~ msgstr "Q: How much does the subscription cost?"
+#: ../../099_FAQ.md:201
+msgid "Q：FCSの動作が極端に重い時はどうすればよいですか？"
+msgstr "Q: What should I do when FCS is extremely slow?"
 
-#~ msgid "Q：購入後に自動的に契約更新になりますか？  "
-#~ msgstr "Q: Will the subscription automatically renew after purchase?"
+#: ../../099_FAQ.md:207
+msgid "Q：ROM体操の資料にある「アイウエオ」と「パピプペポ」の違いは何ですか？どちらも必要ですか？"
+msgstr "Q: What is the difference between \"A-I-U-E-O\" and \"Pa-Pi-Pu-Pe-Po\" in the ROM exercise materials? Are both necessary?"
 
-#~ msgid "Q：更新をやめたいときはどうすればいいですか？  "
-#~ msgstr "Q: What should I do if I don’t want to renew the subscription?"
+#: ../../099_FAQ.md:213
+msgid "Q：Editorでのプロファイル登録の際、スライダー部分へ値を直接入力することはできますか？"
+msgstr "Q: When registering profiles in the Editor, is it possible to directly input values into the slider?"
 
-#~ msgid "Q：6か月で使用をやめたいときに、返金はありますか？  "
-#~ msgstr "Q: If I want to stop using it after 6 months, will there be a refund?"
+#: ../../099_FAQ.md:219
+msgid "Q：アニメーションを出力した際にイメージプレーンがモデルの後ろへ行ってしまうのは何故ですか？"
+msgstr "Q: Why does the image plane go behind the model when outputting animation?"
 
-#~ msgid "Q：トライアルはどのくらいの期間、使用できますか？  "
-#~ msgstr "Q: How long can I use the trial version?"
+#: ../../099_FAQ.md:230
+msgid "Q：1ライセンスの場合、2台のPCで同時作業できますか？"
+msgstr "Q: With a single license, is it possible to work on two PCs at the same time?"
 
-#~ msgid "Q：トライアル後に自動的に契約更新になりますか？  "
-#~ msgstr "Q: Will the subscription automatically renew after the trial?"
+#: ../../099_FAQ.md:237
+msgid "Q：金額はいくらですか？"
+msgstr "Q: How much does the subscription cost?"
 
-#~ msgid "Q：\"Internal Server Error\"というメッセージが表示されてFCSを使用できません。どうしたら良いですか？  "
-#~ msgstr ""
-#~ "Q: \"Internal Server Error\" message "
-#~ "pops up, and I cannot use the "
-#~ "FCS. What should I do?"
+#: ../../099_FAQ.md:243
+msgid "Q：購入後に自動的に契約更新になりますか？"
+msgstr "Q: Will the subscription automatically renew after purchase?"
 
-#~ msgid "**こちらになります: toei-fcs.com, google.com**"
-#~ msgstr ""
+#: ../../099_FAQ.md:249
+msgid "Q：更新をやめたいときはどうすればいいですか？"
+msgstr "Q: What should I do if I don’t want to renew the subscription?"
+
+#: ../../099_FAQ.md:255
+msgid "Q：6か月で使用をやめたいときに、返金はありますか？"
+msgstr "Q: If I want to stop using it after 6 months, will there be a refund?"
+
+#: ../../099_FAQ.md:261
+msgid "Q：トライアルはどのくらいの期間、使用できますか？"
+msgstr "Q: How long can I use the trial version?"
+
+#: ../../099_FAQ.md:269
+msgid "Q：FCSを使用するにあたって、接続するドメインを教えてください。"
+msgstr "Q: What domains does FCS connect to?"
+
+#: ../../099_FAQ.md:275
+msgid "Q：トライアル後に自動的に契約更新になりますか？"
+msgstr "Q: Will the subscription automatically renew after the trial?"
+
+#: ../../099_FAQ.md:282
+msgid "Q：\"Internal Server Error\"というメッセージが表示されてFCSを使用できません。どうしたら良いですか？"
+msgstr "Q: \"Internal Server Error\" message pops up, and I cannot use the FCS. What should I do?"
 
