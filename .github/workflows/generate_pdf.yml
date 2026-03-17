@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Python dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme myst_parser sphinx-design pyyaml rst2pdf
+          pip install sphinx sphinx_rtd_theme myst_parser sphinx-design pyyaml rst2pdf sphinx-last-updated-by-git
 
       - name: Install LaTeX dependencies
         run: |

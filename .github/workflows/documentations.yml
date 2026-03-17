@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-python@v3
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme myst_parser sphinx-design pyyaml
+          pip install sphinx sphinx_rtd_theme myst_parser sphinx-design pyyaml sphinx-last-updated-by-git
       - name: Sphinx build
         run: |
           cd doc

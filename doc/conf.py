@@ -21,7 +21,7 @@ suppress_warnings = ["myst.header"]
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_design', ]
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_design', 'sphinx_last_updated_by_git']
 if build_pdf:
     extensions.append('rst2pdf.pdfbuilder')
     extensions.append('sphinx.ext.autodoc')
@@ -37,6 +37,7 @@ release = current_version
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
+html_last_updated_fmt = '%Y-%m-%d'
 html_static_path = ['_static']
 
 # -- Options for PDF output -------------------------------------------------
