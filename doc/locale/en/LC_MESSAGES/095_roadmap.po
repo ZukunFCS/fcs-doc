@@ -8,77 +8,155 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-10 16:25+0900\n"
+"POT-Creation-Date: 2026-03-05 10:06+0000\n"
 "PO-Revision-Date: 2024-09-26 22:02+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../095_roadmap.md:1
 msgid "開発ロードマップ"
 msgstr "Development roadmap"
 
 #: ../../095_roadmap.md:2
+msgid "※2026年2月27日 更新"
+msgstr "Update February 27, 2026"
+
+#: ../../095_roadmap.md:4
 msgid ""
-"FCSは継続開発中のソフトです。ロードマップの一部を以下に公開しております。   "
-"これらは将来のソフトに対する機能の実装を保証するものではなく、実装の優先順位を示すものではございません。ご了承ください。"
+"FCSは現在、機能追加および継続的なクオリティの向上に向けた開発を積極的に推進しており、その一環として開発ロードマップの一部を以下の通り公開いたします。"
+" <br> <br> "
+"本ロードマップは現時点での開発計画を参考情報として提示するものであり、将来のソフトウェアアップデートにおいて特定の機能実装を確約するものではございません。<br>"
+" "
+"また、記載されている項目の順序は必ずしも実装の優先順位を示すものではなく、開発状況や諸般の事情により予告なく内容の変更や中止を行う場合がございます。<br>"
+" （これに伴い、過去の計画から変更または中止となった項目についても掲載しております。）<br> あらかじめご了承ください。"
 msgstr ""
-"FCS is currently under active development, and we have "
-"published part of the development roadmap below. Please note that this should"
-"only be used for reference and does not guarantee the implementation of the specific"
-"features in future software updates. Additionally, the order of the list "
-"does not reflect the priority of implementation. Thank you for your "
-"understanding."
+"FCS is currently actively promoting development to add new features and "
+"continuously improve quality, and as part of this ongoing effort, we are "
+"releasing part of our development map road below. <br> <br> This roadmap "
+"is presented as a reference for current development plans and does not "
+"guarantee the implementation of specific features in future software "
+"updates.<br>Additionally, the order of the listed items does not "
+"necessarily indicate the priority of implementation, and the content may "
+"be changed or discontinued without notice depending on the development "
+"status or other circumstances.<br>(As a result, we are also listing items"
+" that have been changed or canceled from previous plans.)<br> Thank you "
+"for your understanding."
 
-#: ../../095_roadmap.md:5
+#: ../../095_roadmap.md:12
+msgid "今後の実装を予定している主な項目"
+msgstr "Main items planned for future implementation"
+
+#: ../../095_roadmap.md:14
 msgid ""
-"機能要望の受付も行っております。   "
-"御社のパイプラインに最適化したビルドを作成することも可能[^1]ですので、質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product/zukun-lab/fcs/)までご連絡ください。"
+"CLI（コマンドラインインターフェース）機能の改善  <br>  "
+"GUIを使用せずに映像処理を実行できる、無人実行（アンアテンド）モードの提供を予定しています。  <br>  "
+"コマンドラインからの操作が可能となり、バッチ処理との連携など、一連のワークフローにおける自動化・効率化を支援いたします。"
 msgstr ""
-"We’re happy to take feature requests and can even customize builds to fit your company’s pipeline.[^1] "
-"If you have any questions, requests, or issues, feel free to contact us on the [HELTEC website](https://sensing.heltec.co.jp/product/zukun-lab/fcs/)."
+"Improved CLI (Command Line Interface) functionality <br>We plan to "
+"provide an unattended mode that allows video processing to be performed "
+"without using a GUI.<br>It can be operated from the command line and can "
+"be integrated with batch processing, helping to automate and streamline a"
+" series of workflows."
 
-#: ../../095_roadmap.md:11
-msgid "リアルタイム動画生成     リアルタイムでのアニメーション解析・出力プログラムの作成 <br>"
-msgstr "Real-time Video Generation     Creation of a program for real-time animation output."
+#: ../../095_roadmap.md:21
+msgid "ポストプロセス機能  <br>   演技表現をより効果的に自動で誇張・調整するための複数のポストプロセス処理を現在開発中です。"
+msgstr ""
+"Post processing function  <br>  We are currently developing several post-"
+"processing methods to automatically exaggerate and adjust performance "
+"expressions more effectively."
 
-#: ../../095_roadmap.md:15
-msgid "サンプルエンジンコードの作成     (Unity, Unreal Engine, Motion Builder) <br>"
+#: ../../095_roadmap.md:26
+msgid "継続的に推進する機能強化・改善事項"
+msgstr "Continuously promoting functional enhancements and improvements"
+
+#: ../../095_roadmap.md:28
+msgid ""
+"ランドマーク検出機能の改善  <br> FCS独自開発の表情検出エンジンにつきましては、引き続き最優先の改善事項として取り組んでまいります。 "
+"<br> "
+"特に、ヘッドマウントカメラ（HMC）によるクローズアップ映像において、より微細な表情の変化を正確に捉えられるよう、検出精度の向上を継続いたします。"
+msgstr ""
+"Improvements to the landmark detection function <br> FCS's proprietary "
+"facial expression detection engine will continue to be a top "
+"priority.<br>In particular, we will continue to improve detection "
+"accuracy so that we can accurately capture even subtler changes in facial"
+" expressions in close-up images captured with a head-mounted camera "
+"(HMC)."
+
+#: ../../095_roadmap.md:35
+msgid ""
+"処理の高速化  <br>   ソフトウェア全体の最適化を行い、解析から出力に至る一連の処理時間の短縮を図ります。     <br>     "
+"大規模なデータ処理や短納期が求められる制作現場において、より効率的なワークフローを提供できるよう、内部構造の改善を継続して行ってまいります。"
+msgstr ""
+"Faster processing <br> We will optimize the entire software to shorten "
+"the processing time from analysis to output.<br>We will continue to "
+"improve the internal structure to provide a more efficient workflow in "
+"production environments where large-scale data processing and short "
+"delivery times are required"
+
+#: ../../095_roadmap.md:42
+msgid "諸般の事情により開発を断念・中止した項目"
+msgstr ""
+"Items for which development was abandoned or discontinued due to various "
+"circumstances"
+
+#: ../../095_roadmap.md:44
+msgid ""
+"リアルタイム動画生成 リアルタイムでのアニメーション解析・出力プログラムの作成 <br> "
+"本機能につきましては、FCSへの標準搭載を見送ることといたしました。 <br> "
+"今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。個別対応のご相談につきましてはお問い合わせください。"
+msgstr ""
+"Real-time video generation Create a program to analyze and output "
+"animations in real time<br>We have decided not to include this function "
+"as a standard feature in FCS.<br>Going forward, we will place emphasis on"
+" optimizing for individual project requirements and consider providing "
+"individual support. Please contact us for consultations regarding "
+"individual support."
+
+#: ../../095_roadmap.md:52
+msgid ""
+"サンプルエンジンコードの作成(Unity, Unreal Engine, Motion Builder)  <br> "
+"リアルタイム機能向けの上記エンジンを対象としたサンプルコードの提供計画は、リアルタイム機能と合わせて中止となりました。"
 msgstr "Development of sample engine code (Unity, Unreal Engine, Motion Builder)."
 
-#: ../../095_roadmap.md:19
-msgid ""
-"ランドマーク検出器の改善    ツークン研究所の所持するスキャンシステム「LightStage」の高品質データを用いたランドマーク検出器の改善"
-"   <br>"
-msgstr ""
-"Landmark Detector Improvement      Improving the landmark detector using "
-"high-quality data from Zukun’s proprietary shooting device and light "
-"stage."
-
-#: ../../095_roadmap.md:23
-msgid "自動リターゲット機能の搭載      任意のリグに対し、大まかなリターゲットを自動的に行う機能を追加   <br>"
+#: ../../095_roadmap.md:57
+msgid "自動リターゲット機能の搭載  <br> 任意のリグに対し自動的に大まかなリターゲットを行う機能の実装についても中止となりました。"
 msgstr ""
 "Equipped with automatic retargeting functions      An algorithm adds the "
 "capability to automatically perform rough retargeting on any rig"
 
-#: ../../095_roadmap.md:27
-msgid "処理の高速化   <br>"
-msgstr "Accelerated processing"
-
-#: ../../095_roadmap.md:30
-msgid "Unreal Engineによるリターゲットへの対応    現在のFCSにおけるMaya機能をUnreal Engineにも対応"
+#: ../../095_roadmap.md:62
+msgid ""
+"Unreal Engineによるリターゲットへの対応  <br> 現在Mayaにて提供している各種機能をUnreal "
+"Engine上でも同等に提供する計画につきましても開発を中止いたしました。<br>"
 msgstr ""
 "Retargeting support with Unreal Engine     Extending the Maya features in"
 " FCS to Unreal Engine"
 
-#: ../../095_roadmap.md:7
-msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。 <br>"
-msgstr "Additional conditions or fees may apply, which may include the need to purchase a minimum number of licenses."
+#: ../../095_roadmap.md:68
+msgid ""
+"FCSは、お客様の実際の制作現場により深く貢献できるツールを目指し、皆様からの追加機能のリクエストを随時お待ちしております。  <br>   "
+"また、標準的な機能提供に留まらず、貴社固有の制作パイプラインやワークフローに最適化したビルドのカスタマイズ対応も可能[^1]です。  <br>"
+"   "
+"製品に関するご質問やご要望、あるいは導入にあたっての技術的な課題などがございましたら、[HELTECホームページ](https://sensing.heltec.co.jp/product"
+"/zukun-lab/fcs/)よりお気軽にご相談ください。"
+msgstr ""
+"FCS aims to be a tool that can make a deeper contribution to our customers' actual production sites, so we are always open to receiving requests for additional features."
+"In addition to providing standard functions, we can also customize builds optimized for your company's specific production pipeline and workflow[^1]"
+"If you have any questions or requests about our products, or any technical issues you may be facing during implementation, please feel free to contact us via the [HELTEC website].(https://sensing.heltec.co.jp/product"
+"/zukun-lab/fcs/)"
+
+
+#: ../../095_roadmap.md:72
+msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。"
+msgstr ""
+"Additional conditions or fees may apply, which may include the need to "
+"purchase a minimum number of licenses."
 
 #~ msgid ""
 #~ "また、機能要望の受付も行っており、メールなどでご連絡ください。   "
@@ -114,4 +192,51 @@ msgstr "Additional conditions or fees may apply, which may include the need to p
 #~ "a function that automatically selects "
 #~ "and adds appropriate images from videos"
 #~ " to the Gallery."
+
+#~ msgid ""
+#~ "FCSは継続開発中のソフトです。ロードマップの一部を以下に公開しております。   "
+#~ "これらは将来のソフトに対する機能の実装を保証するものではなく、実装の優先順位を示すものではございません。ご了承ください。"
+#~ msgstr ""
+#~ "FCS is currently under active "
+#~ "development, and we have published part"
+#~ " of the development roadmap below. "
+#~ "Please note that this shouldonly be "
+#~ "used for reference and does not "
+#~ "guarantee the implementation of the "
+#~ "specificfeatures in future software updates."
+#~ " Additionally, the order of the list"
+#~ " does not reflect the priority of "
+#~ "implementation. Thank you for your "
+#~ "understanding."
+
+#~ msgid ""
+#~ "機能要望の受付も行っております。   "
+#~ "御社のパイプラインに最適化したビルドを作成することも可能[^1]ですので、質問・要望・不具合などありましたら[HELTECホームページ](https://sensing.heltec.co.jp/product"
+#~ "/zukun-lab/fcs/)までご連絡ください。"
+#~ msgstr ""
+#~ "We’re happy to take feature requests "
+#~ "and can even customize builds to "
+#~ "fit your company’s pipeline.[^1] If you"
+#~ " have any questions, requests, or "
+#~ "issues, feel free to contact us on"
+#~ " the [HELTEC "
+#~ "website](https://sensing.heltec.co.jp/product/zukun-lab/fcs/)."
+
+#~ msgid "リアルタイム動画生成     リアルタイムでのアニメーション解析・出力プログラムの作成 <br>"
+#~ msgstr ""
+#~ "Real-time Video Generation     Creation "
+#~ "of a program for real-time "
+#~ "animation output."
+
+#~ msgid ""
+#~ "ランドマーク検出器の改善    "
+#~ "ツークン研究所の所持するスキャンシステム「LightStage」の高品質データを用いたランドマーク検出器の改善   <br>"
+#~ msgstr ""
+#~ "Landmark Detector Improvement      Improving "
+#~ "the landmark detector using high-quality"
+#~ " data from Zukun’s proprietary shooting "
+#~ "device and light stage."
+
+#~ msgid "処理の高速化   <br>"
+#~ msgstr "Accelerated processing"
 

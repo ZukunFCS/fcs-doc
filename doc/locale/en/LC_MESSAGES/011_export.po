@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-18 10:41+0900\n"
+"POT-Creation-Date: 2026-02-27 05:31+0000\n"
 "PO-Revision-Date: 2024-09-25 13:33+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../011_export.rst:4
 msgid "エクスポート"
@@ -104,33 +104,15 @@ msgstr "Press the Export button to output"
 #~ msgid "出力先をプロジェクトフォルダーとして指定"
 #~ msgstr "Select the output destination"
 
-#~ msgid "```{figure} images/menu_bar.jpg
-:width: 80%
-:align: center
-```"
-#~ msgstr "```{figure} images/menu_bar.jpg
-:width: 80%
-:align: center
-```"
-
-#~ msgid "File/SessionからExportを選択 <br> ```{figure} images/menu_bar.jpg
-:width: 80%
-:align: center
-```"
-#~ msgstr "Select Export from File/Session ```{figure} images/menu_bar.jpg
-:width: 80%
-:align: center
-```"
-
-#~ msgid "出力先をプロジェクトフォルダーとして指定 <br> ```{figure} images/export_window.jpg
-:width: 80%
-:align: center
-```"
-#~ msgstr "Select output destination ```{figure} images/export_window.jpg
-:width: 80%
-:align: center
-```"
-
 #~ msgid "Actor： アクター名を新しく指定する"
 #~ msgstr "Actor: Select new actor name"
+
+#~ msgid "```{figure} images/menu_bar.jp"
+#~ msgstr "```{figure} images/menu_bar.jp"
+
+#~ msgid "File/SessionからExportを選択 <br> ```{figure} images/menu_bar.jp"
+#~ msgstr "Select Export from File/Session ```{figure} images/menu_bar.jp"
+
+#~ msgid "出力先をプロジェクトフォルダーとして指定 <br> ```{figure} images/export_window.jp"
+#~ msgstr "Select output destination ```{figure} images/export_window.jp"
 
