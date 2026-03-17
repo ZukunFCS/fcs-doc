@@ -4,18 +4,18 @@ import yaml
 from pathlib import Path
 from shutil import rmtree, move
 import re
+
 # a single build step, which keeps conf.py and versions.yaml at the main branch
-# in generall we use environment variables to pass values to conf.py, see below
+# in general we use environment variables to pass values to conf.py, see below
 # and runs the build as we did locally
-def build_doc(version, language, tag=None, ):
-	if version != 'latest':
-		assert tag is not None
+def build_doc(version, language, tag=None):
 	os.environ["current_version"] = version
 	os.environ["current_language"] = language
 	subprocess.run("git reset --hard", shell=True)
-	subprocess.run("git clean -fd", shell=True)  # Remove untracked files
-	subprocess.run("git fetch --all --tags", shell=True)  # Remove untracked files
-	if version == 'latest':
+	subprocess.run("git clean -fd", shell=True)
+	subprocess.run("git fetch --all --tags", shell=True)
+	if tag is None:
+		# dev build: stay on main
 		subprocess.run("git checkout main", shell=True)
 	else:
 		subprocess.run("git checkout " + tag, shell=True)
@@ -40,42 +40,95 @@ def build_doc(version, language, tag=None, ):
 	move('_build/html', f'pages/{version}/{language}')
 
 
-# a move dir method because we run multiple builds and bring the html folders to a 
-# location which we then push to github pages
+def generate_root_index(latest_version, output_dir):
+	"""Generate root index.html with browser language detection."""
+	html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <noscript><meta http-equiv="refresh" content="0; url={latest_version}/en/index.html"></noscript>
+    <title>Redirecting...</title>
+    <script>
+        var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+        if (lang.startsWith('ja')) {{
+            window.location.replace('{latest_version}/jp/index.html');
+        }} else {{
+            window.location.replace('{latest_version}/en/index.html');
+        }}
+    </script>
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a href="{latest_version}/en/index.html">link</a>.</p>
+</body>
+</html>
+'''
+	Path(output_dir).mkdir(parents=True, exist_ok=True)
+	with open(os.path.join(output_dir, 'index.html'), 'w') as f:
+		f.write(html)
+
+
+def generate_legacy_redirect(latest_version, language, output_dir):
+	"""Generate legacy redirect from latest/{lang}/ to {latest_version}/{lang}/."""
+	html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=../../{latest_version}/{language}/index.html">
+    <title>Redirecting...</title>
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a href="../../{latest_version}/{language}/index.html">link</a>.</p>
+</body>
+</html>
+'''
+	path = Path(output_dir) / 'latest' / language
+	path.mkdir(parents=True, exist_ok=True)
+	with open(path / 'index.html', 'w') as f:
+		f.write(html)
+
 
 # to separate a single local build from all builds we have a flag, see conf.py
 os.environ["build_all_docs"] = str(True)
-os.environ["pages_root"] = "https://zukunfcs.github.io/fcs-doc" 
+os.environ["pages_root"] = "https://zukunfcs.github.io/fcs-doc"
 
-# manually the main branch build in the current supported languages
 if Path("./pages").exists():
     rmtree(Path("./pages"))
 if Path("./_build").exists():
     rmtree(Path("./_build"))
 
-# build_doc("latest", "jp", "main")
-# build_doc("latest", "en", "main")
-
 # reading the yaml file
 with open("versions.yaml", "r") as yaml_file:
 	docs = yaml.safe_load(yaml_file)
 
-# and looping over all values to call our build with version, language and its tag
+# the first entry in versions.yaml is the latest version
+latest_version = next(iter(docs))
+
+# build all tagged versions
 for version, details in docs.items():
-	tag = details.get('tag', '')
-	for language in details.get('languages', []): 
+	tag = details.get('tag', version)
+	for language in details.get('languages', []):
 		subprocess.run("rm -rf locale/en/LC_MESSAGES/*.mo", shell=True)
 		subprocess.run("rm -rf locale/jp/LC_MESSAGES/*.mo", shell=True)
-		build_doc(version, language, version)
-		
+		build_doc(version, language, tag)
 
+# build dev from main (no tag checkout)
+os.environ["is_dev_build"] = "True"
+for language in docs[latest_version].get('languages', []):
+	subprocess.run("rm -rf locale/en/LC_MESSAGES/*.mo", shell=True)
+	subprocess.run("rm -rf locale/jp/LC_MESSAGES/*.mo", shell=True)
+	build_doc("dev", language, tag=None)
+os.environ.pop("is_dev_build", None)
+
+# assemble final output
 build_dir = Path("./_build")
-rmtree(build_dir)
+rmtree(build_dir, ignore_errors=True)
 build_dir.mkdir(exist_ok=True, parents=True)
 subprocess.run("mv ./pages _build/html", shell=True)
 subprocess.run("git checkout main", shell=True)
-subprocess.run("cp ../src/index.html _build/html/index.html", shell=True)
-legacy_paths = [Path('_build/html/latest/jp'), Path('_build/html/latest/en')]
-for path in legacy_paths:
-	path.mkdir(exist_ok=True, parents=True)
-	subprocess.run(f"cp ../src/legacy_index.html {path}/index.html", shell=True)
+
+# generate root index.html with language detection
+generate_root_index(latest_version, '_build/html')
+
+# generate legacy redirects for latest/jp/ and latest/en/
+for language in docs[latest_version].get('languages', []):
+	generate_legacy_redirect(latest_version, language, '_build/html')

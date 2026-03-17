@@ -76,8 +76,10 @@ gettext_compact = False
 # if not there, we dont call this
 
 
+is_dev_build = os.environ.get("is_dev_build", "") == "True"
+
 if build_all_docs and build_all_docs == 'True':
-    # we set the html_context wit current language and version 
+    # we set the html_context with current language and version
     # and empty languages and versions for now
     html_context = {
         'current_language' : current_language,
@@ -89,9 +91,19 @@ if build_all_docs and build_all_docs == 'True':
     with open("versions.yaml", "r") as yaml_file:
         docs = yaml.safe_load(yaml_file)
 
-    for language in docs[current_version].get('languages', []):
-        html_context['languages'].append([language, pages_root+'/'+current_version+'/'+language])        
-    # html_context['versions'].append(['latest', pages_root + '/latest/en'])
-    for _version, details in docs.items():
-        html_context['versions'].append([_version, pages_root+'/'+_version+'/'+current_language])
+    if is_dev_build:
+        # dev builds use the latest version's language list (since "dev" isn't in versions.yaml)
+        latest_version = next(iter(docs))
+        for language in docs[latest_version].get('languages', []):
+            html_context['languages'].append([language, pages_root+'/'+current_version+'/'+language])
+        # show "dev (unreleased)" + all tagged versions
+        html_context['versions'].append(['dev (unreleased)', pages_root+'/dev/'+current_language])
+        for _version, details in docs.items():
+            html_context['versions'].append([_version, pages_root+'/'+_version+'/'+current_language])
+    else:
+        for language in docs[current_version].get('languages', []):
+            html_context['languages'].append([language, pages_root+'/'+current_version+'/'+language])
+        # tagged builds: show only tagged versions (no dev)
+        for _version, details in docs.items():
+            html_context['versions'].append([_version, pages_root+'/'+_version+'/'+current_language])
         

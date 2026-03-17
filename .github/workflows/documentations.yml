@@ -14,23 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v3
-      - name: Fast-forward tag to latest commit
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          TAG_NAME="25.10"
-
-          # Create or update the tag to point to HEAD
-          git tag -f "$TAG_NAME"
-
-          # Push the tag (forcefully to update it)
-          git push origin "$TAG_NAME" --force
-          
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme myst_parser sphinx-design
+          pip install sphinx sphinx_rtd_theme myst_parser sphinx-design pyyaml
       - name: Sphinx build
         run: |
           cd doc

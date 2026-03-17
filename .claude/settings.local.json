@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(current_language=en current_version=latest build_all_docs=False python -m sphinx -b html . _build/html/test_en 2>&1)",
+      "Bash(current_language=jp current_version=latest build_all_docs=False python -m sphinx -b html . _build/html/test_jp 2>&1 | grep -i 'warning\\\\|error')",
+      "Bash(rm -rf _build)",
+      "Bash(current_language=en current_version=latest build_all_docs=False python -m sphinx -b html . _build/html/test_en)",
+      "Bash(current_language=jp current_version=latest build_all_docs=False python -m sphinx -b html . _build/html/test_jp)",
+      "Bash(git:*)",
+      "Bash(current_language=jp current_version=latest build_all_docs=False python -m sphinx -D language=jp -b html . _build/html/test_jp)",
+      "Bash(current_language=jp current_version=latest:*)",
+      "Bash(current_language=en current_version=latest build_all_docs=False python -m sphinx -D language=en -b html . _build/html/test_en)"
+    ]
+  }
+}
