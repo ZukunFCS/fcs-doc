@@ -21,7 +21,7 @@ suppress_warnings = ["myst.header"]
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinx_rtd_theme', ]
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_design', ]
 if build_pdf:
     extensions.append('rst2pdf.pdfbuilder')
     extensions.append('sphinx.ext.autodoc')
