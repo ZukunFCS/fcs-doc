@@ -17,6 +17,8 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-python@v3
+        with:
+          cache: 'pip'
       - name: Install dependencies
         run: |
           pip install sphinx sphinx_rtd_theme myst_parser sphinx-design pyyaml sphinx-last-updated-by-git

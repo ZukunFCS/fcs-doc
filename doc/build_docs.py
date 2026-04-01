@@ -2,6 +2,7 @@ import os
 import subprocess
 import yaml
 import json
+import hashlib
 from pathlib import Path
 from shutil import rmtree, move, copytree
 import re
@@ -47,6 +48,9 @@ def generate_root_index(latest_version, output_dir):
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
     <noscript><meta http-equiv="refresh" content="0; url={latest_version}/en/index.html"></noscript>
     <title>Redirecting...</title>
     <script>
@@ -74,6 +78,9 @@ def generate_legacy_redirect(latest_version, language, output_dir):
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
     <meta http-equiv="refresh" content="0; url=../../{latest_version}/{language}/index.html">
     <title>Redirecting...</title>
 </head>
@@ -161,20 +168,24 @@ latest_version = next(iter(docs))
 cached_manifest = load_cached_manifest()
 new_manifest = {}
 
-# also get the current main branch SHA for conf.py/versions.yaml changes
-main_sha = subprocess.run(
-	"git rev-parse main", shell=True, capture_output=True, text=True
+# get a hash of only the files checked out from main during version builds,
+# so unrelated main commits don't invalidate the cache
+config_files = ['doc/conf.py', 'doc/versions.yaml', '.gitignore', 'doc/build_docs.py']
+config_blobs = subprocess.run(
+	"git rev-parse " + " ".join(f"main:{f}" for f in config_files),
+	shell=True, capture_output=True, text=True
 ).stdout.strip()
+main_config_hash = hashlib.sha256(config_blobs.encode()).hexdigest()[:16]
 
 # build all tagged versions (skip if tag SHA unchanged)
 for version, details in docs.items():
 	tag = details.get('tag', version)
 	tag_sha = get_tag_sha(tag)
-	new_manifest[version] = {"tag_sha": tag_sha, "main_sha": main_sha}
+	new_manifest[version] = {"tag_sha": tag_sha, "main_sha": main_config_hash}
 
 	cached = cached_manifest.get(version, {})
 	if (cached.get("tag_sha") == tag_sha
-		and cached.get("main_sha") == main_sha
+		and cached.get("main_sha") == main_config_hash
 		and tag_sha is not None):
 		print(f"[SKIP] {version}: tag {tag} unchanged (SHA: {tag_sha[:8]})")
 		if restore_cached_version(version):

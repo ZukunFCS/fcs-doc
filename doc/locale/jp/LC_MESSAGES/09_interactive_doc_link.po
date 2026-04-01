@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../08_advanced_doc_link.rst:2
-msgid "テクニカルマニュアル(external) ↗"
-msgstr "fcs-doc-advanced ↗"
+#: ../../09_interactive_doc_link.rst:2
+msgid "チャットマニュアル (NotebookLM) ↗"
+msgstr ""
 

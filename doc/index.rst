@@ -16,4 +16,5 @@ FCSマニュアル
    07_support/index.md
    04_release-schedule/index.md
    08_advanced_doc_link.rst
+   09_interactive_doc_link.rst
 
