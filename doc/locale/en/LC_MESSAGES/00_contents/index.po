@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,11 +20,11 @@ msgstr ""
 
 #: ../../00_contents/index.md:1
 msgid "目次"
-msgstr ""
+msgstr "Table of Contents"
 
 #: ../../00_contents/index.md:3
 msgid "FCSマニュアルの全コンテンツ一覧です。"
-msgstr ""
+msgstr "This is a complete list of all FCS manual contents."
 
 #: ../../00_contents/index.md:5
 msgid ""
@@ -36,6 +35,14 @@ msgid ""
 "[・環境設定](../06_glossary/01_Menu/settings)   [・スターターキット](../05_sample-"
 "project/index)"
 msgstr ""
+"**Overview & Introduction**  \n"
+"[- Release Notes](../01_updates/index)  \n"
+"[- What is FCS](../02_getting-started/index)  \n"
+"[- Prerequisites](../02_getting-started/01_setup)  \n"
+"[- Install & Uninstall](../02_getting-started/02_install)  \n"
+"[- Upgrade](../04_release-schedule/02_release-schedule)  \n"
+"[- Settings](../06_glossary/01_Menu/settings)  \n"
+"[- Starter Kit](../05_sample-project/index)"
 
 #: ../../00_contents/index.md:16
 msgid ""
@@ -47,6 +54,15 @@ msgid ""
 "[・アニメーション出力](../03_workflow/06_export-animation)   "
 "[・Sessionのエクスポート](../03_workflow/08_export)"
 msgstr ""
+"**Workflow**  \n"
+"[- Workflow (Overview)](../03_workflow/index)  \n"
+"[- Launch FCS](../03_workflow/01_launch-FCS)  \n"
+"[- Create/Open Session](../03_workflow/02_create-or-open-session)  \n"
+"[- Launch Maya](../03_workflow/03_launch-maya)  \n"
+"[- Register Controller](../03_workflow/04_register-controller)  \n"
+"[- Create Profile](../03_workflow/05_create-profile)  \n"
+"[- Export Animation](../03_workflow/06_export-animation)  \n"
+"[- Export Session](../03_workflow/08_export)"
 
 #: ../../00_contents/index.md:28
 msgid ""
@@ -58,6 +74,14 @@ msgid ""
 "[・チュートリアル動画](../06_glossary/05_tutorial/index)   [・FCS "
 "ホームページ](https://www.fcs.zukun-lab.com)　※外部サイトに移行します。"
 msgstr ""
+"**User Guide**  \n"
+"[- User Guide](../06_glossary/index)  \n"
+"[- Menu/Window Reference](../06_glossary/01_Menu/index)  \n"
+"[- Glossary](../06_glossary/02_glossary/index)  \n"
+"[- Tips](../06_glossary/03_Tips/index)  \n"
+"[- FAQ](../06_glossary/04_faq/index)  \n"
+"[- Tutorial Videos](../06_glossary/05_tutorial/index)  \n"
+"[- FCS Homepage](https://www.fcs.zukun-lab.com) *Redirects to an external site."
 
 #: ../../00_contents/index.md:39
 msgid ""
@@ -65,20 +89,24 @@ msgid ""
 "](../04_release-schedule/index)   [・上級マニュアル](../08_advanced_doc_link)　"
 "※外部サイトに移行します。   [・マニュアル更新履歴](01_history)"
 msgstr ""
+"**Support / Other**  \n"
+"[- Contact Us](../07_support/index)  \n"
+"[- Development Roadmap](../04_release-schedule/index)  \n"
+"[- Advanced Manual](../08_advanced_doc_link) *Redirects to an external site.  \n"
+"[- Manual Update History](01_history)"
 
 #: ../../00_contents/index.md:48
 msgid "**FCSマニュアル 更新情報**"
-msgstr ""
+msgstr "**FCS Manual Update Information**"
 
 #: ../../00_contents/01_history.md:87
 msgid "**2026/04/03 更新**"
-msgstr ""
+msgstr "**Updated 2026/04/03**"
 
 #: ../../00_contents/01_history.md:88
 msgid "マニュアルサイトを26.04verに合わせて更新いたしました。   全体的な構成の変更・内容のアップデートを行っています。"
-msgstr ""
+msgstr "The manual site has been updated for version 26.04.  \nOverall structure changes and content updates have been made."
 
 #: ../../00_contents/index.md:55
 msgid "[※過去の更新履歴はこちら](01_history)"
-msgstr ""
-
+msgstr "[*See past update history here](01_history)"

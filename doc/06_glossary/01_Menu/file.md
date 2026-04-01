@@ -157,20 +157,50 @@ Sessionを開く、設定の変更、新規Sessionの作成などを実行する
 
 <br>
 
-| 項目 | 説明 | 右クリックメニュー| 
-|:-------------:|:--------------|:--------------|
-|① Project Folder|プロジェクトフォルダのパス|パスのコピー|
-|② Actor|アクター名|リネーム・コピー|
-|③ Character|キャラクター名|リネーム・コピー |
-|④ Maya Scene|Mayaシーンパス| パスのコピー・変更|
-|⑤ Maya Base|workspace.melのパス| パスのコピー・変更|
-|⑥ Maya version| Mayaバージョン|コピー・変更|
-|⑦ Profile Count|セッション内のプロファイルの数|コピー|
-|⑧ Video Count|セッションにインポートした動画の数 | コピー|
-|⑨ Created at| セッション作成日時| コピー|
-|⑩ Created by| セッション作成者| コピー|
-|⑪ Last saved at| 最終保存日時| コピー|
-|⑫ Last saved by| 最終保存者| コピー|
+```{list-table}
+:header-rows: 1
+:align: center
+
+* - 項目
+  - 説明
+  - 右クリックメニュー
+* - ① Project Folder
+  - プロジェクトフォルダのパス
+  - パスのコピー
+* - ② Actor
+  - アクター名
+  - リネーム・コピー
+* - ③ Character
+  - キャラクター名
+  - リネーム・コピー
+* - ④ Maya Scene
+  - Mayaシーンパス
+  - パスのコピー・変更
+* - ⑤ Maya Base
+  - workspace.melのパス
+  - パスのコピー・変更
+* - ⑥ Maya version
+  - Mayaバージョン
+  - コピー・変更
+* - ⑦ Profile Count
+  - セッション内のプロファイルの数
+  - コピー
+* - ⑧ Video Count
+  - セッションにインポートした動画の数
+  - コピー
+* - ⑨ Created at
+  - セッション作成日時
+  - コピー
+* - ⑩ Created by
+  - セッション作成者
+  - コピー
+* - ⑪ Last saved at
+  - 最終保存日時
+  - コピー
+* - ⑫ Last saved by
+  - 最終保存者
+  - コピー
+```
 
 <br>
 

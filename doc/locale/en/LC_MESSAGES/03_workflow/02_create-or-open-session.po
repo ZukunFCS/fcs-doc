@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,118 +20,121 @@ msgstr ""
 
 #: ../../03_workflow/02_create-or-open-session.md:1
 msgid "Sessionの作成・読み込み"
-msgstr ""
+msgstr "Create or Open a Session"
 
 #: ../../03_workflow/02_create-or-open-session.md:2
 msgid "FCSではアクター情報、キャラクター情報、Mayaシーン情報とその解析データを紐づけたファイルのことを「Session」と呼びます。"
-msgstr ""
+msgstr "In FCS, a \"Session\" is a file that links actor information, character information, Maya scene information, and their analysis data together."
 
 #: ../../03_workflow/02_create-or-open-session.md:4
 msgid "FCS起動後、Sessionデータへアクセスするため【New...（新規作成）】または【Open】を実行します。"
-msgstr ""
+msgstr "After launching FCS, execute [New... (Create New)] or [Open] to access Session data."
 
 #: ../../03_workflow/02_create-or-open-session.md:7
 msgid "初めにSessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。"
-msgstr ""
+msgstr "By configuring the Session settings first, you can smoothly begin working using buttons within FCS without having to operate Maya separately."
 
 #: ../../03_workflow/02_create-or-open-session.md:10
 msgid "**Create new Sessionで作成されるフォルダ構造**"
-msgstr ""
+msgstr "**Folder structure created by Create new Session**"
 
 #: ../../06_glossary/01_Menu/file.md:1866
 msgid ""
 "\\*赤枠：Project Folderで作成されるフォルダ   \\*青枠：Actorで作成されるフォルダ   "
 "\\*緑枠：Characterで作成されるフォルダ"
 msgstr ""
+"\\*Red border: Folders created by Project Folder  \n"
+"\\*Blue border: Folders created by Actor  \n"
+"\\*Green border: Folders created by Character"
 
 #: ../../06_glossary/01_Menu/file.md:1870
 msgid "**Facial**　：動画やMayaシーンデータ等素材を保存する場所"
-msgstr ""
+msgstr "**Facial**: Location for storing materials such as video and Maya scene data"
 
 #: ../../06_glossary/01_Menu/file.md:1871
 msgid "**Assets**：Mayaのプロジェクトファイル（Assets以下）を保存"
-msgstr ""
+msgstr "**Assets**: Stores Maya project files (under Assets)"
 
 #: ../../06_glossary/01_Menu/file.md:1872
 msgid "**RecData**：ROM体操やFCSで解析したい動画を保存"
-msgstr ""
+msgstr "**RecData**: Stores ROM exercise videos and videos to be analyzed by FCS"
 
 #: ../../06_glossary/01_Menu/file.md:1873
 msgid "**Scene**：アニメーション出力時のデフォルト出力先"
-msgstr ""
+msgstr "**Scene**: Default output destination when exporting animation"
 
 #: ../../06_glossary/01_Menu/file.md:1874
 msgid "**SetData**：アニメーション出力で「audio」を選択した場合のwav出力先"
-msgstr ""
+msgstr "**SetData**: wav output destination when \"audio\" is selected during animation export"
 
 #: ../../06_glossary/01_Menu/file.md:1878
 msgid "**FCS**　：解析に使用するデータが保存されるプロジェクトフォルダ"
-msgstr ""
+msgstr "**FCS**: Project folder where data used for analysis is stored"
 
 #: ../../06_glossary/01_Menu/file.md:1879
 msgid "**Actor**：Actor名（入力した名前）のフォルダ"
-msgstr ""
+msgstr "**Actor**: Folder with the Actor name (the name you entered)"
 
 #: ../../06_glossary/01_Menu/file.md:1880
 msgid "**Character**：Character名（入力した名前）のフォルダ"
-msgstr ""
+msgstr "**Character**: Folder with the Character name (the name you entered)"
 
 #: ../../06_glossary/01_Menu/file.md:1881
 msgid "**RetargetData**：作成したProfileの編集データ"
-msgstr ""
+msgstr "**RetargetData**: Edit data for created Profiles"
 
 #: ../../06_glossary/01_Menu/file.md:1882
 msgid "**VideoData**：解析動画のキャッシュ"
-msgstr ""
+msgstr "**VideoData**: Cache of analyzed videos"
 
 #: ../../06_glossary/01_Menu/file.md:1883
 msgid "**.lock**：競合防止用のロックファイル"
-msgstr ""
+msgstr "**.lock**: Lock file to prevent conflicts"
 
 #: ../../06_glossary/01_Menu/file.md:1884
 msgid "**fcs_session.yaml**：Session情報を保存しているファイル"
-msgstr ""
+msgstr "**fcs_session.yaml**: File that stores Session information"
 
 #: ../../03_workflow/02_create-or-open-session.md:24
 msgid "**Sessionの新規作成**"
-msgstr ""
+msgstr "**Creating a New Session**"
 
 #: ../../03_workflow/02_create-or-open-session.md:26
 msgid "File &rarr; Session&rarr;New...を選択"
-msgstr ""
+msgstr "Select File &rarr; Session &rarr; New..."
 
 #: ../../03_workflow/02_create-or-open-session.md:36
 msgid "Project Folderの設定"
-msgstr ""
+msgstr "Project Folder Settings"
 
 #: ../../03_workflow/02_create-or-open-session.md:38
 msgid "【Browse】ボタンをクリックし、Project Folderを指定するためウィンドウを起動します。"
-msgstr ""
+msgstr "Click the [Browse] button to open the window for specifying the Project Folder."
 
 #: ../../03_workflow/02_create-or-open-session.md:44
 msgid "FCSのデータを保存したい任意のフォルダを選択"
-msgstr ""
+msgstr "Select any folder where you want to save FCS data"
 
 #: ../../03_workflow/02_create-or-open-session.md:49
 msgid "【Create】を押し、Project Folderを作成します。"
-msgstr ""
+msgstr "Press [Create] to create the Project Folder."
 
 #: ../../03_workflow/02_create-or-open-session.md:55
 msgid "【Create】"
-msgstr ""
+msgstr "[Create]"
 
 #: ../../03_workflow/02_create-or-open-session.md:60
 #: ../../03_workflow/02_create-or-open-session.md:113
 msgid "問題なく作成できたらポップアップが表示されます。"
-msgstr ""
+msgstr "A popup will appear when the creation is successful."
 
 #: ../../03_workflow/02_create-or-open-session.md:66
 msgid "【Close】"
-msgstr ""
+msgstr "[Close]"
 
 #: ../../03_workflow/02_create-or-open-session.md:71
 msgid "エクスプローラーで【Facial】【FCS】のフォルダが作成されます。"
-msgstr ""
+msgstr "The [Facial] and [FCS] folders will be created in Explorer."
 
 #: ../../03_workflow/02_create-or-open-session.md:80
 msgid ""
@@ -140,14 +142,17 @@ msgid ""
 "Folder&rarr;Facial&rarr;Recdataフォルダに解析したい動画を   移動しておくことを推奨します。　"
 "※別の場所に保存していてもアクセスできます。"
 msgstr ""
+"After creation, it is recommended to move the Maya scene to be linked into the Project Folder &rarr; Facial &rarr; Assets folder,  \n"
+"and the videos to be analyzed into the Project Folder &rarr; Facial &rarr; Recdata folder.  \n"
+"*You can still access them even if they are saved in a different location."
 
 #: ../../03_workflow/02_create-or-open-session.md:89
 msgid "例：Assetsフォルダ"
-msgstr ""
+msgstr "Example: Assets folder"
 
 #: ../../03_workflow/02_create-or-open-session.md:96
 msgid "例：RecDataフォルダ"
-msgstr ""
+msgstr "Example: RecData folder"
 
 #: ../../03_workflow/02_create-or-open-session.md:99
 #: ../../03_workflow/02_create-or-open-session.md:127
@@ -160,143 +165,158 @@ msgstr ""
 
 #: ../../03_workflow/02_create-or-open-session.md:101
 msgid "Actorの設定"
-msgstr ""
+msgstr "Actor Settings"
 
 #: ../../03_workflow/02_create-or-open-session.md:103
 msgid ""
 "【+】ボタンをクリックし、ActorFolderを作成するための 【Create new actor folder】ウィンドウを起動します。"
 "    【Actor Name】に登録したい名前を入力し、【Create】を押します。    ※Actor ＝ アクター名"
 msgstr ""
+"Click the [+] button to open the [Create new actor folder] window for creating an ActorFolder.  \n"
+"Enter the name you want to register in [Actor Name] and press [Create].  \n"
+"*Actor = Actor name"
 
 #: ../../03_workflow/02_create-or-open-session.md:121
 msgid "エクスプローラーでProject Folderフォルダ直下に入力したActerフォルダが作成されます。"
-msgstr ""
+msgstr "The Actor folder with the entered name will be created directly under the Project Folder in Explorer."
 
 #: ../../03_workflow/02_create-or-open-session.md:129
 msgid "Characterの設定"
-msgstr ""
+msgstr "Character Settings"
 
 #: ../../03_workflow/02_create-or-open-session.md:131
 msgid ""
 "【+】ボタンをクリックし、characterFolderを作成するための【Create new character "
 "Folder】ウィンドウを起動します。    【Character Name】の入力欄に登録したい名前を入力し、【Create】を押します。"
 msgstr ""
+"Click the [+] button to open the [Create new character Folder] window for creating a characterFolder.  \n"
+"Enter the name you want to register in the [Character Name] field and press [Create]."
 
 #: ../../03_workflow/02_create-or-open-session.md:140
 msgid "エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。"
-msgstr ""
+msgstr "The Character folder with the entered name will be created directly under the Actor folder in Explorer."
 
 #: ../../03_workflow/02_create-or-open-session.md:148
 msgid "MayaSceneの設定"
-msgstr ""
+msgstr "MayaScene Settings"
 
 #: ../../03_workflow/02_create-or-open-session.md:150
 msgid "【Browse】をクリックし、MayaSceneを指定するためウィンドウを起動します。"
-msgstr ""
+msgstr "Click [Browse] to open the window for specifying the MayaScene."
 
 #: ../../03_workflow/02_create-or-open-session.md:151
 msgid "MayaSceneデータのパスを指定します。"
-msgstr ""
+msgstr "Specify the path to the MayaScene data."
 
 #: ../../03_workflow/02_create-or-open-session.md:159
 msgid "MayaBaseの設定"
-msgstr ""
+msgstr "MayaBase Settings"
 
 #: ../../03_workflow/02_create-or-open-session.md:161
 msgid ""
 "【Browse】をクリックし、MayaBaseを指定するためウィンドウを起動します。   "
 "workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定してください。"
 msgstr ""
+"Click [Browse] to open the window for specifying MayaBase.  \n"
+"Specify the location where workspace.mel resides (the location registered in the Maya scene's project settings)."
 
 #: ../../03_workflow/02_create-or-open-session.md:164
 msgid "FCS上でポップアップするウィンドウにはworkspace.melが表示されません"
-msgstr ""
+msgstr "The popup window in FCS does not display workspace.mel"
 
 #: ../../03_workflow/02_create-or-open-session.md:173
 msgid "MayaVerの設定"
-msgstr ""
+msgstr "MayaVer Settings"
 
 #: ../../03_workflow/02_create-or-open-session.md:175
 msgid "Sceneを作成したMayaのバージョンを指定します。"
-msgstr ""
+msgstr "Specify the Maya version used to create the Scene."
 
 #: ../../03_workflow/02_create-or-open-session.md:183
 msgid "全て入力を終えたら【Save】を押してください。"
-msgstr ""
+msgstr "After completing all entries, press [Save]."
 
 #: ../../03_workflow/02_create-or-open-session.md:188
 msgid "【Save】"
-msgstr ""
+msgstr "[Save]"
 
 #: ../../03_workflow/02_create-or-open-session.md:195
 msgid "エクスプローラーでcharacterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。"
-msgstr ""
+msgstr "The fcs_session.yaml (FCS file) will be created directly under the character folder in Explorer."
 
 #: ../../03_workflow/02_create-or-open-session.md:200
 msgid ".lockファイルは 作業中にほかの人からのアクセスを防ぐためのものです。   正常に終了した際には自動で削除されます。"
-msgstr ""
+msgstr "The .lock file prevents access from other users during work.  \nIt is automatically deleted when the application exits normally."
 
 #: ../../03_workflow/02_create-or-open-session.md:206
 msgid ""
 "不正に終了するなどして.lockファイルが残ってしまった場合、   FCSの起動時にポップアップから削除するか、   "
 ".lockファイルをエクスプローラーで直接削除してください。"
 msgstr ""
+"If the .lock file remains due to an abnormal termination,  \n"
+"delete it from the popup when launching FCS,  \n"
+"or delete the .lock file directly in Explorer."
 
 #: ../../03_workflow/02_create-or-open-session.md:213
 msgid "**既にSessionが作成されている場合**"
-msgstr ""
+msgstr "**If a Session has already been created**"
 
 #: ../../03_workflow/02_create-or-open-session.md:216
 msgid "履歴またはfcs_session.yamlファイルからSessionを開いてください。"
-msgstr ""
+msgstr "Open the Session from the history or from the fcs_session.yaml file."
 
 #: ../../03_workflow/02_create-or-open-session.md:220
 msgid "**履歴から開く場合**"
-msgstr ""
+msgstr "**Opening from history**"
 
 #: ../../03_workflow/02_create-or-open-session.md:223
 msgid "以前にSessionを起動している場合、File&rarr;Session&rarr;Openの下に履歴が表示されます。"
-msgstr ""
+msgstr "If you have previously opened a Session, the history will be displayed under File &rarr; Session &rarr; Open."
 
 #: ../../03_workflow/02_create-or-open-session.md:224
 msgid "作業したいデータをクリックします。"
-msgstr ""
+msgstr "Click the data you want to work with."
 
 #: ../../03_workflow/02_create-or-open-session.md:234
 msgid "**fcs_session.yamlファイルから開く場合**"
-msgstr ""
+msgstr "**Opening from the fcs_session.yaml file**"
 
 #: ../../03_workflow/02_create-or-open-session.md:236
 msgid ""
 "File&rarr;Session&rarr;Open&rarr;Open...   "
 "OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。"
 msgstr ""
+"File &rarr; Session &rarr; Open &rarr; Open...  \n"
+"When the OpenSession window opens, local and network drives will be displayed."
 
 #: ../../03_workflow/02_create-or-open-session.md:238
 msgid "Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開いてください。"
-msgstr ""
+msgstr "Select and open the fcs_session.yaml file located directly under the Character folder."
 
 #: ../../03_workflow/02_create-or-open-session.md:248
 msgid ""
 "Sessionの新規作成/Open後、続けて別のSession作成や起動は出来ません。   "
 "別のSessionを開きたい場合は、現在のSessionを終了し、FCSの再起動後開きなおしてください。"
 msgstr ""
+"After creating or opening a Session, you cannot create or open another Session consecutively.  \n"
+"If you want to open a different Session, close the current Session, restart FCS, and then open the desired Session."
 
 #: ../../03_workflow/02_create-or-open-session.md:254
 msgid "**「Maya Verの設定」をしても反映されない場合**"
-msgstr ""
+msgstr "**If the \"MayaVer Settings\" are not applied**"
 
 #: ../../03_workflow/02_create-or-open-session.md:256
 msgid "Session作成時に設定した項目は File&rarr;Session&rarr;info で確認することができます。"
-msgstr ""
+msgstr "The settings configured during Session creation can be checked via File &rarr; Session &rarr; info."
 
 #: ../../03_workflow/02_create-or-open-session.md:264
 msgid ""
 "New Sessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMaya "
 "Versionを右クリックし、Editから変更ができます。"
 msgstr ""
+"If the MayaVer set in New Session is not reflected in the info, right-click Maya "
+"Version on the info screen and change it from Edit."
 
 #: ../../03_workflow/02_create-or-open-session.md:277
 msgid "設定の変更後は必ずSaveボタンを押してください"
-msgstr ""
-
+msgstr "Be sure to press the Save button after changing settings"

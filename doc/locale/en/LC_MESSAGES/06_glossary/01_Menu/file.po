@@ -3,12 +3,11 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-04-02 06:39+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -21,61 +20,71 @@ msgstr ""
 
 #: ../../06_glossary/01_Menu/file.md ../../06_glossary/01_Menu/file.md:1
 msgid "File"
-msgstr ""
+msgstr "File"
 
 #: ../../06_glossary/01_Menu/file.md:3
 msgid ""
 "Fileメニューのうち、Session（セッション）ファイルの新規作成、保存、読み込みなど、プロジェクト管理に関連するメニュー項目について説明します。"
 "   ※[File ▶ Settings](settings.md)については別ページを参照ください。"
 msgstr ""
+"This section describes the menu items in the File menu related to project"
+" management, such as creating, saving, and loading Session files.  \n"
+"* For [File ▶ Settings](settings.md), please refer to the separate page."
 
 #: ../../06_glossary/01_Menu/file.md:28
 msgid "① Settion：Session(セッション)ファイル関連メニュー"
-msgstr ""
+msgstr "① Session: Session file related menu"
 
 #: ../../06_glossary/01_Menu/file.md:30
 msgid "② Settings：[Settings](settings.md)参照してください。"
-msgstr ""
+msgstr "② Settings: Please refer to [Settings](settings.md)."
 
 #: ../../06_glossary/01_Menu/file.md:32
 msgid "③ Quit：FCSを終了し「.Lockファイル」を削除"
-msgstr ""
+msgstr "③ Quit: Exit FCS and delete the \".Lock file\""
 
 #: ../../06_glossary/01_Menu/file.md
 msgid "Session ▶"
-msgstr ""
+msgstr "Session ▶"
 
 #: ../../06_glossary/01_Menu/file.md:46
 msgid ""
 "Session(セッション)ファイルに関連したメニューです。   "
 "Sessionを開く、設定の変更、新規Sessionの作成などを実行することができます。"
 msgstr ""
+"This is the menu related to Session files.  \n"
+"You can open a Session, change settings, create a new Session, and more."
 
 #: ../../06_glossary/01_Menu/file.md:55
 msgid "① New：Sessionを新規で作成、「**Create new Session**」ウィンドウを開く"
-msgstr ""
+msgstr "① New: Create a new Session and open the \"**Create new Session**\" window"
 
 #: ../../06_glossary/01_Menu/file.md:57
 msgid ""
 "② Open：Sessionを開く   　・Open...：ダイアログから .yaml ファイルを選択して Session を開きます。   　"
 "・「パス」：最近使用した Session のパスが表示されます。"
 msgstr ""
+"② Open: Open a Session  \n"
+"\\- Open...: Select a .yaml file from the dialog to open a Session.  \n"
+"\\- \"Path\": Displays the paths of recently used Sessions."
 
 #: ../../06_glossary/01_Menu/file.md:61
 msgid "③ Info：「**Session Data**」ウィンドウを開く"
-msgstr ""
+msgstr "③ Info: Open the \"**Session Data**\" window"
 
 #: ../../06_glossary/01_Menu/file.md:63
 msgid "④ Export：Session をエクスポートするための「**Export Session**」ウィンドウを開く"
-msgstr ""
+msgstr "④ Export: Open the \"**Export Session**\" window to export a Session"
 
 #: ../../06_glossary/01_Menu/file.md
 msgid "Create new Session"
-msgstr ""
+msgstr "Create new Session"
 
 #: ../../06_glossary/01_Menu/file.md:74
 msgid "・Session ▶ New   　Sessionを新規作成する際に開かれるウィンドウです。"
 msgstr ""
+"\\- Session ▶ New  \n"
+"This is the window that opens when creating a new Session."
 
 #: ../../06_glossary/01_Menu/file.md:84
 msgid ""
@@ -83,180 +92,360 @@ msgid ""
 "【Browse...】：ダイアログを開いてプロジェクトフォルダの作成先を入力します。     　"
 "【Create】：パス入力後、FCSのプロジェクトフォルダを作成します。"
 msgstr ""
+"① Project Folder: Path input field for the location (Root) where you want"
+" to store FCS working data  \n"
+"[Browse...]: Opens a dialog to specify the destination for the project "
+"folder.  \n"
+"[Create]: After entering the path, creates the FCS project folder."
 
 #: ../../06_glossary/01_Menu/file.md:88
 msgid ""
 "② Actor：解析する動画のアクター（演技者）名入力欄   　※既に該当アクターのフォルダが存在する場合、プルダウンから選択できます。   　"
 "【+】「Create new actor」ウィンドウを起動し、アクター名のフォルダを作成します。   　　アクター名はプルダウンに追加されます。"
 msgstr ""
+"② Actor: Input field for the actor (performer) name of the video to "
+"analyze  \n"
+"* If a folder for the actor already exists, you can select it from the "
+"dropdown.  \n"
+"[+] Opens the \"Create new actor\" window to create a folder with the "
+"actor name.  \n"
+"The actor name will be added to the dropdown."
 
 #: ../../06_glossary/01_Menu/file.md:93
 msgid ""
 "③ Character：3Dモデルのキャラクター名入力欄     　【+】「Create new character "
 "folder」ウィンドウを起動し、キャラクター名のフォルダを作成します。   　　キャラクター名はプルダウンに追加されます。"
 msgstr ""
+"③ Character: Input field for the 3D model character name  \n"
+"[+] Opens the \"Create new character folder\" window to create a folder "
+"with the character name.  \n"
+"The character name will be added to the dropdown."
 
 #: ../../06_glossary/01_Menu/file.md:97
 msgid "④ Maya Scene：3DモデルのMayaシーンのパス入力欄   　【Browse...】：ダイアログを開いてパスを入力します。"
 msgstr ""
+"④ Maya Scene: Path input field for the 3D model Maya scene  \n"
+"[Browse...]: Opens a dialog to enter the path."
 
 #: ../../06_glossary/01_Menu/file.md:100
 msgid "⑤ Maya Base：「workspace.mel」があるフォルダのパスを入力   　【Browse...】：ダイアログを開いてパスを入力します。"
 msgstr ""
+"⑤ Maya Base: Enter the path to the folder containing \"workspace.mel\"  \n"
+"[Browse...]: Opens a dialog to enter the path."
 
 #: ../../06_glossary/01_Menu/file.md:103
 msgid "⑥ Maya Ver：3Dモデルを作成したMayaのバージョンを指定"
-msgstr ""
+msgstr "⑥ Maya Ver: Specify the Maya version used to create the 3D model"
 
 #: ../../06_glossary/01_Menu/file.md
 msgid "**Create new Sessionで作成されるフォルダ構造**"
-msgstr ""
+msgstr "**Folder Structure Created by Create new Session**"
 
 #: ../../06_glossary/01_Menu/file.md:120
 msgid ""
 "\\*赤枠：Project Folderで作成されるフォルダ   \\*青枠：Actorで作成されるフォルダ   "
 "\\*緑枠：Characterで作成されるフォルダ"
 msgstr ""
+"\\*Red frame: Folders created by Project Folder  \n"
+"\\*Blue frame: Folders created by Actor  \n"
+"\\*Green frame: Folders created by Character"
 
 #: ../../06_glossary/01_Menu/file.md:124
 msgid "**Facial**　：動画やMayaシーンデータ等素材を保存する場所"
 msgstr ""
+"**Facial**: Location for storing materials such as videos and Maya scene "
+"data"
 
 #: ../../06_glossary/01_Menu/file.md:125
 msgid "**Assets**：Mayaのプロジェクトファイル（Assets以下）を保存"
-msgstr ""
+msgstr "**Assets**: Stores Maya project files (under Assets)"
 
 #: ../../06_glossary/01_Menu/file.md:126
 msgid "**RecData**：ROM体操やFCSで解析したい動画を保存"
-msgstr ""
+msgstr "**RecData**: Stores videos for ROM exercises and FCS analysis"
 
 #: ../../06_glossary/01_Menu/file.md:127
 msgid "**Scene**：アニメーション出力時のデフォルト出力先"
-msgstr ""
+msgstr "**Scene**: Default output destination for animation export"
 
 #: ../../06_glossary/01_Menu/file.md:128
 msgid "**SetData**：アニメーション出力で「audio」を選択した場合のwav出力先"
 msgstr ""
+"**SetData**: Wav output destination when \"audio\" is selected in "
+"animation export"
 
 #: ../../06_glossary/01_Menu/file.md:132
 msgid "**FCS**　：解析に使用するデータが保存されるプロジェクトフォルダ"
-msgstr ""
+msgstr "**FCS**: Project folder where data used for analysis is stored"
 
 #: ../../06_glossary/01_Menu/file.md:133
 msgid "**Actor**：Actor名（入力した名前）のフォルダ"
-msgstr ""
+msgstr "**Actor**: Folder named after the Actor (the name you entered)"
 
 #: ../../06_glossary/01_Menu/file.md:134
 msgid "**Character**：Character名（入力した名前）のフォルダ"
-msgstr ""
+msgstr "**Character**: Folder named after the Character (the name you entered)"
 
 #: ../../06_glossary/01_Menu/file.md:135
 msgid "**RetargetData**：作成したProfileの編集データ"
-msgstr ""
+msgstr "**RetargetData**: Editing data for created Profiles"
 
 #: ../../06_glossary/01_Menu/file.md:136
 msgid "**VideoData**：解析動画のキャッシュ"
-msgstr ""
+msgstr "**VideoData**: Cache for analyzed videos"
 
 #: ../../06_glossary/01_Menu/file.md:137
 msgid "**.lock**：競合防止用のロックファイル"
-msgstr ""
+msgstr "**.lock**: Lock file to prevent conflicts"
 
 #: ../../06_glossary/01_Menu/file.md:138
 msgid "**fcs_session.yaml**：Session情報を保存しているファイル"
-msgstr ""
+msgstr "**fcs_session.yaml**: File that stores Session information"
 
 #: ../../06_glossary/01_Menu/file.md
 msgid "Session Data"
-msgstr ""
+msgstr "Session Data"
 
 #: ../../06_glossary/01_Menu/file.md:150
 msgid "・Session ▶ info   　右クリックメニューから内容のコピーや編集を行うことができます。"
 msgstr ""
+"\\- Session ▶ info  \n"
+"You can copy or edit the contents from the right-click menu."
+
+#: ../../06_glossary/01_Menu/file.md:164
+msgid "項目"
+msgstr "Item"
+
+#: ../../06_glossary/01_Menu/file.md:165
+msgid "説明"
+msgstr "Description"
+
+#: ../../06_glossary/01_Menu/file.md:166
+msgid "右クリックメニュー"
+msgstr "Right-click Menu"
+
+#: ../../06_glossary/01_Menu/file.md:167
+msgid "① Project Folder"
+msgstr "① Project Folder"
+
+#: ../../06_glossary/01_Menu/file.md:168
+msgid "プロジェクトフォルダのパス"
+msgstr "Project folder path"
+
+#: ../../06_glossary/01_Menu/file.md:169
+msgid "パスのコピー"
+msgstr "Copy path"
+
+#: ../../06_glossary/01_Menu/file.md:170
+msgid "② Actor"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:171
+msgid "アクター名"
+msgstr "Actor name"
+
+#: ../../06_glossary/01_Menu/file.md:172 ../../06_glossary/01_Menu/file.md:175
+msgid "リネーム・コピー"
+msgstr "Rename / Copy"
+
+#: ../../06_glossary/01_Menu/file.md:173
+msgid "③ Character"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:174
+msgid "キャラクター名"
+msgstr "Character name"
+
+#: ../../06_glossary/01_Menu/file.md:176
+msgid "④ Maya Scene"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:177
+msgid "Mayaシーンパス"
+msgstr "Maya scene path"
+
+#: ../../06_glossary/01_Menu/file.md:178 ../../06_glossary/01_Menu/file.md:181
+msgid "パスのコピー・変更"
+msgstr "Copy / Change path"
+
+#: ../../06_glossary/01_Menu/file.md:179
+msgid "⑤ Maya Base"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:180
+msgid "workspace.melのパス"
+msgstr "workspace.mel path"
+
+#: ../../06_glossary/01_Menu/file.md:182
+msgid "⑥ Maya version"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:183
+msgid "Mayaバージョン"
+msgstr "Maya version"
+
+#: ../../06_glossary/01_Menu/file.md:184
+msgid "コピー・変更"
+msgstr "Copy / Change"
+
+#: ../../06_glossary/01_Menu/file.md:185
+msgid "⑦ Profile Count"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:186
+msgid "セッション内のプロファイルの数"
+msgstr "Number of Profiles in Session"
+
+#: ../../06_glossary/01_Menu/file.md:187 ../../06_glossary/01_Menu/file.md:190
+#: ../../06_glossary/01_Menu/file.md:193 ../../06_glossary/01_Menu/file.md:196
+#: ../../06_glossary/01_Menu/file.md:199 ../../06_glossary/01_Menu/file.md:202
+msgid "コピー"
+msgstr "Copy"
+
+#: ../../06_glossary/01_Menu/file.md:188
+msgid "⑧ Video Count"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:189
+msgid "セッションにインポートした動画の数"
+msgstr "Number of videos imported into Session"
+
+#: ../../06_glossary/01_Menu/file.md:191
+msgid "⑨ Created at"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:192
+msgid "セッション作成日時"
+msgstr "Session creation date/time"
+
+#: ../../06_glossary/01_Menu/file.md:194
+msgid "⑩ Created by"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:195
+msgid "セッション作成者"
+msgstr "Session creator"
+
+#: ../../06_glossary/01_Menu/file.md:197
+msgid "⑪ Last saved at"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:198
+msgid "最終保存日時"
+msgstr "Last saved date/time"
+
+#: ../../06_glossary/01_Menu/file.md:200
+msgid "⑫ Last saved by"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:201
+msgid "最終保存者"
+msgstr "Last saved by"
 
 #: ../../06_glossary/01_Menu/file.md
 msgid "Export Session"
-msgstr ""
+msgstr "Export Session"
 
-#: ../../06_glossary/01_Menu/file.md:184
+#: ../../06_glossary/01_Menu/file.md:214
 msgid "・Session ▶ Export   　作業したSessionを出力することができます。"
 msgstr ""
+"\\- Session ▶ Export  \n"
+"You can export the Session you have been working on."
 
-#: ../../06_glossary/01_Menu/file.md:187
+#: ../../06_glossary/01_Menu/file.md:217
 msgid "Sessionのエクスポートについては[作業フロー/エクスポート](../../03_workflow/08_export.md)を参照ください。"
 msgstr ""
+"For details on exporting Sessions, please refer to [Workflow / "
+"Export](../../03_workflow/08_export.md)."
 
 #: ../../03_workflow/08_export.md:430
 msgid "①Project Folder：出力先を指定"
-msgstr ""
+msgstr "① Project Folder: Specify the output destination"
 
 #: ../../03_workflow/08_export.md:432
 msgid "②Actor：アクター名を指定　　※アーカイブ化の場合はそのままでも問題ありません"
-msgstr ""
+msgstr "② Actor: Specify the actor name. * For archiving, you can leave it as is."
 
 #: ../../03_workflow/08_export.md:434
 msgid "③Character：キャラクター名を指定　　※アーカイブ化の場合はそのままでも問題ありません"
 msgstr ""
+"③ Character: Specify the character name. * For archiving, you can leave "
+"it as is."
 
 #: ../../03_workflow/08_export.md:436
 msgid "④Profile：現在のセッションのプロファイルを出力するかどうかを指定"
-msgstr ""
+msgstr "④ Profile: Specify whether to export the current session's profiles"
 
 #: ../../03_workflow/08_export.md:438
 msgid ""
 "⑤Videos：出力先にビデオデータをコピーするかを指定   　・ No video：動画データをコピーしない   　・ Associated "
 "video：関連する動画のみコピー   　・ All files：Recdata内のすべての動画データをコピー"
 msgstr ""
+"⑤ Videos: Specify whether to copy video data to the output destination  \n"
+"\\- No video: Do not copy video data  \n"
+"\\- Associated video: Copy only associated videos  \n"
+"\\- All files: Copy all video data in Recdata"
 
 #: ../../03_workflow/08_export.md:443
 msgid "⑥Facial/Assets Folder：出力先にFacial/Assetsのフォルダーをコピーするかを指定"
 msgstr ""
+"⑥ Facial/Assets Folder: Specify whether to copy the Facial/Assets folders"
+" to the output destination"
 
 #: ../../03_workflow/08_export.md:448
 msgid ""
 "Project Folderの項目ではエクスポート先のプロジェクトフォルダのパスを指定します。   "
 "このとき、プロジェクトフォルダ以下のフォルダ構造が存在しない場合は新しくフォルダが   作成される仕様となっています。"
 msgstr ""
+"In the Project Folder field, specify the path of the destination project "
+"folder.  \n"
+"If the folder structure under the project folder does not exist,  \n"
+"new folders will be created automatically."
 
 #: ../../03_workflow/08_export.md:452
 msgid ""
 "E:\\test\\FCS\\testActor\\testCharacterと同じ階層にtestCharacter2をエクスポートしたい場合、 "
 "以下のように出力先を指定してください。"
 msgstr ""
+"If you want to export testCharacter2 to the same level as "
+"E:\\test\\FCS\\testActor\\testCharacter, specify the output destination "
+"as follows."
 
 #: ../../03_workflow/08_export.md:455
 msgid "Project Folder：E:\\test Character：testCharacter2"
-msgstr ""
+msgstr "Project Folder: E:\\test Character: testCharacter2"
 
-#: ../../06_glossary/01_Menu/file.md:203
+#: ../../06_glossary/01_Menu/file.md:233
 msgid "**Menu説明 目次**"
-msgstr ""
+msgstr "**Menu Descriptions - Table of Contents**"
 
 #: ../../06_glossary/01_Menu/index.md:157
 msgid "[**〇File**](file.md)：Session(セッション)ファイルの管理と基本操作"
-msgstr ""
+msgstr "[**- File**](file.md): Session file management and basic operations"
 
 #: ../../06_glossary/01_Menu/index.md:159
 msgid "[**〇Settings**](settings.md)：File/Settings　FCS全体の環境設定と動作オプション"
 msgstr ""
+"[**- Settings**](settings.md): File/Settings - Global environment "
+"settings and behavior options for FCS"
 
 #: ../../06_glossary/01_Menu/index.md:161
 msgid "[**〇Window**](window.md)：各種ウィンドウの表示・操作ガイド"
-msgstr ""
+msgstr "[**- Window**](window.md): Display and operation guide for each window"
 
 #: ../../06_glossary/01_Menu/index.md:163
 msgid "[**〇Maya**](maya.md)：Mayaの起動・連携"
-msgstr ""
+msgstr "[**- Maya**](maya.md): Launching and linking with Maya"
 
 #: ../../06_glossary/01_Menu/index.md:165
 msgid "[**〇View**](view.md)：作業画面のレイアウト調整"
-msgstr ""
+msgstr "[**- View**](view.md): Adjusting the workspace layout"
 
 #: ../../06_glossary/01_Menu/index.md:167
 msgid "[**〇Explore**](explore.md)：FCSからWindowsエクスプローラーのファイル参照"
-msgstr ""
+msgstr "[**- Explore**](explore.md): Browsing files in Windows Explorer from FCS"
 
 #: ../../06_glossary/01_Menu/index.md:169
 msgid "[**〇Info**](info.md)：バージョン情報など"
-msgstr ""
+msgstr "[**- Info**](info.md): Version information and more"
 

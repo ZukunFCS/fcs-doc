@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,13 +20,12 @@ msgstr ""
 
 #: ../../06_glossary/05_tutorial/index.md:1
 msgid "チュートリアル動画"
-msgstr ""
+msgstr "Tutorial Videos"
 
 #: ../../06_glossary/05_tutorial/index.md:3
 msgid "**チュートリアル動画**"
-msgstr ""
+msgstr "**Tutorial Videos**"
 
 #: ../../06_glossary/05_tutorial/index.md:14
 msgid "**アニメーション比較**"
-msgstr ""
-
+msgstr "**Animation Comparison**"

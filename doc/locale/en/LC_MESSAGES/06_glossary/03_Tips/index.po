@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,37 +20,43 @@ msgstr ""
 
 #: ../../06_glossary/03_Tips/index.md:1
 msgid "Tips"
-msgstr ""
+msgstr "Tips"
 
 #: ../../06_glossary/03_Tips/index.md:3
 msgid "このページではFCSの便利なTipsや各機能について説明します。"
-msgstr ""
+msgstr "This page describes useful tips and various features of FCS."
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "ベースシーンについて"
-msgstr ""
+msgstr "About the Base Scene"
 
 #: ../../06_glossary/03_Tips/index.md:11
 msgid ""
 "FCSは、シーン内にFCS用のカメラが無い場合、perspのカメラの位置を参照してカメラを作成します。   "
 "常に一定の画角でプレイブラストを出力するためには、あらかじめ適切な位置やサイズのイメージプレーンをシーンに配置し、ベースシーンとして保存しておく方法を推奨しています。"
 msgstr ""
+"If there is no FCS camera in the scene, FCS creates a camera based on the position of the persp camera.  \n"
+"To always output playblasts at a consistent field of view, we recommend placing an image plane of the appropriate position and size in the scene in advance and saving it as a base scene."
 
 #: ../../06_glossary/03_Tips/index.md:14
 msgid ""
 "※作成する前にFCSの設定ウィンドウ[File＞Settings＞▼Maya](../01_Menu/settings.md)でカメラ名とイメージプレーン名がどのように指定されているかを確認してください。"
 "   以下fcs_cam、imagePlaneという名前が指定されているものとして説明します。"
 msgstr ""
+"*Before creating, check the FCS settings window [File > Settings > ▼Maya](../01_Menu/settings.md) to see how the camera name and image plane name are specified.  \n"
+"The following instructions assume the names fcs_cam and imagePlane are specified."
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "**ベースシーンの作成**"
-msgstr ""
+msgstr "**Creating a Base Scene**"
 
 #: ../../06_glossary/03_Tips/index.md:22
 msgid ""
 "① FCS用のカメラを顔のモデルが中心に来るように配置します。   "
 "使用アトリビュート例：fcs_cam.translateY、fcs_cam.translateZ、fcs_camShape.focalLength"
 msgstr ""
+"① Position the FCS camera so that the face model is centered.  \n"
+"Example attributes used: fcs_cam.translateY, fcs_cam.translateZ, fcs_camShape.focalLength"
 
 #: ../../06_glossary/03_Tips/index.md:29 ../../06_glossary/03_Tips/index.md:37
 #: ../../06_glossary/03_Tips/index.md:46 ../../06_glossary/03_Tips/index.md:54
@@ -63,44 +68,49 @@ msgid ""
 "② FCS用のカメラを使用した状態でView ＞ Image Plane ＞ Import "
 "Image...から静止画用イメージプレーンを配置します。"
 msgstr ""
+"② With the FCS camera active, place the still image plane via View > Image Plane > Import "
+"Image..."
 
 #: ../../06_glossary/03_Tips/index.md:39
 msgid ""
 "③ イメージプレーンをお好みの大きさに変更し、配置したい場所へ移動します。   "
 "使用アトリビュート例：imagePlaneShape.depth、imagePlaneShape.sizeX、imagePlaneShape.sizeY、imagePlaneShape.offsetX、imagePlaneShape.offsetY"
 msgstr ""
+"③ Resize the image plane to your preferred size and move it to the desired location.  \n"
+"Example attributes used: imagePlaneShape.depth, imagePlaneShape.sizeX, imagePlaneShape.sizeY, imagePlaneShape.offsetX, imagePlaneShape.offsetY"
 
 #: ../../06_glossary/03_Tips/index.md:48
 msgid "④ 静止画連番画像を再生するためにimagePlaneShape.useFrameExtensionをON（1）にします。"
-msgstr ""
+msgstr "④ Set imagePlaneShape.useFrameExtension to ON (1) to play sequential still images."
 
 #: ../../06_glossary/03_Tips/index.md:56
 msgid "⑤ Mayaシーンを保存し、File＞Session▶＞Info...からMaya Sceneに登録します。"
-msgstr ""
+msgstr "⑤ Save the Maya scene and register it in Maya Scene from File > Session▶ > Info..."
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "レイアウトについて"
-msgstr ""
+msgstr "About Layouts"
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "**レイアウトの変更方法**"
-msgstr ""
+msgstr "**How to Change the Layout**"
 
 #: ../../06_glossary/03_Tips/index.md:94
 msgid ""
 "Viewウィンドウ → Layoutからレイアウトのプリセットを呼び出せます。   "
 "また、各ウィンドウはドラッグ＆ドロップでFCS内を移動・配置することができます。   お好きな配置で作業してください。"
 msgstr ""
+"You can load layout presets from View window → Layout.  \n"
+"Each window can also be moved and arranged within FCS by drag & drop.  \nPlease work with your preferred arrangement."
 
 #: ../../06_glossary/03_Tips/index.md:98
 msgid "Viewウィンドウ → Layoutから変更したレイアウトを保存することも可能です。"
-msgstr ""
+msgstr "You can also save modified layouts from View window → Layout."
 
 #: ../../06_glossary/03_Tips/index.md:108
 msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../06_glossary/01_Menu/view.md)をご覧ください。"
-msgstr ""
+msgstr "For details on the View window, see [User Guide/Menu/view](../06_glossary/01_Menu/view.md)."
 
 #: ../../06_glossary/03_Tips/index.md:113
 msgid "保存したレイアウトのデータは以下のパスに格納されます。"
-msgstr ""
-
+msgstr "Saved layout data is stored at the following path."

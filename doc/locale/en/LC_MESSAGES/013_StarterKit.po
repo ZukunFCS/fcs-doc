@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS 24.07 Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS 24.07 Manual\n"
@@ -70,7 +69,7 @@ msgstr "Some content may require third-party game engine plug-ins."
 
 #: ../../013_スターターキット.md:20
 msgid "1. Mayaの3Dモデルデータ"
-msgstr "1. 3D model data in Maya"
+msgstr "1\. 3D model data in Maya"
 
 #: ../../013_スターターキット.md:21
 msgid "DIGITAL NAGAKI"
@@ -104,7 +103,7 @@ msgstr "Please note that we cannot render data in  Maya or use it with Unity dev
 
 #: ../../013_スターターキット.md:42
 msgid "2. フェイシャルROM体操の表情一覧PDF"
-msgstr "2. Reference video of facial ROM"
+msgstr "2\. Reference video of facial ROM"
 
 #: ../../013_スターターキット.md:43
 msgid "フェイシャルキャプチャーによる動画解析では、撮影された人物が取り得る表情の強度的な限界を知ることで、動画解析の効率性を高めることができます。   眉や目、口などといった顔の各パーツの可動域（= ROM：**R**ange **O**f **M**otion）取得を目的とした一連の表情パターンのことを、フェイシャルROM体操と呼びます。   本スターターキットでは、ツークン研究所がフェイシャルキャプチャー撮影で実際に使用している、約50パターンの表情リストをPDF化して同梱しています。"
@@ -112,7 +111,7 @@ msgstr "For video analysis using facial capture, we can increase the efficiency 
 
 #: ../../013_スターターキット.md:47
 msgid "3. フェイシャルROM体操動画"
-msgstr "3. Video of facial ROM"
+msgstr "3\. Video of facial ROM"
 
 #: ../../013_スターターキット.md:48
 msgid "フェイシャルROM体操を収録した動画です。   FCSに読み込ませてご利用ください。"
@@ -120,7 +119,7 @@ msgstr "This is a video containing facial ROM.   Please load it into FCS for use
 
 #: ../../013_スターターキット.md:51
 msgid "4. 動画解析 - アニメーション出力用のサンプル動画"
-msgstr "4. Sample videos for video analysis and animation output"
+msgstr "4\. Sample videos for video analysis and animation output"
 
 #: ../../013_スターターキット.md:52
 msgid "動画解析で使用するサンプル動画です。   FCSに読み込ませてご利用ください。"
@@ -128,7 +127,7 @@ msgstr "This is a sample video for  video analysis.   Please load them into FCS 
 
 #: ../../013_スターターキット.md:55
 msgid "5. Profile作成済みのFCS Sessionデータ"
-msgstr "5. FCS Session data for created profiles"
+msgstr "5\. FCS Session data for created profiles"
 
 #: ../../013_スターターキット.md:56
 msgid "約50程度のProfileが実際に作成してある、FCS Sessionデータです。   FCSを使用して動画解析をする際の参考としてお使いください。"

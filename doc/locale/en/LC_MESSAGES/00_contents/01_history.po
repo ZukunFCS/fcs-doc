@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,29 +20,28 @@ msgstr ""
 
 #: ../../00_contents/01_history.md:1
 msgid "FCSマニュアル　更新履歴"
-msgstr ""
+msgstr "FCS Manual Update History"
 
 #: ../../00_contents/01_history.md:3
 msgid "FCSマニュアルの更新履歴一覧です。"
-msgstr ""
+msgstr "This is a list of update history for the FCS manual."
 
 #: ../../00_contents/01_history.md:5
 msgid "**最終更新**"
-msgstr ""
+msgstr "**Latest Update**"
 
 #: ../../00_contents/01_history.md:10
 msgid "**2026/04/03 更新**"
-msgstr ""
+msgstr "**Updated 2026/04/03**"
 
 #: ../../00_contents/01_history.md:11
 msgid "マニュアルサイトを26.04verに合わせて更新いたしました。   全体的な構成の変更・内容のアップデートを行っています。"
-msgstr ""
+msgstr "The manual site has been updated for version 26.04.  \nOverall structure changes and content updates have been made."
 
 #: ../../00_contents/01_history.md:19
 msgid "**過去の更新**"
-msgstr ""
+msgstr "**Past Updates**"
 
 #: ../../00_contents/01_history.md:22
 msgid "**2026/04/03 更新**："
-msgstr ""
-
+msgstr "**Updated 2026/04/03**:"

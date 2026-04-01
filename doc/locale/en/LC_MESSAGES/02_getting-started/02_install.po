@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,61 +20,65 @@ msgstr ""
 
 #: ../../02_getting-started/02_install.md:1
 msgid "FCSのインストール"
-msgstr ""
+msgstr "Installing FCS"
 
 #: ../../02_getting-started/02_install.md:3
 msgid ""
 "FCSは、インストーラーを使用してインストールします。   インストーラーは[こちら](https://github.com/ZukunFCS"
 "/fcs-doc/releases)からダウンロードできます。"
 msgstr ""
+"FCS is installed using the installer.  \n"
+"The installer can be downloaded from [here](https://github.com/ZukunFCS/fcs-doc/releases)."
 
 #: ../../02_getting-started/02_install.md:6
 msgid "**インストールの手順**"
-msgstr ""
+msgstr "**Installation Steps**"
 
 #: ../../02_getting-started/02_install.md:9
 msgid "インストーラーで使用する言語を設定します。"
-msgstr ""
+msgstr "Set the language to be used in the installer."
 
 #: ../../02_getting-started/02_install.md:17
 msgid "インストールを開始します。"
-msgstr ""
+msgstr "Begin the installation."
 
 #: ../../02_getting-started/02_install.md:25
 msgid "使用許諾契約書に同意します。"
-msgstr ""
+msgstr "Accept the license agreement."
 
 #: ../../02_getting-started/02_install.md:33
 msgid ""
 "インストール先を指定します。   デフォルトは、C:\\TOEI\\FCS_\"version\"です。   "
 "変更する場合は、パスを記入、または参照から選択してください。"
 msgstr ""
+"Specify the installation destination.  \n"
+"The default is C:\\TOEI\\FCS_\"version\".  \n"
+"To change it, enter the path or select from the browse dialog."
 
 #: ../../02_getting-started/02_install.md:43
 msgid "スタートメニューフォルダを指定します。 デフォルトは【FCS】です。   変更する場合は、フォルダ名を記入、または参照から選択してください。"
-msgstr ""
+msgstr "Specify the Start Menu folder. The default is [FCS].  \nTo change it, enter the folder name or select from the browse dialog."
 
 #: ../../02_getting-started/02_install.md:53
 msgid "デスクトップアイコンを作成する場合は、チェックを入れてください。"
-msgstr ""
+msgstr "Check the box if you want to create a desktop icon."
 
 #: ../../02_getting-started/02_install.md:61
 msgid "インストールを設定の確認し、問題がなければインストールしてください。"
-msgstr ""
+msgstr "Review the installation settings and proceed with the installation if everything is correct."
 
 #: ../../02_getting-started/02_install.md:69
 msgid "完了後、すぐ起動する場合は、チェックを入れてください。"
-msgstr ""
+msgstr "Check the box if you want to launch FCS immediately after completion."
 
 #: ../../02_getting-started/02_install.md:77
 msgid "**アンインストールの手順**"
-msgstr ""
+msgstr "**Uninstallation Steps**"
 
 #: ../../02_getting-started/02_install.md:80
 msgid "スタートメニューもしくはFCSをインストールしたフォルダから**unins000.exe**を実行します。"
-msgstr ""
+msgstr "Run **unins000.exe** from the Start Menu or the folder where FCS is installed."
 
 #: ../../02_getting-started/02_install.md:88
 msgid "問題がなければ【OK】を選択します。"
-msgstr ""
-
+msgstr "Select [OK] if there are no issues."

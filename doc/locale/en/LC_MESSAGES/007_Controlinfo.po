@@ -235,7 +235,6 @@ msgid "右上のall▼のタブを選択し、null▼に変更"
 msgstr "Select the all▼ tab on the top right window and change it to null▼"
 
 #: ../../007_Controlinfo.md:174 ../../007_Controlinfo.md:211
-#, fuzzy
 msgid "Select All"
 msgstr "Add selected"
 

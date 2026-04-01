@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,27 +20,31 @@ msgstr ""
 
 #: ../../04_release-schedule/02_release-schedule.md:1
 msgid "リリース&アップグレード"
-msgstr ""
+msgstr "Releases & Upgrades"
 
 #: ../../04_release-schedule/02_release-schedule.md:3
 msgid ""
 "※2026年2月27日 更新   "
 "FCSのリリースサイクルは、2026年より従来の四半期ごとの更新から4月と10月の半年ごと（年2回）の更新となりました。"
 msgstr ""
+"*Updated on February 27, 2026  \n"
+"Starting from 2026, the FCS release cycle has changed from quarterly updates to semi-annual updates (twice a year) in April and October."
 
 #: ../../04_release-schedule/02_release-schedule.md:8
 msgid "**1.定期リリース（メジャーバージョン）**"
-msgstr ""
+msgstr "**1. Scheduled Releases (Major Versions)**"
 
 #: ../../04_release-schedule/02_release-schedule.md:11
 msgid ""
 "新機能追加やアルゴリズムの更新・変更などのメジャーバージョンのリリースは、毎年4月と10月の年2回実施予定となっております。   "
 "リリース頻度を集約することで、各バージョンにおける品質のさらなる安定化を図ってまいります。"
 msgstr ""
+"Major version releases, including new feature additions and algorithm updates/changes, are scheduled twice a year in April and October.  \n"
+"By consolidating the release frequency, we aim to further stabilize the quality of each version."
 
 #: ../../04_release-schedule/02_release-schedule.md:14
 msgid "**2.マイナーバージョンによる修正対応**"
-msgstr ""
+msgstr "**2. Fixes via Minor Versions**"
 
 #: ../../04_release-schedule/02_release-schedule.md:17
 msgid ""
@@ -49,20 +52,25 @@ msgid ""
 "UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：25.10.01〜）は、必要に応じて随時実施されます。"
 " <br> <br>"
 msgstr ""
+"Once a major version is released, no major updates involving feature additions will be made until the next scheduled release.  \n"
+"Minor version updates (e.g., 25.10.01 and onward) for minor improvements such as UI changes, and bug fixes will be released as needed."
+" <br> <br>"
 
 #: ../../04_release-schedule/02_release-schedule.md:22
 msgid "**FCSのアップグレード**"
-msgstr ""
+msgstr "**Upgrading FCS**"
 
 #: ../../04_release-schedule/02_release-schedule.md:25
 msgid ""
 "サポート状況などによる製品のバージョン分け（Standard/LTS/Preview）を廃止いたしました。   "
 "現在は運用をシンプルにするために形態を一本化し最新のアップデートを提供しています。"
 msgstr ""
+"We have discontinued the product version tiers (Standard/LTS/Preview) that were based on support status.  \n"
+"Currently, we have unified the format to simplify operations and provide the latest updates."
 
 #: ../../04_release-schedule/02_release-schedule.md:30
 msgid "**互換性**"
-msgstr ""
+msgstr "**Compatibility**"
 
 #: ../../04_release-schedule/02_release-schedule.md:33
 msgid ""
@@ -71,22 +79,27 @@ msgid ""
 "以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。"
 "   そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。"
 msgstr ""
+"FCS sessions are forward-compatible unless otherwise noted.  \n"
+"However, backward compatibility is not always guaranteed, especially between major versions (e.g., 25.07 and 25.10).  \n"
+"Sessions created with an older version of FCS can be opened in a newer version, but once a session has been opened in a newer version, it may no longer be openable in an older version.  \n"
+"Therefore, please make sure to back up your files before migrating to a new version."
 
 #: ../../04_release-schedule/02_release-schedule.md:40
 msgid ""
 "同一メジャーバージョン内（例：25.10.01~25.10.04）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。"
 "   また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 msgstr ""
+"Within the same major version (e.g., 25.10.01 to 25.10.04), we strive to maintain backward compatibility as much as possible, but it is not guaranteed.  \n"
+"Additionally, when multiple users share the same FCS session, we recommend that the entire team uses the same minor version of FCS."
 
 #: ../../04_release-schedule/02_release-schedule.md:45
 msgid "**アップグレード手順**"
-msgstr ""
+msgstr "**Upgrade Procedure**"
 
 #: ../../04_release-schedule/02_release-schedule.md:48
 msgid "セッションデータを[エクスポート](#export-header-target)してください。"
-msgstr ""
+msgstr "[Export](#export-header-target) your session data."
 
 #: ../../04_release-schedule/02_release-schedule.md:49
 msgid "新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを開いてください。"
-msgstr ""
-
+msgstr "Open the exported data using the newly downloaded version of FCS."

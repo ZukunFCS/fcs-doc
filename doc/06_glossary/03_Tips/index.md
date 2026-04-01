@@ -112,7 +112,7 @@ Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../
 
 保存したレイアウトのデータは以下のパスに格納されます。  
 ```
-C:\Users\[ユーザー名]\.fcs\Cortado\[FCSバージョン]\layouts\saved
+C:\Users\$USER\.fcs\Cortado\$FCS_VERSION\layouts\saved
 ```
 
 <br>

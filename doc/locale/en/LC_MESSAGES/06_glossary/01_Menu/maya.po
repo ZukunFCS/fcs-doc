@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,19 +20,19 @@ msgstr ""
 
 #: ../../06_glossary/01_Menu/maya.md ../../06_glossary/01_Menu/maya.md:1
 msgid "Maya"
-msgstr ""
+msgstr "Maya"
 
 #: ../../06_glossary/01_Menu/maya.md:3
 msgid "Mayaの起動手順や、FCSとMaya間の連携に関するメニュー項目について説明します。"
-msgstr ""
+msgstr "This section describes the menu items related to launching Maya and linking between FCS and Maya."
 
 #: ../../06_glossary/01_Menu/maya.md:18
 msgid "① Status：Mayaとの接続状況を確認　クリックで接続をテストします。"
-msgstr ""
+msgstr "① Status: Check the connection status with Maya. Click to test the connection."
 
 #: ../../06_glossary/01_Menu/maya.md:20
 msgid "② Open Scene：Sessionに登録されているMaya Sceneを開く"
-msgstr ""
+msgstr "② Open Scene: Open the Maya Scene registered in the Session"
 
 #: ../../06_glossary/01_Menu/maya.md:22
 msgid ""
@@ -41,36 +40,37 @@ msgid ""
 "[Settings](settings.md)で『Open maya scene at "
 "launch』をONにしている場合、Mayaシーンも開きます。"
 msgstr ""
+"③ Launch ▶: Open a new instance of the Maya version registered in the Session.  \n"
+"If 'Open maya scene at launch' is enabled in [Settings](settings.md), the Maya scene will also be opened."
 
 #: ../../06_glossary/01_Menu/maya.md:33
 msgid "**Menu説明 目次**"
-msgstr ""
+msgstr "**Menu Descriptions - Table of Contents**"
 
 #: ../../06_glossary/01_Menu/index.md:157
 msgid "[**〇File**](file.md)：Session(セッション)ファイルの管理と基本操作"
-msgstr ""
+msgstr "[**- File**](file.md): Session file management and basic operations"
 
 #: ../../06_glossary/01_Menu/index.md:159
 msgid "[**〇Settings**](settings.md)：File/Settings　FCS全体の環境設定と動作オプション"
-msgstr ""
+msgstr "[**- Settings**](settings.md): File/Settings - Global environment settings and behavior options for FCS"
 
 #: ../../06_glossary/01_Menu/index.md:161
 msgid "[**〇Window**](window.md)：各種ウィンドウの表示・操作ガイド"
-msgstr ""
+msgstr "[**- Window**](window.md): Display and operation guide for each window"
 
 #: ../../06_glossary/01_Menu/index.md:163
 msgid "[**〇Maya**](maya.md)：Mayaの起動・連携"
-msgstr ""
+msgstr "[**- Maya**](maya.md): Launching and linking with Maya"
 
 #: ../../06_glossary/01_Menu/index.md:165
 msgid "[**〇View**](view.md)：作業画面のレイアウト調整"
-msgstr ""
+msgstr "[**- View**](view.md): Adjusting the workspace layout"
 
 #: ../../06_glossary/01_Menu/index.md:167
 msgid "[**〇Explore**](explore.md)：FCSからWindowsエクスプローラーのファイル参照"
-msgstr ""
+msgstr "[**- Explore**](explore.md): Browsing files in Windows Explorer from FCS"
 
 #: ../../06_glossary/01_Menu/index.md:169
 msgid "[**〇Info**](info.md)：バージョン情報など"
-msgstr ""
-
+msgstr "[**- Info**](info.md): Version information and more"

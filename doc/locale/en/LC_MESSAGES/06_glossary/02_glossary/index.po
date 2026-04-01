@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,53 +20,56 @@ msgstr ""
 
 #: ../../06_glossary/02_glossary/index.md:1
 msgid "用語集"
-msgstr ""
+msgstr "Glossary"
 
 #: ../../06_glossary/02_glossary/index.md:3
 msgid "**LM（ランドマーク）**   顔の各点の位置情報"
-msgstr ""
+msgstr "**LM (Landmark)**  \nPosition information of each point on the face"
 
 #: ../../06_glossary/02_glossary/index.md:8
 msgid "**Pick up（ピックアップ）**   表情出力の計算に含めたいフレームを抽出すること   またはピックアップしたデータのこと"
-msgstr ""
+msgstr "**Pick up**  \nExtracting frames to be included in the facial expression output calculation  \nOr the picked-up data itself"
 
 #: ../../06_glossary/02_glossary/index.md:14
 msgid "**Profile（プロファイル）**   動画からピックアップしたフレーム情報とリターゲットした表情の組み合わせのこと"
-msgstr ""
+msgstr "**Profile**  \nA combination of frame information picked up from video and retargeted facial expressions"
 
 #: ../../06_glossary/02_glossary/index.md:19
 msgid ""
 "**Region（リージョン）**   コントローラのアトリビュートがupper / lower / eye / "
 "eyelidのどれに該当するかの情報"
 msgstr ""
+"**Region**  \nInformation indicating whether a controller attribute belongs to upper / lower / eye / "
+"eyelid"
 
 #: ../../06_glossary/02_glossary/index.md:21
 msgid "upper：眉周りの動き"
-msgstr ""
+msgstr "upper: Movement around the eyebrows"
 
 #: ../../06_glossary/02_glossary/index.md:22
 msgid "lower：鼻、頬、口周りの動き"
-msgstr ""
+msgstr "lower: Movement around the nose, cheeks, and mouth"
 
 #: ../../06_glossary/02_glossary/index.md:23
 msgid "eye：UIではgaze表記、目線の動き"
-msgstr ""
+msgstr "eye: Displayed as gaze in the UI, eye direction movement"
 
 #: ../../06_glossary/02_glossary/index.md:24
 msgid "eyelid：まぶたの動き"
-msgstr ""
+msgstr "eyelid: Eyelid movement"
 
 #: ../../06_glossary/02_glossary/index.md:28
 msgid "**Retarget（リターゲット）**   ピックアップしたフレームに対応する表情を登録すること   またはリターゲットしたデータのこと"
-msgstr ""
+msgstr "**Retarget**  \nRegistering facial expressions corresponding to picked-up frames  \nOr the retargeted data itself"
 
 #: ../../06_glossary/02_glossary/index.md:34
 msgid "**Session(セッション)**   アクター情報、キャラクター情報、Mayaシーン情報とその解析データを紐づけたファイルのこと"
-msgstr ""
+msgstr "**Session**  \nA file that links actor information, character information, Maya scene information, and their analysis data"
 
 #: ../../06_glossary/02_glossary/index.md:39
 msgid ""
 "**Window(ウィンドウ)**   各機能ごとにまとめられた枠のこと   一部範囲では右クリックでメニューが表示される   "
 "ウィンドウのレイアウトは変更・保存することが可能"
 msgstr ""
-
+"**Window**  \nA frame that groups related functions together  \nIn some areas, a right-click menu is available  \n"
+"The window layout can be changed and saved"

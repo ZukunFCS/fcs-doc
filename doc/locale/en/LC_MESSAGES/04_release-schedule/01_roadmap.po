@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,11 +20,11 @@ msgstr ""
 
 #: ../../04_release-schedule/01_roadmap.md:1
 msgid "開発ロードマップ"
-msgstr ""
+msgstr "Development Roadmap"
 
 #: ../../04_release-schedule/01_roadmap.md:2
 msgid "FCSは現在、機能追加および継続的なクオリティの向上に向けた開発を積極的に推進しており、その一環として開発ロードマップの一部を以下の通り公開いたします。"
-msgstr ""
+msgstr "FCS is currently under active development with a focus on adding new features and continuously improving quality. As part of this effort, we are sharing a portion of our development roadmap below."
 
 #: ../../04_release-schedule/01_roadmap.md:6
 msgid ""
@@ -34,10 +33,14 @@ msgid ""
 "また、記載されている項目の順序は必ずしも実装の優先順位を示すものではなく、開発状況や諸般の事情により予告なく内容の変更や中止を行う場合がございます。"
 "   （これに伴い、過去の計画から変更または中止となった項目についても掲載しております。）   あらかじめご了承ください。"
 msgstr ""
+"This roadmap is provided as reference information on current development plans and does not guarantee the implementation of specific features in future software updates.  \n"
+"The order of items listed does not necessarily indicate implementation priority, and items may be changed or discontinued without prior notice due to development circumstances or other factors.  \n"
+"(Accordingly, items that have been changed or discontinued from past plans are also listed.)  \n"
+"Please be aware of this in advance."
 
 #: ../../04_release-schedule/01_roadmap.md:14
 msgid "**今後の実装を予定している主な項目**"
-msgstr ""
+msgstr "**Key Items Planned for Future Implementation**"
 
 #: ../../04_release-schedule/01_roadmap.md:19
 msgid ""
@@ -45,34 +48,43 @@ msgid ""
 "GUIを使用せずに映像処理を実行できる、無人実行（アンアテンド）モードの提供を予定しています。    "
 "コマンドラインからの操作が可能となり、バッチ処理との連携など、一連のワークフローにおける自動化・効率化を支援いたします。"
 msgstr ""
+"CLI (Command Line Interface) improvements  \n"
+"We plan to provide an unattended mode that allows video processing to be executed without using the GUI.  \n"
+"Command line operation will be supported, enabling automation and efficiency in workflows such as batch processing integration."
 
 #: ../../04_release-schedule/01_roadmap.md:23
 msgid "**→ こちら 26.04.01バージョン にて実装されました。**"
-msgstr ""
+msgstr "**-> This has been implemented in version 26.04.01.**"
 
 #: ../../04_release-schedule/01_roadmap.md:28
 msgid "ポストプロセス機能     演技表現をより効果的に自動で誇張・調整するための複数のポストプロセス処理を現在開発中です。"
-msgstr ""
+msgstr "Post-processing features  \nMultiple post-processing functions are currently under development to automatically exaggerate and adjust performance expressions more effectively."
 
 #: ../../04_release-schedule/01_roadmap.md:33
 msgid "**継続的に推進する機能強化・改善事項**"
-msgstr ""
+msgstr "**Ongoing Feature Enhancements and Improvements**"
 
 #: ../../04_release-schedule/01_roadmap.md:38
 msgid ""
 "ランドマーク検出機能の改善   FCS独自開発の表情検出エンジンにつきましては、引き続き最優先の改善事項として取り組んでまいります。   "
 "特に、ヘッドマウントカメラ（HMC）によるクローズアップ映像において、より微細な表情の変化を正確に捉えられるよう、検出精度の向上を継続いたします。"
 msgstr ""
+"Landmark detection improvements  \n"
+"The facial expression detection engine developed in-house by FCS will continue to be addressed as a top-priority improvement.  \n"
+"In particular, we will continue to improve detection accuracy so that more subtle facial expression changes can be captured precisely in close-up footage from head-mounted cameras (HMC)."
 
 #: ../../04_release-schedule/01_roadmap.md:44
 msgid ""
 "処理の高速化     ソフトウェア全体の最適化を行い、解析から出力に至る一連の処理時間の短縮を図ります。     "
 "大規模なデータ処理や短納期が求められる制作現場において、より効率的なワークフローを提供できるよう、内部構造の改善を継続して行ってまいります。"
 msgstr ""
+"Processing speed improvements  \n"
+"We will optimize the overall software to reduce processing time from analysis to output.  \n"
+"We will continue to improve the internal architecture to provide more efficient workflows in production environments that require large-scale data processing and short turnaround times."
 
 #: ../../04_release-schedule/01_roadmap.md:50
 msgid "**諸般の事情により開発を断念・中止した項目**"
-msgstr ""
+msgstr "**Items Discontinued Due to Various Circumstances**"
 
 #: ../../04_release-schedule/01_roadmap.md:55
 msgid ""
@@ -80,36 +92,46 @@ msgid ""
 "本機能につきましては、FCSへの標準搭載を見送ることといたしました。   "
 "今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。個別対応のご相談につきましてはお問い合わせください。"
 msgstr ""
+"Real-time video generation: Development of a real-time animation analysis and output program  \n"
+"We have decided not to include this feature as a standard part of FCS.  \n"
+"Going forward, we will focus on optimization tailored to individual project requirements and are considering case-by-case support. Please contact us for inquiries about custom solutions."
 
 #: ../../04_release-schedule/01_roadmap.md:61
 msgid ""
 "サンプルエンジンコードの作成(Unity, Unreal Engine, Motion Builder)   "
 "リアルタイム機能向けの上記エンジンを対象としたサンプルコードの提供計画は、リアルタイム機能と合わせて中止となりました。"
 msgstr ""
+"Sample engine code development (Unity, Unreal Engine, Motion Builder)  \n"
+"The plan to provide sample code for the above engines intended for real-time features has been discontinued along with the real-time feature."
 
 #: ../../04_release-schedule/01_roadmap.md:66
 msgid "自動リターゲット機能の搭載   任意のリグに対し自動的に大まかなリターゲットを行う機能の実装についても中止となりました。"
-msgstr ""
+msgstr "Automatic retargeting feature  \nThe implementation of a feature to automatically perform rough retargeting to arbitrary rigs has also been discontinued."
 
 #: ../../04_release-schedule/01_roadmap.md:71
 msgid ""
 "Unreal Engineによるリターゲットへの対応   現在Mayaにて提供している各種機能をUnreal "
 "Engine上でも同等に提供する計画につきましても開発を中止いたしました。"
 msgstr ""
+"Unreal Engine retargeting support  \n"
+"Development of the plan to provide the same features currently available in Maya within Unreal Engine has also been discontinued."
 
 #: ../../04_release-schedule/01_roadmap.md:76
 msgid ""
 "FCSは、お客様の実際の制作現場により深く貢献できるツールを目指し、皆様からの追加機能のリクエストを随時お待ちしております。   "
 "また、標準的な機能提供に留まらず、貴社固有の制作パイプラインやワークフローに最適化したビルドのカスタマイズ対応も可能[^1]です。"
 msgstr ""
+"FCS aims to be a tool that contributes more deeply to your actual production environment, and we welcome feature requests from our users at any time.  \n"
+"In addition to providing standard features, we can also customize builds optimized for your specific production pipeline and workflow[^1]."
 
 #: ../../04_release-schedule/01_roadmap.md:81
 msgid ""
 "製品に関するご質問やご要望、あるいは導入にあたっての技術的な課題などがございましたら、[HELTECホームページ](https://sensing.heltec.co.jp/product"
 "/zukun-lab/fcs/)よりお気軽にご相談ください。"
 msgstr ""
+"If you have any questions, requests, or technical concerns regarding the product or its implementation, please feel free to contact us via the [HELTEC website](https://sensing.heltec.co.jp/product"
+"/zukun-lab/fcs/)."
 
 #: ../../04_release-schedule/01_roadmap.md:83
 msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。"
-msgstr ""
-
+msgstr "Certain conditions such as purchasing a minimum number of licenses may apply, and additional fees may be incurred."

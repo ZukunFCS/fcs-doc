@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,19 +20,20 @@ msgstr ""
 
 #: ../../04_release-schedule/index.md:1
 msgid "開発ロードマップ"
-msgstr ""
+msgstr "Development Roadmap"
 
 #: ../../04_release-schedule/index.md:3
 msgid "FCSは継続開発中のソフトです。   ロードマップの一部とリリースについては下記に記載しております。"
-msgstr ""
+msgstr "FCS is software under continuous development.  \nA portion of the roadmap and release information is provided below."
 
 #: ../../04_release-schedule/index.md:8
 msgid "[**01. 開発ロードマップ**](01_roadmap)   今後の機能追加計画やアップデートの予定について確認できます。"
-msgstr ""
+msgstr "[**01. Development Roadmap**](01_roadmap)  \nView planned feature additions and upcoming updates."
 
 #: ../../04_release-schedule/index.md:11
 msgid ""
 "[**02. リリーススケジュール＆アップグレード**](02_release-schedule)   "
 "FCSのリリーススケジュールとアップグレード方法について確認できます。"
 msgstr ""
-
+"[**02. Release Schedule & Upgrades**](02_release-schedule)  \n"
+"View the FCS release schedule and upgrade procedures."

@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,5 +20,4 @@ msgstr ""
 
 #: ../../08_advanced_doc_link.rst:2
 msgid "テクニカルマニュアル(external)"
-msgstr ""
-
+msgstr "Technical Manual (external)"

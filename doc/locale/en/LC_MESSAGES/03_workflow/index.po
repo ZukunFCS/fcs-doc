@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,41 +20,40 @@ msgstr ""
 
 #: ../../03_workflow/index.md:1
 msgid "作業フロー"
-msgstr ""
+msgstr "Workflow"
 
 #: ../../03_workflow/index.md:3
 msgid "FCSを使用したアニメーション制作の全体的な流れを説明します。"
-msgstr ""
+msgstr "This section explains the overall workflow for animation production using FCS."
 
 #: ../../03_workflow/index.md:7
 msgid "[**FCS起動**](01_launch-FCS)   アプリケーションの立ち上げ方法について説明します。"
-msgstr ""
+msgstr "[**Launch FCS**](01_launch-FCS)  \nExplains how to start the application."
 
 #: ../../03_workflow/index.md:11
 msgid "[**Sessionの作成・読み込み**](02_create-or-open-session)   セッションの新規作成と保存の手順です。"
-msgstr ""
+msgstr "[**Create or Open a Session**](02_create-or-open-session)  \nProcedures for creating a new Session and saving it."
 
 #: ../../03_workflow/index.md:15
 msgid "[**Mayaの起動**](03_launch-maya)   MayaとFCSプラグインを連携させる設定を行います。"
-msgstr ""
+msgstr "[**Launch Maya**](03_launch-maya)  \nConfigure the connection between Maya and the FCS plugin."
 
 #: ../../03_workflow/index.md:19
 msgid "[**Controller登録**](04_register-controller)   HMC動画と各種コントローラーの紐付け方法です。"
-msgstr ""
+msgstr "[**Register Controllers**](04_register-controller)  \nHow to link HMC video to various controllers."
 
 #: ../../03_workflow/index.md:23
 msgid "[**Profile作成**](05_create-profile)   キャラクター設定（プロファイル）の構築手順です。"
-msgstr ""
+msgstr "[**Create a Profile**](05_create-profile)  \nProcedures for building character settings (Profiles)."
 
 #: ../../03_workflow/index.md:27
 msgid "[**出力**](06_export-animation)   最終的なアニメーションデータの書き出しを行います。"
-msgstr ""
+msgstr "[**Output**](06_export-animation)  \nExport the final animation data."
 
 #: ../../03_workflow/index.md:31
 msgid "[**Sessionのエクスポート**](08_export)   作成したSessionデータを外部へ出力する方法です。"
-msgstr ""
+msgstr "[**Export Session**](08_export)  \nHow to export the created Session data externally."
 
 #: ../../03_workflow/index.md:37
 msgid "FCSで使用するファイルやフォルダ名は全て半角英数字にしてください。"
-msgstr ""
-
+msgstr "All file and folder names used with FCS must consist of alphanumeric characters only."

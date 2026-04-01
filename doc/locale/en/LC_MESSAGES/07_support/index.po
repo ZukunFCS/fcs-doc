@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,65 +20,64 @@ msgstr ""
 
 #: ../../07_support/index.md:1
 msgid "ヘルプとサポート"
-msgstr ""
+msgstr "Help and Support"
 
 #: ../../07_support/index.md:3
 msgid "FCSの使用方法で困ったときは、「ユーザーガイド」をご確認ください。 よくある質問や機能説明・便利なTipsをまとめております。"
-msgstr ""
+msgstr "If you need help using FCS, please refer to the User Guide. It includes frequently asked questions, feature descriptions, and useful tips."
 
 #: ../../07_support/index.md:8
 msgid "**1. ユーザーガイドを確認する**"
-msgstr ""
+msgstr "**1. Check the User Guide**"
 
 #: ../../07_support/index.md:11
 msgid "[ユーザーガイド一覧](../06_glossary/index)"
-msgstr ""
+msgstr "[User Guide Index](../06_glossary/index)"
 
 #: ../../07_support/index.md:13
 msgid "[よくある質問 (FAQ)](../06_glossary/04_faq/index)"
-msgstr ""
+msgstr "[Frequently Asked Questions (FAQ)](../06_glossary/04_faq/index)"
 
 #: ../../07_support/index.md:17
 msgid "**2. お問い合わせ**"
-msgstr ""
+msgstr "**2. Contact Us**"
 
 #: ../../07_support/index.md:20
 msgid "ガイドを確認しても解決しない場合は、以下のリンクよりお問い合わせください。"
-msgstr ""
+msgstr "If the issue is not resolved after checking the guide, please contact us via the link below."
 
 #: ../../07_support/index.md:21
 msgid "[HELTEC ホームページ（お問い合わせ窓口）](https://sensing.heltec.co.jp/contact/)"
-msgstr ""
+msgstr "[HELTEC Website (Contact)](https://sensing.heltec.co.jp/contact/)"
 
 #: ../../07_support/index.md:24
 msgid "**お問い合わせの際のお願い**"
-msgstr ""
+msgstr "**Request When Contacting Us**"
 
 #: ../../07_support/index.md:26
 msgid "スムーズな調査のため、以下の情報を可能な範囲で添えてください。"
-msgstr ""
+msgstr "For a smooth investigation, please provide the following information as much as possible."
 
 #: ../../07_support/index.md:28
 msgid "**使用されたFCSライセンスキー**"
-msgstr ""
+msgstr "**Your FCS license key**"
 
 #: ../../07_support/index.md:29
 msgid "**[エクスポート](../03_workflow/08_export)されたFCSフォルダー**"
-msgstr ""
+msgstr "**[Exported](../03_workflow/08_export) FCS folder**"
 
 #: ../../07_support/index.md:30
 msgid "**（できれば）Mayaのシーンデータ**"
-msgstr ""
+msgstr "**(If possible) Maya scene data**"
 
 #: ../../07_support/index.md:35
 msgid "**3. FCSから報告する**"
-msgstr ""
+msgstr "**3. Report from FCS**"
 
 #: ../../07_support/index.md:38
 msgid "※この機能は**FCS26.04.01**以降のVersionで使用可能です。"
-msgstr ""
+msgstr "*This feature is available in **FCS26.04.01** and later versions."
 
 #: ../../07_support/index.md:40
 msgid "FCSが使用中にクラッシュまたはエラーが発生した場合、表示されるUIから報告が可能です。"
-msgstr ""
-
+msgstr "If FCS crashes or an error occurs during use, you can submit a report from the displayed UI."

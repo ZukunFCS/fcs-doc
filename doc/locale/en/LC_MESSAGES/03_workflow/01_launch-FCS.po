@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,31 +20,36 @@ msgstr ""
 
 #: ../../03_workflow/01_launch-FCS.md:1
 msgid "FCS起動"
-msgstr ""
+msgstr "Launch FCS"
 
 #: ../../03_workflow/01_launch-FCS.md:3
 msgid ""
 "こちらはFCSがインストールされてからの手順です。   まだFCSのインストールが完了していない場合は、[FCSのインストール"
 "](../02_getting-started/02_install)ページをご覧ください。"
 msgstr ""
+"These are the steps to follow after FCS has been installed.  \n"
+"If you have not yet completed the FCS installation, please refer to the [Install FCS"
+"](../02_getting-started/02_install) page."
 
 #: ../../03_workflow/01_launch-FCS.md:7
 msgid ""
 "初回起動時、PC環境によってセキュリティソフトでブロックされることがあります。   "
 "その際には、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
 msgstr ""
+"On the first launch, the application may be blocked by security software depending on your PC environment.  \n"
+"In that case, please contact us via the [HELTEC website](https://sensing.heltec.co.jp/contact/)."
 
 #: ../../03_workflow/01_launch-FCS.md:13
 msgid "**ライセンスの入力**"
-msgstr ""
+msgstr "**Entering the License**"
 
 #: ../../03_workflow/01_launch-FCS.md:16
 msgid "FCS初回起動時ライセンスキーの入力を求められます。"
-msgstr ""
+msgstr "When launching FCS for the first time, you will be prompted to enter a license key."
 
 #: ../../03_workflow/01_launch-FCS.md:18
 msgid "【New License】にライセンスキーを入力し、【Update】を押します。    ライセンス認証完了後FCSを操作できるようになります。"
-msgstr ""
+msgstr "Enter the license key in [New License] and press [Update].  \nAfter the license authentication is complete, you will be able to use FCS."
 
 #: ../../03_workflow/01_launch-FCS.md:25
 msgid "<br><br>"
@@ -53,17 +57,20 @@ msgstr ""
 
 #: ../../03_workflow/01_launch-FCS.md:27
 msgid "**ライセンスの更新**"
-msgstr ""
+msgstr "**Renewing the License**"
 
 #: ../../03_workflow/01_launch-FCS.md:30
 msgid ""
 "FCSを起動後、ライセンスの期限切れだった場合にはLicenseInfoがポップします。 新しいライセンスキーを【New "
 "License】に入力し、【Update】を押します。"
 msgstr ""
+"After launching FCS, if the license has expired, the LicenseInfo dialog will pop up. "
+"Enter the new license key in [New License] and press [Update]."
 
 #: ../../03_workflow/01_launch-FCS.md:40
 msgid ""
 "Updateを押しても正常に動作しない場合があります。    "
 "その際には、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
 msgstr ""
-
+"Pressing Update may not work correctly in some cases.  \n"
+"In that case, please contact us via the [HELTEC website](https://sensing.heltec.co.jp/contact/)."

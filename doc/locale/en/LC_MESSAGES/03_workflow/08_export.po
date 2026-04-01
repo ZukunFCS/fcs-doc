@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,39 +20,39 @@ msgstr ""
 
 #: ../../03_workflow/08_export.md:1
 msgid "エクスポート"
-msgstr ""
+msgstr "Export"
 
 #: ../../03_workflow/08_export.md:3
 msgid "FCSでは作業したセッションを出力することができます。"
-msgstr ""
+msgstr "In FCS, you can export the Sessions you have worked on."
 
 #: ../../03_workflow/08_export.md:5
 msgid "主に以下の際にご活用いただけます。"
-msgstr ""
+msgstr "This is primarily useful in the following cases."
 
 #: ../../03_workflow/08_export.md:7
 msgid "FCSのセッションのアーカイブ化やプロジェクトフォルダの移動時などに、   キャッシュなどの共有に必要ないデータを除いて手早く共有する"
-msgstr ""
+msgstr "Quickly share data when archiving FCS Sessions or moving project folders,  \nexcluding unnecessary data such as caches"
 
 #: ../../03_workflow/08_export.md:9
 msgid "同じアクターのProfileから、別のキャラクターの表情を制作する"
-msgstr ""
+msgstr "Create facial expressions for a different character from the same actor's Profiles"
 
 #: ../../03_workflow/08_export.md:10
 msgid "同じキャラクターの表情を、別アクターで制作する"
-msgstr ""
+msgstr "Create the same character's expressions with a different actor"
 
 #: ../../03_workflow/08_export.md:13
 msgid "**エクスポート手順**"
-msgstr ""
+msgstr "**Export procedure**"
 
 #: ../../03_workflow/08_export.md:16
 msgid "出力したいセッションをロード"
-msgstr ""
+msgstr "Load the Session you want to export"
 
 #: ../../03_workflow/08_export.md:20
 msgid "File/SessionからExportを選択"
-msgstr ""
+msgstr "Select Export from File/Session"
 
 #: ../../03_workflow/08_export.md:27
 msgid "<br><br>"
@@ -61,51 +60,59 @@ msgstr ""
 
 #: ../../03_workflow/08_export.md:29
 msgid "出力先をプロジェクトフォルダーとして指定"
-msgstr ""
+msgstr "Specify the destination as the project folder"
 
 #: ../../03_workflow/08_export.md:42
 msgid "①Project Folder：出力先を指定"
-msgstr ""
+msgstr "1\. Project Folder: Specify the output destination"
 
 #: ../../03_workflow/08_export.md:44
 msgid "②Actor：アクター名を指定　　※アーカイブ化の場合はそのままでも問題ありません"
-msgstr ""
+msgstr "2\. Actor: Specify the actor name -- *For archiving, you can leave it as is"
 
 #: ../../03_workflow/08_export.md:46
 msgid "③Character：キャラクター名を指定　　※アーカイブ化の場合はそのままでも問題ありません"
-msgstr ""
+msgstr "3\. Character: Specify the character name -- *For archiving, you can leave it as is"
 
 #: ../../03_workflow/08_export.md:48
 msgid "④Profile：現在のセッションのプロファイルを出力するかどうかを指定"
-msgstr ""
+msgstr "4\. Profile: Specify whether to export the current session's Profiles"
 
 #: ../../03_workflow/08_export.md:50
 msgid ""
 "⑤Videos：出力先にビデオデータをコピーするかを指定   　・ No video：動画データをコピーしない   　・ Associated "
 "video：関連する動画のみコピー   　・ All files：Recdata内のすべての動画データをコピー"
 msgstr ""
+"5\. Videos: Specify whether to copy video data to the destination  \n"
+"No video: Do not copy video data  \n"
+"Associated video: Copy only associated videos  \n"
+"All files: Copy all video data in Recdata"
 
 #: ../../03_workflow/08_export.md:55
 msgid "⑥Facial/Assets Folder：出力先にFacial/Assetsのフォルダーをコピーするかを指定"
-msgstr ""
+msgstr "6\. Facial/Assets Folder: Specify whether to copy the Facial/Assets folder to the destination"
 
 #: ../../03_workflow/08_export.md:60
 msgid ""
 "Project Folderの項目ではエクスポート先のプロジェクトフォルダのパスを指定します。   "
 "このとき、プロジェクトフォルダ以下のフォルダ構造が存在しない場合は新しくフォルダが   作成される仕様となっています。"
 msgstr ""
+"In the Project Folder field, specify the path of the destination project folder.  \n"
+"If the folder structure below the project folder does not exist,  \n"
+"new folders will be created automatically."
 
 #: ../../03_workflow/08_export.md:64
 msgid ""
 "E:\\test\\FCS\\testActor\\testCharacterと同じ階層にtestCharacter2をエクスポートしたい場合、 "
 "以下のように出力先を指定してください。"
 msgstr ""
+"If you want to export testCharacter2 at the same level as E:\\test\\FCS\\testActor\\testCharacter, "
+"specify the destination as follows."
 
 #: ../../03_workflow/08_export.md:67
 msgid "Project Folder：E:\\test Character：testCharacter2"
-msgstr ""
+msgstr "Project Folder: E:\\test Character: testCharacter2"
 
 #: ../../03_workflow/08_export.md:76
 msgid "Exportボタンを押して出力"
-msgstr ""
-
+msgstr "Press the Export button to output"

@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,35 +20,39 @@ msgstr ""
 
 #: ../../03_workflow/03_launch-maya.md:1
 msgid "Mayaの起動"
-msgstr ""
+msgstr "Launch Maya"
 
 #: ../../03_workflow/03_launch-maya.md:4
 msgid "FCSとMayaを接続するためには、必ずFCSのメニューからMayaを起動する必要があります。"
-msgstr ""
+msgstr "To connect FCS and Maya, you must always launch Maya from the FCS menu."
 
 #: ../../03_workflow/03_launch-maya.md:7
 msgid "**Mayaを起動する**"
-msgstr ""
+msgstr "**Launching Maya**"
 
 #: ../../03_workflow/03_launch-maya.md:10
 msgid ""
 "【Maya】→【Launch】→【MayaのVersion】からMayaを起動することでSession作成時に登録したMaya "
 "sceneを開きます。   　　例：今回キャラクターデータを作成したMayaのバージョンはMaya2020なので2020を選択しています。"
 msgstr ""
+"Launch Maya from [Maya] -> [Launch] -> [Maya Version] to open the Maya scene registered during Session creation.  \n"
+"Example: In this case, we selected 2020 because the Maya version used to create the character data was Maya2020."
 
 #: ../../03_workflow/03_launch-maya.md:22
 msgid "Open Sceneをクリックすると、設定したMaya Sceneを開き直すことができます"
-msgstr ""
+msgstr "Clicking Open Scene allows you to reopen the configured Maya Scene"
 
 #: ../../03_workflow/03_launch-maya.md:23
 msgid "Launchをクリックすると、session作成時に設定したMaya Sceneが自動で起動します"
-msgstr ""
+msgstr "Clicking Launch will automatically open the Maya Scene configured during session creation"
 
 #: ../../03_workflow/03_launch-maya.md:26
 msgid ""
 "Mayaバージョンの誤クリックを防ぐため、Session作成時に設定したMaya "
 "Version以外はクリックできないように、ブラックアウトしています。"
 msgstr ""
+"To prevent accidental clicks on the wrong Maya version, versions other than the Maya "
+"Version set during Session creation are blacked out and cannot be clicked."
 
 #: ../../03_workflow/03_launch-maya.md:29
 #: ../../03_workflow/03_launch-maya.md:40
@@ -59,23 +62,24 @@ msgstr ""
 
 #: ../../03_workflow/03_launch-maya.md:31
 msgid "**Launchで指定したMayaバージョンが開けない場合**"
-msgstr ""
+msgstr "**If the Maya version specified in Launch cannot be opened**"
 
 #: ../../03_workflow/03_launch-maya.md:34
 msgid "session作成時に設定した項目は File&rarr;Session&rarr;info で確認することができます。"
-msgstr ""
+msgstr "The settings configured during session creation can be checked via File &rarr; Session &rarr; info."
 
 #: ../../03_workflow/03_launch-maya.md:42
 msgid ""
 "New Sessionで設定したMaya Verがinfoで反映されていない場合は、info画面のMaya "
 "Versionを右クリックし、Editから変更ができます。"
 msgstr ""
+"If the Maya Ver set in New Session is not reflected in the info, right-click Maya "
+"Version on the info screen and change it from Edit."
 
 #: ../../03_workflow/03_launch-maya.md:50
 msgid "プルダウンからMaya Versionを設定してください。"
-msgstr ""
+msgstr "Set the Maya Version from the pull-down menu."
 
 #: ../../03_workflow/03_launch-maya.md:59
 msgid "設定の変更後は必ずSaveボタンを押してください"
-msgstr ""
-
+msgstr "Be sure to press the Save button after changing settings"

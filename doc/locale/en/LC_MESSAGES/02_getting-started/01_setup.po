@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,91 +20,93 @@ msgstr ""
 
 #: ../../02_getting-started/01_setup.md:1
 msgid "事前準備"
-msgstr ""
+msgstr "Prerequisites"
 
 #: ../../02_getting-started/01_setup.md:3
 msgid "FCSは、以下スペックのPCで利用することができます。"
-msgstr ""
+msgstr "FCS can be used on a PC with the following specifications."
 
 #: ../../02_getting-started/01_setup.md
 msgid "必要スペック"
-msgstr ""
+msgstr "Minimum Specs"
 
 #: ../../02_getting-started/01_setup.md
 msgid "推奨スペック"
-msgstr ""
+msgstr "Recommended Specs"
 
 #: ../../02_getting-started/01_setup.md
 msgid "CPU"
-msgstr ""
+msgstr "CPU"
 
 #: ../../02_getting-started/01_setup.md
 msgid "Intel Core i5-9400F"
-msgstr ""
+msgstr "Intel Core i5-9400F"
 
 #: ../../02_getting-started/01_setup.md
 msgid "Intel Core i7-13700K"
-msgstr ""
+msgstr "Intel Core i7-13700K"
 
 #: ../../02_getting-started/01_setup.md
 msgid "GPU"
-msgstr ""
+msgstr "GPU"
 
 #: ../../02_getting-started/01_setup.md
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: ../../02_getting-started/01_setup.md
 msgid "Nvidia RTX 3080"
-msgstr ""
+msgstr "Nvidia RTX 3080"
 
 #: ../../02_getting-started/01_setup.md
 msgid "メモリー"
-msgstr ""
+msgstr "Memory"
 
 #: ../../02_getting-started/01_setup.md
 msgid "DDR4 16GB+"
-msgstr ""
+msgstr "DDR4 16GB+"
 
 #: ../../02_getting-started/01_setup.md
 msgid "DDR5 64GB+"
-msgstr ""
+msgstr "DDR5 64GB+"
 
 #: ../../02_getting-started/01_setup.md:11
 msgid "**事前インストール**"
-msgstr ""
+msgstr "**Pre-installation**"
 
 #: ../../02_getting-started/01_setup.md:14
 msgid "必須"
-msgstr ""
+msgstr "Required"
 
 #: ../../02_getting-started/01_setup.md:15
 msgid "Maya (対応バージョン　2018, 2020, 2022, 2023, 2024)"
-msgstr ""
+msgstr "Maya (supported versions: 2018, 2020, 2022, 2023, 2024)"
 
 #: ../../02_getting-started/01_setup.md:17
 msgid "推奨"
-msgstr ""
+msgstr "Recommended"
 
 #: ../../02_getting-started/01_setup.md:18
 msgid "Nvidia　CUDA/CuDNN"
-msgstr ""
+msgstr "Nvidia CUDA/CuDNN"
 
 #: ../../02_getting-started/01_setup.md:20
 msgid "**ライセンス**"
-msgstr ""
+msgstr "**License**"
 
 #: ../../02_getting-started/01_setup.md:23
 msgid ""
 "FCSを使用するためには、ライセンスキーが必要です。   また、一ヶ月無料のトライアルライセンスもご用意がございます。   "
 "[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
 msgstr ""
+"A license key is required to use FCS.  \n"
+"A free one-month trial license is also available.  \n"
+"Please contact us via the [HELTEC website](https://sensing.heltec.co.jp/contact/)."
 
 #: ../../02_getting-started/01_setup.md:27
 msgid "**ダウンロード**"
-msgstr ""
+msgstr "**Download**"
 
 #: ../../02_getting-started/01_setup.md:30
 msgid "インストーラーは[こちら](https://github.com/ZukunFCS/fcs-doc/releases)からダウンロードできます。"
-msgstr ""
-
+msgstr "The installer can be downloaded from [here](https://github.com/ZukunFCS/fcs-doc/releases)."

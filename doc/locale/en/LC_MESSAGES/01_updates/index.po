@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the FCS Docs package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
@@ -21,45 +20,47 @@ msgstr ""
 
 #: ../../01_updates/index.md:1
 msgid "リリースノート"
-msgstr ""
+msgstr "Release Notes"
 
 #: ../../01_updates/index.md:3
 msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
-msgstr ""
+msgstr "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
 
 #: ../../01_updates/index.md:5
 msgid "FCS 26.04.01"
-msgstr ""
+msgstr "FCS 26.04.01"
 
 #: ../../01_updates/index.md:6
 msgid "日付: 2026/04/01"
-msgstr ""
+msgstr "Date: 2026/04/01"
 
 #: ../../01_updates/index.md:7
 msgid "バージョン: 26.04.01"
-msgstr ""
+msgstr "Version: 26.04.01"
 
 #: ../../01_updates/index.md:8
 msgid "ステージ: Stable"
-msgstr ""
+msgstr "Stage: Stable"
 
 #: ../../01_updates/index.md:10
 msgid "26.04はこれまでで最大のリリースです。 FCSをより活用していただけるよう、多くの機能追加と改善を行いました。"
-msgstr ""
+msgstr "26.04 is the largest release to date. We have added many new features and improvements to help you get more out of FCS."
 
 #: ../../01_updates/index.md:13
 msgid "**文章未確認**"
-msgstr ""
+msgstr "**Text unverified**"
 
 #: ../../01_updates/index.md:15
 msgid "追加 / 新機能"
-msgstr ""
+msgstr "Additions / New Features"
 
 #: ../../01_updates/index.md:16
 msgid ""
 "CLI対応（スクリプトランナー + スキーマ）およびサンプルスクリプト・テストスクリプトの追加 "
 "([Docs](https://zukunfcs.github.io/fcs-doc-advanced/26.04/jp/index.html))"
 msgstr ""
+"CLI support (script runner + schema) and addition of sample/test scripts "
+"([Docs](https://zukunfcs.github.io/fcs-doc-advanced/26.04/jp/index.html))"
 
 #: ../../01_updates/index.md:18
 msgid ""
@@ -68,20 +69,26 @@ msgid ""
 "CLIツールはFCSにバンドルされており、すべてのFCSユーザーが追加費用なしでご利用いただけます。   "
 "CLIツールの包括的なドキュメントを提供しておりますので、ワークフローへの統合にお困りの際はお気軽にお問い合わせください。"
 msgstr ""
+"A CLI tool has been added for users who want to integrate FCS into their in-house workflows and tools, allowing FCS to be operated from scripts.  \n"
+"You can process videos, upload animations, and more from scripts without launching the UI.  \n"
+"The CLI tool is bundled with FCS and is available to all FCS users at no additional cost.  \n"
+"Comprehensive documentation for the CLI tool is provided, so please feel free to contact us if you need help integrating it into your workflow."
 
 #: ../../01_updates/index.md:23
 msgid "ギャラリー読み込みの最適化（サムネイル対応）"
-msgstr ""
+msgstr "Gallery loading optimization (thumbnail support)"
 
 #: ../../01_updates/index.md:25
 msgid ""
 "プロファイル画像がオリジナル画像とともにサムネイルとして保存されるようになり、特に大規模なセッションでの起動が大幅に高速化されました。   "
 "前バージョンと比較して約2倍の速度で起動します。"
 msgstr ""
+"Profile images are now saved as thumbnails alongside the original images, significantly speeding up startup especially for large sessions.  \n"
+"Startup is approximately 2x faster compared to the previous version."
 
 #: ../../01_updates/index.md:28
 msgid "インタラクティブUIドキュメント（実験的機能）"
-msgstr ""
+msgstr "Interactive UI documentation (experimental feature)"
 
 #: ../../01_updates/index.md:30
 msgid ""
@@ -89,10 +96,13 @@ msgid ""
 "[こちら](https://notebooklm.google.com/notebook/8b421e67-37ac-4d0f-"
 "9bd1-35eaeb3f6478)からアクセスできます。"
 msgstr ""
+"An experimental UI document powered by NotebookLM has been added.  \n"
+"You can ask questions about FCS windows and workflows.  \n"
+"Access it [here](https://notebooklm.google.com/notebook/8b421e67-37ac-4d0f-9bd1-35eaeb3f6478)."
 
 #: ../../01_updates/index.md:34
 msgid "新パイプライン"
-msgstr ""
+msgstr "New Pipelines"
 
 #: ../../01_updates/index.md:36
 msgid ""
@@ -102,88 +112,103 @@ msgid ""
 "新パイプラインと評価方法の詳細については、[こちら](https://zukunfcs.github.io/fcs-doc-"
 "advanced/26.04/en/experiments/003_pipeline_comparison_quantitative.html)をご覧ください。"
 msgstr ""
+"Significantly improved the stability and accuracy of tracking algorithms.  \n"
+"The new pipelines (Rich++, RP++, Robust++) retain their respective characteristics while offering improved overall performance and accuracy.  \n"
+"Internal benchmarking of the new pipelines against previous versions confirmed significant performance improvements.  \n"
+"For details on the new pipelines and evaluation methods, see [here](https://zukunfcs.github.io/fcs-doc-advanced/26.04/en/experiments/003_pipeline_comparison_quantitative.html)."
 
 #: ../../01_updates/index.md:41
 msgid ""
 "[ビジュアル分析ツール](https://zukunfcs.github.io/fcs-doc-"
 "advanced/26.04/en/experiments/004_qualitative_analysis.html)"
 msgstr ""
+"[Visual Analysis Tool](https://zukunfcs.github.io/fcs-doc-"
+"advanced/26.04/en/experiments/004_qualitative_analysis.html)"
 
 #: ../../01_updates/index.md:43
 msgid ""
 "さまざまなシナリオにおけるトラッキング結果を素早く把握できる新しいドキュメントを追加しました。   "
 "FCSがプロジェクトに適しているかどうか、また求める品質を達成するためにどの程度の時間が必要かを素早く判断するのに役立ちます。"
 msgstr ""
+"A new document has been added that allows you to quickly review tracking results across various scenarios.  \n"
+"It helps you quickly determine whether FCS is suitable for your project and how much time is needed to achieve your desired quality."
 
 #: ../../01_updates/index.md:46
 msgid "変更 / 改善"
-msgstr ""
+msgstr "Changes / Improvements"
 
 #: ../../01_updates/index.md:47
 msgid "UIの刷新および安定性向上"
-msgstr ""
+msgstr "UI overhaul and stability improvements"
 
 #: ../../01_updates/index.md:49
 msgid ""
 "UIを刷新し、安定性とパフォーマンスを大幅に改善しました。   "
 "メニューバーがステータスバーとしても機能するようになり、現在のセッション情報を表示します。"
 msgstr ""
+"The UI has been overhauled with significant improvements to stability and performance.  \n"
+"The menu bar now also functions as a status bar, displaying current session information."
 
 #: ../../01_updates/index.md:52
 msgid ""
 "LMフレームエクスポートは++ワークフローではサポートされておらず、非推奨となりました。   "
 "26.10で削除予定です。ワークフローに影響がある場合はお知らせください。"
 msgstr ""
+"LM frame export is not supported in the ++ workflow and has been deprecated.  \n"
+"It is scheduled for removal in 26.10. Please let us know if this affects your workflow."
 
 #: ../../01_updates/index.md:55
 msgid ""
 "FCSがクラッシュまたはエラーが発生した場合、UIのボタンをクリックするだけでエラーを報告できるようになりました。   "
 "この情報はFCSの改善と問題の迅速な修正に活用されます。"
 msgstr ""
+"When FCS crashes or encounters an error, you can now report it simply by clicking a button in the UI.  \n"
+"This information is used to improve FCS and quickly fix issues."
 
 #: ../../01_updates/index.md:58
 msgid "フルスクリーンモードは多くのユーザーに使用されていなかったため、削除されました。"
-msgstr ""
+msgstr "Fullscreen mode has been removed as it was not used by many users."
 
 #: ../../01_updates/index.md:60
 msgid "オンメモリファイルシステムは期待された高速化が得られなかったため、削除されました。"
-msgstr ""
+msgstr "The in-memory file system has been removed as it did not achieve the expected performance gains."
 
 #: ../../01_updates/index.md:62
 msgid "長時間実行されるMayaコマンド（シーンを開くなど）はUIをブロックせず、バックグラウンドで別途実行されるようになりました。"
-msgstr ""
+msgstr "Long-running Maya commands (such as opening scenes) no longer block the UI and are now executed separately in the background."
 
 #: ../../01_updates/index.md:64
 msgid ""
 "ログメッセージがUIの上部ではなく下部に表示されるようになりました。   "
 "クリックするとログウィンドウが表示され（左クリック）、メッセージがクリップボードにコピーされます（右クリック）。"
 msgstr ""
+"Log messages are now displayed at the bottom of the UI instead of the top.  \n"
+"Clicking opens the log window (left-click), and copies the message to the clipboard (right-click)."
 
 #: ../../01_updates/index.md:67
 msgid "修正"
-msgstr ""
+msgstr "Fixes"
 
 #: ../../01_updates/index.md:68
 msgid "ビデオプレーヤー: フレームインデックスが総フレーム数を超えないように修正"
-msgstr ""
+msgstr "Video player: Fixed frame index exceeding total frame count"
 
 #: ../../01_updates/index.md:70
 msgid "一部のエンコーディングにおいてフレームインデックスが総フレーム数を超え、プログラムがクラッシュする場合がありましたが、これを防ぐフェイルセーフを追加しました。"
-msgstr ""
+msgstr "A failsafe has been added to prevent cases where the frame index exceeded the total frame count with certain encodings, which could cause the program to crash."
 
 #: ../../01_updates/index.md:72
 msgid "ビデオプレーヤー: オーディオのポッピング音を修正"
-msgstr ""
+msgstr "Video player: Fixed audio popping noise"
 
 #: ../../01_updates/index.md:74
 msgid "FCSでオーディオを再生する際にポッピング音が発生する問題を修正しました。"
-msgstr ""
+msgstr "Fixed an issue where popping noise occurred when playing audio in FCS."
 
 #: ../../01_updates/index.md:76
 msgid "タイムライン / UIのサイズ調整の問題およびプロット / カーソル位置合わせの不具合を修正"
-msgstr ""
+msgstr "Fixed timeline / UI resizing issues and plot / cursor alignment bugs"
 
 #: ../../01_updates/index.md:78
 msgid "タイムラインウィンドウのリサイズが正しく行われない問題や、カーソルがタイムラインと正しく整列しない問題を修正しました。"
-msgstr ""
-
+msgstr "Fixed issues where the timeline window did not resize correctly and the cursor did not align properly with the timeline."
