@@ -1,0 +1,610 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T21:46:07+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profileの作成 &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5a3f213f"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="アニメーションの出力方法" href="06_export-animation.html" />
+    <link rel="prev" title="Contorollerの登録" href="04_register-controller.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">目次</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01_updates/index.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">FCSとは</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">作業フロー</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_launch-FCS.html">FCS起動</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_create-or-open-session.html">Sessionの作成・読み込み</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_launch-maya.html">Mayaの起動</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04_register-controller.html">Contorollerの登録</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Profileの作成</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_export-animation.html">アニメーションの出力方法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_export.html">エクスポート</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_glossary/index.html">ユーザーガイド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_support/index.html">ヘルプとサポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_release-schedule/index.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08_advanced_doc_link.html">fcs-doc-advanced ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09_interactive_doc_link.html">チャットマニュアル (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">作業フロー</a></li>
+      <li class="breadcrumb-item active">Profileの作成</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/03_workflow/05_create-profile.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="profile">
+<h1>Profileの作成<a class="headerlink" href="#profile" title="Link to this heading"></a></h1>
+<p>本ページではProfileの追加手順 ~ 編集手順について記載しています。<br />
+Mayaをベースに表情を調整するのか、FCSをベースに表情を調整するのかは任意で使い分けることができますが、<br />
+最初は「Both」での使用をオススメします。</p>
+<p class="rubric"><strong>解析動画のimport</strong></p>
+<p>Profileを作成する前にまず使用する動画をFCSに読み込みます。</p>
+<p>Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 40.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../_images/03_workflow_create_profile_windows_videos.jpg" /></p></td>
+<td><p>Window→Videosで<br />
+Videosウィンドウが開きます。</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Videosウィンドウについての説明は<a class="reference internal" href="../06_glossary/01_Menu/window.html"><span class="doc std std-doc">ユーザーガイド/Menu/Window/Videos</span></a>をご覧ください。</p>
+</div>
+<br>
+<p>1.【Import】を押すとウィンドウがポップアップされるので、</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_import.jpg"><img alt="../_images/03_workflow_create_profile_videos_import.jpg" src="../_images/03_workflow_create_profile_videos_import.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.解析したい動画をクリックします。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_open.jpg"><img alt="../_images/03_workflow_create_profile_videos_open.jpg" src="../_images/03_workflow_create_profile_videos_open.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Shift+クリックで複数同時にimportできます。</p>
+</div>
+<br>
+<p>3.【Select Video Rotate】ウィンドウが開くので、【Comfirm】を押します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_Rotate.jpg"><img alt="../_images/03_workflow_create_profile_videos_Rotate.jpg" src="../_images/03_workflow_create_profile_videos_Rotate.jpg" style="width: 30%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>import時に、左下の数字で動画を時計回りに回転させることができます。</p>
+</div>
+<p><br><br></p>
+<p>4.Videosウィンドウにimportした動画が表示されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_complete.jpg"><img alt="../_images/03_workflow_create_profile_videos_complete.jpg" src="../_images/03_workflow_create_profile_videos_complete.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>Profile（プロファイル）について</strong></p>
+<p>様々な表示のProfileを追加することで解析の精度が上がっていきます。<br />
+単純に数が多ければ良いわけではなく、似た表情のProfileに対し、コントローラーの数字が違ってしまった場合、ノイズになってしまうため注意が必要です。<br />
+また、<strong>解析する動画毎にProfileを1つ以上作成すること</strong>を推奨しています。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>解析する動画毎のProfileに加えて、ROM体操と呼ばれる約50個のProfileを作成することを推奨しています。<br />
+ROM体操の表情については、スターターキット同梱のPDFファイルをご参照ください。</p>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>読み込んだ動画をFCSで開く</strong></p>
+<p>開きたい動画ファイルの上で 右クリック→【Open】 もしくは ダブルクリック<br />
+VideoPlayer上に動画が表示されます。</p>
+<p>動画ファイル名の上で右クリック　→　【Open】</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_right_click_open.jpg"><img alt="../_images/03_workflow_create_profile_right_click_open.jpg" src="../_images/03_workflow_create_profile_right_click_open.jpg" style="width: 80%;" />
+</a>
+</figure>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_video_player.jpg"><img alt="../_images/03_workflow_create_profile_video_player.jpg" src="../_images/03_workflow_create_profile_video_player.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>Profileの追加方法</strong></p>
+<p>VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、<br />
+【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_profile_addition.jpg"><img alt="../_images/03_workflow_create_profile_profile_addition.jpg" src="../_images/03_workflow_create_profile_profile_addition.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="info admonition">
+<p class="admonition-title">プロファイルを追加した際の枠について</p>
+<ul class="simple">
+<li><p>赤：数値がデフォルト状態/未編集のProfile</p></li>
+<li><p>緑：「Neutral」に ☑ を入れて登録したProfile</p></li>
+<li><p>青：選択中（編集中）のprofile</p></li>
+<li><p>黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile</p></li>
+<li><p>白：リターゲット後、登録したprofile</p></li>
+</ul>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>Neutralの表情の登録</strong></p>
+<p>Neutral表情とは、アクターの表情筋に力が入っていないナチュラルな表情のことです。<br />
+セッション内で必ず一つNeutral表情を設定してください。</p>
+<ul class="simple">
+<li><p>Neutralに ☑</p></li>
+<li><p>任意の名前に変更</p></li>
+<li><p>Save</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_neutral_save.jpg"><img alt="../_images/03_workflow_create_profile_neutral_save.jpg" src="../_images/03_workflow_create_profile_neutral_save.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Profileの名前は必ずしも変更する必要はありません。</p>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>Mayaで表情を調整する場合</strong></p>
+<p>1.VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、<br />
+【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_gallery_addition.jpg"><img alt="../_images/03_workflow_create_profile_gallery_addition.jpg" src="../_images/03_workflow_create_profile_gallery_addition.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_image_confirm.jpg"><img alt="../_images/03_workflow_create_profile_image_confirm.jpg" src="../_images/03_workflow_create_profile_image_confirm.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>3.Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_maya_character_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_maya_character_adjustment.jpg" src="../_images/03_workflow_create_profile_maya_character_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>4.【From Maya】をクリックすると、Mayaでの調整情報がFCSに反映されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_from_maya.jpg"><img alt="../_images/03_workflow_create_profile_from_maya.jpg" src="../_images/03_workflow_create_profile_from_maya.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>【To Maya▼】のプルダウンで「From Maya at save」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>コントローラーの登録忘れがあった場合は再度開いたときに作成した表情と異なる場合があります。<br />
+その際は、再度登録し忘れたコントローラーを登録しプロファイルの再登録を行ってください。</p>
+</div>
+<br>
+<p>5.Nameを任意の名前に変更し、【Save】します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_image_name.jpg"><img alt="../_images/03_workflow_create_profile_image_name.jpg" src="../_images/03_workflow_create_profile_image_name.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>FCS上で表情を調整する場合</strong></p>
+<p>1.VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、<br />
+【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_gallery_addition.jpg"><img alt="../_images/03_workflow_create_profile_gallery_addition.jpg" src="../_images/03_workflow_create_profile_gallery_addition.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_image_confirm.jpg"><img alt="../_images/03_workflow_create_profile_image_confirm.jpg" src="../_images/03_workflow_create_profile_image_confirm.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>Syncが <strong>No Sync</strong> の場合はProfileの自動情報共有が行われないためMaya上は1つ前に登録した表情のままになっています。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_maya_sync.jpg"><img alt="../_images/03_workflow_create_profile_maya_sync.jpg" src="../_images/03_workflow_create_profile_maya_sync.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Syncを「Both」にした状態で開きなおすと デフォルトの表情になります。<br />
+既にしている場合はスキップ</p>
+</div>
+<br>
+<p>3.Editor上の【Controller】で、追加したアクターの表情と同じになるようにキャラクターの表情を調節してください。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_controller_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_controller_adjustment.jpg" src="../_images/03_workflow_create_profile_controller_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 40.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../_images/03_workflow_create_profile_filter.jpg" /></p></td>
+<td><p>▼Filterから文字入力<br />
+　またはRegionのクリックで<br />
+　コントローラーの表示を<br />
+　絞り込むことができます。</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br><br></p>
+<p>4.【To Maya】をクリックします。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_to_maya.jpg"><img alt="../_images/03_workflow_create_profile_to_maya.jpg" src="../_images/03_workflow_create_profile_to_maya.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Syncのプルダウンで「To Maya」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。</p>
+</div>
+<br>
+<p>5.FCSで調整した内容がMayaに反映されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_maya_character_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_maya_character_adjustment.jpg" src="../_images/03_workflow_create_profile_maya_character_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>Profile タグ機能</strong></p>
+<p>Profile作成時にProfileに「タグ」を付けることができます。<br />
+本機能は、Galleryに登録されたProfileを効率的に管理し、解析に使用する表情をスムーズに切り替えるための機能です。</p>
+<p>1.Editorウィンドウの【▶Tags】を開き、テキストボックスにタグの名前を入力してください。<br />
+【＋】を押すとタグが追加されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_add.jpg"><img alt="../_images/03_workflow_create_profile_tag_add.jpg" src="../_images/03_workflow_create_profile_tag_add.jpg" style="width: 60%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.Galleryウィンドウの ☑ Advanced にチェックを入れると下記項目が表示されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_advanced.jpg"><img alt="../_images/03_workflow_create_profile_advanced.jpg" src="../_images/03_workflow_create_profile_advanced.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>▶ Filter：表示するProfileの絞り込みを設定します。<br />
+▶ sort：Profileの表示順を変更します。<br />
+▶ Batch Edit：表示されているProfileを処理に使用するかなどを設定します。<br />
+▶ Misc：Galleryの表示などその他設定を変更できます。</p>
+<p>詳しくは<a class="reference internal" href="../06_glossary/01_Menu/window.html"><span class="doc std std-doc">ユーザーガイド/Menu/Window/Profile/Gallery</span></a>をご確認ください。</p>
+</div>
+<br>
+<p>3.▶ Filter → Tagの入力欄から作成したタグを選択すると、タグを付けたProfileのみがGalleryに表示されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_Filter.jpg"><img alt="../_images/03_workflow_create_profile_tag_Filter.jpg" src="../_images/03_workflow_create_profile_tag_Filter.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p><strong>使用例</strong></p>
+<p>Batch EditでGalleryに現在表示されているものに対して、「一括で使用・不使用（ON/OFF）」を切り替えることができます。</p>
+<p>1.Propertyでどの項目に対して使用・不使用（ON/OFF）を一括設定するか選択します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_BatchEdit_01.jpg"><img alt="../_images/03_workflow_create_profile_tag_BatchEdit_01.jpg" src="../_images/03_workflow_create_profile_tag_BatchEdit_01.jpg" style="width: 50%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.使用（有効）する場合は ☑ チェックを入れ、不使用（無効）にする場合は □ チェックを外し、【Apply】を押します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_BatchEdit_02.jpg"><img alt="../_images/03_workflow_create_profile_tag_BatchEdit_02.jpg" src="../_images/03_workflow_create_profile_tag_BatchEdit_02.jpg" style="width: 50%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>3.不使用にした場合、表示のProfileがグレーアウトします。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_BatchEdit_03.jpg"><img alt="../_images/03_workflow_create_profile_tag_BatchEdit_03.jpg" src="../_images/03_workflow_create_profile_tag_BatchEdit_03.jpg" style="width: 50%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>使用するProfileを切り替えることで、下記のように出力を調整できます。</p>
+<br>
+<p>①特定の表情への絞り込み<br />
+「ハの字眉」や「怒り」など、特定のタグをONにすることで、狙った表情を優先的に出力・表示させることが可能です。</p>
+<p>② 精度の向上（ノイズの除去）<br />
+「カメラの向きが異なるプロファイル」などにタグを付け、Filter機能からそのタグが付いたプロファイルのみを表示し、
+一括で「不使用」に設定することで、現在の環境に最適なプロファイルのみが適用され、表情の検出精度を高めることができます。</p>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>Predict機能</strong></p>
+<p>本ソフトでは、作成したProfileから自動でリターゲットをする<strong>Predict機能</strong>を搭載しています。<br />
+ある程度の数のProfileを登録した後で、追加のProfileを登録する際にPredict機能を使えば、<br />
+登録済のProfileを基にソフトが予想した表情を作成してくれます。</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。<br />
+また、動画全体を解析するわけではございません。</p>
+</div>
+<br>
+<p>1.VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、<br />
+【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。<br />
+Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50.0%" />
+<col style="width: 50.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../_images/03_workflow_create_profile_gallery_addition.jpg" /></p>
+<p>Galleryに追加される</p>
+</td>
+<td><p><img alt="" src="../_images/03_workflow_create_profile_image_confirm.jpg" /></p>
+<p>Editor画面に表示されている画像が同じか確認する</p>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>2.<strong>Predictを実行</strong>　valueの数値が変動します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_predict.jpg"><img alt="../_images/03_workflow_create_profile_predict.jpg" src="../_images/03_workflow_create_profile_predict.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>3.MayaにPredict結果が出るので、<br />
+調整が必要な場合は調整を行い、登録できる内容になったら</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_predict_confirm.jpg"><img alt="../_images/03_workflow_create_profile_predict_confirm.jpg" src="../_images/03_workflow_create_profile_predict_confirm.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>4.【Save】します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_image_save.jpg"><img alt="../_images/03_workflow_create_profile_image_save.jpg" src="../_images/03_workflow_create_profile_image_save.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<hr class="docutils" />
+<br>
+<p class="rubric"><strong>Profileを作成するときの注意点</strong></p>
+<br>
+<p><strong>〇目を閉じる/薄目の時のGaze登録について</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>目を閉じる・薄目など<strong>黒目が見えないもの</strong>は登録する際にGazeの ☑ を外してください<br />
+解析結果の精度が低下してしまう可能性があります</p>
+</div>
+<p>例：眉のぎゅっと絞る動きを作りたい時</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_close_eyes.jpg"><img alt="../_images/03_workflow_create_profile_close_eyes.jpg" src="../_images/03_workflow_create_profile_close_eyes.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>1.表情を調整した上で</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_close_eyes_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_close_eyes_adjustment.jpg" src="../_images/03_workflow_create_profile_close_eyes_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.Regionのgazeの ☑ を外し、【Save】します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_close_eyes_region.jpg"><img alt="../_images/03_workflow_create_profile_close_eyes_region.jpg" src="../_images/03_workflow_create_profile_close_eyes_region.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p><strong>〇解析結果が好ましくない場合</strong></p>
+<p>Profileを作成する際に、解析したい動画ごとに1つ以上Profileを作成するようにしてください。
+Profileを作成していない場合、精度が十分ではない解析結果が出力される可能性があります。</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>解析動画ごとに1つ以上Profileを作成していない場合、アニメーション出力の際に警告がでます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_WARNING.jpg"><img alt="../_images/03_workflow_create_profile_WARNING.jpg" src="../_images/03_workflow_create_profile_WARNING.jpg" style="width: 100%;" />
+</a>
+</figure>
+</div>
+<p><br><br></p>
+<p><strong>〇登録済みのProfileを編集する場合</strong></p>
+<p>Galleryから調整したい表情のProfile(画像)をクリックし開きます。<br />
+Editor画面が開いたProfileと同じ画像であることを確認してください。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_open_Profile.jpg"><img alt="../_images/03_workflow_create_profile_open_Profile.jpg" src="../_images/03_workflow_create_profile_open_Profile.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Gallery上のProfileをクリックすると、対象の表情がMayaへ反映されます。</p>
+<p>このとき、<strong>反映されるのは「チェックが付いているRegion」のみ</strong>となります。</p>
+<p>目線など、チェックがついていないRegionは読み込み前の数値が保持されるため、<br />
+Profileを読み込んだ際に一見すると表情が正しく反映されていないように見える場合があります。</p>
+<!-- （**挿入予定：画像と違った表情・目？になっているMayaのスクショ１枚**）
+```{figure} /images/03_workflow_create_profile_open_Profile_note.jpg
+:width: 80%
+:align: center
+``` -->
+</div>
+<p><br><br></p>
+<p><strong>〇Profile数の確認方法</strong></p>
+<p>登録したProfileの数は、Videosウィンドウの「Profiles」をご参照ください。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_profiles.jpg"><img alt="../_images/03_workflow_create_profile_videos_profiles.jpg" src="../_images/03_workflow_create_profile_videos_profiles.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>「Profiles」が表示されない場合は、</p>
+<ul class="simple">
+<li><p>メニューバー上部で右クリック</p></li>
+<li><p>「Profiles」に ☑ を入れる　で表示されます。</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_profiles_check.jpg"><img alt="../_images/03_workflow_create_profile_profiles_check.jpg" src="../_images/03_workflow_create_profile_profiles_check.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<hr class="docutils" />
+<br>
+<p class="rubric"><strong>トラブルシューティング</strong></p>
+<p><strong>〇【+】を押してもGalleryにProfileが追加されない場合</strong></p>
+<p>【+】を押してもGalleryにProfileが追加されない場合、<br />
+<strong>Galleryの表示ウィンドウが小さいケース</strong>が考えられます。<br />
+その場合、Galleryウィンドウの ◀▶ をクリックすると追加したProfileが表示されます。</p>
+<p>◀▶ をクリック</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_gallery_window_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_gallery_window_adjustment.jpg" src="../_images/03_workflow_create_profile_gallery_window_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p><strong>〇同一フレームのProfileを登録できない</strong></p>
+<p>FCSでは同一フレームのProfileは重複して追加されないようになっています。<br />
+重複した場合、Logウィンドウで<br />
+<strong>WARNING:Frame ○○ already has a Profile associated with it</strong><br />
+と表示されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_warnig_profile.jpg"><img alt="../_images/03_workflow_create_profile_warnig_profile.jpg" src="../_images/03_workflow_create_profile_warnig_profile.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="04_register-controller.html" class="btn btn-neutral float-left" title="Contorollerの登録" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="06_export-animation.html" class="btn btn-neutral float-right" title="アニメーションの出力方法" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

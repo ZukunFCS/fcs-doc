@@ -1,0 +1,605 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T21:46:07+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create a Profile &mdash; FCS Docs 26.04 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=90b66612"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="How to Output Animation" href="06_export-animation.html" />
+    <link rel="prev" title="Register Controllers" href="04_register-controller.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">Table of Contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01_updates/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">What is FCS</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Workflow</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_launch-FCS.html">Launch FCS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_create-or-open-session.html">Create or Open a Session</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_launch-maya.html">Launch Maya</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04_register-controller.html">Register Controllers</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Create a Profile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_export-animation.html">How to Output Animation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_export.html">Export</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_glossary/index.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_support/index.html">Help and Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_release-schedule/index.html">Development Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08_advanced_doc_link.html">テクニカルマニュアル(external) ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09_interactive_doc_link.html">Chat Manual (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Workflow</a></li>
+      <li class="breadcrumb-item active">Create a Profile</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/03_workflow/05_create-profile.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="profile">
+<h1>Create a Profile<a class="headerlink" href="#profile" title="Link to this heading"></a></h1>
+<p>This page describes the procedures for adding and editing Profiles.<br />
+You can choose whether to adjust facial expressions based on Maya or FCS,<br />
+but we recommend using “Both” to start with.</p>
+<p class="rubric"><strong>Importing analysis videos</strong></p>
+<p>Before creating a Profile, first load the videos you will use into FCS.</p>
+<p>In the Videos window, you can open or import the videos you want to analyze.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 40.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../_images/03_workflow_create_profile_windows_videos.jpg" /></p></td>
+<td><p>Window → Videos<br />
+opens the Videos window.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For details on the Videos window, see <a class="reference internal" href="../06_glossary/01_Menu/window.html"><span class="doc std std-doc">User Guide/Menu/Window/Videos</span></a>.</p>
+</div>
+<br>
+<p>1. Press [Import] to open a popup window,</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_import.jpg"><img alt="../_images/03_workflow_create_profile_videos_import.jpg" src="../_images/03_workflow_create_profile_videos_import.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2. Click the video you want to analyze.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_open.jpg"><img alt="../_images/03_workflow_create_profile_videos_open.jpg" src="../_images/03_workflow_create_profile_videos_open.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can import multiple videos at once by Shift+clicking.</p>
+</div>
+<br>
+<p>3. The [Select Video Rotate] window opens, so press [Comfirm].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_Rotate.jpg"><img alt="../_images/03_workflow_create_profile_videos_Rotate.jpg" src="../_images/03_workflow_create_profile_videos_Rotate.jpg" style="width: 30%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>During import, you can rotate the video clockwise using the number in the lower left.</p>
+</div>
+<p><br><br></p>
+<p>4. The imported video will be displayed in the Videos window.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_complete.jpg"><img alt="../_images/03_workflow_create_profile_videos_complete.jpg" src="../_images/03_workflow_create_profile_videos_complete.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>About Profiles</strong></p>
+<p>Adding Profiles with various expressions improves analysis accuracy.<br />
+However, simply having a large number is not enough – if controller values differ for Profiles with similar expressions, it will create noise, so caution is needed.<br />
+Additionally, it is recommended to <strong>create at least one Profile per video to be analyzed</strong>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In addition to Profiles for each video to be analyzed, it is recommended to create approximately 50 Profiles called ROM exercises.<br />
+For the facial expressions used in ROM exercises, please refer to the PDF file included with the starter kit.</p>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>Opening imported videos in FCS</strong></p>
+<p>Right-click on the video file you want to open and select [Open], or double-click it.<br />
+The video will be displayed on the VideoPlayer.</p>
+<p>Right-click on the video file name -&gt; [Open]</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_right_click_open.jpg"><img alt="../_images/03_workflow_create_profile_right_click_open.jpg" src="../_images/03_workflow_create_profile_right_click_open.jpg" style="width: 80%;" />
+</a>
+</figure>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_video_player.jpg"><img alt="../_images/03_workflow_create_profile_video_player.jpg" src="../_images/03_workflow_create_profile_video_player.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>How to add a Profile</strong></p>
+<p>Move the slider in the VideoTimeline window and stop at the frame where you want to register the expression.<br />
+Press [+] to add the image of the specified frame to the Gallery and open the Editor.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_profile_addition.jpg"><img alt="../_images/03_workflow_create_profile_profile_addition.jpg" src="../_images/03_workflow_create_profile_profile_addition.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="info admonition">
+<p class="admonition-title">About the frame borders when a Profile is added</p>
+<ul class="simple">
+<li><p>Red: Profile with default values / unedited</p></li>
+<li><p>Green: Profile registered with “Neutral” checked</p></li>
+<li><p>Blue: Currently selected (being edited) Profile</p></li>
+<li><p>Black: Profile registered as “Disabled” by unchecking “Enabled”</p></li>
+<li><p>White: Profile registered after retargeting</p></li>
+</ul>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>Registering a Neutral expression</strong></p>
+<p>A Neutral expression is a natural expression where the actor’s facial muscles are relaxed.<br />
+Be sure to set one Neutral expression per session.</p>
+<ul class="simple">
+<li><p>Check Neutral</p></li>
+<li><p>Change to a desired name</p></li>
+<li><p>Save</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_neutral_save.jpg"><img alt="../_images/03_workflow_create_profile_neutral_save.jpg" src="../_images/03_workflow_create_profile_neutral_save.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is not always necessary to change the Profile name.</p>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>Adjusting expressions in Maya</strong></p>
+<p>1. Move the slider in the VideoTimeline window and stop at the frame where you want to register the expression.<br />
+Press [+] to add the image of the specified frame to the Gallery and open the Editor.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_gallery_addition.jpg"><img alt="../_images/03_workflow_create_profile_gallery_addition.jpg" src="../_images/03_workflow_create_profile_gallery_addition.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2. Confirm that the image added to the Gallery matches the image in the Editor screen.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_image_confirm.jpg"><img alt="../_images/03_workflow_create_profile_image_confirm.jpg" src="../_images/03_workflow_create_profile_image_confirm.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>3. Adjust the character’s expression using Maya’s controller rigs to match the added actor’s expression.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_maya_character_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_maya_character_adjustment.jpg" src="../_images/03_workflow_create_profile_maya_character_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>4. Click [From Maya] to apply the adjustment information from Maya to FCS.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_from_maya.jpg"><img alt="../_images/03_workflow_create_profile_from_maya.jpg" src="../_images/03_workflow_create_profile_from_maya.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the [To Maya] pull-down is set to “From Maya at save” or “Both”, the adjusted values will be automatically synchronized.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you forgot to register a controller, the expression may differ when you reopen it.<br />
+In that case, register the missing controller and re-register the Profile.</p>
+</div>
+<br>
+<p>5. Change the Name to a desired name and press [Save].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_image_name.jpg"><img alt="../_images/03_workflow_create_profile_image_name.jpg" src="../_images/03_workflow_create_profile_image_name.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>Adjusting expressions in FCS</strong></p>
+<p>1. Move the slider in the VideoTimeline window and stop at the frame where you want to register the expression.<br />
+Press [+] to add the image of the specified frame to the Gallery and open the Editor.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_gallery_addition.jpg"><img alt="../_images/03_workflow_create_profile_gallery_addition.jpg" src="../_images/03_workflow_create_profile_gallery_addition.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2. Confirm that the image added to the Gallery matches the image in the Editor screen.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_image_confirm.jpg"><img alt="../_images/03_workflow_create_profile_image_confirm.jpg" src="../_images/03_workflow_create_profile_image_confirm.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>If Sync is set to <strong>No Sync</strong>, automatic information sharing for Profiles is not performed, so Maya will still display the previously registered expression.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_maya_sync.jpg"><img alt="../_images/03_workflow_create_profile_maya_sync.jpg" src="../_images/03_workflow_create_profile_maya_sync.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Reopening with Sync set to “Both” will reset to the default expression.<br />
+Skip this if already done.</p>
+</div>
+<br>
+<p>3. Adjust the character’s expression using [Controller] in the Editor to match the added actor’s expression.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_controller_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_controller_adjustment.jpg" src="../_images/03_workflow_create_profile_controller_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 40.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../_images/03_workflow_create_profile_filter.jpg" /></p></td>
+<td><p>You can narrow down the<br />
+controller display by entering<br />
+text in the Filter dropdown<br />
+or clicking a Region.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br><br></p>
+<p>4. Click [To Maya].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_to_maya.jpg"><img alt="../_images/03_workflow_create_profile_to_maya.jpg" src="../_images/03_workflow_create_profile_to_maya.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the Sync pull-down is set to “To Maya” or “Both”, the adjusted values will be automatically synchronized.</p>
+</div>
+<br>
+<p>5. The adjustments made in FCS will be reflected in Maya.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_maya_character_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_maya_character_adjustment.jpg" src="../_images/03_workflow_create_profile_maya_character_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>Profile Tag Feature</strong></p>
+<p>You can assign “tags” to Profiles when creating them.<br />
+This feature allows you to efficiently manage Profiles registered in the Gallery and smoothly switch between expressions used for analysis.</p>
+<p>1. Open [Tags] in the Editor window and enter the tag name in the text box.<br />
+Press [+] to add the tag.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_add.jpg"><img alt="../_images/03_workflow_create_profile_tag_add.jpg" src="../_images/03_workflow_create_profile_tag_add.jpg" style="width: 60%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2. Check Advanced in the Gallery window to display the following items.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_advanced.jpg"><img alt="../_images/03_workflow_create_profile_advanced.jpg" src="../_images/03_workflow_create_profile_advanced.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Filter: Configure filtering for displayed Profiles.<br />
+sort: Change the display order of Profiles.<br />
+Batch Edit: Configure whether displayed Profiles are used for processing, etc.<br />
+Misc: Change other settings such as Gallery display.</p>
+<p>For details, see <a class="reference internal" href="../06_glossary/01_Menu/window.html"><span class="doc std std-doc">User Guide/Menu/Window/Profile/Gallery</span></a>.</p>
+</div>
+<br>
+<p>3. Select the created tag from the Filter -&gt; Tag input field to display only Profiles with that tag in the Gallery.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_Filter.jpg"><img alt="../_images/03_workflow_create_profile_tag_Filter.jpg" src="../_images/03_workflow_create_profile_tag_Filter.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p><strong>Usage example</strong></p>
+<p>With Batch Edit, you can toggle “bulk enable/disable (ON/OFF)” for items currently displayed in the Gallery.</p>
+<p>1. In Property, select which item to bulk-set as enabled/disabled (ON/OFF).</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_BatchEdit_01.jpg"><img alt="../_images/03_workflow_create_profile_tag_BatchEdit_01.jpg" src="../_images/03_workflow_create_profile_tag_BatchEdit_01.jpg" style="width: 50%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2. Check the box to enable, uncheck to disable, and press [Apply].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_BatchEdit_02.jpg"><img alt="../_images/03_workflow_create_profile_tag_BatchEdit_02.jpg" src="../_images/03_workflow_create_profile_tag_BatchEdit_02.jpg" style="width: 50%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>3. When disabled, the displayed Profiles will be grayed out.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_tag_BatchEdit_03.jpg"><img alt="../_images/03_workflow_create_profile_tag_BatchEdit_03.jpg" src="../_images/03_workflow_create_profile_tag_BatchEdit_03.jpg" style="width: 50%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By switching which Profiles are used, you can adjust the output as follows.</p>
+<br>
+<p>1. Narrowing down to specific expressions<br />
+By enabling specific tags such as “inverted-V eyebrows” or “anger”, you can prioritize the output and display of targeted expressions.</p>
+<p>2. Improving accuracy (removing noise)<br />
+By tagging Profiles such as “Profiles with different camera angles” and using the Filter feature to display only Profiles with that tag, you can bulk-set them to “disabled”. This ensures only Profiles optimal for the current environment are applied, improving expression detection accuracy.</p>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>Predict Feature</strong></p>
+<p>This software includes a <strong>Predict feature</strong> that automatically retargets based on created Profiles.<br />
+After registering a certain number of Profiles, you can use the Predict feature when adding new Profiles.<br />
+The software will create predicted expressions based on the already registered Profiles.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The accuracy of Predict’s automatic retargeting is linked to the accuracy of the registered Profiles.<br />
+Also note that it does not analyze the entire video.</p>
+</div>
+<br>
+<p>1. Move the slider in the VideoTimeline window and stop at the frame where you want to register the expression.<br />
+Press [+] to add the image of the specified frame to the Gallery and open the Editor.<br />
+Confirm that the image added to the Gallery matches the image in the Editor screen.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50.0%" />
+<col style="width: 50.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../_images/03_workflow_create_profile_gallery_addition.jpg" /></p>
+<p>Added to the Gallery</p>
+</td>
+<td><p><img alt="" src="../_images/03_workflow_create_profile_image_confirm.jpg" /></p>
+<p>Confirm that the image displayed in the Editor screen is the same</p>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>2. <strong>Execute Predict</strong> – the value numbers will change.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_predict.jpg"><img alt="../_images/03_workflow_create_profile_predict.jpg" src="../_images/03_workflow_create_profile_predict.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>3. The Predict result will appear in Maya.<br />
+If adjustments are needed, make them, and once the content is ready to register,</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_predict_confirm.jpg"><img alt="../_images/03_workflow_create_profile_predict_confirm.jpg" src="../_images/03_workflow_create_profile_predict_confirm.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>4. Press [Save].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_image_save.jpg"><img alt="../_images/03_workflow_create_profile_image_save.jpg" src="../_images/03_workflow_create_profile_image_save.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<hr class="docutils" />
+<br>
+<p class="rubric"><strong>Notes when creating Profiles</strong></p>
+<br>
+<p><strong>About Gaze registration when eyes are closed or half-closed</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When registering expressions where <strong>the iris is not visible</strong>, such as closed or half-closed eyes, uncheck Gaze.<br />
+Otherwise, analysis accuracy may decrease.</p>
+</div>
+<p>Example: When creating a tightly furrowed brow movement</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_close_eyes.jpg"><img alt="../_images/03_workflow_create_profile_close_eyes.jpg" src="../_images/03_workflow_create_profile_close_eyes.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>1. After adjusting the expression,</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_close_eyes_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_close_eyes_adjustment.jpg" src="../_images/03_workflow_create_profile_close_eyes_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2. Uncheck Gaze in the Region and press [Save].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_close_eyes_region.jpg"><img alt="../_images/03_workflow_create_profile_close_eyes_region.jpg" src="../_images/03_workflow_create_profile_close_eyes_region.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p><strong>If the analysis results are not satisfactory</strong></p>
+<p>When creating Profiles, make sure to create at least one Profile per video you want to analyze. If no Profile is created, analysis results with insufficient accuracy may be output.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If at least one Profile has not been created per analysis video, a warning will be displayed during animation output.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_WARNING.jpg"><img alt="../_images/03_workflow_create_profile_WARNING.jpg" src="../_images/03_workflow_create_profile_WARNING.jpg" style="width: 100%;" />
+</a>
+</figure>
+</div>
+<p><br><br></p>
+<p><strong>Editing a registered Profile</strong></p>
+<p>Click and open the Profile (image) of the expression you want to adjust from the Gallery.<br />
+Confirm that the Editor screen displays the same image as the opened Profile.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_open_Profile.jpg"><img alt="../_images/03_workflow_create_profile_open_Profile.jpg" src="../_images/03_workflow_create_profile_open_Profile.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Clicking a Profile in the Gallery will apply the corresponding expression to Maya.</p>
+<p>At this time, <strong>only the “checked Regions” will be applied</strong>.</p>
+<p>Unchecked Regions, such as gaze, retain their values from before loading, so<br />
+the expression may appear to not be correctly reflected when loading a Profile.</p>
+<!-- （**挿入予定：画像と違った表情・目？になっているMayaのスクショ１枚**）
+```{figure} /images/03_workflow_create_profile_open_Profile_note.jpg
+:width: 80%
+:align: center
+``` -->
+</div>
+<p><br><br></p>
+<p><strong>How to check the number of Profiles</strong></p>
+<p>To check the number of registered Profiles, refer to “Profiles” in the Videos window.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_videos_profiles.jpg"><img alt="../_images/03_workflow_create_profile_videos_profiles.jpg" src="../_images/03_workflow_create_profile_videos_profiles.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>If “Profiles” is not displayed,</p>
+<ul class="simple">
+<li><p>Right-click on the top of the menu bar</p></li>
+<li><p>Check “Profiles” to display it.</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_profiles_check.jpg"><img alt="../_images/03_workflow_create_profile_profiles_check.jpg" src="../_images/03_workflow_create_profile_profiles_check.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<hr class="docutils" />
+<br>
+<p class="rubric"><strong>Troubleshooting</strong></p>
+<p><strong>If pressing [+] does not add a Profile to the Gallery</strong></p>
+<p>If pressing [+] does not add a Profile to the Gallery,<br />
+<strong>the Gallery display window may be too small</strong>.<br />
+In that case, click the left/right arrows in the Gallery window to display the added Profile.</p>
+<p>Click the left/right arrows</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_gallery_window_adjustment.jpg"><img alt="../_images/03_workflow_create_profile_gallery_window_adjustment.jpg" src="../_images/03_workflow_create_profile_gallery_window_adjustment.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p><strong>Cannot register a Profile for the same frame</strong></p>
+<p>In FCS, duplicate Profiles for the same frame cannot be added.<br />
+If a duplicate is attempted, the Log window will display<br />
+<strong>WARNING:Frame XX already has a Profile associated with it</strong>.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_create_profile_warnig_profile.jpg"><img alt="../_images/03_workflow_create_profile_warnig_profile.jpg" src="../_images/03_workflow_create_profile_warnig_profile.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="04_register-controller.html" class="btn btn-neutral float-left" title="Register Controllers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="06_export-animation.html" class="btn btn-neutral float-right" title="How to Output Animation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 26.04 Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

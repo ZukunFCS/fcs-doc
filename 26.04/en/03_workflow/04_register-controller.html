@@ -1,0 +1,375 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T12:41:10+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register Controllers &mdash; FCS Docs 26.04 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=90b66612"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Create a Profile" href="05_create-profile.html" />
+    <link rel="prev" title="Launch Maya" href="03_launch-maya.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">Table of Contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01_updates/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">What is FCS</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Workflow</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_launch-FCS.html">Launch FCS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_create-or-open-session.html">Create or Open a Session</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_launch-maya.html">Launch Maya</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Register Controllers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_create-profile.html">Create a Profile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_export-animation.html">How to Output Animation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_export.html">Export</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_glossary/index.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_support/index.html">Help and Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_release-schedule/index.html">Development Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08_advanced_doc_link.html">テクニカルマニュアル(external) ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09_interactive_doc_link.html">Chat Manual (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Workflow</a></li>
+      <li class="breadcrumb-item active">Register Controllers</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/03_workflow/04_register-controller.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="contoroller">
+<h1>Register Controllers<a class="headerlink" href="#contoroller" title="Link to this heading"></a></h1>
+<p>In the Controller window, you can register the controller rigs of the connected MayaScene.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 40.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../_images/03_workflow_register_controller_window_controller.jpg" /></p></td>
+<td><p>Window → Controller<br />
+opens the Controller window.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For details on the Controller window, see <a class="reference internal" href="../06_glossary/01_Menu/window.html"><span class="doc std std-doc">User Guide/Menu/Window/Controllers</span></a>.</p>
+</div>
+<br>
+<p class="rubric"><strong>What is a Region?</strong></p>
+<p>In FCS, facial part divisions are called Regions.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Upper: Movements around the eyebrows, such as raising/lowering the eyebrows and furrowing the brow</p></li>
+<li><p>Eyelid: Movements of the eyelids, such as blinking and squinting</p></li>
+<li><p>Gaze: Eye direction movements, such as looking up/down/left/right and crossing eyes</p></li>
+<li><p>Lower: Movements around the nose, cheeks, and mouth area, including all movements from the cheeks and nose downward</p></li>
+</ul>
+</div>
+<p>For animation analysis, register at least one controller rig for each of Upper, Eyelid, Gaze, and Lower.</p>
+<br>
+<p>You can also register the minimum and maximum values of controllers when registering controller rigs.<br />
+The min/max values are automatically populated, but please adjust them if the values are excessively large.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_min_max.jpg"><img alt="../_images/03_workflow_register_controller_min_max.jpg" src="../_images/03_workflow_register_controller_min_max.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Non-numeric attributes such as “True/False” will cause malfunction, so please exclude them from registration.</p>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>Registering Controllers</strong></p>
+<p>The following explains how to register controllers using Upper registration as an example.</p>
+<ol class="arabic simple">
+<li><p>Select the controllers you want to register as Upper in Maya,</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_maya_upper_select.jpg"><img alt="../_images/03_workflow_register_controller_maya_upper_select.jpg" src="../_images/03_workflow_register_controller_maya_upper_select.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2. Press the [Add selected] button.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_add_selected_uppper.jpg"><img alt="../_images/03_workflow_register_controller_add_selected_uppper.jpg" src="../_images/03_workflow_register_controller_add_selected_uppper.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<ol class="arabic simple" start="3">
+<li><p>Once the controllers selected in Maya are displayed in “Controller”,<br />
+select the controllers you want to register as Upper using the checkboxes or [select All] (= select all).</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_select_all_uppper.jpg"><img alt="../_images/03_workflow_register_controller_select_all_uppper.jpg" src="../_images/03_workflow_register_controller_select_all_uppper.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<ol class="arabic simple" start="4">
+<li><p>Since we want to register as Upper this time, press [Upper].<br />
+When “Upper” is displayed in the Region column, the setup is complete.</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_confirmation_uppper.jpg"><img alt="../_images/03_workflow_register_controller_confirmation_uppper.jpg" src="../_images/03_workflow_register_controller_confirmation_uppper.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<ol class="arabic simple" start="5">
+<li><p>Follow the same procedure to set up the other Regions (Eyelid/Gaze/Lower).</p></li>
+</ol>
+<p><br><br></p>
+<p class="rubric"><strong>Registering consecutively</strong></p>
+<p>When you select controllers in Maya and execute [Add selected], the selected controllers are added to “Controller” and automatically checked.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_add_selected_improvement.jpg"><img alt="../_images/03_workflow_register_controller_add_selected_improvement.jpg" src="../_images/03_workflow_register_controller_add_selected_improvement.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>Pressing [Upper] in this state unchecks the previously checked controllers and changes their Region to Upper.<br />
+The figure below shows an example of selecting different controllers and pressing [Add selected] after that.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_auto_check.jpg"><img alt="../_images/03_workflow_register_controller_auto_check.jpg" src="../_images/03_workflow_register_controller_auto_check.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<p>Only the newly added controllers via [Add selected] are checked.<br />
+In this way, when registering consecutively, the check marks are automatically applied to the newly added controllers.</p>
+<br>
+<p>Note that even if you press [Add selected] without setting a Region, the previously checked controllers will be unchecked and only the newly added controllers will be checked.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_add_selected_eyelid.jpg"><img alt="../_images/03_workflow_register_controller_add_selected_eyelid.jpg" src="../_images/03_workflow_register_controller_add_selected_eyelid.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>You cannot Save if there are controllers with an unregistered Region (null).<br />
+In the controller window, you can filter the display by Region type or registration status.</p>
+<p>By setting the filter to ‘null’, you can display only controllers with no Region set.</p>
+<ul class="simple">
+<li><p>Select the all dropdown tab in the upper right and change it to null.<br />
+This hides controllers that have a Region set and displays only unregistered controllers.<br />
+You can also filter by each registered Region by selecting Upper/Eyelid/Gaze/Lower.</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_all_null_eyelid.jpg"><img alt="../_images/03_workflow_register_controller_all_null_eyelid.jpg" src="../_images/03_workflow_register_controller_all_null_eyelid.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>[select All] selects only the currently displayed items.<br />
+[Unselect All] can be used to deselect all.</p>
+</div>
+<br>
+<p>Since the display is filtered by null, registering a Region in this state will hide the controller.<br />
+Switch back to all to display everything.</p>
+<hr class="docutils" />
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p>When all is selected</p>
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_all_view.jpg"><img alt="../_images/03_workflow_register_controller_all_view.jpg" src="../_images/03_workflow_register_controller_all_view.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>When null is selected</p>
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_null_view.jpg"><img alt="../_images/03_workflow_register_controller_null_view.jpg" src="../_images/03_workflow_register_controller_null_view.jpg" style="width: 100%;" />
+</a>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<p><br><br></p>
+<p class="rubric"><strong>How to remove controllers you do not want to register</strong></p>
+<p>1. To delete a single controller<br />
+Select the controller you want to delete (check it) → press [Remove].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_remove.jpg"><img alt="../_images/03_workflow_register_controller_remove.jpg" src="../_images/03_workflow_register_controller_remove.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2. To delete all null controllers at once<br />
+Press [Remove empty].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_remove_empty.jpg"><img alt="../_images/03_workflow_register_controller_remove_empty.jpg" src="../_images/03_workflow_register_controller_remove_empty.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>After registering all Upper/Eyelid/Gaze/Lower controllers, press [Save].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_save.jpg"><img alt="../_images/03_workflow_register_controller_save.jpg" src="../_images/03_workflow_register_controller_save.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>You cannot Save if there are controllers with an unregistered Region (null)</p>
+</div>
+<p><br><br></p>
+<hr class="docutils" />
+<br>
+<p class="rubric"><strong>If you want to register controllers other than those in the manual</strong></p>
+<p>This manual uses UnrealEngine’s Metahuman, but any model created with other 3DCG software is supported as long as it has controller rigs that can be linked to each facial part.<br />
+Additionally, only the minimum required controllers are registered here, so you can add more controllers as needed.</p>
+<br>
+<p class="rubric"><strong>If you cannot add controllers with Add select</strong></p>
+<p>Verify that the configured Maya version matches the Maya version used to create the scene.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Controllers cannot be read if the configured version differs from the Maya version used to create the scene.</p>
+</div>
+<br>
+<p class="rubric"><strong>If you want to change the registration order of controllers</strong></p>
+<p>Example: When L/R blink are separated and inconvenient, and you want to arrange them adjacent to each other</p>
+<p>Check [Rearrange] under [Advanced],<br />
+then drag and drop the controllers you want to rearrange to change their order.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_Rearrange.jpg"><img alt="../_images/03_workflow_register_controller_Rearrange.jpg" src="../_images/03_workflow_register_controller_Rearrange.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>If you want to restore the registration order of controllers</strong></p>
+<p>Press [Reset] under [Advanced] to restore the order to the state at the last [Save].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_reset.jpg"><img alt="../_images/03_workflow_register_controller_reset.jpg" src="../_images/03_workflow_register_controller_reset.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p><strong>Be sure to [Save] after rearranging the registration order for easier workflow.</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_save.jpg"><img alt="../_images/03_workflow_register_controller_save.jpg" src="../_images/03_workflow_register_controller_save.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<hr class="docutils" />
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="03_launch-maya.html" class="btn btn-neutral float-left" title="Launch Maya" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="05_create-profile.html" class="btn btn-neutral float-right" title="Create a Profile" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 26.04 Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

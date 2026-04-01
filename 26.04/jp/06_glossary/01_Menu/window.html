@@ -1,0 +1,831 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T12:41:10+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Window &mdash; FCS Docs 26.04 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=f6684d60"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../00_contents/index.html">目次</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../01_updates/index.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../02_getting-started/index.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../03_workflow/index.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">ユーザーガイド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../07_support/index.html">ヘルプとサポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../04_release-schedule/index.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../08_advanced_doc_link.html">fcs-doc-advanced ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../09_interactive_doc_link.html">チャットマニュアル (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Window</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/06_glossary/01_Menu/window.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="window">
+<h1>Window<a class="headerlink" href="#window" title="Link to this heading"></a></h1>
+<p>FCSを構成する各機能ウィンドウの役割と、それぞれの表示制御や操作方法について説明します。</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-0">
+Window</label><div class="sd-tab-content docutils">
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_Window.jpg"><img alt="../../_images/06_glossary_Menu_Window.jpg" src="../../_images/06_glossary_Menu_Window.jpg" style="width: 80%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① Videos：<br />
+動画の読み込みや処理に関するウィンドウ</p>
+<p>② Processor：<br />
+動画の複数処理に関する設定を行うウィンドウ</p>
+<p>③ Controllers：<br />
+controller登録に関するウィンドウ</p>
+<p>④ Profiles/Gallery：<br />
+登録済みのProfileに関するウィンドウ</p>
+<p>⑤ Editor：Profile登録に関するウィンドウ</p>
+<p>⑥ Solver：<br />
+出力の詳細設定に関するウィンドウ</p>
+<p>⑦ Log：FCSのログを表示するウィンドウ</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-1">
+Videos</label><div class="sd-tab-content docutils">
+<br>
+<p>Videosウィンドウが開きます。</p>
+<p>Videosウィンドウでは読み込んだHMC動画を一覧で表示します。<br />
+読み込んだ動画に対して、右クリックで開くメニューで個別の設定・処理が可能です。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_videos.jpg"><img alt="../../_images/06_glossary_Menu_window_videos.jpg" src="../../_images/06_glossary_Menu_window_videos.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<p>① Filter入力欄：動画名で絞り込み</p>
+<p>② 【Import】：新しい動画のインポート<br />
+　押すとダイアログが開き、動画を選択できます。
+　シフトキーで複数選択が可能です。</p>
+<p>③　Video表見出し
+　右クリックメニューから表示する内容を変更可能です。</p>
+<p>④　選択ON/OFF：バッチ処理対象の切り替え</p>
+<p>⑤　動画名<br />
+　右クリックでメニューが表示し、単体のアニメーション出力などを行うことができます。<br />
+　※詳細は『videos/右クリックメニュー』をご確認ください。</p>
+<p>⑥　選択ON/OFF(全)：すべての動画に対して選択のON/OFFの切り替え</p>
+<p>⑦　Removeボタン：「Remove Videos and Sequences」ウィンドウを表示</p>
+<br>
+<p class="rubric"><strong>Videos 右クリックメニュー</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_videos_click.jpg"><img alt="../../_images/06_glossary_Menu_window_videos_click.jpg" src="../../_images/06_glossary_Menu_window_videos_click.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① 動画名</p>
+<p>② 【Open】：動画を開く<br />
+　PlayerとTimelineに表示されます。</p>
+<p>③ 【Remove】：動画を削除<br />
+　「Remove Videos and Sequence」ウィンドウを表示します。</p>
+</div>
+</div>
+</div>
+<p>④【▼ Process】：動画単体のアニメーション出力</p>
+<p>⑤ ☑ Reproces：キャッシュが既に存在する場合も一から解析<br />
+　　※チェックなし→既存のキャッシュデータをそのまま使用し解析します。<br />
+　　基本的に ☑ を付けることをオススメします。</p>
+<p>⑥ Upload Options：Mayaに出力したい項目に ☑<br />
+　・☑ Animation：アニメーションデータ<br />
+　・☑ Audio：音声データをMayaに読み込む<br />
+　・☑ Frames：動画の連番画像を出力　※Mayaのイメージプレーンに読み込みます<br />
+　・☑ LM Frames：ランドマーク付の連番画像を生成<br />
+　　※Mayaのイメージプレーンに読み込みます</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>「LM Frames」は++パイプラインでは使用不可です。<br />
+また、「Frames」と「LM Frames」はどちらかのみに ☑ を入れてください。<br />
+両方に ☑ がある場合、「LM Frames」の画像は出力されません。</p>
+</div>
+<br>
+<p>⑦ Export Options：出力したい項目に ☑<br />
+　・☑ Playblast：プレイブラストをmov形式の動画で出力・保存<br />
+　・☑ Scene：Mayaシーンを出力・保存</p>
+<p>⑧ 【Start processing】：⑥・⑦の設定で処理を実行</p>
+<p>⑨ 【▼ Copy】
+　・Filename：動画のファイル名をクリップボードにコピー<br />
+　・Full path：動画のフルパスをクリップボードにコピー<br />
+　・Parent：動画の親ディレクトリのパスをクリップボードにコピー</p>
+<br>
+<p class="rubric"><strong>Remove Videos and Sequencesウィンドウ</strong></p>
+<p>このウィンドウでオプションを指定し、動画をFCSから削除します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_remove_videos.jpg"><img alt="../../_images/06_glossary_Menu_window_remove_videos.jpg" src="../../_images/06_glossary_Menu_window_remove_videos.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① Video：動画名</p>
+<p>②Delete caches option：キャッシュデータについて<br />
+　・ ☑ SetData：セットデータ内のファイル（音声・静止画連番）も削除するか<br />
+　・ ☑ Tracking Sequence：動画のトラッキングデータも削除するか<br />
+　・Profiles：削除対象の動画から追加したプロファイルについて<br />
+　　Keep → プロファイルはそのまま維持します。<br />
+　　Keep but unlink → プロファイルは維持しますが動画との関連は削除します。<br />
+　　（プロファイルの動画名がUnkownになります）<br />
+　　Delete → すべて削除します</p>
+<p>③【Execute】：実行</p>
+<p>④【Cancel】：キャンセル</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>動画の尺変更などが原因で、同じ名前・違う内容の動画を読み込みたいとき、ProfilesをKeepにして該当の動画を削除＞動画を再読み込みすると、ピックアップしたフレーム位置にずれが発生し、想定していないアニメーション結果になる場合があります。<br />
+適宜DeleteやKeep but unlinkで以前の動画との連携を解除してください。</p>
+</div>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-2">
+Processor</label><div class="sd-tab-content docutils">
+<br>
+<p>Processerウィンドウが開きます。</p>
+<p>Processerウィンドウでは複数の動画を一括で処理するバッチ機能が使用できます。<br />
+VideosウィンドウでチェックボックスがONになっている動画が処理の対象になります。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_processor.jpg"><img alt="../../_images/06_glossary_Menu_window_processor.jpg" src="../../_images/06_glossary_Menu_window_processor.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<p>①　<strong>Output Folder</strong>：出力先を指定</p>
+<p>②　<strong>Output Targets</strong>：出力する内容を指定<br />
+　・☑ Animation：アニメーションデータを出力<br />
+　・☑ Audio：音声データをMayaに読み込む<br />
+　・☑ Frames：動画の連番画像を出力し、Mayaのイメージプレーンに読み込む<br />
+　・☑ LM Frame：ランドマーク付の連番画像を生成し、Mayaのイメージプレーンに読み込む<br />
+　※ &quot;++パイプライン&quot;では使用不可<br />
+　・☑ Playblast：プレイブラストをmov形式の動画で出力し、保存<br />
+　・☑ Scene：Mayaシーンを保存<br />
+　・Format：出力するMayaの保存形式を指定(.mb / .ma)</p>
+<p>③　<strong>Advanced</strong>：出力処理の詳細設定<br />
+　・☑ Reprocess：キャッシュが既に存在する場合も一から解析する<br />
+　・Output Filename：出力されるデータ名を指定</p>
+<br>
+<p class="rubric"><strong>フォルダ名・動画名を指定するパラメータ</strong></p>
+<br>
+<!--start_here_Processor_01-->
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Output Filenameを変更することで出力ファイル名に任意の名前を設定できます。</p>
+<ul class="simple">
+<li><p>{solver} ： solverの名前</p></li>
+<li><p>{video} ： ビデオのファイル名</p></li>
+<li><p>{user} ： windows ユーザ名</p></li>
+<li><p>{project} ： 案件フォルダ名</p></li>
+<li><p>{chara} ： キャラクター名</p></li>
+<li><p>{actor} ： 役者名</p></li>
+<li><p>{%Y%m%d}, {%H%M%S} ： 年月日、時間分秒</p></li>
+</ul>
+<p>{video}のみにするとimportした動画名で出力されます。</p>
+</div>
+<!--end_here_Processor_01-->
+<br>
+<p>④　<strong>【Start】</strong>：アニメーションの出力を開始</p>
+<p>⑤　<strong>プログレスバー</strong>：処理状況の表示</p>
+<p>⑥　<strong>Log</strong>：処理状況のログを表示</p>
+<br>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-3">
+Controllers</label><div class="sd-tab-content docutils">
+<br>
+<p>コントローラーの登録に関するウィンドウです。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_controller.jpg"><img alt="../../_images/06_glossary_Menu_window_controller.jpg" src="../../_images/06_glossary_Menu_window_controller.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① Filter：入力したコントローラー名で絞り込み<br />
+② 【all▼】：コントローラーの絞り込み<br />
+　all / null / upper / lower / gaze / eyelid  指定した項目を絞り込んで表示します。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Region名（upper / lower / gaze / eyelid）：<br />
+現在登録しているRegionのコントローラーが表示されます。<br />
+プルダウンがRegionの状態でAdd Selectedを押すと、<br />
+コントローラーをそのRegionに設定された状態で読み込むことができます。</p></li>
+<li><p>all：すべてのRegionのコントローラーが表示されます。<br />
+allの状態でコントローラーを読み込むとRegionにはnull(リージョン未設定)が設定されます。</p></li>
+<li><p>null：リージョンが設定されていないコントローラーが表示されます。<br />
+コントローラー表に一つでもnullがあると登録したコントローラーを保存できないため、<br />
+Save前にリージョンがnullになっているコントローラーがないか確認してください。</p></li>
+</ul>
+</div>
+<br>
+<p>③ Maya/Add selected：Maya上で選択したコントローラーを登録<br />
+④ ☑ Sync：数値操作をMayaと連動させる<br />
+　例：⑧min/max、⑨default などの数値操作</p>
+<p>⑤ ☑ ：選択<br />
+⑥ コントローラー名：登録したコントローラー名一覧<br />
+　右クリックで個別のメニューを表示します、詳細は下記「<strong>コントローラー名→右クリック</strong>」をご確認ください。</p>
+<p>⑦ Region：各コントローラーの設定したRegionの表示や調整
+　【Region(画像ではupper) ▼】で個別にRegionを変更できます。</p>
+<p>⑧ min/max：コントローラーの最小値・最大値の表示や調整</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。</p>
+</div>
+<p>⑨ default：コントローラーのデフォルト値の表示や調整</p>
+<p>⑩ 【▼Value】：☑ を入れたコントローラーの値を調整<br />
+　・ ▼Min / Max / Default：どの数値を調整するか<br />
+　・ 0.000：入力する数値<br />
+　・ Apply：入力した数値をコントローラーに反映</p>
+<p>⑪ 【▼Region】：☑ を入れたコントローラーにRegionを設定<br />
+　upper / lower / gaze / eyelid<br />
+　→ 押下したRegionに設定します。</p>
+<p>⑫ Remove：☑ を入れたコントローラーを表から削除</p>
+<p>⑬ 【Select All】：表示されているコントローラーすべてに ☑ を入れる
+⑭ 【Unselect All】：表示されているコントローラーすべてからチェック □ を外す</p>
+<p>⑮ 【▼Advanced】
+　・【Remove empty】：Regionが登録されていないコントローラー(null)を表から削除<br />
+　・【Delete all】：登録したコントローラー情報をすべて削除<br />
+　・【Reset】：直前に【Save】した状態に戻す<br />
+　・【Rename】：「Replace controllers」ウィンドウを開く<br />
+　　※詳細については下記「<strong>複数コントローラーの一括リネーム</strong>」を参照ください。<br />
+　・ ☑ Rearrange：コントローラー表の順番をドラッグ＆ドロップで変更できるようにする</p>
+<p>⑯ 【save】：controllersの変更を保存しcontroller Infoに登録</p>
+<br>
+<p class="rubric"><strong>コントローラー名→右クリック</strong></p>
+<p>一覧からコントローラー名を右クリックすることで、メニューが表示されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_controller_click.jpg"><img alt="../../_images/06_glossary_Menu_window_controller_click.jpg" src="../../_images/06_glossary_Menu_window_controller_click.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① 【▼Copy&amp;Paste】<br />
+　・【Copy Name】：コントローラー名をコピー<br />
+　・【Copy Values】：数値操作をコピー<br />
+　・【Copy Blendshapes】：ブレンドシェイプをコピー<br />
+　・【Paste Values】：数値操作貼り付け<br />
+　・【Paste Blendshapes】：ブレンドシェイプを貼り付け</p>
+<br>
+<p>② 【▼Reset】<br />
+　・【To Save】：名前・数値などを【Save】時点に戻す<br />
+　・【To Maya】：名前・数値などをMayaの設定に戻す</p>
+<br>
+<p>③ 【Rename】：コントローラー名の変更<br />
+「Rename controller」ウィンドウが開くので、「New Name」に変更したい名前を入れ、<br />
+【Rename】を押します。</p>
+<br>
+<p class="rubric"><strong>複数コントローラーの一括リネーム</strong></p>
+<p>リネームしたいコントローラーに ☑ をいれ、【▼Advanced】→【Rename】を押します。<br />
+すると「Replace controllers」ウィンドウが開きます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_controller_Rename.jpg"><img alt="../../_images/06_glossary_Menu_window_controller_Rename.jpg" src="../../_images/06_glossary_Menu_window_controller_Rename.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① 【Add】：コントローラー名に文字列を追加<br />
+　【front ▼】（front/back）：コントローラー名の前後どちらに追加するかを指定します。</p>
+<p>② 【Replace】：コントローラー名の指定の文字列を置き換え<br />
+　→『<strong>変換前の文字列</strong>』with『<strong>変換後の文字列</strong>』　をそれぞれ入力します。</p>
+<p>③ Preview：コントローラー名の変換前後のプレビュー<br />
+　①・②それぞれ【Add】【Replace】を押すと、プレビューが表示されます。</p>
+<p>④【Save】：リネームを反映<br />
+　③のPreviewを確認し、問題なければ【Save】を押し反映させます。</p>
+<br>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-4">
+Profiles/Gallery</label><div class="sd-tab-content docutils">
+<br>
+<p>Galleryは作成したProfileが一覧で表示されるウィンドウです。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① 【◀】【▶】：1列に表示するprofileの数を変更<br />
+　【◀】：減らす・最小3　【▶】：増やす・最大10</p>
+<p>② Count:○○：登録しているprofileの総数</p>
+<p>③ profileのフィルター：該当する項目を絞り込む<br />
+　・空白：すべてのprofileを表示<br />
+　・Enabled：解析に使用するprofileを表示、Enabledに ☑ を入れて登録したprofileが対象<br />
+　・Disabled：解析に使用しないprofileを表示、Enabledに ☑ を入れずに登録したprofileが対象<br />
+　・Default：Neutralを含む、数値がdefaultのprofileを表示<br />
+　・Not Default：数値がdefaultではないprofileを表示<br />
+　・Neutral：Neutralにチェックを入れて登録したprofileを表示<br />
+　・No Tags：タグを設定していないProfileを表示<br />
+　・（Region）Enabled：該当する（Region）に ☑ を入れて登録したprofileを表示<br />
+　・（Region）Disabled：該当する（Region）に ☑ を入れず登録したprofileを表示</p>
+<p>④ ☑ Sync timeline：登録したprofileと同じ動画を開いた状態でprofileを選択すると、<br />
+　該当するフレームに移動</p>
+<p>⑤ ☑ Adbanced：詳細機能を表示　※内容についてはページ下部項目をご参照ください。</p>
+<p>⑥ 登録されたprofile一覧</p>
+<!--start_here_gallery_01-->
+<div class="info admonition">
+<p class="admonition-title">プロファイルを追加した際の枠について</p>
+<ul class="simple">
+<li><p>赤：数値がデフォルト状態/未編集のProfile</p></li>
+<li><p>緑：「Neutral」に ☑ を入れて登録したProfile</p></li>
+<li><p>青：選択中（編集中）のprofile</p></li>
+<li><p>黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile</p></li>
+<li><p>白：リターゲット後、登録したprofile</p></li>
+</ul>
+</div>
+<!--end_here_gallery_01-->
+<p><br><br></p>
+<p class="rubric"><strong>☑Adbancedについて</strong></p>
+<p><strong>【▶ Filter】</strong><br />
+より詳細に絞り込みを設定できます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Filter.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Filter.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Filter.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>① Name：文字列が名前に含まれるProfileを表示</p>
+<p>② Tag：タグ名をプルダウンから選択、該当のタグが付くProfileを表示</p>
+<p>③ Video：動画名をプルダウンから選択、該当の動画からピックしたProfileを表示</p>
+<p>④ Property：プルダウンから選択、該当するProfileを表示<br />
+　※上記の<strong>③profileのフィルター</strong>と連動しています。</p>
+<p>⑤ Upto：表示数を選択</p>
+<p>⑥ 【Reset】：フィルターをリセット</p>
+<br>
+<p><strong>【▶ Sort】</strong></p>
+<p>Profileの表示順を変更します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Sort.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Sort.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Sort.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>① Order【▼】：ソートの昇順 降順を変更</p>
+<p>② By property：ソートの内容を選択<br />
+　・Video：動画の名前順にソート<br />
+　・Created At：profileを作成した日時で順にソート<br />
+　・Saved At：saveした日時で順にソート<br />
+　・Name：profileのName順にソート<br />
+　・Confidence：アルゴリズムとの一致度順（predict結果と近いもの）でソート<br />
+　・Randomized：ランダムに表示<br />
+　・（controller名）：該当する（controller）に登録した数値でソート</p>
+<br>
+<p><strong>【▶ Batch Edit】</strong></p>
+<p>表示されているProfileに対し一括で使用・不使用（ON/OFF）の変更やTag付けができます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Batch.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Batch.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Batch.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>① Property：どの項目に対して設定を変更するかを指定<br />
+　・Enabled：すべてのRegionに反映<br />
+　・（各Region名）：そのRegionに反映</p>
+<p>② ☑ 【Apply】：<br />
+　・表示されているProfileを解析に使用する場合はチェックを入れる（☑）<br />
+　・使用しない場合はチェックを外す（□）</p>
+<p>③ Tag：表示されているProfileに対し一括でタグを設定する<br />
+　・入力欄：Tagの名前を入力<br />
+　・【Add】：タグを追加<br />
+　・【Remove】：削除</p>
+<br>
+<p><strong>【▶ Misc】</strong></p>
+<p>Galleryの表示形式などその他設定を変更できます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Misc.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Misc.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Misc.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>① □ Hide Tooltip：登録されているRegionの図の表示 / 非表示を切り替え</p>
+<p>② Display Mode：Profileの表示形式の変更
+　・Image：アクターの写真で表示<br />
+　・Render：キャラクターモデルのスクリーンショットで表示</p>
+<p>③【Refresh Renders】：Display Mode＞Render表示用にスクリーンショットを<br />
+　現在のMayaの設定で再出力</p>
+<br>
+</div>
+<input id="sd-tab-item-5" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-5">
+Profiles/Editor</label><div class="sd-tab-content docutils">
+<br>
+<p>プロファイルを登録するウィンドウです。<br />
+画像に対応する表情を、Mayaで作成しFCSに読み込み・FCSで作成しMayaに読み込みます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① To Maya▼：数値の操作をMayaと同期させるかどうかの設定<br />
+　・To Maya：登録されているprofile情報をMayaに転送する<br />
+　・From Maya at save：saveする際にMaya上での調整データを取得しFCSに反映する<br />
+　・Both：FCSとMayaを双方向で連動させる<br />
+　・No Sync：FCSとMayaを連動させない</p>
+<p>② □ Neutral：Neutral表情かどうかを設定<br />
+　デフォルトの表情として必ず1つ登録してください。</p>
+<p>③ ☑ Enabled：このプロファイルを解析に含めるかどうかを設定</p>
+<p>④ Controller▼：⑥のスライダー表記を切り替え<br />
+　・Controller：コントローラー名で表示<br />
+　・Value：コントローラー数値で表示</p>
+<p>⑤ 選択したフレームの画像が表示される</p>
+<p>⑥ スライダー：登録したcontrollerをスライダーとして表示<br />
+　FCS上でMayaのcontrollerを調整できます</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>コントローラーウィンドウ右部のスライダーはCtrl＋クリックで直接数値を入力することが可能です。</p>
+</div>
+<p>⑦ ▼Info：各情報を表示</p>
+<br>
+<p><strong>【▼Region】</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Region.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Region.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Region.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<br>
+<p>Upper/Eyelid/Gaze/Lower：<br />
+このプロファイルに<br />
+どのRegionの表情が含まれるか指定</p>
+</div>
+</div>
+</div>
+<br>
+<p><strong>【▼Utils】</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Utils.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Utils.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Utils.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① To Maya：<br />
+FCSで操作した値をMayaのコントローラーに送信</p>
+<p>② From Maya：<br />
+Mayaで操作した値をFCSへ送る</p>
+<p>③ Predict：<br />
+画像から表情を解析しMayaに反映する機能</p>
+<p>④ □　LM：<br />
+LandMarkの表示を切り替え</p>
+<p>⑤ ☑ Image：<br />
+プロファイルの画像を表示を切り替え</p>
+</div>
+</div>
+</div>
+<br>
+<p><strong>【▼Filter】</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Filter.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Filter.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Filter.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① all ▼：<br />
+対応するRegionのコントローラーのみ表示<br />
+（Upper/ Lower / Gaze / Eyelid / all）</p>
+<p>② 入力欄：<br />
+入力した文字でコントローラーを絞り込む</p>
+</div>
+</div>
+</div>
+<br>
+<p><strong>【▼Reset】</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Reset.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Reset.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Reset.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<br>
+<p>Upper/Eyelid/Gaze/Lower/ALL：<br />
+対応するコントローラーの値を0にリセット</p>
+</div>
+</div>
+</div>
+<p><strong>【▼Tags】</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Tags.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Tags.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Tags.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<br>
+<p>プロファイルにタグを追加</p>
+<p>入力欄にタグ名を記入し、
+【+】を押します。</p>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-6">
+Timeline</label><div class="sd-tab-content docutils">
+<br>
+<p>動画のタイムラインの操作を行います。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_timeline.jpg"><img alt="../../_images/06_glossary_Menu_window_timeline.jpg" src="../../_images/06_glossary_Menu_window_timeline.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① Timeline：バーを左右に動かし、ビデオを手動で再生</p>
+<p>② [0][183]：ビデオの縮尺を変更、両サイドの〇をスライドさせることでも変更可能</p>
+<p>③ [58]：現在のフレーム数</p>
+<p>④ |&lt; &gt;|：1フレーム前/後に移動する</p>
+<p>⑤ &lt;&lt; &gt;&gt;：登録したprofile位置にジャンプ</p>
+<p>⑥ ＞：動画の再生・停止（再生中は一時停止ボタンが表示されます）</p>
+<p>⑦【+】：現在のフレーム位置でProfileを追加</p>
+<p>⑧ Video：現在表示されている動画名</p>
+<p>⑨ Profile：選択されているフレームでProfileが作成されていれば、そのProfile名</p>
+<br>
+<p class="rubric"><strong>右クリックメニュー</strong></p>
+<p>タイムライン上を右クリックすると表示されるメニューです。</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_timeline_click.jpg"><img alt="../../_images/06_glossary_Menu_window_timeline_click.jpg" src="../../_images/06_glossary_Menu_window_timeline_click.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① 【▼Resolution】：表示している動画の解像度を変更</p>
+<p>② 【▼Sync】：Mayaとの同期設定<br />
+　・□ No Sync：<br />
+　　タイムラインをMayaと同期しない</p>
+<p>・□ To Maya：<br />
+　　FCSのタイムラインの値を<br />
+　　Mayaのタイムスライダーへ送信</p>
+<p>・□ From Maya：<br />
+　　Mayaのタイムスライダーの値を<br />
+　　FCSのタイムラインへ送信<br />
+　　※別途プラグインが必要になります。</p>
+<p>・□ Both：<br />
+　　FCSとMayaのタイムラインを相互に同期<br />
+　　※別途プラグインが必要になります。</p>
+<p>③ 【▼Speed】：再生に関する設定<br />
+　・Every Frame：すべてのフレームを再生
+　・Real Time：リアルタイム再生<br />
+　・□ Snap
+　・□ Loop：ループ再生<br />
+　・□ Mute：音声をミュート</p>
+</div>
+</div>
+</div>
+<br>
+<p class="rubric"><strong>timelineのバー表示</strong></p>
+<p>左上の▲をクリックすると、timelineのバーが表示されます。<br />
+【Hide tab bar】を押すと逆にバーを非表示にできます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_timeline_ver.jpg"><img alt="../../_images/06_glossary_Menu_window_timeline_ver.jpg" src="../../_images/06_glossary_Menu_window_timeline_ver.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</div>
+<input id="sd-tab-item-7" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-7">
+Player</label><div class="sd-tab-content docutils">
+<br>
+<p>Playerでは現在開いている動画を表示します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_player.jpg"><img alt="../../_images/06_glossary_Menu_window_player.jpg" src="../../_images/06_glossary_Menu_window_player.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+</div>
+<input id="sd-tab-item-8" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-8">
+Solver</label><div class="sd-tab-content docutils">
+<br>
+<p>アニメーション出力について、詳細設定を行うウィンドウです。<br />
+基本的にはデフォルト設定のまま使用できます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver.jpg" src="../../_images/06_glossary_Menu_window_Solver.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>▼Global</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver_Global.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver_Global.jpg" src="../../_images/06_glossary_Menu_window_Solver_Global.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① ☑ Fisheye：魚眼レンズで撮影された動画の処理に最適化<br />
+　広角レンズで撮影された動画を解析する際はチェックを外してください。</p>
+<p>② Processing Pipeline：動画を処理するためのパイプラインを指定</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>各パイプラインについては<a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.04/jp/experiments/index.html">テクニカルマニュアル</a>をご参照ください。</p>
+</div>
+<br>
+<p class="rubric"><strong>▼Denoising</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver_Denoising.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver_Denoising.jpg" src="../../_images/06_glossary_Menu_window_Solver_Denoising.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>①【▼Parameters】：処理のパラメータ設定</p>
+<p>② 【▼Type】：Smoothing機能の設定<br />
+　・Raw：
+　・Smoothing：
+　・Peak：</p>
+<p>③ Weight：強さを設定</p>
+<p>④ Reps：回数を設定</p>
+<p>⑤【Save current denoising profile】：現在の設定をプリセットとして保存<br />
+　「Save Denoising preset」ウインドウが開きます。</p>
+<ul class="simple">
+<li><p>プリセットの登録には「Preset name」を入力し【Save】します。</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver_Denoising_Preset.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver_Denoising_Preset.jpg" src="../../_images/06_glossary_Menu_window_Solver_Denoising_Preset.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>⑥【▼Preset】：登録したプリセットが表示される</p>
+<p>⑦ 【Delete】：選択（☑）したプリセットを削除</p>
+<br>
+<p class="rubric"><strong>▼Post processing</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver_Postprocessing.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver_Postprocessing.jpg" src="../../_images/06_glossary_Menu_window_Solver_Postprocessing.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① ☐ Gaze Freezing：</p>
+<p>② ☑ Prioritize profile：<br />
+　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力<br />
+　解析の予測値よりもProfile登録時のリターゲットの値を優先します。</p>
+<p>③ Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）<br />
+　例：Range1.0の場合 → 前後0.5秒がスムージング対象</p>
+<p>④ Exponential Coefficient：デフォルト値は1.0（線形）<br />
+　値が小さいほどカーブが滑らかになります（その文解析の予測値から遠ざかります。）</p>
+<p>⑤ Clamp mode：クランプ処理の設定を切り替え<br />
+　・No Clamp：クランプ処理なし<br />
+　・Hard Clamp：アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値で<br />
+　　クランプ （クランプされた範囲のスムージング処理なし）<br />
+　・Soft Clamp：アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値で<br />
+　　クランプ  （クランプされた範囲のスムージング処理あり）</p>
+<br>　
+</div>
+<input id="sd-tab-item-9" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-9">
+Log</label><div class="sd-tab-content docutils">
+<br>
+<p>FCS上で表示されたログを確認できます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Log.jpg"><img alt="../../_images/06_glossary_Menu_window_Log.jpg" src="../../_images/06_glossary_Menu_window_Log.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① 【WARNING ▼】：表示するログの種類を選択
+　・INFO：インフォメーションログを表示<br />
+　・WARNING：警告ログを表示<br />
+　・ERROR：エラーログを表示</p>
+<p>② Time：発生時刻</p>
+<p>③ Logeer</p>
+<p>④ Level：ログの種類　※①を参照ください。</p>
+<p>⑤ Message：ログの詳細・メッセージ内容</p>
+<p><strong>最新のログについては常にFCS下部に表示されます。</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Log02.jpg"><img alt="../../_images/06_glossary_Menu_window_Log02.jpg" src="../../_images/06_glossary_Menu_window_Log02.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+</div>
+</div>
+<br>
+<p class="rubric"><strong>Menu説明 目次</strong></p>
+<p><a class="reference internal" href="file.html"><span class="std std-doc"><strong>〇File</strong></span></a>：Session(セッション)ファイルの管理と基本操作</p>
+<p><a class="reference internal" href="settings.html"><span class="std std-doc"><strong>〇Settings</strong></span></a>：File/Settings　FCS全体の環境設定と動作オプション</p>
+<p><a class="reference internal" href="#"><span class="std std-doc"><strong>〇Window</strong></span></a>：各種ウィンドウの表示・操作ガイド</p>
+<p><a class="reference internal" href="maya.html"><span class="std std-doc"><strong>〇Maya</strong></span></a>：Mayaの起動・連携</p>
+<p><a class="reference internal" href="view.html"><span class="std std-doc"><strong>〇View</strong></span></a>：作業画面のレイアウト調整</p>
+<p><a class="reference internal" href="explore.html"><span class="std std-doc"><strong>〇Explore</strong></span></a>：FCSからWindowsエクスプローラーのファイル参照</p>
+<p><a class="reference internal" href="info.html"><span class="std std-doc"><strong>〇Info</strong></span></a>：バージョン情報など</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 26.04 Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

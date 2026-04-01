@@ -1,0 +1,433 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T21:46:07+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create or Open a Session &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=3ce10a4d"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Launch Maya" href="03_launch-maya.html" />
+    <link rel="prev" title="Launch FCS" href="01_launch-FCS.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">Table of Contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01_updates/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">What is FCS</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Workflow</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_launch-FCS.html">Launch FCS</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Create or Open a Session</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_launch-maya.html">Launch Maya</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04_register-controller.html">Register Controllers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_create-profile.html">Create a Profile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_export-animation.html">How to Output Animation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_export.html">Export</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_glossary/index.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_support/index.html">Help and Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_release-schedule/index.html">Development Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08_advanced_doc_link.html">テクニカルマニュアル(external) ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09_interactive_doc_link.html">Chat Manual (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Workflow</a></li>
+      <li class="breadcrumb-item active">Create or Open a Session</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/03_workflow/02_create-or-open-session.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="session">
+<h1>Create or Open a Session<a class="headerlink" href="#session" title="Link to this heading"></a></h1>
+<p>In FCS, a “Session” is a file that links actor information, character information, Maya scene information, and their analysis data together.</p>
+<p>After launching FCS, execute [New… (Create New)] or [Open] to access Session data.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By configuring the Session settings first, you can smoothly begin working using buttons within FCS without having to operate Maya separately.</p>
+</div>
+<p class="rubric"><strong>Folder structure created by Create new Session</strong></p>
+<br>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_structure.jpg"><img alt="../_images/03_workflow_session_folder_structure.jpg" src="../_images/03_workflow_session_folder_structure.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p>*Red border: Folders created by Project Folder<br />
+*Blue border: Folders created by Actor<br />
+*Green border: Folders created by Character</p>
+<ul class="simple">
+<li><p><strong>Facial</strong>: Location for storing materials such as video and Maya scene data</p>
+<ul>
+<li><p><strong>Assets</strong>: Stores Maya project files (under Assets)</p></li>
+<li><p><strong>RecData</strong>: Stores ROM exercise videos and videos to be analyzed by FCS</p></li>
+<li><p><strong>Scene</strong>: Default output destination when exporting animation</p></li>
+<li><p><strong>SetData</strong>: wav output destination when “audio” is selected during animation export</p></li>
+</ul>
+</li>
+</ul>
+<br>
+<ul class="simple">
+<li><p><strong>FCS</strong>: Project folder where data used for analysis is stored</p>
+<ul>
+<li><p><strong>Actor</strong>: Folder with the Actor name (the name you entered)</p>
+<ul>
+<li><p><strong>Character</strong>: Folder with the Character name (the name you entered)</p>
+<ul>
+<li><p><strong>RetargetData</strong>: Edit data for created Profiles</p></li>
+<li><p><strong>VideoData</strong>: Cache of analyzed videos</p></li>
+<li><p><strong>.lock</strong>: Lock file to prevent conflicts</p></li>
+<li><p><strong>fcs_session.yaml</strong>: File that stores Session information</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<p class="rubric"><strong>Creating a New Session</strong></p>
+<p>Select File → Session → New…</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_new_create.jpg"><img alt="../_images/03_workflow_session_new_create.jpg" src="../_images/03_workflow_session_new_create.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<br>
+<ol class="arabic">
+<li><p>Project Folder Settings</p>
+<p>Click the [Browse] button to open the window for specifying the Project Folder.</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_browse.jpg"><img alt="../_images/03_workflow_session_folder_browse.jpg" src="../_images/03_workflow_session_folder_browse.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Select any folder where you want to save FCS data</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+ <br>
+<p>Press [Create] to create the Project Folder.</p>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_create.jpg"><img alt="../_images/03_workflow_session_folder_create.jpg" src="../_images/03_workflow_session_folder_create.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">[Create]</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+ <br>
+<p>A popup will appear when the creation is successful.</p>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_close.jpg"><img alt="../_images/03_workflow_session_folder_close.jpg" src="../_images/03_workflow_session_folder_close.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">[Close]</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+ <br>
+<p>The [Facial] and [FCS] folders will be created in Explorer.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_complete.jpg"><img alt="../_images/03_workflow_session_folder_complete.jpg" src="../_images/03_workflow_session_folder_complete.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>After creation, it is recommended to move the Maya scene to be linked into the Project Folder → Facial → Assets folder,<br />
+and the videos to be analyzed into the Project Folder → Facial → Recdata folder.<br />
+*You can still access them even if they are saved in a different location.</p>
+</div>
+<figure class="align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_assets_folder.jpg"><img alt="../_images/03_workflow_session_assets_folder.jpg" src="../_images/03_workflow_session_assets_folder.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Example: Assets folder</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id5">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_recdata_folder.jpg"><img alt="../_images/03_workflow_session_recdata_folder.jpg" src="../_images/03_workflow_session_recdata_folder.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Example: RecData folder</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>Actor Settings</p>
+<p>Click the [+] button to open the [Create new actor folder] window for creating an ActorFolder.<br />
+Enter the name you want to register in [Actor Name] and press [Create].<br />
+*Actor = Actor name</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_actor_create.jpg"><img alt="../_images/03_workflow_session_actor_create.jpg" src="../_images/03_workflow_session_actor_create.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<p>A popup will appear when the creation is successful.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_actor_close.jpg"><img alt="../_images/03_workflow_session_actor_close.jpg" src="../_images/03_workflow_session_actor_close.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<p>The Actor folder with the entered name will be created directly under the Project Folder in Explorer.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_actor_folder.jpg"><img alt="../_images/03_workflow_session_actor_folder.jpg" src="../_images/03_workflow_session_actor_folder.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>Character Settings</p>
+<p>Click the [+] button to open the [Create new character Folder] window for creating a characterFolder.<br />
+Enter the name you want to register in the [Character Name] field and press [Create].</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_character_create.jpg"><img alt="../_images/03_workflow_session_character_create.jpg" src="../_images/03_workflow_session_character_create.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<p>The Character folder with the entered name will be created directly under the Actor folder in Explorer.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_character_folder.jpg"><img alt="../_images/03_workflow_session_character_folder.jpg" src="../_images/03_workflow_session_character_folder.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>MayaScene Settings</p>
+<p>Click [Browse] to open the window for specifying the MayaScene.</p>
+<ul class="simple">
+<li><p>Specify the path to the MayaScene data.</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_maya_scene_path.jpg"><img alt="../_images/03_workflow_session_maya_scene_path.jpg" src="../_images/03_workflow_session_maya_scene_path.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>MayaBase Settings</p>
+<p>Click [Browse] to open the window for specifying MayaBase.<br />
+Specify the location where workspace.mel resides (the location registered in the Maya scene’s project settings).</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>The popup window in FCS does not display workspace.mel</p>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_maya_ver_browse.jpg"><img alt="../_images/03_workflow_session_maya_ver_browse.jpg" src="../_images/03_workflow_session_maya_ver_browse.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>MayaVer Settings</p>
+<p>Specify the Maya version used to create the Scene.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_maya_ver_select.jpg"><img alt="../_images/03_workflow_session_maya_ver_select.jpg" src="../_images/03_workflow_session_maya_ver_select.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<p>After completing all entries, press [Save].</p>
+<figure class="align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_maya_ver_save.jpg"><img alt="../_images/03_workflow_session_maya_ver_save.jpg" src="../_images/03_workflow_session_maya_ver_save.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">[Save]</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_create_yaml.jpg"><img alt="../_images/03_workflow_session_create_yaml.jpg" src="../_images/03_workflow_session_create_yaml.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">The fcs_session.yaml (FCS file) will be created directly under the character folder in Explorer.</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+ <br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The .lock file prevents access from other users during work.<br />
+It is automatically deleted when the application exits normally.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If the .lock file remains due to an abnormal termination,<br />
+delete it from the popup when launching FCS,<br />
+or delete the .lock file directly in Explorer.</p>
+</div>
+ <br>
+</li>
+</ol>
+<p class="rubric"><strong>If a Session has already been created</strong></p>
+<p>Open the Session from the history or from the fcs_session.yaml file.</p>
+<br>
+<p class="rubric"><strong>Opening from history</strong></p>
+<p>If you have previously opened a Session, the history will be displayed under File → Session → Open.</p>
+<ul class="simple">
+<li><p>Click the data you want to work with.</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_open_log.jpg"><img alt="../_images/03_workflow_session_open_log.jpg" src="../_images/03_workflow_session_open_log.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<br>
+<p class="rubric"><strong>Opening from the fcs_session.yaml file</strong></p>
+<ul class="simple">
+<li><p>File → Session → Open → Open…<br />
+When the OpenSession window opens, local and network drives will be displayed.</p></li>
+<li><p>Select and open the fcs_session.yaml file located directly under the Character folder.</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_open_yaml.jpg"><img alt="../_images/03_workflow_session_open_yaml.jpg" src="../_images/03_workflow_session_open_yaml.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>After creating or opening a Session, you cannot create or open another Session consecutively.<br />
+If you want to open a different Session, close the current Session, restart FCS, and then open the desired Session.</p>
+</div>
+<br>
+<p class="rubric"><strong>If the “MayaVer Settings” are not applied</strong></p>
+<p>The settings configured during Session creation can be checked via File → Session → info.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_maya_session_info.jpg"><img alt="../_images/03_workflow_maya_session_info.jpg" src="../_images/03_workflow_maya_session_info.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>If the MayaVer set in New Session is not reflected in the info, right-click Maya Version on the info screen and change it from Edit.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_maya_info_edit.jpg"><img alt="../_images/03_workflow_maya_info_edit.jpg" src="../_images/03_workflow_maya_info_edit.jpg" style="width: 80%;" />
+</a>
+</figure>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_maya_change_maya_ver.jpg"><img alt="../_images/03_workflow_maya_change_maya_ver.jpg" src="../_images/03_workflow_maya_change_maya_ver.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Be sure to press the Save button after changing settings</p>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="01_launch-FCS.html" class="btn btn-neutral float-left" title="Launch FCS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="03_launch-maya.html" class="btn btn-neutral float-right" title="Launch Maya" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

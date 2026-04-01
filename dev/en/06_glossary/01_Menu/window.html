@@ -1,0 +1,830 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T12:41:10+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Window &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=3ce10a4d"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../00_contents/index.html">Table of Contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../01_updates/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../02_getting-started/index.html">What is FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../03_workflow/index.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../07_support/index.html">Help and Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../04_release-schedule/index.html">Development Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../08_advanced_doc_link.html">テクニカルマニュアル(external) ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../09_interactive_doc_link.html">Chat Manual (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Window</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/06_glossary/01_Menu/window.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="window">
+<h1>Window<a class="headerlink" href="#window" title="Link to this heading"></a></h1>
+<p>This section explains the role of each functional window in FCS, and how to control display and operate each one.</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-0">
+Window</label><div class="sd-tab-content docutils">
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_Window.jpg"><img alt="../../_images/06_glossary_Menu_Window.jpg" src="../../_images/06_glossary_Menu_Window.jpg" style="width: 80%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① Videos:<br />
+Window for importing and processing videos</p>
+<p>② Processor:<br />
+Window for configuring batch processing of multiple videos</p>
+<p>③ Controllers:<br />
+Window for controller registration</p>
+<p>④ Profiles/Gallery:<br />
+Window for registered Profiles</p>
+<p>⑤ Editor: Window for Profile registration</p>
+<p>⑥ Solver:<br />
+Window for detailed output settings</p>
+<p>⑦ Log: Window for displaying FCS logs</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-1">
+Videos</label><div class="sd-tab-content docutils">
+<br>
+<p>Opens the Videos window.</p>
+<p>The Videos window displays a list of imported HMC videos.<br />
+You can configure and process individual videos through the right-click context menu.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_videos.jpg"><img alt="../../_images/06_glossary_Menu_window_videos.jpg" src="../../_images/06_glossary_Menu_window_videos.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<p>① Filter input field: Filter by video name</p>
+<p>② [Import]: Import new videos<br />
+Clicking opens a dialog where you can select videos. You can select multiple videos by holding the Shift key.</p>
+<p>③ Video table header. You can change the displayed content from the right-click menu.</p>
+<p>④ Selection ON/OFF: Toggle batch processing target</p>
+<p>⑤ Video name<br />
+Right-click to display a menu for individual animation output and other operations.<br />
+*See “Videos / Right-click menu” for details.</p>
+<p>⑥ Selection ON/OFF (All): Toggle selection ON/OFF for all videos</p>
+<p>⑦ Remove button: Displays the “Remove Videos and Sequences” window</p>
+<br>
+<p class="rubric"><strong>Videos Right-click Menu</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_videos_click.jpg"><img alt="../../_images/06_glossary_Menu_window_videos_click.jpg" src="../../_images/06_glossary_Menu_window_videos_click.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① Video name</p>
+<p>② [Open]: Open the video<br />
+It will be displayed in the Player and Timeline.</p>
+<p>③ [Remove]: Delete the video<br />
+Displays the “Remove Videos and Sequences” window.</p>
+</div>
+</div>
+</div>
+<p>④ [▼ Process]: Animation output for a single video</p>
+<p>⑤ ☑ Reprocess: Re-analyze from scratch even if cache already exists<br />
+*Without the check, existing cache data will be used as-is for analysis.<br />
+It is generally recommended to keep this checked (☑).</p>
+<p>⑥ Upload Options: Check (☑) the items you want to output to Maya<br />
+・☑ Animation: Animation data<br />
+・☑ Audio: Load audio data into Maya<br />
+・☑ Frames: Output sequential images of the video (*Loaded into Maya’s image plane)<br />
+・☑ LM Frames: Generate sequential images with landmarks<br />
+(*Loaded into Maya’s image plane)</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>“LM Frames” cannot be used with the ++ pipeline.<br />
+Also, please check (☑) only one of “Frames” or “LM Frames”.<br />
+If both are checked, the “LM Frames” images will not be output.</p>
+</div>
+<br>
+<p>⑦ Export Options: Check (☑) the items you want to export<br />
+・☑ Playblast: Output and save a playblast as a mov format video<br />
+・☑ Scene: Output and save the Maya scene</p>
+<p>⑧ [Start processing]: Execute processing with the settings from ⑥ and ⑦</p>
+<p>⑨ [▼ Copy]<br />
+・Filename: Copy the video filename to clipboard<br />
+・Full path: Copy the full path of the video to clipboard<br />
+・Parent: Copy the parent directory path of the video to clipboard</p>
+<br>
+<p class="rubric"><strong>Remove Videos and Sequences Window</strong></p>
+<p>Use this window to specify options and remove videos from FCS.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_remove_videos.jpg"><img alt="../../_images/06_glossary_Menu_window_remove_videos.jpg" src="../../_images/06_glossary_Menu_window_remove_videos.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① Video: Video name</p>
+<p>② Delete caches option: Regarding cache data<br />
+・☑ SetData: Whether to also delete files in the set data (audio, sequential images)<br />
+・☑ Tracking Sequence: Whether to also delete the video’s tracking data<br />
+・Profiles: Regarding profiles added from the video to be deleted<br />
+Keep -&gt; Profiles are maintained as-is.<br />
+Keep but unlink -&gt; Profiles are maintained but the association with the video is removed.<br />
+(The profile’s video name becomes Unknown)<br />
+Delete -&gt; Delete everything</p>
+<p>③ [Execute]: Execute</p>
+<p>④ [Cancel]: Cancel</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When you want to import a video with the same name but different content (e.g., due to duration changes), if you set Profiles to Keep, delete the video, and re-import it, the picked-up frame positions may shift, resulting in unexpected animation results.<br />
+Please use Delete or Keep but unlink as appropriate to remove the association with the previous video.</p>
+</div>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-2">
+Processor</label><div class="sd-tab-content docutils">
+<br>
+<p>Opens the Processor window.</p>
+<p>The Processor window provides batch processing functionality for multiple videos at once.<br />
+Videos with their checkbox turned ON in the Videos window will be targeted for processing.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_processor.jpg"><img alt="../../_images/06_glossary_Menu_window_processor.jpg" src="../../_images/06_glossary_Menu_window_processor.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<p>① <strong>Output Folder</strong>: Specify the output destination</p>
+<p>② <strong>Output Targets</strong>: Specify the content to output<br />
+・☑ Animation: Output animation data<br />
+・☑ Audio: Load audio data into Maya<br />
+・☑ Frames: Output sequential images of the video and load into Maya’s image plane<br />
+・☑ LM Frame: Generate sequential images with landmarks and load into Maya’s image plane<br />
+*Cannot be used with the “++ pipeline”<br />
+・☑ Playblast: Output and save a playblast as a mov format video<br />
+・☑ Scene: Save the Maya scene<br />
+・Format: Specify the Maya save format (.mb / .ma)</p>
+<p>③ <strong>Advanced</strong>: Detailed settings for output processing<br />
+・☑ Reprocess: Re-analyze from scratch even if cache already exists<br />
+・Output Filename: Specify the output data name</p>
+<br>
+<p class="rubric"><strong>Parameters for specifying folder names and video names</strong></p>
+<br>
+<!--start_here_Processor_01-->
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can set a custom output filename by changing the Output Filename.</p>
+<ul class="simple">
+<li><p>{solver} : Solver name</p></li>
+<li><p>{video} : Video filename</p></li>
+<li><p>{user} : Windows username</p></li>
+<li><p>{project} : Project folder name</p></li>
+<li><p>{chara} : Character name</p></li>
+<li><p>{actor} : Actor name</p></li>
+<li><p>{%Y%m%d}, {%H%M%S} : Date (YYYYMMDD), Time (HHMMSS)</p></li>
+</ul>
+<p>Setting it to {video} only will output using the imported video name.</p>
+</div>
+<!--end_here_Processor_01-->
+<br>
+<p>④ <strong>[Start]</strong>: Start animation output</p>
+<p>⑤ <strong>Progress bar</strong>: Displays processing status</p>
+<p>⑥ <strong>Log</strong>: Displays the processing status log</p>
+<br>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-3">
+Controllers</label><div class="sd-tab-content docutils">
+<br>
+<p>This is the window for controller registration.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_controller.jpg"><img alt="../../_images/06_glossary_Menu_window_controller.jpg" src="../../_images/06_glossary_Menu_window_controller.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① Filter: Filter by entered controller name<br />
+② [all▼]: Filter controllers<br />
+all / null / upper / lower / gaze / eyelid — Filters and displays the specified items.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Region name (upper / lower / gaze / eyelid):<br />
+Displays the controllers registered to the current Region.<br />
+If you press Add Selected while the dropdown is set to a Region,<br />
+the controllers will be loaded with that Region already assigned.</p></li>
+<li><p>all: Displays controllers from all Regions.<br />
+Loading controllers while set to all will assign null (no Region) to the Region.</p></li>
+<li><p>null: Displays controllers that have no Region assigned.<br />
+If there is even one null entry in the controller table, you cannot save the registered controllers.<br />
+Please verify that no controllers have a null Region before saving.</p></li>
+</ul>
+</div>
+<br>
+<p>③ Maya/Add selected: Register controllers selected in Maya<br />
+④ ☑ Sync: Synchronize value operations with Maya<br />
+Example: Value operations such as ⑧ min/max, ⑨ default</p>
+<p>⑤ ☑ : Selection<br />
+⑥ Controller name: List of registered controller names<br />
+Right-click to display an individual menu. See “<strong>Controller name -&gt; Right-click</strong>” below for details.</p>
+<p>⑦ Region: Display and adjust the Region assigned to each controller.<br />
+You can change the Region individually with [Region (upper in the image) ▼].</p>
+<p>⑧ min/max: Display and adjust the minimum/maximum values of controllers</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The maximum and minimum values are automatically entered, but please adjust them if the values are excessively large.</p>
+</div>
+<p>⑨ default: Display and adjust the default values of controllers</p>
+<p>⑩ [▼Value]: Adjust values for checked (☑) controllers<br />
+・▼Min / Max / Default: Which value to adjust<br />
+・0.000: The value to input<br />
+・Apply: Apply the entered value to the controllers</p>
+<p>⑪ [▼Region]: Set Region for checked (☑) controllers<br />
+upper / lower / gaze / eyelid<br />
+-&gt; Sets to the selected Region.</p>
+<p>⑫ Remove: Remove checked (☑) controllers from the table</p>
+<p>⑬ [Select All]: Check (☑) all displayed controllers<br />
+⑭ [Unselect All]: Uncheck (□) all displayed controllers</p>
+<p>⑮ [▼Advanced]<br />
+・[Remove empty]: Remove controllers with no Region assigned (null) from the table<br />
+・[Delete all]: Delete all registered controller information<br />
+・[Reset]: Revert to the last [Save]d state<br />
+・[Rename]: Open the “Replace controllers” window<br />
+*See “<strong>Batch renaming multiple controllers</strong>” below for details.<br />
+・☑ Rearrange: Enable reordering of the controller table via drag and drop</p>
+<p>⑯ [Save]: Save controller changes and register them in controller Info</p>
+<br>
+<p class="rubric"><strong>Controller Name -&gt; Right-click</strong></p>
+<p>Right-clicking a controller name in the list displays a menu.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_controller_click.jpg"><img alt="../../_images/06_glossary_Menu_window_controller_click.jpg" src="../../_images/06_glossary_Menu_window_controller_click.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① [▼Copy&amp;Paste]<br />
+・[Copy Name]: Copy the controller name<br />
+・[Copy Values]: Copy value settings<br />
+・[Copy Blendshapes]: Copy blendshapes<br />
+・[Paste Values]: Paste value settings<br />
+・[Paste Blendshapes]: Paste blendshapes</p>
+<br>
+<p>② [▼Reset]<br />
+・[To Save]: Revert name, values, etc. to the state at the time of [Save]<br />
+・[To Maya]: Revert name, values, etc. to Maya’s settings</p>
+<br>
+<p>③ [Rename]: Change the controller name.<br />
+The “Rename controller” window opens. Enter the desired name in “New Name”<br />
+and press [Rename].</p>
+<br>
+<p class="rubric"><strong>Batch Renaming Multiple Controllers</strong></p>
+<p>Check (☑) the controllers you want to rename and press [▼Advanced] -&gt; [Rename].<br />
+The “Replace controllers” window will open.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_controller_Rename.jpg"><img alt="../../_images/06_glossary_Menu_window_controller_Rename.jpg" src="../../_images/06_glossary_Menu_window_controller_Rename.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① [Add]: Add a string to the controller name<br />
+[front ▼] (front/back): Specify whether to add to the front or back of the controller name.</p>
+<p>② [Replace]: Replace a specified string in the controller name<br />
+-&gt; Enter the ‘<strong>original string</strong>’ and ‘<strong>replacement string</strong>’ respectively.</p>
+<p>③ Preview: Preview of controller names before and after conversion<br />
+Pressing [Add] or [Replace] in ① or ② respectively will display a preview.</p>
+<p>④ [Save]: Apply the rename<br />
+Confirm the Preview in ③, and if there are no issues, press [Save] to apply.</p>
+<br>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-4">
+Profiles/Gallery</label><div class="sd-tab-content docutils">
+<br>
+<p>Gallery is a window that displays a list of created Profiles.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① [◀][▶]: Change the number of profiles displayed per row<br />
+[◀]: Decrease (minimum 3) [▶]: Increase (maximum 10)</p>
+<p>② Count: XX: Total number of registered profiles</p>
+<p>③ Profile filter: Filter by matching criteria<br />
+・Blank: Display all profiles<br />
+・Enabled: Display profiles used for analysis (profiles registered with Enabled checked ☑)<br />
+・Disabled: Display profiles not used for analysis (profiles registered without Enabled checked)<br />
+・Default: Display profiles with default values, including Neutral<br />
+・Not Default: Display profiles with non-default values<br />
+・Neutral: Display profiles registered with Neutral checked<br />
+・No Tags: Display profiles with no tags set<br />
+・(Region) Enabled: Display profiles registered with the corresponding (Region) checked ☑<br />
+・(Region) Disabled: Display profiles registered without the corresponding (Region) checked</p>
+<p>④ ☑ Sync timeline: When selecting a profile while the same video is open,<br />
+the timeline jumps to the corresponding frame</p>
+<p>⑤ ☑ Advanced: Display advanced features. *See the sections at the bottom of the page for details.</p>
+<p>⑥ List of registered profiles</p>
+<!--start_here_gallery_01-->
+<div class="info admonition">
+<p class="admonition-title">About the border colors when profiles are added</p>
+<ul class="simple">
+<li><p>Red: Profile with default values / unedited</p></li>
+<li><p>Green: Profile registered with “Neutral” checked (☑)</p></li>
+<li><p>Blue: Currently selected (being edited) profile</p></li>
+<li><p>Black: Profile registered as “Disabled” with “Enabled” unchecked</p></li>
+<li><p>White: Profile registered after retargeting</p></li>
+</ul>
+</div>
+<!--end_here_gallery_01-->
+<p><br><br></p>
+<p class="rubric"><strong>About ☑ Advanced</strong></p>
+<p><strong>[▶ Filter]</strong><br />
+Allows you to configure more detailed filtering.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Filter.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Filter.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Filter.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>① Name: Display Profiles whose name contains the entered string</p>
+<p>② Tag: Select a tag name from the dropdown to display Profiles with that tag</p>
+<p>③ Video: Select a video name from the dropdown to display Profiles picked from that video</p>
+<p>④ Property: Select from the dropdown to display matching Profiles<br />
+*This is linked with <strong>③ Profile filter</strong> above.</p>
+<p>⑤ Upto: Select the number of items to display</p>
+<p>⑥ [Reset]: Reset filters</p>
+<br>
+<p><strong>[▶ Sort]</strong></p>
+<p>Change the display order of Profiles.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Sort.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Sort.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Sort.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>① Order [▼]: Change sort order between ascending and descending</p>
+<p>② By property: Select the sort criteria<br />
+・Video: Sort by video name<br />
+・Created At: Sort by profile creation date/time<br />
+・Saved At: Sort by save date/time<br />
+・Name: Sort by profile Name<br />
+・Confidence: Sort by algorithm match degree (closest to predict results)<br />
+・Randomized: Display randomly<br />
+・(controller name): Sort by the value registered for the corresponding (controller)</p>
+<br>
+<p><strong>[▶ Batch Edit]</strong></p>
+<p>You can batch change the enable/disable (ON/OFF) status or add tags to all displayed Profiles.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Batch.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Batch.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Batch.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>① Property: Specify which item to change settings for<br />
+・Enabled: Apply to all Regions<br />
+・(Each Region name): Apply to that Region</p>
+<p>② ☑ [Apply]:<br />
+・Check (☑) to use the displayed Profiles for analysis<br />
+・Uncheck (□) to exclude them</p>
+<p>③ Tag: Set tags in batch for all displayed Profiles<br />
+・Input field: Enter the tag name<br />
+・[Add]: Add the tag<br />
+・[Remove]: Remove the tag</p>
+<br>
+<p><strong>[▶ Misc]</strong></p>
+<p>You can change the Gallery display format and other miscellaneous settings.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Misc.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Misc.jpg" src="../../_images/06_glossary_Menu_window_Profile_Gallery_Adbanced_Misc.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>① □ Hide Tooltip: Toggle display/hide of the registered Region diagram</p>
+<p>② Display Mode: Change the Profile display format<br />
+・Image: Display with actor photos<br />
+・Render: Display with character model screenshots</p>
+<p>③ [Refresh Renders]: Re-export screenshots for Display Mode &gt; Render display<br />
+using the current Maya settings</p>
+<br>
+</div>
+<input id="sd-tab-item-5" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-5">
+Profiles/Editor</label><div class="sd-tab-content docutils">
+<br>
+<p>This is the window for registering profiles.<br />
+Create facial expressions corresponding to images in Maya and load them into FCS, or create them in FCS and load into Maya.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① To Maya▼: Settings for whether to synchronize value operations with Maya<br />
+・To Maya: Transfer registered profile information to Maya<br />
+・From Maya at save: Retrieve adjustment data from Maya and apply to FCS when saving<br />
+・Both: Bidirectional synchronization between FCS and Maya<br />
+・No Sync: Do not synchronize FCS and Maya</p>
+<p>② □ Neutral: Set whether this is a Neutral expression<br />
+Be sure to register exactly one as the default expression.</p>
+<p>③ ☑ Enabled: Set whether to include this profile in analysis</p>
+<p>④ Controller▼: Switch the slider label format for ⑥<br />
+・Controller: Display by controller name<br />
+・Value: Display by controller value</p>
+<p>⑤ Displays the image of the selected frame</p>
+<p>⑥ Slider: Displays registered controllers as sliders<br />
+You can adjust Maya controllers from within FCS</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can directly input values by Ctrl+clicking the sliders on the right side of the controller window.</p>
+</div>
+<p>⑦ ▼Info: Display various information</p>
+<br>
+<p><strong>[▼Region]</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Region.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Region.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Region.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<br>
+<p>Upper/Eyelid/Gaze/Lower:<br />
+Specify which Region’s expressions<br />
+are included in this profile</p>
+</div>
+</div>
+</div>
+<br>
+<p><strong>[▼Utils]</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Utils.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Utils.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Utils.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① To Maya:<br />
+Send values edited in FCS to Maya’s controllers</p>
+<p>② From Maya:<br />
+Send values edited in Maya to FCS</p>
+<p>③ Predict:<br />
+A function that analyzes facial expressions from images and applies them to Maya</p>
+<p>④ □ LM:<br />
+Toggle Landmark display</p>
+<p>⑤ ☑ Image:<br />
+Toggle profile image display</p>
+</div>
+</div>
+</div>
+<br>
+<p><strong>[▼Filter]</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Filter.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Filter.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Filter.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① all ▼:<br />
+Display only controllers for the corresponding Region<br />
+(Upper / Lower / Gaze / Eyelid / all)</p>
+<p>② Input field:<br />
+Filter controllers by entered text</p>
+</div>
+</div>
+</div>
+<br>
+<p><strong>[▼Reset]</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Reset.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Reset.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Reset.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<br>
+<p>Upper/Eyelid/Gaze/Lower/ALL:<br />
+Reset the values of the corresponding controllers to 0</p>
+</div>
+</div>
+</div>
+<p><strong>[▼Tags]</strong></p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Profile_Editor_Tags.jpg"><img alt="../../_images/06_glossary_Menu_window_Profile_Editor_Tags.jpg" src="../../_images/06_glossary_Menu_window_Profile_Editor_Tags.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<br>
+<p>Add tags to profiles</p>
+<p>Enter the tag name in the input field and press [+].</p>
+</div>
+</div>
+</div>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-6">
+Timeline</label><div class="sd-tab-content docutils">
+<br>
+<p>Operate the video timeline.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_timeline.jpg"><img alt="../../_images/06_glossary_Menu_window_timeline.jpg" src="../../_images/06_glossary_Menu_window_timeline.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① Timeline: Move the bar left and right to manually scrub through the video</p>
+<p>② [0][183]: Change the video range; you can also change it by sliding the circles on both sides</p>
+<p>③ [58]: Current frame number</p>
+<p>④ |&lt; &gt;|: Move one frame backward/forward</p>
+<p>⑤ &lt;&lt; &gt;&gt;: Jump to registered profile positions</p>
+<p>⑥ &gt;: Play/stop the video (a pause button is displayed during playback)</p>
+<p>⑦ [+]: Add a Profile at the current frame position</p>
+<p>⑧ Video: Name of the currently displayed video</p>
+<p>⑨ Profile: If a Profile has been created at the selected frame, its Profile name is shown</p>
+<br>
+<p class="rubric"><strong>Right-click Menu</strong></p>
+<p>This is the menu that appears when you right-click on the timeline.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_timeline_click.jpg"><img alt="../../_images/06_glossary_Menu_window_timeline_click.jpg" src="../../_images/06_glossary_Menu_window_timeline_click.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>① [▼Resolution]: Change the resolution of the displayed video</p>
+<p>② [▼Sync]: Maya synchronization settings<br />
+・□ No Sync:<br />
+Do not synchronize the timeline with Maya</p>
+<p>・□ To Maya:<br />
+Send FCS timeline values<br />
+to Maya’s time slider</p>
+<p>・□ From Maya:<br />
+Send Maya’s time slider values<br />
+to the FCS timeline<br />
+*A separate plugin is required.</p>
+<p>・□ Both:<br />
+Synchronize FCS and Maya timelines bidirectionally<br />
+*A separate plugin is required.</p>
+<p>③ [▼Speed]: Playback settings<br />
+・Every Frame: Play every frame<br />
+・Real Time: Real-time playback<br />
+・□ Snap<br />
+・□ Loop: Loop playback<br />
+・□ Mute: Mute audio</p>
+</div>
+</div>
+</div>
+<br>
+<p class="rubric"><strong>Timeline bar display</strong></p>
+<p>Click the ▲ in the upper left to display the timeline bar.<br />
+Press [Hide tab bar] to hide the bar.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_timeline_ver.jpg"><img alt="../../_images/06_glossary_Menu_window_timeline_ver.jpg" src="../../_images/06_glossary_Menu_window_timeline_ver.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</div>
+<input id="sd-tab-item-7" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-7">
+Player</label><div class="sd-tab-content docutils">
+<br>
+<p>The Player displays the currently open video.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_player.jpg"><img alt="../../_images/06_glossary_Menu_window_player.jpg" src="../../_images/06_glossary_Menu_window_player.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+</div>
+<input id="sd-tab-item-8" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-8">
+Solver</label><div class="sd-tab-content docutils">
+<br>
+<p>This is the window for configuring detailed animation output settings.<br />
+The default settings can generally be used as-is.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver.jpg" src="../../_images/06_glossary_Menu_window_Solver.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>▼Global</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver_Global.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver_Global.jpg" src="../../_images/06_glossary_Menu_window_Solver_Global.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① ☑ Fisheye: Optimized for processing videos shot with a fisheye lens<br />
+Uncheck this when analyzing videos shot with a wide-angle lens.</p>
+<p>② Processing Pipeline: Specify the pipeline for processing videos</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For details on each pipeline, please refer to the <a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.04/jp/experiments/index.html">Technical Manual</a>.</p>
+</div>
+<br>
+<p class="rubric"><strong>▼Denoising</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver_Denoising.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver_Denoising.jpg" src="../../_images/06_glossary_Menu_window_Solver_Denoising.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① [▼Parameters]: Processing parameter settings</p>
+<p>② [▼Type]: Smoothing function settings<br />
+・Raw:<br />
+・Smoothing:<br />
+・Peak:</p>
+<p>③ Weight: Set the strength</p>
+<p>④ Reps: Set the number of repetitions</p>
+<p>⑤ [Save current denoising profile]: Save the current settings as a preset<br />
+The “Save Denoising preset” window will open.</p>
+<ul class="simple">
+<li><p>To register a preset, enter the “Preset name” and press [Save].</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver_Denoising_Preset.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver_Denoising_Preset.jpg" src="../../_images/06_glossary_Menu_window_Solver_Denoising_Preset.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>⑥ [▼Preset]: Displays registered presets</p>
+<p>⑦ [Delete]: Delete the selected (☑) preset</p>
+<br>
+<p class="rubric"><strong>▼Post processing</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Solver_Postprocessing.jpg"><img alt="../../_images/06_glossary_Menu_window_Solver_Postprocessing.jpg" src="../../_images/06_glossary_Menu_window_Solver_Postprocessing.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① ☐ Gaze Freezing:</p>
+<p>② ☑ Prioritize profile:<br />
+For frames where a Profile is registered, output using the exact same expression values as the Profile.<br />
+Prioritizes the retarget values at Profile registration over the analysis prediction values.</p>
+<p>③ Range: Apply smoothing for the specified number of seconds before and after Profile frames (unit: seconds)<br />
+Example: Range 1.0 -&gt; 0.5 seconds before and after are smoothed</p>
+<p>④ Exponential Coefficient: Default value is 1.0 (linear)<br />
+Smaller values produce smoother curves (but deviate further from the analysis prediction values).</p>
+<p>⑤ Clamp mode: Switch clamp processing settings<br />
+・No Clamp: No clamp processing<br />
+・Hard Clamp: Clamp the animation curve using the max - min values set in the Controller window<br />
+(no smoothing applied to the clamped range)<br />
+・Soft Clamp: Clamp the animation curve using the max - min values set in the Controller window<br />
+(smoothing applied to the clamped range)</p>
+<br>　
+</div>
+<input id="sd-tab-item-9" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-9">
+Log</label><div class="sd-tab-content docutils">
+<br>
+<p>You can review logs displayed in FCS.</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Log.jpg"><img alt="../../_images/06_glossary_Menu_window_Log.jpg" src="../../_images/06_glossary_Menu_window_Log.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① [WARNING ▼]: Select the type of log to display<br />
+・INFO: Display information logs<br />
+・WARNING: Display warning logs<br />
+・ERROR: Display error logs</p>
+<p>② Time: Time of occurrence</p>
+<p>③ Logger</p>
+<p>④ Level: Log type. *See ① for reference.</p>
+<p>⑤ Message: Log details and message content</p>
+<p><strong>The latest log is always displayed at the bottom of FCS.</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_window_Log02.jpg"><img alt="../../_images/06_glossary_Menu_window_Log02.jpg" src="../../_images/06_glossary_Menu_window_Log02.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+</div>
+</div>
+<br>
+<p class="rubric"><strong>Menu Description Table of Contents</strong></p>
+<p><a class="reference internal" href="file.html"><span class="std std-doc"><strong>〇File</strong></span></a>: Session file management and basic operations</p>
+<p><a class="reference internal" href="settings.html"><span class="std std-doc"><strong>〇Settings</strong></span></a>: File/Settings - FCS global environment settings and behavior options</p>
+<p><a class="reference internal" href="#"><span class="std std-doc"><strong>〇Window</strong></span></a>: Display and operation guide for various windows</p>
+<p><a class="reference internal" href="maya.html"><span class="std std-doc"><strong>〇Maya</strong></span></a>: Maya startup and integration</p>
+<p><a class="reference internal" href="view.html"><span class="std std-doc"><strong>〇View</strong></span></a>: Workspace layout adjustment</p>
+<p><a class="reference internal" href="explore.html"><span class="std std-doc"><strong>〇Explore</strong></span></a>: Browse files in Windows Explorer from FCS</p>
+<p><a class="reference internal" href="info.html"><span class="std std-doc"><strong>〇Info</strong></span></a>: Version information, etc.</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Lang: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

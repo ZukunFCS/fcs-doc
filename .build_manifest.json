@@ -1,0 +1,30 @@
+{
+  "26.04": {
+    "tag_sha": "d36a6f8a3ee297ae14fa0b1d5135db6991dc8e22",
+    "main_sha": "8ddc03a27b29c470"
+  },
+  "25.10": {
+    "tag_sha": "91ac312c4171d04a076fe2d21d12f383085f053a",
+    "main_sha": "8ddc03a27b29c470"
+  },
+  "25.07": {
+    "tag_sha": "e7f754e84832db2031f7bc8484b9dd160edc5759",
+    "main_sha": "8ddc03a27b29c470"
+  },
+  "25.04": {
+    "tag_sha": "62675e0dfb326af22f672f730fae5d698c3484ef",
+    "main_sha": "8ddc03a27b29c470"
+  },
+  "25.01": {
+    "tag_sha": "82919d64b08fc6208714cd1a4e9e23cea395533e",
+    "main_sha": "8ddc03a27b29c470"
+  },
+  "24.10": {
+    "tag_sha": "d3c49989a5a6e7182c7bb041e6bd630ce41873cf",
+    "main_sha": "8ddc03a27b29c470"
+  },
+  "24.07": {
+    "tag_sha": "c1b4c9b92a8e459e4e6a7dbc97c71f9de3ea0923",
+    "main_sha": "8ddc03a27b29c470"
+  }
+}

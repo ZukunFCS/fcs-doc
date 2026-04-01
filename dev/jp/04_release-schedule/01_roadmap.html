@@ -1,0 +1,236 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T12:41:10+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>開発ロードマップ &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5a3f213f"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="fcs-doc-advanced ↗" href="../08_advanced_doc_link.html" />
+    <link rel="prev" title="開発ロードマップ" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">目次</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01_updates/index.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../03_workflow/index.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06_glossary/index.html">ユーザーガイド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_support/index.html">ヘルプとサポート</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">開発ロードマップ</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">開発ロードマップ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_release-schedule.html">リリース&amp;アップグレード</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../08_advanced_doc_link.html">fcs-doc-advanced ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09_interactive_doc_link.html">チャットマニュアル (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">開発ロードマップ</a></li>
+      <li class="breadcrumb-item active">開発ロードマップ</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/04_release-schedule/01_roadmap.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>開発ロードマップ<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p>FCSは現在、機能追加および継続的なクオリティの向上に向けた開発を積極的に推進しており、その一環として開発ロードマップの一部を以下の通り公開いたします。</p>
+<br>
+<p>本ロードマップは現時点での開発計画を参考情報として提示するものであり、将来のソフトウェアアップデートにおいて特定の機能実装を確約するものではございません。<br />
+また、記載されている項目の順序は必ずしも実装の優先順位を示すものではなく、開発状況や諸般の事情により予告なく内容の変更や中止を行う場合がございます。<br />
+（これに伴い、過去の計画から変更または中止となった項目についても掲載しております。）<br />
+あらかじめご了承ください。</p>
+<hr class="docutils" />
+<p class="rubric"><strong>今後の実装を予定している主な項目</strong></p>
+<br>
+<ul>
+<li><p>CLI（コマンドラインインターフェース）機能の改善<br />
+GUIを使用せずに映像処理を実行できる、無人実行（アンアテンド）モードの提供を予定しています。<br />
+コマンドラインからの操作が可能となり、バッチ処理との連携など、一連のワークフローにおける自動化・効率化を支援いたします。</p>
+<p><strong>→ こちら 26.04.01バージョン にて実装されました。</strong></p>
+</li>
+</ul>
+<br>
+<ul class="simple">
+<li><p>ポストプロセス機能<br />
+演技表現をより効果的に自動で誇張・調整するための複数のポストプロセス処理を現在開発中です。</p></li>
+</ul>
+<br>
+<p class="rubric"><strong>継続的に推進する機能強化・改善事項</strong></p>
+<br>
+<ul class="simple">
+<li><p>ランドマーク検出機能の改善<br />
+FCS独自開発の表情検出エンジンにつきましては、引き続き最優先の改善事項として取り組んでまいります。<br />
+特に、ヘッドマウントカメラ（HMC）によるクローズアップ映像において、より微細な表情の変化を正確に捉えられるよう、検出精度の向上を継続いたします。</p></li>
+</ul>
+<br>
+<ul class="simple">
+<li><p>処理の高速化<br />
+ソフトウェア全体の最適化を行い、解析から出力に至る一連の処理時間の短縮を図ります。<br />
+大規模なデータ処理や短納期が求められる制作現場において、より効率的なワークフローを提供できるよう、内部構造の改善を継続して行ってまいります。</p></li>
+</ul>
+<br>
+<p class="rubric"><strong>諸般の事情により開発を断念・中止した項目</strong></p>
+<br>
+<ul>
+<li><p>リアルタイム動画生成 リアルタイムでのアニメーション解析・出力プログラムの作成<br />
+本機能につきましては、FCSへの標準搭載を見送ることといたしました。<br />
+今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。個別対応のご相談につきましてはお問い合わせください。</p>
+<br>
+</li>
+<li><p>サンプルエンジンコードの作成(Unity, Unreal Engine, Motion Builder)<br />
+リアルタイム機能向けの上記エンジンを対象としたサンプルコードの提供計画は、リアルタイム機能と合わせて中止となりました。</p></li>
+</ul>
+ <br>
+<ul>
+<li><p>自動リターゲット機能の搭載<br />
+任意のリグに対し自動的に大まかなリターゲットを行う機能の実装についても中止となりました。</p>
+  <br>
+</li>
+<li><p>Unreal Engineによるリターゲットへの対応<br />
+現在Mayaにて提供している各種機能をUnreal Engine上でも同等に提供する計画につきましても開発を中止いたしました。</p></li>
+</ul>
+<hr class="docutils" />
+<p>FCSは、お客様の実際の制作現場により深く貢献できるツールを目指し、皆様からの追加機能のリクエストを随時お待ちしております。<br />
+また、標準的な機能提供に留まらず、貴社固有の制作パイプラインやワークフローに最適化したビルドのカスタマイズ対応も可能<a class="footnote-reference brackets" href="#id3" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a>です。</p>
+<br>
+<p>製品に関するご質問やご要望、あるいは導入にあたっての技術的な課題などがございましたら、<a class="reference external" href="https://sensing.heltec.co.jp/product/zukun-lab/fcs/">HELTECホームページ</a>よりお気軽にご相談ください。</p>
+</section>
+<hr class="footnotes docutils" />
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id3" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">1</a><span class="fn-bracket">]</span></span>
+<p>一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。</p>
+</aside>
+</aside>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="開発ロードマップ" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../08_advanced_doc_link.html" class="btn btn-neutral float-right" title="fcs-doc-advanced ↗" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

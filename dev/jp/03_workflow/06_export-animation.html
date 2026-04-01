@@ -1,0 +1,348 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T12:41:10+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>アニメーションの出力方法 &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5a3f213f"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="エクスポート" href="08_export.html" />
+    <link rel="prev" title="Profileの作成" href="05_create-profile.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">目次</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01_updates/index.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">FCSとは</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">作業フロー</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_launch-FCS.html">FCS起動</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_create-or-open-session.html">Sessionの作成・読み込み</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_launch-maya.html">Mayaの起動</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04_register-controller.html">Contorollerの登録</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_create-profile.html">Profileの作成</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">アニメーションの出力方法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_export.html">エクスポート</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_glossary/index.html">ユーザーガイド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_support/index.html">ヘルプとサポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_release-schedule/index.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08_advanced_doc_link.html">fcs-doc-advanced ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09_interactive_doc_link.html">チャットマニュアル (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">作業フロー</a></li>
+      <li class="breadcrumb-item active">アニメーションの出力方法</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/03_workflow/06_export-animation.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>アニメーションの出力方法<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>解析する動画が広角レンズを使って撮影されている場合、Solverの設定変更が必要です。<br />
+詳しくは<a class="reference internal" href="../06_glossary/01_Menu/window.html"><span class="doc std std-doc">ユーザーガイド/Menu/Window/Solver</span></a>をご確認ください。</p>
+</div>
+<br>
+<p class="rubric"><strong>単体のアニメーション出力</strong></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>出力画面の項目についての説明は<br />
+<a class="reference internal" href="../06_glossary/01_Menu/window.html"><span class="doc std std-doc">ユーザーガイド/Menu/Window/Videos</span></a>をご確認ください。</p>
+</div>
+<br>
+<p>1.Videosウィンドウで解析/出力したい動画名の上で右クリックします。<br />
+画像のメニューが表示されるので、▼Process を選択・該当する項目に ☑ を入れ、</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_process_check.jpg"><img alt="../_images/03_workflow_export_animation_process_check.jpg" src="../_images/03_workflow_export_animation_process_check.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.【Start process】を押します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_start_process.jpg"><img alt="../_images/03_workflow_export_animation_start_process.jpg" src="../_images/03_workflow_export_animation_start_process.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>解析結果を見てから再度調整を行いたい場合はPlayblastやSceneの ☑ を外しておくと時間短縮できます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_export_options.jpg"><img alt="../_images/03_workflow_export_animation_export_options.jpg" src="../_images/03_workflow_export_animation_export_options.jpg" style="width: 100%;" />
+</a>
+</figure>
+</div>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>初回出力時は時間がかかる場合があります。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_export.jpg"><img alt="../_images/03_workflow_export_animation_export.jpg" src="../_images/03_workflow_export_animation_export.jpg" style="width: 80%;" />
+</a>
+</figure>
+</div>
+<br>
+<p>3.出力中Mayaシーン上に ☑ を入れた項目が反映されていきます。</p>
+<ul class="simple">
+<li><p>タイムスライダーに音声データ</p></li>
+<li><p>イメージプレーンに連番画像</p></li>
+<li><p>アニメーションデータ の順で反映される</p></li>
+<li><p>アニメーションデータ反映時はスライダーが動く</p></li>
+</ul>
+<!-- 
+```{figure} /images/03_workflow_export_animation_maya_reflection.jpg
+:width: 100%
+:align: center
+``` -->
+<p>4.出力完了<br />
+playblastやsceneに ☑ していた場合、<br />
+出力が完了したらエクスプローラーがポップアップします。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_export_complete.jpg"><img alt="../_images/03_workflow_export_animation_export_complete.jpg" src="../_images/03_workflow_export_animation_export_complete.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>動画の一部範囲のみを再処理して出力</strong></p>
+<p>Timelineの一部表示機能を使用して、FCSのTimelineで表示している範囲のみのアニメーションを出力することができます。<br />
+※本機能は <strong>FCS 25.04.02</strong> 以降に搭載されています。</p>
+<br>
+<p>1.FCSのTimeline範囲をアニメーション出力したい部分に設定します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_partial_process.jpg"><img alt="../_images/03_workflow_export_animation_partial_process.jpg" src="../_images/03_workflow_export_animation_partial_process.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.Timelineの動画名を右クリックし、【Segment Only】にチェックを入れ、<br />
+【Start processing】を押します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_partial_process_export.jpg"><img alt="../_images/03_workflow_export_animation_partial_process_export.jpg" src="../_images/03_workflow_export_animation_partial_process_export.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<div class="admonition-maya-start admonition">
+<p class="admonition-title">Maya Start の値について</p>
+<ul class="simple">
+<li><p>FCSで指定した範囲のアニメーションをMayaの指定フレームに出力できます。<br />
+例：<br />
+　・FCS Timeline上の指定範囲：100F～200F<br />
+　・Maya Start：50<br />
+　　→この場合、アニメーションはMayaの『50F～150F』に出力されます。</p></li>
+<li><p>デフォルトでは『-1』になっています。<br />
+この場合FCSで指定した範囲と同じフレームに出力されます。<br />
+例：<br />
+　・FCS Timeline上の指定範囲：100F～200F<br />
+　　→Mayaも『100F～200F』に出力されます。</p></li>
+</ul>
+</div>
+<br>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>Timelineの動画名を右クリックし表示されるメニューからのみ実行可能です。<br />
+（Videosウィンドウからは実行不可）</p>
+</div>
+<br>
+<p>3.指定した範囲のみアニメーションが出力されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_partial_process_complete.jpg"><img alt="../_images/03_workflow_export_animation_partial_process_complete.jpg" src="../_images/03_workflow_export_animation_partial_process_complete.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>複数のアニメーション出力</strong></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>出力の項目については<a class="reference internal" href="../06_glossary/01_Menu/window.html"><span class="doc std std-doc">ユーザーガイド/Menu/Window/Processer</span></a>をご確認ください。</p>
+</div>
+<br>
+<p>1.Videosウィンドウで解析・出力したい動画名に ☑ をつけます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_processor_video_check.jpg"><img alt="../_images/03_workflow_export_animation_processor_video_check.jpg" src="../_images/03_workflow_export_animation_processor_video_check.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.Processorウインドウを開き、出力したい項目に ☑ を入れます。</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 30.0%" />
+<col style="width: 70.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../_images/03_workflow_export_animation_window_processor.jpg" /></p></td>
+<td><p><img alt="" src="../_images/03_workflow_export_animation_processor_output_name.jpg" /></p></td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Output Filenameを変更することで出力ファイル名に任意の名前を設定できます。</p>
+<ul class="simple">
+<li><p>{solver} ： solverの名前</p></li>
+<li><p>{video} ： ビデオのファイル名</p></li>
+<li><p>{user} ： windows ユーザ名</p></li>
+<li><p>{project} ： 案件フォルダ名</p></li>
+<li><p>{chara} ： キャラクター名</p></li>
+<li><p>{actor} ： 役者名</p></li>
+<li><p>{%Y%m%d}, {%H%M%S} ： 年月日、時間分秒</p></li>
+</ul>
+<p>{video}のみにするとimportした動画名で出力されます。</p>
+</div>
+<br>
+<p>3.設定できたら【Start】で処理を開始します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_processor_confirm.jpg"><img alt="../_images/03_workflow_export_animation_processor_confirm.jpg" src="../_images/03_workflow_export_animation_processor_confirm.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>4.出力が完了したらエクスプローラーがポップアップします。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_export_animation_export_complete.jpg"><img alt="../_images/03_workflow_export_animation_export_complete.jpg" src="../_images/03_workflow_export_animation_export_complete.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>カメラ・イメージプレーンについて</strong></p>
+<p>Frames、またはLM Framesにチェックを入れた場合、Maya内のイメージプレーンに連番画像がセットされます。</p>
+<p>連番画像をセットしたいカメラ・イメージプレーンの名前を<br />
+「<strong>Settings/Maya/Camera</strong>」「<strong>Settings/Maya/ImagePlane</strong>」から設定してください。<br />
+※Settingsについては<a class="reference internal" href="../06_glossary/01_Menu/settings.html"><span class="doc std std-doc">ユーザーガイド/Menu/Settings</span></a>をご参照ください。</p>
+<br>
+<p>デフォルトの設定は以下の通りです。</p>
+<ul class="simple">
+<li><p>イメージプレーン → imagePlane</p></li>
+<li><p>カメラ → fcs_cam</p></li>
+</ul>
+<p>指定した名前のカメラ・イメージプレーンがシーン内に無い場合は新しく作成されます。<br />
+パイプラインに合わせてカメラの名前を随時設定してください。</p>
+<br>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="05_create-profile.html" class="btn btn-neutral float-left" title="Profileの作成" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="08_export.html" class="btn btn-neutral float-right" title="エクスポート" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

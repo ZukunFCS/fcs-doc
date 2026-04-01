@@ -1,0 +1,432 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T21:46:07+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sessionの作成・読み込み &mdash; FCS Docs 26.04 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=f6684d60"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Mayaの起動" href="03_launch-maya.html" />
+    <link rel="prev" title="FCS起動" href="01_launch-FCS.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">目次</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01_updates/index.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">FCSとは</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">作業フロー</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_launch-FCS.html">FCS起動</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Sessionの作成・読み込み</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_launch-maya.html">Mayaの起動</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04_register-controller.html">Contorollerの登録</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_create-profile.html">Profileの作成</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_export-animation.html">アニメーションの出力方法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_export.html">エクスポート</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_glossary/index.html">ユーザーガイド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_support/index.html">ヘルプとサポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_release-schedule/index.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08_advanced_doc_link.html">fcs-doc-advanced ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09_interactive_doc_link.html">チャットマニュアル (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">作業フロー</a></li>
+      <li class="breadcrumb-item active">Sessionの作成・読み込み</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/03_workflow/02_create-or-open-session.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="session">
+<h1>Sessionの作成・読み込み<a class="headerlink" href="#session" title="Link to this heading"></a></h1>
+<p>FCSではアクター情報、キャラクター情報、Mayaシーン情報とその解析データを紐づけたファイルのことを「Session」と呼びます。</p>
+<p>FCS起動後、Sessionデータへアクセスするため【New...（新規作成）】または【Open】を実行します。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>初めにSessionに関わる設定を行うことで、Mayaを別途操作することなくFCS上のボタンでスムーズに作業を開始することができます。</p>
+</div>
+<p class="rubric"><strong>Create new Sessionで作成されるフォルダ構造</strong></p>
+<br>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_structure.jpg"><img alt="../_images/03_workflow_session_folder_structure.jpg" src="../_images/03_workflow_session_folder_structure.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p>*赤枠：Project Folderで作成されるフォルダ<br />
+*青枠：Actorで作成されるフォルダ<br />
+*緑枠：Characterで作成されるフォルダ</p>
+<ul class="simple">
+<li><p><strong>Facial</strong>　：動画やMayaシーンデータ等素材を保存する場所</p>
+<ul>
+<li><p><strong>Assets</strong>：Mayaのプロジェクトファイル（Assets以下）を保存</p></li>
+<li><p><strong>RecData</strong>：ROM体操やFCSで解析したい動画を保存</p></li>
+<li><p><strong>Scene</strong>：アニメーション出力時のデフォルト出力先</p></li>
+<li><p><strong>SetData</strong>：アニメーション出力で「audio」を選択した場合のwav出力先</p></li>
+</ul>
+</li>
+</ul>
+<br>
+<ul class="simple">
+<li><p><strong>FCS</strong>　：解析に使用するデータが保存されるプロジェクトフォルダ</p>
+<ul>
+<li><p><strong>Actor</strong>：Actor名（入力した名前）のフォルダ</p>
+<ul>
+<li><p><strong>Character</strong>：Character名（入力した名前）のフォルダ</p>
+<ul>
+<li><p><strong>RetargetData</strong>：作成したProfileの編集データ</p></li>
+<li><p><strong>VideoData</strong>：解析動画のキャッシュ</p></li>
+<li><p><strong>.lock</strong>：競合防止用のロックファイル</p></li>
+<li><p><strong>fcs_session.yaml</strong>：Session情報を保存しているファイル</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<br>
+<p class="rubric"><strong>Sessionの新規作成</strong></p>
+<p>File → Session→New...を選択</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_new_create.jpg"><img alt="../_images/03_workflow_session_new_create.jpg" src="../_images/03_workflow_session_new_create.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<br>
+<ol class="arabic">
+<li><p>Project Folderの設定</p>
+<p>【Browse】ボタンをクリックし、Project Folderを指定するためウィンドウを起動します。</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_browse.jpg"><img alt="../_images/03_workflow_session_folder_browse.jpg" src="../_images/03_workflow_session_folder_browse.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">FCSのデータを保存したい任意のフォルダを選択</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+ <br>
+<p>【Create】を押し、Project Folderを作成します。</p>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_create.jpg"><img alt="../_images/03_workflow_session_folder_create.jpg" src="../_images/03_workflow_session_folder_create.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">【Create】</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+ <br>
+<p>問題なく作成できたらポップアップが表示されます。</p>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_close.jpg"><img alt="../_images/03_workflow_session_folder_close.jpg" src="../_images/03_workflow_session_folder_close.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">【Close】</span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+ <br>
+<p>エクスプローラーで【Facial】【FCS】のフォルダが作成されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_folder_complete.jpg"><img alt="../_images/03_workflow_session_folder_complete.jpg" src="../_images/03_workflow_session_folder_complete.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>作成後、Project Folder→Facial→Assetsフォルダに紐付けるMayaシーンを、<br />
+Project Folder→Facial→Recdataフォルダに解析したい動画を<br />
+移動しておくことを推奨します。　※別の場所に保存していてもアクセスできます。</p>
+</div>
+<figure class="align-center" id="id4">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_assets_folder.jpg"><img alt="../_images/03_workflow_session_assets_folder.jpg" src="../_images/03_workflow_session_assets_folder.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">例：Assetsフォルダ</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id5">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_recdata_folder.jpg"><img alt="../_images/03_workflow_session_recdata_folder.jpg" src="../_images/03_workflow_session_recdata_folder.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">例：RecDataフォルダ</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>Actorの設定</p>
+<p>【+】ボタンをクリックし、ActorFolderを作成するための 【Create new actor folder】ウィンドウを起動します。<br />
+【Actor Name】に登録したい名前を入力し、【Create】を押します。<br />
+※Actor ＝ アクター名</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_actor_create.jpg"><img alt="../_images/03_workflow_session_actor_create.jpg" src="../_images/03_workflow_session_actor_create.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<p>問題なく作成できたらポップアップが表示されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_actor_close.jpg"><img alt="../_images/03_workflow_session_actor_close.jpg" src="../_images/03_workflow_session_actor_close.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<p>エクスプローラーでProject Folderフォルダ直下に入力したActerフォルダが作成されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_actor_folder.jpg"><img alt="../_images/03_workflow_session_actor_folder.jpg" src="../_images/03_workflow_session_actor_folder.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>Characterの設定</p>
+<p>【+】ボタンをクリックし、characterFolderを作成するための【Create new character Folder】ウィンドウを起動します。<br />
+【Character Name】の入力欄に登録したい名前を入力し、【Create】を押します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_character_create.jpg"><img alt="../_images/03_workflow_session_character_create.jpg" src="../_images/03_workflow_session_character_create.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<p>エクスプローラーでActorフォルダ直下に入力したCharacterフォルダが作成されます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_character_folder.jpg"><img alt="../_images/03_workflow_session_character_folder.jpg" src="../_images/03_workflow_session_character_folder.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>MayaSceneの設定</p>
+<p>【Browse】をクリックし、MayaSceneを指定するためウィンドウを起動します。</p>
+<ul class="simple">
+<li><p>MayaSceneデータのパスを指定します。</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_maya_scene_path.jpg"><img alt="../_images/03_workflow_session_maya_scene_path.jpg" src="../_images/03_workflow_session_maya_scene_path.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>MayaBaseの設定</p>
+<p>【Browse】をクリックし、MayaBaseを指定するためウィンドウを起動します。<br />
+workspace.melがある場所(Mayaシーンのプロジェクト設定で登録している場所)を指定してください。</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>FCS上でポップアップするウィンドウにはworkspace.melが表示されません</p>
+</div>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_maya_ver_browse.jpg"><img alt="../_images/03_workflow_session_maya_ver_browse.jpg" src="../_images/03_workflow_session_maya_ver_browse.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+</li>
+<li><p>MayaVerの設定</p>
+<p>Sceneを作成したMayaのバージョンを指定します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_maya_ver_select.jpg"><img alt="../_images/03_workflow_session_maya_ver_select.jpg" src="../_images/03_workflow_session_maya_ver_select.jpg" style="width: 80%;" />
+</a>
+</figure>
+ <br>
+<p>全て入力を終えたら【Save】を押してください。</p>
+<figure class="align-center" id="id6">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_maya_ver_save.jpg"><img alt="../_images/03_workflow_session_maya_ver_save.jpg" src="../_images/03_workflow_session_maya_ver_save.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">【Save】</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_create_yaml.jpg"><img alt="../_images/03_workflow_session_create_yaml.jpg" src="../_images/03_workflow_session_create_yaml.jpg" style="width: 80%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">エクスプローラーでcharacterフォルダ直下にfcs_session.yaml(FCSファイル)が作成されます。</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+ <br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>.lockファイルは
+作業中にほかの人からのアクセスを防ぐためのものです。<br />
+正常に終了した際には自動で削除されます。</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>不正に終了するなどして.lockファイルが残ってしまった場合、<br />
+FCSの起動時にポップアップから削除するか、<br />
+.lockファイルをエクスプローラーで直接削除してください。</p>
+</div>
+ <br>
+</li>
+</ol>
+<p class="rubric"><strong>既にSessionが作成されている場合</strong></p>
+<p>履歴またはfcs_session.yamlファイルからSessionを開いてください。</p>
+<br>
+<p class="rubric"><strong>履歴から開く場合</strong></p>
+<p>以前にSessionを起動している場合、File→Session→Openの下に履歴が表示されます。</p>
+<ul class="simple">
+<li><p>作業したいデータをクリックします。</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_open_log.jpg"><img alt="../_images/03_workflow_session_open_log.jpg" src="../_images/03_workflow_session_open_log.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<br>
+<p class="rubric"><strong>fcs_session.yamlファイルから開く場合</strong></p>
+<ul class="simple">
+<li><p>File→Session→Open→Open...<br />
+OpenSessionウィンドウが開かれたらローカルとネットワークドライブが表示されます。</p></li>
+<li><p>Characterフォルダ直下にあるfcs_session.yamlファイルを選択し、開いてください。</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_session_open_yaml.jpg"><img alt="../_images/03_workflow_session_open_yaml.jpg" src="../_images/03_workflow_session_open_yaml.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Sessionの新規作成/Open後、続けて別のSession作成や起動は出来ません。<br />
+別のSessionを開きたい場合は、現在のSessionを終了し、FCSの再起動後開きなおしてください。</p>
+</div>
+<br>
+<p class="rubric"><strong>「Maya Verの設定」をしても反映されない場合</strong></p>
+<p>Session作成時に設定した項目は File→Session→info で確認することができます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_maya_session_info.jpg"><img alt="../_images/03_workflow_maya_session_info.jpg" src="../_images/03_workflow_maya_session_info.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>New Sessionで設定したMayaVerがinfoで反映されていない場合は、info画面のMaya Versionを右クリックし、Editから変更ができます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_maya_info_edit.jpg"><img alt="../_images/03_workflow_maya_info_edit.jpg" src="../_images/03_workflow_maya_info_edit.jpg" style="width: 80%;" />
+</a>
+</figure>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_maya_change_maya_ver.jpg"><img alt="../_images/03_workflow_maya_change_maya_ver.jpg" src="../_images/03_workflow_maya_change_maya_ver.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>設定の変更後は必ずSaveボタンを押してください</p>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="01_launch-FCS.html" class="btn btn-neutral float-left" title="FCS起動" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="03_launch-maya.html" class="btn btn-neutral float-right" title="Mayaの起動" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 26.04 Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

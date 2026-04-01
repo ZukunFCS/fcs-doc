@@ -1,0 +1,375 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-04-01T12:41:10+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contorollerの登録 &mdash; FCS Docs 26.04 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=f6684d60"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Profileの作成" href="05_create-profile.html" />
+    <link rel="prev" title="Mayaの起動" href="03_launch-maya.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">目次</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../01_updates/index.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">FCSとは</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">作業フロー</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01_launch-FCS.html">FCS起動</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02_create-or-open-session.html">Sessionの作成・読み込み</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03_launch-maya.html">Mayaの起動</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Contorollerの登録</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05_create-profile.html">Profileの作成</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06_export-animation.html">アニメーションの出力方法</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08_export.html">エクスポート</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_glossary/index.html">ユーザーガイド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07_support/index.html">ヘルプとサポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04_release-schedule/index.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08_advanced_doc_link.html">fcs-doc-advanced ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09_interactive_doc_link.html">チャットマニュアル (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">作業フロー</a></li>
+      <li class="breadcrumb-item active">Contorollerの登録</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/03_workflow/04_register-controller.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="contoroller">
+<h1>Contorollerの登録<a class="headerlink" href="#contoroller" title="Link to this heading"></a></h1>
+<p>Contollerウィンドウでは、接続しているMayaSceneのコントローラーリグを登録することができます。</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 40.0%" />
+<col style="width: 60.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../_images/03_workflow_register_controller_window_controller.jpg" /></p></td>
+<td><p>Window→Controllerで<br />
+Contollerウィンドウが起動します。</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Contollerウィンドウについての説明は<a class="reference internal" href="../06_glossary/01_Menu/window.html"><span class="doc std std-doc">ユーザーガイド/Menu/Window/Contollers</span></a>をご覧ください。</p>
+</div>
+<br>
+<p class="rubric"><strong>Region（リージョン）とは</strong></p>
+<p>FCSでは顔のパーツ区分のことをRegionと呼びます。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Upper（アッパー）：眉周りの動きのこと 眉の上下や眉間にしわを寄せる動きなど</p></li>
+<li><p>Eyelid（アイリッド）：まぶたの動きのこと まばたきや目を細める動きなど</p></li>
+<li><p>Gaze（ゲイズ）：目線の動きのこと 目線の上下左右や寄り目の動きなど</p></li>
+<li><p>Lower（ロウワー）：鼻、頬、口周りの動きのこと 頬や鼻から下の動き全般</p></li>
+</ul>
+</div>
+<p>アニメーション解析のため、Upper、Eyelid、Gaze、Lowerにそれぞれコントローラーリグを１つ以上登録してください。</p>
+<br>
+<p>また、コントローラーリグの登録時にコントローラーの最大値最小値も登録できます。<br />
+最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_min_max.jpg"><img alt="../_images/03_workflow_register_controller_min_max.jpg" src="../_images/03_workflow_register_controller_min_max.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>「True/False」などの数値ではないアトリビュートがあると正常に動作しないため、登録から除外してください。</p>
+</div>
+<p><br><br></p>
+<p class="rubric"><strong>Controllerの登録</strong></p>
+<p>Upperの登録を例にcontrollerの登録方法を説明します。</p>
+<ol class="arabic simple">
+<li><p>MayaでUpperに登録したいコントローラーを選択し、</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_maya_upper_select.jpg"><img alt="../_images/03_workflow_register_controller_maya_upper_select.jpg" src="../_images/03_workflow_register_controller_maya_upper_select.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.【Add selected】ボタンを押します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_add_selected_uppper.jpg"><img alt="../_images/03_workflow_register_controller_add_selected_uppper.jpg" src="../_images/03_workflow_register_controller_add_selected_uppper.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<ol class="arabic simple" start="3">
+<li><p>Mayaで選択したコントローラーが「Controller」に表示されたら、<br />
+チェックボックスや【select All】（=全選択）でUpperに登録したいコントローラーを選択します。</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_select_all_uppper.jpg"><img alt="../_images/03_workflow_register_controller_select_all_uppper.jpg" src="../_images/03_workflow_register_controller_select_all_uppper.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<ol class="arabic simple" start="4">
+<li><p>今回はUpperに登録したいので 【Upper】を押します。<br />
+Regionの列にUpperと表示されたら設定完了です。</p></li>
+</ol>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_confirmation_uppper.jpg"><img alt="../_images/03_workflow_register_controller_confirmation_uppper.jpg" src="../_images/03_workflow_register_controller_confirmation_uppper.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<ol class="arabic simple" start="5">
+<li><p>同じ手順で他のRegion（Eyelid/Gaze/lower）も設定してください。</p></li>
+</ol>
+<p><br><br></p>
+<p class="rubric"><strong>連続して登録する場合</strong></p>
+<p>Mayaでコントローラーを選択して【Add selected】を実行すると、 選択したコントローラーが「Controller」に追加され、自動的にチェックが入ります。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_add_selected_improvement.jpg"><img alt="../_images/03_workflow_register_controller_add_selected_improvement.jpg" src="../_images/03_workflow_register_controller_add_selected_improvement.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>この状態で【Upper】を押すと今までチェックが入っていたコントローラーのチェックが外れ、RegionがUpperに変更されます。<br />
+そのまま別のコントローラーを選択して【Add selected】した例が下図です。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_auto_check.jpg"><img alt="../_images/03_workflow_register_controller_auto_check.jpg" src="../_images/03_workflow_register_controller_auto_check.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<p>新しく【Add selected】したコントローラーのみにチェックが入っています。<br />
+このように、連続して登録する際は追加されたコントローラーに対して自動でチェックが反映されるようになっています。</p>
+<br>
+<p>このとき、Regionを設定せずに新しく【Add selected】した場合にも、今までチェックが入っていたコントローラーのチェックが外れ、新しく追加したコントローラーのみにチェックが入る仕様となっています。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_add_selected_eyelid.jpg"><img alt="../_images/03_workflow_register_controller_add_selected_eyelid.jpg" src="../_images/03_workflow_register_controller_add_selected_eyelid.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>Regionが未登録状態(null)のものがあるとSaveできません。<br />
+controllerウィンドウでは、Regionの種類や登録の有無でフィルターをかけ表示を絞り込むことができます。</p>
+<p>フィルターを『null』にすることで、Regionが設定されてないcontrollerのみを表示できます。</p>
+<ul class="simple">
+<li><p>右上のall▼のタブを選択し、null▼に変更する<br />
+Regionを設定したものを非表示にし、未登録のコントローラーのみ表示させることができます。<br />
+また、Upper/Eyelid/Gaze/Lowerを選択すればそれぞれ登録したRegionで絞り込むこともできます。</p></li>
+</ul>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_all_null_eyelid.jpg"><img alt="../_images/03_workflow_register_controller_all_null_eyelid.jpg" src="../_images/03_workflow_register_controller_all_null_eyelid.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>【select All】は表示されているもののみ選択します。<br />
+また、【Unselect All】で選択解除が可能です。</p>
+</div>
+<br>
+<p>nullで絞り込んでいるのでこの状態でRegionを登録すると非表示になります。<br />
+allに戻すとすべて表示されます。</p>
+<hr class="docutils" />
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
+<div class="sd-col sd-d-flex-column docutils">
+<p>〇all選択時</p>
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_all_view.jpg"><img alt="../_images/03_workflow_register_controller_all_view.jpg" src="../_images/03_workflow_register_controller_all_view.jpg" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-col sd-d-flex-column docutils">
+<p>〇null選択時</p>
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_null_view.jpg"><img alt="../_images/03_workflow_register_controller_null_view.jpg" src="../_images/03_workflow_register_controller_null_view.jpg" style="width: 100%;" />
+</a>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<p><br><br></p>
+<p class="rubric"><strong>登録しないコントローラーを削除する方法</strong></p>
+<p>1.コントローラー単体で削除する場合<br />
+削除したいコントローラーを選択(☑)  → 【Remove】を押します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_remove.jpg"><img alt="../_images/03_workflow_register_controller_remove.jpg" src="../_images/03_workflow_register_controller_remove.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>2.nullのコントローラーを一括で削除する場合<br />
+【Remove empty】を押します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_remove_empty.jpg"><img alt="../_images/03_workflow_register_controller_remove_empty.jpg" src="../_images/03_workflow_register_controller_remove_empty.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら 【Save】してください。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_save.jpg"><img alt="../_images/03_workflow_register_controller_save.jpg" src="../_images/03_workflow_register_controller_save.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Regionが未登録状態(null)のものがあるとSave出来ません</p>
+</div>
+<p><br><br></p>
+<hr class="docutils" />
+<br>
+<p class="rubric"><strong>マニュアル以外のコントローラーを登録したい場合</strong></p>
+<p>本マニュアルでは、UnrealEngineのMetahumanを使用していますが、別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。<br />
+また、必要最低限のコントローラーのみを登録していますので、任意で登録するコントローラーを増やすことができます。</p>
+<br>
+<p class="rubric"><strong>Add selectでコントローラーの追加ができない場合</strong></p>
+<p>設定したMayaバージョンとsceneを作成したMayaバージョンが一致しているか確認してください。</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>設定したバージョンとsceneを作成したMayaバージョンが違うとコントローラーを読み取れません。</p>
+</div>
+<br>
+<p class="rubric"><strong>コントローラーの登録順を変えたい場合</strong></p>
+<p>例：L/R　blinkが離れていて不便なのでblinkを上下（隣接するよう）に並べたい場合</p>
+<p>【▶Advanced】 → 【Rearrange】に☑を入れ、<br />
+並び替えたいコントローラーをドラッグしドロップすると、順番を変更できます。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_Rearrange.jpg"><img alt="../_images/03_workflow_register_controller_Rearrange.jpg" src="../_images/03_workflow_register_controller_Rearrange.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>コントローラーの登録順を戻したい場合</strong></p>
+<p>【▶Advanced】 → 【Reset】を押すと、前回【Save】した時点での順番に戻ります。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_reset.jpg"><img alt="../_images/03_workflow_register_controller_reset.jpg" src="../_images/03_workflow_register_controller_reset.jpg" style="width: 100%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p><strong>作業しやすいように登録順を並び替えたら必ず【Save】してください。</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../_images/03_workflow_register_controller_save.jpg"><img alt="../_images/03_workflow_register_controller_save.jpg" src="../_images/03_workflow_register_controller_save.jpg" style="width: 100%;" />
+</a>
+</figure>
+<br>
+<hr class="docutils" />
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="03_launch-maya.html" class="btn btn-neutral float-left" title="Mayaの起動" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="05_create-profile.html" class="btn btn-neutral float-right" title="Profileの作成" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-04-01.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: 26.04 Lang: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
