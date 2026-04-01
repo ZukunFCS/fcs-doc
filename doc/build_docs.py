@@ -104,10 +104,24 @@ def get_tag_sha(tag):
 	return result.stdout.strip() if result.returncode == 0 else None
 
 
-def load_cached_manifest():
+def get_gh_pages_ref():
+	"""Return the correct ref for gh-pages (origin/gh-pages in CI, gh-pages locally)."""
+	for ref in ['origin/gh-pages', 'gh-pages']:
+		result = subprocess.run(
+			f"git rev-parse --verify {ref}",
+			shell=True, capture_output=True, text=True
+		)
+		if result.returncode == 0:
+			return ref
+	return None
+
+
+def load_cached_manifest(gh_pages_ref):
 	"""Load the build manifest from gh-pages branch (maps version -> tag SHA)."""
+	if gh_pages_ref is None:
+		return {}
 	result = subprocess.run(
-		"git show gh-pages:.build_manifest.json",
+		f"git show {gh_pages_ref}:.build_manifest.json",
 		shell=True, capture_output=True, text=True
 	)
 	if result.returncode == 0:
@@ -118,13 +132,15 @@ def load_cached_manifest():
 	return {}
 
 
-def restore_cached_version(version):
+def restore_cached_version(version, gh_pages_ref):
 	"""Copy a previously built version from gh-pages into pages/."""
+	if gh_pages_ref is None:
+		return False
 	dest = Path(f"pages/{version}")
 	dest.mkdir(parents=True, exist_ok=True)
 	# Extract the version directory from gh-pages branch
 	result = subprocess.run(
-		f"git show gh-pages:{version}/ 2>/dev/null",
+		f"git show {gh_pages_ref}:{version}/ 2>/dev/null",
 		shell=True, capture_output=True, text=True
 	)
 	if result.returncode != 0:
@@ -133,7 +149,7 @@ def restore_cached_version(version):
 	subprocess.run("rm -rf /tmp/_gh_pages_cache", shell=True)
 	subprocess.run("mkdir -p /tmp/_gh_pages_cache", shell=True)
 	result = subprocess.run(
-		f"git archive gh-pages {version}/ | tar -x -C /tmp/_gh_pages_cache",
+		f"git archive {gh_pages_ref} {version}/ | tar -x -C /tmp/_gh_pages_cache",
 		shell=True, capture_output=True, text=True
 	)
 	if result.returncode != 0:
@@ -165,7 +181,8 @@ with open("versions.yaml", "r") as yaml_file:
 latest_version = next(iter(docs))
 
 # load cached manifest to detect unchanged versions
-cached_manifest = load_cached_manifest()
+gh_pages_ref = get_gh_pages_ref()
+cached_manifest = load_cached_manifest(gh_pages_ref)
 new_manifest = {}
 
 # get a hash of only the files checked out from main during version builds,
@@ -188,7 +205,7 @@ for version, details in docs.items():
 		and cached.get("main_sha") == main_config_hash
 		and tag_sha is not None):
 		print(f"[SKIP] {version}: tag {tag} unchanged (SHA: {tag_sha[:8]})")
-		if restore_cached_version(version):
+		if restore_cached_version(version, gh_pages_ref):
 			continue
 		print(f"  -> Cache restore failed, rebuilding {version}")
 
