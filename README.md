@@ -12,10 +12,6 @@ python build_docs.py
 ```
 You should find all documents in `doc/_build/html` after the script finishes. 
 
-### PDF
-
-
-
 ----
 ## Contributing
 If you were so kind to contribute, please feel free to do so. 
