@@ -1,4 +1,9 @@
 # First entry = "latest" version used for root redirect and legacy paths
+"26.04":
+  tag: '26.04'
+  languages: 
+    - "jp"
+    - "en"
 "25.10":
   tag: '25.10'
   languages: 
