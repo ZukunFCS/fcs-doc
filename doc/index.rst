@@ -4,29 +4,16 @@
 
 FCSマニュアル
 ===================================
-
 .. toctree::
    :maxdepth: 2
    :caption: コンテンツ:
-   
-   000_release_note.md
-   001_intro.md
-   002_install.md
-   013_install_fcs.md
-   003_overview.md
-   004_launch.md
-   005_session.md
-   006_maya.md
-   007_Controlinfo.md
-   008_profile.md
-   009_animation.md 
-   010_Solver.md
-   011_export.rst
-   014_release_schedule.md
-   095_roadmap.md
-   096_support.md
-   097_Glossary.md
-   098_StarterKit.md
-   099_FAQ.md
-   advanced_doc_link.rst
-   interactive_doc_link.rst
+
+   00_contents/index.md
+   01_updates/index.md
+   02_getting-started/index.md
+   03_workflow/index.md
+   06_glossary/index.md
+   07_support/index.md
+   04_release-schedule/index.md
+   08_advanced_doc_link.rst
+
