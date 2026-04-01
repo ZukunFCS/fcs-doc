@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../04_release-schedule/index.md:1
+msgid "開発ロードマップ"
+msgstr ""
+
+#: ../../04_release-schedule/index.md:3
+msgid "FCSは継続開発中のソフトです。   ロードマップの一部とリリースについては下記に記載しております。"
+msgstr ""
+
+#: ../../04_release-schedule/index.md:8
+msgid "[**01. 開発ロードマップ**](01_roadmap)   今後の機能追加計画やアップデートの予定について確認できます。"
+msgstr ""
+
+#: ../../04_release-schedule/index.md:11
+msgid ""
+"[**02. リリーススケジュール＆アップグレード**](02_release-schedule)   "
+"FCSのリリーススケジュールとアップグレード方法について確認できます。"
+msgstr ""
+

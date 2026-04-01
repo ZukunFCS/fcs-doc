@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../03_workflow/04_register-controller.md:1
+msgid "Contorollerの登録"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:3
+msgid "Contollerウィンドウでは、接続しているMayaSceneのコントローラーリグを登録することができます。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:9
+msgid "![](/images/03_workflow_register_controller_window_controller.jpg)"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:10
+msgid "Window&rarr;Controllerで   Contollerウィンドウが起動します。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:15
+msgid "Contollerウィンドウについての説明は[ユーザーガイド/Menu/Window/Contollers](../06_glossary/01_Menu/window)をご覧ください。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:20
+msgid "**Region（リージョン）とは**"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:23
+msgid "FCSでは顔のパーツ区分のことをRegionと呼びます。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:26
+msgid "Upper（アッパー）：眉周りの動きのこと 眉の上下や眉間にしわを寄せる動きなど"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:27
+msgid "Eyelid（アイリッド）：まぶたの動きのこと まばたきや目を細める動きなど"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:28
+msgid "Gaze（ゲイズ）：目線の動きのこと 目線の上下左右や寄り目の動きなど"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:29
+msgid "Lower（ロウワー）：鼻、頬、口周りの動きのこと 頬や鼻から下の動き全般"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:32
+msgid "アニメーション解析のため、Upper、Eyelid、Gaze、Lowerにそれぞれコントローラーリグを１つ以上登録してください。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:36
+msgid ""
+"また、コントローラーリグの登録時にコントローラーの最大値最小値も登録できます。   "
+"最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:46
+msgid "「True/False」などの数値ではないアトリビュートがあると正常に動作しないため、登録から除外してください。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:49
+#: ../../03_workflow/04_register-controller.md:62
+#: ../../03_workflow/04_register-controller.md:70
+#: ../../03_workflow/04_register-controller.md:79
+#: ../../03_workflow/04_register-controller.md:88
+#: ../../03_workflow/04_register-controller.md:92
+#: ../../03_workflow/04_register-controller.md:103
+#: ../../03_workflow/04_register-controller.md:125
+#: ../../03_workflow/04_register-controller.md:184
+#: ../../03_workflow/04_register-controller.md:196
+#: ../../03_workflow/04_register-controller.md:205
+#: ../../03_workflow/04_register-controller.md:213
+#: ../../03_workflow/04_register-controller.md:219
+#: ../../03_workflow/04_register-controller.md:255
+#: ../../03_workflow/04_register-controller.md:266
+msgid "<br><br>"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:51
+msgid "**Controllerの登録**"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:54
+msgid "Upperの登録を例にcontrollerの登録方法を説明します。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:56
+msgid "MayaでUpperに登録したいコントローラーを選択し、"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:64
+msgid "2.【Add selected】ボタンを押します。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:72
+msgid ""
+"Mayaで選択したコントローラーが「Controller」に表示されたら、   チェックボックスや【select "
+"All】（=全選択）でUpperに登録したいコントローラーを選択します。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:81
+msgid "今回はUpperに登録したいので 【Upper】を押します。   Regionの列にUpperと表示されたら設定完了です。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:90
+msgid "同じ手順で他のRegion（Eyelid/Gaze/lower）も設定してください。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:94
+msgid "**連続して登録する場合**"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:97
+msgid ""
+"Mayaでコントローラーを選択して【Add selected】を実行すると、 "
+"選択したコントローラーが「Controller」に追加され、自動的にチェックが入ります。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:105
+msgid ""
+"この状態で【Upper】を押すと今までチェックが入っていたコントローラーのチェックが外れ、RegionがUpperに変更されます。   "
+"そのまま別のコントローラーを選択して【Add selected】した例が下図です。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:114
+msgid ""
+"新しく【Add selected】したコントローラーのみにチェックが入っています。   "
+"このように、連続して登録する際は追加されたコントローラーに対して自動でチェックが反映されるようになっています。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:119
+msgid ""
+"このとき、Regionを設定せずに新しく【Add "
+"selected】した場合にも、今までチェックが入っていたコントローラーのチェックが外れ、新しく追加したコントローラーのみにチェックが入る仕様となっています。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:128
+msgid ""
+"Regionが未登録状態(null)のものがあるとSaveできません。   "
+"controllerウィンドウでは、Regionの種類や登録の有無でフィルターをかけ表示を絞り込むことができます。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:131
+msgid "フィルターを『null』にすることで、Regionが設定されてないcontrollerのみを表示できます。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:133
+msgid ""
+"右上のall▼のタブを選択し、null▼に変更する   "
+"Regionを設定したものを非表示にし、未登録のコントローラーのみ表示させることができます。     "
+"また、Upper/Eyelid/Gaze/Lowerを選択すればそれぞれ登録したRegionで絞り込むこともできます。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:144
+msgid "【select All】は表示されているもののみ選択します。   また、【Unselect All】で選択解除が可能です。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:151
+msgid "nullで絞り込んでいるのでこの状態でRegionを登録すると非表示になります。   allに戻すとすべて表示されます。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:163
+msgid "〇all選択時"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:173
+msgid "〇null選択時"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:186
+msgid "**登録しないコントローラーを削除する方法**"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:189
+msgid "1.コントローラー単体で削除する場合   削除したいコントローラーを選択(☑)  &rarr; 【Remove】を押します。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:198
+msgid "2.nullのコントローラーを一括で削除する場合   【Remove empty】を押します。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:207
+msgid "Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら 【Save】してください。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:216
+msgid "Regionが未登録状態(null)のものがあるとSave出来ません"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:225
+msgid "**マニュアル以外のコントローラーを登録したい場合**"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:227
+msgid ""
+"本マニュアルでは、UnrealEngineのMetahumanを使用していますが、別の3DCG作成ソフトで作成したものでも、各部位に連携できるコントローラーリグがあれば対応可能です。"
+"   また、必要最低限のコントローラーのみを登録していますので、任意で登録するコントローラーを増やすことができます。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:232
+msgid "**Add selectでコントローラーの追加ができない場合**"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:235
+msgid "設定したMayaバージョンとsceneを作成したMayaバージョンが一致しているか確認してください。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:238
+msgid "設定したバージョンとsceneを作成したMayaバージョンが違うとコントローラーを読み取れません。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:243
+msgid "**コントローラーの登録順を変えたい場合**"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:246
+msgid "例：L/R　blinkが離れていて不便なのでblinkを上下（隣接するよう）に並べたい場合"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:248
+msgid "【▶Advanced】 → 【Rearrange】に☑を入れ、   並び替えたいコントローラーをドラッグしドロップすると、順番を変更できます。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:257
+msgid "**コントローラーの登録順を戻したい場合**"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:260
+msgid "【▶Advanced】 → 【Reset】を押すと、前回【Save】した時点での順番に戻ります。"
+msgstr ""
+
+#: ../../03_workflow/04_register-controller.md:268
+msgid "**作業しやすいように登録順を並び替えたら必ず【Save】してください。**"
+msgstr ""
+

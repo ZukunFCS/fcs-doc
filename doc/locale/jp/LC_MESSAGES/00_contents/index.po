@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../00_contents/index.md:1
+msgid "目次"
+msgstr ""
+
+#: ../../00_contents/index.md:3
+msgid "FCSマニュアルの全コンテンツ一覧です。"
+msgstr ""
+
+#: ../../00_contents/index.md:5
+msgid ""
+"**概要・導入**   [・リリースノート](../01_updates/index)   [・FCSとは](../02_getting-"
+"started/index)   [・事前準備](../02_getting-started/01_setup)   "
+"[・インストール&アンインストール](../02_getting-started/02_install)   [・アップグレード"
+"](../04_release-schedule/02_release-schedule)   "
+"[・環境設定](../06_glossary/01_Menu/settings)   [・スターターキット](../05_sample-"
+"project/index)"
+msgstr ""
+
+#: ../../00_contents/index.md:16
+msgid ""
+"**作業フロー**   [・作業フロー (全体) ](../03_workflow/index)   "
+"[・FCS起動](../03_workflow/01_launch-FCS)   [・Session作成・読み込み](../03_workflow"
+"/02_create-or-open-session)   [・Mayaの起動](../03_workflow/03_launch-maya)"
+"   [・Controller登録](../03_workflow/04_register-controller)   "
+"[・Profile作成](../03_workflow/05_create-profile)   "
+"[・アニメーション出力](../03_workflow/06_export-animation)   "
+"[・Sessionのエクスポート](../03_workflow/08_export)"
+msgstr ""
+
+#: ../../00_contents/index.md:28
+msgid ""
+"**ユーザーガイド**   [・ユーザーガイド](../06_glossary/index)   "
+"[・Menu/ウィンドウ説明](../06_glossary/01_Menu/index)   "
+"[・用語集](../06_glossary/02_glossary/index)   "
+"[・Tips](../06_glossary/03_Tips/index)   "
+"[・よくある質問](../06_glossary/04_faq/index)   "
+"[・チュートリアル動画](../06_glossary/05_tutorial/index)   [・FCS "
+"ホームページ](https://www.fcs.zukun-lab.com)　※外部サイトに移行します。"
+msgstr ""
+
+#: ../../00_contents/index.md:39
+msgid ""
+"**サポート/その他**   [・お問い合わせ](../07_support/index)   [・開発ロードマップ"
+"](../04_release-schedule/index)   [・上級マニュアル](../08_advanced_doc_link)　"
+"※外部サイトに移行します。   [・マニュアル更新履歴](01_history)"
+msgstr ""
+
+#: ../../00_contents/index.md:48
+msgid "**FCSマニュアル 更新情報**"
+msgstr ""
+
+#: ../../00_contents/01_history.md:87
+msgid "**2026/04/03 更新**"
+msgstr ""
+
+#: ../../00_contents/01_history.md:88
+msgid "マニュアルサイトを26.04verに合わせて更新いたしました。   全体的な構成の変更・内容のアップデートを行っています。"
+msgstr ""
+
+#: ../../00_contents/index.md:55
+msgid "[※過去の更新履歴はこちら](01_history)"
+msgstr ""
+

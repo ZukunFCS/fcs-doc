@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../03_workflow/03_launch-maya.md:1
+msgid "Mayaの起動"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:4
+msgid "FCSとMayaを接続するためには、必ずFCSのメニューからMayaを起動する必要があります。"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:7
+msgid "**Mayaを起動する**"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:10
+msgid ""
+"【Maya】→【Launch】→【MayaのVersion】からMayaを起動することでSession作成時に登録したMaya "
+"sceneを開きます。   　　例：今回キャラクターデータを作成したMayaのバージョンはMaya2020なので2020を選択しています。"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:22
+msgid "Open Sceneをクリックすると、設定したMaya Sceneを開き直すことができます"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:23
+msgid "Launchをクリックすると、session作成時に設定したMaya Sceneが自動で起動します"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:26
+msgid ""
+"Mayaバージョンの誤クリックを防ぐため、Session作成時に設定したMaya "
+"Version以外はクリックできないように、ブラックアウトしています。"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:29
+#: ../../03_workflow/03_launch-maya.md:40
+#: ../../03_workflow/03_launch-maya.md:48
+msgid "<br><br>"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:31
+msgid "**Launchで指定したMayaバージョンが開けない場合**"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:34
+msgid "session作成時に設定した項目は File&rarr;Session&rarr;info で確認することができます。"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:42
+msgid ""
+"New Sessionで設定したMaya Verがinfoで反映されていない場合は、info画面のMaya "
+"Versionを右クリックし、Editから変更ができます。"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:50
+msgid "プルダウンからMaya Versionを設定してください。"
+msgstr ""
+
+#: ../../03_workflow/03_launch-maya.md:59
+msgid "設定の変更後は必ずSaveボタンを押してください"
+msgstr ""
+

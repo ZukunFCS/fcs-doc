@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../06_glossary/01_Menu/settings.md:1
+msgid "環境設定（File ▶ Settingsウィンドウ）"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:3
+msgid "Fileメニューのうち、FCSの全体的な動作環境やパス設定、および詳細なカスタマイズを行うための設定メニューについて解説します。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md
+msgid "Settings"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:16
+msgid "【Save】：設定を保存  ※保存後FCSを再起動することで設定が反映されます。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:18
+msgid "【Restore】：設定をデフォルトに戻し、FCSを再起動"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:20
+msgid ""
+"【import】：他のバージョンなどから設定をインポートし、FCSを再起動   "
+"C:\\Users[ユーザー名].fcs\\Cortado[FCSバージョン]にあるmy_conf.yamlを読み込んでください。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md
+msgid "UI"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:34
+msgid "① Global   　・Font Size：文字の大きさ   　・Language：言語設定"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:38
+msgid ""
+"② Gallery   　・Thumbnail width：ギャラリーに表示されるプロファイル画像の横幅   　・Default "
+"Cols：ギャラリーのデフォルトの列数"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:42
+msgid ""
+"③ Video Player   　・Cache Frame Max：メモリにキャッシュするフレームの最大値   　・Default "
+"Tags：デフォルトで付与するタグ名"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:49
+msgid ""
+"Cache Frame Maxは数値を上げるほど多くのメモリ容量を消費します。   "
+"FullHDサイズだと10000fごとに約64GB使用される目安です。   -1を指定すると無制限にキャッシュを保存します。   "
+"この設定は十分なメモリがある場合のみ使用してください。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:56
+msgid ""
+"④ Video Library   　・Cache Frame Max：Videoインポートで回転処理の設定画面を表示するかどうか   　"
+"・Default Rotation：Videoインポート時のデフォルトの回転値（0＝回転なし）"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md
+msgid "Output"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:68
+msgid "アニメーション出力・プレイブラスト出力のデフォルト設定を変更できます。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:76
+msgid ""
+"① Default output options：アニメーション出力のデフォルト設定   　・Default "
+"Folder：デフォルトの出力先フォルダ   　・Default Filename：デフォルトのファイル名   　・Default "
+"Filename(Batch)：バッチ出力時のデフォルトファイル名   　・Default Maya scene "
+"format(Batch)：デフォルトのMaya保存形式"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:82
+msgid ""
+"② Playblast：プレイブラスト出力のデフォルト設定     　・Encoder：プレイブラストのエンコード設定     　"
+"・Width：プレイブラストの横幅   　・Height：プレイブラストの縦幅   　・Quality：プレイブラストの画質   　"
+"・Percent：プレイブラストの解像度"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:97
+msgid "FCSを使用するときのキーボードショートカットを設定できます。   同時押しはキー1種+修飾キー2種の3ボタンまで登録可能です。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:107
+msgid ""
+"① Timeline   　・Next Frame：次のフレームへ   　・Previous Frame：前のフレームへ   　・Next "
+"ROM：次のプロファイルへ   　・Previous ROM：前のプロファイルへ   　・Play/Pause "
+"Timeline：タイムラインの再生 / 一時停止   　・Add current frame to "
+"ROM：現在のフレームをプロファイルとして追加   　・Open profile on timeline：現在選択しているプロファイルの動画を開く"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:118
+msgid ""
+"② Editor   　・Save ROM edits：プロファイルの保存   　・From Maya：表情の値をMayaから読み込み   　"
+"・To Maya：表情の値をMayaへ送信"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:125
+msgid ""
+"③ Layout   　・Active Single：Singleのプリセットレイアウトに変更   　・Active "
+"Double：Doubleのプリセットレイアウトに変更   　・Active Triple：Tripleのプリセットレイアウトに変更"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md
+msgid "Maya"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:141
+msgid "Mayaとの接続に関する設定項目です。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:150
+msgid "① CommandPort：Mayaとの接続に使用するコマンドポート"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:152
+msgid "② SliderSyncPort：Mayaのタイムラインを取得するコマンドポート"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:154
+msgid "③ Open maya scene at launch：Launch Maya時に登録したMayaシーンも開くか"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:156
+msgid "④ Use gallery character preview：ギャラリーウィンドウのキャラクター表示切替機能を使用する   　 ※再起動不要"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:159
+msgid "⑤ Image Plane：イメージプレーン名　※再起動不要"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:161
+msgid "⑥ Camera：カメラ名　※再起動不要"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:163
+msgid "⑦ Install path：Mayaのインストール先　 ※再起動不要"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md
+msgid "Misc"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:180
+msgid "① Backend：データの処理方法を選択（cpu/cuda）"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:182
+msgid ""
+"② Update Channel：FCSアップデート時の通知設定   　"
+"・All：メジャーバージョン・マイナーバージョン両方のアップデート通知を受け取る    　・Patch：マイナーバージョンアップ通知のみ受け取る"
+"   　・None：バージョンアップ通知を受け取らない"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:187
+msgid "③ Use Beta：ベース機能を使用するかを設定"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:196
+msgid "**Menu説明 目次**"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/index.md:157
+msgid "[**〇File**](file.md)：Session(セッション)ファイルの管理と基本操作"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/index.md:159
+msgid "[**〇Settings**](settings.md)：File/Settings　FCS全体の環境設定と動作オプション"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/index.md:161
+msgid "[**〇Window**](window.md)：各種ウィンドウの表示・操作ガイド"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/index.md:163
+msgid "[**〇Maya**](maya.md)：Mayaの起動・連携"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/index.md:165
+msgid "[**〇View**](view.md)：作業画面のレイアウト調整"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/index.md:167
+msgid "[**〇Explore**](explore.md)：FCSからWindowsエクスプローラーのファイル参照"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/index.md:169
+msgid "[**〇Info**](info.md)：バージョン情報など"
+msgstr ""
+

@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../04_release-schedule/02_release-schedule.md:1
+msgid "リリース&アップグレード"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:3
+msgid ""
+"※2026年2月27日 更新   "
+"FCSのリリースサイクルは、2026年より従来の四半期ごとの更新から4月と10月の半年ごと（年2回）の更新となりました。"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:8
+msgid "**1.定期リリース（メジャーバージョン）**"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:11
+msgid ""
+"新機能追加やアルゴリズムの更新・変更などのメジャーバージョンのリリースは、毎年4月と10月の年2回実施予定となっております。   "
+"リリース頻度を集約することで、各バージョンにおける品質のさらなる安定化を図ってまいります。"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:14
+msgid "**2.マイナーバージョンによる修正対応**"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:17
+msgid ""
+"一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。   "
+"UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：25.10.01〜）は、必要に応じて随時実施されます。"
+" <br> <br>"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:22
+msgid "**FCSのアップグレード**"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:25
+msgid ""
+"サポート状況などによる製品のバージョン分け（Standard/LTS/Preview）を廃止いたしました。   "
+"現在は運用をシンプルにするために形態を一本化し最新のアップデートを提供しています。"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:30
+msgid "**互換性**"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:33
+msgid ""
+"FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。   しかし、特にメジャーバージョン間（例：25.07 と "
+"25.10）では、後方互換性が必ずしも保証されるわけではありません。   "
+"以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。"
+"   そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:40
+msgid ""
+"同一メジャーバージョン内（例：25.10.01~25.10.04）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。"
+"   また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:45
+msgid "**アップグレード手順**"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:48
+msgid "セッションデータを[エクスポート](#export-header-target)してください。"
+msgstr ""
+
+#: ../../04_release-schedule/02_release-schedule.md:49
+msgid "新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを開いてください。"
+msgstr ""
+

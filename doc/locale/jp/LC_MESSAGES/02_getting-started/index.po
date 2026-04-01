@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../02_getting-started/index.md:1
+msgid "FCSとは"
+msgstr ""
+
+#: ../../02_getting-started/index.md:2
+msgid ""
+"FCSとは、デジタルヒューマン研究（DHP研究）で培ったアルゴリズムを採用した、   新たなフェイシャルキャプチャーシステム（**F**acial"
+" **C**apture **S**ystem）です。   "
+"オートトラッキング機能を搭載することで、フェイシャルトラッキングにかかる時間を短縮、作業者の負担軽減を可能にしました。"
+msgstr ""
+
+#: ../../02_getting-started/index.md:7
+msgid ""
+"FCS を使用すると、ヘッドマウントカメラ・定点カメラで撮影された動画を読み取り、解析したアニメーションを 3D "
+"キャラクターに転送することができます。   "
+"ブレンドシェイプ・ジョイントを問わず、コントローラーのあるリグであれば基本的に対応しており、デフォルメキャラクター・フォトリアルなキャラクターどちらにもご利用いただけます。"
+msgstr ""
+
+#: ../../02_getting-started/index.md:11
+msgid "🌐 [FCS 公式サイトはこちら](https://www.fcs.zukun-lab.com/)"
+msgstr ""
+
+#: ../../02_getting-started/index.md:14
+msgid "このページでは、**FCS**の導入方法についてまとめています。"
+msgstr ""
+
+#: ../../02_getting-started/index.md:17
+msgid "[**〇事前準備**](01_setup)   FCSを始めるための推奨スペック・事前にインストールが必要な内容について。"
+msgstr ""
+
+#: ../../02_getting-started/index.md:22
+msgid "[**〇インストールとアンインストール**](02_install)   ソフトウェアの導入と削除の方法について。"
+msgstr ""
+
+#: ../../02_getting-started/index.md:27
+msgid ""
+"[**〇アップグレード**](../04_release-schedule/02_release-schedule)   "
+"FCSの最新バージョンへの更新手順やリリースについて。"
+msgstr ""
+
+#: ../../02_getting-started/index.md:32
+msgid "[**〇環境設定**](../06_glossary/01_Menu/settings)   最適な動作環境のための設定ガイド。"
+msgstr ""
+
+#: ../../02_getting-started/index.md:37
+msgid ""
+"[**〇スターターキット**](../05_sample-project/index)   "
+"FCS製品版のご購入・トライアルを申し込みされた方は、FCSスターターキットをご利用いただけます。"
+msgstr ""
+
+#: ../../02_getting-started/index.md:54
+msgid ""
+"使用方法でご不明な点がある場合は、[サポートページ](../07_support/index)をご確認ください。 "
+"お問い合わせの際の必要事項などをまとめています。"
+msgstr ""
+

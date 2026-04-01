@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../03_workflow/06_export-animation.md:2
+msgid "アニメーションの出力方法"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:5
+msgid ""
+"解析する動画が広角レンズを使って撮影されている場合、Solverの設定変更が必要です。   "
+"詳しくは[ユーザーガイド/Menu/Window/Solver](../06_glossary/01_Menu/window)をご確認ください。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:11
+msgid "**単体のアニメーション出力**"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:15
+msgid ""
+"出力画面の項目についての説明は   "
+"[ユーザーガイド/Menu/Window/Videos](../06_glossary/01_Menu/window)をご確認ください。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:21
+msgid ""
+"1.Videosウィンドウで解析/出力したい動画名の上で右クリックします。   画像のメニューが表示されるので、▼Process "
+"を選択・該当する項目に ☑ を入れ、"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:28
+#: ../../03_workflow/06_export-animation.md:83
+#: ../../03_workflow/06_export-animation.md:99
+#: ../../03_workflow/06_export-animation.md:142
+#: ../../03_workflow/06_export-animation.md:159
+#: ../../03_workflow/06_export-animation.md:190
+#: ../../03_workflow/06_export-animation.md:199
+msgid "<br><br>"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:30
+msgid "2.【Start process】を押します。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:39
+msgid "解析結果を見てから再度調整を行いたい場合はPlayblastやSceneの ☑ を外しておくと時間短縮できます。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:51
+msgid "初回出力時は時間がかかる場合があります。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:62
+msgid "3.出力中Mayaシーン上に ☑ を入れた項目が反映されていきます。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:63
+msgid "タイムスライダーに音声データ"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:64
+msgid "イメージプレーンに連番画像"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:65
+msgid "アニメーションデータ の順で反映される"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:66
+msgid "アニメーションデータ反映時はスライダーが動く"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:75
+msgid "4.出力完了   playblastやsceneに ☑ していた場合、   出力が完了したらエクスプローラーがポップアップします。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:85
+msgid "**動画の一部範囲のみを再処理して出力**"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:88
+msgid ""
+"Timelineの一部表示機能を使用して、FCSのTimelineで表示している範囲のみのアニメーションを出力することができます。   ※本機能は"
+" **FCS 25.04.02** 以降に搭載されています。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:93
+msgid "1.FCSのTimeline範囲をアニメーション出力したい部分に設定します。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:101
+msgid "2.Timelineの動画名を右クリックし、【Segment Only】にチェックを入れ、   【Start processing】を押します。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:110
+msgid "Maya Start の値について"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:111
+msgid ""
+"FCSで指定した範囲のアニメーションをMayaの指定フレームに出力できます。   例：   　・FCS "
+"Timeline上の指定範囲：100F～200F   　・Maya Start：50   　　"
+"→この場合、アニメーションはMayaの『50F～150F』に出力されます。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:119
+msgid ""
+"デフォルトでは『-1』になっています。   この場合FCSで指定した範囲と同じフレームに出力されます。   例：   　・FCS "
+"Timeline上の指定範囲：100F～200F   　　→Mayaも『100F～200F』に出力されます。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:129
+msgid "Timelineの動画名を右クリックし表示されるメニューからのみ実行可能です。   （Videosウィンドウからは実行不可）"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:136
+msgid "3.指定した範囲のみアニメーションが出力されます。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:144
+msgid "**複数のアニメーション出力**"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:148
+msgid "出力の項目については[ユーザーガイド/Menu/Window/Processer](../06_glossary/01_Menu/window)をご確認ください。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:153
+msgid "1.Videosウィンドウで解析・出力したい動画名に ☑ をつけます。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:161
+msgid "2.Processorウインドウを開き、出力したい項目に ☑ を入れます。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:168
+msgid "![](/images/03_workflow_export_animation_window_processor.jpg)"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:170
+msgid "![](/images/03_workflow_export_animation_processor_output_name.jpg)"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:3721
+msgid "Output Filenameを変更することで出力ファイル名に任意の名前を設定できます。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:3723
+#, python-brace-format
+msgid "{solver} ： solverの名前"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:3724
+#, python-brace-format
+msgid "{video} ： ビデオのファイル名"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:3725
+#, python-brace-format
+msgid "{user} ： windows ユーザ名"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:3726
+#, python-brace-format
+msgid "{project} ： 案件フォルダ名"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:3727
+#, python-brace-format
+msgid "{chara} ： キャラクター名"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:3728
+#, python-brace-format
+msgid "{actor} ： 役者名"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:3729
+#, python-brace-format, python-format
+msgid "{%Y%m%d}, {%H%M%S} ： 年月日、時間分秒"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:3731
+#, python-brace-format
+msgid "{video}のみにするとimportした動画名で出力されます。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:184
+msgid "3.設定できたら【Start】で処理を開始します。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:193
+msgid "4.出力が完了したらエクスプローラーがポップアップします。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:201
+msgid "**カメラ・イメージプレーンについて**"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:204
+msgid "Frames、またはLM Framesにチェックを入れた場合、Maya内のイメージプレーンに連番画像がセットされます。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:206
+msgid ""
+"連番画像をセットしたいカメラ・イメージプレーンの名前を   "
+"「**Settings/Maya/Camera**」「**Settings/Maya/ImagePlane**」から設定してください。   "
+"※Settingsについては[ユーザーガイド/Menu/Settings](../06_glossary/01_Menu/settings)をご参照ください。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:212
+msgid "デフォルトの設定は以下の通りです。"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:213
+msgid "イメージプレーン → imagePlane"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:214
+msgid "カメラ → fcs_cam"
+msgstr ""
+
+#: ../../03_workflow/06_export-animation.md:216
+msgid "指定した名前のカメラ・イメージプレーンがシーン内に無い場合は新しく作成されます。   パイプラインに合わせてカメラの名前を随時設定してください。"
+msgstr ""
+

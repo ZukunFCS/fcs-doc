@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../02_getting-started/01_setup.md:1
+msgid "事前準備"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:3
+msgid "FCSは、以下スペックのPCで利用することができます。"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "必要スペック"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "推奨スペック"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "CPU"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "Intel Core i5-9400F"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "Intel Core i7-13700K"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "GPU"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "-"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "Nvidia RTX 3080"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "メモリー"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "DDR4 16GB+"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md
+msgid "DDR5 64GB+"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:11
+msgid "**事前インストール**"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:14
+msgid "必須"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:15
+msgid "Maya (対応バージョン　2018, 2020, 2022, 2023, 2024)"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:17
+msgid "推奨"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:18
+msgid "Nvidia　CUDA/CuDNN"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:20
+msgid "**ライセンス**"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:23
+msgid ""
+"FCSを使用するためには、ライセンスキーが必要です。   また、一ヶ月無料のトライアルライセンスもご用意がございます。   "
+"[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:27
+msgid "**ダウンロード**"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:30
+msgid "インストーラーは[こちら](https://github.com/ZukunFCS/fcs-doc/releases)からダウンロードできます。"
+msgstr ""
+

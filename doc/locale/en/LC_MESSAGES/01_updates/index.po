@@ -1,0 +1,189 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../01_updates/index.md:1
+msgid "リリースノート"
+msgstr ""
+
+#: ../../01_updates/index.md:3
+msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
+msgstr ""
+
+#: ../../01_updates/index.md:5
+msgid "FCS 26.04.01"
+msgstr ""
+
+#: ../../01_updates/index.md:6
+msgid "日付: 2026/04/01"
+msgstr ""
+
+#: ../../01_updates/index.md:7
+msgid "バージョン: 26.04.01"
+msgstr ""
+
+#: ../../01_updates/index.md:8
+msgid "ステージ: Stable"
+msgstr ""
+
+#: ../../01_updates/index.md:10
+msgid "26.04はこれまでで最大のリリースです。 FCSをより活用していただけるよう、多くの機能追加と改善を行いました。"
+msgstr ""
+
+#: ../../01_updates/index.md:13
+msgid "**文章未確認**"
+msgstr ""
+
+#: ../../01_updates/index.md:15
+msgid "追加 / 新機能"
+msgstr ""
+
+#: ../../01_updates/index.md:16
+msgid ""
+"CLI対応（スクリプトランナー + スキーマ）およびサンプルスクリプト・テストスクリプトの追加 "
+"([Docs](https://zukunfcs.github.io/fcs-doc-advanced/26.04/jp/index.html))"
+msgstr ""
+
+#: ../../01_updates/index.md:18
+msgid ""
+"FCSを社内ワークフローやツールに統合したいユーザー向けに、スクリプトからFCSを操作できるCLIツールを追加しました。   "
+"UIを起動せずに、動画の処理やアニメーションのアップロードなどをスクリプトから実行できます。   "
+"CLIツールはFCSにバンドルされており、すべてのFCSユーザーが追加費用なしでご利用いただけます。   "
+"CLIツールの包括的なドキュメントを提供しておりますので、ワークフローへの統合にお困りの際はお気軽にお問い合わせください。"
+msgstr ""
+
+#: ../../01_updates/index.md:23
+msgid "ギャラリー読み込みの最適化（サムネイル対応）"
+msgstr ""
+
+#: ../../01_updates/index.md:25
+msgid ""
+"プロファイル画像がオリジナル画像とともにサムネイルとして保存されるようになり、特に大規模なセッションでの起動が大幅に高速化されました。   "
+"前バージョンと比較して約2倍の速度で起動します。"
+msgstr ""
+
+#: ../../01_updates/index.md:28
+msgid "インタラクティブUIドキュメント（実験的機能）"
+msgstr ""
+
+#: ../../01_updates/index.md:30
+msgid ""
+"NotebookLMを利用した実験的なUIドキュメントを追加しました。   FCSのウィンドウやワークフローについて質問できます。   "
+"[こちら](https://notebooklm.google.com/notebook/8b421e67-37ac-4d0f-"
+"9bd1-35eaeb3f6478)からアクセスできます。"
+msgstr ""
+
+#: ../../01_updates/index.md:34
+msgid "新パイプライン"
+msgstr ""
+
+#: ../../01_updates/index.md:36
+msgid ""
+"トラッキングアルゴリズムの安定性と精度を大幅に向上させました。   "
+"新パイプライン（Rich++、RP++、Robust++）は各特徴は変わらず、全体的なパフォーマンスと精度が向上しています。   "
+"社内で新パイプラインを旧バージョンとベンチマーク比較したところ、大幅な性能向上が確認されました。   "
+"新パイプラインと評価方法の詳細については、[こちら](https://zukunfcs.github.io/fcs-doc-"
+"advanced/26.04/en/experiments/003_pipeline_comparison_quantitative.html)をご覧ください。"
+msgstr ""
+
+#: ../../01_updates/index.md:41
+msgid ""
+"[ビジュアル分析ツール](https://zukunfcs.github.io/fcs-doc-"
+"advanced/26.04/en/experiments/004_qualitative_analysis.html)"
+msgstr ""
+
+#: ../../01_updates/index.md:43
+msgid ""
+"さまざまなシナリオにおけるトラッキング結果を素早く把握できる新しいドキュメントを追加しました。   "
+"FCSがプロジェクトに適しているかどうか、また求める品質を達成するためにどの程度の時間が必要かを素早く判断するのに役立ちます。"
+msgstr ""
+
+#: ../../01_updates/index.md:46
+msgid "変更 / 改善"
+msgstr ""
+
+#: ../../01_updates/index.md:47
+msgid "UIの刷新および安定性向上"
+msgstr ""
+
+#: ../../01_updates/index.md:49
+msgid ""
+"UIを刷新し、安定性とパフォーマンスを大幅に改善しました。   "
+"メニューバーがステータスバーとしても機能するようになり、現在のセッション情報を表示します。"
+msgstr ""
+
+#: ../../01_updates/index.md:52
+msgid ""
+"LMフレームエクスポートは++ワークフローではサポートされておらず、非推奨となりました。   "
+"26.10で削除予定です。ワークフローに影響がある場合はお知らせください。"
+msgstr ""
+
+#: ../../01_updates/index.md:55
+msgid ""
+"FCSがクラッシュまたはエラーが発生した場合、UIのボタンをクリックするだけでエラーを報告できるようになりました。   "
+"この情報はFCSの改善と問題の迅速な修正に活用されます。"
+msgstr ""
+
+#: ../../01_updates/index.md:58
+msgid "フルスクリーンモードは多くのユーザーに使用されていなかったため、削除されました。"
+msgstr ""
+
+#: ../../01_updates/index.md:60
+msgid "オンメモリファイルシステムは期待された高速化が得られなかったため、削除されました。"
+msgstr ""
+
+#: ../../01_updates/index.md:62
+msgid "長時間実行されるMayaコマンド（シーンを開くなど）はUIをブロックせず、バックグラウンドで別途実行されるようになりました。"
+msgstr ""
+
+#: ../../01_updates/index.md:64
+msgid ""
+"ログメッセージがUIの上部ではなく下部に表示されるようになりました。   "
+"クリックするとログウィンドウが表示され（左クリック）、メッセージがクリップボードにコピーされます（右クリック）。"
+msgstr ""
+
+#: ../../01_updates/index.md:67
+msgid "修正"
+msgstr ""
+
+#: ../../01_updates/index.md:68
+msgid "ビデオプレーヤー: フレームインデックスが総フレーム数を超えないように修正"
+msgstr ""
+
+#: ../../01_updates/index.md:70
+msgid "一部のエンコーディングにおいてフレームインデックスが総フレーム数を超え、プログラムがクラッシュする場合がありましたが、これを防ぐフェイルセーフを追加しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:72
+msgid "ビデオプレーヤー: オーディオのポッピング音を修正"
+msgstr ""
+
+#: ../../01_updates/index.md:74
+msgid "FCSでオーディオを再生する際にポッピング音が発生する問題を修正しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:76
+msgid "タイムライン / UIのサイズ調整の問題およびプロット / カーソル位置合わせの不具合を修正"
+msgstr ""
+
+#: ../../01_updates/index.md:78
+msgid "タイムラインウィンドウのリサイズが正しく行われない問題や、カーソルがタイムラインと正しく整列しない問題を修正しました。"
+msgstr ""
+

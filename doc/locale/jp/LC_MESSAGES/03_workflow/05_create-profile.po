@@ -1,0 +1,501 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../03_workflow/05_create-profile.md:1
+msgid "Profileの作成"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:3
+msgid ""
+"本ページではProfileの追加手順 ~ 編集手順について記載しています。   "
+"Mayaをベースに表情を調整するのか、FCSをベースに表情を調整するのかは任意で使い分けることができますが、   "
+"最初は「Both」での使用をオススメします。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:9
+msgid "**解析動画のimport**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:11
+msgid "Profileを作成する前にまず使用する動画をFCSに読み込みます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:15
+msgid "Videosウィンドウでは解析したい動画を開いたり、インポートすることができます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:20
+msgid "![](/images/03_workflow_create_profile_windows_videos.jpg)"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:21
+msgid "Window&rarr;Videosで   Videosウィンドウが開きます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:26
+msgid "Videosウィンドウについての説明は[ユーザーガイド/Menu/Window/Videos](../06_glossary/01_Menu/window)をご覧ください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:32
+msgid "1.【Import】を押すとウィンドウがポップアップされるので、"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:38
+#: ../../03_workflow/05_create-profile.md:67
+#: ../../03_workflow/05_create-profile.md:75
+#: ../../03_workflow/05_create-profile.md:89
+#: ../../03_workflow/05_create-profile.md:108
+#: ../../03_workflow/05_create-profile.md:130
+#: ../../03_workflow/05_create-profile.md:151
+#: ../../03_workflow/05_create-profile.md:163
+#: ../../03_workflow/05_create-profile.md:171
+#: ../../03_workflow/05_create-profile.md:179
+#: ../../03_workflow/05_create-profile.md:206
+#: ../../03_workflow/05_create-profile.md:220
+#: ../../03_workflow/05_create-profile.md:228
+#: ../../03_workflow/05_create-profile.md:270
+#: ../../03_workflow/05_create-profile.md:292
+#: ../../03_workflow/05_create-profile.md:307
+#: ../../03_workflow/05_create-profile.md:334
+#: ../../03_workflow/05_create-profile.md:347
+#: ../../03_workflow/05_create-profile.md:355
+#: ../../03_workflow/05_create-profile.md:382
+#: ../../03_workflow/05_create-profile.md:423
+#: ../../03_workflow/05_create-profile.md:432
+#: ../../03_workflow/05_create-profile.md:440
+#: ../../03_workflow/05_create-profile.md:464
+#: ../../03_workflow/05_create-profile.md:472
+#: ../../03_workflow/05_create-profile.md:480
+#: ../../03_workflow/05_create-profile.md:498
+#: ../../03_workflow/05_create-profile.md:529
+#: ../../03_workflow/05_create-profile.md:574
+msgid "<br><br>"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:41
+msgid "2.解析したい動画をクリックします。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:50
+msgid "Shift+クリックで複数同時にimportできます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:55
+msgid "3.【Select Video Rotate】ウィンドウが開くので、【Comfirm】を押します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:64
+msgid "import時に、左下の数字で動画を時計回りに回転させることができます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:69
+msgid "4.Videosウィンドウにimportした動画が表示されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:77
+msgid "**Profile（プロファイル）について**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:80
+msgid ""
+"様々な表示のProfileを追加することで解析の精度が上がっていきます。   "
+"単純に数が多ければ良いわけではなく、似た表情のProfileに対し、コントローラーの数字が違ってしまった場合、ノイズになってしまうため注意が必要です。"
+"   また、**解析する動画毎にProfileを1つ以上作成すること**を推奨しています。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:85
+msgid ""
+"解析する動画毎のProfileに加えて、ROM体操と呼ばれる約50個のProfileを作成することを推奨しています。   "
+"ROM体操の表情については、スターターキット同梱のPDFファイルをご参照ください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:92
+msgid "**読み込んだ動画をFCSで開く**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:95
+msgid "開きたい動画ファイルの上で ”右クリック→【Open】” もしくは ”ダブルクリック”    VideoPlayer上に動画が表示されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:98
+msgid "動画ファイル名の上で右クリック　→　【Open】"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:111
+msgid "**Profileの追加方法**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:114
+msgid ""
+"VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、   "
+"【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:7847
+msgid "プロファイルを追加した際の枠について"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:7851
+msgid "赤：数値がデフォルト状態/未編集のProfile"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:7852
+msgid "緑：「Neutral」に ☑ を入れて登録したProfile"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:7853
+msgid "青：選択中（編集中）のprofile"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:7854
+msgid "黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:7855
+msgid "白：リターゲット後、登録したprofile"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:132
+msgid "**Neutralの表情の登録**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:135
+msgid ""
+"Neutral表情とは、アクターの表情筋に力が入っていないナチュラルな表情のことです。   "
+"セッション内で必ず一つNeutral表情を設定してください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:137
+msgid "Neutralに ☑"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:138
+msgid "任意の名前に変更"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:139
+msgid "Save"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:148
+msgid "Profileの名前は必ずしも変更する必要はありません。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:153
+msgid "**Mayaで表情を調整する場合**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:156
+#: ../../03_workflow/05_create-profile.md:213
+msgid ""
+"1.VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、   "
+"【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:165
+#: ../../03_workflow/05_create-profile.md:222
+msgid "2.Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:173
+msgid "3.Mayaのコントローラーリグで、追加したアクターの表情と同じになるようにキャラクターの表情を調節します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:181
+msgid "4.【From Maya】をクリックすると、Mayaでの調整情報がFCSに反映されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:190
+msgid "【To Maya▼】のプルダウンで「From Maya at save」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:194
+msgid ""
+"コントローラーの登録忘れがあった場合は再度開いたときに作成した表情と異なる場合があります。   "
+"その際は、再度登録し忘れたコントローラーを登録しプロファイルの再登録を行ってください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:200
+msgid "5.Nameを任意の名前に変更し、【Save】します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:210
+msgid "**FCS上で表情を調整する場合**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:231
+msgid "Syncが **No Sync** の場合はProfileの自動情報共有が行われないためMaya上は1つ前に登録した表情のままになっています。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:240
+msgid "Syncを「Both」にした状態で開きなおすと デフォルトの表情になります。   既にしている場合はスキップ"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:246
+msgid "3.Editor上の【Controller】で、追加したアクターの表情と同じになるようにキャラクターの表情を調節してください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:260
+msgid "![](/images/03_workflow_create_profile_filter.jpg)"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:262
+msgid "▼Filterから文字入力   　またはRegionのクリックで   　コントローラーの表示を   　絞り込むことができます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:272
+msgid "4.【To Maya】をクリックします。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:281
+msgid "Syncのプルダウンで「To Maya」もしくは「Both」にしている場合は、調整した数値が自動で同期されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:286
+msgid "5.FCSで調整した内容がMayaに反映されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:294
+msgid "**Profile タグ機能**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:297
+msgid ""
+"Profile作成時にProfileに「タグ」を付けることができます。     "
+"本機能は、Galleryに登録されたProfileを効率的に管理し、解析に使用する表情をスムーズに切り替えるための機能です。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:300
+msgid "1.Editorウィンドウの【▶Tags】を開き、テキストボックスにタグの名前を入力してください。   【＋】を押すとタグが追加されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:309
+msgid "2.Galleryウィンドウの ☑ Advanced にチェックを入れると下記項目が表示されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:318
+msgid ""
+"▶ Filter：表示するProfileの絞り込みを設定します。   ▶ sort：Profileの表示順を変更します。   ▶ Batch "
+"Edit：表示されているProfileを処理に使用するかなどを設定します。   ▶ Misc：Galleryの表示などその他設定を変更できます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:323
+msgid "詳しくは[ユーザーガイド/Menu/Window/Profile/Gallery](../06_glossary/01_Menu/window)をご確認ください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:328
+msgid "3.▶ Filter → Tagの入力欄から作成したタグを選択すると、タグを付けたProfileのみがGalleryに表示されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:337
+msgid "**使用例**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:339
+msgid "Batch EditでGalleryに現在表示されているものに対して、「一括で使用・不使用（ON/OFF）」を切り替えることができます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:341
+msgid "1.Propertyでどの項目に対して使用・不使用（ON/OFF）を一括設定するか選択します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:349
+msgid "2.使用（有効）する場合は ☑ チェックを入れ、不使用（無効）にする場合は □ チェックを外し、【Apply】を押します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:357
+msgid "3.不使用にした場合、表示のProfileがグレーアウトします。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:366
+msgid "使用するProfileを切り替えることで、下記のように出力を調整できます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:370
+msgid "①特定の表情への絞り込み   「ハの字眉」や「怒り」など、特定のタグをONにすることで、狙った表情を優先的に出力・表示させることが可能です。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:375
+msgid ""
+"② 精度の向上（ノイズの除去）   "
+"「カメラの向きが異なるプロファイル」などにタグを付け、Filter機能からそのタグが付いたプロファイルのみを表示し、 "
+"一括で「不使用」に設定することで、現在の環境に最適なプロファイルのみが適用され、表情の検出精度を高めることができます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:384
+msgid "**Predict機能**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:387
+msgid ""
+"本ソフトでは、作成したProfileから自動でリターゲットをする**Predict機能**を搭載しています。   "
+"ある程度の数のProfileを登録した後で、追加のProfileを登録する際にPredict機能を使えば、   "
+"登録済のProfileを基にソフトが予想した表情を作成してくれます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:392
+msgid "Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。     また、動画全体を解析するわけではございません。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:398
+msgid ""
+"1.VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、   "
+"【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。   "
+"Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:406
+msgid "![](/images/03_workflow_create_profile_gallery_addition.jpg)"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:408
+msgid "Galleryに追加される"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:410
+msgid "![](/images/03_workflow_create_profile_image_confirm.jpg)"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:412
+msgid "Editor画面に表示されている画像が同じか確認する"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:417
+msgid "2.**Predictを実行**　valueの数値が変動します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:425
+msgid "3.MayaにPredict結果が出るので、   調整が必要な場合は調整を行い、登録できる内容になったら"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:434
+msgid "4.【Save】します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:446
+msgid "**Profileを作成するときの注意点**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:451
+msgid "**〇目を閉じる/薄目の時のGaze登録について**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:454
+msgid "目を閉じる・薄目など**黒目が見えないもの**は登録する際にGazeの ☑ を外してください   解析結果の精度が低下してしまう可能性があります"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:458
+msgid "例：眉のぎゅっと絞る動きを作りたい時"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:466
+msgid "1.表情を調整した上で"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:474
+msgid "2.Regionのgazeの ☑ を外し、【Save】します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:483
+msgid "**〇解析結果が好ましくない場合**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:485
+msgid ""
+"Profileを作成する際に、解析したい動画ごとに1つ以上Profileを作成するようにしてください。  "
+"Profileを作成していない場合、精度が十分ではない解析結果が出力される可能性があります。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:489
+msgid "解析動画ごとに1つ以上Profileを作成していない場合、アニメーション出力の際に警告がでます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:501
+msgid "**〇登録済みのProfileを編集する場合**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:504
+msgid ""
+"Galleryから調整したい表情のProfile(画像)をクリックし開きます。   "
+"Editor画面が開いたProfileと同じ画像であることを確認してください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:514
+msgid "Gallery上のProfileをクリックすると、対象の表情がMayaへ反映されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:516
+msgid "このとき、**反映されるのは「チェックが付いているRegion」のみ**となります。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:518
+msgid ""
+"目線など、チェックがついていないRegionは読み込み前の数値が保持されるため、   "
+"Profileを読み込んだ際に一見すると表情が正しく反映されていないように見える場合があります。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:531
+msgid "**〇Profile数の確認方法**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:533
+msgid "登録したProfileの数は、Videosウィンドウの「Profiles」をご参照ください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:541
+msgid "「Profiles」が表示されない場合は、"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:542
+msgid "メニューバー上部で右クリック"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:543
+msgid "「Profiles」に ☑ を入れる　で表示されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:556
+msgid "**トラブルシューティング**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:560
+msgid "**〇【+】を押してもGalleryにProfileが追加されない場合**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:564
+msgid ""
+"【+】を押してもGalleryにProfileが追加されない場合、   **Galleryの表示ウィンドウが小さいケース**が考えられます。   "
+"その場合、Galleryウィンドウの ◀▶ をクリックすると追加したProfileが表示されます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:568
+msgid "◀▶ をクリック"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:576
+msgid "**〇同一フレームのProfileを登録できない**"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:580
+msgid ""
+"FCSでは同一フレームのProfileは重複して追加されないようになっています。   重複した場合、Logウィンドウで   "
+"**WARNING:Frame ○○ already has a Profile associated with it**   と表示されます。"
+msgstr ""
+

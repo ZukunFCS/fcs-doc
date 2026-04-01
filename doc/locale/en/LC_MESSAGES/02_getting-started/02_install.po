@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../02_getting-started/02_install.md:1
+msgid "FCSのインストール"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:3
+msgid ""
+"FCSは、インストーラーを使用してインストールします。   インストーラーは[こちら](https://github.com/ZukunFCS"
+"/fcs-doc/releases)からダウンロードできます。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:6
+msgid "**インストールの手順**"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:9
+msgid "インストーラーで使用する言語を設定します。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:17
+msgid "インストールを開始します。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:25
+msgid "使用許諾契約書に同意します。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:33
+msgid ""
+"インストール先を指定します。   デフォルトは、C:\\TOEI\\FCS_\"version\"です。   "
+"変更する場合は、パスを記入、または参照から選択してください。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:43
+msgid "スタートメニューフォルダを指定します。 デフォルトは【FCS】です。   変更する場合は、フォルダ名を記入、または参照から選択してください。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:53
+msgid "デスクトップアイコンを作成する場合は、チェックを入れてください。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:61
+msgid "インストールを設定の確認し、問題がなければインストールしてください。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:69
+msgid "完了後、すぐ起動する場合は、チェックを入れてください。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:77
+msgid "**アンインストールの手順**"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:80
+msgid "スタートメニューもしくはFCSをインストールしたフォルダから**unins000.exe**を実行します。"
+msgstr ""
+
+#: ../../02_getting-started/02_install.md:88
+msgid "問題がなければ【OK】を選択します。"
+msgstr ""
+

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../06_glossary/index.md:23
+msgid "TOEIFCS ホームページ"
+msgstr ""
+
+#: ../../06_glossary/index.md:1
+msgid "ユーザーガイド"
+msgstr ""
+
+#: ../../06_glossary/index.md:3
+msgid "FCSの各ウィンドウの機能説明や用語集、効率的な作業のためのTipsをまとめています。"
+msgstr ""
+
+#: ../../06_glossary/index.md:6
+msgid "[**・メニュー・ウィンドウ説明**](01_Menu/index)     各ウィンドウのボタンや設定項目の詳細な説明です。"
+msgstr ""
+
+#: ../../06_glossary/index.md:9
+msgid "[**・用語集**](02_glossary/index)   FCSで使用される専門用語について解説します。"
+msgstr ""
+
+#: ../../06_glossary/index.md:12
+msgid "[**・Tips・機能説明**](03_Tips/index)   制作を効率化するための便利な機能や小技を紹介します。"
+msgstr ""
+
+#: ../../06_glossary/index.md:15
+msgid "[**・よくある質問**](04_faq/index)"
+msgstr ""
+
+#: ../../06_glossary/index.md:17
+msgid "[**・チュートリアル動画**](05_tutorial/index)"
+msgstr ""
+
+#: ../../06_glossary/index.md:19
+msgid "[**・FCS ホームページ**](https://www.fcs.zukun-lab.com)   ※外部サイトに移行します。"
+msgstr ""
+
