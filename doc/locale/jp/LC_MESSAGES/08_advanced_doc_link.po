@@ -19,6 +19,6 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../08_advanced_doc_link.rst:2
-msgid "テクニカルマニュアル(external) ↗"
+msgid "テクニカルマニュアル ↗"
 msgstr "fcs-doc-advanced ↗"
 
