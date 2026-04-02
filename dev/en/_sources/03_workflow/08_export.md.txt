@@ -64,7 +64,7 @@ Project Folderの項目ではエクスポート先のプロジェクトフォル
 E:\test\FCS\testActor\testCharacterと同じ階層にtestCharacter2をエクスポートしたい場合、
 以下のように出力先を指定してください。
 
-Project Folder：E:\test
+Project Folder：E:\test  
 Character：testCharacter2
 ```
 
