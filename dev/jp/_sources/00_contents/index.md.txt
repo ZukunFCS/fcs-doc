@@ -40,7 +40,7 @@ FCSマニュアルの全コンテンツ一覧です。
 [・お問い合わせ](../07_support/index)  
 [・開発ロードマップ](../04_release-schedule/index)  
 [・テクニカルマニュアル](../08_advanced_doc_link)　※外部サイトに移行します。  
-[・チャットマニュアル（Note book LM）](../09_interactive_doc_link.rst)　※外部サイトに移行します。
+[・チャットマニュアル（Note book LM）](../09_interactive_doc_link.rst)　※外部サイトに移行します。  
 [・マニュアル更新履歴](01_history)
 
 
