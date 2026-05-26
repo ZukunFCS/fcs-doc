@@ -256,5 +256,5 @@ msgstr "Version: 26.04.02"
 
 #: ../../01_updates/index.md:86
 msgid "Galleryタブを操作した際にプログラムがクラッシュする問題を修正しました。"
-msgstr "Fixed a bug that caused the program to crash when interacting with the gallery tab. "
+msgstr "Fixed a bug that caused the program to crash when interacting with the gallery tab."
 
