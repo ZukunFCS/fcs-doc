@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-05-26 06:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -173,15 +173,145 @@ msgstr ""
 msgid "・Session ▶ info   　右クリックメニューから内容のコピーや編集を行うことができます。"
 msgstr ""
 
+#: ../../06_glossary/01_Menu/file.md:164
+msgid "項目"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:165
+msgid "説明"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:166
+msgid "右クリックメニュー"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:167
+msgid "① Project Folder"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:168
+msgid "プロジェクトフォルダのパス"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:169
+msgid "パスのコピー"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:170
+msgid "② Actor"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:171
+msgid "アクター名"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:172 ../../06_glossary/01_Menu/file.md:175
+msgid "リネーム・コピー"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:173
+msgid "③ Character"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:174
+msgid "キャラクター名"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:176
+msgid "④ Maya Scene"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:177
+msgid "Mayaシーンパス"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:178 ../../06_glossary/01_Menu/file.md:181
+msgid "パスのコピー・変更"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:179
+msgid "⑤ Maya Base"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:180
+msgid "workspace.melのパス"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:182
+msgid "⑥ Maya version"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:183
+msgid "Mayaバージョン"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:184
+msgid "コピー・変更"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:185
+msgid "⑦ Profile Count"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:186
+msgid "セッション内のプロファイルの数"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:187 ../../06_glossary/01_Menu/file.md:190
+#: ../../06_glossary/01_Menu/file.md:193 ../../06_glossary/01_Menu/file.md:196
+#: ../../06_glossary/01_Menu/file.md:199 ../../06_glossary/01_Menu/file.md:202
+msgid "コピー"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:188
+msgid "⑧ Video Count"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:189
+msgid "セッションにインポートした動画の数"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:191
+msgid "⑨ Created at"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:192
+msgid "セッション作成日時"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:194
+msgid "⑩ Created by"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:195
+msgid "セッション作成者"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:197
+msgid "⑪ Last saved at"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:198
+msgid "最終保存日時"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:200
+msgid "⑫ Last saved by"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/file.md:201
+msgid "最終保存者"
+msgstr ""
+
 #: ../../06_glossary/01_Menu/file.md
 msgid "Export Session"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/file.md:184
+#: ../../06_glossary/01_Menu/file.md:214
 msgid "・Session ▶ Export   　作業したSessionを出力することができます。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/file.md:187
+#: ../../06_glossary/01_Menu/file.md:217
 msgid "Sessionのエクスポートについては[作業フロー/エクスポート](../../03_workflow/08_export.md)を参照ください。"
 msgstr ""
 
@@ -224,10 +354,10 @@ msgid ""
 msgstr ""
 
 #: ../../03_workflow/08_export.md:455
-msgid "Project Folder：E:\\test Character：testCharacter2"
+msgid "Project Folder：E:\\test   Character：testCharacter2"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/file.md:203
+#: ../../06_glossary/01_Menu/file.md:233
 msgid "**Menu説明 目次**"
 msgstr ""
 
@@ -258,4 +388,7 @@ msgstr ""
 #: ../../06_glossary/01_Menu/index.md:169
 msgid "[**〇Info**](info.md)：バージョン情報など"
 msgstr ""
+
+#~ msgid "Project Folder：E:\\test Character：testCharacter2"
+#~ msgstr ""
 

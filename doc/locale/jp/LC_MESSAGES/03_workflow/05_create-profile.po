@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-05-26 06:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -131,7 +131,7 @@ msgid "**読み込んだ動画をFCSで開く**"
 msgstr ""
 
 #: ../../03_workflow/05_create-profile.md:95
-msgid "開きたい動画ファイルの上で ”右クリック→【Open】” もしくは ”ダブルクリック”    VideoPlayer上に動画が表示されます。"
+msgid "開きたい動画ファイルの上で 右クリック→【Open】 もしくは ダブルクリック   VideoPlayer上に動画が表示されます。"
 msgstr ""
 
 #: ../../03_workflow/05_create-profile.md:98
@@ -498,4 +498,7 @@ msgid ""
 "FCSでは同一フレームのProfileは重複して追加されないようになっています。   重複した場合、Logウィンドウで   "
 "**WARNING:Frame ○○ already has a Profile associated with it**   と表示されます。"
 msgstr ""
+
+#~ msgid "開きたい動画ファイルの上で ”右クリック→【Open】” もしくは ”ダブルクリック”    VideoPlayer上に動画が表示されます。"
+#~ msgstr ""
 

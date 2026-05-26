@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-02 06:39+0900\n"
+"POT-Creation-Date: 2026-05-26 06:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -412,7 +412,8 @@ msgstr ""
 "as follows."
 
 #: ../../03_workflow/08_export.md:455
-msgid "Project Folder：E:\\test Character：testCharacter2"
+#, fuzzy
+msgid "Project Folder：E:\\test   Character：testCharacter2"
 msgstr "Project Folder: E:\\test Character: testCharacter2"
 
 #: ../../06_glossary/01_Menu/file.md:233

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-05-26 06:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -81,32 +81,44 @@ msgstr ""
 "[- Tips](../06_glossary/03_Tips/index)  \n"
 "[- FAQ](../06_glossary/04_faq/index)  \n"
 "[- Tutorial Videos](../06_glossary/05_tutorial/index)  \n"
-"[- FCS Homepage](https://www.fcs.zukun-lab.com) *Redirects to an external site."
+"[- FCS Homepage](https://www.fcs.zukun-lab.com) *Redirects to an external"
+" site."
 
 #: ../../00_contents/index.md:39
+#, fuzzy
 msgid ""
 "**サポート/その他**   [・お問い合わせ](../07_support/index)   [・開発ロードマップ"
-"](../04_release-schedule/index)   [・上級マニュアル](../08_advanced_doc_link)　"
-"※外部サイトに移行します。   [・マニュアル更新履歴](01_history)"
+"](../04_release-schedule/index)   [・テクニカルマニュアル](../08_advanced_doc_link)　"
+"※外部サイトに移行します。   [・チャットマニュアル（Note book "
+"LM）](../09_interactive_doc_link.rst)　※外部サイトに移行します。   "
+"[・マニュアル更新履歴](01_history)"
 msgstr ""
 "**Support / Other**  \n"
 "[- Contact Us](../07_support/index)  \n"
 "[- Development Roadmap](../04_release-schedule/index)  \n"
-"[- Advanced Manual](../08_advanced_doc_link) *Redirects to an external site.  \n"
+"[- Advanced Manual](../08_advanced_doc_link) *Redirects to an external "
+"site.  \n"
 "[- Manual Update History](01_history)"
 
-#: ../../00_contents/index.md:48
+#: ../../00_contents/index.md:49
 msgid "**FCSマニュアル 更新情報**"
 msgstr "**FCS Manual Update Information**"
 
 #: ../../00_contents/01_history.md:87
-msgid "**2026/04/03 更新**"
+#, fuzzy
+msgid "**2026/05/27 更新**"
 msgstr "**Updated 2026/04/03**"
 
 #: ../../00_contents/01_history.md:88
-msgid "マニュアルサイトを26.04verに合わせて更新いたしました。   全体的な構成の変更・内容のアップデートを行っています。"
-msgstr "The manual site has been updated for version 26.04.  \nOverall structure changes and content updates have been made."
+msgid "FCS ver 26.04.02のリリースノートを公開しました。"
+msgstr ""
 
-#: ../../00_contents/index.md:55
+#: ../../00_contents/index.md:56
 msgid "[※過去の更新履歴はこちら](01_history)"
 msgstr "[*See past update history here](01_history)"
+
+#~ msgid "マニュアルサイトを26.04verに合わせて更新いたしました。   全体的な構成の変更・内容のアップデートを行っています。"
+#~ msgstr ""
+#~ "The manual site has been updated for version 26.04.  \n"
+#~ "Overall structure changes and content updates have been made."
+

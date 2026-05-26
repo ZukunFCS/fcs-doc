@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-05-26 06:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -61,23 +61,38 @@ msgstr ""
 #: ../../00_contents/index.md:39
 msgid ""
 "**サポート/その他**   [・お問い合わせ](../07_support/index)   [・開発ロードマップ"
-"](../04_release-schedule/index)   [・上級マニュアル](../08_advanced_doc_link)　"
-"※外部サイトに移行します。   [・マニュアル更新履歴](01_history)"
+"](../04_release-schedule/index)   [・テクニカルマニュアル](../08_advanced_doc_link)　"
+"※外部サイトに移行します。   [・チャットマニュアル（Note book "
+"LM）](../09_interactive_doc_link.rst)　※外部サイトに移行します。   "
+"[・マニュアル更新履歴](01_history)"
 msgstr ""
 
-#: ../../00_contents/index.md:48
+#: ../../00_contents/index.md:49
 msgid "**FCSマニュアル 更新情報**"
 msgstr ""
 
 #: ../../00_contents/01_history.md:87
-msgid "**2026/04/03 更新**"
+msgid "**2026/05/27 更新**"
 msgstr ""
 
 #: ../../00_contents/01_history.md:88
-msgid "マニュアルサイトを26.04verに合わせて更新いたしました。   全体的な構成の変更・内容のアップデートを行っています。"
+msgid "FCS ver 26.04.02のリリースノートを公開しました。"
 msgstr ""
 
-#: ../../00_contents/index.md:55
+#: ../../00_contents/index.md:56
 msgid "[※過去の更新履歴はこちら](01_history)"
 msgstr ""
+
+#~ msgid ""
+#~ "**サポート/その他**   [・お問い合わせ](../07_support/index)   [・開発ロードマップ"
+#~ "](../04_release-schedule/index)   "
+#~ "[・上級マニュアル](../08_advanced_doc_link)　※外部サイトに移行します。   "
+#~ "[・マニュアル更新履歴](01_history)"
+#~ msgstr ""
+
+#~ msgid "**2026/04/03 更新**"
+#~ msgstr ""
+
+#~ msgid "マニュアルサイトを26.04verに合わせて更新いたしました。   全体的な構成の変更・内容のアップデートを行っています。"
+#~ msgstr ""
 

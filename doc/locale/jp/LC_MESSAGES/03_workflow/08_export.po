@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-05-26 06:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -101,10 +101,13 @@ msgid ""
 msgstr ""
 
 #: ../../03_workflow/08_export.md:67
-msgid "Project Folder：E:\\test Character：testCharacter2"
+msgid "Project Folder：E:\\test   Character：testCharacter2"
 msgstr ""
 
 #: ../../03_workflow/08_export.md:76
 msgid "Exportボタンを押して出力"
 msgstr ""
+
+#~ msgid "Project Folder：E:\\test Character：testCharacter2"
+#~ msgstr ""
 

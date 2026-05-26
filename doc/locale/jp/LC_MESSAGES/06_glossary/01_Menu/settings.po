@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-05-26 06:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md:20
 msgid ""
-"【import】：他のバージョンなどから設定をインポートし、FCSを再起動   "
+"【Import】：他のバージョンなどから設定をインポートし、FCSを再起動   "
 "C:\\Users[ユーザー名].fcs\\Cortado[FCSバージョン]にあるmy_conf.yamlを読み込んでください。"
 msgstr ""
 
@@ -180,7 +180,7 @@ msgid ""
 msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md:187
-msgid "③ Use Beta：ベース機能を使用するかを設定"
+msgid "③ Use Beta：ベータ機能を使用するかを設定  ※Beta版の配信は中止となりました。"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md:196
@@ -214,4 +214,12 @@ msgstr ""
 #: ../../06_glossary/01_Menu/index.md:169
 msgid "[**〇Info**](info.md)：バージョン情報など"
 msgstr ""
+
+#~ msgid ""
+#~ "【import】：他のバージョンなどから設定をインポートし、FCSを再起動   "
+#~ "C:\\Users[ユーザー名].fcs\\Cortado[FCSバージョン]にあるmy_conf.yamlを読み込んでください。"
+#~ msgstr ""
+
+#~ msgid "③ Use Beta：ベース機能を使用するかを設定"
+#~ msgstr ""
 
