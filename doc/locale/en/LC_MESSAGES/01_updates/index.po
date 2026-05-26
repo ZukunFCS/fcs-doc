@@ -243,24 +243,18 @@ msgstr ""
 "cursor did not align properly with the timeline."
 
 #: ../../01_updates/index.md:80
-#, fuzzy
 msgid "FCS 26.04.02"
-msgstr "FCS 26.04.01"
+msgstr "FCS 26.04.02"
 
 #: ../../01_updates/index.md:81
-#, fuzzy
 msgid "日付: 2026/05/27"
-msgstr "Date: 2026/04/01"
+msgstr "Date: 2026/05/27"
 
 #: ../../01_updates/index.md:82
-#, fuzzy
 msgid "バージョン: 26.04.02"
-msgstr "Version: 26.04.01"
+msgstr "Version: 26.04.02"
 
 #: ../../01_updates/index.md:86
 msgid "Galleryタブを操作した際にプログラムがクラッシュする問題を修正しました。"
-msgstr ""
-
-#~ msgid "**文章未確認**"
-#~ msgstr "**Text unverified**"
+msgstr "Fixed a bug that caused the program to crash when interacting with the gallery tab. "
 

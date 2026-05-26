@@ -31,24 +31,23 @@ msgid "**最終更新**"
 msgstr "**Latest Update**"
 
 #: ../../00_contents/01_history.md:10
-#, fuzzy
 msgid "**2026/05/27 更新**"
-msgstr "**Updated 2026/04/03**"
+msgstr "**Updated 2026/05/27**"
 
 #: ../../00_contents/01_history.md:11
 msgid "FCS ver 26.04.02のリリースノートを公開しました。"
-msgstr ""
+msgstr "FCS ver 26.04.02 release notes have been published."
 
 #: ../../00_contents/01_history.md:18
 msgid "**過去の更新**"
 msgstr "**Past Updates**"
 
 #: ../../00_contents/01_history.md:21
-#, fuzzy
 msgid ""
 "**2026/04/01 更新**：マニュアルサイトを26.04verに合わせて更新いたしました。   "
 "全体的な構成の変更・内容のアップデートを行っています。"
 msgstr ""
+"Updated 2026/04/01"
 "The manual site has been updated for version 26.04.  \n"
 "Overall structure changes and content updates have been made."
 
