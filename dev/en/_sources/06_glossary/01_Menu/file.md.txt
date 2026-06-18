@@ -6,6 +6,7 @@ Fileメニューのうち、Session（セッション）ファイルの新規作
 ```````{tab-set}
 
 ``````{tab-item} File
+:name: tab-file-file
 
 <br>
 
@@ -40,6 +41,7 @@ Fileメニューのうち、Session（セッション）ファイルの新規作
 ``````
 
 `````{tab-item} Session ▶
+:name: tab-file-session
 
 <br>
 
@@ -68,6 +70,7 @@ Sessionを開く、設定の変更、新規Sessionの作成などを実行する
 
 
 `````{tab-item} Create new Session
+:name: tab-file-create-new-session
 
 <br>
 
@@ -144,6 +147,7 @@ Sessionを開く、設定の変更、新規Sessionの作成などを実行する
 `````
 
 `````{tab-item} Session Data
+:name: tab-file-session-data
 
 <br>
 
@@ -208,6 +212,7 @@ Sessionを開く、設定の変更、新規Sessionの作成などを実行する
 
 
 `````{tab-item} Export Session
+:name: tab-file-export-session
 
 <br>
 

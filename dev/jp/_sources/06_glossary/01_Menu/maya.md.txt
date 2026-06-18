@@ -6,6 +6,7 @@ Mayaの起動手順や、FCSとMaya間の連携に関するメニュー項目に
 
 
 ````{tab-item} Maya
+:name: tab-maya-maya
 
 
 ```{figure} /images/06_glossary_Menu_Maya.jpg

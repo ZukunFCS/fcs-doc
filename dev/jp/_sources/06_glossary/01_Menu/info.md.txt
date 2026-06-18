@@ -6,6 +6,7 @@
 
 
 ``````{tab-item} Info
+:name: tab-info-info
 
 `````{grid} 1 1 2 2 
 :gutter: 2
