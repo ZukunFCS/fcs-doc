@@ -5,6 +5,7 @@
 `````{tab-set}
 
 ````{tab-item} ベースシーンについて
+:name: tab-tips-base-scene
 
 <br>
 
@@ -62,6 +63,7 @@ FCSは、シーン内にFCS用のカメラが無い場合、perspのカメラの
 ````
 
 ````{tab-item} レイアウトについて
+:name: tab-tips-layout
 
 <br>
 

@@ -40,6 +40,7 @@ release = current_version
 html_theme = 'sphinx_rtd_theme'
 html_last_updated_fmt = '%Y-%m-%d'
 html_static_path = ['_static']
+html_js_files = ['tab_links.js']
 
 # -- Options for PDF output -------------------------------------------------
 latex_engine = 'pdflatex'
