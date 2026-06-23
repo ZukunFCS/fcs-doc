@@ -439,7 +439,7 @@ Galleryは作成したProfileが一覧で表示されるウィンドウです。
 ④ ☑ Sync timeline：登録したprofileと同じ動画を開いた状態でprofileを選択すると、  
 　該当するフレームに移動  
 
-⑤ ☑ Adbanced：詳細機能を表示　※内容についてはページ下部項目をご参照ください。  
+⑤ ☑ Advanced：詳細機能を表示　※内容についてはページ下部項目をご参照ください。  
 
 ⑥ 登録されたprofile一覧
 
@@ -460,7 +460,7 @@ Galleryは作成したProfileが一覧で表示されるウィンドウです。
 
 <br><br>
 
-```{rubric} **☑Adbancedについて**
+```{rubric} **☑Advancedについて**
 ```
 
 **【▶ Filter】**  
