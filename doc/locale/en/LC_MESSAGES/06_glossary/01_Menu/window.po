@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-07-07 12:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -24,33 +24,45 @@ msgstr "Window"
 
 #: ../../06_glossary/01_Menu/window.md:3
 msgid "FCSを構成する各機能ウィンドウの役割と、それぞれの表示制御や操作方法について説明します。"
-msgstr "This section explains the role of each functional window in FCS, and how to control display and operate each one."
+msgstr ""
+"This section explains the role of each functional window in FCS, and how "
+"to control display and operate each one."
 
-#: ../../06_glossary/01_Menu/window.md:26
+#: ../../06_glossary/01_Menu/window.md:28
 msgid "① Videos：   動画の読み込みや処理に関するウィンドウ"
-msgstr "① Videos:  \nWindow for importing and processing videos"
+msgstr ""
+"① Videos:  \n"
+"Window for importing and processing videos"
 
-#: ../../06_glossary/01_Menu/window.md:29
+#: ../../06_glossary/01_Menu/window.md:31
 msgid "② Processor：   動画の複数処理に関する設定を行うウィンドウ"
-msgstr "② Processor:  \nWindow for configuring batch processing of multiple videos"
+msgstr ""
+"② Processor:  \n"
+"Window for configuring batch processing of multiple videos"
 
-#: ../../06_glossary/01_Menu/window.md:32
+#: ../../06_glossary/01_Menu/window.md:34
 msgid "③ Controllers：   controller登録に関するウィンドウ"
-msgstr "③ Controllers:  \nWindow for controller registration"
+msgstr ""
+"③ Controllers:  \n"
+"Window for controller registration"
 
-#: ../../06_glossary/01_Menu/window.md:35
+#: ../../06_glossary/01_Menu/window.md:37
 msgid "④ Profiles/Gallery：   登録済みのProfileに関するウィンドウ"
-msgstr "④ Profiles/Gallery:  \nWindow for registered Profiles"
+msgstr ""
+"④ Profiles/Gallery:  \n"
+"Window for registered Profiles"
 
-#: ../../06_glossary/01_Menu/window.md:38
+#: ../../06_glossary/01_Menu/window.md:40
 msgid "⑤ Editor：Profile登録に関するウィンドウ"
 msgstr "⑤ Editor: Window for Profile registration"
 
-#: ../../06_glossary/01_Menu/window.md:40
+#: ../../06_glossary/01_Menu/window.md:42
 msgid "⑥ Solver：   出力の詳細設定に関するウィンドウ"
-msgstr "⑥ Solver:  \nWindow for detailed output settings"
+msgstr ""
+"⑥ Solver:  \n"
+"Window for detailed output settings"
 
-#: ../../06_glossary/01_Menu/window.md:43
+#: ../../06_glossary/01_Menu/window.md:45
 msgid "⑦ Log：FCSのログを表示するウィンドウ"
 msgstr "⑦ Log: Window for displaying FCS logs"
 
@@ -58,47 +70,55 @@ msgstr "⑦ Log: Window for displaying FCS logs"
 msgid "Videos"
 msgstr "Videos"
 
-#: ../../06_glossary/01_Menu/window.md:58
+#: ../../06_glossary/01_Menu/window.md:61
 msgid "Videosウィンドウが開きます。"
 msgstr "Opens the Videos window."
 
-#: ../../06_glossary/01_Menu/window.md:60
+#: ../../06_glossary/01_Menu/window.md:63
 msgid ""
 "Videosウィンドウでは読み込んだHMC動画を一覧で表示します。   "
 "読み込んだ動画に対して、右クリックで開くメニューで個別の設定・処理が可能です。"
 msgstr ""
 "The Videos window displays a list of imported HMC videos.  \n"
-"You can configure and process individual videos through the right-click context menu."
+"You can configure and process individual videos through the right-click "
+"context menu."
 
-#: ../../06_glossary/01_Menu/window.md:70
+#: ../../06_glossary/01_Menu/window.md:73
 msgid "① Filter入力欄：動画名で絞り込み"
 msgstr "① Filter input field: Filter by video name"
 
-#: ../../06_glossary/01_Menu/window.md:72
+#: ../../06_glossary/01_Menu/window.md:75
 msgid "② 【Import】：新しい動画のインポート   　押すとダイアログが開き、動画を選択できます。 　シフトキーで複数選択が可能です。"
-msgstr "② [Import]: Import new videos  \nClicking opens a dialog where you can select videos. You can select multiple videos by holding the Shift key."
-
-#: ../../06_glossary/01_Menu/window.md:76
-msgid "③　Video表見出し 　右クリックメニューから表示する内容を変更可能です。"
-msgstr "③ Video table header. You can change the displayed content from the right-click menu."
+msgstr ""
+"② [Import]: Import new videos  \n"
+"Clicking opens a dialog where you can select videos. You can select "
+"multiple videos by holding the Shift key."
 
 #: ../../06_glossary/01_Menu/window.md:79
+msgid "③　Video表見出し 　右クリックメニューから表示する内容を変更可能です。"
+msgstr ""
+"③ Video table header. You can change the displayed content from the "
+"right-click menu."
+
+#: ../../06_glossary/01_Menu/window.md:82
 msgid "④　選択ON/OFF：バッチ処理対象の切り替え"
 msgstr "④ Selection ON/OFF: Toggle batch processing target"
 
-#: ../../06_glossary/01_Menu/window.md:81
+#: ../../06_glossary/01_Menu/window.md:84
 msgid ""
 "⑤　動画名   　右クリックでメニューが表示し、単体のアニメーション出力などを行うことができます。   　"
 "※詳細は『videos/右クリックメニュー』をご確認ください。"
 msgstr ""
-"⑤ Video name  \nRight-click to display a menu for individual animation output and other operations.  \n"
+"⑤ Video name  \n"
+"Right-click to display a menu for individual animation output and other "
+"operations.  \n"
 "*See \"Videos / Right-click menu\" for details."
 
-#: ../../06_glossary/01_Menu/window.md:85
+#: ../../06_glossary/01_Menu/window.md:88
 msgid "⑥　選択ON/OFF(全)：すべての動画に対して選択のON/OFFの切り替え"
 msgstr "⑥ Selection ON/OFF (All): Toggle selection ON/OFF for all videos"
 
-#: ../../06_glossary/01_Menu/window.md:87
+#: ../../06_glossary/01_Menu/window.md:90
 msgid "⑦　Removeボタン：「Remove Videos and Sequences」ウィンドウを表示"
 msgstr "⑦ Remove button: Displays the \"Remove Videos and Sequences\" window"
 
@@ -106,32 +126,37 @@ msgstr "⑦ Remove button: Displays the \"Remove Videos and Sequences\" window"
 msgid "**Videos 右クリックメニュー**"
 msgstr "**Videos Right-click Menu**"
 
-#: ../../06_glossary/01_Menu/window.md:110
+#: ../../06_glossary/01_Menu/window.md:113
 msgid "① 動画名"
 msgstr "① Video name"
 
-#: ../../06_glossary/01_Menu/window.md:112
-msgid "② 【Open】：動画を開く   　PlayerとTimelineに表示されます。"
-msgstr "② [Open]: Open the video  \nIt will be displayed in the Player and Timeline."
-
 #: ../../06_glossary/01_Menu/window.md:115
-msgid "③ 【Remove】：動画を削除   　「Remove Videos and Sequence」ウィンドウを表示します。"
-msgstr "③ [Remove]: Delete the video  \nDisplays the \"Remove Videos and Sequences\" window."
+msgid "② 【Open】：動画を開く   　PlayerとTimelineに表示されます。"
+msgstr ""
+"② [Open]: Open the video  \n"
+"It will be displayed in the Player and Timeline."
 
-#: ../../06_glossary/01_Menu/window.md:121
+#: ../../06_glossary/01_Menu/window.md:118
+msgid "③ 【Remove】：動画を削除   　「Remove Videos and Sequence」ウィンドウを表示します。"
+msgstr ""
+"③ [Remove]: Delete the video  \n"
+"Displays the \"Remove Videos and Sequences\" window."
+
+#: ../../06_glossary/01_Menu/window.md:124
 msgid "④【▼ Process】：動画単体のアニメーション出力"
 msgstr "④ [▼ Process]: Animation output for a single video"
 
-#: ../../06_glossary/01_Menu/window.md:123
+#: ../../06_glossary/01_Menu/window.md:126
 msgid ""
 "⑤ ☑ Reproces：キャッシュが既に存在する場合も一から解析   　　※チェックなし→既存のキャッシュデータをそのまま使用し解析します。"
 "   　　基本的に ☑ を付けることをオススメします。"
 msgstr ""
 "⑤ ☑ Reprocess: Re-analyze from scratch even if cache already exists  \n"
-"*Without the check, existing cache data will be used as-is for analysis.  \n"
+"*Without the check, existing cache data will be used as-is for analysis."
+"  \n"
 "It is generally recommended to keep this checked (☑)."
 
-#: ../../06_glossary/01_Menu/window.md:127
+#: ../../06_glossary/01_Menu/window.md:130
 msgid ""
 "⑥ Upload Options：Mayaに出力したい項目に ☑   　・☑ Animation：アニメーションデータ   　・☑ "
 "Audio：音声データをMayaに読み込む   　・☑ Frames：動画の連番画像を出力　※Mayaのイメージプレーンに読み込みます   　・☑"
@@ -140,11 +165,12 @@ msgstr ""
 "⑥ Upload Options: Check (☑) the items you want to output to Maya  \n"
 "・☑ Animation: Animation data  \n"
 "・☑ Audio: Load audio data into Maya  \n"
-"・☑ Frames: Output sequential images of the video (*Loaded into Maya's image plane)  \n"
+"・☑ Frames: Output sequential images of the video (*Loaded into Maya's "
+"image plane)  \n"
 "・☑ LM Frames: Generate sequential images with landmarks  \n"
 "(*Loaded into Maya's image plane)"
 
-#: ../../06_glossary/01_Menu/window.md:135
+#: ../../06_glossary/01_Menu/window.md:138
 msgid ""
 "「LM Frames」は++パイプラインでは使用不可です。   また、「Frames」と「LM Frames」はどちらかのみに ☑ "
 "を入れてください。   両方に ☑ がある場合、「LM Frames」の画像は出力されません。"
@@ -153,7 +179,7 @@ msgstr ""
 "Also, please check (☑) only one of \"Frames\" or \"LM Frames\".  \n"
 "If both are checked, the \"LM Frames\" images will not be output."
 
-#: ../../06_glossary/01_Menu/window.md:141
+#: ../../06_glossary/01_Menu/window.md:144
 msgid ""
 "⑦ Export Options：出力したい項目に ☑   　・☑ Playblast：プレイブラストをmov形式の動画で出力・保存   　・☑ "
 "Scene：Mayaシーンを出力・保存"
@@ -162,11 +188,11 @@ msgstr ""
 "・☑ Playblast: Output and save a playblast as a mov format video  \n"
 "・☑ Scene: Output and save the Maya scene"
 
-#: ../../06_glossary/01_Menu/window.md:145
+#: ../../06_glossary/01_Menu/window.md:148
 msgid "⑧ 【Start processing】：⑥・⑦の設定で処理を実行"
 msgstr "⑧ [Start processing]: Execute processing with the settings from ⑥ and ⑦"
 
-#: ../../06_glossary/01_Menu/window.md:148
+#: ../../06_glossary/01_Menu/window.md:151
 msgid ""
 "⑨ 【▼ Copy】 　・Filename：動画のファイル名をクリップボードにコピー   　・Full "
 "path：動画のフルパスをクリップボードにコピー   　・Parent：動画の親ディレクトリのパスをクリップボードにコピー"
@@ -180,15 +206,15 @@ msgstr ""
 msgid "**Remove Videos and Sequencesウィンドウ**"
 msgstr "**Remove Videos and Sequences Window**"
 
-#: ../../06_glossary/01_Menu/window.md:160
+#: ../../06_glossary/01_Menu/window.md:163
 msgid "このウィンドウでオプションを指定し、動画をFCSから削除します。"
 msgstr "Use this window to specify options and remove videos from FCS."
 
-#: ../../06_glossary/01_Menu/window.md:168
+#: ../../06_glossary/01_Menu/window.md:171
 msgid "① Video：動画名"
 msgstr "① Video: Video name"
 
-#: ../../06_glossary/01_Menu/window.md:170
+#: ../../06_glossary/01_Menu/window.md:173
 msgid ""
 "②Delete caches option：キャッシュデータについて   　・ ☑ "
 "SetData：セットデータ内のファイル（音声・静止画連番）も削除するか   　・ ☑ Tracking "
@@ -197,51 +223,59 @@ msgid ""
 "   　　（プロファイルの動画名がUnkownになります）   　　Delete → すべて削除します"
 msgstr ""
 "② Delete caches option: Regarding cache data  \n"
-"・☑ SetData: Whether to also delete files in the set data (audio, sequential images)  \n"
+"・☑ SetData: Whether to also delete files in the set data (audio, "
+"sequential images)  \n"
 "・☑ Tracking Sequence: Whether to also delete the video's tracking data  \n"
 "・Profiles: Regarding profiles added from the video to be deleted  \n"
 "Keep -> Profiles are maintained as-is.  \n"
-"Keep but unlink -> Profiles are maintained but the association with the video is removed.  \n"
+"Keep but unlink -> Profiles are maintained but the association with the "
+"video is removed.  \n"
 "(The profile's video name becomes Unknown)  \n"
 "Delete -> Delete everything"
 
-#: ../../06_glossary/01_Menu/window.md:179
+#: ../../06_glossary/01_Menu/window.md:182
 msgid "③【Execute】：実行"
 msgstr "③ [Execute]: Execute"
 
-#: ../../06_glossary/01_Menu/window.md:181
+#: ../../06_glossary/01_Menu/window.md:184
 msgid "④【Cancel】：キャンセル"
 msgstr "④ [Cancel]: Cancel"
 
-#: ../../06_glossary/01_Menu/window.md:184
+#: ../../06_glossary/01_Menu/window.md:187
 msgid ""
 "動画の尺変更などが原因で、同じ名前・違う内容の動画を読み込みたいとき、ProfilesをKeepにして該当の動画を削除＞動画を再読み込みすると、ピックアップしたフレーム位置にずれが発生し、想定していないアニメーション結果になる場合があります。"
 "   適宜DeleteやKeep but unlinkで以前の動画との連携を解除してください。"
 msgstr ""
-"When you want to import a video with the same name but different content (e.g., due to duration changes), if you set Profiles to Keep, delete the video, and re-import it, the picked-up frame positions may shift, resulting in unexpected animation results.  \n"
-"Please use Delete or Keep but unlink as appropriate to remove the association with the previous video."
+"When you want to import a video with the same name but different content "
+"(e.g., due to duration changes), if you set Profiles to Keep, delete the "
+"video, and re-import it, the picked-up frame positions may shift, "
+"resulting in unexpected animation results.  \n"
+"Please use Delete or Keep but unlink as appropriate to remove the "
+"association with the previous video."
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "Processor"
 msgstr "Processor"
 
-#: ../../06_glossary/01_Menu/window.md:196
+#: ../../06_glossary/01_Menu/window.md:200
 msgid "Processerウィンドウが開きます。"
 msgstr "Opens the Processor window."
 
-#: ../../06_glossary/01_Menu/window.md:198
+#: ../../06_glossary/01_Menu/window.md:202
 msgid ""
 "Processerウィンドウでは複数の動画を一括で処理するバッチ機能が使用できます。   "
 "VideosウィンドウでチェックボックスがONになっている動画が処理の対象になります。"
 msgstr ""
-"The Processor window provides batch processing functionality for multiple videos at once.  \n"
-"Videos with their checkbox turned ON in the Videos window will be targeted for processing."
+"The Processor window provides batch processing functionality for multiple"
+" videos at once.  \n"
+"Videos with their checkbox turned ON in the Videos window will be "
+"targeted for processing."
 
-#: ../../06_glossary/01_Menu/window.md:208
+#: ../../06_glossary/01_Menu/window.md:212
 msgid "①　**Output Folder**：出力先を指定"
 msgstr "① **Output Folder**: Specify the output destination"
 
-#: ../../06_glossary/01_Menu/window.md:210
+#: ../../06_glossary/01_Menu/window.md:214
 msgid ""
 "②　**Output Targets**：出力する内容を指定   　・☑ Animation：アニメーションデータを出力   　・☑ "
 "Audio：音声データをMayaに読み込む   　・☑ Frames：動画の連番画像を出力し、Mayaのイメージプレーンに読み込む   　・☑ "
@@ -252,14 +286,16 @@ msgstr ""
 "② **Output Targets**: Specify the content to output  \n"
 "・☑ Animation: Output animation data  \n"
 "・☑ Audio: Load audio data into Maya  \n"
-"・☑ Frames: Output sequential images of the video and load into Maya's image plane  \n"
-"・☑ LM Frame: Generate sequential images with landmarks and load into Maya's image plane  \n"
+"・☑ Frames: Output sequential images of the video and load into Maya's "
+"image plane  \n"
+"・☑ LM Frame: Generate sequential images with landmarks and load into "
+"Maya's image plane  \n"
 "*Cannot be used with the \"++ pipeline\"  \n"
 "・☑ Playblast: Output and save a playblast as a mov format video  \n"
 "・☑ Scene: Save the Maya scene  \n"
 "・Format: Specify the Maya save format (.mb / .ma)"
 
-#: ../../06_glossary/01_Menu/window.md:220
+#: ../../06_glossary/01_Menu/window.md:224
 msgid ""
 "③　**Advanced**：出力処理の詳細設定   　・☑ Reprocess：キャッシュが既に存在する場合も一から解析する   　"
 "・Output Filename：出力されるデータ名を指定"
@@ -272,59 +308,59 @@ msgstr ""
 msgid "**フォルダ名・動画名を指定するパラメータ**"
 msgstr "**Parameters for specifying folder names and video names**"
 
-#: ../../06_glossary/01_Menu/window.md:234
+#: ../../06_glossary/01_Menu/window.md:238
 msgid "Output Filenameを変更することで出力ファイル名に任意の名前を設定できます。"
 msgstr "You can set a custom output filename by changing the Output Filename."
 
-#: ../../06_glossary/01_Menu/window.md:236
+#: ../../06_glossary/01_Menu/window.md:240
 #, python-brace-format
 msgid "{solver} ： solverの名前"
 msgstr "{solver} : Solver name"
 
-#: ../../06_glossary/01_Menu/window.md:237
+#: ../../06_glossary/01_Menu/window.md:241
 #, python-brace-format
 msgid "{video} ： ビデオのファイル名"
 msgstr "{video} : Video filename"
 
-#: ../../06_glossary/01_Menu/window.md:238
+#: ../../06_glossary/01_Menu/window.md:242
 #, python-brace-format
 msgid "{user} ： windows ユーザ名"
 msgstr "{user} : Windows username"
 
-#: ../../06_glossary/01_Menu/window.md:239
+#: ../../06_glossary/01_Menu/window.md:243
 #, python-brace-format
 msgid "{project} ： 案件フォルダ名"
 msgstr "{project} : Project folder name"
 
-#: ../../06_glossary/01_Menu/window.md:240
+#: ../../06_glossary/01_Menu/window.md:244
 #, python-brace-format
 msgid "{chara} ： キャラクター名"
 msgstr "{chara} : Character name"
 
-#: ../../06_glossary/01_Menu/window.md:241
+#: ../../06_glossary/01_Menu/window.md:245
 #, python-brace-format
 msgid "{actor} ： 役者名"
 msgstr "{actor} : Actor name"
 
-#: ../../06_glossary/01_Menu/window.md:242
+#: ../../06_glossary/01_Menu/window.md:246
 #, python-brace-format, python-format
 msgid "{%Y%m%d}, {%H%M%S} ： 年月日、時間分秒"
 msgstr "{%Y%m%d}, {%H%M%S} : Date (YYYYMMDD), Time (HHMMSS)"
 
-#: ../../06_glossary/01_Menu/window.md:244
+#: ../../06_glossary/01_Menu/window.md:248
 #, python-brace-format
 msgid "{video}のみにするとimportした動画名で出力されます。"
 msgstr "Setting it to {video} only will output using the imported video name."
 
-#: ../../06_glossary/01_Menu/window.md:251
+#: ../../06_glossary/01_Menu/window.md:255
 msgid "④　**【Start】**：アニメーションの出力を開始"
 msgstr "④ **[Start]**: Start animation output"
 
-#: ../../06_glossary/01_Menu/window.md:253
+#: ../../06_glossary/01_Menu/window.md:257
 msgid "⑤　**プログレスバー**：処理状況の表示"
 msgstr "⑤ **Progress bar**: Displays processing status"
 
-#: ../../06_glossary/01_Menu/window.md:255
+#: ../../06_glossary/01_Menu/window.md:259
 msgid "⑥　**Log**：処理状況のログを表示"
 msgstr "⑥ **Log**: Displays the processing status log"
 
@@ -332,20 +368,21 @@ msgstr "⑥ **Log**: Displays the processing status log"
 msgid "Controllers"
 msgstr "Controllers"
 
-#: ../../06_glossary/01_Menu/window.md:269
+#: ../../06_glossary/01_Menu/window.md:274
 msgid "コントローラーの登録に関するウィンドウです。"
 msgstr "This is the window for controller registration."
 
-#: ../../06_glossary/01_Menu/window.md:277
+#: ../../06_glossary/01_Menu/window.md:282
 msgid ""
 "① Filter：入力したコントローラー名で絞り込み   ② 【all▼】：コントローラーの絞り込み   　all / null / upper "
 "/ lower / gaze / eyelid  指定した項目を絞り込んで表示します。"
 msgstr ""
 "① Filter: Filter by entered controller name  \n"
 "② [all▼]: Filter controllers  \n"
-"all / null / upper / lower / gaze / eyelid — Filters and displays the specified items."
+"all / null / upper / lower / gaze / eyelid — Filters and displays the "
+"specified items."
 
-#: ../../06_glossary/01_Menu/window.md:282
+#: ../../06_glossary/01_Menu/window.md:287
 msgid ""
 "Region名（upper / lower / gaze / eyelid）：   現在登録しているRegionのコントローラーが表示されます。"
 "   プルダウンがRegionの状態でAdd Selectedを押すと、   "
@@ -356,25 +393,27 @@ msgstr ""
 "If you press Add Selected while the dropdown is set to a Region,  \n"
 "the controllers will be loaded with that Region already assigned."
 
-#: ../../06_glossary/01_Menu/window.md:287
+#: ../../06_glossary/01_Menu/window.md:292
 msgid ""
 "all：すべてのRegionのコントローラーが表示されます。   "
 "allの状態でコントローラーを読み込むとRegionにはnull(リージョン未設定)が設定されます。"
 msgstr ""
 "all: Displays controllers from all Regions.  \n"
-"Loading controllers while set to all will assign null (no Region) to the Region."
+"Loading controllers while set to all will assign null (no Region) to the "
+"Region."
 
-#: ../../06_glossary/01_Menu/window.md:290
+#: ../../06_glossary/01_Menu/window.md:295
 msgid ""
 "null：リージョンが設定されていないコントローラーが表示されます。   "
 "コントローラー表に一つでもnullがあると登録したコントローラーを保存できないため、   "
 "Save前にリージョンがnullになっているコントローラーがないか確認してください。"
 msgstr ""
 "null: Displays controllers that have no Region assigned.  \n"
-"If there is even one null entry in the controller table, you cannot save the registered controllers.  \n"
+"If there is even one null entry in the controller table, you cannot save "
+"the registered controllers.  \n"
 "Please verify that no controllers have a null Region before saving."
 
-#: ../../06_glossary/01_Menu/window.md:297
+#: ../../06_glossary/01_Menu/window.md:302
 msgid ""
 "③ Maya/Add selected：Maya上で選択したコントローラーを登録   ④ ☑ Sync：数値操作をMayaと連動させる   　"
 "例：⑧min/max、⑨default などの数値操作"
@@ -383,36 +422,40 @@ msgstr ""
 "④ ☑ Sync: Synchronize value operations with Maya  \n"
 "Example: Value operations such as ⑧ min/max, ⑨ default"
 
-#: ../../06_glossary/01_Menu/window.md:301
+#: ../../06_glossary/01_Menu/window.md:306
 msgid ""
 "⑤ ☑ ：選択   ⑥ コントローラー名：登録したコントローラー名一覧   　"
 "右クリックで個別のメニューを表示します、詳細は下記「**コントローラー名→右クリック**」をご確認ください。"
 msgstr ""
 "⑤ ☑ : Selection  \n"
 "⑥ Controller name: List of registered controller names  \n"
-"Right-click to display an individual menu. See \"**Controller name -> Right-click**\" below for details."
+"Right-click to display an individual menu. See \"**Controller name -> "
+"Right-click**\" below for details."
 
-#: ../../06_glossary/01_Menu/window.md:305
+#: ../../06_glossary/01_Menu/window.md:310
 msgid ""
 "⑦ Region：各コントローラーの設定したRegionの表示や調整 　【Region(画像ではupper) "
 "▼】で個別にRegionを変更できます。"
 msgstr ""
 "⑦ Region: Display and adjust the Region assigned to each controller.  \n"
-"You can change the Region individually with [Region (upper in the image) ▼]."
+"You can change the Region individually with [Region (upper in the image) "
+"▼]."
 
-#: ../../06_glossary/01_Menu/window.md:308
+#: ../../06_glossary/01_Menu/window.md:313
 msgid "⑧ min/max：コントローラーの最小値・最大値の表示や調整"
 msgstr "⑧ min/max: Display and adjust the minimum/maximum values of controllers"
 
-#: ../../06_glossary/01_Menu/window.md:310
+#: ../../06_glossary/01_Menu/window.md:315
 msgid "最大値最小値は自動で入力されますが、値があまりにも大きすぎる場合は調整を行って下さい。"
-msgstr "The maximum and minimum values are automatically entered, but please adjust them if the values are excessively large."
+msgstr ""
+"The maximum and minimum values are automatically entered, but please "
+"adjust them if the values are excessively large."
 
-#: ../../06_glossary/01_Menu/window.md:313
+#: ../../06_glossary/01_Menu/window.md:318
 msgid "⑨ default：コントローラーのデフォルト値の表示や調整"
 msgstr "⑨ default: Display and adjust the default values of controllers"
 
-#: ../../06_glossary/01_Menu/window.md:315
+#: ../../06_glossary/01_Menu/window.md:320
 msgid ""
 "⑩ 【▼Value】：☑ を入れたコントローラーの値を調整   　・ ▼Min / Max / Default：どの数値を調整するか   　・ "
 "0.000：入力する数値   　・ Apply：入力した数値をコントローラーに反映"
@@ -422,7 +465,7 @@ msgstr ""
 "・0.000: The value to input  \n"
 "・Apply: Apply the entered value to the controllers"
 
-#: ../../06_glossary/01_Menu/window.md:320
+#: ../../06_glossary/01_Menu/window.md:325
 msgid ""
 "⑪ 【▼Region】：☑ を入れたコントローラーにRegionを設定   　upper / lower / gaze / eyelid   　→"
 " 押下したRegionに設定します。"
@@ -431,11 +474,11 @@ msgstr ""
 "upper / lower / gaze / eyelid  \n"
 "-> Sets to the selected Region."
 
-#: ../../06_glossary/01_Menu/window.md:324
+#: ../../06_glossary/01_Menu/window.md:329
 msgid "⑫ Remove：☑ を入れたコントローラーを表から削除"
 msgstr "⑫ Remove: Remove checked (☑) controllers from the table"
 
-#: ../../06_glossary/01_Menu/window.md:326
+#: ../../06_glossary/01_Menu/window.md:331
 msgid ""
 "⑬ 【Select All】：表示されているコントローラーすべてに ☑ を入れる ⑭ 【Unselect "
 "All】：表示されているコントローラーすべてからチェック □ を外す"
@@ -443,7 +486,7 @@ msgstr ""
 "⑬ [Select All]: Check (☑) all displayed controllers  \n"
 "⑭ [Unselect All]: Uncheck (□) all displayed controllers"
 
-#: ../../06_glossary/01_Menu/window.md:329
+#: ../../06_glossary/01_Menu/window.md:334
 msgid ""
 "⑮ 【▼Advanced】 　・【Remove empty】：Regionが登録されていないコントローラー(null)を表から削除   　"
 "・【Delete all】：登録したコントローラー情報をすべて削除   　・【Reset】：直前に【Save】した状態に戻す   　"
@@ -452,14 +495,15 @@ msgid ""
 "Rearrange：コントローラー表の順番をドラッグ＆ドロップで変更できるようにする"
 msgstr ""
 "⑮ [▼Advanced]  \n"
-"・[Remove empty]: Remove controllers with no Region assigned (null) from the table  \n"
+"・[Remove empty]: Remove controllers with no Region assigned (null) from "
+"the table  \n"
 "・[Delete all]: Delete all registered controller information  \n"
 "・[Reset]: Revert to the last [Save]d state  \n"
 "・[Rename]: Open the \"Replace controllers\" window  \n"
 "*See \"**Batch renaming multiple controllers**\" below for details.  \n"
 "・☑ Rearrange: Enable reordering of the controller table via drag and drop"
 
-#: ../../06_glossary/01_Menu/window.md:337
+#: ../../06_glossary/01_Menu/window.md:342
 msgid "⑯ 【save】：controllersの変更を保存しcontroller Infoに登録"
 msgstr "⑯ [Save]: Save controller changes and register them in controller Info"
 
@@ -467,11 +511,11 @@ msgstr "⑯ [Save]: Save controller changes and register them in controller Info
 msgid "**コントローラー名→右クリック**"
 msgstr "**Controller Name -> Right-click**"
 
-#: ../../06_glossary/01_Menu/window.md:343
+#: ../../06_glossary/01_Menu/window.md:348
 msgid "一覧からコントローラー名を右クリックすることで、メニューが表示されます。"
 msgstr "Right-clicking a controller name in the list displays a menu."
 
-#: ../../06_glossary/01_Menu/window.md:353
+#: ../../06_glossary/01_Menu/window.md:358
 msgid ""
 "① 【▼Copy&Paste】   　・【Copy Name】：コントローラー名をコピー   　・【Copy Values】：数値操作をコピー"
 "   　・【Copy Blendshapes】：ブレンドシェイプをコピー   　・【Paste Values】：数値操作貼り付け   　"
@@ -484,77 +528,89 @@ msgstr ""
 "・[Paste Values]: Paste value settings  \n"
 "・[Paste Blendshapes]: Paste blendshapes"
 
-#: ../../06_glossary/01_Menu/window.md:362
+#: ../../06_glossary/01_Menu/window.md:367
 msgid ""
 "② 【▼Reset】   　・【To Save】：名前・数値などを【Save】時点に戻す   　・【To "
 "Maya】：名前・数値などをMayaの設定に戻す"
 msgstr ""
 "② [▼Reset]  \n"
-"・[To Save]: Revert name, values, etc. to the state at the time of [Save]  \n"
+"・[To Save]: Revert name, values, etc. to the state at the time of [Save]"
+"  \n"
 "・[To Maya]: Revert name, values, etc. to Maya's settings"
 
-#: ../../06_glossary/01_Menu/window.md:368
+#: ../../06_glossary/01_Menu/window.md:373
 msgid ""
 "③ 【Rename】：コントローラー名の変更    「Rename controller」ウィンドウが開くので、「New "
 "Name」に変更したい名前を入れ、    【Rename】を押します。"
 msgstr ""
 "③ [Rename]: Change the controller name.  \n"
-"The \"Rename controller\" window opens. Enter the desired name in \"New Name\"  \n"
+"The \"Rename controller\" window opens. Enter the desired name in \"New "
+"Name\"  \n"
 "and press [Rename]."
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "**複数コントローラーの一括リネーム**"
 msgstr "**Batch Renaming Multiple Controllers**"
 
-#: ../../06_glossary/01_Menu/window.md:379
+#: ../../06_glossary/01_Menu/window.md:384
 msgid ""
 "リネームしたいコントローラーに ☑ をいれ、【▼Advanced】→【Rename】を押します。   すると「Replace "
 "controllers」ウィンドウが開きます。"
 msgstr ""
-"Check (☑) the controllers you want to rename and press [▼Advanced] -> [Rename].  \n"
+"Check (☑) the controllers you want to rename and press [▼Advanced] -> "
+"[Rename].  \n"
 "The \"Replace controllers\" window will open."
 
-#: ../../06_glossary/01_Menu/window.md:389
+#: ../../06_glossary/01_Menu/window.md:394
 msgid ""
 "① 【Add】：コントローラー名に文字列を追加     　【front "
 "▼】（front/back）：コントローラー名の前後どちらに追加するかを指定します。"
 msgstr ""
 "① [Add]: Add a string to the controller name  \n"
-"[front ▼] (front/back): Specify whether to add to the front or back of the controller name."
+"[front ▼] (front/back): Specify whether to add to the front or back of "
+"the controller name."
 
-#: ../../06_glossary/01_Menu/window.md:392
+#: ../../06_glossary/01_Menu/window.md:397
 msgid ""
 "② 【Replace】：コントローラー名の指定の文字列を置き換え     　→『**変換前の文字列**』with『**変換後の文字列**』　"
 "をそれぞれ入力します。"
 msgstr ""
 "② [Replace]: Replace a specified string in the controller name  \n"
-"-> Enter the '**original string**' and '**replacement string**' respectively."
+"-> Enter the '**original string**' and '**replacement string**' "
+"respectively."
 
-#: ../../06_glossary/01_Menu/window.md:395
+#: ../../06_glossary/01_Menu/window.md:400
 msgid "③ Preview：コントローラー名の変換前後のプレビュー     　①・②それぞれ【Add】【Replace】を押すと、プレビューが表示されます。"
-msgstr "③ Preview: Preview of controller names before and after conversion  \nPressing [Add] or [Replace] in ① or ② respectively will display a preview."
+msgstr ""
+"③ Preview: Preview of controller names before and after conversion  \n"
+"Pressing [Add] or [Replace] in ① or ② respectively will display a preview."
 
-#: ../../06_glossary/01_Menu/window.md:398
+#: ../../06_glossary/01_Menu/window.md:403
 msgid "④【Save】：リネームを反映   　③のPreviewを確認し、問題なければ【Save】を押し反映させます。"
-msgstr "④ [Save]: Apply the rename  \nConfirm the Preview in ③, and if there are no issues, press [Save] to apply."
+msgstr ""
+"④ [Save]: Apply the rename  \n"
+"Confirm the Preview in ③, and if there are no issues, press [Save] to "
+"apply."
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "Profiles/Gallery"
 msgstr "Profiles/Gallery"
 
-#: ../../06_glossary/01_Menu/window.md:410
+#: ../../06_glossary/01_Menu/window.md:416
 msgid "Galleryは作成したProfileが一覧で表示されるウィンドウです。"
 msgstr "Gallery is a window that displays a list of created Profiles."
 
-#: ../../06_glossary/01_Menu/window.md:418
+#: ../../06_glossary/01_Menu/window.md:424
 msgid "① 【◀】【▶】：1列に表示するprofileの数を変更   　【◀】：減らす・最小3　【▶】：増やす・最大10"
-msgstr "① [◀][▶]: Change the number of profiles displayed per row  \n[◀]: Decrease (minimum 3) [▶]: Increase (maximum 10)"
+msgstr ""
+"① [◀][▶]: Change the number of profiles displayed per row  \n"
+"[◀]: Decrease (minimum 3) [▶]: Increase (maximum 10)"
 
-#: ../../06_glossary/01_Menu/window.md:421
+#: ../../06_glossary/01_Menu/window.md:427
 msgid "② Count:○○：登録しているprofileの総数"
 msgstr "② Count: XX: Total number of registered profiles"
 
-#: ../../06_glossary/01_Menu/window.md:423
+#: ../../06_glossary/01_Menu/window.md:429
 msgid ""
 "③ profileのフィルター：該当する項目を絞り込む   　・空白：すべてのprofileを表示   　"
 "・Enabled：解析に使用するprofileを表示、Enabledに ☑ を入れて登録したprofileが対象   　"
@@ -567,106 +623,125 @@ msgid ""
 msgstr ""
 "③ Profile filter: Filter by matching criteria  \n"
 "・Blank: Display all profiles  \n"
-"・Enabled: Display profiles used for analysis (profiles registered with Enabled checked ☑)  \n"
-"・Disabled: Display profiles not used for analysis (profiles registered without Enabled checked)  \n"
+"・Enabled: Display profiles used for analysis (profiles registered with "
+"Enabled checked ☑)  \n"
+"・Disabled: Display profiles not used for analysis (profiles registered "
+"without Enabled checked)  \n"
 "・Default: Display profiles with default values, including Neutral  \n"
 "・Not Default: Display profiles with non-default values  \n"
 "・Neutral: Display profiles registered with Neutral checked  \n"
 "・No Tags: Display profiles with no tags set  \n"
-"・(Region) Enabled: Display profiles registered with the corresponding (Region) checked ☑  \n"
-"・(Region) Disabled: Display profiles registered without the corresponding (Region) checked"
+"・(Region) Enabled: Display profiles registered with the corresponding "
+"(Region) checked ☑  \n"
+"・(Region) Disabled: Display profiles registered without the corresponding"
+" (Region) checked"
 
-#: ../../06_glossary/01_Menu/window.md:434
+#: ../../06_glossary/01_Menu/window.md:440
 msgid "④ ☑ Sync timeline：登録したprofileと同じ動画を開いた状態でprofileを選択すると、   　該当するフレームに移動"
-msgstr "④ ☑ Sync timeline: When selecting a profile while the same video is open,  \nthe timeline jumps to the corresponding frame"
+msgstr ""
+"④ ☑ Sync timeline: When selecting a profile while the same video is open,"
+"  \n"
+"the timeline jumps to the corresponding frame"
 
-#: ../../06_glossary/01_Menu/window.md:437
-msgid "⑤ ☑ Adbanced：詳細機能を表示　※内容についてはページ下部項目をご参照ください。"
-msgstr "⑤ ☑ Advanced: Display advanced features. *See the sections at the bottom of the page for details."
+#: ../../06_glossary/01_Menu/window.md:443
+#, fuzzy
+msgid "⑤ ☑ Advanced：詳細機能を表示　※内容についてはページ下部項目をご参照ください。"
+msgstr ""
+"⑤ ☑ Advanced: Display advanced features. *See the sections at the bottom "
+"of the page for details."
 
-#: ../../06_glossary/01_Menu/window.md:439
+#: ../../06_glossary/01_Menu/window.md:445
 msgid "⑥ 登録されたprofile一覧"
 msgstr "⑥ List of registered profiles"
 
-#: ../../06_glossary/01_Menu/window.md:443
+#: ../../06_glossary/01_Menu/window.md:449
 msgid "プロファイルを追加した際の枠について"
 msgstr "About the border colors when profiles are added"
 
-#: ../../06_glossary/01_Menu/window.md:447
+#: ../../06_glossary/01_Menu/window.md:453
 msgid "赤：数値がデフォルト状態/未編集のProfile"
 msgstr "Red: Profile with default values / unedited"
 
-#: ../../06_glossary/01_Menu/window.md:448
+#: ../../06_glossary/01_Menu/window.md:454
 msgid "緑：「Neutral」に ☑ を入れて登録したProfile"
 msgstr "Green: Profile registered with \"Neutral\" checked (☑)"
 
-#: ../../06_glossary/01_Menu/window.md:449
+#: ../../06_glossary/01_Menu/window.md:455
 msgid "青：選択中（編集中）のprofile"
 msgstr "Blue: Currently selected (being edited) profile"
 
-#: ../../06_glossary/01_Menu/window.md:450
+#: ../../06_glossary/01_Menu/window.md:456
 msgid "黒：「Enabled」の ☑ を外し、「Disabled」で登録したprofile"
 msgstr "Black: Profile registered as \"Disabled\" with \"Enabled\" unchecked"
 
-#: ../../06_glossary/01_Menu/window.md:451
+#: ../../06_glossary/01_Menu/window.md:457
 msgid "白：リターゲット後、登録したprofile"
 msgstr "White: Profile registered after retargeting"
 
-#: ../../06_glossary/01_Menu/window.md:456
-#: ../../06_glossary/01_Menu/window.md:467
-#: ../../06_glossary/01_Menu/window.md:492
-#: ../../06_glossary/01_Menu/window.md:515
-#: ../../06_glossary/01_Menu/window.md:541
-#: ../../06_glossary/01_Menu/window.md:846
-#: ../../06_glossary/01_Menu/window.md:879
+#: ../../06_glossary/01_Menu/window.md:462
+#: ../../06_glossary/01_Menu/window.md:473
+#: ../../06_glossary/01_Menu/window.md:498
+#: ../../06_glossary/01_Menu/window.md:521
+#: ../../06_glossary/01_Menu/window.md:547
+#: ../../06_glossary/01_Menu/window.md:854
+#: ../../06_glossary/01_Menu/window.md:889
 msgid "<br><br>"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/window.md
-msgid "**☑Adbancedについて**"
+#, fuzzy
+msgid "**☑Advancedについて**"
 msgstr "**About ☑ Advanced**"
 
-#: ../../06_glossary/01_Menu/window.md:461
+#: ../../06_glossary/01_Menu/window.md:467
 msgid "**【▶ Filter】**   より詳細に絞り込みを設定できます。"
-msgstr "**[▶ Filter]**  \nAllows you to configure more detailed filtering."
+msgstr ""
+"**[▶ Filter]**  \n"
+"Allows you to configure more detailed filtering."
 
-#: ../../06_glossary/01_Menu/window.md:469
+#: ../../06_glossary/01_Menu/window.md:475
 msgid "① Name：文字列が名前に含まれるProfileを表示"
 msgstr "① Name: Display Profiles whose name contains the entered string"
 
-#: ../../06_glossary/01_Menu/window.md:471
+#: ../../06_glossary/01_Menu/window.md:477
 msgid "② Tag：タグ名をプルダウンから選択、該当のタグが付くProfileを表示"
-msgstr "② Tag: Select a tag name from the dropdown to display Profiles with that tag"
+msgstr ""
+"② Tag: Select a tag name from the dropdown to display Profiles with that "
+"tag"
 
-#: ../../06_glossary/01_Menu/window.md:473
+#: ../../06_glossary/01_Menu/window.md:479
 msgid "③ Video：動画名をプルダウンから選択、該当の動画からピックしたProfileを表示"
-msgstr "③ Video: Select a video name from the dropdown to display Profiles picked from that video"
+msgstr ""
+"③ Video: Select a video name from the dropdown to display Profiles picked"
+" from that video"
 
-#: ../../06_glossary/01_Menu/window.md:475
+#: ../../06_glossary/01_Menu/window.md:481
 msgid "④ Property：プルダウンから選択、該当するProfileを表示   　※上記の**③profileのフィルター**と連動しています。"
-msgstr "④ Property: Select from the dropdown to display matching Profiles  \n*This is linked with **③ Profile filter** above."
+msgstr ""
+"④ Property: Select from the dropdown to display matching Profiles  \n"
+"*This is linked with **③ Profile filter** above."
 
-#: ../../06_glossary/01_Menu/window.md:478
+#: ../../06_glossary/01_Menu/window.md:484
 msgid "⑤ Upto：表示数を選択"
 msgstr "⑤ Upto: Select the number of items to display"
 
-#: ../../06_glossary/01_Menu/window.md:480
+#: ../../06_glossary/01_Menu/window.md:486
 msgid "⑥ 【Reset】：フィルターをリセット"
 msgstr "⑥ [Reset]: Reset filters"
 
-#: ../../06_glossary/01_Menu/window.md:484
+#: ../../06_glossary/01_Menu/window.md:490
 msgid "**【▶ Sort】**"
 msgstr "**[▶ Sort]**"
 
-#: ../../06_glossary/01_Menu/window.md:486
+#: ../../06_glossary/01_Menu/window.md:492
 msgid "Profileの表示順を変更します。"
 msgstr "Change the display order of Profiles."
 
-#: ../../06_glossary/01_Menu/window.md:494
+#: ../../06_glossary/01_Menu/window.md:500
 msgid "① Order【▼】：ソートの昇順 降順を変更"
 msgstr "① Order [▼]: Change sort order between ascending and descending"
 
-#: ../../06_glossary/01_Menu/window.md:496
+#: ../../06_glossary/01_Menu/window.md:502
 msgid ""
 "② By property：ソートの内容を選択   　・Video：動画の名前順にソート   　・Created "
 "At：profileを作成した日時で順にソート   　・Saved At：saveした日時で順にソート   　"
@@ -678,19 +753,23 @@ msgstr ""
 "・Created At: Sort by profile creation date/time  \n"
 "・Saved At: Sort by save date/time  \n"
 "・Name: Sort by profile Name  \n"
-"・Confidence: Sort by algorithm match degree (closest to predict results)  \n"
+"・Confidence: Sort by algorithm match degree (closest to predict results)"
+"  \n"
 "・Randomized: Display randomly  \n"
-"・(controller name): Sort by the value registered for the corresponding (controller)"
+"・(controller name): Sort by the value registered for the corresponding "
+"(controller)"
 
-#: ../../06_glossary/01_Menu/window.md:507
+#: ../../06_glossary/01_Menu/window.md:513
 msgid "**【▶ Batch Edit】**"
 msgstr "**[▶ Batch Edit]**"
 
-#: ../../06_glossary/01_Menu/window.md:509
+#: ../../06_glossary/01_Menu/window.md:515
 msgid "表示されているProfileに対し一括で使用・不使用（ON/OFF）の変更やTag付けができます。"
-msgstr "You can batch change the enable/disable (ON/OFF) status or add tags to all displayed Profiles."
+msgstr ""
+"You can batch change the enable/disable (ON/OFF) status or add tags to "
+"all displayed Profiles."
 
-#: ../../06_glossary/01_Menu/window.md:518
+#: ../../06_glossary/01_Menu/window.md:524
 msgid ""
 "① Property：どの項目に対して設定を変更するかを指定   　・Enabled：すべてのRegionに反映   　"
 "・（各Region名）：そのRegionに反映"
@@ -699,7 +778,7 @@ msgstr ""
 "・Enabled: Apply to all Regions  \n"
 "・(Each Region name): Apply to that Region"
 
-#: ../../06_glossary/01_Menu/window.md:522
+#: ../../06_glossary/01_Menu/window.md:528
 msgid ""
 "② ☑ 【Apply】：   　・表示されているProfileを解析に使用する場合はチェックを入れる（☑）   　"
 "・使用しない場合はチェックを外す（□）"
@@ -708,7 +787,7 @@ msgstr ""
 "・Check (☑) to use the displayed Profiles for analysis  \n"
 "・Uncheck (□) to exclude them"
 
-#: ../../06_glossary/01_Menu/window.md:526
+#: ../../06_glossary/01_Menu/window.md:532
 msgid ""
 "③ Tag：表示されているProfileに対し一括でタグを設定する   　・入力欄：Tagの名前を入力   　・【Add】：タグを追加   　"
 "・【Remove】：削除"
@@ -718,19 +797,21 @@ msgstr ""
 "・[Add]: Add the tag  \n"
 "・[Remove]: Remove the tag"
 
-#: ../../06_glossary/01_Menu/window.md:533
+#: ../../06_glossary/01_Menu/window.md:539
 msgid "**【▶ Misc】**"
 msgstr "**[▶ Misc]**"
 
-#: ../../06_glossary/01_Menu/window.md:535
+#: ../../06_glossary/01_Menu/window.md:541
 msgid "Galleryの表示形式などその他設定を変更できます。"
-msgstr "You can change the Gallery display format and other miscellaneous settings."
+msgstr ""
+"You can change the Gallery display format and other miscellaneous "
+"settings."
 
-#: ../../06_glossary/01_Menu/window.md:543
+#: ../../06_glossary/01_Menu/window.md:549
 msgid "① □ Hide Tooltip：登録されているRegionの図の表示 / 非表示を切り替え"
 msgstr "① □ Hide Tooltip: Toggle display/hide of the registered Region diagram"
 
-#: ../../06_glossary/01_Menu/window.md:545
+#: ../../06_glossary/01_Menu/window.md:551
 msgid ""
 "② Display Mode：Profileの表示形式の変更 　・Image：アクターの写真で表示   　"
 "・Render：キャラクターモデルのスクリーンショットで表示"
@@ -739,39 +820,49 @@ msgstr ""
 "・Image: Display with actor photos  \n"
 "・Render: Display with character model screenshots"
 
-#: ../../06_glossary/01_Menu/window.md:549
+#: ../../06_glossary/01_Menu/window.md:555
 msgid "③【Refresh Renders】：Display Mode＞Render表示用にスクリーンショットを   　現在のMayaの設定で再出力"
-msgstr "③ [Refresh Renders]: Re-export screenshots for Display Mode > Render display  \nusing the current Maya settings"
+msgstr ""
+"③ [Refresh Renders]: Re-export screenshots for Display Mode > Render "
+"display  \n"
+"using the current Maya settings"
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "Profiles/Editor"
 msgstr "Profiles/Editor"
 
-#: ../../06_glossary/01_Menu/window.md:563
+#: ../../06_glossary/01_Menu/window.md:570
 msgid "プロファイルを登録するウィンドウです。   画像に対応する表情を、Mayaで作成しFCSに読み込み・FCSで作成しMayaに読み込みます。"
-msgstr "This is the window for registering profiles.  \nCreate facial expressions corresponding to images in Maya and load them into FCS, or create them in FCS and load into Maya."
+msgstr ""
+"This is the window for registering profiles.  \n"
+"Create facial expressions corresponding to images in Maya and load them "
+"into FCS, or create them in FCS and load into Maya."
 
-#: ../../06_glossary/01_Menu/window.md:573
+#: ../../06_glossary/01_Menu/window.md:580
 msgid ""
 "① To Maya▼：数値の操作をMayaと同期させるかどうかの設定   　・To Maya：登録されているprofile情報をMayaに転送する"
 "   　・From Maya at save：saveする際にMaya上での調整データを取得しFCSに反映する   　"
 "・Both：FCSとMayaを双方向で連動させる   　・No Sync：FCSとMayaを連動させない"
 msgstr ""
-"① To Maya▼: Settings for whether to synchronize value operations with Maya  \n"
+"① To Maya▼: Settings for whether to synchronize value operations with "
+"Maya  \n"
 "・To Maya: Transfer registered profile information to Maya  \n"
-"・From Maya at save: Retrieve adjustment data from Maya and apply to FCS when saving  \n"
+"・From Maya at save: Retrieve adjustment data from Maya and apply to FCS "
+"when saving  \n"
 "・Both: Bidirectional synchronization between FCS and Maya  \n"
 "・No Sync: Do not synchronize FCS and Maya"
 
-#: ../../06_glossary/01_Menu/window.md:579
+#: ../../06_glossary/01_Menu/window.md:586
 msgid "② □ Neutral：Neutral表情かどうかを設定   　デフォルトの表情として必ず1つ登録してください。"
-msgstr "② □ Neutral: Set whether this is a Neutral expression  \nBe sure to register exactly one as the default expression."
+msgstr ""
+"② □ Neutral: Set whether this is a Neutral expression  \n"
+"Be sure to register exactly one as the default expression."
 
-#: ../../06_glossary/01_Menu/window.md:582
+#: ../../06_glossary/01_Menu/window.md:589
 msgid "③ ☑ Enabled：このプロファイルを解析に含めるかどうかを設定"
 msgstr "③ ☑ Enabled: Set whether to include this profile in analysis"
 
-#: ../../06_glossary/01_Menu/window.md:584
+#: ../../06_glossary/01_Menu/window.md:591
 msgid ""
 "④ Controller▼：⑥のスライダー表記を切り替え   　・Controller：コントローラー名で表示   　"
 "・Value：コントローラー数値で表示"
@@ -780,83 +871,108 @@ msgstr ""
 "・Controller: Display by controller name  \n"
 "・Value: Display by controller value"
 
-#: ../../06_glossary/01_Menu/window.md:588
+#: ../../06_glossary/01_Menu/window.md:595
 msgid "⑤ 選択したフレームの画像が表示される"
 msgstr "⑤ Displays the image of the selected frame"
 
-#: ../../06_glossary/01_Menu/window.md:590
-msgid "⑥ スライダー：登録したcontrollerをスライダーとして表示   　FCS上でMayaのcontrollerを調整できます"
-msgstr "⑥ Slider: Displays registered controllers as sliders  \nYou can adjust Maya controllers from within FCS"
-
-#: ../../06_glossary/01_Menu/window.md:594
-msgid "コントローラーウィンドウ右部のスライダーはCtrl＋クリックで直接数値を入力することが可能です。"
-msgstr "You can directly input values by Ctrl+clicking the sliders on the right side of the controller window."
-
 #: ../../06_glossary/01_Menu/window.md:597
+msgid "⑥ スライダー：登録したcontrollerをスライダーとして表示   　FCS上でMayaのcontrollerを調整できます"
+msgstr ""
+"⑥ Slider: Displays registered controllers as sliders  \n"
+"You can adjust Maya controllers from within FCS"
+
+#: ../../06_glossary/01_Menu/window.md:601
+msgid "コントローラーウィンドウ右部のスライダーはCtrl＋クリックで直接数値を入力することが可能です。"
+msgstr ""
+"You can directly input values by Ctrl+clicking the sliders on the right "
+"side of the controller window."
+
+#: ../../06_glossary/01_Menu/window.md:604
 msgid "⑦ ▼Info：各情報を表示"
 msgstr "⑦ ▼Info: Display various information"
 
-#: ../../06_glossary/01_Menu/window.md:602
+#: ../../06_glossary/01_Menu/window.md:609
 msgid "**【▼Region】**"
 msgstr "**[▼Region]**"
 
-#: ../../06_glossary/01_Menu/window.md:621
+#: ../../06_glossary/01_Menu/window.md:628
 msgid "Upper/Eyelid/Gaze/Lower：   このプロファイルに   どのRegionの表情が含まれるか指定"
-msgstr "Upper/Eyelid/Gaze/Lower:  \nSpecify which Region's expressions  \nare included in this profile"
+msgstr ""
+"Upper/Eyelid/Gaze/Lower:  \n"
+"Specify which Region's expressions  \n"
+"are included in this profile"
 
-#: ../../06_glossary/01_Menu/window.md:631
+#: ../../06_glossary/01_Menu/window.md:638
 msgid "**【▼Utils】**"
 msgstr "**[▼Utils]**"
 
-#: ../../06_glossary/01_Menu/window.md:648
+#: ../../06_glossary/01_Menu/window.md:655
 msgid "① To Maya：   FCSで操作した値をMayaのコントローラーに送信"
-msgstr "① To Maya:  \nSend values edited in FCS to Maya's controllers"
+msgstr ""
+"① To Maya:  \n"
+"Send values edited in FCS to Maya's controllers"
 
-#: ../../06_glossary/01_Menu/window.md:651
+#: ../../06_glossary/01_Menu/window.md:658
 msgid "② From Maya：   Mayaで操作した値をFCSへ送る"
-msgstr "② From Maya:  \nSend values edited in Maya to FCS"
+msgstr ""
+"② From Maya:  \n"
+"Send values edited in Maya to FCS"
 
-#: ../../06_glossary/01_Menu/window.md:654
+#: ../../06_glossary/01_Menu/window.md:661
 msgid "③ Predict：   画像から表情を解析しMayaに反映する機能"
-msgstr "③ Predict:  \nA function that analyzes facial expressions from images and applies them to Maya"
+msgstr ""
+"③ Predict:  \n"
+"A function that analyzes facial expressions from images and applies them "
+"to Maya"
 
-#: ../../06_glossary/01_Menu/window.md:657
+#: ../../06_glossary/01_Menu/window.md:664
 msgid "④ □　LM：   LandMarkの表示を切り替え"
-msgstr "④ □ LM:  \nToggle Landmark display"
+msgstr ""
+"④ □ LM:  \n"
+"Toggle Landmark display"
 
-#: ../../06_glossary/01_Menu/window.md:660
+#: ../../06_glossary/01_Menu/window.md:667
 msgid "⑤ ☑ Image：   プロファイルの画像を表示を切り替え"
-msgstr "⑤ ☑ Image:  \nToggle profile image display"
+msgstr ""
+"⑤ ☑ Image:  \n"
+"Toggle profile image display"
 
-#: ../../06_glossary/01_Menu/window.md:668
+#: ../../06_glossary/01_Menu/window.md:675
 msgid "**【▼Filter】**"
 msgstr "**[▼Filter]**"
 
-#: ../../06_glossary/01_Menu/window.md:685
+#: ../../06_glossary/01_Menu/window.md:692
 msgid "① all ▼：   対応するRegionのコントローラーのみ表示   （Upper/ Lower / Gaze / Eyelid / all）"
-msgstr "① all ▼:  \nDisplay only controllers for the corresponding Region  \n(Upper / Lower / Gaze / Eyelid / all)"
+msgstr ""
+"① all ▼:  \n"
+"Display only controllers for the corresponding Region  \n"
+"(Upper / Lower / Gaze / Eyelid / all)"
 
-#: ../../06_glossary/01_Menu/window.md:689
+#: ../../06_glossary/01_Menu/window.md:696
 msgid "② 入力欄：   入力した文字でコントローラーを絞り込む"
-msgstr "② Input field:  \nFilter controllers by entered text"
+msgstr ""
+"② Input field:  \n"
+"Filter controllers by entered text"
 
-#: ../../06_glossary/01_Menu/window.md:697
+#: ../../06_glossary/01_Menu/window.md:704
 msgid "**【▼Reset】**"
 msgstr "**[▼Reset]**"
 
-#: ../../06_glossary/01_Menu/window.md:716
+#: ../../06_glossary/01_Menu/window.md:723
 msgid "Upper/Eyelid/Gaze/Lower/ALL：   対応するコントローラーの値を0にリセット"
-msgstr "Upper/Eyelid/Gaze/Lower/ALL:  \nReset the values of the corresponding controllers to 0"
+msgstr ""
+"Upper/Eyelid/Gaze/Lower/ALL:  \n"
+"Reset the values of the corresponding controllers to 0"
 
-#: ../../06_glossary/01_Menu/window.md:722
+#: ../../06_glossary/01_Menu/window.md:729
 msgid "**【▼Tags】**"
 msgstr "**[▼Tags]**"
 
-#: ../../06_glossary/01_Menu/window.md:741
+#: ../../06_glossary/01_Menu/window.md:748
 msgid "プロファイルにタグを追加"
 msgstr "Add tags to profiles"
 
-#: ../../06_glossary/01_Menu/window.md:743
+#: ../../06_glossary/01_Menu/window.md:750
 msgid "入力欄にタグ名を記入し、 【+】を押します。"
 msgstr "Enter the tag name in the input field and press [+]."
 
@@ -864,75 +980,94 @@ msgstr "Enter the tag name in the input field and press [+]."
 msgid "Timeline"
 msgstr "Timeline"
 
-#: ../../06_glossary/01_Menu/window.md:755
+#: ../../06_glossary/01_Menu/window.md:763
 msgid "動画のタイムラインの操作を行います。"
 msgstr "Operate the video timeline."
 
-#: ../../06_glossary/01_Menu/window.md:764
+#: ../../06_glossary/01_Menu/window.md:772
 msgid "① Timeline：バーを左右に動かし、ビデオを手動で再生"
-msgstr "① Timeline: Move the bar left and right to manually scrub through the video"
+msgstr ""
+"① Timeline: Move the bar left and right to manually scrub through the "
+"video"
 
-#: ../../06_glossary/01_Menu/window.md:766
+#: ../../06_glossary/01_Menu/window.md:774
 msgid "② [0][183]：ビデオの縮尺を変更、両サイドの〇をスライドさせることでも変更可能"
-msgstr "② [0][183]: Change the video range; you can also change it by sliding the circles on both sides"
+msgstr ""
+"② [0][183]: Change the video range; you can also change it by sliding the"
+" circles on both sides"
 
-#: ../../06_glossary/01_Menu/window.md:768
+#: ../../06_glossary/01_Menu/window.md:776
 msgid "③ [58]：現在のフレーム数"
 msgstr "③ [58]: Current frame number"
 
-#: ../../06_glossary/01_Menu/window.md:770
+#: ../../06_glossary/01_Menu/window.md:778
 msgid "④ |< >|：1フレーム前/後に移動する"
 msgstr "④ |< >|: Move one frame backward/forward"
 
-#: ../../06_glossary/01_Menu/window.md:772
+#: ../../06_glossary/01_Menu/window.md:780
 msgid "⑤ << >>：登録したprofile位置にジャンプ"
 msgstr "⑤ << >>: Jump to registered profile positions"
 
-#: ../../06_glossary/01_Menu/window.md:774
+#: ../../06_glossary/01_Menu/window.md:782
 msgid "⑥ ＞：動画の再生・停止（再生中は一時停止ボタンが表示されます）"
 msgstr "⑥ >: Play/stop the video (a pause button is displayed during playback)"
 
-#: ../../06_glossary/01_Menu/window.md:776
+#: ../../06_glossary/01_Menu/window.md:784
 msgid "⑦【+】：現在のフレーム位置でProfileを追加"
 msgstr "⑦ [+]: Add a Profile at the current frame position"
 
-#: ../../06_glossary/01_Menu/window.md:778
+#: ../../06_glossary/01_Menu/window.md:786
 msgid "⑧ Video：現在表示されている動画名"
 msgstr "⑧ Video: Name of the currently displayed video"
 
-#: ../../06_glossary/01_Menu/window.md:780
+#: ../../06_glossary/01_Menu/window.md:788
 msgid "⑨ Profile：選択されているフレームでProfileが作成されていれば、そのProfile名"
-msgstr "⑨ Profile: If a Profile has been created at the selected frame, its Profile name is shown"
+msgstr ""
+"⑨ Profile: If a Profile has been created at the selected frame, its "
+"Profile name is shown"
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "**右クリックメニュー**"
 msgstr "**Right-click Menu**"
 
-#: ../../06_glossary/01_Menu/window.md:788
+#: ../../06_glossary/01_Menu/window.md:796
 msgid "タイムライン上を右クリックすると表示されるメニューです。"
 msgstr "This is the menu that appears when you right-click on the timeline."
 
-#: ../../06_glossary/01_Menu/window.md:805
+#: ../../06_glossary/01_Menu/window.md:813
 msgid "① 【▼Resolution】：表示している動画の解像度を変更"
 msgstr "① [▼Resolution]: Change the resolution of the displayed video"
 
-#: ../../06_glossary/01_Menu/window.md:807
-msgid "② 【▼Sync】：Mayaとの同期設定     　・□ No Sync：   　　タイムラインをMayaと同期しない"
-msgstr "② [▼Sync]: Maya synchronization settings  \n・□ No Sync:  \nDo not synchronize the timeline with Maya"
-
-#: ../../06_glossary/01_Menu/window.md:811
-msgid "・□ To Maya：   　　FCSのタイムラインの値を   　　Mayaのタイムスライダーへ送信"
-msgstr "・□ To Maya:  \nSend FCS timeline values  \nto Maya's time slider"
-
 #: ../../06_glossary/01_Menu/window.md:815
+msgid "② 【▼Sync】：Mayaとの同期設定     　・□ No Sync：   　　タイムラインをMayaと同期しない"
+msgstr ""
+"② [▼Sync]: Maya synchronization settings  \n"
+"・□ No Sync:  \n"
+"Do not synchronize the timeline with Maya"
+
+#: ../../06_glossary/01_Menu/window.md:819
+msgid "・□ To Maya：   　　FCSのタイムラインの値を   　　Mayaのタイムスライダーへ送信"
+msgstr ""
+"・□ To Maya:  \n"
+"Send FCS timeline values  \n"
+"to Maya's time slider"
+
+#: ../../06_glossary/01_Menu/window.md:823
 msgid "・□ From Maya：   　　Mayaのタイムスライダーの値を   　　FCSのタイムラインへ送信   　　※別途プラグインが必要になります。"
-msgstr "・□ From Maya:  \nSend Maya's time slider values  \nto the FCS timeline  \n*A separate plugin is required."
+msgstr ""
+"・□ From Maya:  \n"
+"Send Maya's time slider values  \n"
+"to the FCS timeline  \n"
+"*A separate plugin is required."
 
-#: ../../06_glossary/01_Menu/window.md:820
+#: ../../06_glossary/01_Menu/window.md:828
 msgid "・□ Both：   　　FCSとMayaのタイムラインを相互に同期    　　※別途プラグインが必要になります。"
-msgstr "・□ Both:  \nSynchronize FCS and Maya timelines bidirectionally  \n*A separate plugin is required."
+msgstr ""
+"・□ Both:  \n"
+"Synchronize FCS and Maya timelines bidirectionally  \n"
+"*A separate plugin is required."
 
-#: ../../06_glossary/01_Menu/window.md:824
+#: ../../06_glossary/01_Menu/window.md:832
 msgid ""
 "③ 【▼Speed】：再生に関する設定   　・Every Frame：すべてのフレームを再生 　・Real Time：リアルタイム再生   　"
 "・□ Snap 　・□ Loop：ループ再生   　・□ Mute：音声をミュート"
@@ -948,15 +1083,17 @@ msgstr ""
 msgid "**timelineのバー表示**"
 msgstr "**Timeline bar display**"
 
-#: ../../06_glossary/01_Menu/window.md:839
+#: ../../06_glossary/01_Menu/window.md:847
 msgid "左上の▲をクリックすると、timelineのバーが表示されます。   【Hide tab bar】を押すと逆にバーを非表示にできます。"
-msgstr "Click the ▲ in the upper left to display the timeline bar.  \nPress [Hide tab bar] to hide the bar."
+msgstr ""
+"Click the ▲ in the upper left to display the timeline bar.  \n"
+"Press [Hide tab bar] to hide the bar."
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "Player"
 msgstr "Player"
 
-#: ../../06_glossary/01_Menu/window.md:856
+#: ../../06_glossary/01_Menu/window.md:865
 msgid "Playerでは現在開いている動画を表示します。"
 msgstr "The Player displays the currently open video."
 
@@ -964,67 +1101,77 @@ msgstr "The Player displays the currently open video."
 msgid "Solver"
 msgstr "Solver"
 
-#: ../../06_glossary/01_Menu/window.md:871
+#: ../../06_glossary/01_Menu/window.md:881
 msgid "アニメーション出力について、詳細設定を行うウィンドウです。   基本的にはデフォルト設定のまま使用できます。"
-msgstr "This is the window for configuring detailed animation output settings.  \nThe default settings can generally be used as-is."
+msgstr ""
+"This is the window for configuring detailed animation output settings.  \n"
+"The default settings can generally be used as-is."
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "**▼Global**"
 msgstr "**▼Global**"
 
-#: ../../06_glossary/01_Menu/window.md:892
+#: ../../06_glossary/01_Menu/window.md:902
 msgid "① ☑ Fisheye：魚眼レンズで撮影された動画の処理に最適化   　広角レンズで撮影された動画を解析する際はチェックを外してください。"
-msgstr "① ☑ Fisheye: Optimized for processing videos shot with a fisheye lens  \nUncheck this when analyzing videos shot with a wide-angle lens."
+msgstr ""
+"① ☑ Fisheye: Optimized for processing videos shot with a fisheye lens  \n"
+"Uncheck this when analyzing videos shot with a wide-angle lens."
 
-#: ../../06_glossary/01_Menu/window.md:895
+#: ../../06_glossary/01_Menu/window.md:905
 msgid "② Processing Pipeline：動画を処理するためのパイプラインを指定"
 msgstr "② Processing Pipeline: Specify the pipeline for processing videos"
 
-#: ../../06_glossary/01_Menu/window.md:899
+#: ../../06_glossary/01_Menu/window.md:909
 msgid ""
 "各パイプラインについては[テクニカルマニュアル](https://zukunfcs.github.io/fcs-doc-"
 "advanced/26.04/jp/experiments/index.html)をご参照ください。"
 msgstr ""
-"For details on each pipeline, please refer to the [Technical Manual](https://zukunfcs.github.io/fcs-doc-"
+"For details on each pipeline, please refer to the [Technical "
+"Manual](https://zukunfcs.github.io/fcs-doc-"
 "advanced/26.04/jp/experiments/index.html)."
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "**▼Denoising**"
 msgstr "**▼Denoising**"
 
-#: ../../06_glossary/01_Menu/window.md:914
+#: ../../06_glossary/01_Menu/window.md:924
 msgid "①【▼Parameters】：処理のパラメータ設定"
 msgstr "① [▼Parameters]: Processing parameter settings"
 
-#: ../../06_glossary/01_Menu/window.md:916
+#: ../../06_glossary/01_Menu/window.md:926
 msgid "② 【▼Type】：Smoothing機能の設定   　・Raw： 　・Smoothing： 　・Peak："
-msgstr "② [▼Type]: Smoothing function settings  \n・Raw:  \n・Smoothing:  \n・Peak:"
+msgstr ""
+"② [▼Type]: Smoothing function settings  \n"
+"・Raw:  \n"
+"・Smoothing:  \n"
+"・Peak:"
 
-#: ../../06_glossary/01_Menu/window.md:921
+#: ../../06_glossary/01_Menu/window.md:931
 msgid "③ Weight：強さを設定"
 msgstr "③ Weight: Set the strength"
 
-#: ../../06_glossary/01_Menu/window.md:923
+#: ../../06_glossary/01_Menu/window.md:933
 msgid "④ Reps：回数を設定"
 msgstr "④ Reps: Set the number of repetitions"
 
-#: ../../06_glossary/01_Menu/window.md:925
+#: ../../06_glossary/01_Menu/window.md:935
 msgid ""
 "⑤【Save current denoising profile】：現在の設定をプリセットとして保存   　「Save Denoising "
 "preset」ウインドウが開きます。"
 msgstr ""
-"⑤ [Save current denoising profile]: Save the current settings as a preset  \n"
+"⑤ [Save current denoising profile]: Save the current settings as a preset"
+"  \n"
 "The \"Save Denoising preset\" window will open."
 
-#: ../../06_glossary/01_Menu/window.md:928
+#: ../../06_glossary/01_Menu/window.md:938
 msgid "プリセットの登録には「Preset name」を入力し【Save】します。"
 msgstr "To register a preset, enter the \"Preset name\" and press [Save]."
 
-#: ../../06_glossary/01_Menu/window.md:936
+#: ../../06_glossary/01_Menu/window.md:946
 msgid "⑥【▼Preset】：登録したプリセットが表示される"
 msgstr "⑥ [▼Preset]: Displays registered presets"
 
-#: ../../06_glossary/01_Menu/window.md:938
+#: ../../06_glossary/01_Menu/window.md:948
 msgid "⑦ 【Delete】：選択（☑）したプリセットを削除"
 msgstr "⑦ [Delete]: Delete the selected (☑) preset"
 
@@ -1032,36 +1179,40 @@ msgstr "⑦ [Delete]: Delete the selected (☑) preset"
 msgid "**▼Post processing**"
 msgstr "**▼Post processing**"
 
-#: ../../06_glossary/01_Menu/window.md:952
+#: ../../06_glossary/01_Menu/window.md:962
 msgid "① ☐ Gaze Freezing："
 msgstr "① ☐ Gaze Freezing:"
 
-#: ../../06_glossary/01_Menu/window.md:954
+#: ../../06_glossary/01_Menu/window.md:964
 msgid ""
 "② ☑ Prioritize profile：   　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力   　"
 "解析の予測値よりもProfile登録時のリターゲットの値を優先します。"
 msgstr ""
 "② ☑ Prioritize profile:  \n"
-"For frames where a Profile is registered, output using the exact same expression values as the Profile.  \n"
-"Prioritizes the retarget values at Profile registration over the analysis prediction values."
+"For frames where a Profile is registered, output using the exact same "
+"expression values as the Profile.  \n"
+"Prioritizes the retarget values at Profile registration over the analysis"
+" prediction values."
 
-#: ../../06_glossary/01_Menu/window.md:958
+#: ../../06_glossary/01_Menu/window.md:968
 msgid ""
 "③ Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）   　例：Range1.0の場合 → "
 "前後0.5秒がスムージング対象"
 msgstr ""
-"③ Range: Apply smoothing for the specified number of seconds before and after Profile frames (unit: seconds)  \n"
+"③ Range: Apply smoothing for the specified number of seconds before and "
+"after Profile frames (unit: seconds)  \n"
 "Example: Range 1.0 -> 0.5 seconds before and after are smoothed"
 
-#: ../../06_glossary/01_Menu/window.md:961
+#: ../../06_glossary/01_Menu/window.md:971
 msgid ""
 "④ Exponential Coefficient：デフォルト値は1.0（線形）   　"
 "値が小さいほどカーブが滑らかになります（その文解析の予測値から遠ざかります。）"
 msgstr ""
 "④ Exponential Coefficient: Default value is 1.0 (linear)  \n"
-"Smaller values produce smoother curves (but deviate further from the analysis prediction values)."
+"Smaller values produce smoother curves (but deviate further from the "
+"analysis prediction values)."
 
-#: ../../06_glossary/01_Menu/window.md:964
+#: ../../06_glossary/01_Menu/window.md:974
 msgid ""
 "⑤ Clamp mode：クランプ処理の設定を切り替え   　・No Clamp：クランプ処理なし   　・Hard "
 "Clamp：アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値で   　　クランプ "
@@ -1070,20 +1221,22 @@ msgid ""
 msgstr ""
 "⑤ Clamp mode: Switch clamp processing settings  \n"
 "・No Clamp: No clamp processing  \n"
-"・Hard Clamp: Clamp the animation curve using the max - min values set in the Controller window  \n"
+"・Hard Clamp: Clamp the animation curve using the max - min values set in "
+"the Controller window  \n"
 "(no smoothing applied to the clamped range)  \n"
-"・Soft Clamp: Clamp the animation curve using the max - min values set in the Controller window  \n"
+"・Soft Clamp: Clamp the animation curve using the max - min values set in "
+"the Controller window  \n"
 "(smoothing applied to the clamped range)"
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "Log"
 msgstr "Log"
 
-#: ../../06_glossary/01_Menu/window.md:980
+#: ../../06_glossary/01_Menu/window.md:991
 msgid "FCS上で表示されたログを確認できます。"
 msgstr "You can review logs displayed in FCS."
 
-#: ../../06_glossary/01_Menu/window.md:988
+#: ../../06_glossary/01_Menu/window.md:999
 msgid ""
 "① 【WARNING ▼】：表示するログの種類を選択 　・INFO：インフォメーションログを表示   　・WARNING：警告ログを表示   　"
 "・ERROR：エラーログを表示"
@@ -1093,27 +1246,27 @@ msgstr ""
 "・WARNING: Display warning logs  \n"
 "・ERROR: Display error logs"
 
-#: ../../06_glossary/01_Menu/window.md:993
+#: ../../06_glossary/01_Menu/window.md:1004
 msgid "② Time：発生時刻"
 msgstr "② Time: Time of occurrence"
 
-#: ../../06_glossary/01_Menu/window.md:995
+#: ../../06_glossary/01_Menu/window.md:1006
 msgid "③ Logeer"
 msgstr "③ Logger"
 
-#: ../../06_glossary/01_Menu/window.md:997
+#: ../../06_glossary/01_Menu/window.md:1008
 msgid "④ Level：ログの種類　※①を参照ください。"
 msgstr "④ Level: Log type. *See ① for reference."
 
-#: ../../06_glossary/01_Menu/window.md:999
+#: ../../06_glossary/01_Menu/window.md:1010
 msgid "⑤ Message：ログの詳細・メッセージ内容"
 msgstr "⑤ Message: Log details and message content"
 
-#: ../../06_glossary/01_Menu/window.md:1003
+#: ../../06_glossary/01_Menu/window.md:1014
 msgid "**最新のログについては常にFCS下部に表示されます。**"
 msgstr "**The latest log is always displayed at the bottom of FCS.**"
 
-#: ../../06_glossary/01_Menu/window.md:1021
+#: ../../06_glossary/01_Menu/window.md:1031
 msgid "**Menu説明 目次**"
 msgstr "**Menu Description Table of Contents**"
 
@@ -1123,7 +1276,9 @@ msgstr "[**〇File**](file.md): Session file management and basic operations"
 
 #: ../../06_glossary/01_Menu/index.md:159
 msgid "[**〇Settings**](settings.md)：File/Settings　FCS全体の環境設定と動作オプション"
-msgstr "[**〇Settings**](settings.md): File/Settings - FCS global environment settings and behavior options"
+msgstr ""
+"[**〇Settings**](settings.md): File/Settings - FCS global environment "
+"settings and behavior options"
 
 #: ../../06_glossary/01_Menu/index.md:161
 msgid "[**〇Window**](window.md)：各種ウィンドウの表示・操作ガイド"
@@ -1144,3 +1299,4 @@ msgstr "[**〇Explore**](explore.md): Browse files in Windows Explorer from FCS"
 #: ../../06_glossary/01_Menu/index.md:169
 msgid "[**〇Info**](info.md)：バージョン情報など"
 msgstr "[**〇Info**](info.md): Version information, etc."
+
