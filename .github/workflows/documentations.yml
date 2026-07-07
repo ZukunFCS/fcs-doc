@@ -1,10 +1,14 @@
 name: documentation
 
-on: 
+on:
   push:
     branches:
-        - 'main'
+      - 'main'
   workflow_dispatch:
+
+concurrency:
+  group: documentation-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -15,6 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
+          ref: main
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
@@ -22,10 +27,27 @@ jobs:
           cache: 'pip'
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Update PO files
+        run: |
+          cd doc
+          make gettext
+          sphinx-intl update -p _build/gettext -l en
+          sphinx-intl update -p _build/gettext -l jp
+          cd ..
+      - name: Commit PO changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          find doc/locale -name '*.po' -print0 | xargs -0 -r git add
+          if git diff --cached --quiet; then
+            echo "No PO file changes to commit."
+          else
+            git commit -m "Update PO files [skip ci]"
+            git push origin main
+          fi
       - name: Sphinx build
         run: |
           cd doc
-          mkdir _build
           python3 build_docs.py
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

@@ -4,3 +4,4 @@ myst_parser
 sphinx-design
 pyyaml
 sphinx-last-updated-by-git
+sphinx-intl
