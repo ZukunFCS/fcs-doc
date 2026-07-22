@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 11:01+0000\n"
+"POT-Creation-Date: 2026-07-22 11:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -52,6 +52,10 @@ msgid ""
 "使用アトリビュート例：fcs_cam.translateY、fcs_cam.translateZ、fcs_camShape.focalLength"
 msgstr ""
 
+#: ../../03_workflow/05_create-profile.md:6854
+#: ../../03_workflow/05_create-profile.md:6863
+#: ../../03_workflow/05_create-profile.md:6871
+#: ../../06_glossary/01_Menu/view.md:581 ../../06_glossary/01_Menu/view.md:590
 #: ../../06_glossary/03_Tips/index.md:31 ../../06_glossary/03_Tips/index.md:39
 #: ../../06_glossary/03_Tips/index.md:48 ../../06_glossary/03_Tips/index.md:56
 msgid "<br><br>"
@@ -95,8 +99,42 @@ msgstr ""
 msgid "Viewウィンドウ → Layoutから変更したレイアウトを保存することも可能です。"
 msgstr ""
 
+#: ../../06_glossary/01_Menu/view.md:557
+msgid "① Single：Singleレイアウトに切り替え"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/view.md:559
+msgid "② Double：Doubleレイアウトに切り替え"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/view.md:561
+msgid "③ Triple：Tripleレイアウトに切り替え"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/view.md:563
+msgid ""
+"④ Sample_Layout ▶：【Save current】で登録した任意のレイアウトを選択   　【Apply】：保存したレイアウトに変更"
+"     　【Delete】：保存したレイアウトを削除"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/view.md:567
+msgid "⑤ Save current：現在のレイアウトを名前を付けて保存"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md
+msgid "**① Singleレイアウト**"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md
+msgid "**② Doubleレイアウト**"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md
+msgid "**③ Tripleレイアウト**"
+msgstr ""
+
 #: ../../06_glossary/03_Tips/index.md:111
-msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../02_glossary/01_Menu/view.md)をご覧ください。"
+msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../01_Menu/view.md)をご覧ください。"
 msgstr ""
 
 #: ../../06_glossary/03_Tips/index.md:116
@@ -107,6 +145,59 @@ msgstr ""
 msgid "Profile作成 Predict機能"
 msgstr ""
 
+#: ../../03_workflow/05_create-profile.md:6818
+msgid ""
+"本ソフトでは、作成したProfileから自動でリターゲットをする**Predict機能**を搭載しています。   "
+"ある程度の数のProfileを登録した後で、追加のProfileを登録する際にPredict機能を使えば、   "
+"登録済のProfileを基にソフトが予想した表情を作成してくれます。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6823
+msgid "Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。     また、動画全体を解析するわけではございません。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6829
+msgid ""
+"1.VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、   "
+"【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。   "
+"Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6837
+msgid "![](/images/03_workflow_create_profile_gallery_addition.jpg)"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6839
+msgid "Galleryに追加される"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6841
+msgid "![](/images/03_workflow_create_profile_image_confirm.jpg)"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6843
+msgid "Editor画面に表示されている画像が同じか確認する"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6848
+msgid "2.**Predictを実行**　valueの数値が変動します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6856
+msgid "3.MayaにPredict結果が出るので、   調整が必要な場合は調整を行い、登録できる内容になったら"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6865
+msgid "4.【Save】します。"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:6873
+msgid ":end-before:"
+msgstr ""
+
 #~ msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../06_glossary/01_Menu/view.md)をご覧ください。"
+#~ msgstr ""
+
+#~ msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../02_glossary/01_Menu/view.md)をご覧ください。"
 #~ msgstr ""
 
