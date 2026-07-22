@@ -959,6 +959,7 @@ Playerでは現在開いている動画を表示します。
 <br>
 
 ① ☐ Gaze Freezing：
+　魚眼レンズで撮影したビデオを使用する場合は ☑ を入れてください。  
 
 ② ☑ Prioritize profile：  
 　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力  
