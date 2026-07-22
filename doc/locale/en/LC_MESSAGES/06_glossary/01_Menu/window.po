@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-07 12:50+0000\n"
+"POT-Creation-Date: 2026-07-22 10:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1180,10 +1180,10 @@ msgid "**▼Post processing**"
 msgstr "**▼Post processing**"
 
 #: ../../06_glossary/01_Menu/window.md:962
-msgid "① ☐ Gaze Freezing："
-msgstr "① ☐ Gaze Freezing:"
+msgid "① ☐ Gaze Freezing： 　魚眼レンズで撮影したビデオを使用する場合は ☑ を入れてください。"
+msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:964
+#: ../../06_glossary/01_Menu/window.md:965
 msgid ""
 "② ☑ Prioritize profile：   　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力   　"
 "解析の予測値よりもProfile登録時のリターゲットの値を優先します。"
@@ -1194,7 +1194,7 @@ msgstr ""
 "Prioritizes the retarget values at Profile registration over the analysis"
 " prediction values."
 
-#: ../../06_glossary/01_Menu/window.md:968
+#: ../../06_glossary/01_Menu/window.md:969
 msgid ""
 "③ Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）   　例：Range1.0の場合 → "
 "前後0.5秒がスムージング対象"
@@ -1203,7 +1203,7 @@ msgstr ""
 "after Profile frames (unit: seconds)  \n"
 "Example: Range 1.0 -> 0.5 seconds before and after are smoothed"
 
-#: ../../06_glossary/01_Menu/window.md:971
+#: ../../06_glossary/01_Menu/window.md:972
 msgid ""
 "④ Exponential Coefficient：デフォルト値は1.0（線形）   　"
 "値が小さいほどカーブが滑らかになります（その文解析の予測値から遠ざかります。）"
@@ -1212,7 +1212,7 @@ msgstr ""
 "Smaller values produce smoother curves (but deviate further from the "
 "analysis prediction values)."
 
-#: ../../06_glossary/01_Menu/window.md:974
+#: ../../06_glossary/01_Menu/window.md:975
 msgid ""
 "⑤ Clamp mode：クランプ処理の設定を切り替え   　・No Clamp：クランプ処理なし   　・Hard "
 "Clamp：アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値で   　　クランプ "
@@ -1232,11 +1232,11 @@ msgstr ""
 msgid "Log"
 msgstr "Log"
 
-#: ../../06_glossary/01_Menu/window.md:991
+#: ../../06_glossary/01_Menu/window.md:992
 msgid "FCS上で表示されたログを確認できます。"
 msgstr "You can review logs displayed in FCS."
 
-#: ../../06_glossary/01_Menu/window.md:999
+#: ../../06_glossary/01_Menu/window.md:1000
 msgid ""
 "① 【WARNING ▼】：表示するログの種類を選択 　・INFO：インフォメーションログを表示   　・WARNING：警告ログを表示   　"
 "・ERROR：エラーログを表示"
@@ -1246,27 +1246,27 @@ msgstr ""
 "・WARNING: Display warning logs  \n"
 "・ERROR: Display error logs"
 
-#: ../../06_glossary/01_Menu/window.md:1004
+#: ../../06_glossary/01_Menu/window.md:1005
 msgid "② Time：発生時刻"
 msgstr "② Time: Time of occurrence"
 
-#: ../../06_glossary/01_Menu/window.md:1006
+#: ../../06_glossary/01_Menu/window.md:1007
 msgid "③ Logeer"
 msgstr "③ Logger"
 
-#: ../../06_glossary/01_Menu/window.md:1008
+#: ../../06_glossary/01_Menu/window.md:1009
 msgid "④ Level：ログの種類　※①を参照ください。"
 msgstr "④ Level: Log type. *See ① for reference."
 
-#: ../../06_glossary/01_Menu/window.md:1010
+#: ../../06_glossary/01_Menu/window.md:1011
 msgid "⑤ Message：ログの詳細・メッセージ内容"
 msgstr "⑤ Message: Log details and message content"
 
-#: ../../06_glossary/01_Menu/window.md:1014
+#: ../../06_glossary/01_Menu/window.md:1015
 msgid "**最新のログについては常にFCS下部に表示されます。**"
 msgstr "**The latest log is always displayed at the bottom of FCS.**"
 
-#: ../../06_glossary/01_Menu/window.md:1031
+#: ../../06_glossary/01_Menu/window.md:1032
 msgid "**Menu説明 目次**"
 msgstr "**Menu Description Table of Contents**"
 
@@ -1299,4 +1299,7 @@ msgstr "[**〇Explore**](explore.md): Browse files in Windows Explorer from FCS"
 #: ../../06_glossary/01_Menu/index.md:169
 msgid "[**〇Info**](info.md)：バージョン情報など"
 msgstr "[**〇Info**](info.md): Version information, etc."
+
+#~ msgid "① ☐ Gaze Freezing："
+#~ msgstr "① ☐ Gaze Freezing:"
 
