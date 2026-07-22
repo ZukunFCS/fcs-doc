@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-26 06:53+0000\n"
+"POT-Creation-Date: 2026-07-22 11:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -106,11 +106,19 @@ msgstr "**FCS Manual Update Information**"
 
 #: ../../00_contents/01_history.md:87
 #, fuzzy
-msgid "**2026/05/27 更新**"
+msgid "**2026/07/23 更新**"
 msgstr "**Updated 2026/04/03**"
 
 #: ../../00_contents/01_history.md:88
-msgid "FCS ver 26.04.02のリリースノートを公開しました。"
+msgid "FCS ver 26.04.03のリリースノートを公開しました。"
+msgstr ""
+
+#: ../../00_contents/01_history.md:89
+msgid "Predict機能の説明をTipsページに追加しました。"
+msgstr ""
+
+#: ../../00_contents/01_history.md:90
+msgid "マニュアル内の軽微な誤字・リンク切れを修正しました。"
 msgstr ""
 
 #: ../../00_contents/index.md:56
@@ -121,4 +129,7 @@ msgstr "[*See past update history here](01_history)"
 #~ msgstr ""
 #~ "The manual site has been updated for version 26.04.  \n"
 #~ "Overall structure changes and content updates have been made."
+
+#~ msgid "FCS ver 26.04.02のリリースノートを公開しました。"
+#~ msgstr ""
 
