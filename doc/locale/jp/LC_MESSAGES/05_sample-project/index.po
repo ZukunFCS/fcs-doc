@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 10:40+0000\n"
+"POT-Creation-Date: 2026-07-22 10:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -101,7 +101,7 @@ msgid ""
 msgstr ""
 
 #: ../../05_sample-project/index.md:58
-msgid "プラグインが同封されているバージョンのみMayaでの使用が可能です。 Maya対応バージョン 2023,2024,2025"
+msgid "プラグインが同封されているバージョンのみMayaでの使用が可能です。   Maya対応バージョン 2023,2024,2025"
 msgstr ""
 
 #: ../../05_sample-project/index.md:63
@@ -231,4 +231,7 @@ msgid ""
 "Importボタンをクリックして、ファイルダイアログを起動する   ③FCS "
 "Sessionフォルダ構造内の該当ファイルを選択し、開くボタンをクリックする"
 msgstr ""
+
+#~ msgid "プラグインが同封されているバージョンのみMayaでの使用が可能です。 Maya対応バージョン 2023,2024,2025"
+#~ msgstr ""
 
