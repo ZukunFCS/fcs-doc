@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-07-22 10:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -30,13 +30,13 @@ msgstr ""
 msgid "ベースシーンについて"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:11
+#: ../../06_glossary/03_Tips/index.md:13
 msgid ""
 "FCSは、シーン内にFCS用のカメラが無い場合、perspのカメラの位置を参照してカメラを作成します。   "
 "常に一定の画角でプレイブラストを出力するためには、あらかじめ適切な位置やサイズのイメージプレーンをシーンに配置し、ベースシーンとして保存しておく方法を推奨しています。"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:14
+#: ../../06_glossary/03_Tips/index.md:16
 msgid ""
 "※作成する前にFCSの設定ウィンドウ[File＞Settings＞▼Maya](../01_Menu/settings.md)でカメラ名とイメージプレーン名がどのように指定されているかを確認してください。"
 "   以下fcs_cam、imagePlaneという名前が指定されているものとして説明します。"
@@ -46,34 +46,34 @@ msgstr ""
 msgid "**ベースシーンの作成**"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:22
+#: ../../06_glossary/03_Tips/index.md:24
 msgid ""
 "① FCS用のカメラを顔のモデルが中心に来るように配置します。   "
 "使用アトリビュート例：fcs_cam.translateY、fcs_cam.translateZ、fcs_camShape.focalLength"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:29 ../../06_glossary/03_Tips/index.md:37
-#: ../../06_glossary/03_Tips/index.md:46 ../../06_glossary/03_Tips/index.md:54
+#: ../../06_glossary/03_Tips/index.md:31 ../../06_glossary/03_Tips/index.md:39
+#: ../../06_glossary/03_Tips/index.md:48 ../../06_glossary/03_Tips/index.md:56
 msgid "<br><br>"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:31
+#: ../../06_glossary/03_Tips/index.md:33
 msgid ""
 "② FCS用のカメラを使用した状態でView ＞ Image Plane ＞ Import "
 "Image...から静止画用イメージプレーンを配置します。"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:39
+#: ../../06_glossary/03_Tips/index.md:41
 msgid ""
 "③ イメージプレーンをお好みの大きさに変更し、配置したい場所へ移動します。   "
 "使用アトリビュート例：imagePlaneShape.depth、imagePlaneShape.sizeX、imagePlaneShape.sizeY、imagePlaneShape.offsetX、imagePlaneShape.offsetY"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:48
+#: ../../06_glossary/03_Tips/index.md:50
 msgid "④ 静止画連番画像を再生するためにimagePlaneShape.useFrameExtensionをON（1）にします。"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:56
+#: ../../06_glossary/03_Tips/index.md:58
 msgid "⑤ Mayaシーンを保存し、File＞Session▶＞Info...からMaya Sceneに登録します。"
 msgstr ""
 
@@ -85,21 +85,24 @@ msgstr ""
 msgid "**レイアウトの変更方法**"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:94
+#: ../../06_glossary/03_Tips/index.md:97
 msgid ""
 "Viewウィンドウ → Layoutからレイアウトのプリセットを呼び出せます。   "
 "また、各ウィンドウはドラッグ＆ドロップでFCS内を移動・配置することができます。   お好きな配置で作業してください。"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:98
+#: ../../06_glossary/03_Tips/index.md:101
 msgid "Viewウィンドウ → Layoutから変更したレイアウトを保存することも可能です。"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:108
-msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../06_glossary/01_Menu/view.md)をご覧ください。"
+#: ../../06_glossary/03_Tips/index.md:111
+msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../02_glossary/01_Menu/view.md)をご覧ください。"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:113
+#: ../../06_glossary/03_Tips/index.md:116
 msgid "保存したレイアウトのデータは以下のパスに格納されます。"
 msgstr ""
+
+#~ msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../06_glossary/01_Menu/view.md)をご覧ください。"
+#~ msgstr ""
 
