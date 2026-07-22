@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-26 06:53+0000\n"
+"POT-Creation-Date: 2026-07-22 11:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -39,6 +39,7 @@ msgid "バージョン: 26.04.01"
 msgstr ""
 
 #: ../../01_updates/index.md:8 ../../01_updates/index.md:83
+#: ../../01_updates/index.md:93
 msgid "ステージ: Stable"
 msgstr ""
 
@@ -46,7 +47,7 @@ msgstr ""
 msgid "26.04はこれまでで最大のリリースです。 FCSをより活用していただけるよう、多くの機能追加と改善を行いました。"
 msgstr ""
 
-#: ../../01_updates/index.md:13
+#: ../../01_updates/index.md:13 ../../01_updates/index.md:95
 msgid "追加 / 新機能"
 msgstr ""
 
@@ -110,7 +111,7 @@ msgid ""
 "FCSがプロジェクトに適しているかどうか、また求める品質を達成するためにどの程度の時間が必要かを素早く判断するのに役立ちます。"
 msgstr ""
 
-#: ../../01_updates/index.md:44
+#: ../../01_updates/index.md:44 ../../01_updates/index.md:98
 msgid "変更 / 改善"
 msgstr ""
 
@@ -155,6 +156,7 @@ msgid ""
 msgstr ""
 
 #: ../../01_updates/index.md:65 ../../01_updates/index.md:85
+#: ../../01_updates/index.md:105
 msgid "修正"
 msgstr ""
 
@@ -196,6 +198,82 @@ msgstr ""
 
 #: ../../01_updates/index.md:86
 msgid "Galleryタブを操作した際にプログラムがクラッシュする問題を修正しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:90
+msgid "FCS 26.04.03"
+msgstr ""
+
+#: ../../01_updates/index.md:91
+msgid "日付: 2026/07/23"
+msgstr ""
+
+#: ../../01_updates/index.md:92
+msgid "バージョン: 26.04.03"
+msgstr ""
+
+#: ../../01_updates/index.md:96
+msgid "Maya 2027 に対応しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:99
+msgid "大量のProfileを処理する際、リソースが不足している場合はworkersを減らして再試行し、workerが予期せず終了した場合はシリアル処理に切り替えるようにしました。"
+msgstr ""
+
+#: ../../01_updates/index.md:100
+msgid "オプションの処理コンポーネントを必要なときだけ読み込むようにし、不要なモジュールの読み込みを削減しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:101
+msgid "不要な OpenCV と SciPy の依存関係を削減し、Windows のビルドツールチェーンを更新しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:102
+msgid "送信されるエラーレポートに、アプリのバージョン、ビルド、ブランチ、リリースチャンネルの情報を追加し、問題をより正確に判別できるようにしました。"
+msgstr ""
+
+#: ../../01_updates/index.md:103
+msgid "動画のフルパスに未対応の空白（親フォルダー名の空白を含む）が含まれている場合、原因と解決方法を明示するようにしました。"
+msgstr ""
+
+#: ../../01_updates/index.md:106
+msgid "FFmpeg の自動セットアップで、利用できなくなったダウンロード先を検証済みのミラーパッケージに置き換えました。"
+msgstr ""
+
+#: ../../01_updates/index.md:107
+msgid "バッチ処理ダイアログの問題を修正し、動画を選択せずに処理を開始した場合は明確な警告を表示するようにしました。"
+msgstr ""
+
+#: ../../01_updates/index.md:108
+msgid "ProfileのRegion設定が保持されず、Galleryに正しく反映されない問題を修正しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:109
+msgid ""
+"Profile保存後もギャラリーに古いテクスチャの状態が残る問題を修正しました。 "
+"また、テクスチャが存在しない、または削除できない場合に、Profile削除、タイムラインからの削除、Profileの一括編集が失敗しないようにしました。"
+msgstr ""
+
+#: ../../01_updates/index.md:111
+msgid "GalleryのテクスチャおよびProfile編集画面のホバーハンドラ作成時に、断続的に UI の親要素エラーが発生する問題を修正しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:112
+msgid ""
+"レイアウトファイルが存在しない、または書き込めない場合の処理を改善しました。 "
+"選択したレイアウトは現在のセッション中は維持され、再起動後に保持されない可能性がある場合は警告を表示します。"
+msgstr ""
+
+#: ../../01_updates/index.md:114
+msgid "セッションのロック解除時に、既に存在しないロックファイルをエラーとして報告しないようにしました。"
+msgstr ""
+
+#: ../../01_updates/index.md:115
+msgid "キャッシュされたトラッキングシーケンスのメタデータにアクセスできない場合、動画のインポート全体を失敗させず、そのシーケンスをスキップするようにしました。"
+msgstr ""
+
+#: ../../01_updates/index.md:116
+msgid "プレイブラスト出力中に Maya が応答しなくなった場合、処理を正常に停止するようにしました。"
 msgstr ""
 
 #~ msgid "**文章未確認**"
