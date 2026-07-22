@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-07-22 10:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -28,8 +28,12 @@ msgid ""
 "FCSスターターキットを使用することで、フェイシャルキャプチャー動画解析 - 3Dモデルへのアニメーション出力 - "
 "ゲームエンジンによるレンダリング確認まで、フェイシャルキャプチャーを用いたCG映像制作工程を通してFCSをご体験いただけます。"
 msgstr ""
-"The FCS Starter Kit is available to those who have purchased the full version of FCS or applied for a trial of the demo version.  \n"
-"By using the FCS Starter Kit, you can experience FCS through the entire CG video production workflow using facial capture, from facial capture video analysis to animation output for 3D models to rendering verification with a game engine."
+"The FCS Starter Kit is available to those who have purchased the full "
+"version of FCS or applied for a trial of the demo version.  \n"
+"By using the FCS Starter Kit, you can experience FCS through the entire "
+"CG video production workflow using facial capture, from facial capture "
+"video analysis to animation output for 3D models to rendering "
+"verification with a game engine."
 
 #: ../../05_sample-project/index.md:5
 msgid "**FCSスターターキットのコンテンツ一覧**"
@@ -61,7 +65,9 @@ msgstr "FCS Session reference data with pre-created Profiles (05__sample_FCS_Dat
 
 #: ../../05_sample-project/index.md:24
 msgid "一部コンテンツのご利用には、サードパーティー製のゲームエンジン - プラグインを別途ご用意いただく必要がある場合があります。"
-msgstr "Some contents may require separately obtaining third-party game engines or plugins."
+msgstr ""
+"Some contents may require separately obtaining third-party game engines "
+"or plugins."
 
 #: ../../05_sample-project/index.md:29
 msgid "**1: Mayaの3Dモデルデータ**"
@@ -69,7 +75,9 @@ msgstr "**1: Maya 3D Model Data**"
 
 #: ../../05_sample-project/index.md:32
 msgid "Mayaの3Dモデルデータフォルダには、以下の2種類のモデルデータが含まれています。"
-msgstr "The Maya 3D model data folder contains the following two types of model data."
+msgstr ""
+"The Maya 3D model data folder contains the following two types of model "
+"data."
 
 #: ../../05_sample-project/index.md:34
 msgid "**AVERAGE HUMAN**"
@@ -82,9 +90,12 @@ msgid ""
 "MetaHumanに関する詳細は、Epic "
 "Games社が提供する[MetaHuman紹介ホームページ](https://www.unrealengine.com/ja/metahuman)をご確認ください。"
 msgstr ""
-"AVERAGE HUMAN is a 3D model created with MetaHuman (a digital human creation tool) provided by Epic "
-"Games, the developer of Unreal Engine.  \n"
-"For more details about MetaHuman, please refer to the [MetaHuman introduction page](https://www.unrealengine.com/ja/metahuman) provided by Epic Games."
+"AVERAGE HUMAN is a 3D model created with MetaHuman (a digital human "
+"creation tool) provided by Epic Games, the developer of Unreal Engine."
+"  \n"
+"For more details about MetaHuman, please refer to the [MetaHuman "
+"introduction page](https://www.unrealengine.com/ja/metahuman) provided by"
+" Epic Games."
 
 #: ../../05_sample-project/index.md:46
 msgid ""
@@ -92,8 +103,12 @@ msgid ""
 "MetaHumanフェイシャルコントローラの使い方は、Epic "
 "Games社が提供する[こちらのYouTube解説動画](https://www.youtube.com/watch?v=GEpH3o44_58)をご確認ください。"
 msgstr ""
-"AVERAGE HUMAN can be animated using the standard MetaHuman facial controller.  \n"
-"For instructions on how to use the MetaHuman facial controller, please refer to [this YouTube tutorial video](https://www.youtube.com/watch?v=GEpH3o44_58) provided by Epic Games."
+"AVERAGE HUMAN can be animated using the standard MetaHuman facial "
+"controller.  \n"
+"For instructions on how to use the MetaHuman facial controller, please "
+"refer to [this YouTube tutorial "
+"video](https://www.youtube.com/watch?v=GEpH3o44_58) provided by Epic "
+"Games."
 
 #: ../../05_sample-project/index.md:49
 msgid "ご利用の際には、同梱されているreadme.txtを必ずお読みください。"
@@ -106,25 +121,32 @@ msgid ""
 "Games社が提供する[Unreal "
 "Engine紹介ホームページ](https://www.unrealengine.com/ja)をご確認ください。"
 msgstr ""
-"Using AVERAGE HUMAN requires verification and rendering in Unreal Engine.  \n"
-"Please install Unreal "
-"Engine and create a project for verification in advance.  \n"
-"For more details about Unreal Engine, please refer to the [Unreal "
-"Engine introduction page](https://www.unrealengine.com/ja) provided by Epic Games."
+"Using AVERAGE HUMAN requires verification and rendering in Unreal Engine."
+"  \n"
+"Please install Unreal Engine and create a project for verification in "
+"advance.  \n"
+"For more details about Unreal Engine, please refer to the [Unreal Engine "
+"introduction page](https://www.unrealengine.com/ja) provided by Epic "
+"Games."
 
 #: ../../05_sample-project/index.md:58
+msgid "プラグインが同封されているバージョンのみMayaでの使用が可能です。 Maya対応バージョン 2023,2024,2025"
+msgstr ""
+
+#: ../../05_sample-project/index.md:63
 msgid ""
 "Mayaでのレンダリングや、Unity*でのご利用はできませんのでご注意ください。   *Unity Technologies社が開発 - "
 "提供するゲームエンジン"
 msgstr ""
-"Please note that rendering in Maya or use with Unity* is not supported.  \n"
+"Please note that rendering in Maya or use with Unity* is not supported."
+"  \n"
 "*A game engine developed and provided by Unity Technologies."
 
-#: ../../05_sample-project/index.md:64
+#: ../../05_sample-project/index.md:69
 msgid "**NIKE SHIKINO**"
 msgstr "**NIKE SHIKINO**"
 
-#: ../../05_sample-project/index.md:73
+#: ../../05_sample-project/index.md:78
 msgid ""
 "NIKE SHIKINOとは、ツークン研究所が制作したオリジナルのセルルック3Dモデルです。   モデルの顔にはApple "
 "ARKit*に準拠したブレンドシェイプが設定されており、各ターゲットシェイプの数値を変えることでアニメーションさせることができます。   "
@@ -133,11 +155,12 @@ msgid ""
 msgstr ""
 "NIKE SHIKINO is an original cel-shaded 3D model created by Zukun Lab.  \n"
 "The model's face is configured with blend shapes compliant with Apple "
-"ARKit*, and it can be animated by changing the values of each target shape.  \n"
-"\\*An AR framework developed and "
-"provided by Apple, whose face tracking system uses 52 facial expression target shapes."
+"ARKit*, and it can be animated by changing the values of each target "
+"shape.  \n"
+"\\*An AR framework developed and provided by Apple, whose face tracking "
+"system uses 52 facial expression target shapes."
 
-#: ../../05_sample-project/index.md:77
+#: ../../05_sample-project/index.md:82
 msgid ""
 "NIKE SHIKINOは、MayaやUnreal Engine、Unityでのご利用が可能です。   "
 "ご利用の際には、同梱されているreadme.txtを必ずお読みください。"
@@ -145,109 +168,129 @@ msgstr ""
 "NIKE SHIKINO can be used with Maya, Unreal Engine, and Unity.  \n"
 "Please make sure to read the included readme.txt before use."
 
-#: ../../05_sample-project/index.md:82
+#: ../../05_sample-project/index.md:87
 msgid "**2: フェイシャルROM体操の表情一覧PDF**"
 msgstr "**2: Facial ROM Exercise Expression List PDF**"
 
-#: ../../05_sample-project/index.md:85
+#: ../../05_sample-project/index.md:90
 msgid ""
 "フェイシャルキャプチャーによる動画解析では、撮影された人物が取り得る表情の強度的な限界を知ることで、動画解析の効率性を高めることができます。   "
 "眉や目、口などといった顔の各パーツの可動域（= ROM：**R**ange **O**f "
 "**M**otion）取得を目的とした一連の表情パターンのことを、フェイシャルROM体操と呼びます。   "
 "本スターターキットでは、ツークン研究所がフェイシャルキャプチャー撮影で実際に使用している、約50パターンの表情リストをPDF化して同梱しています。"
 msgstr ""
-"In video analysis using facial capture, knowing the intensity limits of expressions that the filmed person can make improves the efficiency of video analysis.  \n"
-"A series of expression patterns designed to capture the range of motion (ROM: **R**ange **O**f "
-"**M**otion) of facial parts such as eyebrows, eyes, and mouth is called facial ROM exercises.  \n"
-"This starter kit includes a PDF of approximately 50 expression patterns that Zukun Lab actually uses in facial capture sessions."
+"In video analysis using facial capture, knowing the intensity limits of "
+"expressions that the filmed person can make improves the efficiency of "
+"video analysis.  \n"
+"A series of expression patterns designed to capture the range of motion "
+"(ROM: **R**ange **O**f **M**otion) of facial parts such as eyebrows, "
+"eyes, and mouth is called facial ROM exercises.  \n"
+"This starter kit includes a PDF of approximately 50 expression patterns "
+"that Zukun Lab actually uses in facial capture sessions."
 
-#: ../../05_sample-project/index.md:91
+#: ../../05_sample-project/index.md:96
 msgid "**3: フェイシャルROM体操動画**"
 msgstr "**3: Facial ROM Exercise Video**"
 
-#: ../../05_sample-project/index.md:93
-msgid "フェイシャルROM体操を収録した動画です、FCSに読み込ませてご利用ください。"
-msgstr "This is a video recording of facial ROM exercises. Please load it into FCS to use."
-
 #: ../../05_sample-project/index.md:98
+msgid "フェイシャルROM体操を収録した動画です、FCSに読み込ませてご利用ください。"
+msgstr ""
+"This is a video recording of facial ROM exercises. Please load it into "
+"FCS to use."
+
+#: ../../05_sample-project/index.md:103
 msgid "**4: 動画解析 - アニメーション出力用のサンプル動画**"
 msgstr "**4: Sample Video for Video Analysis and Animation Output**"
 
-#: ../../05_sample-project/index.md:101
+#: ../../05_sample-project/index.md:106
 msgid "動画解析で使用するサンプル動画です、FCSに読み込ませてご利用ください。"
-msgstr "This is a sample video for use in video analysis. Please load it into FCS to use."
+msgstr ""
+"This is a sample video for use in video analysis. Please load it into FCS"
+" to use."
 
 #: ../../05_sample-project/index.md
 msgid "サンプル動画の内容について"
 msgstr "About the sample video contents"
 
-#: ../../05_sample-project/index.md:104
+#: ../../05_sample-project/index.md:109
 msgid ""
 "・AVERAGE HUMAN：感情の異なる、全9種類のセリフ動画*（セリフは全て同一）   ・NIKE "
 "SHIKINO：感情の異なる、全9種類のセリフ動画*（セリフは全て同一）   　*株式会社モーションアクター - "
 "杉口秀樹様・Mao様のご協力を得て収録"
 msgstr ""
-"\- AVERAGE HUMAN: 9 dialogue videos with different emotions* (all dialogue is identical)  \n"
-"\- NIKE "
-"SHIKINO: 9 dialogue videos with different emotions* (all dialogue is identical)  \n"
-"\\ *Recorded with the cooperation of Motion Actor Inc. - Hideki Sugiguchi and Mao"
+"\\- AVERAGE HUMAN: 9 dialogue videos with different emotions* (all "
+"dialogue is identical)  \n"
+"\\- NIKE SHIKINO: 9 dialogue videos with different emotions* (all "
+"dialogue is identical)  \n"
+"\\ *Recorded with the cooperation of Motion Actor Inc. - Hideki Sugiguchi"
+" and Mao"
 
-#: ../../05_sample-project/index.md:111
+#: ../../05_sample-project/index.md:116
 msgid "**5: Profile作成済みのFCS Session参考例データ**"
 msgstr "**5: FCS Session Reference Data with Pre-created Profiles**"
 
-#: ../../05_sample-project/index.md:114
+#: ../../05_sample-project/index.md:119
 msgid ""
 "動画解析をお試しいただく際の参考例として作成された、AVERAGE HUMAN＆NIKE SHIKINOのFCS Sessionデータです。   "
 "どちらもフェイシャルROM体操動画から約50程度のProfileが既に作成済みのため、サンプル動画を読み込んでProfile作成をしていただくことで、ゼロからSessionを作成することなくFCSをご体験いただけます。"
 msgstr ""
-"This is FCS Session data for AVERAGE HUMAN and NIKE SHIKINO, created as reference examples for trying out video analysis.  \n"
-"Both already have approximately 50 Profiles pre-created from the facial ROM exercise video, so by loading a sample video and creating Profiles, you can experience FCS without building a Session from scratch."
+"This is FCS Session data for AVERAGE HUMAN and NIKE SHIKINO, created as "
+"reference examples for trying out video analysis.  \n"
+"Both already have approximately 50 Profiles pre-created from the facial "
+"ROM exercise video, so by loading a sample video and creating Profiles, "
+"you can experience FCS without building a Session from scratch."
 
-#: ../../05_sample-project/index.md:118
+#: ../../05_sample-project/index.md:123
 msgid ""
 "Profile作成をしなくても解析自体は可能ですが、それだけでは精度が十分ではないため、サンプル動画内からも最低1以上のProfile作成が必要です。"
 "   Profileの具体的な作成方法については、[Profileの作成ページ](../03_workflow/05_create-"
 "profile)をご確認ください。"
 msgstr ""
-"Analysis is possible without creating Profiles, but the accuracy will not be sufficient on its own, so you need to create at least one Profile from the sample video.  \n"
-"For specific instructions on creating Profiles, please refer to the [Profile creation page](../03_workflow/05_create-"
-"profile)."
+"Analysis is possible without creating Profiles, but the accuracy will not"
+" be sufficient on its own, so you need to create at least one Profile "
+"from the sample video.  \n"
+"For specific instructions on creating Profiles, please refer to the "
+"[Profile creation page](../03_workflow/05_create-profile)."
 
-#: ../../05_sample-project/index.md:122
+#: ../../05_sample-project/index.md:127
 msgid ""
 "FCS Sessionは、予め構築されたFCS Sessionフォルダ構造内に格納されています。   FCS "
 "Sessionフォルダ構造の詳細については、[Session作成もしくはオープンページ](../03_workflow/02_create-or-"
 "open-session)をご確認ください。"
 msgstr ""
-"The FCS Session is stored within a pre-built FCS Session folder structure.  \n"
-"For details on the FCS "
-"Session folder structure, please refer to the [Session creation or opening page](../03_workflow/02_create-or-"
-"open-session)."
+"The FCS Session is stored within a pre-built FCS Session folder "
+"structure.  \n"
+"For details on the FCS Session folder structure, please refer to the "
+"[Session creation or opening page](../03_workflow/02_create-or-open-"
+"session)."
 
-#: ../../05_sample-project/index.md:126
+#: ../../05_sample-project/index.md:131
 msgid ""
 "ダウンロードいただいた直後では、Mayaデータやサンプル動画のパスが異なるため再設定*が必要です。   "
 "Mayaデータのパス再設定方法、サンプル動画のインポート方法については下記の手順を参考にしてください。   "
 "\\*Mayaデータ、サンプル動画は必ずしもFCS Sessionフォルダ構造内に格納する必要はありません。"
 msgstr ""
-"Immediately after downloading, the paths for Maya data and sample videos will differ, so reconfiguration* is required.  \n"
-"Please refer to the procedures below for how to reconfigure Maya data paths and how to import sample videos.  \n"
-"\\*Maya data and sample videos do not necessarily need to be stored within the FCS Session folder structure."
+"Immediately after downloading, the paths for Maya data and sample videos "
+"will differ, so reconfiguration* is required.  \n"
+"Please refer to the procedures below for how to reconfigure Maya data "
+"paths and how to import sample videos.  \n"
+"\\*Maya data and sample videos do not necessarily need to be stored "
+"within the FCS Session folder structure."
 
 #: ../../05_sample-project/index.md
 msgid "Mayaデータのパス再設定方法"
 msgstr "How to reconfigure Maya data paths"
 
-#: ../../05_sample-project/index.md:132
+#: ../../05_sample-project/index.md:137
 msgid ""
 "Mayaデータについては、FCS上でMaya Sceneパス - Maya Baseパスそれぞれの再設定が必要です。   "
 "どちらのパスも以下の手順で同様に再設定ができます。"
 msgstr ""
-"For Maya data, you need to reconfigure both the Maya Scene path and Maya Base path in FCS.  \n"
+"For Maya data, you need to reconfigure both the Maya Scene path and Maya "
+"Base path in FCS.  \n"
 "Both paths can be reconfigured using the same procedure below."
 
-#: ../../05_sample-project/index.md:137
+#: ../../05_sample-project/index.md:142
 msgid ""
 "① FCSを起動してSessionを開いた後、File&rarr;Session&rarr;Infoウインドウを立ち上げる   ② "
 "現在のパスが表示されている欄で右クリックし、Editボタンをクリックする   ③ "
@@ -255,28 +298,33 @@ msgid ""
 "Sessionフォルダ構造内の該当ファイルを選択して、開くボタンをクリックする   ⑤ "
 "Changeウインドウ内のパスが変更されたことを確認した後、Saveボタンをクリックする"
 msgstr ""
-"1\. After launching FCS and opening a Session, open the File&rarr;Session&rarr;Info window  \n"
-"2\. Right-click on the field displaying the current path and click the Edit button  \n"
-"3\. Click the Browse button in the Change window to open the file dialog  \n"
-"4\. Select the corresponding file within the FCS "
-"Session folder structure and click the Open button  \n"
-"5\. After confirming that the path in the Change window has been updated, click the Save button"
+"1\\. After launching FCS and opening a Session, open the "
+"File&rarr;Session&rarr;Info window  \n"
+"2\\. Right-click on the field displaying the current path and click the "
+"Edit button  \n"
+"3\\. Click the Browse button in the Change window to open the file dialog"
+"  \n"
+"4\\. Select the corresponding file within the FCS Session folder "
+"structure and click the Open button  \n"
+"5\\. After confirming that the path in the Change window has been "
+"updated, click the Save button"
 
 #: ../../05_sample-project/index.md
 msgid "サンプル動画のインポート方法"
 msgstr "How to import sample videos"
 
-#: ../../05_sample-project/index.md:156
+#: ../../05_sample-project/index.md:161
 msgid "サンプル動画は、以下の手順でインポートできます。"
 msgstr "Sample videos can be imported using the following procedure."
 
-#: ../../05_sample-project/index.md:158
+#: ../../05_sample-project/index.md:163
 msgid ""
 "①FCSを起動してSessionを開いた後、Videosウインドウを立ち上げる   ② "
 "Importボタンをクリックして、ファイルダイアログを起動する   ③FCS "
 "Sessionフォルダ構造内の該当ファイルを選択し、開くボタンをクリックする"
 msgstr ""
-"1\. After launching FCS and opening a Session, open the Videos window  \n"
-"2\. Click the Import button to open the file dialog  \n"
-"3\. Select the corresponding file within the FCS "
-"Session folder structure and click the Open button"
+"1\\. After launching FCS and opening a Session, open the Videos window  \n"
+"2\\. Click the Import button to open the file dialog  \n"
+"3\\. Select the corresponding file within the FCS Session folder "
+"structure and click the Open button"
+
