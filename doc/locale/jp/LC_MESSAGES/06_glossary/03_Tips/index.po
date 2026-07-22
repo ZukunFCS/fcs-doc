@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 10:33+0000\n"
+"POT-Creation-Date: 2026-07-22 11:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -101,6 +101,10 @@ msgstr ""
 
 #: ../../06_glossary/03_Tips/index.md:116
 msgid "保存したレイアウトのデータは以下のパスに格納されます。"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md
+msgid "Profile作成 Predict機能"
 msgstr ""
 
 #~ msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../06_glossary/01_Menu/view.md)をご覧ください。"
