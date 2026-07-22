@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 10:42+0000\n"
+"POT-Creation-Date: 2026-07-22 11:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -91,15 +91,15 @@ msgstr "1\\. Press [Import] to open a popup window,"
 #: ../../03_workflow/05_create-profile.md:350
 #: ../../03_workflow/05_create-profile.md:358
 #: ../../03_workflow/05_create-profile.md:385
-#: ../../03_workflow/05_create-profile.md:426
-#: ../../03_workflow/05_create-profile.md:435
-#: ../../03_workflow/05_create-profile.md:443
-#: ../../03_workflow/05_create-profile.md:467
-#: ../../03_workflow/05_create-profile.md:475
-#: ../../03_workflow/05_create-profile.md:483
-#: ../../03_workflow/05_create-profile.md:501
-#: ../../03_workflow/05_create-profile.md:532
-#: ../../03_workflow/05_create-profile.md:577
+#: ../../03_workflow/05_create-profile.md:428
+#: ../../03_workflow/05_create-profile.md:437
+#: ../../03_workflow/05_create-profile.md:445
+#: ../../03_workflow/05_create-profile.md:471
+#: ../../03_workflow/05_create-profile.md:479
+#: ../../03_workflow/05_create-profile.md:487
+#: ../../03_workflow/05_create-profile.md:505
+#: ../../03_workflow/05_create-profile.md:536
+#: ../../03_workflow/05_create-profile.md:581
 msgid "<br><br>"
 msgstr ""
 
@@ -439,6 +439,10 @@ msgid "**Predict機能**"
 msgstr "**Predict Feature**"
 
 #: ../../03_workflow/05_create-profile.md:390
+msgid ":start-after: <!--Predict_start_here-->"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:392
 msgid ""
 "本ソフトでは、作成したProfileから自動でリターゲットをする**Predict機能**を搭載しています。   "
 "ある程度の数のProfileを登録した後で、追加のProfileを登録する際にPredict機能を使えば、   "
@@ -451,14 +455,14 @@ msgstr ""
 "The software will create predicted expressions based on the already "
 "registered Profiles."
 
-#: ../../03_workflow/05_create-profile.md:395
+#: ../../03_workflow/05_create-profile.md:397
 msgid "Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。     また、動画全体を解析するわけではございません。"
 msgstr ""
 "The accuracy of Predict's automatic retargeting is linked to the accuracy"
 " of the registered Profiles.  \n"
 "Also note that it does not analyze the entire video."
 
-#: ../../03_workflow/05_create-profile.md:401
+#: ../../03_workflow/05_create-profile.md:403
 msgid ""
 "1.VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、   "
 "【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。   "
@@ -471,69 +475,73 @@ msgstr ""
 "Confirm that the image added to the Gallery matches the image in the "
 "Editor screen."
 
-#: ../../03_workflow/05_create-profile.md:409
+#: ../../03_workflow/05_create-profile.md:411
 msgid "![](/images/03_workflow_create_profile_gallery_addition.jpg)"
 msgstr "![](/images/03_workflow_create_profile_gallery_addition.jpg)"
 
-#: ../../03_workflow/05_create-profile.md:411
+#: ../../03_workflow/05_create-profile.md:413
 msgid "Galleryに追加される"
 msgstr "Added to the Gallery"
 
-#: ../../03_workflow/05_create-profile.md:413
+#: ../../03_workflow/05_create-profile.md:415
 msgid "![](/images/03_workflow_create_profile_image_confirm.jpg)"
 msgstr "![](/images/03_workflow_create_profile_image_confirm.jpg)"
 
-#: ../../03_workflow/05_create-profile.md:415
+#: ../../03_workflow/05_create-profile.md:417
 msgid "Editor画面に表示されている画像が同じか確認する"
 msgstr "Confirm that the image displayed in the Editor screen is the same"
 
-#: ../../03_workflow/05_create-profile.md:420
+#: ../../03_workflow/05_create-profile.md:422
 msgid "2.**Predictを実行**　valueの数値が変動します。"
 msgstr "2\\. **Execute Predict** -- the value numbers will change."
 
-#: ../../03_workflow/05_create-profile.md:428
+#: ../../03_workflow/05_create-profile.md:430
 msgid "3.MayaにPredict結果が出るので、   調整が必要な場合は調整を行い、登録できる内容になったら"
 msgstr ""
 "3\\. The Predict result will appear in Maya.  \n"
 "If adjustments are needed, make them, and once the content is ready to "
 "register,"
 
-#: ../../03_workflow/05_create-profile.md:437
+#: ../../03_workflow/05_create-profile.md:439
 msgid "4.【Save】します。"
 msgstr "4\\. Press [Save]."
 
-#: ../../03_workflow/05_create-profile.md:449
+#: ../../03_workflow/05_create-profile.md:447
+msgid ":end-before: <!--Predict_end_here-->"
+msgstr ""
+
+#: ../../03_workflow/05_create-profile.md:453
 msgid "**Profileを作成するときの注意点**"
 msgstr "**Notes when creating Profiles**"
 
-#: ../../03_workflow/05_create-profile.md:454
+#: ../../03_workflow/05_create-profile.md:458
 msgid "**〇目を閉じる/薄目の時のGaze登録について**"
 msgstr "**About Gaze registration when eyes are closed or half-closed**"
 
-#: ../../03_workflow/05_create-profile.md:457
+#: ../../03_workflow/05_create-profile.md:461
 msgid "目を閉じる・薄目など**黒目が見えないもの**は登録する際にGazeの ☑ を外してください   解析結果の精度が低下してしまう可能性があります"
 msgstr ""
 "When registering expressions where **the iris is not visible**, such as "
 "closed or half-closed eyes, uncheck Gaze.  \n"
 "Otherwise, analysis accuracy may decrease."
 
-#: ../../03_workflow/05_create-profile.md:461
+#: ../../03_workflow/05_create-profile.md:465
 msgid "例：眉のぎゅっと絞る動きを作りたい時"
 msgstr "Example: When creating a tightly furrowed brow movement"
 
-#: ../../03_workflow/05_create-profile.md:469
+#: ../../03_workflow/05_create-profile.md:473
 msgid "1.表情を調整した上で"
 msgstr "1\\. After adjusting the expression,"
 
-#: ../../03_workflow/05_create-profile.md:477
+#: ../../03_workflow/05_create-profile.md:481
 msgid "2.Regionのgazeの ☑ を外し、【Save】します。"
 msgstr "2\\. Uncheck Gaze in the Region and press [Save]."
 
-#: ../../03_workflow/05_create-profile.md:486
+#: ../../03_workflow/05_create-profile.md:490
 msgid "**〇解析結果が好ましくない場合**"
 msgstr "**If the analysis results are not satisfactory**"
 
-#: ../../03_workflow/05_create-profile.md:488
+#: ../../03_workflow/05_create-profile.md:492
 msgid ""
 "Profileを作成する際に、解析したい動画ごとに1つ以上Profileを作成するようにしてください。  "
 "Profileを作成していない場合、精度が十分ではない解析結果が出力される可能性があります。"
@@ -542,17 +550,17 @@ msgstr ""
 "video you want to analyze. If no Profile is created, analysis results "
 "with insufficient accuracy may be output."
 
-#: ../../03_workflow/05_create-profile.md:492
+#: ../../03_workflow/05_create-profile.md:496
 msgid "解析動画ごとに1つ以上Profileを作成していない場合、アニメーション出力の際に警告がでます。"
 msgstr ""
 "If at least one Profile has not been created per analysis video, a "
 "warning will be displayed during animation output."
 
-#: ../../03_workflow/05_create-profile.md:504
+#: ../../03_workflow/05_create-profile.md:508
 msgid "**〇登録済みのProfileを編集する場合**"
 msgstr "**Editing a registered Profile**"
 
-#: ../../03_workflow/05_create-profile.md:507
+#: ../../03_workflow/05_create-profile.md:511
 msgid ""
 "Galleryから調整したい表情のProfile(画像)をクリックし開きます。   "
 "Editor画面が開いたProfileと同じ画像であることを確認してください。"
@@ -562,17 +570,17 @@ msgstr ""
 "Confirm that the Editor screen displays the same image as the opened "
 "Profile."
 
-#: ../../03_workflow/05_create-profile.md:517
+#: ../../03_workflow/05_create-profile.md:521
 msgid "Gallery上のProfileをクリックすると、対象の表情がMayaへ反映されます。"
 msgstr ""
 "Clicking a Profile in the Gallery will apply the corresponding expression"
 " to Maya."
 
-#: ../../03_workflow/05_create-profile.md:519
+#: ../../03_workflow/05_create-profile.md:523
 msgid "このとき、**反映されるのは「チェックが付いているRegion」のみ**となります。"
 msgstr "At this time, **only the \"checked Regions\" will be applied**."
 
-#: ../../03_workflow/05_create-profile.md:521
+#: ../../03_workflow/05_create-profile.md:525
 msgid ""
 "目線など、チェックがついていないRegionは読み込み前の数値が保持されるため、   "
 "Profileを読み込んだ際に一見すると表情が正しく反映されていないように見える場合があります。"
@@ -582,37 +590,37 @@ msgstr ""
 "the expression may appear to not be correctly reflected when loading a "
 "Profile."
 
-#: ../../03_workflow/05_create-profile.md:534
+#: ../../03_workflow/05_create-profile.md:538
 msgid "**〇Profile数の確認方法**"
 msgstr "**How to check the number of Profiles**"
 
-#: ../../03_workflow/05_create-profile.md:536
+#: ../../03_workflow/05_create-profile.md:540
 msgid "登録したProfileの数は、Videosウィンドウの「Profiles」をご参照ください。"
 msgstr ""
 "To check the number of registered Profiles, refer to \"Profiles\" in the "
 "Videos window."
 
-#: ../../03_workflow/05_create-profile.md:544
+#: ../../03_workflow/05_create-profile.md:548
 msgid "「Profiles」が表示されない場合は、"
 msgstr "If \"Profiles\" is not displayed,"
 
-#: ../../03_workflow/05_create-profile.md:545
+#: ../../03_workflow/05_create-profile.md:549
 msgid "メニューバー上部で右クリック"
 msgstr "Right-click on the top of the menu bar"
 
-#: ../../03_workflow/05_create-profile.md:546
+#: ../../03_workflow/05_create-profile.md:550
 msgid "「Profiles」に ☑ を入れる　で表示されます。"
 msgstr "Check \"Profiles\" to display it."
 
-#: ../../03_workflow/05_create-profile.md:559
+#: ../../03_workflow/05_create-profile.md:563
 msgid "**トラブルシューティング**"
 msgstr "**Troubleshooting**"
 
-#: ../../03_workflow/05_create-profile.md:563
+#: ../../03_workflow/05_create-profile.md:567
 msgid "**〇【+】を押してもGalleryにProfileが追加されない場合**"
 msgstr "**If pressing [+] does not add a Profile to the Gallery**"
 
-#: ../../03_workflow/05_create-profile.md:567
+#: ../../03_workflow/05_create-profile.md:571
 msgid ""
 "【+】を押してもGalleryにProfileが追加されない場合、   **Galleryの表示ウィンドウが小さいケース**が考えられます。   "
 "その場合、Galleryウィンドウの ◀▶ をクリックすると追加したProfileが表示されます。"
@@ -622,15 +630,15 @@ msgstr ""
 "In that case, click the left/right arrows in the Gallery window to "
 "display the added Profile."
 
-#: ../../03_workflow/05_create-profile.md:571
+#: ../../03_workflow/05_create-profile.md:575
 msgid "◀▶ をクリック"
 msgstr "Click the left/right arrows"
 
-#: ../../03_workflow/05_create-profile.md:579
+#: ../../03_workflow/05_create-profile.md:583
 msgid "**〇同一フレームのProfileを登録できない**"
 msgstr "**Cannot register a Profile for the same frame**"
 
-#: ../../03_workflow/05_create-profile.md:583
+#: ../../03_workflow/05_create-profile.md:587
 msgid ""
 "FCSでは同一フレームのProfileは重複して追加されないようになっています。   重複した場合、Logウィンドウで   "
 "**WARNING:Frame ○○ already has a Profile associated with it**   と表示されます。"
