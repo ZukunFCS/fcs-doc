@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-07-22T11:00:52+00:00" />
+    <meta property="article:modified_time" content="2026-07-22T11:19:41+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tips &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -169,10 +169,42 @@
 また、各ウィンドウはドラッグ＆ドロップでFCS内を移動・配置することができます。<br />
 お好きな配置で作業してください。</p>
 <p>Viewウィンドウ → Layoutから変更したレイアウトを保存することも可能です。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_View_Layout.jpg"><img alt="../../_images/06_glossary_Menu_View_Layout.jpg" src="../../_images/06_glossary_Menu_View_Layout.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
+<p>① Single：Singleレイアウトに切り替え</p>
+<p>② Double：Doubleレイアウトに切り替え</p>
+<p>③ Triple：Tripleレイアウトに切り替え</p>
+<p>④ Sample_Layout ▶：【Save current】で登録した任意のレイアウトを選択<br />
+　【Apply】：保存したレイアウトに変更<br />
+　【Delete】：保存したレイアウトを削除</p>
+<p>⑤ Save current：現在のレイアウトを名前を付けて保存</p>
+<br>
+<hr class="docutils" />
+<p class="rubric"><strong>① Singleレイアウト</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_View_Single.jpg"><img alt="../../_images/06_glossary_Menu_View_Single.jpg" src="../../_images/06_glossary_Menu_View_Single.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>② Doubleレイアウト</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_View_Double.jpg"><img alt="../../_images/06_glossary_Menu_View_Double.jpg" src="../../_images/06_glossary_Menu_View_Double.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p class="rubric"><strong>③ Tripleレイアウト</strong></p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/06_glossary_Menu_View_Triple.jpg"><img alt="../../_images/06_glossary_Menu_View_Triple.jpg" src="../../_images/06_glossary_Menu_View_Triple.jpg" style="width: 80%;" />
+</a>
+</figure>
+<br>
 <br>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Viewウィンドウについての説明は<a class="reference internal" href="#../02_glossary/01_Menu/view.md"><span class="xref myst">ユーザーガイド/Menu/view</span></a>をご覧ください。</p>
+<p>Viewウィンドウについての説明は<a class="reference internal" href="../01_Menu/view.html"><span class="std std-doc">ユーザーガイド/Menu/view</span></a>をご覧ください。</p>
 </div>
 <br>
 <p>保存したレイアウトのデータは以下のパスに格納されます。</p>
@@ -184,6 +216,54 @@
 <input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
 <label class="sd-tab-label" for="sd-tab-item-2" id="tab-tips-predict">
 Profile作成 Predict機能</label><div class="sd-tab-content docutils">
+<p>本ソフトでは、作成したProfileから自動でリターゲットをする<strong>Predict機能</strong>を搭載しています。<br />
+ある程度の数のProfileを登録した後で、追加のProfileを登録する際にPredict機能を使えば、<br />
+登録済のProfileを基にソフトが予想した表情を作成してくれます。</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。<br />
+また、動画全体を解析するわけではございません。</p>
+</div>
+<br>
+<p>1.VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、<br />
+【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。<br />
+Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50.0%" />
+<col style="width: 50.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><img alt="" src="../../_images/03_workflow_create_profile_gallery_addition.jpg" /></p>
+<p>Galleryに追加される</p>
+</td>
+<td><p><img alt="" src="../../_images/03_workflow_create_profile_image_confirm.jpg" /></p>
+<p>Editor画面に表示されている画像が同じか確認する</p>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<p>2.<strong>Predictを実行</strong>　valueの数値が変動します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/03_workflow_create_profile_predict.jpg"><img alt="../../_images/03_workflow_create_profile_predict.jpg" src="../../_images/03_workflow_create_profile_predict.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>3.MayaにPredict結果が出るので、<br />
+調整が必要な場合は調整を行い、登録できる内容になったら</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/03_workflow_create_profile_predict_confirm.jpg"><img alt="../../_images/03_workflow_create_profile_predict_confirm.jpg" src="../../_images/03_workflow_create_profile_predict_confirm.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>4.【Save】します。</p>
+<figure class="align-center">
+<a class="reference internal image-reference" href="../../_images/03_workflow_create_profile_image_save.jpg"><img alt="../../_images/03_workflow_create_profile_image_save.jpg" src="../../_images/03_workflow_create_profile_image_save.jpg" style="width: 80%;" />
+</a>
+</figure>
+<p><br><br></p>
+<p>:end-before:</p>
 </div>
 </div>
 </section>
