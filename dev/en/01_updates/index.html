@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-07-22T11:08:45+00:00" />
+    <meta property="article:modified_time" content="2026-07-22T11:13:20+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Release Notes &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
@@ -60,12 +60,12 @@
 <li class="toctree-l3"><a class="reference internal" href="#id5">Fixes</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-26-04-03">FCS 26.04.03</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id6">Additions / New Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Changes / Improvements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">Fixes</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="#fcs-26-04-03">FCS 26.04.03</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id6">Additions / New Features</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id7">Changes / Improvements</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id8">Fixes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">What is FCS</a></li>
@@ -189,22 +189,21 @@ Clicking opens the log window (left-click), and copies the message to the clipbo
 </ul>
 </section>
 </section>
-</section>
 <section id="fcs-26-04-03">
-<h1>FCS 26.04.03<a class="headerlink" href="#fcs-26-04-03" title="Link to this heading"></a></h1>
+<h2>FCS 26.04.03<a class="headerlink" href="#fcs-26-04-03" title="Link to this heading"></a></h2>
 <ul class="simple">
 <li><p>日付: 2026/07/23</p></li>
 <li><p>バージョン: 26.04.03</p></li>
 <li><p>Stage: Stable</p></li>
 </ul>
 <section id="id6">
-<h2>Additions / New Features<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<h3>Additions / New Features<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>Maya 2027 に対応しました。</p></li>
 </ul>
 </section>
 <section id="id7">
-<h2>Changes / Improvements<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<h3>Changes / Improvements<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>大量のProfileを処理する際、リソースが不足している場合はworkersを減らして再試行し、workerが予期せず終了した場合はシリアル処理に切り替えるようにしました。</p></li>
 <li><p>オプションの処理コンポーネントを必要なときだけ読み込むようにし、不要なモジュールの読み込みを削減しました。</p></li>
@@ -214,7 +213,7 @@ Clicking opens the log window (left-click), and copies the message to the clipbo
 </ul>
 </section>
 <section id="id8">
-<h2>Fixes<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<h3>Fixes<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>FFmpeg の自動セットアップで、利用できなくなったダウンロード先を検証済みのミラーパッケージに置き換えました。</p></li>
 <li><p>バッチ処理ダイアログの問題を修正し、動画を選択せずに処理を開始した場合は明確な警告を表示するようにしました。</p></li>
@@ -228,6 +227,7 @@ Clicking opens the log window (left-click), and copies the message to the clipbo
 <li><p>キャッシュされたトラッキングシーケンスのメタデータにアクセスできない場合、動画のインポート全体を失敗させず、そのシーケンスをスキップするようにしました。</p></li>
 <li><p>プレイブラスト出力中に Maya が応答しなくなった場合、処理を正常に停止するようにしました。</p></li>
 </ul>
+</section>
 </section>
 </section>
 
