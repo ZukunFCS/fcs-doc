@@ -121,5 +121,14 @@ C:\Users\$USER\.fcs\Cortado\$FCS_VERSION\layouts\saved
 
 ````
 
+````{tab-item} Profile作成 Predict機能
+:name: tab-tips-Predict
+
+```{include} /doc/03_workflow/05_create-profile.md
+    :start-after: <!--Predict_start_here-->
+    :end-before: <!--Predict_end_here-->
+```
+
+````
 
 `````
