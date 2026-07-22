@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-26 06:53+0000\n"
+"POT-Creation-Date: 2026-07-22 11:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -79,7 +79,7 @@ msgid "必須"
 msgstr ""
 
 #: ../../02_getting-started/01_setup.md:15
-msgid "Maya (対応バージョン　2018, 2020, 2022, 2023, 2024,2025,2026)"
+msgid "Maya (対応バージョン　2018, 2020, 2022, 2023, 2024,2025,2026,2027)"
 msgstr ""
 
 #: ../../02_getting-started/01_setup.md:17
@@ -149,5 +149,8 @@ msgid "インストーラーは[こちら](https://github.com/ZukunFCS/fcs-doc/r
 msgstr ""
 
 #~ msgid "Maya (対応バージョン　2018, 2020, 2022, 2023, 2024)"
+#~ msgstr ""
+
+#~ msgid "Maya (対応バージョン　2018, 2020, 2022, 2023, 2024,2025,2026)"
 #~ msgstr ""
 
