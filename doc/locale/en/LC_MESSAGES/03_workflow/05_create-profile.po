@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 11:02+0000\n"
+"POT-Creation-Date: 2026-07-22 11:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -438,10 +438,6 @@ msgstr ""
 msgid "**Predict機能**"
 msgstr "**Predict Feature**"
 
-#: ../../03_workflow/05_create-profile.md:390
-msgid ":start-after: <!--Predict_start_here-->"
-msgstr ""
-
 #: ../../03_workflow/05_create-profile.md:392
 msgid ""
 "本ソフトでは、作成したProfileから自動でリターゲットをする**Predict機能**を搭載しています。   "
@@ -505,10 +501,6 @@ msgstr ""
 #: ../../03_workflow/05_create-profile.md:439
 msgid "4.【Save】します。"
 msgstr "4\\. Press [Save]."
-
-#: ../../03_workflow/05_create-profile.md:447
-msgid ":end-before: <!--Predict_end_here-->"
-msgstr ""
 
 #: ../../03_workflow/05_create-profile.md:453
 msgid "**Profileを作成するときの注意点**"
@@ -646,4 +638,10 @@ msgstr ""
 "In FCS, duplicate Profiles for the same frame cannot be added.  \n"
 "If a duplicate is attempted, the Log window will display  \n"
 "**WARNING:Frame XX already has a Profile associated with it**."
+
+#~ msgid ":start-after: <!--Predict_start_here-->"
+#~ msgstr ""
+
+#~ msgid ":end-before: <!--Predict_end_here-->"
+#~ msgstr ""
 

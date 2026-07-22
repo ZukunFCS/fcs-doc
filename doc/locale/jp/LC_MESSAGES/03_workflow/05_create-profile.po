@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 11:02+0000\n"
+"POT-Creation-Date: 2026-07-22 11:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -346,10 +346,6 @@ msgstr ""
 msgid "**Predict機能**"
 msgstr ""
 
-#: ../../03_workflow/05_create-profile.md:390
-msgid ":start-after: <!--Predict_start_here-->"
-msgstr ""
-
 #: ../../03_workflow/05_create-profile.md:392
 msgid ""
 "本ソフトでは、作成したProfileから自動でリターゲットをする**Predict機能**を搭載しています。   "
@@ -394,10 +390,6 @@ msgstr ""
 
 #: ../../03_workflow/05_create-profile.md:439
 msgid "4.【Save】します。"
-msgstr ""
-
-#: ../../03_workflow/05_create-profile.md:447
-msgid ":end-before: <!--Predict_end_here-->"
 msgstr ""
 
 #: ../../03_workflow/05_create-profile.md:453
@@ -517,5 +509,11 @@ msgstr ""
 #~ "本ページではProfileの追加手順 ~ 編集手順について記載しています。   "
 #~ "Mayaをベースに表情を調整するのか、FCSをベースに表情を調整するのかは任意で使い分けることができますが、   "
 #~ "最初は「Both」での使用をオススメします。"
+#~ msgstr ""
+
+#~ msgid ":start-after: <!--Predict_start_here-->"
+#~ msgstr ""
+
+#~ msgid ":end-before: <!--Predict_end_here-->"
 #~ msgstr ""
 
