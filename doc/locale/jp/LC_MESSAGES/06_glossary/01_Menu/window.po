@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-23 04:29+0000\n"
+"POT-Creation-Date: 2026-07-23 04:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -849,32 +849,32 @@ msgid "①【▼Parameters】：処理のパラメータ設定"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/window.md:926
-msgid "② 【▼Type】：Smoothing機能の設定   　・Raw： 　・Smoothing： 　・Peak："
+msgid "② 【▼Type】：Smoothing機能の設定"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:931
+#: ../../06_glossary/01_Menu/window.md:928
 msgid "③ Weight：強さを設定"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:933
+#: ../../06_glossary/01_Menu/window.md:930
 msgid "④ Reps：回数を設定"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:935
+#: ../../06_glossary/01_Menu/window.md:932
 msgid ""
 "⑤【Save current denoising profile】：現在の設定をプリセットとして保存   　「Save Denoising "
 "preset」ウインドウが開きます。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:938
+#: ../../06_glossary/01_Menu/window.md:935
 msgid "プリセットの登録には「Preset name」を入力し【Save】します。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:946
+#: ../../06_glossary/01_Menu/window.md:943
 msgid "⑥【▼Preset】：登録したプリセットが表示される"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:948
+#: ../../06_glossary/01_Menu/window.md:945
 msgid "⑦ 【Delete】：選択（☑）したプリセットを削除"
 msgstr ""
 
@@ -882,38 +882,28 @@ msgstr ""
 msgid "**▼Post processing**"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:962
-msgid "① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし"
-msgstr ""
-
-#: ../../06_glossary/01_Menu/window.md:964
+#: ../../06_glossary/01_Menu/window.md:959
 msgid ""
-"・Replacement Value ▼：   　　Last detected Gazeの最後の値で固定されます。   　　Default "
-"Value Gazeのデフォルトの値で固定されます。 　・Freezing threshold：目線を固定する閾値 ※デフォルト：0.5   　　"
+"① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし   　・Replacement Value ▼："
+"   　　Last detected Gazeの最後の値で固定されます。   　　Default Value "
+"Gazeのデフォルトの値で固定されます。   　・Freezing threshold：目線を固定する閾値 ※デフォルト：0.5   　　"
 "まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。   　　例：0で完全に閉じた状態、1で最大に開いた状態"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:971
+#: ../../06_glossary/01_Menu/window.md:967
 msgid ""
 "② ☑ Prioritize profile：   　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力   　"
-"解析の予測値よりもProfile登録時のリターゲットの値を優先します。"
-msgstr ""
-
-#: ../../06_glossary/01_Menu/window.md:975
-msgid ""
+"解析の予測値よりもProfile登録時のリターゲットの値を優先します。   　"
 "・Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）   　　例：Range1.0の場合 → "
 "前後0.5秒がスムージング対象   　・Exponential Coefficient：デフォルト値は1.0（線形）   　　"
 "値が小さいほどカーブが滑らかになります。（その分解析の予測値から遠ざかります。）"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:980
-msgid "⑤ Clamp mode：クランプ処理の設定を切り替え"
-msgstr ""
-
-#: ../../06_glossary/01_Menu/window.md:982
+#: ../../06_glossary/01_Menu/window.md:975
 msgid ""
-"・No Clamp：クランプ処理なし   　・Hard Clamp：   　　アニメーションカーブをControllerウィンドウで設定した  "
-"最大値 - 最小値でクランプ   　　（クランプされた範囲のスムージング処理なし）   　・Soft Clamp：   　　"
+"⑤ Clamp mode：クランプ処理の設定を切り替え    ・No Clamp：クランプ処理なし    ・Hard Clamp：   　　"
+"アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値でクランプ   　　"
+"（クランプされた範囲のスムージング処理なし）   　・Soft Clamp：   　　"
 "アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ   　　（クランプされた範囲のスムージング処理あり）"
 msgstr ""
 
@@ -921,37 +911,37 @@ msgstr ""
 msgid "Log"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1000
+#: ../../06_glossary/01_Menu/window.md:994
 msgid "FCS上で表示されたログを確認できます。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1008
+#: ../../06_glossary/01_Menu/window.md:1002
 msgid ""
 "① 【WARNING ▼】：表示するログの種類を選択 　・INFO：インフォメーションログを表示   　・WARNING：警告ログを表示   　"
 "・ERROR：エラーログを表示"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1013
+#: ../../06_glossary/01_Menu/window.md:1007
 msgid "② Time：発生時刻"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1015
+#: ../../06_glossary/01_Menu/window.md:1009
 msgid "③ Logeer"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1017
+#: ../../06_glossary/01_Menu/window.md:1011
 msgid "④ Level：ログの種類　※①を参照ください。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1019
+#: ../../06_glossary/01_Menu/window.md:1013
 msgid "⑤ Message：ログの詳細・メッセージ内容"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1023
+#: ../../06_glossary/01_Menu/window.md:1017
 msgid "**最新のログについては常にFCS下部に表示されます。**"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1040
+#: ../../06_glossary/01_Menu/window.md:1034
 msgid "**Menu説明 目次**"
 msgstr ""
 
@@ -1070,6 +1060,44 @@ msgstr ""
 #~ "アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値でクランプ"
 #~ "   　（クランプされた範囲のスムージング処理なし）   　・Soft Clamp：   　　"
 #~ "アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ   　"
+#~ "（クランプされた範囲のスムージング処理あり）"
+#~ msgstr ""
+
+#~ msgid "② 【▼Type】：Smoothing機能の設定   　・Raw： 　・Smoothing： 　・Peak："
+#~ msgstr ""
+
+#~ msgid "① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "・Replacement Value ▼：   　　Last detected "
+#~ "Gazeの最後の値で固定されます。   　　Default Value "
+#~ "Gazeのデフォルトの値で固定されます。 　・Freezing threshold：目線を固定する閾値 "
+#~ "※デフォルト：0.5   　　まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。   　　"
+#~ "例：0で完全に閉じた状態、1で最大に開いた状態"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "② ☑ Prioritize profile：   　"
+#~ "Profileが登録されているフレームはProfileと全く同じ表情の値にして出力   　"
+#~ "解析の予測値よりもProfile登録時のリターゲットの値を優先します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "・Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）   　　"
+#~ "例：Range1.0の場合 → 前後0.5秒がスムージング対象   　・Exponential "
+#~ "Coefficient：デフォルト値は1.0（線形）   　　"
+#~ "値が小さいほどカーブが滑らかになります。（その分解析の予測値から遠ざかります。）"
+#~ msgstr ""
+
+#~ msgid "⑤ Clamp mode：クランプ処理の設定を切り替え"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "・No Clamp：クランプ処理なし   　・Hard Clamp：   　　"
+#~ "アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値でクランプ"
+#~ "   　　（クランプされた範囲のスムージング処理なし）   　・Soft Clamp：   　　"
+#~ "アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ   　　"
 #~ "（クランプされた範囲のスムージング処理あり）"
 #~ msgstr ""
 
