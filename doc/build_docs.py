@@ -7,6 +7,13 @@ from pathlib import Path
 from shutil import rmtree, move, copytree
 import re
 
+
+def remove_compiled_catalogs():
+	"""Force Sphinx to compile every translation catalog from its PO source."""
+	for catalog in Path("locale").rglob("*.mo"):
+		catalog.unlink()
+
+
 # a single build step, which keeps conf.py and versions.yaml at the main branch
 # in general we use environment variables to pass values to conf.py, see below
 # and runs the build as we did locally
@@ -23,6 +30,7 @@ def build_doc(version, language, tag=None):
 		subprocess.run("git checkout " + tag, shell=True)
 		for filename in ['conf.py', 'versions.yaml', '../.gitignore', 'build_docs.py']:
 			subprocess.run(f"git checkout main -- {filename}", shell=True)
+	remove_compiled_catalogs()
 	external_link_file = Path("advanced_doc_link.rst")
 	if external_link_file.exists() and language == 'en':
 		with open(external_link_file, "r", encoding="utf-8") as f:
@@ -178,15 +186,11 @@ for version, details in docs.items():
 
 	print(f"[BUILD] {version}: tag {tag} (SHA: {tag_sha[:8] if tag_sha else 'unknown'})")
 	for language in details.get('languages', []):
-		subprocess.run("rm -rf locale/en/LC_MESSAGES/*.mo", shell=True)
-		subprocess.run("rm -rf locale/jp/LC_MESSAGES/*.mo", shell=True)
 		build_doc(version, language, tag)
 
 # build dev from main (no tag checkout) - always rebuild
 os.environ["is_dev_build"] = "True"
 for language in docs[latest_version].get('languages', []):
-	subprocess.run("rm -rf locale/en/LC_MESSAGES/*.mo", shell=True)
-	subprocess.run("rm -rf locale/jp/LC_MESSAGES/*.mo", shell=True)
 	build_doc("dev", language, tag=None)
 os.environ.pop("is_dev_build", None)
 
