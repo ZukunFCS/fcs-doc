@@ -107,52 +107,54 @@
 <section id="fcs-26-04-03">
 <h2>FCS 26.04.03<a class="headerlink" href="#fcs-26-04-03" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Date: 2026/07/22</p></li>
-<li><p>Version: 26.04.03</p></li>
+<li><p>日付: 2026/07/22</p></li>
+<li><p>バージョン: 26.04.03</p></li>
 <li><p>Stage: Stable</p></li>
 </ul>
 <section id="id2">
 <h3>Additions / New Features<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Added support for Maya 2027.</p></li>
+<li><p>Maya 2027 に対応しました。</p></li>
 </ul>
 </section>
 <section id="id3">
 <h3>Changes / Improvements<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>When processing a large number of Profiles, FCS now retries with fewer workers if resources are insufficient and falls back to serial processing if a worker exits unexpectedly.</p></li>
-<li><p>Optional processing components are now loaded only when needed, reducing unnecessary module imports.</p></li>
-<li><p>Reduced unnecessary OpenCV and SciPy dependencies and updated the Windows build toolchain.</p></li>
-<li><p>Added the app version, build, branch, and release channel to submitted error reports so issues can be identified more accurately.</p></li>
-<li><p>When a video’s full path contains unsupported spaces, including spaces in parent folder names, FCS now clearly explains the cause and how to resolve it.</p></li>
+<li><p>大量のProfileを処理する際、リソースが不足している場合はworkersを減らして再試行し、workerが予期せず終了した場合はシリアル処理に切り替えるようにしました。</p></li>
+<li><p>オプションの処理コンポーネントを必要なときだけ読み込むようにし、不要なモジュールの読み込みを削減しました。</p></li>
+<li><p>不要な OpenCV と SciPy の依存関係を削減し、Windows のビルドツールチェーンを更新しました。</p></li>
+<li><p>送信されるエラーレポートに、アプリのバージョン、ビルド、ブランチ、リリースチャンネルの情報を追加し、問題をより正確に判別できるようにしました。</p></li>
+<li><p>動画のフルパスに未対応の空白（親フォルダー名の空白を含む）が含まれている場合、原因と解決方法を明示するようにしました。</p></li>
 </ul>
 </section>
 <section id="id4">
 <h3>Fixes<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Replaced the unavailable download source used by automatic FFmpeg setup with a verified mirror package.</p></li>
-<li><p>Fixed an issue in the batch processing dialog and added a clear warning when processing is started without selecting any videos.</p></li>
-<li><p>Fixed an issue where a Profile’s Region settings were not preserved or reflected correctly in the Gallery.</p></li>
-<li><p>Fixed an issue where stale texture state remained in the Gallery after saving a Profile. Profile deletion, removal from the timeline, and batch editing of Profiles no longer fail when a texture is missing or cannot be deleted.</p></li>
-<li><p>Fixed intermittent UI parent-element errors when creating hover handlers for Gallery textures and the Profile editor.</p></li>
-<li><p>Improved handling when a layout file does not exist or cannot be written. The selected layout is retained for the current session, and a warning is shown if it may not persist after restart.</p></li>
-<li><p>Unlocking a session no longer reports an error when the lock file no longer exists.</p></li>
-<li><p>If metadata for a cached tracking sequence cannot be accessed, FCS now skips that sequence instead of failing the entire video import.</p></li>
-<li><p>Processing now stops cleanly if Maya becomes unresponsive during playblast output.</p></li>
+<li><p>FFmpeg の自動セットアップで、利用できなくなったダウンロード先を検証済みのミラーパッケージに置き換えました。</p></li>
+<li><p>バッチ処理ダイアログの問題を修正し、動画を選択せずに処理を開始した場合は明確な警告を表示するようにしました。</p></li>
+<li><p>ProfileのRegion設定が保持されず、Galleryに正しく反映されない問題を修正しました。</p></li>
+<li><p>Profile保存後もギャラリーに古いテクスチャの状態が残る問題を修正しました。
+また、テクスチャが存在しない、または削除できない場合に、Profile削除、タイムラインからの削除、Profileの一括編集が失敗しないようにしました。</p></li>
+<li><p>GalleryのテクスチャおよびProfile編集画面のホバーハンドラ作成時に、断続的に UI の親要素エラーが発生する問題を修正しました。</p></li>
+<li><p>レイアウトファイルが存在しない、または書き込めない場合の処理を改善しました。
+選択したレイアウトは現在のセッション中は維持され、再起動後に保持されない可能性がある場合は警告を表示します。</p></li>
+<li><p>セッションのロック解除時に、既に存在しないロックファイルをエラーとして報告しないようにしました。</p></li>
+<li><p>キャッシュされたトラッキングシーケンスのメタデータにアクセスできない場合、動画のインポート全体を失敗させず、そのシーケンスをスキップするようにしました。</p></li>
+<li><p>プレイブラスト出力中に Maya が応答しなくなった場合、処理を正常に停止するようにしました。</p></li>
 </ul>
 </section>
 </section>
 <section id="fcs-26-04-02">
 <h2>FCS 26.04.02<a class="headerlink" href="#fcs-26-04-02" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>Date: 2026/05/27</p></li>
-<li><p>Version: 26.04.02</p></li>
+<li><p>日付: 2026/05/27</p></li>
+<li><p>バージョン: 26.04.02</p></li>
 <li><p>Stage: Stable</p></li>
 </ul>
 <section id="id5">
 <h3>Fixes<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>Fixed a bug that caused the program to crash when interacting with the gallery tab.</p></li>
+<li><p>Galleryタブを操作した際にプログラムがクラッシュする問題を修正しました。</p></li>
 </ul>
 </section>
 </section>

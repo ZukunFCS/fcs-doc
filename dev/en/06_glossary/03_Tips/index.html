@@ -174,28 +174,28 @@ Please work with your preferred arrangement.</p>
 </a>
 </figure>
 <br>
-<p>① Single: Switch to the Single layout</p>
-<p>② Double: Switch to the Double layout</p>
-<p>③ Triple: Switch to the Triple layout</p>
-<p>④ Sample_Layout ▶: Select a custom layout registered with [Save current].<br />
-[Apply]: Switch to the saved layout.<br />
-[Delete]: Delete the saved layout.</p>
-<p>⑤ Save current: Save the current layout with a name</p>
+<p>① Single：Singleレイアウトに切り替え</p>
+<p>② Double：Doubleレイアウトに切り替え</p>
+<p>③ Triple：Tripleレイアウトに切り替え</p>
+<p>④ Sample_Layout ▶：【Save current】で登録した任意のレイアウトを選択<br />
+　【Apply】：保存したレイアウトに変更<br />
+　【Delete】：保存したレイアウトを削除</p>
+<p>⑤ Save current：現在のレイアウトを名前を付けて保存</p>
 <br>
 <hr class="docutils" />
-<p class="rubric"><strong>① Single layout</strong></p>
+<p class="rubric"><strong>① Singleレイアウト</strong></p>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../../_images/06_glossary_Menu_View_Single.jpg"><img alt="../../_images/06_glossary_Menu_View_Single.jpg" src="../../_images/06_glossary_Menu_View_Single.jpg" style="width: 80%;" />
 </a>
 </figure>
 <p><br><br></p>
-<p class="rubric"><strong>② Double layout</strong></p>
+<p class="rubric"><strong>② Doubleレイアウト</strong></p>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../../_images/06_glossary_Menu_View_Double.jpg"><img alt="../../_images/06_glossary_Menu_View_Double.jpg" src="../../_images/06_glossary_Menu_View_Double.jpg" style="width: 80%;" />
 </a>
 </figure>
 <p><br><br></p>
-<p class="rubric"><strong>③ Triple layout</strong></p>
+<p class="rubric"><strong>③ Tripleレイアウト</strong></p>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../../_images/06_glossary_Menu_View_Triple.jpg"><img alt="../../_images/06_glossary_Menu_View_Triple.jpg" src="../../_images/06_glossary_Menu_View_Triple.jpg" style="width: 80%;" />
 </a>
@@ -204,7 +204,7 @@ Please work with your preferred arrangement.</p>
 <br>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>For details on the View window, see <a class="reference internal" href="../01_Menu/view.html"><span class="std std-doc">User Guide/Menu/view</span></a>.</p>
+<p>Viewウィンドウについての説明は<a class="reference internal" href="../01_Menu/view.html"><span class="std std-doc">ユーザーガイド/Menu/view</span></a>をご覧ください。</p>
 </div>
 <br>
 <p>Saved layout data is stored at the following path.</p>
@@ -215,14 +215,19 @@ Please work with your preferred arrangement.</p>
 </div>
 <input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
 <label class="sd-tab-label" for="sd-tab-item-2" id="tab-tips-predict">
-Using Predict to create a Profile</label><div class="sd-tab-content docutils">
-<p>FCS includes a <strong>Predict feature</strong> that automatically retargets from the Profiles you have created. After registering several Profiles, use Predict when adding another Profile to generate an expression based on the existing Profiles.</p>
+Profile作成 Predict機能</label><div class="sd-tab-content docutils">
+<p>本ソフトでは、作成したProfileから自動でリターゲットをする<strong>Predict機能</strong>を搭載しています。<br />
+ある程度の数のProfileを登録した後で、追加のProfileを登録する際にPredict機能を使えば、<br />
+登録済のProfileを基にソフトが予想した表情を作成してくれます。</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Predict’s automatic retargeting accuracy depends on the accuracy of the registered Profiles. Predict does not analyze the entire video.</p>
+<p>Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。<br />
+また、動画全体を解析するわけではございません。</p>
 </div>
 <br>
-<p>1. Move the slider in the Video Timeline window to the frame where you want to register an expression. Press [+] to add that frame’s image to the Gallery and open the Editor. Confirm that the image added to the Gallery matches the image shown in the Editor.</p>
+<p>1.VideoTimelineウィンドウのスライダーを動かし、表情の登録を行いたいフレームで止め、<br />
+【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。<br />
+Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50.0%" />
@@ -230,28 +235,29 @@ Using Predict to create a Profile</label><div class="sd-tab-content docutils">
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><img alt="" src="../../_images/03_workflow_create_profile_gallery_addition.jpg" /></p>
-<p>The image is added to the Gallery</p>
+<p>Galleryに追加される</p>
 </td>
 <td><p><img alt="" src="../../_images/03_workflow_create_profile_image_confirm.jpg" /></p>
-<p>Confirm that the same image is displayed in the Editor</p>
+<p>Editor画面に表示されている画像が同じか確認する</p>
 </td>
 </tr>
 </tbody>
 </table>
 <br>
-<p>2. <strong>Run Predict.</strong> The values will change.</p>
+<p>2.<strong>Predictを実行</strong>　valueの数値が変動します。</p>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../../_images/03_workflow_create_profile_predict.jpg"><img alt="../../_images/03_workflow_create_profile_predict.jpg" src="../../_images/03_workflow_create_profile_predict.jpg" style="width: 80%;" />
 </a>
 </figure>
 <p><br><br></p>
-<p>3. The Predict result appears in Maya. Make any necessary adjustments, and when the result is ready to register,</p>
+<p>3.MayaにPredict結果が出るので、<br />
+調整が必要な場合は調整を行い、登録できる内容になったら</p>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../../_images/03_workflow_create_profile_predict_confirm.jpg"><img alt="../../_images/03_workflow_create_profile_predict_confirm.jpg" src="../../_images/03_workflow_create_profile_predict_confirm.jpg" style="width: 80%;" />
 </a>
 </figure>
 <p><br><br></p>
-<p>4. Click [Save].</p>
+<p>4.【Save】します。</p>
 <figure class="align-center">
 <a class="reference internal image-reference" href="../../_images/03_workflow_create_profile_image_save.jpg"><img alt="../../_images/03_workflow_create_profile_image_save.jpg" src="../../_images/03_workflow_create_profile_image_save.jpg" style="width: 80%;" />
 </a>
