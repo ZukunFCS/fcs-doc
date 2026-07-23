@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-23 04:41+0000\n"
+"POT-Creation-Date: 2026-07-23 05:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -1182,13 +1182,14 @@ msgstr "**▼Post processing**"
 
 #: ../../06_glossary/01_Menu/window.md:959
 msgid ""
-"① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし   　・Replacement Value ▼："
+"① ☐ Gaze Freezing：   　まばたき時の目線固定設定 ※デフォルトはチェックなし   　・Replacement Value ▼："
 "   　　Last detected Gazeの最後の値で固定されます。   　　Default Value "
-"Gazeのデフォルトの値で固定されます。   　・Freezing threshold：目線を固定する閾値 ※デフォルト：0.5   　　"
-"まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。   　　例：0で完全に閉じた状態、1で最大に開いた状態"
+"Gazeのデフォルトの値で固定されます。     　・Freezing threshold：   　　目線を固定する閾値を設定します。 "
+"※デフォルト：0.5   　　まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。   　　"
+"例：0で完全に閉じた状態、1で最大に開いた状態"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:967
+#: ../../06_glossary/01_Menu/window.md:969
 #, fuzzy
 msgid ""
 "② ☑ Prioritize profile：   　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力   　"
@@ -1201,13 +1202,13 @@ msgstr ""
 "Smaller values produce smoother curves (but deviate further from the "
 "analysis prediction values)."
 
-#: ../../06_glossary/01_Menu/window.md:975
+#: ../../06_glossary/01_Menu/window.md:977
 #, fuzzy
 msgid ""
-"⑤ Clamp mode：クランプ処理の設定を切り替え    ・No Clamp：クランプ処理なし    ・Hard Clamp：   　　"
-"アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値でクランプ   　　"
-"（クランプされた範囲のスムージング処理なし）   　・Soft Clamp：   　　"
-"アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ   　　（クランプされた範囲のスムージング処理あり）"
+"⑤ Clamp mode：クランプ処理の設定を切り替え 　・No Clamp：クランプ処理なし 　・Hard Clamp：   　　"
+"アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ   　　（クランプされた範囲のスムージング処理なし）"
+"   　・Soft Clamp：   　　アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ   　　"
+"（クランプされた範囲のスムージング処理あり）"
 msgstr ""
 "⑤ Clamp mode: Switch clamp processing settings  \n"
 "・No Clamp: No clamp processing  \n"
@@ -1222,11 +1223,11 @@ msgstr ""
 msgid "Log"
 msgstr "Log"
 
-#: ../../06_glossary/01_Menu/window.md:994
+#: ../../06_glossary/01_Menu/window.md:996
 msgid "FCS上で表示されたログを確認できます。"
 msgstr "You can review logs displayed in FCS."
 
-#: ../../06_glossary/01_Menu/window.md:1002
+#: ../../06_glossary/01_Menu/window.md:1004
 msgid ""
 "① 【WARNING ▼】：表示するログの種類を選択 　・INFO：インフォメーションログを表示   　・WARNING：警告ログを表示   　"
 "・ERROR：エラーログを表示"
@@ -1236,27 +1237,27 @@ msgstr ""
 "・WARNING: Display warning logs  \n"
 "・ERROR: Display error logs"
 
-#: ../../06_glossary/01_Menu/window.md:1007
+#: ../../06_glossary/01_Menu/window.md:1009
 msgid "② Time：発生時刻"
 msgstr "② Time: Time of occurrence"
 
-#: ../../06_glossary/01_Menu/window.md:1009
+#: ../../06_glossary/01_Menu/window.md:1011
 msgid "③ Logeer"
 msgstr "③ Logger"
 
-#: ../../06_glossary/01_Menu/window.md:1011
+#: ../../06_glossary/01_Menu/window.md:1013
 msgid "④ Level：ログの種類　※①を参照ください。"
 msgstr "④ Level: Log type. *See ① for reference."
 
-#: ../../06_glossary/01_Menu/window.md:1013
+#: ../../06_glossary/01_Menu/window.md:1015
 msgid "⑤ Message：ログの詳細・メッセージ内容"
 msgstr "⑤ Message: Log details and message content"
 
-#: ../../06_glossary/01_Menu/window.md:1017
+#: ../../06_glossary/01_Menu/window.md:1019
 msgid "**最新のログについては常にFCS下部に表示されます。**"
 msgstr "**The latest log is always displayed at the bottom of FCS.**"
 
-#: ../../06_glossary/01_Menu/window.md:1034
+#: ../../06_glossary/01_Menu/window.md:1036
 msgid "**Menu説明 目次**"
 msgstr "**Menu Description Table of Contents**"
 
@@ -1367,5 +1368,14 @@ msgstr "[**〇Info**](info.md): Version information, etc."
 #~ "prediction values."
 
 #~ msgid "⑤ Clamp mode：クランプ処理の設定を切り替え"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし"
+#~ "   　・Replacement Value ▼：   　　Last detected"
+#~ " Gazeの最後の値で固定されます。   　　Default Value "
+#~ "Gazeのデフォルトの値で固定されます。   　・Freezing threshold：目線を固定する閾値 "
+#~ "※デフォルト：0.5   　　まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。   　　"
+#~ "例：0で完全に閉じた状態、1で最大に開いた状態"
 #~ msgstr ""
 
