@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-07-22T11:13:20+00:00" />
+    <meta property="article:modified_time" content="2026-07-23T02:42:09+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Release Notes &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
@@ -50,7 +50,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">Table of Contents</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Release Notes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#fcs-26-04-01">FCS 26.04.01</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-26-04-03">FCS 26.04.03</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id2">Additions / New Features</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id3">Changes / Improvements</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id4">Fixes</a></li>
@@ -60,7 +60,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#id5">Fixes</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#fcs-26-04-03">FCS 26.04.03</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-26-04-01">FCS 26.04.01</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id6">Additions / New Features</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id7">Changes / Improvements</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id8">Fixes</a></li>
@@ -104,6 +104,60 @@
   <section id="id1">
 <h1>Release Notes<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
 <p><a class="reference external" href="https://github.com/ZukunFCS/fcs-doc/releases">Download FCS here</a></p>
+<section id="fcs-26-04-03">
+<h2>FCS 26.04.03<a class="headerlink" href="#fcs-26-04-03" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>日付: 2026/07/23</p></li>
+<li><p>バージョン: 26.04.03</p></li>
+<li><p>Stage: Stable</p></li>
+</ul>
+<section id="id2">
+<h3>Additions / New Features<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Maya 2027 に対応しました。</p></li>
+</ul>
+</section>
+<section id="id3">
+<h3>Changes / Improvements<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>大量のProfileを処理する際、リソースが不足している場合はworkersを減らして再試行し、workerが予期せず終了した場合はシリアル処理に切り替えるようにしました。</p></li>
+<li><p>オプションの処理コンポーネントを必要なときだけ読み込むようにし、不要なモジュールの読み込みを削減しました。</p></li>
+<li><p>不要な OpenCV と SciPy の依存関係を削減し、Windows のビルドツールチェーンを更新しました。</p></li>
+<li><p>送信されるエラーレポートに、アプリのバージョン、ビルド、ブランチ、リリースチャンネルの情報を追加し、問題をより正確に判別できるようにしました。</p></li>
+<li><p>動画のフルパスに未対応の空白（親フォルダー名の空白を含む）が含まれている場合、原因と解決方法を明示するようにしました。</p></li>
+</ul>
+</section>
+<section id="id4">
+<h3>Fixes<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>FFmpeg の自動セットアップで、利用できなくなったダウンロード先を検証済みのミラーパッケージに置き換えました。</p></li>
+<li><p>バッチ処理ダイアログの問題を修正し、動画を選択せずに処理を開始した場合は明確な警告を表示するようにしました。</p></li>
+<li><p>ProfileのRegion設定が保持されず、Galleryに正しく反映されない問題を修正しました。</p></li>
+<li><p>Profile保存後もギャラリーに古いテクスチャの状態が残る問題を修正しました。
+また、テクスチャが存在しない、または削除できない場合に、Profile削除、タイムラインからの削除、Profileの一括編集が失敗しないようにしました。</p></li>
+<li><p>GalleryのテクスチャおよびProfile編集画面のホバーハンドラ作成時に、断続的に UI の親要素エラーが発生する問題を修正しました。</p></li>
+<li><p>レイアウトファイルが存在しない、または書き込めない場合の処理を改善しました。
+選択したレイアウトは現在のセッション中は維持され、再起動後に保持されない可能性がある場合は警告を表示します。</p></li>
+<li><p>セッションのロック解除時に、既に存在しないロックファイルをエラーとして報告しないようにしました。</p></li>
+<li><p>キャッシュされたトラッキングシーケンスのメタデータにアクセスできない場合、動画のインポート全体を失敗させず、そのシーケンスをスキップするようにしました。</p></li>
+<li><p>プレイブラスト出力中に Maya が応答しなくなった場合、処理を正常に停止するようにしました。</p></li>
+</ul>
+</section>
+</section>
+<section id="fcs-26-04-02">
+<h2>FCS 26.04.02<a class="headerlink" href="#fcs-26-04-02" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Date: 2026/05/27</p></li>
+<li><p>Version: 26.04.02</p></li>
+<li><p>Stage: Stable</p></li>
+</ul>
+<section id="id5">
+<h3>Fixes<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Fixed a bug that caused the program to crash when interacting with the gallery tab.</p></li>
+</ul>
+</section>
+</section>
 <section id="fcs-26-04-01">
 <h2>FCS 26.04.01<a class="headerlink" href="#fcs-26-04-01" title="Link to this heading"></a></h2>
 <ul class="simple">
@@ -112,8 +166,8 @@
 <li><p>Stage: Stable</p></li>
 </ul>
 <p>26.04 is the largest release to date. We have added many new features and improvements to help you get more out of FCS.</p>
-<section id="id2">
-<h3>Additions / New Features<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<section id="id6">
+<h3>Additions / New Features<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
 <ul>
 <li><p>CLI support (script runner + schema) and addition of sample/test scripts (<a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.04/jp/index.html">Docs</a>)</p>
 <p>A CLI tool has been added for users who want to integrate FCS into their in-house workflows and tools, allowing FCS to be operated from scripts.<br />
@@ -142,8 +196,8 @@ It helps you quickly determine whether FCS is suitable for your project and how 
 </li>
 </ul>
 </section>
-<section id="id3">
-<h3>Changes / Improvements<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<section id="id7">
+<h3>Changes / Improvements<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
 <ul>
 <li><p>UI overhaul and stability improvements</p>
 <p>The UI has been overhauled with significant improvements to stability and performance.<br />
@@ -160,8 +214,8 @@ This information is used to improve FCS and quickly fix issues.</p></li>
 Clicking opens the log window (left-click), and copies the message to the clipboard (right-click).</p></li>
 </ul>
 </section>
-<section id="id4">
-<h3>Fixes<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<section id="id8">
+<h3>Fixes<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
 <ul>
 <li><p>Video player: Fixed frame index exceeding total frame count</p>
 <p>A failsafe has been added to prevent cases where the frame index exceeded the total frame count with certain encodings, which could cause the program to crash.</p>
@@ -172,60 +226,6 @@ Clicking opens the log window (left-click), and copies the message to the clipbo
 <li><p>Fixed timeline / UI resizing issues and plot / cursor alignment bugs</p>
 <p>Fixed issues where the timeline window did not resize correctly and the cursor did not align properly with the timeline.</p>
 </li>
-</ul>
-</section>
-</section>
-<section id="fcs-26-04-02">
-<h2>FCS 26.04.02<a class="headerlink" href="#fcs-26-04-02" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Date: 2026/05/27</p></li>
-<li><p>Version: 26.04.02</p></li>
-<li><p>Stage: Stable</p></li>
-</ul>
-<section id="id5">
-<h3>Fixes<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Fixed a bug that caused the program to crash when interacting with the gallery tab.</p></li>
-</ul>
-</section>
-</section>
-<section id="fcs-26-04-03">
-<h2>FCS 26.04.03<a class="headerlink" href="#fcs-26-04-03" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>日付: 2026/07/23</p></li>
-<li><p>バージョン: 26.04.03</p></li>
-<li><p>Stage: Stable</p></li>
-</ul>
-<section id="id6">
-<h3>Additions / New Features<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Maya 2027 に対応しました。</p></li>
-</ul>
-</section>
-<section id="id7">
-<h3>Changes / Improvements<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>大量のProfileを処理する際、リソースが不足している場合はworkersを減らして再試行し、workerが予期せず終了した場合はシリアル処理に切り替えるようにしました。</p></li>
-<li><p>オプションの処理コンポーネントを必要なときだけ読み込むようにし、不要なモジュールの読み込みを削減しました。</p></li>
-<li><p>不要な OpenCV と SciPy の依存関係を削減し、Windows のビルドツールチェーンを更新しました。</p></li>
-<li><p>送信されるエラーレポートに、アプリのバージョン、ビルド、ブランチ、リリースチャンネルの情報を追加し、問題をより正確に判別できるようにしました。</p></li>
-<li><p>動画のフルパスに未対応の空白（親フォルダー名の空白を含む）が含まれている場合、原因と解決方法を明示するようにしました。</p></li>
-</ul>
-</section>
-<section id="id8">
-<h3>Fixes<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>FFmpeg の自動セットアップで、利用できなくなったダウンロード先を検証済みのミラーパッケージに置き換えました。</p></li>
-<li><p>バッチ処理ダイアログの問題を修正し、動画を選択せずに処理を開始した場合は明確な警告を表示するようにしました。</p></li>
-<li><p>ProfileのRegion設定が保持されず、Galleryに正しく反映されない問題を修正しました。</p></li>
-<li><p>Profile保存後もギャラリーに古いテクスチャの状態が残る問題を修正しました。
-また、テクスチャが存在しない、または削除できない場合に、Profile削除、タイムラインからの削除、Profileの一括編集が失敗しないようにしました。</p></li>
-<li><p>GalleryのテクスチャおよびProfile編集画面のホバーハンドラ作成時に、断続的に UI の親要素エラーが発生する問題を修正しました。</p></li>
-<li><p>レイアウトファイルが存在しない、または書き込めない場合の処理を改善しました。
-選択したレイアウトは現在のセッション中は維持され、再起動後に保持されない可能性がある場合は警告を表示します。</p></li>
-<li><p>セッションのロック解除時に、既に存在しないロックファイルをエラーとして報告しないようにしました。</p></li>
-<li><p>キャッシュされたトラッキングシーケンスのメタデータにアクセスできない場合、動画のインポート全体を失敗させず、そのシーケンスをスキップするようにしました。</p></li>
-<li><p>プレイブラスト出力中に Maya が応答しなくなった場合、処理を正常に停止するようにしました。</p></li>
 </ul>
 </section>
 </section>
@@ -243,7 +243,7 @@ Clicking opens the log window (left-click), and copies the message to the clipbo
 
   <div role="contentinfo">
     <p>&#169; Copyright TOEI Zukun.
-      <span class="lastupdated">Last updated on 2026-07-22.
+      <span class="lastupdated">Last updated on 2026-07-23.
       </span></p>
   </div>
 
