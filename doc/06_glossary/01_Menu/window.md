@@ -955,11 +955,13 @@ Playerでは現在開いている動画を表示します。
 
 <br>
 
-① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし  
+① ☐ Gaze Freezing：  
+　まばたき時の目線固定設定 ※デフォルトはチェックなし  
 　・Replacement Value ▼：  
 　　Last detected Gazeの最後の値で固定されます。  
-　　Default Value Gazeのデフォルトの値で固定されます。  
-　・Freezing threshold：目線を固定する閾値 ※デフォルト：0.5  
+　　Default Value Gazeのデフォルトの値で固定されます。    
+　・Freezing threshold：  
+　　目線を固定する閾値を設定します。 ※デフォルト：0.5  
 　　まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。  
 　　例：0で完全に閉じた状態、1で最大に開いた状態  
 
@@ -971,10 +973,10 @@ Playerでは現在開いている動画を表示します。
 　・Exponential Coefficient：デフォルト値は1.0（線形）  
 　　値が小さいほどカーブが滑らかになります。（その分解析の予測値から遠ざかります。）  
 
-⑤ Clamp mode：クランプ処理の設定を切り替え  
- ・No Clamp：クランプ処理なし  
- ・Hard Clamp：  
-　　アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値でクランプ  
+⑤ Clamp mode：クランプ処理の設定を切り替え
+　・No Clamp：クランプ処理なし
+　・Hard Clamp：  
+　　アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ  
 　　（クランプされた範囲のスムージング処理なし）  
 　・Soft Clamp：  
 　　アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ  
