@@ -6,6 +6,7 @@
 ```````{tab-set}
 
 ``````{tab-item} View
+:name: tab-view-view
 
 <br>
 
@@ -45,6 +46,7 @@
 
 
 ``````{tab-item} Layout ▶
+:name: tab-view-layout
 
 <!--start_here_Tips-->
 

@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-04-01T12:41:10+00:00" />
+    <meta property="article:modified_time" content="2026-07-23T08:16:12+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Window &mdash; FCS Docs 26.04 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -19,7 +19,7 @@
       <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
       <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
       <script src="../../_static/design-tabs.js?v=f930bc37"></script>
-      <script src="../../_static/tab_links.js"></script>
+      <script src="../../_static/tab_links.js?v=76999cc6"></script>
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" /> 
@@ -86,7 +86,7 @@
 <p>This section explains the role of each functional window in FCS, and how to control display and operate each one.</p>
 <div class="sd-tab-set docutils">
 <input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-0">
+<label class="sd-tab-label" for="sd-tab-item-0" id="tab-window-window">
 Window</label><div class="sd-tab-content docutils">
 <br>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
@@ -114,7 +114,7 @@ Window for detailed output settings</p>
 <br>
 </div>
 <input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-1">
+<label class="sd-tab-label" for="sd-tab-item-1" id="tab-window-videos">
 Videos</label><div class="sd-tab-content docutils">
 <br>
 <p>Opens the Videos window.</p>
@@ -203,7 +203,7 @@ Please use Delete or Keep but unlink as appropriate to remove the association wi
 </div>
 </div>
 <input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-2">
+<label class="sd-tab-label" for="sd-tab-item-2" id="tab-window-processor">
 Processor</label><div class="sd-tab-content docutils">
 <br>
 <p>Opens the Processor window.</p>
@@ -253,7 +253,7 @@ Videos with their checkbox turned ON in the Videos window will be targeted for p
 <br>
 </div>
 <input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-3">
+<label class="sd-tab-label" for="sd-tab-item-3" id="tab-window-controllers">
 Controllers</label><div class="sd-tab-content docutils">
 <br>
 <p>This is the window for controller registration.</p>
@@ -354,7 +354,7 @@ Confirm the Preview in ③, and if there are no issues, press [Save] to apply.</
 <br>
 </div>
 <input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-4">
+<label class="sd-tab-label" for="sd-tab-item-4" id="tab-window-profiles-gallery">
 Profiles/Gallery</label><div class="sd-tab-content docutils">
 <br>
 <p>Gallery is a window that displays a list of created Profiles.</p>
@@ -378,7 +378,7 @@ Profiles/Gallery</label><div class="sd-tab-content docutils">
 ・(Region) Disabled: Display profiles registered without the corresponding (Region) checked</p>
 <p>④ ☑ Sync timeline: When selecting a profile while the same video is open,<br />
 the timeline jumps to the corresponding frame</p>
-<p>⑤ ☑ Advanced: Display advanced features. *See the sections at the bottom of the page for details.</p>
+<p>⑤ ☑ Advanced：詳細機能を表示　※内容についてはページ下部項目をご参照ください。</p>
 <p>⑥ List of registered profiles</p>
 <!--start_here_gallery_01-->
 <div class="info admonition">
@@ -393,7 +393,7 @@ the timeline jumps to the corresponding frame</p>
 </div>
 <!--end_here_gallery_01-->
 <p><br><br></p>
-<p class="rubric"><strong>About ☑ Advanced</strong></p>
+<p class="rubric"><strong>☑Advancedについて</strong></p>
 <p><strong>[▶ Filter]</strong><br />
 Allows you to configure more detailed filtering.</p>
 <figure class="align-center">
@@ -460,7 +460,7 @@ using the current Maya settings</p>
 <br>
 </div>
 <input id="sd-tab-item-5" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-5">
+<label class="sd-tab-label" for="sd-tab-item-5" id="tab-window-profiles-editor">
 Profiles/Editor</label><div class="sd-tab-content docutils">
 <br>
 <p>This is the window for registering profiles.<br />
@@ -575,7 +575,7 @@ Reset the values of the corresponding controllers to 0</p>
 </div>
 </div>
 <input id="sd-tab-item-6" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-6">
+<label class="sd-tab-label" for="sd-tab-item-6" id="tab-window-timeline">
 Timeline</label><div class="sd-tab-content docutils">
 <br>
 <p>Operate the video timeline.</p>
@@ -637,7 +637,7 @@ Press [Hide tab bar] to hide the bar.</p>
 <p><br><br></p>
 </div>
 <input id="sd-tab-item-7" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-7">
+<label class="sd-tab-label" for="sd-tab-item-7" id="tab-window-player">
 Player</label><div class="sd-tab-content docutils">
 <br>
 <p>The Player displays the currently open video.</p>
@@ -648,7 +648,7 @@ Player</label><div class="sd-tab-content docutils">
 <br>
 </div>
 <input id="sd-tab-item-8" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-8">
+<label class="sd-tab-label" for="sd-tab-item-8" id="tab-window-solver">
 Solver</label><div class="sd-tab-content docutils">
 <br>
 <p>This is the window for configuring detailed animation output settings.<br />
@@ -679,10 +679,7 @@ Uncheck this when analyzing videos shot with a wide-angle lens.</p>
 </figure>
 <br>
 <p>① [▼Parameters]: Processing parameter settings</p>
-<p>② [▼Type]: Smoothing function settings<br />
-・Raw:<br />
-・Smoothing:<br />
-・Peak:</p>
+<p>② 【▼Type】：Smoothing機能の設定</p>
 <p>③ Weight: Set the strength</p>
 <p>④ Reps: Set the number of repetitions</p>
 <p>⑤ [Save current denoising profile]: Save the current settings as a preset<br />
@@ -704,24 +701,37 @@ The “Save Denoising preset” window will open.</p>
 </a>
 </figure>
 <br>
-<p>① ☐ Gaze Freezing:</p>
-<p>② ☑ Prioritize profile:<br />
-For frames where a Profile is registered, output using the exact same expression values as the Profile.<br />
-Prioritizes the retarget values at Profile registration over the analysis prediction values.</p>
-<p>③ Range: Apply smoothing for the specified number of seconds before and after Profile frames (unit: seconds)<br />
-Example: Range 1.0 -&gt; 0.5 seconds before and after are smoothed</p>
-<p>④ Exponential Coefficient: Default value is 1.0 (linear)<br />
-Smaller values produce smoother curves (but deviate further from the analysis prediction values).</p>
-<p>⑤ Clamp mode: Switch clamp processing settings<br />
-・No Clamp: No clamp processing<br />
-・Hard Clamp: Clamp the animation curve using the max - min values set in the Controller window<br />
-(no smoothing applied to the clamped range)<br />
-・Soft Clamp: Clamp the animation curve using the max - min values set in the Controller window<br />
-(smoothing applied to the clamped range)</p>
+<p>① ☐ Gaze Freezing：<br />
+　まばたき時の目線固定設定 ※デフォルトはチェックなし<br />
+　・Replacement Value ▼：<br />
+　　Last detected → Gazeの最後の値で固定されます。<br />
+　　Default Value → Gazeのデフォルトの値で固定されます。<br />
+　・Freezing threshold：<br />
+　　まばたきかどうかを判定する境目の設定です。<br />
+　　オートトラッキングによる検出結果について、<br />
+　　その動画内で最も目を開いている瞬間を1.0、完全に目が閉じている状態を0.0としたとき、<br />
+　　0.0～1.0の範囲でどの地点からまばたきと判定するかを設定します。<br />
+　　※デフォルト：0.5<br />
+　　トラッキング結果が入力値より小さい場合、まばたきと判定して目線を固定します。</p>
+<p>② ☑ Prioritize profile：<br />
+　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力<br />
+　解析の予測値よりもProfile登録時のリターゲットの値を優先します。<br />
+　・Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）<br />
+　　例：Range1.0の場合 → 前後0.5秒がスムージング対象<br />
+　・Exponential Coefficient：デフォルト値は1.0（線形）<br />
+　　値が小さいほどカーブが滑らかになります。（その分解析の予測値から遠ざかります。）</p>
+<p>⑤ Clamp mode：クランプ処理の設定を切り替え<br />
+　・No Clamp：クランプ処理なし<br />
+　・Hard Clamp：<br />
+　　アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ<br />
+　　（クランプされた範囲のスムージング処理なし）<br />
+　・Soft Clamp：<br />
+　　アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ<br />
+　　（クランプされた範囲のスムージング処理あり）</p>
 <br>　
 </div>
 <input id="sd-tab-item-9" name="sd-tab-set-0" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-9">
+<label class="sd-tab-label" for="sd-tab-item-9" id="tab-window-log">
 Log</label><div class="sd-tab-content docutils">
 <br>
 <p>You can review logs displayed in FCS.</p>
@@ -766,7 +776,7 @@ Log</label><div class="sd-tab-content docutils">
 
   <div role="contentinfo">
     <p>&#169; Copyright TOEI Zukun.
-      <span class="lastupdated">Last updated on 2026-04-01.
+      <span class="lastupdated">Last updated on 2026-07-23.
       </span></p>
   </div>
 

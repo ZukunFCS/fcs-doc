@@ -7,6 +7,7 @@ FCSからWindowsエクスプローラーを直接開くことができます。
 
 
 ``````{tab-item} Explore
+:name: tab-explore-explore
 
 `````{grid} 1 1 2 2 
 :gutter: 2
@@ -40,6 +41,7 @@ FCSからWindowsエクスプローラーを直接開くことができます。
 
 
 ``````{tab-item} FCS ▶
+:name: tab-explore-fcs
 
 `````{grid} 1 1 2 2 
 :gutter: 2
@@ -76,6 +78,7 @@ FCSからWindowsエクスプローラーを直接開くことができます。
 
 
 ``````{tab-item} Facial ▶
+:name: tab-explore-facial
 
 `````{grid} 1 1 2 2 
 :gutter: 2

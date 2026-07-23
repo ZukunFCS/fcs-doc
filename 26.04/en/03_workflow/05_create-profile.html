@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-04-01T21:46:07+00:00" />
+    <meta property="article:modified_time" content="2026-07-23T09:08:13+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Create a Profile &mdash; FCS Docs 26.04 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
@@ -19,7 +19,7 @@
       <script src="../_static/doctools.js?v=fd6eb6e6"></script>
       <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
       <script src="../_static/design-tabs.js?v=f930bc37"></script>
-      <script src="../_static/tab_links.js"></script>
+      <script src="../_static/tab_links.js?v=76999cc6"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -95,9 +95,8 @@
              
   <section id="profile">
 <h1>Create a Profile<a class="headerlink" href="#profile" title="Link to this heading"></a></h1>
-<p>This page describes the procedures for adding and editing Profiles.<br />
-You can choose whether to adjust facial expressions based on Maya or FCS,<br />
-but we recommend using “Both” to start with.</p>
+<p>本ページではProfileの追加手順 ~ 編集手順について記載しています。</p>
+<br>
 <p class="rubric"><strong>Importing analysis videos</strong></p>
 <p>Before creating a Profile, first load the videos you will use into FCS.</p>
 <p>In the Videos window, you can open or import the videos you want to analyze.</p>
@@ -244,6 +243,11 @@ Press [+] to add the image of the specified frame to the Gallery and open the Ed
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
+<p>Mayaをベースに表情を調整するのか、FCSをベースに表情を調整するのかは任意で使い分けることができますが、<br />
+最初は「Both」での使用をオススメします。</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>If you forgot to register a controller, the expression may differ when you reopen it.<br />
 In that case, register the missing controller and re-register the Profile.</p>
 </div>
@@ -383,6 +387,7 @@ By tagging Profiles such as “Profiles with different camera angles” and usin
 </div>
 <p><br><br></p>
 <p class="rubric"><strong>Predict Feature</strong></p>
+ <!--Predict_start_here-->
 <p>This software includes a <strong>Predict feature</strong> that automatically retargets based on created Profiles.<br />
 After registering a certain number of Profiles, you can use the Predict feature when adding new Profiles.<br />
 The software will create predicted expressions based on the already registered Profiles.</p>
@@ -430,6 +435,7 @@ If adjustments are needed, make them, and once the content is ready to register,
 </a>
 </figure>
 <p><br><br></p>
+ <!--Predict_end_here-->
 <hr class="docutils" />
 <br>
 <p class="rubric"><strong>Notes when creating Profiles</strong></p>
@@ -543,7 +549,7 @@ If a duplicate is attempted, the Log window will display<br />
 
   <div role="contentinfo">
     <p>&#169; Copyright TOEI Zukun.
-      <span class="lastupdated">Last updated on 2026-04-01.
+      <span class="lastupdated">Last updated on 2026-07-23.
       </span></p>
   </div>
 
