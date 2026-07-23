@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-07-23T04:41:14+00:00" />
+    <meta property="article:modified_time" content="2026-07-23T05:24:46+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Window &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -704,11 +704,13 @@ Solver</label><div class="sd-tab-content docutils">
 </a>
 </figure>
 <br>
-<p>① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし<br />
+<p>① ☐ Gaze Freezing：<br />
+　まばたき時の目線固定設定 ※デフォルトはチェックなし<br />
 　・Replacement Value ▼：<br />
 　　Last detected Gazeの最後の値で固定されます。<br />
 　　Default Value Gazeのデフォルトの値で固定されます。<br />
-　・Freezing threshold：目線を固定する閾値 ※デフォルト：0.5<br />
+　・Freezing threshold：<br />
+　　目線を固定する閾値を設定します。 ※デフォルト：0.5<br />
 　　まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。<br />
 　　例：0で完全に閉じた状態、1で最大に開いた状態</p>
 <p>② ☑ Prioritize profile：<br />
@@ -718,10 +720,10 @@ Solver</label><div class="sd-tab-content docutils">
 　　例：Range1.0の場合 → 前後0.5秒がスムージング対象<br />
 　・Exponential Coefficient：デフォルト値は1.0（線形）<br />
 　　値が小さいほどカーブが滑らかになります。（その分解析の予測値から遠ざかります。）</p>
-<p>⑤ Clamp mode：クランプ処理の設定を切り替え<br />
-・No Clamp：クランプ処理なし<br />
-・Hard Clamp：<br />
-　　アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値でクランプ<br />
+<p>⑤ Clamp mode：クランプ処理の設定を切り替え
+　・No Clamp：クランプ処理なし
+　・Hard Clamp：<br />
+　　アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ<br />
 　　（クランプされた範囲のスムージング処理なし）<br />
 　・Soft Clamp：<br />
 　　アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ<br />
