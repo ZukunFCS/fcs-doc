@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-07-23T04:29:00+00:00" />
+    <meta property="article:modified_time" content="2026-07-23T04:41:14+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Window &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -682,10 +682,7 @@ Solver</label><div class="sd-tab-content docutils">
 </figure>
 <br>
 <p>①【▼Parameters】：処理のパラメータ設定</p>
-<p>② 【▼Type】：Smoothing機能の設定<br />
-　・Raw：
-　・Smoothing：
-　・Peak：</p>
+<p>② 【▼Type】：Smoothing機能の設定</p>
 <p>③ Weight：強さを設定</p>
 <p>④ Reps：回数を設定</p>
 <p>⑤【Save current denoising profile】：現在の設定をプリセットとして保存<br />
@@ -707,23 +704,23 @@ Solver</label><div class="sd-tab-content docutils">
 </a>
 </figure>
 <br>
-<p>① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし</p>
-<p>・Replacement Value ▼：<br />
+<p>① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし<br />
+　・Replacement Value ▼：<br />
 　　Last detected Gazeの最後の値で固定されます。<br />
-　　Default Value Gazeのデフォルトの値で固定されます。
+　　Default Value Gazeのデフォルトの値で固定されます。<br />
 　・Freezing threshold：目線を固定する閾値 ※デフォルト：0.5<br />
 　　まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。<br />
 　　例：0で完全に閉じた状態、1で最大に開いた状態</p>
 <p>② ☑ Prioritize profile：<br />
 　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力<br />
-　解析の予測値よりもProfile登録時のリターゲットの値を優先します。</p>
-<p>・Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）<br />
+　解析の予測値よりもProfile登録時のリターゲットの値を優先します。<br />
+　・Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）<br />
 　　例：Range1.0の場合 → 前後0.5秒がスムージング対象<br />
 　・Exponential Coefficient：デフォルト値は1.0（線形）<br />
 　　値が小さいほどカーブが滑らかになります。（その分解析の予測値から遠ざかります。）</p>
-<p>⑤ Clamp mode：クランプ処理の設定を切り替え</p>
-<p>・No Clamp：クランプ処理なし<br />
-　・Hard Clamp：<br />
+<p>⑤ Clamp mode：クランプ処理の設定を切り替え<br />
+・No Clamp：クランプ処理なし<br />
+・Hard Clamp：<br />
 　　アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値でクランプ<br />
 　　（クランプされた範囲のスムージング処理なし）<br />
 　・Soft Clamp：<br />

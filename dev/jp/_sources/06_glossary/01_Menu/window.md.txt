@@ -923,9 +923,6 @@ Playerでは現在開いている動画を表示します。
 ①【▼Parameters】：処理のパラメータ設定  
 
 ② 【▼Type】：Smoothing機能の設定  
-　・Raw：
-　・Smoothing：
-　・Peak：
 
 ③ Weight：強さを設定  
 
@@ -959,10 +956,9 @@ Playerでは現在開いている動画を表示します。
 <br>
 
 ① ☐ Gaze Freezing：まばたき時の目線固定設定 ※デフォルトはチェックなし  
-
 　・Replacement Value ▼：  
 　　Last detected Gazeの最後の値で固定されます。  
-　　Default Value Gazeのデフォルトの値で固定されます。
+　　Default Value Gazeのデフォルトの値で固定されます。  
 　・Freezing threshold：目線を固定する閾値 ※デフォルト：0.5  
 　　まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。  
 　　例：0で完全に閉じた状態、1で最大に開いた状態  
@@ -970,21 +966,19 @@ Playerでは現在開いている動画を表示します。
 ② ☑ Prioritize profile：  
 　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力  
 　解析の予測値よりもProfile登録時のリターゲットの値を優先します。  
-
 　・Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）  
 　　例：Range1.0の場合 → 前後0.5秒がスムージング対象  
 　・Exponential Coefficient：デフォルト値は1.0（線形）  
 　　値が小さいほどカーブが滑らかになります。（その分解析の予測値から遠ざかります。）  
 
-⑤ Clamp mode：クランプ処理の設定を切り替え
-
-　・No Clamp：クランプ処理なし  
-　・Hard Clamp：  
+⑤ Clamp mode：クランプ処理の設定を切り替え  
+ ・No Clamp：クランプ処理なし  
+ ・Hard Clamp：  
 　　アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値でクランプ  
 　　（クランプされた範囲のスムージング処理なし）  
 　・Soft Clamp：  
 　　アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ  
-　　（クランプされた範囲のスムージング処理あり）
+　　（クランプされた範囲のスムージング処理あり）  
 
 <br>　
 
