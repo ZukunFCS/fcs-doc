@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 10:53+0000\n"
+"POT-Creation-Date: 2026-07-23 03:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -883,70 +883,77 @@ msgid "**▼Post processing**"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/window.md:962
-msgid "① ☐ Gaze Freezing： 　☑ ：目線のアニメーションを固定   　ビデオ内の目線の動きが反映されなくなります。"
+msgid "① ☐ Gaze Freezing：まばたき時の目線固定設定     ※デフォルトはチェックなし □"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:966
+#: ../../06_glossary/01_Menu/window.md:965
+msgid ""
+"・Replacement Value ▼：     Last detected Gazeの最後の値で固定されます。       Default "
+"Value Gazeのデフォルトの値で固定されます。     ・Freezing threshold：目線を固定する閾値 ※デフォルト：0.5"
+"       まばたきと判定する数値を設定、入力した値より小さい数値をまばたきと判定し目線を止めます。       "
+"0で完全に閉じた状態/1で最大に開いた状態"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:972
 msgid ""
 "② ☑ Prioritize profile：   　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力   　"
 "解析の予測値よりもProfile登録時のリターゲットの値を優先します。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:970
+#: ../../06_glossary/01_Menu/window.md:976
 msgid ""
-"③ Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）   　例：Range1.0の場合 → "
-"前後0.5秒がスムージング対象"
-msgstr ""
-
-#: ../../06_glossary/01_Menu/window.md:973
-msgid ""
-"④ Exponential Coefficient：デフォルト値は1.0（線形）   　"
+"・Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）   　  例：Range1.0の場合 → "
+"前後0.5秒がスムージング対象     ・Exponential Coefficient：デフォルト値は1.0（線形）   　  "
 "値が小さいほどカーブが滑らかになります（その文解析の予測値から遠ざかります。）"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:976
+#: ../../06_glossary/01_Menu/window.md:981
+msgid "⑤ Clamp mode：クランプ処理の設定を切り替え"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/window.md:983
 msgid ""
-"⑤ Clamp mode：クランプ処理の設定を切り替え   　・No Clamp：クランプ処理なし   　・Hard "
-"Clamp：アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値で   　　クランプ "
-"（クランプされた範囲のスムージング処理なし）   　・Soft Clamp：アニメーションカーブをControllerウィンドウで設定した最大値 "
-"- 最小値で   　　クランプ  （クランプされた範囲のスムージング処理あり）"
+"・No Clamp：クランプ処理なし   　・Hard Clamp：アニメーションカーブをControllerウィンドウで設定した  最大値 - "
+"最小値で   　　クランプ （クランプされた範囲のスムージング処理なし）   　・Soft "
+"Clamp：アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値で   　　クランプ  "
+"（クランプされた範囲のスムージング処理あり）"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/window.md
 msgid "Log"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:993
+#: ../../06_glossary/01_Menu/window.md:999
 msgid "FCS上で表示されたログを確認できます。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1001
+#: ../../06_glossary/01_Menu/window.md:1007
 msgid ""
 "① 【WARNING ▼】：表示するログの種類を選択 　・INFO：インフォメーションログを表示   　・WARNING：警告ログを表示   　"
 "・ERROR：エラーログを表示"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1006
+#: ../../06_glossary/01_Menu/window.md:1012
 msgid "② Time：発生時刻"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1008
+#: ../../06_glossary/01_Menu/window.md:1014
 msgid "③ Logeer"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1010
+#: ../../06_glossary/01_Menu/window.md:1016
 msgid "④ Level：ログの種類　※①を参照ください。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1012
+#: ../../06_glossary/01_Menu/window.md:1018
 msgid "⑤ Message：ログの詳細・メッセージ内容"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1016
+#: ../../06_glossary/01_Menu/window.md:1022
 msgid "**最新のログについては常にFCS下部に表示されます。**"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/window.md:1033
+#: ../../06_glossary/01_Menu/window.md:1039
 msgid "**Menu説明 目次**"
 msgstr ""
 
@@ -988,5 +995,27 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "① ☐ Gaze Freezing： 　魚眼レンズで撮影したビデオを使用する場合は ☑ を入れてください。"
+#~ msgstr ""
+
+#~ msgid "① ☐ Gaze Freezing： 　☑ ：目線のアニメーションを固定   　ビデオ内の目線の動きが反映されなくなります。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "③ Range：Profileのフレームの前後合わせて指定の数秒スムージングをかける（単位：秒）   　"
+#~ "例：Range1.0の場合 → 前後0.5秒がスムージング対象"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "④ Exponential Coefficient：デフォルト値は1.0（線形）   　"
+#~ "値が小さいほどカーブが滑らかになります（その文解析の予測値から遠ざかります。）"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "⑤ Clamp mode：クランプ処理の設定を切り替え   　・No "
+#~ "Clamp：クランプ処理なし   　・Hard "
+#~ "Clamp：アニメーションカーブをControllerウィンドウで設定した  最大値 - 最小値で"
+#~ "   　　クランプ （クランプされた範囲のスムージング処理なし）   　・Soft "
+#~ "Clamp：アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値で   　　"
+#~ "クランプ  （クランプされた範囲のスムージング処理あり）"
 #~ msgstr ""
 
