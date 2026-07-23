@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release FCS Manual"
+  short_description: "Publish and verify FCS manual releases"
+  default_prompt: "Use $release-manual to publish the current HEAD as a versioned release and verify the live manual site."
