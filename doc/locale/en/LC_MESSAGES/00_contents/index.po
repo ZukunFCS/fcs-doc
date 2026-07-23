@@ -85,7 +85,6 @@ msgstr ""
 " site."
 
 #: ../../00_contents/index.md:39
-#, fuzzy
 msgid ""
 "**サポート/その他**   [・お問い合わせ](../07_support/index)   [・開発ロードマップ"
 "](../04_release-schedule/index)   [・テクニカルマニュアル](../08_advanced_doc_link)　"
@@ -98,6 +97,8 @@ msgstr ""
 "[- Development Roadmap](../04_release-schedule/index)  \n"
 "[- Advanced Manual](../08_advanced_doc_link) *Redirects to an external "
 "site.  \n"
+"[- Chat Manual (NotebookLM)](../09_interactive_doc_link.rst) *Redirects to "
+"an external site.  \n"
 "[- Manual Update History](01_history)"
 
 #: ../../00_contents/index.md:49
@@ -105,21 +106,20 @@ msgid "**FCSマニュアル 更新情報**"
 msgstr "**FCS Manual Update Information**"
 
 #: ../../00_contents/01_history.md:87
-#, fuzzy
 msgid "**2026/07/23 更新**"
-msgstr "**Updated 2026/04/03**"
+msgstr "**Updated 2026/07/23**"
 
 #: ../../00_contents/01_history.md:88
 msgid "FCS ver 26.04.03のリリースノートを公開しました。"
-msgstr ""
+msgstr "FCS ver 26.04.03 release notes have been published."
 
 #: ../../00_contents/01_history.md:89
 msgid "Predict機能の説明をTipsページに追加しました。"
-msgstr ""
+msgstr "Added an explanation of the Predict feature to the Tips page."
 
 #: ../../00_contents/01_history.md:90
 msgid "マニュアル内の軽微な誤字・リンク切れを修正しました。"
-msgstr ""
+msgstr "Fixed minor typos and broken links in the manual."
 
 #: ../../00_contents/index.md:56
 msgid "[※過去の更新履歴はこちら](01_history)"
@@ -132,4 +132,3 @@ msgstr "[*See past update history here](01_history)"
 
 #~ msgid "FCS ver 26.04.02のリリースノートを公開しました。"
 #~ msgstr ""
-

@@ -47,7 +47,7 @@ msgid ""
 "1.Videosウィンドウで解析/出力したい動画名の上で右クリックします。   画像のメニューが表示されるので、▼Process "
 "を選択・該当する項目に ☑ を入れ、"
 msgstr ""
-"1\. Right-click on the name of the video you want to analyze/output in the Videos window.  \n"
+"1\\. Right-click on the name of the video you want to analyze/output in the Videos window.  \n"
 "A context menu will appear -- select Process and check the applicable items."
 
 #: ../../03_workflow/06_export-animation.md:28
@@ -62,7 +62,7 @@ msgstr ""
 
 #: ../../03_workflow/06_export-animation.md:30
 msgid "2.【Start process】を押します。"
-msgstr "2\. Press [Start process]."
+msgstr "2\\. Press [Start process]."
 
 #: ../../03_workflow/06_export-animation.md:39
 msgid "解析結果を見てから再度調整を行いたい場合はPlayblastやSceneの ☑ を外しておくと時間短縮できます。"
@@ -74,7 +74,7 @@ msgstr "The first output may take some time."
 
 #: ../../03_workflow/06_export-animation.md:62
 msgid "3.出力中Mayaシーン上に ☑ を入れた項目が反映されていきます。"
-msgstr "3\. During output, the checked items will be applied to the Maya scene."
+msgstr "3\\. During output, the checked items will be applied to the Maya scene."
 
 #: ../../03_workflow/06_export-animation.md:63
 msgid "タイムスライダーに音声データ"
@@ -94,7 +94,7 @@ msgstr "The slider moves when animation data is being applied"
 
 #: ../../03_workflow/06_export-animation.md:75
 msgid "4.出力完了   playblastやsceneに ☑ していた場合、   出力が完了したらエクスプローラーがポップアップします。"
-msgstr "4\. Output complete  \nIf Playblast or Scene was checked,  \nExplorer will pop up when the output is finished."
+msgstr "4\\. Output complete  \nIf Playblast or Scene was checked,  \nExplorer will pop up when the output is finished."
 
 #: ../../03_workflow/06_export-animation.md:85
 msgid "**動画の一部範囲のみを再処理して出力**"
@@ -110,11 +110,11 @@ msgstr ""
 
 #: ../../03_workflow/06_export-animation.md:93
 msgid "1.FCSのTimeline範囲をアニメーション出力したい部分に設定します。"
-msgstr "1\. Set the FCS Timeline range to the portion you want to output as animation."
+msgstr "1\\. Set the FCS Timeline range to the portion you want to output as animation."
 
 #: ../../03_workflow/06_export-animation.md:101
 msgid "2.Timelineの動画名を右クリックし、【Segment Only】にチェックを入れ、   【Start processing】を押します。"
-msgstr "2\. Right-click the video name in the Timeline, check [Segment Only],  \nand press [Start processing]."
+msgstr "2\\. Right-click the video name in the Timeline, check [Segment Only],  \nand press [Start processing]."
 
 #: ../../03_workflow/06_export-animation.md:110
 msgid "Maya Start の値について"
@@ -149,7 +149,7 @@ msgstr "This can only be executed from the menu displayed by right-clicking the 
 
 #: ../../03_workflow/06_export-animation.md:136
 msgid "3.指定した範囲のみアニメーションが出力されます。"
-msgstr "3\. Animation will be output only for the specified range."
+msgstr "3\\. Animation will be output only for the specified range."
 
 #: ../../03_workflow/06_export-animation.md:144
 msgid "**複数のアニメーション出力**"
@@ -161,11 +161,11 @@ msgstr "For output item details, see [User Guide/Menu/Window/Processer](../06_gl
 
 #: ../../03_workflow/06_export-animation.md:153
 msgid "1.Videosウィンドウで解析・出力したい動画名に ☑ をつけます。"
-msgstr "1\. Check the videos you want to analyze and output in the Videos window."
+msgstr "1\\. Check the videos you want to analyze and output in the Videos window."
 
 #: ../../03_workflow/06_export-animation.md:161
 msgid "2.Processorウインドウを開き、出力したい項目に ☑ を入れます。"
-msgstr "2\. Open the Processor window and check the items you want to output."
+msgstr "2\\. Open the Processor window and check the items you want to output."
 
 #: ../../03_workflow/06_export-animation.md:168
 msgid "![](/images/03_workflow_export_animation_window_processor.jpg)"
@@ -221,11 +221,11 @@ msgstr "Setting it to {video} only will output with the imported video name."
 
 #: ../../03_workflow/06_export-animation.md:184
 msgid "3.設定できたら【Start】で処理を開始します。"
-msgstr "3\. Once configured, press [Start] to begin processing."
+msgstr "3\\. Once configured, press [Start] to begin processing."
 
 #: ../../03_workflow/06_export-animation.md:193
 msgid "4.出力が完了したらエクスプローラーがポップアップします。"
-msgstr "4\. Explorer will pop up when the output is complete."
+msgstr "4\\. Explorer will pop up when the output is complete."
 
 #: ../../03_workflow/06_export-animation.md:201
 msgid "**カメラ・イメージプレーンについて**"

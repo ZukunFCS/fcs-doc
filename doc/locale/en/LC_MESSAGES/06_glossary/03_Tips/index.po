@@ -72,7 +72,7 @@ msgstr ""
 #: ../../06_glossary/03_Tips/index.md:31 ../../06_glossary/03_Tips/index.md:39
 #: ../../06_glossary/03_Tips/index.md:48 ../../06_glossary/03_Tips/index.md:56
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../06_glossary/03_Tips/index.md:33
 msgid ""
@@ -127,44 +127,46 @@ msgstr "You can also save modified layouts from View window → Layout."
 
 #: ../../06_glossary/01_Menu/view.md:557
 msgid "① Single：Singleレイアウトに切り替え"
-msgstr ""
+msgstr "① Single: Switch to the Single layout"
 
 #: ../../06_glossary/01_Menu/view.md:559
 msgid "② Double：Doubleレイアウトに切り替え"
-msgstr ""
+msgstr "② Double: Switch to the Double layout"
 
 #: ../../06_glossary/01_Menu/view.md:561
 msgid "③ Triple：Tripleレイアウトに切り替え"
-msgstr ""
+msgstr "③ Triple: Switch to the Triple layout"
 
 #: ../../06_glossary/01_Menu/view.md:563
 msgid ""
 "④ Sample_Layout ▶：【Save current】で登録した任意のレイアウトを選択   　【Apply】：保存したレイアウトに変更"
 "     　【Delete】：保存したレイアウトを削除"
 msgstr ""
+"④ Sample_Layout ▶: Select a custom layout registered with [Save current].  \n"
+"[Apply]: Switch to the saved layout.  \n"
+"[Delete]: Delete the saved layout."
 
 #: ../../06_glossary/01_Menu/view.md:567
 msgid "⑤ Save current：現在のレイアウトを名前を付けて保存"
-msgstr ""
+msgstr "⑤ Save current: Save the current layout with a name"
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "**① Singleレイアウト**"
-msgstr ""
+msgstr "**① Single layout**"
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "**② Doubleレイアウト**"
-msgstr ""
+msgstr "**② Double layout**"
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "**③ Tripleレイアウト**"
-msgstr ""
+msgstr "**③ Triple layout**"
 
 #: ../../06_glossary/03_Tips/index.md:111
-#, fuzzy
 msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../01_Menu/view.md)をご覧ください。"
 msgstr ""
 "For details on the View window, see [User "
-"Guide/Menu/view](../06_glossary/01_Menu/view.md)."
+"Guide/Menu/view](../01_Menu/view.md)."
 
 #: ../../06_glossary/03_Tips/index.md:116
 msgid "保存したレイアウトのデータは以下のパスに格納されます。"
@@ -172,7 +174,7 @@ msgstr "Saved layout data is stored at the following path."
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "Profile作成 Predict機能"
-msgstr ""
+msgstr "Using Predict to create a Profile"
 
 #: ../../03_workflow/05_create-profile.md:6805
 msgid ""
@@ -180,10 +182,14 @@ msgid ""
 "ある程度の数のProfileを登録した後で、追加のProfileを登録する際にPredict機能を使えば、   "
 "登録済のProfileを基にソフトが予想した表情を作成してくれます。"
 msgstr ""
+"FCS includes a **Predict feature** that automatically retargets from the "
+"Profiles you have created. After registering several Profiles, use Predict "
+"when adding another Profile to generate an expression based on the existing "
+"Profiles."
 
 #: ../../03_workflow/05_create-profile.md:6810
 msgid "Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。     また、動画全体を解析するわけではございません。"
-msgstr ""
+msgstr "Predict's automatic retargeting accuracy depends on the accuracy of the registered Profiles. Predict does not analyze the entire video."
 
 #: ../../03_workflow/05_create-profile.md:6816
 msgid ""
@@ -191,35 +197,38 @@ msgid ""
 "【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。   "
 "Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。"
 msgstr ""
+"1\\. Move the slider in the Video Timeline window to the frame where you want "
+"to register an expression. Press [+] to add that frame's image to the Gallery "
+"and open the Editor. Confirm that the image added to the Gallery matches the "
+"image shown in the Editor."
 
 #: ../../03_workflow/05_create-profile.md:6824
 msgid "![](/images/03_workflow_create_profile_gallery_addition.jpg)"
-msgstr ""
+msgstr "![](/images/03_workflow_create_profile_gallery_addition.jpg)"
 
 #: ../../03_workflow/05_create-profile.md:6826
 msgid "Galleryに追加される"
-msgstr ""
+msgstr "The image is added to the Gallery"
 
 #: ../../03_workflow/05_create-profile.md:6828
 msgid "![](/images/03_workflow_create_profile_image_confirm.jpg)"
-msgstr ""
+msgstr "![](/images/03_workflow_create_profile_image_confirm.jpg)"
 
 #: ../../03_workflow/05_create-profile.md:6830
 msgid "Editor画面に表示されている画像が同じか確認する"
-msgstr ""
+msgstr "Confirm that the same image is displayed in the Editor"
 
 #: ../../03_workflow/05_create-profile.md:6835
 msgid "2.**Predictを実行**　valueの数値が変動します。"
-msgstr ""
+msgstr "2\\. **Run Predict.** The values will change."
 
 #: ../../03_workflow/05_create-profile.md:6843
 msgid "3.MayaにPredict結果が出るので、   調整が必要な場合は調整を行い、登録できる内容になったら"
-msgstr ""
+msgstr "3\\. The Predict result appears in Maya. Make any necessary adjustments, and when the result is ready to register,"
 
 #: ../../03_workflow/05_create-profile.md:6852
 msgid "4.【Save】します。"
-msgstr ""
+msgstr "4\\. Click [Save]."
 
 #~ msgid ":end-before:"
 #~ msgstr ""
-

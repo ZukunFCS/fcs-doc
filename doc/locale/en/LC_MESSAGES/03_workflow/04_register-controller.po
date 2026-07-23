@@ -110,7 +110,7 @@ msgstr "Select the controllers you want to register as Upper in Maya,"
 
 #: ../../03_workflow/04_register-controller.md:64
 msgid "2.【Add selected】ボタンを押します。"
-msgstr "2\. Press the [Add selected] button."
+msgstr "2\\. Press the [Add selected] button."
 
 #: ../../03_workflow/04_register-controller.md:72
 msgid ""
@@ -208,11 +208,11 @@ msgstr "**How to remove controllers you do not want to register**"
 
 #: ../../03_workflow/04_register-controller.md:189
 msgid "1.コントローラー単体で削除する場合   削除したいコントローラーを選択(☑)  &rarr; 【Remove】を押します。"
-msgstr "1\. To delete a single controller  \nSelect the controller you want to delete (check it) &rarr; press [Remove]."
+msgstr "1\\. To delete a single controller  \nSelect the controller you want to delete (check it) &rarr; press [Remove]."
 
 #: ../../03_workflow/04_register-controller.md:198
 msgid "2.nullのコントローラーを一括で削除する場合   【Remove empty】を押します。"
-msgstr "2\. To delete all null controllers at once  \nPress [Remove empty]."
+msgstr "2\\. To delete all null controllers at once  \nPress [Remove empty]."
 
 #: ../../03_workflow/04_register-controller.md:207
 msgid "Upper/Eyelid/Gaze/Lowerをすべて登録し終えたら 【Save】してください。"

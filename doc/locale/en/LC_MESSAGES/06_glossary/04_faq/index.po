@@ -46,12 +46,16 @@ msgid ""
 "必要最低スペックは以下の通りです。   最低スペック：   CPU：Intel Core i5-9400F   GPU：-   メモリー：DDR4"
 " 16GB以上"
 msgstr ""
+"The minimum required specifications are as follows:  \n"
+"CPU: Intel Core i5-9400F  \n"
+"GPU: None  \n"
+"Memory: 16 GB or more of DDR4"
 
 #: ../../06_glossary/04_faq/index.md:19
 msgid ""
 "PCの推奨スペックなどFCSを使用するにあたって必要な準備については、   [**事前準備**](../../02_getting-"
 "started/01_setup.md)のページをご確認ください。"
-msgstr ""
+msgstr "For recommended PC specifications and other preparation required to use FCS, see [**Preparation**](../../02_getting-started/01_setup.md)."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：専用のヘッドマウントカメラは必要ですか？"
@@ -59,26 +63,23 @@ msgstr "Q: Is a dedicated head-mounted camera required?"
 
 #: ../../06_glossary/04_faq/index.md:26
 msgid "専用のカメラは不要です。   市販のヘッドマウントカメラや固定カメラなどの動画もご使用いただけます。"
-msgstr ""
+msgstr "No dedicated camera is required. You can use footage from commercially available head-mounted cameras, fixed cameras, and similar devices."
 
 #: ../../06_glossary/04_faq/index.md:29
 msgid "詳しくは[**事前準備**](../../02_getting-started/01_setup.md)のページをご確認ください。"
-msgstr ""
+msgstr "For details, see [**Preparation**](../../02_getting-started/01_setup.md)."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：MacOSには対応していますか？"
 msgstr "Q: Is macOS supported?"
 
 #: ../../06_glossary/04_faq/index.md:34
-#, fuzzy
 msgid "<del>現時点では対応していませんが、将来的には対応する予定です。※2024年6月現在</del>"
-msgstr ""
-"It is not currently supported, but support is planned for the future. "
-"(*As of June 2024)"
+msgstr "<del>It is not currently supported, but support was planned for the future. (As of June 2024)</del>"
 
 #: ../../06_glossary/04_faq/index.md:36
 msgid "※2026年4月更新   MasOSには対応しておらず、対応の予定もございません。   Linuxなどへの対応についてはお問い合わせください。"
-msgstr ""
+msgstr "Updated April 2026: macOS is not supported, and there are no plans to support it. Contact us regarding support for Linux or other operating systems."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：FCSを使用するにあたって、何か別のソフトは必要になりますか？"
@@ -142,7 +143,7 @@ msgstr ""
 
 #: ../../06_glossary/04_faq/index.md:71
 msgid "Exportについては[**Sessionのエクスポート**](../../03_workflow/08_export) をご確認ください。"
-msgstr ""
+msgstr "For details about Export, see [**Exporting a Session**](../../03_workflow/08_export)."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：新規キャラクターのセッション作成時、同じアクター間でセッションデータを使い回したり、同じキャラクターのコントローラー情報を別アクターでのセッション作成に利用することはできますか？"
@@ -152,18 +153,18 @@ msgstr ""
 "same character be used when creating a session for a different actor?"
 
 #: ../../06_glossary/04_faq/index.md:76
-#, fuzzy
 msgid "[**Sessionのエクスポート**](../../03_workflow/08_export.md)が利用できます。"
-msgstr ""
-"The [**Export feature**](../../03_workflow/08_export.md) can be used.  \n"
-"A batch rename function for registered controllers is also available, so "
-"please change controller names as needed."
+msgstr "You can use [**Exporting a Session**](../../03_workflow/08_export.md)."
 
 #: ../../06_glossary/04_faq/index.md:78
 msgid ""
 "登録コントローラーの一括リネーム機能もございますので、適宜コントローラー名の変更を行ってください。 "
 "一括リネームについては、[ユーザーガイド/Menu/Window/controllers](../../06_glossary/01_Menu/window.md)の『複数コントローラーの一括リネーム』の項目をご確認ください。"
 msgstr ""
+"A batch rename feature is also available for registered controllers, so "
+"rename controller names as needed. For details, see the 'Batch renaming "
+"multiple controllers' section under [User Guide/Menu/Window/controllers]"
+"(../../06_glossary/01_Menu/window.md)."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：異なるアクター間でROM体操のプロファイルを使い回すことはできますか？"
@@ -189,12 +190,15 @@ msgid ""
 "プロジェクトファイルを一度設定すれば、FCSからMayaをワンクリックで起動できます。 "
 "[**Mayaの起動**](../../03_workflow/03_launch-maya.md)をご確認ください。"
 msgstr ""
+"Maya generally needs to be running while you work in FCS. Once the project "
+"file is configured, you can launch Maya from FCS with one click. See "
+"[**Launching Maya**](../../03_workflow/03_launch-maya.md)."
 
 #: ../../06_glossary/04_faq/index.md:93
 msgid ""
 "FCSCLIをご使用の場合は、[こちら](https://zukunfcs.github.io/fcs-doc-"
 "advanced/26.04/jp/index.html)をご確認ください。   ※外部サイトへ移行します。"
-msgstr ""
+msgstr "For FCS CLI, see [this page](https://zukunfcs.github.io/fcs-doc-advanced/26.04/en/index.html). This link opens an external site."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：Profileには、ROM体操は必須ですか？"
@@ -287,17 +291,17 @@ msgstr ""
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：ライブキャラクターアニメーションはできますか？"
-msgstr ""
+msgstr "Q: Is live character animation supported?"
 
 #: ../../06_glossary/04_faq/index.md:134
 msgid ""
 "リアルタイム動画生成 リアルタイムでのアニメーション解析・出力について   "
 "開発を予定しておりましたが、FCSへの標準搭載を見送ることといたしました。"
-msgstr ""
+msgstr "Real-time video generation, animation analysis, and output were planned for development, but we decided not to include them as standard FCS features."
 
 #: ../../06_glossary/04_faq/index.md:137
 msgid "今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。   個別対応のご相談につきましてはお問い合わせください。"
-msgstr ""
+msgstr "Going forward, we will focus on optimization for individual project requirements and consider custom solutions. Contact us to discuss project-specific support."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：再起動が必要な場合はありますか？"
@@ -313,20 +317,19 @@ msgstr ""
 msgid ""
 "Settingについては[環境設定（File ▶ "
 "Settingsウィンドウ）](../../06_glossary/01_Menu/settings.md)をご確認ください。"
-msgstr ""
+msgstr "For details about Settings, see [Preferences (File ▶ Settings window)](../../06_glossary/01_Menu/settings.md)."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：レイアウトの登録はできますか？"
 msgstr "Q: Can layouts be saved?"
 
 #: ../../06_glossary/04_faq/index.md:151
-#, fuzzy
 msgid "FCSの View&rarr;Layout から現在使用しているレイアウトの情報を保存できます。"
 msgstr "Layout information can be saved in FCS under View&rarr;Layout."
 
 #: ../../06_glossary/04_faq/index.md:153
 msgid "レイアウトの保存や変更に関して詳しくは[ユーザーガイド/View/Layout](../../06_glossary/01_Menu/view.md)の項目をご確認ください。"
-msgstr ""
+msgstr "For details about saving and changing layouts, see [User Guide/View/Layout](../../06_glossary/01_Menu/view.md)."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：FCSの動作が極端に重い時はどうすればよいですか？"
@@ -367,35 +370,29 @@ msgstr "Q: Why does the image plane go behind the model when animation is output
 
 #: ../../06_glossary/04_faq/index.md:170
 msgid "FCSではMaya内で使われるカメラの指定が可能です。指定した名前のカメラがシーン内に無い場合は新しく作成されます。"
-msgstr ""
+msgstr "FCS lets you specify the camera used in Maya. If a camera with the specified name does not exist in the scene, a new one is created."
 
 #: ../../06_glossary/04_faq/index.md:172
-#, fuzzy
 msgid ""
 "「Settings/Maya/Image "
 "Plane」や「Settings/Maya/camera」から、使用するカメラやイメージプレーンの名前を設定してください。"
-msgstr ""
-"FCS allows you to specify the camera used within Maya. If a camera with "
-"the specified name does not exist in the scene, a new one is created. "
-"Please set the names of the camera and image plane to use from "
-"\"Settings/Maya/Image Plane\" and \"Settings/Maya/camera\"."
+msgstr "Set the camera and image-plane names under \"Settings/Maya/Image Plane\" and \"Settings/Maya/camera\"."
 
 #: ../../06_glossary/04_faq/index.md:174
 msgid "これらの設定については下記をご参照ください。"
-msgstr ""
+msgstr "See the following pages for details about these settings:"
 
 #: ../../06_glossary/04_faq/index.md:175
 msgid "[環境設定（File ▶ Settingsウィンドウ）](../../06_glossary/01_Menu/settings.md)"
-msgstr ""
+msgstr "[Preferences (File ▶ Settings window)](../../06_glossary/01_Menu/settings.md)"
 
 #: ../../06_glossary/04_faq/index.md:176
 msgid "[ユーザーガイド/Tips/ベースシーンについて](../../06_glossary/03_Tips/index.md)"
-msgstr ""
+msgstr "[User Guide/Tips/About the Base Scene](../../06_glossary/03_Tips/index.md)"
 
 #: ../../06_glossary/04_faq/index.md:182
-#, fuzzy
 msgid "**ライセンスについて**"
-msgstr "About Licensing"
+msgstr "**About Licensing**"
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：1ライセンスの場合、2台のPCで同時作業できますか？"
@@ -413,7 +410,7 @@ msgstr "Q: How much does it cost?"
 
 #: ../../06_glossary/04_faq/index.md:190
 msgid "年間サブスクリプションは40万円（税抜き）です。"
-msgstr ""
+msgstr "The annual subscription costs 400,000 yen (excluding tax)."
 
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：購入後に自動的に契約更新になりますか？"
@@ -545,4 +542,3 @@ msgstr ""
 #~ "purchase by the end of December "
 #~ "2024, an additional license is provided"
 #~ " free for each license purchased."
-

@@ -131,7 +131,7 @@ msgstr ""
 
 #: ../../05_sample-project/index.md:58
 msgid "プラグインが同封されているバージョンのみMayaでの使用が可能です。   Maya対応バージョン 2023,2024,2025"
-msgstr ""
+msgstr "Only versions that include the plugin can be used with Maya. Supported Maya versions: 2023, 2024, and 2025."
 
 #: ../../05_sample-project/index.md:63
 msgid ""
@@ -330,4 +330,3 @@ msgstr ""
 
 #~ msgid "プラグインが同封されているバージョンのみMayaでの使用が可能です。 Maya対応バージョン 2023,2024,2025"
 #~ msgstr ""
-

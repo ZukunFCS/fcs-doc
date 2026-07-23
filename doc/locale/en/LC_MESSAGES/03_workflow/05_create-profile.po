@@ -24,18 +24,15 @@ msgstr "Create a Profile"
 
 #: ../../03_workflow/05_create-profile.md:3
 msgid "本ページではProfileの追加手順 ~ 編集手順について記載しています。"
-msgstr ""
+msgstr "This page describes the procedures for adding and editing Profiles."
 
 #: ../../03_workflow/05_create-profile.md:6
-#, fuzzy
 msgid ""
 "Mayaをベースに表情を調整するのか、FCSをベースに表情を調整するのかは任意で使い分けることができますが、   "
 "最初は「Both」での使用をオススメします。"
 msgstr ""
-"This page describes the procedures for adding and editing Profiles.  \n"
-"You can choose whether to adjust facial expressions based on Maya or FCS,"
-"  \n"
-"but we recommend using \"Both\" to start with."
+"You can choose whether to adjust facial expressions based on Maya or FCS, "
+"but we recommend using \"Both\" when getting started."
 
 #: ../../03_workflow/05_create-profile.md:12
 msgid "**解析動画のimport**"
@@ -101,7 +98,7 @@ msgstr "1\\. Press [Import] to open a popup window,"
 #: ../../03_workflow/05_create-profile.md:536
 #: ../../03_workflow/05_create-profile.md:581
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../03_workflow/05_create-profile.md:44
 msgid "2.解析したい動画をクリックします。"
@@ -644,4 +641,3 @@ msgstr ""
 
 #~ msgid ":end-before: <!--Predict_end_here-->"
 #~ msgstr ""
-

@@ -644,7 +644,6 @@ msgstr ""
 "the timeline jumps to the corresponding frame"
 
 #: ../../06_glossary/01_Menu/window.md:443
-#, fuzzy
 msgid "⑤ ☑ Advanced：詳細機能を表示　※内容についてはページ下部項目をご参照ください。"
 msgstr ""
 "⑤ ☑ Advanced: Display advanced features. *See the sections at the bottom "
@@ -686,10 +685,9 @@ msgstr "White: Profile registered after retargeting"
 #: ../../06_glossary/01_Menu/window.md:854
 #: ../../06_glossary/01_Menu/window.md:889
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../06_glossary/01_Menu/window.md
-#, fuzzy
 msgid "**☑Advancedについて**"
 msgstr "**About ☑ Advanced**"
 
@@ -1139,13 +1137,8 @@ msgid "①【▼Parameters】：処理のパラメータ設定"
 msgstr "① [▼Parameters]: Processing parameter settings"
 
 #: ../../06_glossary/01_Menu/window.md:926
-#, fuzzy
 msgid "② 【▼Type】：Smoothing機能の設定"
-msgstr ""
-"② [▼Type]: Smoothing function settings  \n"
-"・Raw:  \n"
-"・Smoothing:  \n"
-"・Peak:"
+msgstr "② [▼Type]: Configure the smoothing function"
 
 #: ../../06_glossary/01_Menu/window.md:928
 msgid "③ Weight：強さを設定"
@@ -1190,9 +1183,18 @@ msgid ""
 "0.0～1.0の範囲でどの地点からまばたきと判定するかを設定します。   　　※デフォルト：0.5   　　"
 "トラッキング結果が入力値より小さい場合、まばたきと判定して目線を固定します。"
 msgstr ""
+"① ☐ Gaze Freezing: Freeze the gaze during blinks. This option is unchecked "
+"by default.  \n"
+"・Replacement Value ▼:  \n"
+"　Last detected: Freeze at the last detected Gaze value.  \n"
+"　Default Value: Freeze at the default Gaze value.  \n"
+"・Freezing threshold: Set the threshold used to detect a blink. For automatic "
+"tracking results, the moment when the eyes are most open is 1.0 and fully "
+"closed is 0.0. Choose the point between 0.0 and 1.0 below which the result is "
+"treated as a blink. The default is 0.5. When the tracking result is below the "
+"entered value, FCS treats it as a blink and freezes the gaze."
 
 #: ../../06_glossary/01_Menu/window.md:972
-#, fuzzy
 msgid ""
 "② ☑ Prioritize profile：   　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力   　"
 "解析の予測値よりもProfile登録時のリターゲットの値を優先します。   　"
@@ -1200,12 +1202,16 @@ msgid ""
 "前後0.5秒がスムージング対象   　・Exponential Coefficient：デフォルト値は1.0（線形）   　　"
 "値が小さいほどカーブが滑らかになります。（その分解析の予測値から遠ざかります。）"
 msgstr ""
-"④ Exponential Coefficient: Default value is 1.0 (linear)  \n"
-"Smaller values produce smoother curves (but deviate further from the "
-"analysis prediction values)."
+"② ☑ Prioritize profile: For frames with a registered Profile, output exactly "
+"the same expression values as the Profile. The retargeted values saved when "
+"the Profile was registered take priority over the predicted analysis values.  \n"
+"・Range: Apply smoothing for the specified total number of seconds before and "
+"after the Profile frame (unit: seconds). For example, with Range 1.0, the 0.5 "
+"seconds before and after the frame are smoothed.  \n"
+"・Exponential Coefficient: The default value is 1.0 (linear). Smaller values "
+"produce smoother curves, but move farther from the predicted analysis values."
 
 #: ../../06_glossary/01_Menu/window.md:980
-#, fuzzy
 msgid ""
 "⑤ Clamp mode：クランプ処理の設定を切り替え   　・No Clamp：クランプ処理なし   　・Hard Clamp：   　　"
 "アニメーションカーブをControllerウィンドウで設定した最大値 - 最小値でクランプ   　　（クランプされた範囲のスムージング処理なし）"
@@ -1390,4 +1396,3 @@ msgstr "[**〇Info**](info.md): Version information, etc."
 #~ "まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。   　　"
 #~ "例：0で完全に閉じた状態、1で最大に開いた状態"
 #~ msgstr ""
-

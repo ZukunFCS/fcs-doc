@@ -97,16 +97,16 @@ msgid ""
 "1.【Save current】を押すと「Layout Registration」ウィンドウが出るので、    Layout "
 "Nameにレイアウトの名前を入力し【Save】を押します。"
 msgstr ""
-"1\. Press [Save current] to open the \"Layout Registration\" window.  \n"
+"1\\. Press [Save current] to open the \"Layout Registration\" window.  \n"
 "Enter the layout name in Layout Name and press [Save]."
 
 #: ../../06_glossary/01_Menu/view.md:120
 msgid "2.保存したレイアウトが一覧に出ます。   【Apply】：保存したレイアウトに変更   【Delete】：保存したレイアウトを削除"
-msgstr "2\. The saved layout appears in the list.  \n[Apply]: Switch to the saved layout  \n[Delete]: Delete the saved layout"
+msgstr "2\\. The saved layout appears in the list.  \n[Apply]: Switch to the saved layout  \n[Delete]: Delete the saved layout"
 
 #: ../../06_glossary/01_Menu/view.md:130
 msgid "3.保存したレイアウトのデータは以下のパスに格納されます。"
-msgstr "3\. The saved layout data is stored at the following path."
+msgstr "3\\. The saved layout data is stored at the following path."
 
 #: ../../06_glossary/01_Menu/view.md:144
 msgid "**Menu説明 目次**"

@@ -43,12 +43,11 @@ msgid "【Restore】：設定をデフォルトに戻し、FCSを再起動"
 msgstr "[Restore]: Reset settings to default and restart FCS"
 
 #: ../../06_glossary/01_Menu/settings.md:20
-#, fuzzy
 msgid ""
 "【Import】：他のバージョンなどから設定をインポートし、FCSを再起動   "
 "C:\\Users[ユーザー名].fcs\\Cortado[FCSバージョン]にあるmy_conf.yamlを読み込んでください。"
 msgstr ""
-"[import]: Import settings from another version, etc., and restart FCS.  \n"
+"[Import]: Import settings from another version and restart FCS.  \n"
 "Load the my_conf.yaml file located at "
 "C:\\Users[username].fcs\\Cortado[FCS version]."
 
@@ -250,9 +249,8 @@ msgstr ""
 "\\- None: Do not receive version update notifications"
 
 #: ../../06_glossary/01_Menu/settings.md:187
-#, fuzzy
 msgid "③ Use Beta：ベータ機能を使用するかを設定  ※Beta版の配信は中止となりました。"
-msgstr "③ Use Beta: Configure whether to use beta features"
+msgstr "③ Use Beta: Configure whether to use beta features. Distribution of beta versions has been discontinued."
 
 #: ../../06_glossary/01_Menu/settings.md:196
 msgid "**Menu説明 目次**"
@@ -287,4 +285,3 @@ msgstr "[**- Explore**](explore.md): Browsing files in Windows Explorer from FCS
 #: ../../06_glossary/01_Menu/index.md:169
 msgid "[**〇Info**](info.md)：バージョン情報など"
 msgstr "[**- Info**](info.md): Version information and more"
-
