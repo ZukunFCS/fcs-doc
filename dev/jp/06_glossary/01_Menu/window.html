@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-07-23T05:28:04+00:00" />
+    <meta property="article:modified_time" content="2026-07-23T08:16:12+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Window &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -707,12 +707,15 @@ Solver</label><div class="sd-tab-content docutils">
 <p>① ☐ Gaze Freezing：<br />
 　まばたき時の目線固定設定 ※デフォルトはチェックなし<br />
 　・Replacement Value ▼：<br />
-　　Last detected Gazeの最後の値で固定されます。<br />
-　　Default Value Gazeのデフォルトの値で固定されます。<br />
+　　Last detected → Gazeの最後の値で固定されます。<br />
+　　Default Value → Gazeのデフォルトの値で固定されます。<br />
 　・Freezing threshold：<br />
-　　目線を固定する閾値を設定します。 ※デフォルト：0.5<br />
-　　まばたきと判定する数値を設定、入力値より小さい値をまばたきとし目線を止めます。<br />
-　　例：0で完全に閉じた状態、1で最大に開いた状態</p>
+　　まばたきかどうかを判定する境目の設定です。<br />
+　　オートトラッキングによる検出結果について、<br />
+　　その動画内で最も目を開いている瞬間を1.0、完全に目が閉じている状態を0.0としたとき、<br />
+　　0.0～1.0の範囲でどの地点からまばたきと判定するかを設定します。<br />
+　　※デフォルト：0.5<br />
+　　トラッキング結果が入力値より小さい場合、まばたきと判定して目線を固定します。</p>
 <p>② ☑ Prioritize profile：<br />
 　Profileが登録されているフレームはProfileと全く同じ表情の値にして出力<br />
 　解析の予測値よりもProfile登録時のリターゲットの値を優先します。<br />
