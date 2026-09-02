@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 11:27+0000\n"
+"POT-Creation-Date: 2026-09-02 10:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -58,6 +58,7 @@ msgstr ""
 #: ../../06_glossary/01_Menu/view.md:581 ../../06_glossary/01_Menu/view.md:590
 #: ../../06_glossary/03_Tips/index.md:31 ../../06_glossary/03_Tips/index.md:39
 #: ../../06_glossary/03_Tips/index.md:48 ../../06_glossary/03_Tips/index.md:56
+#: ../../06_glossary/03_Tips/index.md:103
 msgid "<br><br>"
 msgstr ""
 
@@ -89,13 +90,13 @@ msgstr ""
 msgid "**レイアウトの変更方法**"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:97
+#: ../../06_glossary/03_Tips/index.md:80
 msgid ""
 "Viewウィンドウ → Layoutからレイアウトのプリセットを呼び出せます。   "
 "また、各ウィンドウはドラッグ＆ドロップでFCS内を移動・配置することができます。   お好きな配置で作業してください。"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:101
+#: ../../06_glossary/03_Tips/index.md:84
 msgid "Viewウィンドウ → Layoutから変更したレイアウトを保存することも可能です。"
 msgstr ""
 
@@ -133,11 +134,23 @@ msgstr ""
 msgid "**③ Tripleレイアウト**"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:111
+#: ../../06_glossary/03_Tips/index.md:93
+msgid "**モニターの数や作業環境に合わせてカスタマイズしてください。**"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md
+msgid "**配置例（二画面）**"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md
+msgid "**配置例（一画面）**"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md:115
 msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../01_Menu/view.md)をご覧ください。"
 msgstr ""
 
-#: ../../06_glossary/03_Tips/index.md:116
+#: ../../06_glossary/03_Tips/index.md:120
 msgid "保存したレイアウトのデータは以下のパスに格納されます。"
 msgstr ""
 

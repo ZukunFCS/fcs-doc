@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 11:27+0000\n"
+"POT-Creation-Date: 2026-09-02 10:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -71,6 +71,7 @@ msgstr ""
 #: ../../06_glossary/01_Menu/view.md:581 ../../06_glossary/01_Menu/view.md:590
 #: ../../06_glossary/03_Tips/index.md:31 ../../06_glossary/03_Tips/index.md:39
 #: ../../06_glossary/03_Tips/index.md:48 ../../06_glossary/03_Tips/index.md:56
+#: ../../06_glossary/03_Tips/index.md:103
 msgid "<br><br>"
 msgstr "<br><br>"
 
@@ -112,7 +113,7 @@ msgstr "About Layouts"
 msgid "**レイアウトの変更方法**"
 msgstr "**How to Change the Layout**"
 
-#: ../../06_glossary/03_Tips/index.md:97
+#: ../../06_glossary/03_Tips/index.md:80
 msgid ""
 "Viewウィンドウ → Layoutからレイアウトのプリセットを呼び出せます。   "
 "また、各ウィンドウはドラッグ＆ドロップでFCS内を移動・配置することができます。   お好きな配置で作業してください。"
@@ -121,7 +122,7 @@ msgstr ""
 "Each window can also be moved and arranged within FCS by drag & drop.  \n"
 "Please work with your preferred arrangement."
 
-#: ../../06_glossary/03_Tips/index.md:101
+#: ../../06_glossary/03_Tips/index.md:84
 msgid "Viewウィンドウ → Layoutから変更したレイアウトを保存することも可能です。"
 msgstr "You can also save modified layouts from View window → Layout."
 
@@ -142,7 +143,8 @@ msgid ""
 "④ Sample_Layout ▶：【Save current】で登録した任意のレイアウトを選択   　【Apply】：保存したレイアウトに変更"
 "     　【Delete】：保存したレイアウトを削除"
 msgstr ""
-"④ Sample_Layout ▶: Select a custom layout registered with [Save current].  \n"
+"④ Sample_Layout ▶: Select a custom layout registered with [Save current]."
+"  \n"
 "[Apply]: Switch to the saved layout.  \n"
 "[Delete]: Delete the saved layout."
 
@@ -162,13 +164,25 @@ msgstr "**② Double layout**"
 msgid "**③ Tripleレイアウト**"
 msgstr "**③ Triple layout**"
 
-#: ../../06_glossary/03_Tips/index.md:111
+#: ../../06_glossary/03_Tips/index.md:93
+msgid "**モニターの数や作業環境に合わせてカスタマイズしてください。**"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md
+msgid "**配置例（二画面）**"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md
+msgid "**配置例（一画面）**"
+msgstr ""
+
+#: ../../06_glossary/03_Tips/index.md:115
 msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../01_Menu/view.md)をご覧ください。"
 msgstr ""
 "For details on the View window, see [User "
 "Guide/Menu/view](../01_Menu/view.md)."
 
-#: ../../06_glossary/03_Tips/index.md:116
+#: ../../06_glossary/03_Tips/index.md:120
 msgid "保存したレイアウトのデータは以下のパスに格納されます。"
 msgstr "Saved layout data is stored at the following path."
 
@@ -183,13 +197,15 @@ msgid ""
 "登録済のProfileを基にソフトが予想した表情を作成してくれます。"
 msgstr ""
 "FCS includes a **Predict feature** that automatically retargets from the "
-"Profiles you have created. After registering several Profiles, use Predict "
-"when adding another Profile to generate an expression based on the existing "
-"Profiles."
+"Profiles you have created. After registering several Profiles, use "
+"Predict when adding another Profile to generate an expression based on "
+"the existing Profiles."
 
 #: ../../03_workflow/05_create-profile.md:6810
 msgid "Predictで自動リターゲットする精度は、登録済のProfileの精度と連動します。     また、動画全体を解析するわけではございません。"
-msgstr "Predict's automatic retargeting accuracy depends on the accuracy of the registered Profiles. Predict does not analyze the entire video."
+msgstr ""
+"Predict's automatic retargeting accuracy depends on the accuracy of the "
+"registered Profiles. Predict does not analyze the entire video."
 
 #: ../../03_workflow/05_create-profile.md:6816
 msgid ""
@@ -197,10 +213,10 @@ msgid ""
 "【+】を押すと、Galleryに指定したフレームの画像が追加され、Editorが開きます。   "
 "Galleryに追加された画像とEditor画面の画像と同じであることを確認してください。"
 msgstr ""
-"1\\. Move the slider in the Video Timeline window to the frame where you want "
-"to register an expression. Press [+] to add that frame's image to the Gallery "
-"and open the Editor. Confirm that the image added to the Gallery matches the "
-"image shown in the Editor."
+"1\\. Move the slider in the Video Timeline window to the frame where you "
+"want to register an expression. Press [+] to add that frame's image to "
+"the Gallery and open the Editor. Confirm that the image added to the "
+"Gallery matches the image shown in the Editor."
 
 #: ../../03_workflow/05_create-profile.md:6824
 msgid "![](/images/03_workflow_create_profile_gallery_addition.jpg)"
@@ -224,7 +240,9 @@ msgstr "2\\. **Run Predict.** The values will change."
 
 #: ../../03_workflow/05_create-profile.md:6843
 msgid "3.MayaにPredict結果が出るので、   調整が必要な場合は調整を行い、登録できる内容になったら"
-msgstr "3\\. The Predict result appears in Maya. Make any necessary adjustments, and when the result is ready to register,"
+msgstr ""
+"3\\. The Predict result appears in Maya. Make any necessary adjustments, "
+"and when the result is ready to register,"
 
 #: ../../03_workflow/05_create-profile.md:6852
 msgid "4.【Save】します。"
@@ -232,3 +250,4 @@ msgstr "4\\. Click [Save]."
 
 #~ msgid ":end-before:"
 #~ msgstr ""
+
