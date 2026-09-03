@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 11:10+0000\n"
+"POT-Creation-Date: 2026-09-03 17:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -97,8 +97,8 @@ msgstr ""
 "[- Development Roadmap](../04_release-schedule/index)  \n"
 "[- Advanced Manual](../08_advanced_doc_link) *Redirects to an external "
 "site.  \n"
-"[- Chat Manual (NotebookLM)](../09_interactive_doc_link.rst) *Redirects to "
-"an external site.  \n"
+"[- Chat Manual (NotebookLM)](../09_interactive_doc_link.rst) *Redirects "
+"to an external site.  \n"
 "[- Manual Update History](01_history)"
 
 #: ../../00_contents/index.md:49
@@ -106,20 +106,12 @@ msgid "**FCSマニュアル 更新情報**"
 msgstr "**FCS Manual Update Information**"
 
 #: ../../00_contents/01_history.md:87
-msgid "**2026/07/23 更新**"
-msgstr "**Updated 2026/07/23**"
+msgid "**2026/09/03 更新**"
+msgstr "**Updated 2026/09/03**"
 
 #: ../../00_contents/01_history.md:88
-msgid "FCS ver 26.04.03のリリースノートを公開しました。"
-msgstr "FCS ver 26.04.03 release notes have been published."
-
-#: ../../00_contents/01_history.md:89
-msgid "Predict機能の説明をTipsページに追加しました。"
-msgstr "Added an explanation of the Predict feature to the Tips page."
-
-#: ../../00_contents/01_history.md:90
-msgid "マニュアル内の軽微な誤字・リンク切れを修正しました。"
-msgstr "Fixed minor typos and broken links in the manual."
+msgid "Tipsページに、一画面・二画面構成のレイアウト配置例を追加しました。"
+msgstr "Added single-monitor and dual-monitor layout examples to the Tips page."
 
 #: ../../00_contents/index.md:56
 msgid "[※過去の更新履歴はこちら](01_history)"
@@ -132,3 +124,12 @@ msgstr "[*See past update history here](01_history)"
 
 #~ msgid "FCS ver 26.04.02のリリースノートを公開しました。"
 #~ msgstr ""
+
+#~ msgid "FCS ver 26.04.03のリリースノートを公開しました。"
+#~ msgstr "FCS ver 26.04.03 release notes have been published."
+
+#~ msgid "Predict機能の説明をTipsページに追加しました。"
+#~ msgstr "Added an explanation of the Predict feature to the Tips page."
+
+#~ msgid "マニュアル内の軽微な誤字・リンク切れを修正しました。"
+#~ msgstr "Fixed minor typos and broken links in the manual."

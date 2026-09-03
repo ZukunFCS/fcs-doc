@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 11:10+0000\n"
+"POT-Creation-Date: 2026-09-03 17:12+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -72,19 +72,11 @@ msgid "**FCSマニュアル 更新情報**"
 msgstr ""
 
 #: ../../00_contents/01_history.md:87
-msgid "**2026/07/23 更新**"
+msgid "**2026/09/03 更新**"
 msgstr ""
 
 #: ../../00_contents/01_history.md:88
-msgid "FCS ver 26.04.03のリリースノートを公開しました。"
-msgstr ""
-
-#: ../../00_contents/01_history.md:89
-msgid "Predict機能の説明をTipsページに追加しました。"
-msgstr ""
-
-#: ../../00_contents/01_history.md:90
-msgid "マニュアル内の軽微な誤字・リンク切れを修正しました。"
+msgid "Tipsページに、一画面・二画面構成のレイアウト配置例を追加しました。"
 msgstr ""
 
 #: ../../00_contents/index.md:56
@@ -108,5 +100,17 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "FCS ver 26.04.02のリリースノートを公開しました。"
+#~ msgstr ""
+
+#~ msgid "**2026/07/23 更新**"
+#~ msgstr ""
+
+#~ msgid "FCS ver 26.04.03のリリースノートを公開しました。"
+#~ msgstr ""
+
+#~ msgid "Predict機能の説明をTipsページに追加しました。"
+#~ msgstr ""
+
+#~ msgid "マニュアル内の軽微な誤字・リンク切れを修正しました。"
 #~ msgstr ""
 
