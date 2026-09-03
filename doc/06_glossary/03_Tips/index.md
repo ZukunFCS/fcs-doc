@@ -95,7 +95,7 @@ Viewウィンドウ → Layoutから変更したレイアウトを保存する�
 ```
 
 ```{figure} /images/06_glossary_Tips_layout02.jpg
-:width: 80%
+:width: 40%
 :align: center
 ```
 
