@@ -14,7 +14,7 @@ if (themeFlyoutDisplay === "attached") {
 
     const languagesHTML = `
       <dl>
-        <dt>Languages</dt>
+        <dt>言語</dt>
         ${languages
           .map(
             (translation) => `
@@ -35,7 +35,7 @@ if (themeFlyoutDisplay === "attached") {
     }
     const versionsHTML = `
       <dl>
-        <dt>Versions</dt>
+        <dt>バージョン</dt>
         ${config.versions.active
           .map(
             (version) => `

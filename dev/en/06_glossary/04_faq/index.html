@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-09-14T10:40:35+00:00" />
+    <meta property="article:modified_time" content="2026-09-14T11:25:31+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Frequently Asked Questions Q&amp;A &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -98,15 +98,14 @@
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">Q: Is an internet connection required when operating FCS?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">An internet connection is required. The internet is needed for periodic license information checks.<br />
-Wi-Fi connections are supported, but a wired connection is recommended.</p>
+<p class="sd-card-text">An internet connection is required. Wi-Fi connections are supported, but a wired connection is recommended.</p>
 </div>
 </details><p class="rubric"><strong>Privacy and Data Processing</strong></p>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">What data does the animation-generation algorithm introduced in FCS 26.10 process in the cloud?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
-<p class="sd-card-text">FCS 26.10 introduces an improved animation-generation algorithm that delivers higher-quality animation and faster inference. Part of the processing runs on FCS cloud services, but this is not generative AI.</p>
-<p class="sd-card-text">Source images, video frames, and 3D assets are never uploaded to the cloud. Only facial expression parameters similar to ARKit and the controller parameters required to generate the animation are transmitted. These parameters do not contain the source images, video frames, or 3D asset files.</p>
+<p class="sd-card-text">FCS 26.10 introduces an improved animation-generation algorithm that delivers higher-quality animation and faster processing. Part of the processing runs on FCS cloud services, but this is not generative AI.</p>
+<p class="sd-card-text">Source images, video frames, and 3D assets are never uploaded to the cloud. Only expression-estimation result parameters that cannot identify individuals, and the controller parameters required to generate the animation, are transmitted. These parameters do not contain the source images, video frames, or 3D asset files. For details, please refer to the Privacy Policy.</p>
 </div>
 </details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
@@ -342,9 +341,9 @@ Server-side action is required, so please contact us via the <a class="reference
       </div>
     </section>
   </div>
-  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Version">
     <span class="rst-current-version" data-toggle="rst-current-version">
-      Version: dev Lang: en
+      Version: dev Language: en
       <span class="fa fa-caret-down"></span>
     </span>
     <div class="rst-other-versions">

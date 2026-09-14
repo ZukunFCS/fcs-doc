@@ -1,6 +1,6 @@
 ## リリースノート
 
-[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)
+[FCSはこちらからダウンロード](https://github.com/ZukunFCS/fcs-doc/releases)
 
 
 ### FCS 26.04.03
