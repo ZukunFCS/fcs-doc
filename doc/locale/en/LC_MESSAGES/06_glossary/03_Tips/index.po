@@ -166,15 +166,15 @@ msgstr "**③ Triple layout**"
 
 #: ../../06_glossary/03_Tips/index.md:93
 msgid "**モニターの数や作業環境に合わせてカスタマイズしてください。**"
-msgstr ""
+msgstr "**Customize the layout to suit your number of monitors and work environment.**"
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "**配置例（二画面）**"
-msgstr ""
+msgstr "**Example layout (two monitors)**"
 
 #: ../../06_glossary/03_Tips/index.md
 msgid "**配置例（一画面）**"
-msgstr ""
+msgstr "**Example layout (one monitor)**"
 
 #: ../../06_glossary/03_Tips/index.md:115
 msgid "Viewウィンドウについての説明は[ユーザーガイド/Menu/view](../01_Menu/view.md)をご覧ください。"

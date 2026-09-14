@@ -20,9 +20,17 @@ msgstr ""
 
 #: ../../_templates/versions.html:9
 msgid "Languages"
-msgstr ""
+msgstr "言語"
 
 #: ../../_templates/versions.html:17
 msgid "Versions"
-msgstr ""
+msgstr "バージョン"
+
+#: ../../_templates/versions.html:3
+msgid "Version"
+msgstr "バージョン"
+
+#: ../../_templates/versions.html:3
+msgid "Language"
+msgstr "言語"
 

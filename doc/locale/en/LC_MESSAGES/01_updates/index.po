@@ -23,7 +23,7 @@ msgid "リリースノート"
 msgstr "Release Notes"
 
 #: ../../01_updates/index.md:3
-msgid "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
+msgid "[FCSはこちらからダウンロード](https://github.com/ZukunFCS/fcs-doc/releases)"
 msgstr "[Download FCS here](https://github.com/ZukunFCS/fcs-doc/releases)"
 
 #: ../../01_updates/index.md:6

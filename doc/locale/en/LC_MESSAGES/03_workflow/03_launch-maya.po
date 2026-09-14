@@ -58,7 +58,7 @@ msgstr ""
 #: ../../03_workflow/03_launch-maya.md:40
 #: ../../03_workflow/03_launch-maya.md:48
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../03_workflow/03_launch-maya.md:31
 msgid "**Launchで指定したMayaバージョンが開けない場合**"

@@ -238,7 +238,7 @@ msgstr "Copy path"
 
 #: ../../06_glossary/01_Menu/file.md:170
 msgid "② Actor"
-msgstr ""
+msgstr "② Actor"
 
 #: ../../06_glossary/01_Menu/file.md:171
 msgid "アクター名"
@@ -250,7 +250,7 @@ msgstr "Rename / Copy"
 
 #: ../../06_glossary/01_Menu/file.md:173
 msgid "③ Character"
-msgstr ""
+msgstr "③ Character"
 
 #: ../../06_glossary/01_Menu/file.md:174
 msgid "キャラクター名"
@@ -258,7 +258,7 @@ msgstr "Character name"
 
 #: ../../06_glossary/01_Menu/file.md:176
 msgid "④ Maya Scene"
-msgstr ""
+msgstr "④ Maya Scene"
 
 #: ../../06_glossary/01_Menu/file.md:177
 msgid "Mayaシーンパス"
@@ -270,7 +270,7 @@ msgstr "Copy / Change path"
 
 #: ../../06_glossary/01_Menu/file.md:179
 msgid "⑤ Maya Base"
-msgstr ""
+msgstr "⑤ Maya Base"
 
 #: ../../06_glossary/01_Menu/file.md:180
 msgid "workspace.melのパス"
@@ -278,7 +278,7 @@ msgstr "workspace.mel path"
 
 #: ../../06_glossary/01_Menu/file.md:182
 msgid "⑥ Maya version"
-msgstr ""
+msgstr "⑥ Maya version"
 
 #: ../../06_glossary/01_Menu/file.md:183
 msgid "Mayaバージョン"
@@ -290,7 +290,7 @@ msgstr "Copy / Change"
 
 #: ../../06_glossary/01_Menu/file.md:185
 msgid "⑦ Profile Count"
-msgstr ""
+msgstr "⑦ Profile Count"
 
 #: ../../06_glossary/01_Menu/file.md:186
 msgid "セッション内のプロファイルの数"
@@ -304,7 +304,7 @@ msgstr "Copy"
 
 #: ../../06_glossary/01_Menu/file.md:188
 msgid "⑧ Video Count"
-msgstr ""
+msgstr "⑧ Video Count"
 
 #: ../../06_glossary/01_Menu/file.md:189
 msgid "セッションにインポートした動画の数"
@@ -312,7 +312,7 @@ msgstr "Number of videos imported into Session"
 
 #: ../../06_glossary/01_Menu/file.md:191
 msgid "⑨ Created at"
-msgstr ""
+msgstr "⑨ Created at"
 
 #: ../../06_glossary/01_Menu/file.md:192
 msgid "セッション作成日時"
@@ -320,7 +320,7 @@ msgstr "Session creation date/time"
 
 #: ../../06_glossary/01_Menu/file.md:194
 msgid "⑩ Created by"
-msgstr ""
+msgstr "⑩ Created by"
 
 #: ../../06_glossary/01_Menu/file.md:195
 msgid "セッション作成者"
@@ -328,7 +328,7 @@ msgstr "Session creator"
 
 #: ../../06_glossary/01_Menu/file.md:197
 msgid "⑪ Last saved at"
-msgstr ""
+msgstr "⑪ Last saved at"
 
 #: ../../06_glossary/01_Menu/file.md:198
 msgid "最終保存日時"
@@ -336,7 +336,7 @@ msgstr "Last saved date/time"
 
 #: ../../06_glossary/01_Menu/file.md:200
 msgid "⑫ Last saved by"
-msgstr ""
+msgstr "⑫ Last saved by"
 
 #: ../../06_glossary/01_Menu/file.md:201
 msgid "最終保存者"
@@ -412,7 +412,6 @@ msgstr ""
 "as follows."
 
 #: ../../03_workflow/08_export.md:455
-#, fuzzy
 msgid "Project Folder：E:\\test   Character：testCharacter2"
 msgstr "Project Folder: E:\\test Character: testCharacter2"
 

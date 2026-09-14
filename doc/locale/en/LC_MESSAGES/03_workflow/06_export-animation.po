@@ -58,7 +58,7 @@ msgstr ""
 #: ../../03_workflow/06_export-animation.md:190
 #: ../../03_workflow/06_export-animation.md:199
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../03_workflow/06_export-animation.md:30
 msgid "2.【Start process】を押します。"

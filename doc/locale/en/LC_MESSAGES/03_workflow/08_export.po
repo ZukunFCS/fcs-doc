@@ -61,7 +61,7 @@ msgstr "Select Export from File/Session"
 
 #: ../../03_workflow/08_export.md:27
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../03_workflow/08_export.md:29
 msgid "出力先をプロジェクトフォルダーとして指定"
@@ -123,7 +123,6 @@ msgstr ""
 "follows."
 
 #: ../../03_workflow/08_export.md:67
-#, fuzzy
 msgid "Project Folder：E:\\test   Character：testCharacter2"
 msgstr "Project Folder: E:\\test Character: testCharacter2"
 

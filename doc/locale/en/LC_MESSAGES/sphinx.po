@@ -27,3 +27,11 @@ msgstr "Languages"
 msgid "Versions"
 msgstr "Version"
 
+#: ../../_templates/versions.html:3
+msgid "Version"
+msgstr "Version"
+
+#: ../../_templates/versions.html:3
+msgid "Language"
+msgstr "Language"
+

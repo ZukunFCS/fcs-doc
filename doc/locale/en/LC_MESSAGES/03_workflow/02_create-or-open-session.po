@@ -161,7 +161,7 @@ msgstr "Example: RecData folder"
 #: ../../03_workflow/02_create-or-open-session.md:171
 #: ../../03_workflow/02_create-or-open-session.md:262
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../03_workflow/02_create-or-open-session.md:101
 msgid "Actorの設定"

@@ -94,7 +94,7 @@ msgstr "Non-numeric attributes such as \"True/False\" will cause malfunction, so
 #: ../../03_workflow/04_register-controller.md:255
 #: ../../03_workflow/04_register-controller.md:266
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../03_workflow/04_register-controller.md:51
 msgid "**Controllerの登録**"

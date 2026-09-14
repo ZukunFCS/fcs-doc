@@ -53,7 +53,7 @@ msgstr "Enter the license key in [New License] and press [Update].  \nAfter the 
 
 #: ../../03_workflow/01_launch-FCS.md:25
 msgid "<br><br>"
-msgstr ""
+msgstr "<br><br>"
 
 #: ../../03_workflow/01_launch-FCS.md:27
 msgid "**ライセンスの更新**"
