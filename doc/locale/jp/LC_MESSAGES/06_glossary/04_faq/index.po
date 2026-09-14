@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-26 06:53+0000\n"
+"POT-Creation-Date: 2026-09-14 19:35+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -34,17 +34,35 @@ msgstr ""
 msgid "ネット接続は必須です。ライセンス情報の定期的なチェックにインターネットが必要です。   Wi-Fi接続も可能ですが、有線接続を推奨しています。"
 msgstr ""
 
+#: ../../06_glossary/04_faq/index.md:11
+msgid "**プライバシーとデータ処理について**"
+msgstr ""
+
+#: ../../06_glossary/04_faq/index.md
+msgid "Q：FCS 26.10で導入されたアニメーション生成アルゴリズムでは、どのデータがクラウドで処理されますか？"
+msgstr ""
+
+#: ../../06_glossary/04_faq/index.md:15
+msgid ""
+"FCS "
+"26.10では、より高品質なアニメーションと高速な推論を実現するため、改良されたアニメーション生成アルゴリズムを導入しました。処理の一部はFCSのクラウドサービスで実行されますが、これは生成AIではありません。"
+msgstr ""
+
+#: ../../06_glossary/04_faq/index.md:17
+msgid "元の画像・動画フレームや3Dアセットがクラウドへアップロードされることはありません。送信されるのは、ARKitと同様の表情パラメータと、アニメーション生成に必要なコントローラーパラメータのみです。これらのパラメータには、元の画像・動画や3Dモデルのデータは含まれません。"
+msgstr ""
+
 #: ../../06_glossary/04_faq/index.md
 msgid "Q：PCのスペックの決まりはありますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:13
+#: ../../06_glossary/04_faq/index.md:22
 msgid ""
 "必要最低スペックは以下の通りです。   最低スペック：   CPU：Intel Core i5-9400F   GPU：-   メモリー：DDR4"
 " 16GB以上"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:19
+#: ../../06_glossary/04_faq/index.md:28
 msgid ""
 "PCの推奨スペックなどFCSを使用するにあたって必要な準備については、   [**事前準備**](../../02_getting-"
 "started/01_setup.md)のページをご確認ください。"
@@ -54,11 +72,11 @@ msgstr ""
 msgid "Q：専用のヘッドマウントカメラは必要ですか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:26
+#: ../../06_glossary/04_faq/index.md:35
 msgid "専用のカメラは不要です。   市販のヘッドマウントカメラや固定カメラなどの動画もご使用いただけます。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:29
+#: ../../06_glossary/04_faq/index.md:38
 msgid "詳しくは[**事前準備**](../../02_getting-started/01_setup.md)のページをご確認ください。"
 msgstr ""
 
@@ -66,11 +84,11 @@ msgstr ""
 msgid "Q：MacOSには対応していますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:34
+#: ../../06_glossary/04_faq/index.md:43
 msgid "<del>現時点では対応していませんが、将来的には対応する予定です。※2024年6月現在</del>"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:36
+#: ../../06_glossary/04_faq/index.md:45
 msgid "※2026年4月更新   MasOSには対応しておらず、対応の予定もございません。   Linuxなどへの対応についてはお問い合わせください。"
 msgstr ""
 
@@ -78,11 +96,11 @@ msgstr ""
 msgid "Q：FCSを使用するにあたって、何か別のソフトは必要になりますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:43
+#: ../../06_glossary/04_faq/index.md:52
 msgid "Mayaが必要です。（Maya 2018/2020/2022/2023/2024/2025/2026に対応）"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:48
+#: ../../06_glossary/04_faq/index.md:57
 msgid "**FCSの機能について**"
 msgstr ""
 
@@ -90,7 +108,7 @@ msgstr ""
 msgid "Q：FCSは撮影の際、アクターにマーカーを付ける必要はありますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:52
+#: ../../06_glossary/04_faq/index.md:61
 msgid "FCSはオートトラッキングを搭載しているため、アクターにマーカーを付ける必要はありません。"
 msgstr ""
 
@@ -98,7 +116,7 @@ msgstr ""
 msgid "Q：ランドマークがズレた際に修正できますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:56
+#: ../../06_glossary/04_faq/index.md:65
 msgid "オートトラッキングのため、ランドマークのズレは修正できません。"
 msgstr ""
 
@@ -106,7 +124,7 @@ msgstr ""
 msgid "Q：舌のトラッキングはできますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:60
+#: ../../06_glossary/04_faq/index.md:69
 msgid "舌のトラッキングには対応していません。"
 msgstr ""
 
@@ -114,7 +132,7 @@ msgstr ""
 msgid "Q：モーフではなくスケルトンにも対応していますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:64
+#: ../../06_glossary/04_faq/index.md:73
 msgid "FCSはモーフだけでなくスケルトンにも対応しています。"
 msgstr ""
 
@@ -122,11 +140,11 @@ msgstr ""
 msgid "Q：同じ役者が複数キャラクターを担当しているのですが、Profileの使い回しはできますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:68
+#: ../../06_glossary/04_faq/index.md:77
 msgid "同じリグであればできます。   Exportで新しいセッションファイルを作成していただき、紐付けるMayaファイルを変更してください。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:71
+#: ../../06_glossary/04_faq/index.md:80
 msgid "Exportについては[**Sessionのエクスポート**](../../03_workflow/08_export) をご確認ください。"
 msgstr ""
 
@@ -134,11 +152,11 @@ msgstr ""
 msgid "Q：新規キャラクターのセッション作成時、同じアクター間でセッションデータを使い回したり、同じキャラクターのコントローラー情報を別アクターでのセッション作成に利用することはできますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:76
+#: ../../06_glossary/04_faq/index.md:85
 msgid "[**Sessionのエクスポート**](../../03_workflow/08_export.md)が利用できます。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:78
+#: ../../06_glossary/04_faq/index.md:87
 msgid ""
 "登録コントローラーの一括リネーム機能もございますので、適宜コントローラー名の変更を行ってください。 "
 "一括リネームについては、[ユーザーガイド/Menu/Window/controllers](../../06_glossary/01_Menu/window.md)の『複数コントローラーの一括リネーム』の項目をご確認ください。"
@@ -148,7 +166,7 @@ msgstr ""
 msgid "Q：異なるアクター間でROM体操のプロファイルを使い回すことはできますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:83
+#: ../../06_glossary/04_faq/index.md:92
 msgid ""
 "現在のFCSのアルゴリズムはアクターが同一人物であることを前提として設計されております。   "
 "操作上は可能ですが、異なるアクター間でのプロファイルの使い回しは出力精度の観点からお勧めできません。"
@@ -158,14 +176,14 @@ msgstr ""
 msgid "Q：Mayaを別途、起動する必要はありますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:89
+#: ../../06_glossary/04_faq/index.md:98
 msgid ""
 "FCSでの作業中は基本的にはMayaの起動が必要になります。   "
 "プロジェクトファイルを一度設定すれば、FCSからMayaをワンクリックで起動できます。 "
 "[**Mayaの起動**](../../03_workflow/03_launch-maya.md)をご確認ください。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:93
+#: ../../06_glossary/04_faq/index.md:102
 msgid ""
 "FCSCLIをご使用の場合は、[こちら](https://zukunfcs.github.io/fcs-doc-"
 "advanced/26.04/jp/index.html)をご確認ください。   ※外部サイトへ移行します。"
@@ -175,7 +193,7 @@ msgstr ""
 msgid "Q：Profileには、ROM体操は必須ですか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:99
+#: ../../06_glossary/04_faq/index.md:108
 msgid "ProfileにはROM体操が必須ではありませんが、精度向上のために追加することをおすすめします。"
 msgstr ""
 
@@ -183,7 +201,7 @@ msgstr ""
 msgid "Q：プラグインなどの関係上、Mayaを別途で起動させる必要がありますが、どうしたらよろしいでしょうか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:103
+#: ../../06_glossary/04_faq/index.md:112
 msgid ""
 "その際はMayaで手動でポート解放してください。   Maya起動後、以下のコマンドをスクリプトエディター(Mel)に入力してください。   "
 "```commandPort -stp \"python\" -n \":42069\"``` "
@@ -195,7 +213,7 @@ msgstr ""
 msgid "Q：マニュアル以外のコントローラーリグを追加することはできますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:111
+#: ../../06_glossary/04_faq/index.md:120
 msgid "手順書以外のコントローラーリグでもUpper/eyelid/gaze/lowerに分類できる場合、任意で追加できます。"
 msgstr ""
 
@@ -203,7 +221,7 @@ msgstr ""
 msgid "Q：Metahuman以外のコントローラーリグにも対応していますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:115
+#: ../../06_glossary/04_faq/index.md:124
 msgid "コントローラーのあるリグであれば基本的に対応しています。   ブレンドシェイプやジョイントでもコントローラー登録とアニメーション出力が可能です。"
 msgstr ""
 
@@ -211,7 +229,7 @@ msgstr ""
 msgid "Q：解析動画に関して、画角が同じであれば撮影場所が変わっても問題ありませんか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:120
+#: ../../06_glossary/04_faq/index.md:129
 msgid "画角が同じであれば撮影場所が変わっても問題ありません。   Profileのピックアップを追加することで対応できます。"
 msgstr ""
 
@@ -219,7 +237,7 @@ msgstr ""
 msgid "Q：動画の画質(フルHDと4Kなど)が変わると、オートトラッキング精度に影響がありますか？そのほかに影響が出るところはありますか？推奨はありますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:125
+#: ../../06_glossary/04_faq/index.md:134
 msgid "極端に解像度の低い（480P以下）、または画質が悪いもの（照明が極めて暗い）を除き、動画の画質はオートトラッキング精度への影響が少ないです。"
 msgstr ""
 
@@ -227,7 +245,7 @@ msgstr ""
 msgid "Q：動画のリフレッシュレート(60fpsと120fpsなど)が変わると、オートトラッキング精度に影響がありますか？そのほかに影響が出るところはありますか？推奨はありますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:129
+#: ../../06_glossary/04_faq/index.md:138
 msgid "できれば明るい場所で撮影してください。また、アクションシーンなどではフレームレートの高いカメラでモーションブラーの少ない撮影を心がけていただければ問題ありません。"
 msgstr ""
 
@@ -235,13 +253,13 @@ msgstr ""
 msgid "Q：ライブキャラクターアニメーションはできますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:134
+#: ../../06_glossary/04_faq/index.md:143
 msgid ""
 "リアルタイム動画生成 リアルタイムでのアニメーション解析・出力について   "
 "開発を予定しておりましたが、FCSへの標準搭載を見送ることといたしました。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:137
+#: ../../06_glossary/04_faq/index.md:146
 msgid "今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。   個別対応のご相談につきましてはお問い合わせください。"
 msgstr ""
 
@@ -249,11 +267,11 @@ msgstr ""
 msgid "Q：再起動が必要な場合はありますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:143
+#: ../../06_glossary/04_faq/index.md:152
 msgid "FCSの File&rarr;Setting にて各種項目を変更できます。   変更した内容は、再起動後に反映されるため、再起動が必要です。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:146
+#: ../../06_glossary/04_faq/index.md:155
 msgid ""
 "Settingについては[環境設定（File ▶ "
 "Settingsウィンドウ）](../../06_glossary/01_Menu/settings.md)をご確認ください。"
@@ -263,11 +281,11 @@ msgstr ""
 msgid "Q：レイアウトの登録はできますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:151
+#: ../../06_glossary/04_faq/index.md:160
 msgid "FCSの View&rarr;Layout から現在使用しているレイアウトの情報を保存できます。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:153
+#: ../../06_glossary/04_faq/index.md:162
 msgid "レイアウトの保存や変更に関して詳しくは[ユーザーガイド/View/Layout](../../06_glossary/01_Menu/view.md)の項目をご確認ください。"
 msgstr ""
 
@@ -275,7 +293,7 @@ msgstr ""
 msgid "Q：FCSの動作が極端に重い時はどうすればよいですか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:158
+#: ../../06_glossary/04_faq/index.md:167
 msgid "Mayaが立ち上がっていない状態でMaya SyncをONにすると動作が遅くなります。もしMaya SyncがONであれば、OFFにしてください。"
 msgstr ""
 
@@ -283,7 +301,7 @@ msgstr ""
 msgid "Q：ROM体操の資料にある「アイウエオ」と「パピプペポ」の違いは何ですか？どちらも必要ですか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:162
+#: ../../06_glossary/04_faq/index.md:171
 msgid "スターターキットに同梱されている「zukun_facialROM.pdf」ｐ.46~47を参考に、「アイウエオ」は開いた形状5つを、「パピプペポ」は唇の巻き込み(破裂音)形状1つを選んでプロファイルの登録をしてください。"
 msgstr ""
 
@@ -291,7 +309,7 @@ msgstr ""
 msgid "Q：Editorでのプロファイル登録の際、スライダー部分へ値を直接入力することはできますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:166
+#: ../../06_glossary/04_faq/index.md:175
 msgid "Ctrl＋クリックで直接数値を入力できます。"
 msgstr ""
 
@@ -299,29 +317,29 @@ msgstr ""
 msgid "Q：アニメーションを出力した際にイメージプレーンがモデルの後ろへ行ってしまうのは何故ですか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:170
+#: ../../06_glossary/04_faq/index.md:179
 msgid "FCSではMaya内で使われるカメラの指定が可能です。指定した名前のカメラがシーン内に無い場合は新しく作成されます。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:172
+#: ../../06_glossary/04_faq/index.md:181
 msgid ""
 "「Settings/Maya/Image "
 "Plane」や「Settings/Maya/camera」から、使用するカメラやイメージプレーンの名前を設定してください。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:174
+#: ../../06_glossary/04_faq/index.md:183
 msgid "これらの設定については下記をご参照ください。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:175
+#: ../../06_glossary/04_faq/index.md:184
 msgid "[環境設定（File ▶ Settingsウィンドウ）](../../06_glossary/01_Menu/settings.md)"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:176
+#: ../../06_glossary/04_faq/index.md:185
 msgid "[ユーザーガイド/Tips/ベースシーンについて](../../06_glossary/03_Tips/index.md)"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:182
+#: ../../06_glossary/04_faq/index.md:191
 msgid "**ライセンスについて**"
 msgstr ""
 
@@ -329,7 +347,7 @@ msgstr ""
 msgid "Q：1ライセンスの場合、2台のPCで同時作業できますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:186
+#: ../../06_glossary/04_faq/index.md:195
 msgid "できません。ただし、同時に起動しなければ複数台のPCで作業可能です。"
 msgstr ""
 
@@ -337,7 +355,7 @@ msgstr ""
 msgid "Q：金額はいくらですか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:190
+#: ../../06_glossary/04_faq/index.md:199
 msgid "年間サブスクリプションは40万円（税抜き）です。"
 msgstr ""
 
@@ -345,7 +363,7 @@ msgstr ""
 msgid "Q：購入後に自動的に契約更新になりますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:194
+#: ../../06_glossary/04_faq/index.md:203
 msgid "購入後、自動的に契約更新は行われません。サブスクリプション終了1ヵ月前にFCSソフト内でポップアップが表示され、更新を希望する場合は弊社担当者にご連絡いただく必要があります。"
 msgstr ""
 
@@ -353,7 +371,7 @@ msgstr ""
 msgid "Q：更新をやめたいときはどうすればいいですか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:198
+#: ../../06_glossary/04_faq/index.md:207
 msgid "特別な操作は必要ありません。サブスクリプション終了期間までは使用できますが、終了後は使用できなくなります。"
 msgstr ""
 
@@ -361,7 +379,7 @@ msgstr ""
 msgid "Q：6か月で使用をやめたいときに、返金はありますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:202
+#: ../../06_glossary/04_faq/index.md:211
 msgid "年間でのサブスクリプション契約のため、途中解約での返金はありません。"
 msgstr ""
 
@@ -369,7 +387,7 @@ msgstr ""
 msgid "Q：トライアルはどのくらいの期間、使用できますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:206
+#: ../../06_glossary/04_faq/index.md:215
 msgid ""
 "トライアルは30日間お試しいただけます。 "
 "詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
@@ -379,7 +397,7 @@ msgstr ""
 msgid "Q：FCSを使用するにあたって、接続するドメインを教えてください。"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:211
+#: ../../06_glossary/04_faq/index.md:220
 msgid "こちらになります: api.toei-fcs.com, google.com"
 msgstr ""
 
@@ -387,7 +405,7 @@ msgstr ""
 msgid "Q：トライアル後に自動的に契約更新になりますか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:215
+#: ../../06_glossary/04_faq/index.md:224
 msgid ""
 "トライアル版から製品版への移行には別途購入手続きが必要です。 "
 "詳細は[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
@@ -397,7 +415,7 @@ msgstr ""
 msgid "Q：\"Internal Server Error\"というメッセージが表示されてFCSを使用できません。どうしたら良いですか？"
 msgstr ""
 
-#: ../../06_glossary/04_faq/index.md:220
+#: ../../06_glossary/04_faq/index.md:229
 msgid ""
 "ライセンス情報をチェックするサーバーに問題が生じている状況です。   "
 "サーバー側での対応が必要ですので、[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からご連絡ください。"
