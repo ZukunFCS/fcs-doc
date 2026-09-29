@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-09-14T11:25:31+00:00" />
+    <meta property="article:modified_time" content="2026-09-29T12:11:29+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Release Notes &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
@@ -50,22 +50,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../00_contents/index.html">Table of Contents</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Release Notes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#fcs-26-04-03">FCS 26.04.03</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Additions / New Features</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id3">Changes / Improvements</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id4">Fixes</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#fcs-26-04-02">FCS 26.04.02</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id5">Fixes</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#fcs-26-04-01">FCS 26.04.01</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#id6">Additions / New Features</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id7">Changes / Improvements</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id8">Fixes</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#fcs-26-10-01">FCS 26.10.01</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../02_getting-started/index.html">What is FCS</a></li>
@@ -104,128 +89,51 @@
   <section id="id1">
 <h1>Release Notes<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
 <p><a class="reference external" href="https://github.com/ZukunFCS/fcs-doc/releases">Download FCS here</a></p>
-<section id="fcs-26-04-03">
-<h2>FCS 26.04.03<a class="headerlink" href="#fcs-26-04-03" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Date: 2026/07/22</p></li>
-<li><p>Version: 26.04.03</p></li>
-<li><p>Stage: Stable</p></li>
-</ul>
-<section id="id2">
-<h3>Additions / New Features<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Added support for Maya 2027.</p></li>
-</ul>
-</section>
-<section id="id3">
-<h3>Changes / Improvements<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>When processing a large number of Profiles, FCS now retries with fewer workers if resources are insufficient and falls back to serial processing if a worker exits unexpectedly.</p></li>
-<li><p>Optional processing components are now loaded only when needed, reducing unnecessary module imports.</p></li>
-<li><p>Reduced unnecessary OpenCV and SciPy dependencies and updated the Windows build toolchain.</p></li>
-<li><p>Added the app version, build, branch, and release channel to submitted error reports so issues can be identified more accurately.</p></li>
-<li><p>When a video’s full path contains unsupported spaces, including spaces in parent folder names, FCS now clearly explains the cause and how to resolve it.</p></li>
-</ul>
-</section>
-<section id="id4">
-<h3>Fixes<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Replaced the unavailable download source used by automatic FFmpeg setup with a verified mirror package.</p></li>
-<li><p>Fixed an issue in the batch processing dialog and added a clear warning when processing is started without selecting any videos.</p></li>
-<li><p>Fixed an issue where a Profile’s Region settings were not preserved or reflected correctly in the Gallery.</p></li>
-<li><p>Fixed an issue where stale texture state remained in the Gallery after saving a Profile. Profile deletion, removal from the timeline, and batch editing of Profiles no longer fail when a texture is missing or cannot be deleted.</p></li>
-<li><p>Fixed intermittent UI parent-element errors when creating hover handlers for Gallery textures and the Profile editor.</p></li>
-<li><p>Improved handling when a layout file does not exist or cannot be written. The selected layout is retained for the current session, and a warning is shown if it may not persist after restart.</p></li>
-<li><p>Unlocking a session no longer reports an error when the lock file no longer exists.</p></li>
-<li><p>If metadata for a cached tracking sequence cannot be accessed, FCS now skips that sequence instead of failing the entire video import.</p></li>
-<li><p>Processing now stops cleanly if Maya becomes unresponsive during playblast output.</p></li>
-</ul>
-</section>
-</section>
-<section id="fcs-26-04-02">
-<h2>FCS 26.04.02<a class="headerlink" href="#fcs-26-04-02" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Date: 2026/05/27</p></li>
-<li><p>Version: 26.04.02</p></li>
-<li><p>Stage: Stable</p></li>
-</ul>
-<section id="id5">
-<h3>Fixes<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
-<ul class="simple">
-<li><p>Fixed a bug that caused the program to crash when interacting with the gallery tab.</p></li>
-</ul>
-</section>
-</section>
-<section id="fcs-26-04-01">
-<h2>FCS 26.04.01<a class="headerlink" href="#fcs-26-04-01" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Date: 2026/04/01</p></li>
-<li><p>Version: 26.04.01</p></li>
-<li><p>Stage: Stable</p></li>
-</ul>
-<p>26.04 is the largest release to date. We have added many new features and improvements to help you get more out of FCS.</p>
-<section id="id6">
-<h3>Additions / New Features<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<section id="fcs-26-10-01">
+<h2>FCS 26.10.01<a class="headerlink" href="#fcs-26-10-01" title="Link to this heading"></a></h2>
+<p>日付: 2026/08/25
+バージョン: 26.10.01
+ステージ: ステーブル</p>
+<p class="rubric">新機能 / 追加項目</p>
 <ul>
-<li><p>CLI support (script runner + schema) and addition of sample/test scripts (<a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.04/jp/index.html">Docs</a>)</p>
-<p>A CLI tool has been added for users who want to integrate FCS into their in-house workflows and tools, allowing FCS to be operated from scripts.<br />
-You can process videos, upload animations, and more from scripts without launching the UI.<br />
-The CLI tool is bundled with FCS and is available to all FCS users at no additional cost.<br />
-Comprehensive documentation for the CLI tool is provided, so please feel free to contact us if you need help integrating it into your workflow.</p>
+<li><p>Blenderでの操作・アニメーション出力に対応しました。<br />
+Sessionの作成やExport、Blenderとの接続、Timelineとｋｐの同期、アニメーション転送、シーン保存、および付属 Blender アドオンのインストールに対応しました。　※もう少し追記する</p></li>
+<li><p>より安定したモーションと表情の関係性を実現する Robust+++ および RP+++ 処理プロファイルを Solver ウィンドウに追加しました。　※もう少し追記する</p></li>
+<li><p>FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。
+※利用には設定の有効化が必要です。<br />
+設定方法・詳細については<a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.10/jp/005_mcp.html">テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)</a>を参照ください。</p></li>
+<li><p>背景や各操作キー、アクセントカラー、テキストなどのUIをカスタマイズできる機能を追加しました。<br />
+File ▶ Settingsウィンドウ ▶ UI よりカスタマイズ可能です。<br />
+詳しくは<a class="reference internal" href="../06_glossary/01_Menu/settings.html"><span class="doc std std-doc"><strong>環境設定</strong></span></a> を参照ください。</p></li>
+<li><p>Galleryにprofileの詳細一覧表示を追加しました。<br />
+Gallery左上のボタン（『switch to ~』と表示されます）より、詳細一覧（List view）と画像一覧（Pictures view）の表示切り替えが可能になりました。
+詳細一覧（List view）ではタグの削除などprofileの設定変更が可能です。</p></li>
+<li><p>Gallery・Profile Editor・Controllerの各ウィンドウでRegionの色分けを統一しました。</p>
+<p>※以下未編集</p>
 </li>
-<li><p>Gallery loading optimization (thumbnail support)</p>
-<p>Profile images are now saved as thumbnails alongside the original images, significantly speeding up startup especially for large sessions.<br />
-Startup is approximately 2x faster compared to the previous version.</p>
-</li>
-<li><p>Interactive UI documentation (experimental feature)</p>
-<p>An experimental UI document powered by NotebookLM has been added.<br />
-You can ask questions about FCS windows and workflows.<br />
-Access it <a class="reference external" href="https://notebooklm.google.com/notebook/8b421e67-37ac-4d0f-9bd1-35eaeb3f6478">here</a>.</p>
-</li>
-<li><p>New Pipelines</p>
-<p>Significantly improved the stability and accuracy of tracking algorithms.<br />
-The new pipelines (Rich++, RP++, Robust++) retain their respective characteristics while offering improved overall performance and accuracy.<br />
-Internal benchmarking of the new pipelines against previous versions confirmed significant performance improvements.<br />
-For details on the new pipelines and evaluation methods, see <a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.04/en/experiments/003_pipeline_comparison_quantitative.html">here</a>.</p>
-</li>
-<li><p><a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.04/en/experiments/004_qualitative_analysis.html">Visual Analysis Tool</a></p>
-<p>A new document has been added that allows you to quickly review tracking results across various scenarios.<br />
-It helps you quickly determine whether FCS is suitable for your project and how much time is needed to achieve your desired quality.</p>
-</li>
+<li><p>Controller Infoにに応じて 【From Maya / From Blender と表示されるウィザードを追加し、選択したコントローラーの Default、Min、Max 値を DCC から取得して適用できるようにしました。</p></li>
+<li><p>処理バックエンドとして Auto、D3D、DirectML、CPU を明示的に選択できるようにし、Auto 選択時は利用可能なバックエンドへ自動的にフォールバックするようにしました。</p></li>
 </ul>
-</section>
-<section id="id7">
-<h3>Changes / Improvements<a class="headerlink" href="#id7" title="Link to this heading"></a></h3>
-<ul>
-<li><p>UI overhaul and stability improvements</p>
-<p>The UI has been overhauled with significant improvements to stability and performance.<br />
-The menu bar now also functions as a status bar, displaying current session information.</p>
-</li>
-<li><p>LM frame export is not supported in the ++ workflow and has been deprecated.<br />
-It is scheduled for removal in 26.10. Please let us know if this affects your workflow.</p></li>
-<li><p>When FCS crashes or encounters an error, you can now report it simply by clicking a button in the UI.<br />
-This information is used to improve FCS and quickly fix issues.</p></li>
-<li><p>Fullscreen mode has been removed as it was not used by many users.</p></li>
-<li><p>The in-memory file system has been removed as it did not achieve the expected performance gains.</p></li>
-<li><p>Long-running Maya commands (such as opening scenes) no longer block the UI and are now executed separately in the background.</p></li>
-<li><p>Log messages are now displayed at the bottom of the UI instead of the top.<br />
-Clicking opens the log window (left-click), and copies the message to the clipboard (right-click).</p></li>
+<br>
+<p class="rubric">Changes / Improvements</p>
+<ul class="simple">
+<li><p>ネイティブ動画デコード、高速推論経路、回転動画の処理、および最初に顔を検出できなかった場合の復旧により、動画トラッキングの性能と信頼性を向上しました。</p></li>
+<li><p>独立したアップロード処理と解析処理を並行して実行することで、トレーニングおよび動画処理の待ち時間を短縮しました。</p></li>
+<li><p>セッションおよびプロファイルの読み込み、大規模な Gallery と Video Library の絞り込み、動画のスクラブ、DCC へのアニメーション転送の応答性を向上しました。</p></li>
+<li><p>読み込み状態、Processor の動画ごとおよび全体の進捗、推定残り時間、キャンセル操作、ステータスバーの警告・エラー表示を改善し、時間のかかる処理の状況を把握しやすくしました。</p></li>
+<li><p>バージョン警告、移行前バックアップ、および互換性のないキャッシュの削除により、異なるバージョン間でのセッション読み込みをより安全にしました。</p></li>
 </ul>
-</section>
-<section id="id8">
-<h3>Fixes<a class="headerlink" href="#id8" title="Link to this heading"></a></h3>
-<ul>
-<li><p>Video player: Fixed frame index exceeding total frame count</p>
-<p>A failsafe has been added to prevent cases where the frame index exceeded the total frame count with certain encodings, which could cause the program to crash.</p>
-</li>
-<li><p>Video player: Fixed audio popping noise</p>
-<p>Fixed an issue where popping noise occurred when playing audio in FCS.</p>
-</li>
-<li><p>Fixed timeline / UI resizing issues and plot / cursor alignment bugs</p>
-<p>Fixed issues where the timeline window did not resize correctly and the cursor did not align properly with the timeline.</p>
-</li>
+<br>
+<p class="rubric">Fixes</p>
+<ul class="simple">
+<li><p>アクセスできない最近使用したセッションの項目を適切に処理し、起動時に最近使用したセッションのメニューが正しく表示されるようにしました。</p></li>
+<li><p>負の表示タイムスタンプを持つ動画のシークおよびスクラブの問題を修正し、対応動画の末尾で遅延デコードされた最終フレームが失われないようにしました。</p></li>
+<li><p>動画処理中に UI が操作不能になる問題、およびバックグラウンドジョブが重複して開始される問題を修正しました。</p></li>
+<li><p>Gallery の絞り込み、Editor のタグ候補、および編集後にプロファイルのコントロールが更新されない問題を修正しました。</p></li>
+<li><p>DCC との接続が切れた後の起動および同期状態（Controller Info への読み込みを含む）を修正し、アニメーション転送の性能と Maya 2023 との互換性を向上しました。</p></li>
+<li><p>Controller Info の行の並べ替え、およびネイティブ動画のリサイズ失敗を修正しました。</p></li>
+<li><p>Settings からの再起動、翻訳が空の場合のフォールバック、および公開版ランチャーで不要なコンソールウィンドウが表示される問題を修正しました。</p></li>
 </ul>
-</section>
 </section>
 </section>
 
@@ -241,7 +149,7 @@ Clicking opens the log window (left-click), and copies the message to the clipbo
 
   <div role="contentinfo">
     <p>&#169; Copyright TOEI Zukun.
-      <span class="lastupdated">Last updated on 2026-09-14.
+      <span class="lastupdated">Last updated on 2026-09-29.
       </span></p>
   </div>
 
