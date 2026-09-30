@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 07:25+0000\n"
+"POT-Creation-Date: 2026-09-30 07:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -54,9 +54,9 @@ msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md:41
 msgid ""
-"② Appearance   　・Background：背景カラーの設定　※再起動不要   　"
-"・Surface/Conrtols：ボタンなど操作パネルカラーの設定　※再起動不要   　・Accent：アクセントカラーの設定　※再起動不要"
-"   　・Text：テキストカラーの設定　※再起動不要   　・【Reset colors】：UIの色変更をリセット"
+"② Appearance　※再起動不要   　・Background：背景カラーの設定   　"
+"・Surface/Conrtols：ボタンなど操作パネルカラーの設定   　・Accent：アクセントカラーの設定    　"
+"・Text：テキストカラーの設定   　・【Reset colors】：UIの色変更をリセット"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md:48
@@ -234,15 +234,15 @@ msgid ""
 "/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:243
+#: ../../06_glossary/01_Menu/settings.md:241
 msgid "① Enable MCP Server：MCPサーバーの有効化設定"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:245
+#: ../../06_glossary/01_Menu/settings.md:243
 msgid "② Port：ポート数"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:247
+#: ../../06_glossary/01_Menu/settings.md:245
 msgid "③ ※ステータスが表示されます"
 msgstr ""
 
@@ -250,22 +250,22 @@ msgstr ""
 msgid "Misc"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:263
+#: ../../06_glossary/01_Menu/settings.md:261
 msgid "① Backend：データの処理方法を選択（cpu/cuda）"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:265
+#: ../../06_glossary/01_Menu/settings.md:263
 msgid ""
 "② Update Channel：FCSアップデート時の通知設定   　"
 "・All：メジャーバージョン・マイナーバージョン両方のアップデート通知を受け取る    　・Patch：マイナーバージョンアップ通知のみ受け取る"
 "   　・None：バージョンアップ通知を受け取らない"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:270
+#: ../../06_glossary/01_Menu/settings.md:268
 msgid "③ Use Beta：ベータ機能を使用するかを設定  ※Beta版の配信は中止となりました。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:278
+#: ../../06_glossary/01_Menu/settings.md:276
 msgid "**Menu説明 目次**"
 msgstr ""
 
@@ -349,5 +349,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "⑨ Background scale：背景画像のスケジュール値"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "② Appearance   　・Background：背景カラーの設定　※再起動不要   　"
+#~ "・Surface/Conrtols：ボタンなど操作パネルカラーの設定　※再起動不要   　"
+#~ "・Accent：アクセントカラーの設定　※再起動不要   　・Text：テキストカラーの設定　"
+#~ "※再起動不要   　・【Reset colors】：UIの色変更をリセット"
 #~ msgstr ""
 
