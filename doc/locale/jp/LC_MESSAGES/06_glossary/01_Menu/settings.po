@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-26 06:53+0000\n"
+"POT-Creation-Date: 2026-09-30 07:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -30,15 +30,15 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:16
+#: ../../06_glossary/01_Menu/settings.md:18
 msgid "【Save】：設定を保存  ※保存後FCSを再起動することで設定が反映されます。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:18
+#: ../../06_glossary/01_Menu/settings.md:20
 msgid "【Restore】：設定をデフォルトに戻し、FCSを再起動"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:20
+#: ../../06_glossary/01_Menu/settings.md:22
 msgid ""
 "【Import】：他のバージョンなどから設定をインポートし、FCSを再起動   "
 "C:\\Users[ユーザー名].fcs\\Cortado[FCSバージョン]にあるmy_conf.yamlを読み込んでください。"
@@ -48,32 +48,46 @@ msgstr ""
 msgid "UI"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:34
+#: ../../06_glossary/01_Menu/settings.md:37
 msgid "① Global   　・Font Size：文字の大きさ   　・Language：言語設定"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:38
+#: ../../06_glossary/01_Menu/settings.md:41
 msgid ""
-"② Gallery   　・Thumbnail width：ギャラリーに表示されるプロファイル画像の横幅   　・Default "
+"② Appearance   　・Background：背景カラーの設定　※再起動不要   　"
+"・Surface/Conrtols：ボタンなど操作パネルカラーの設定　※再起動不要   　・Accent：アクセントカラーの設定　※再起動不要"
+"   　・Text：テキストカラーの設定　※再起動不要   　・【Reset colors】：UIの色変更をリセット"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:48
+msgid ""
+"③ Profile Editor：未保存のProfileがある場合、別の画面へ移動する際の挙動を選択   　・Warn and keep "
+"editing：警告を表示して編集を続ける   　・Discard silently：警告なしで破棄する（保存せずに閉じる）   　・Auto-"
+"save：自動保存する"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:53
+msgid ""
+"④ Gallery   　・Thumbnail width：ギャラリーに表示されるプロファイル画像の横幅   　・Default "
 "Cols：ギャラリーのデフォルトの列数"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:42
+#: ../../06_glossary/01_Menu/settings.md:57
 msgid ""
-"③ Video Player   　・Cache Frame Max：メモリにキャッシュするフレームの最大値   　・Default "
+"⑤ Video Player   　・Cache Frame Max：メモリにキャッシュするフレームの最大値   　・Default "
 "Tags：デフォルトで付与するタグ名"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:49
+#: ../../06_glossary/01_Menu/settings.md:64
 msgid ""
 "Cache Frame Maxは数値を上げるほど多くのメモリ容量を消費します。   "
 "FullHDサイズだと10000fごとに約64GB使用される目安です。   -1を指定すると無制限にキャッシュを保存します。   "
 "この設定は十分なメモリがある場合のみ使用してください。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:56
+#: ../../06_glossary/01_Menu/settings.md:71
 msgid ""
-"④ Video Library   　・Cache Frame Max：Videoインポートで回転処理の設定画面を表示するかどうか   　"
+"⑥ Video Library   　・Cache Frame Max：Videoインポートで回転処理の設定画面を表示するかどうか   　"
 "・Default Rotation：Videoインポート時のデフォルトの回転値（0＝回転なし）"
 msgstr ""
 
@@ -81,11 +95,11 @@ msgstr ""
 msgid "Output"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:68
+#: ../../06_glossary/01_Menu/settings.md:84
 msgid "アニメーション出力・プレイブラスト出力のデフォルト設定を変更できます。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:76
+#: ../../06_glossary/01_Menu/settings.md:92
 msgid ""
 "① Default output options：アニメーション出力のデフォルト設定   　・Default "
 "Folder：デフォルトの出力先フォルダ   　・Default Filename：デフォルトのファイル名   　・Default "
@@ -93,7 +107,7 @@ msgid ""
 "format(Batch)：デフォルトのMaya保存形式"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:82
+#: ../../06_glossary/01_Menu/settings.md:98
 msgid ""
 "② Playblast：プレイブラスト出力のデフォルト設定     　・Encoder：プレイブラストのエンコード設定     　"
 "・Width：プレイブラストの横幅   　・Height：プレイブラストの縦幅   　・Quality：プレイブラストの画質   　"
@@ -104,11 +118,11 @@ msgstr ""
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:97
+#: ../../06_glossary/01_Menu/settings.md:114
 msgid "FCSを使用するときのキーボードショートカットを設定できます。   同時押しはキー1種+修飾キー2種の3ボタンまで登録可能です。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:107
+#: ../../06_glossary/01_Menu/settings.md:124
 msgid ""
 "① Timeline   　・Next Frame：次のフレームへ   　・Previous Frame：前のフレームへ   　・Next "
 "ROM：次のプロファイルへ   　・Previous ROM：前のプロファイルへ   　・Play/Pause "
@@ -116,74 +130,142 @@ msgid ""
 "ROM：現在のフレームをプロファイルとして追加   　・Open profile on timeline：現在選択しているプロファイルの動画を開く"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:118
+#: ../../06_glossary/01_Menu/settings.md:135
 msgid ""
 "② Editor   　・Save ROM edits：プロファイルの保存   　・From Maya：表情の値をMayaから読み込み   　"
 "・To Maya：表情の値をMayaへ送信"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:125
+#: ../../06_glossary/01_Menu/settings.md:142
 msgid ""
 "③ Layout   　・Active Single：Singleのプリセットレイアウトに変更   　・Active "
 "Double：Doubleのプリセットレイアウトに変更   　・Active Triple：Tripleのプリセットレイアウトに変更"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md
-msgid "Maya"
-msgstr ""
-
-#: ../../06_glossary/01_Menu/settings.md:141
-msgid "Mayaとの接続に関する設定項目です。"
-msgstr ""
-
-#: ../../06_glossary/01_Menu/settings.md:150
-msgid "① CommandPort：Mayaとの接続に使用するコマンドポート"
-msgstr ""
-
-#: ../../06_glossary/01_Menu/settings.md:152
-msgid "② SliderSyncPort：Mayaのタイムラインを取得するコマンドポート"
-msgstr ""
-
-#: ../../06_glossary/01_Menu/settings.md:154
-msgid "③ Open maya scene at launch：Launch Maya時に登録したMayaシーンも開くか"
-msgstr ""
-
-#: ../../06_glossary/01_Menu/settings.md:156
-msgid "④ Use gallery character preview：ギャラリーウィンドウのキャラクター表示切替機能を使用する   　 ※再起動不要"
+msgid "Renderer"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md:159
-msgid "⑤ Image Plane：イメージプレーン名　※再起動不要"
+msgid "Renderer（Maya / blender）との接続に関する設定項目です。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:161
+#: ../../06_glossary/01_Menu/settings.md
+msgid "Maya"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:173
+msgid "① Maya ▼ ：設定するRendererの切り替え"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:175
+#: ../../06_glossary/01_Menu/settings.md:206
+msgid "② CommandPort：接続に使用するコマンドポート"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:177
+msgid "③ SliderSyncPort：Mayaのタイムラインを取得するコマンドポート"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:179
+msgid "④ Open maya scene at launch：Launch Maya時に登録したMayaシーンも開くか"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:181
+#: ../../06_glossary/01_Menu/settings.md:212
+msgid "⑤ Use gallery character preview：ギャラリーウィンドウのキャラクター表示切替機能を使用する   　 ※再起動不要"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:184
+msgid "⑥ Image Plane：イメージプレーン名　※再起動不要"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:186
+msgid "⑦ Camera：カメラ名　※再起動不要"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:188
+msgid "⑧ Install path：Mayaのインストール先　 ※再起動不要"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md
+msgid "blender"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:204
+msgid "① blender ▼ ：設定するRendererの切り替え"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:208
+msgid "③ SliderSyncPort：blenderのタイムラインを取得するコマンドポート"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:210
+msgid "④ Open blender scene at launch：Launch blender時に登録したblenderシーンも開くか"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:215
 msgid "⑥ Camera：カメラ名　※再起動不要"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:163
-msgid "⑦ Install path：Mayaのインストール先　 ※再起動不要"
+#: ../../06_glossary/01_Menu/settings.md:217
+msgid "⑦ Background offset X：背景のオフセット値（X）"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:219
+msgid "⑧ Background offset Y：背景のオフセット値（Y）"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:221
+msgid "⑨ Background scale：背景画像のスケジュール値"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:223
+msgid "⑩ Install path：blenderのインストール先　 ※再起動不要"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md
+msgid "MCP Sever"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:239
+msgid ""
+"こちらの機能の設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io"
+"/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:243
+msgid "① Enable MCP Server：MCPサーバーの有効化設定"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:245
+msgid "② Port：ポート数"
+msgstr ""
+
+#: ../../06_glossary/01_Menu/settings.md:247
+msgid "③ ※ステータスが表示されます"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md
 msgid "Misc"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:180
+#: ../../06_glossary/01_Menu/settings.md:263
 msgid "① Backend：データの処理方法を選択（cpu/cuda）"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:182
+#: ../../06_glossary/01_Menu/settings.md:265
 msgid ""
 "② Update Channel：FCSアップデート時の通知設定   　"
 "・All：メジャーバージョン・マイナーバージョン両方のアップデート通知を受け取る    　・Patch：マイナーバージョンアップ通知のみ受け取る"
 "   　・None：バージョンアップ通知を受け取らない"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:187
+#: ../../06_glossary/01_Menu/settings.md:270
 msgid "③ Use Beta：ベータ機能を使用するかを設定  ※Beta版の配信は中止となりました。"
 msgstr ""
 
-#: ../../06_glossary/01_Menu/settings.md:196
+#: ../../06_glossary/01_Menu/settings.md:278
 msgid "**Menu説明 目次**"
 msgstr ""
 
@@ -221,5 +303,42 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "③ Use Beta：ベース機能を使用するかを設定"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "② Gallery   　・Thumbnail width：ギャラリーに表示されるプロファイル画像の横幅"
+#~ "   　・Default Cols：ギャラリーのデフォルトの列数"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "③ Video Player   　・Cache Frame "
+#~ "Max：メモリにキャッシュするフレームの最大値   　・Default Tags：デフォルトで付与するタグ名"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "④ Video Library   　・Cache Frame "
+#~ "Max：Videoインポートで回転処理の設定画面を表示するかどうか   　・Default "
+#~ "Rotation：Videoインポート時のデフォルトの回転値（0＝回転なし）"
+#~ msgstr ""
+
+#~ msgid "Mayaとの接続に関する設定項目です。"
+#~ msgstr ""
+
+#~ msgid "① CommandPort：Mayaとの接続に使用するコマンドポート"
+#~ msgstr ""
+
+#~ msgid "② SliderSyncPort：Mayaのタイムラインを取得するコマンドポート"
+#~ msgstr ""
+
+#~ msgid "③ Open maya scene at launch：Launch Maya時に登録したMayaシーンも開くか"
+#~ msgstr ""
+
+#~ msgid "④ Use gallery character preview：ギャラリーウィンドウのキャラクター表示切替機能を使用する   　 ※再起動不要"
+#~ msgstr ""
+
+#~ msgid "⑤ Image Plane：イメージプレーン名　※再起動不要"
+#~ msgstr ""
+
+#~ msgid "⑦ Install path：Mayaのインストール先　 ※再起動不要"
 #~ msgstr ""
 
