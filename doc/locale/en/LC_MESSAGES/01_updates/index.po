@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-29 12:11+0000\n"
+"POT-Creation-Date: 2026-09-30 05:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -42,118 +42,121 @@ msgstr ""
 #: ../../01_updates/index.md:12
 msgid ""
 "Blenderでの操作・アニメーション出力に対応しました。   "
-"Sessionの作成やExport、Blenderとの接続、Timelineとｋｐの同期、アニメーション転送、シーン保存、および付属 "
-"Blender アドオンのインストールに対応しました。　※もう少し追記する"
+"Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期、アニメーション転送、シーン保存、および付属のBlenderアドオンのインストールに対応しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:14
-msgid ""
-"より安定したモーションと表情の関係性を実現する Robust+++ および RP+++ 処理プロファイルを Solver "
-"ウィンドウに追加しました。　※もう少し追記する"
+#: ../../01_updates/index.md:15
+msgid "Solverに新たな処理アルゴリズム **『Robust+++』** / **『RP+++』** を追加しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:16
+#: ../../01_updates/index.md:17
 msgid ""
-"FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。 "
+"FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。   "
 "※利用には設定の有効化が必要です。   "
 "設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io"
 "/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。"
 msgstr ""
 
-#: ../../01_updates/index.md:20
+#: ../../01_updates/index.md:21
 msgid ""
 "背景や各操作キー、アクセントカラー、テキストなどのUIをカスタマイズできる機能を追加しました。   File ▶ Settingsウィンドウ ▶ "
 "UI よりカスタマイズ可能です。   詳しくは[**環境設定**](../06_glossary/01_Menu/settings) "
 "を参照ください。"
 msgstr ""
 
-#: ../../01_updates/index.md:23
+#: ../../01_updates/index.md:25
 msgid ""
 "Galleryにprofileの詳細一覧表示を追加しました。   Gallery左上のボタン（『switch to "
-"~』と表示されます）より、詳細一覧（List view）と画像一覧（Pictures view）の表示切り替えが可能になりました。 "
+"~』と表示されます）より、詳細一覧（List view）と画像一覧（Pictures view）の表示切り替えが可能になりました。   "
 "詳細一覧（List view）ではタグの削除などprofileの設定変更が可能です。"
 msgstr ""
 
-#: ../../01_updates/index.md:26
+#: ../../01_updates/index.md:29
 msgid "Gallery・Profile Editor・Controllerの各ウィンドウでRegionの色分けを統一しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:28
-msgid "※以下未編集"
-msgstr ""
-
-#: ../../01_updates/index.md:29
+#: ../../01_updates/index.md:31
 msgid ""
-"Controller Infoにに応じて 【From Maya / From Blender "
-"と表示されるウィザードを追加し、選択したコントローラーの Default、Min、Max 値を DCC から取得して適用できるようにしました。"
-msgstr ""
-
-#: ../../01_updates/index.md:30
-msgid ""
-"処理バックエンドとして Auto、D3D、DirectML、CPU を明示的に選択できるようにし、Auto "
-"選択時は利用可能なバックエンドへ自動的にフォールバックするようにしました。"
+"Controller Infoに【From Maya】/【From Blender】ボタンを追加しました。 選択したコントローラーの "
+"Default・Min・Maxの値を DCC から取得して適用します。"
 msgstr ""
 
 #: ../../01_updates/index.md:34
-msgid "変更 / 改善"
-msgstr "Changes / Improvements"
-
-#: ../../01_updates/index.md:36
-msgid "ネイティブ動画デコード、高速推論経路、回転動画の処理、および最初に顔を検出できなかった場合の復旧により、動画トラッキングの性能と信頼性を向上しました。"
-msgstr ""
-
-#: ../../01_updates/index.md:37
-msgid "独立したアップロード処理と解析処理を並行して実行することで、トレーニングおよび動画処理の待ち時間を短縮しました。"
-msgstr ""
-
-#: ../../01_updates/index.md:38
 msgid ""
-"セッションおよびプロファイルの読み込み、大規模な Gallery と Video Library の絞り込み、動画のスクラブ、DCC "
-"へのアニメーション転送の応答性を向上しました。"
+"処理バックエンドとして『Auto / D3D / DirectML / CPU』を明示的に選択できるようになりました。   "
+"『Auto』選択時は利用可能なバックエンドへ自動的に切り替えます。"
 msgstr ""
 
 #: ../../01_updates/index.md:39
+msgid "変更 / 改善"
+msgstr "Changes / Improvements"
+
+#: ../../01_updates/index.md:41
+msgid "ネイティブビデオデコードや高速推論経路、回転した動画の処理改善、顔を検出できなかった場合の復旧機能の導入により、ビデオトラッキングの性能と信頼性を向上しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:43
 msgid ""
-"読み込み状態、Processor "
-"の動画ごとおよび全体の進捗、推定残り時間、キャンセル操作、ステータスバーの警告・エラー表示を改善し、時間のかかる処理の状況を把握しやすくしました。"
-msgstr ""
-
-#: ../../01_updates/index.md:40
-msgid "バージョン警告、移行前バックアップ、および互換性のないキャッシュの削除により、異なるバージョン間でのセッション読み込みをより安全にしました。"
-msgstr ""
-
-#: ../../01_updates/index.md:44
-msgid "修正"
-msgstr "Fixes"
-
-#: ../../01_updates/index.md:47
-msgid "アクセスできない最近使用したセッションの項目を適切に処理し、起動時に最近使用したセッションのメニューが正しく表示されるようにしました。"
-msgstr ""
-
-#: ../../01_updates/index.md:48
-msgid "負の表示タイムスタンプを持つ動画のシークおよびスクラブの問題を修正し、対応動画の末尾で遅延デコードされた最終フレームが失われないようにしました。"
-msgstr ""
-
-#: ../../01_updates/index.md:49
-msgid "動画処理中に UI が操作不能になる問題、およびバックグラウンドジョブが重複して開始される問題を修正しました。"
+"独立したアップロード処理と解析処理を並行して実行することで、profileなどの学習および動画処理の待ち時間を短縮しました。   FCS "
+"26.10では、より高品質なアニメーションと高速な推論を実現するため、改良されたアニメーション解析アルゴリズムを導入しました。   これは "
+"**東映ツークン研究所が開発した統計的な手法に基づく解析アルゴリズムであり、生成AIではありません。**    "
+"処理の一部はFCSのクラウドサービスで実行されます、元の画像・動画フレームや3Dアセットがクラウドへアップロードされることはありません。   "
+"送信されるのは、個人の特定ができないような表情推定結果パラメータと、アニメーション生成に必要なコントローラーパラメータのみです。   "
+"これらのパラメータには、元の画像・動画や3Dモデルのデータは含まれません。"
 msgstr ""
 
 #: ../../01_updates/index.md:50
-msgid "Gallery の絞り込み、Editor のタグ候補、および編集後にプロファイルのコントロールが更新されない問題を修正しました。"
-msgstr ""
-
-#: ../../01_updates/index.md:51
 msgid ""
-"DCC との接続が切れた後の起動および同期状態（Controller Info への読み込みを含む）を修正し、アニメーション転送の性能と Maya"
-" 2023 との互換性を向上しました。"
-msgstr ""
-
-#: ../../01_updates/index.md:52
-msgid "Controller Info の行の並べ替え、およびネイティブ動画のリサイズ失敗を修正しました。"
+"一部操作の応答性を向上しました。   （sessionおよびprofileの読み込み、大量のGalleryとVideo "
+"Libraryの絞り込み、動画のスクラブ、DCC へのアニメーション転送）"
 msgstr ""
 
 #: ../../01_updates/index.md:53
-msgid "Settings からの再起動、翻訳が空の場合のフォールバック、および公開版ランチャーで不要なコンソールウィンドウが表示される問題を修正しました。"
+msgid "読み込み状態、出力時の動画ごと・全体の進捗、推定残り時間、キャンセル操作、警告・エラーなどの表示を改善しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:55
+msgid "バージョン警告や移行時のバックアップ、および互換性のないキャッシュの削除により、異なるバージョン間でのsession読み込みを改善しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:59
+msgid "修正"
+msgstr "Fixes"
+
+#: ../../01_updates/index.md:62
+msgid ""
+"アクセスできなかった『recent-session』の項目を修正し、起動時に『recent-"
+"session』メニューが正しく表示されるようにしました。"
+msgstr ""
+
+#: ../../01_updates/index.md:64
+msgid ""
+"負のタイムスタンプを持つ動画における、シークバーおよびスクラブ操作の不具合を修正しました。   "
+"対応動画の終端において最終フレームが正しく保持されるよう改善しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:67
+msgid "動画処理中に操作不能になる問題や、バックグラウンドの処理が重複して実行される問題を修正しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:69
+msgid "編集時に、Galleryの絞り込み・Editorのタグ候補・profileのコントロールなどが更新されない問題を修正しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:71
+msgid ""
+"通信切断後のDCCツールの起動および同期（コントローラー情報の読み込みなど）が正しく行われない問題を修正しました。   "
+"併せて、アニメーションのアップロード速度を向上し、Maya 2023との互換性を改善しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:74
+msgid "Controller Infoの項目が並べ替えられない問題や動画のサイズ変更に失敗する問題を修正しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:76
+msgid ""
+"設定変更に伴う再起動の不具合や翻訳テキストが見つからない場合に表示がおかしくなる問題を修正しました。   "
+"また、ランチャーから起動した際に不要なプログラム画面（コンソールウィンドウ）が開いてしまう問題を修正しました。"
 msgstr ""
 
 #~ msgid "FCS 26.04.03"
@@ -497,4 +500,87 @@ msgstr ""
 #~ " did not resize correctly and the "
 #~ "cursor did not align properly with "
 #~ "the timeline."
+
+#~ msgid ""
+#~ "Blenderでの操作・アニメーション出力に対応しました。   "
+#~ "Sessionの作成やExport、Blenderとの接続、Timelineとｋｐの同期、アニメーション転送、シーン保存、および付属 "
+#~ "Blender アドオンのインストールに対応しました。　※もう少し追記する"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "より安定したモーションと表情の関係性を実現する Robust+++ および RP+++ "
+#~ "処理プロファイルを Solver ウィンドウに追加しました。　※もう少し追記する"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "FCSユーザーが利用できるローカルのModel Context "
+#~ "Protocol（MCP）サーバーをSettingsに追加しました。 ※利用には設定の有効化が必要です。   "
+#~ "設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io"
+#~ "/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Galleryにprofileの詳細一覧表示を追加しました。   Gallery左上のボタン（『switch to"
+#~ " ~』と表示されます）より、詳細一覧（List view）と画像一覧（Pictures "
+#~ "view）の表示切り替えが可能になりました。 詳細一覧（List "
+#~ "view）ではタグの削除などprofileの設定変更が可能です。"
+#~ msgstr ""
+
+#~ msgid "※以下未編集"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Controller Infoにに応じて 【From Maya / From"
+#~ " Blender と表示されるウィザードを追加し、選択したコントローラーの Default、Min、Max"
+#~ " 値を DCC から取得して適用できるようにしました。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "処理バックエンドとして Auto、D3D、DirectML、CPU を明示的に選択できるようにし、Auto "
+#~ "選択時は利用可能なバックエンドへ自動的にフォールバックするようにしました。"
+#~ msgstr ""
+
+#~ msgid "ネイティブ動画デコード、高速推論経路、回転動画の処理、および最初に顔を検出できなかった場合の復旧により、動画トラッキングの性能と信頼性を向上しました。"
+#~ msgstr ""
+
+#~ msgid "独立したアップロード処理と解析処理を並行して実行することで、トレーニングおよび動画処理の待ち時間を短縮しました。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "セッションおよびプロファイルの読み込み、大規模な Gallery と Video "
+#~ "Library の絞り込み、動画のスクラブ、DCC へのアニメーション転送の応答性を向上しました。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "読み込み状態、Processor "
+#~ "の動画ごとおよび全体の進捗、推定残り時間、キャンセル操作、ステータスバーの警告・エラー表示を改善し、時間のかかる処理の状況を把握しやすくしました。"
+#~ msgstr ""
+
+#~ msgid "バージョン警告、移行前バックアップ、および互換性のないキャッシュの削除により、異なるバージョン間でのセッション読み込みをより安全にしました。"
+#~ msgstr ""
+
+#~ msgid "アクセスできない最近使用したセッションの項目を適切に処理し、起動時に最近使用したセッションのメニューが正しく表示されるようにしました。"
+#~ msgstr ""
+
+#~ msgid "負の表示タイムスタンプを持つ動画のシークおよびスクラブの問題を修正し、対応動画の末尾で遅延デコードされた最終フレームが失われないようにしました。"
+#~ msgstr ""
+
+#~ msgid "動画処理中に UI が操作不能になる問題、およびバックグラウンドジョブが重複して開始される問題を修正しました。"
+#~ msgstr ""
+
+#~ msgid "Gallery の絞り込み、Editor のタグ候補、および編集後にプロファイルのコントロールが更新されない問題を修正しました。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "DCC との接続が切れた後の起動および同期状態（Controller Info "
+#~ "への読み込みを含む）を修正し、アニメーション転送の性能と Maya 2023 との互換性を向上しました。"
+#~ msgstr ""
+
+#~ msgid "Controller Info の行の並べ替え、およびネイティブ動画のリサイズ失敗を修正しました。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Settings "
+#~ "からの再起動、翻訳が空の場合のフォールバック、および公開版ランチャーで不要なコンソールウィンドウが表示される問題を修正しました。"
+#~ msgstr ""
 
