@@ -213,11 +213,11 @@ Renderer（Maya / blender）との接続に関する設定項目です。
 
 ⑥ Camera：カメラ名　※再起動不要  
 
-⑦ Background offset X：背景のオフセット値（X）  
+⑦ Background offset X：背景のオフセット値（X）※再起動不要  
 
-⑧ Background offset Y：背景のオフセット値（Y）  
+⑧ Background offset Y：背景のオフセット値（Y）※再起動不要  
 
-⑨ Background scale：背景画像のスケジュール値  
+⑨ Background scale：背景のスケール値　 ※再起動不要  
 
 ⑩ Install path：blenderのインストール先　 ※再起動不要  
 
