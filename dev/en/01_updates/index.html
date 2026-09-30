@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-09-30T05:40:35+00:00" />
+    <meta property="article:modified_time" content="2026-09-30T06:02:41+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Release Notes &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
@@ -103,28 +103,31 @@ Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期
 <li><p>FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。<br />
 ※利用には設定の有効化が必要です。<br />
 設定方法・詳細については<a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.10/jp/005_mcp.html">テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)</a>を参照ください。</p></li>
-<li><p>背景や各操作キー、アクセントカラー、テキストなどのUIをカスタマイズできる機能を追加しました。<br />
+<li><p>UIをカスタマイズできる機能を追加しました。<br />
 File ▶ Settingsウィンドウ ▶ UI よりカスタマイズ可能です。<br />
-詳しくは<a class="reference internal" href="../06_glossary/01_Menu/settings.html"><span class="doc std std-doc"><strong>環境設定</strong></span></a> を参照ください。</p></li>
+※詳しくは<a class="reference internal" href="../06_glossary/01_Menu/settings.html"><span class="doc std std-doc"><strong>環境設定</strong></span></a> を参照ください。</p></li>
 <li><p>Galleryにprofileの詳細一覧表示を追加しました。<br />
-Gallery左上のボタン（『switch to ~』と表示されます）より、詳細一覧（List view）と画像一覧（Pictures view）の表示切り替えが可能になりました。<br />
+Gallery左上のボタン（『switch to ~』と表示されます）より、
+詳細一覧（List view）と画像一覧（Pictures view）の表示切り替えが可能になりました。<br />
 詳細一覧（List view）ではタグの削除などprofileの設定変更が可能です。</p></li>
 <li><p>Gallery・Profile Editor・Controllerの各ウィンドウでRegionの色分けを統一しました。</p></li>
-<li><p>Controller Infoに【From Maya】/【From Blender】ボタンを追加しました。
+<li><p>Controller Infoに【From Maya】/【From Blender】ボタンを追加しました。<br />
 選択したコントローラーの Default・Min・Maxの値を DCC から取得して適用します。</p></li>
 <li><p>処理バックエンドとして『Auto / D3D / DirectML / CPU』を明示的に選択できるようになりました。<br />
 『Auto』選択時は利用可能なバックエンドへ自動的に切り替えます。</p></li>
 </ul>
 <br>
 <p class="rubric">Changes / Improvements</p>
-<ul class="simple">
-<li><p>ネイティブビデオデコードや高速推論経路、回転した動画の処理改善、顔を検出できなかった場合の復旧機能の導入により、ビデオトラッキングの性能と信頼性を向上しました。</p></li>
-<li><p>独立したアップロード処理と解析処理を並行して実行することで、profileなどの学習および動画処理の待ち時間を短縮しました。<br />
-FCS 26.10では、より高品質なアニメーションと高速な推論を実現するため、改良されたアニメーション解析アルゴリズムを導入しました。<br />
-これは <strong>東映ツークン研究所が開発した統計的な手法に基づく解析アルゴリズムであり、生成AIではありません。</strong><br />
-処理の一部はFCSのクラウドサービスで実行されます、元の画像・動画フレームや3Dアセットがクラウドへアップロードされることはありません。<br />
+<ul>
+<li><p>ネイティブビデオデコードや高速推論経路、回転した動画の処理改善、<br />
+顔を検出できなかった場合の復旧機能の導入により、ビデオトラッキングの性能と信頼性を向上しました。</p></li>
+<li><p>独立したアップロード処理と解析処理を並行して実行することで、profileなどの学習および動画処理の待ち時間を短縮しました。</p>
+<p>FCS 26.10では、より高品質なアニメーションと高速な推論を実現するため、改良されたアニメーション解析アルゴリズムを導入しました。<br />
+これは <strong>東映ツークン研究所が開発した統計的な手法に基づく解析アルゴリズムであり、生成AIではありません。</strong></p>
+<p>処理の一部はFCSのクラウドサービスで実行されます、元の画像・動画フレームや3Dアセットがクラウドへアップロードされることはありません。<br />
 送信されるのは、個人の特定ができないような表情推定結果パラメータと、アニメーション生成に必要なコントローラーパラメータのみです。<br />
-これらのパラメータには、元の画像・動画や3Dモデルのデータは含まれません。</p></li>
+これらのパラメータには、元の画像・動画や3Dモデルのデータは含まれません。</p>
+</li>
 <li><p>一部操作の応答性を向上しました。<br />
 （sessionおよびprofileの読み込み、大量のGalleryとVideo Libraryの絞り込み、動画のスクラブ、DCC へのアニメーション転送）</p></li>
 <li><p>読み込み状態、出力時の動画ごと・全体の進捗、推定残り時間、キャンセル操作、警告・エラーなどの表示を改善しました。</p></li>
@@ -135,7 +138,7 @@ FCS 26.10では、より高品質なアニメーションと高速な推論を�
 <ul class="simple">
 <li><p>アクセスできなかった『recent-session』の項目を修正し、起動時に『recent-session』メニューが正しく表示されるようにしました。</p></li>
 <li><p>負のタイムスタンプを持つ動画における、シークバーおよびスクラブ操作の不具合を修正しました。<br />
-対応動画の終端において最終フレームが正しく保持されるよう改善しました。</p></li>
+また、対応動画の終端において最終フレームが正しく保持されるよう改善しました。</p></li>
 <li><p>動画処理中に操作不能になる問題や、バックグラウンドの処理が重複して実行される問題を修正しました。</p></li>
 <li><p>編集時に、Galleryの絞り込み・Editorのタグ候補・profileのコントロールなどが更新されない問題を修正しました。</p></li>
 <li><p>通信切断後のDCCツールの起動および同期（コントローラー情報の読み込みなど）が正しく行われない問題を修正しました。<br />
