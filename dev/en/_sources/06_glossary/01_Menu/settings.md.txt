@@ -37,11 +37,11 @@ Fileメニューのうち、FCSの全体的な動作環境やパス設定、お�
 　・Font Size：文字の大きさ  
 　・Language：言語設定  
 
-② Appearance  
-　・Background：背景カラーの設定　※再起動不要  
-　・Surface/Conrtols：ボタンなど操作パネルカラーの設定　※再起動不要  
-　・Accent：アクセントカラーの設定　※再起動不要  
-　・Text：テキストカラーの設定　※再起動不要  
+② Appearance　※再起動不要  
+　・Background：背景カラーの設定  
+　・Surface/Conrtols：ボタンなど操作パネルカラーの設定  
+　・Accent：アクセントカラーの設定   
+　・Text：テキストカラーの設定  
 　・【Reset colors】：UIの色変更をリセット  
 
 ③ Profile Editor：未保存のProfileがある場合、別の画面へ移動する際の挙動を選択  
@@ -235,9 +235,7 @@ Renderer（Maya / blender）との接続に関する設定項目です。
 
 <br>
 
-こちらの機能の設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。
-
-<br>
+こちらの機能の設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。  
 
 ① Enable MCP Server：MCPサーバーの有効化設定
 
