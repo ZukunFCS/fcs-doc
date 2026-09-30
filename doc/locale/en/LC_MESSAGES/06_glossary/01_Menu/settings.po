@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-30 07:07+0000\n"
+"POT-Creation-Date: 2026-09-30 07:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -288,15 +288,15 @@ msgid "⑥ Camera：カメラ名　※再起動不要"
 msgstr "⑥ Camera: Camera name. * No restart required"
 
 #: ../../06_glossary/01_Menu/settings.md:217
-msgid "⑦ Background offset X：背景のオフセット値（X）"
+msgid "⑦ Background offset X：背景のオフセット値（X）※再起動不要"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md:219
-msgid "⑧ Background offset Y：背景のオフセット値（Y）"
+msgid "⑧ Background offset Y：背景のオフセット値（Y）※再起動不要"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md:221
-msgid "⑨ Background scale：背景画像のスケジュール値"
+msgid "⑨ Background scale：背景のスケール値　 ※再起動不要"
 msgstr ""
 
 #: ../../06_glossary/01_Menu/settings.md:223
@@ -385,4 +385,13 @@ msgstr "[**- Explore**](explore.md): Browsing files in Windows Explorer from FCS
 #: ../../06_glossary/01_Menu/index.md:169
 msgid "[**〇Info**](info.md)：バージョン情報など"
 msgstr "[**- Info**](info.md): Version information and more"
+
+#~ msgid "⑦ Background offset X：背景のオフセット値（X）"
+#~ msgstr ""
+
+#~ msgid "⑧ Background offset Y：背景のオフセット値（Y）"
+#~ msgstr ""
+
+#~ msgid "⑨ Background scale：背景画像のスケジュール値"
+#~ msgstr ""
 
