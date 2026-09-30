@@ -37,11 +37,23 @@ Fileメニューのうち、FCSの全体的な動作環境やパス設定、お�
 　・Font Size：文字の大きさ  
 　・Language：言語設定  
 
-② Gallery  
+② Appearance  
+　・Background：背景カラーの設定　※再起動不要  
+　・Surface/Conrtols：ボタンなど操作パネルカラーの設定　※再起動不要  
+　・Accent：アクセントカラーの設定　※再起動不要  
+　・Text：テキストカラーの設定　※再起動不要  
+　・【Reset colors】：UIの色変更をリセット  
+
+③ Profile Editor：未保存のProfileがある場合、別の画面へ移動する際の挙動を選択  
+　・Warn and keep editing：警告を表示して編集を続ける  
+　・Discard silently：警告なしで破棄する（保存せずに閉じる）  
+　・Auto-save：自動保存する  
+
+④ Gallery  
 　・Thumbnail width：ギャラリーに表示されるプロファイル画像の横幅  
 　・Default Cols：ギャラリーのデフォルトの列数  
 
-③ Video Player  
+⑤ Video Player  
 　・Cache Frame Max：メモリにキャッシュするフレームの最大値  
 　・Default Tags：デフォルトで付与するタグ名  
 
@@ -55,7 +67,7 @@ FullHDサイズだと10000fごとに約64GB使用される目安です。
 ```
 <br>
 
-④ Video Library  
+⑥ Video Library  
 　・Cache Frame Max：Videoインポートで回転処理の設定画面を表示するかどうか  
 　・Default Rotation：Videoインポート時のデフォルトの回転値（0＝回転なし）  
 
@@ -138,12 +150,17 @@ FCSを使用するときのキーボードショートカットを設定でき�
 
 
 
-````{tab-item} Maya
+````{tab-item} Renderer
 :name: tab-settings-maya
 
 <br>
 
-Mayaとの接続に関する設定項目です。  
+Renderer（Maya / blender）との接続に関する設定項目です。  
+
+```{rubric} Maya
+```
+
+<br>
 
 ```{figure} /images/06_glossary_Menu_Settings_Maya.jpg
 :width: 80%
@@ -152,24 +169,83 @@ Mayaとの接続に関する設定項目です。
 
 <br>
 
-① CommandPort：Mayaとの接続に使用するコマンドポート  
+① Maya ▼ ：設定するRendererの切り替え  
 
-② SliderSyncPort：Mayaのタイムラインを取得するコマンドポート  
+② CommandPort：接続に使用するコマンドポート  
 
-③ Open maya scene at launch：Launch Maya時に登録したMayaシーンも開くか  
+③ SliderSyncPort：Mayaのタイムラインを取得するコマンドポート  
 
-④ Use gallery character preview：ギャラリーウィンドウのキャラクター表示切替機能を使用する  
+④ Open maya scene at launch：Launch Maya時に登録したMayaシーンも開くか  
+
+⑤ Use gallery character preview：ギャラリーウィンドウのキャラクター表示切替機能を使用する  
 　 ※再起動不要  
 
-⑤ Image Plane：イメージプレーン名　※再起動不要  
+⑥ Image Plane：イメージプレーン名　※再起動不要  
+
+⑦ Camera：カメラ名　※再起動不要  
+
+⑧ Install path：Mayaのインストール先　 ※再起動不要
+
+<br>
+
+```{rubric} blender
+```
+
+<br>
+
+```{figure} /images/06_glossary_Menu_Settings_blender.jpg
+:width: 80%
+:align: center
+```
+
+<br>
+
+① blender ▼ ：設定するRendererの切り替え  
+
+② CommandPort：接続に使用するコマンドポート  
+
+③ SliderSyncPort：blenderのタイムラインを取得するコマンドポート  
+
+④ Open blender scene at launch：Launch blender時に登録したblenderシーンも開くか  
+
+⑤ Use gallery character preview：ギャラリーウィンドウのキャラクター表示切替機能を使用する  
+　 ※再起動不要  
 
 ⑥ Camera：カメラ名　※再起動不要  
 
-⑦ Install path：Mayaのインストール先　 ※再起動不要  
+⑦ Background offset X：背景のオフセット値（X）  
+
+⑧ Background offset Y：背景のオフセット値（Y）  
+
+⑨ Background scale：背景画像のスケジュール値  
+
+⑩ Install path：blenderのインストール先　 ※再起動不要  
 
 ````
 
+````{tab-item} MCP Sever
+:name: tab-settings-mcp
 
+<br>
+
+```{figure} /images/06_glossary_Menu_Settings_MCP.jpg
+:width: 80%
+:align: center
+```
+
+<br>
+
+こちらの機能の設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。
+
+<br>
+
+① Enable MCP Server：MCPサーバーの有効化設定
+
+② Port：ポート数  
+
+③ ※ステータスが表示されます  
+
+````
 
 ````{tab-item} Misc
 :name: tab-settings-misc
