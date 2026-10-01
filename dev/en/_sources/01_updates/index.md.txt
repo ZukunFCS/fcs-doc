@@ -24,11 +24,9 @@
    キャラクター性を損なわずにメリハリのある表情を作りたい場合に推奨されます。  
    
    〇過去パイプラインとの比較動画
-   ```{video} /images/261001_RP_Sample.mp4
+   ```{figure} /images/261001_RP_Sample.mp4
    :width: 80%
-   :autoplay:
-   :loop:
-   :muted:
+   :align: center
    ```
 
 <br>
