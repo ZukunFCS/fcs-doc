@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-03 17:12+0900\n"
+"POT-Creation-Date: 2026-10-01 09:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -31,41 +31,59 @@ msgid "**最終更新**"
 msgstr ""
 
 #: ../../00_contents/01_history.md:10
-msgid "**2026/09/03 更新**"
+msgid "**2026/10/02 更新**"
 msgstr ""
 
 #: ../../00_contents/01_history.md:11
-msgid "Tipsページに、一画面・二画面構成のレイアウト配置例を追加しました。"
+msgid "26.10.01のリリースノートを公開しました。"
 msgstr ""
 
-#: ../../00_contents/01_history.md:18
+#: ../../00_contents/01_history.md:12
+msgid "マニュアルサイトを26.10verに合わせて更新いたしました。"
+msgstr ""
+
+#: ../../00_contents/01_history.md:19
 msgid "**過去の更新**"
 msgstr ""
 
-#: ../../00_contents/01_history.md:21
-msgid ""
-"**2026/04/01 更新**：マニュアルサイトを26.04verに合わせて更新いたしました。   "
-"全体的な構成の変更・内容のアップデートを行っています。"
+#: ../../00_contents/01_history.md:22
+msgid "**2026/04/01 更新**"
 msgstr ""
 
-#: ../../00_contents/01_history.md:24
-msgid "**2026/05/27 更新**：FCS ver 26.04.02のリリースノートを公開しました。"
+#: ../../00_contents/01_history.md:23
+msgid "マニュアルサイトを26.04verに合わせて更新いたしました。 全体的な構成の変更・内容のアップデートを行っています。"
 msgstr ""
 
 #: ../../00_contents/01_history.md:26
-msgid "**2026/07/23 更新**"
+msgid "**2026/05/27 更新**"
 msgstr ""
 
 #: ../../00_contents/01_history.md:27
-msgid "FCS ver 26.04.03のリリースノートを公開しました。"
-msgstr ""
-
-#: ../../00_contents/01_history.md:28
-msgid "Predict機能の説明をTipsページに追加しました。"
+msgid "FCS ver 26.04.02のリリースノートを公開しました。"
 msgstr ""
 
 #: ../../00_contents/01_history.md:29
+msgid "**2026/07/23 更新**"
+msgstr ""
+
+#: ../../00_contents/01_history.md:30
+msgid "FCS ver 26.04.03のリリースノートを公開しました。"
+msgstr ""
+
+#: ../../00_contents/01_history.md:31
+msgid "Predict機能の説明をTipsページに追加しました。"
+msgstr ""
+
+#: ../../00_contents/01_history.md:32
 msgid "マニュアル内の軽微な誤字・リンク切れを修正しました。"
+msgstr ""
+
+#: ../../00_contents/01_history.md:34
+msgid "**2026/09/03 更新**"
+msgstr ""
+
+#: ../../00_contents/01_history.md:35
+msgid "Tipsページに、一画面・二画面構成のレイアウト配置例を追加しました。"
 msgstr ""
 
 #~ msgid "**2026/04/03 更新**"
@@ -81,5 +99,13 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "FCS ver 26.04.02のリリースノートを公開しました。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**2026/04/01 更新**：マニュアルサイトを26.04verに合わせて更新いたしました。   "
+#~ "全体的な構成の変更・内容のアップデートを行っています。"
+#~ msgstr ""
+
+#~ msgid "**2026/05/27 更新**：FCS ver 26.04.02のリリースノートを公開しました。"
 #~ msgstr ""
 
