@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 08:48+0000\n"
+"POT-Creation-Date: 2026-10-01 08:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -32,7 +32,7 @@ msgid "FCS 26.10.01"
 msgstr "FCS 26.04.01"
 
 #: ../../01_updates/index.md:6
-msgid "日付: 2026/10/01   バージョン: 26.10.01   ステージ: ステーブル"
+msgid "日付: 2026/10/01   バージョン: 26.10.01   ステージ: Stable"
 msgstr ""
 
 #: ../../01_updates/index.md:12
@@ -56,6 +56,47 @@ msgstr ""
 
 #: ../../01_updates/index.md:26
 msgid "〇過去パイプラインとの比較動画"
+msgstr ""
+
+#: ../../01_updates/index.md:36
+msgid ""
+"FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。    "
+"※利用には設定の有効化が必要です。    "
+"設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io"
+"/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。"
+msgstr ""
+
+#: ../../01_updates/index.md:42
+msgid ""
+"UIをカスタマイズできる機能を追加しました。   File ▶ Settingsウィンドウ ▶ UI よりカスタマイズ可能です。   "
+"※詳しくは[**環境設定**](../06_glossary/01_Menu/settings) を参照ください。"
+msgstr ""
+
+#: ../../01_updates/index.md:48
+msgid ""
+"Galleryにprofileの詳細一覧表示を追加しました。   Gallery左上のボタン（『switch to ~』と表示されます）より、"
+"   詳細一覧（List view）と画像一覧（Pictures view）の表示切り替えが可能になりました。   詳細一覧（List "
+"view）ではタグの削除などprofileの設定変更が可能です。"
+msgstr ""
+
+#: ../../01_updates/index.md:55
+msgid "Gallery・Profile Editor・Controllerの各ウィンドウでRegionの色分けを統一しました。"
+msgstr ""
+
+#: ../../01_updates/index.md:59
+msgid ""
+"Controller Infoに【From Maya】/【From Blender】ボタンを追加しました。   選択したコントローラーの "
+"Default・Min・Maxの値を DCC から取得して適用します。"
+msgstr ""
+
+#: ../../01_updates/index.md:64
+msgid ""
+"処理バックエンドとして『Auto / D3D / DirectML / CPU』を明示的に選択できるようになりました。   "
+"『Auto』選択時は利用可能なバックエンドへ自動的に切り替えます。"
+msgstr ""
+
+#: ../../01_updates/index.md:69
+msgid "変更 / 改善"
 msgstr ""
 
 #: ../../01_updates/index.md:71
@@ -680,4 +721,7 @@ msgstr ""
 
 #~ msgid "変更 / 改善"
 #~ msgstr "Changes / Improvements"
+
+#~ msgid "日付: 2026/10/01   バージョン: 26.10.01   ステージ: ステーブル"
+#~ msgstr ""
 
