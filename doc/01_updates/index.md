@@ -13,33 +13,47 @@
 ```
  - Blenderでの操作・アニメーション出力に対応しました。  
    Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期、アニメーション転送、シーン保存、および付属のBlenderアドオンのインストールに対応しました。  
+
 <br>
+
  - **新アルゴリズム（Robust+++ / RP+++）について**  
    Solverにポスト処理を内包した進化型アルゴリズム **Robust+++** および **RP+++** を追加されました。  
    登録したプロファイル（Profile）の表情がよりダイレクトに反映されるようになり、口元の開閉動作も明瞭になります。  
    キャラクター性を損なわずにメリハリのある表情を作りたい場合に推奨されます。  
-
+   
 <br>
+
 - FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。  
    ※利用には設定の有効化が必要です。  
    設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。  
+
 <br>
+
  - UIをカスタマイズできる機能を追加しました。  
    File ▶ Settingsウィンドウ ▶ UI よりカスタマイズ可能です。  
    ※詳しくは[**環境設定**](../06_glossary/01_Menu/settings) を参照ください。  
+
 <br>
+
  - Galleryにprofileの詳細一覧表示を追加しました。  
    Gallery左上のボタン（『switch to ~』と表示されます）より、  
    詳細一覧（List view）と画像一覧（Pictures view）の表示切り替えが可能になりました。  
    詳細一覧（List view）ではタグの削除などprofileの設定変更が可能です。  
+
 <br>  
+
  - Gallery・Profile Editor・Controllerの各ウィンドウでRegionの色分けを統一しました。  
+
 <br>
+
  - Controller Infoに【From Maya】/【From Blender】ボタンを追加しました。  
    選択したコントローラーの Default・Min・Maxの値を DCC から取得して適用します。  
+
 <br>  
+
  - 処理バックエンドとして『Auto / D3D / DirectML / CPU』を明示的に選択できるようになりました。  
    『Auto』選択時は利用可能なバックエンドへ自動的に切り替えます。  
+
 <br>
 
 ```{rubric} 変更 / 改善
