@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 08:23+0000\n"
+"POT-Creation-Date: 2026-10-01 08:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -41,130 +41,94 @@ msgstr ""
 #: ../../01_updates/index.md:14
 msgid ""
 "Blenderでの操作・アニメーション出力に対応しました。   "
-"Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期、アニメーション転送、シーン保存、および付属のBlenderアドオンのインストールに対応しました。"
+"Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期、アニメーション転送、   "
+"シーン保存、および付属のBlenderアドオンのインストールに対応しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:19
+#: ../../01_updates/index.md:20
 msgid ""
 "**新アルゴリズム（Robust+++ / RP+++）について**   Solverにポスト処理を内包した進化型アルゴリズム "
 "**Robust+++** および **RP+++** を追加しました。   "
-"登録したプロファイル（Profile）の表情がよりダイレクトに反映されるようになり、口元の開閉動作も明瞭になります。   "
+"登録したプロファイル（Profile）の表情がよりダイレクトに反映されるようになり、   目元・口元の開閉動作も明瞭になります。   "
 "キャラクター性を損なわずにメリハリのある表情を作りたい場合に推奨されます。"
 msgstr ""
 
 #: ../../01_updates/index.md:26
-msgid ""
-"FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。    "
-"※利用には設定の有効化が必要です。    "
-"設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io"
-"/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。"
+msgid "〇過去パイプラインとの比較動画"
 msgstr ""
 
-#: ../../01_updates/index.md:32
-msgid ""
-"UIをカスタマイズできる機能を追加しました。   File ▶ Settingsウィンドウ ▶ UI よりカスタマイズ可能です。   "
-"※詳しくは[**環境設定**](../06_glossary/01_Menu/settings) を参照ください。"
-msgstr ""
-
-#: ../../01_updates/index.md:38
-msgid ""
-"Galleryにprofileの詳細一覧表示を追加しました。   Gallery左上のボタン（『switch to ~』と表示されます）より、"
-"   詳細一覧（List view）と画像一覧（Pictures view）の表示切り替えが可能になりました。   詳細一覧（List "
-"view）ではタグの削除などprofileの設定変更が可能です。"
-msgstr ""
-
-#: ../../01_updates/index.md:45
-msgid "Gallery・Profile Editor・Controllerの各ウィンドウでRegionの色分けを統一しました。"
-msgstr ""
-
-#: ../../01_updates/index.md:49
-msgid ""
-"Controller Infoに【From Maya】/【From Blender】ボタンを追加しました。   選択したコントローラーの "
-"Default・Min・Maxの値を DCC から取得して適用します。"
-msgstr ""
-
-#: ../../01_updates/index.md:54
-msgid ""
-"処理バックエンドとして『Auto / D3D / DirectML / CPU』を明示的に選択できるようになりました。   "
-"『Auto』選択時は利用可能なバックエンドへ自動的に切り替えます。"
-msgstr ""
-
-#: ../../01_updates/index.md:59
-msgid "変更 / 改善"
-msgstr ""
-
-#: ../../01_updates/index.md:61
+#: ../../01_updates/index.md:71
 msgid ""
 "ネイティブビデオデコードや高速推論経路、回転した動画の処理改善、   "
 "顔を検出できなかった場合の復旧機能の導入により、ビデオトラッキングの性能と信頼性を向上しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:64
+#: ../../01_updates/index.md:76
 msgid "独立したアップロード処理と解析処理を並行して実行することで、profileなどの学習および動画処理の待ち時間を短縮しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:66
+#: ../../01_updates/index.md:78
 msgid ""
 "FCS 26.10では、より高品質なアニメーションと高速な推論を実現するため、改良されたアニメーション解析アルゴリズムを導入しました。   これは"
 " **東映ツークン研究所が開発した統計的な手法に基づく解析アルゴリズムであり、生成AIではありません。**"
 msgstr ""
 
-#: ../../01_updates/index.md:69
+#: ../../01_updates/index.md:81
 msgid ""
 "処理の一部はFCSのクラウドサービスで実行されます、元の画像・動画フレームや3Dアセットがクラウドへアップロードされることはありません。   "
 "送信されるのは、個人の特定ができないような表情推定結果パラメータと、アニメーション生成に必要なコントローラーパラメータのみです。   "
 "これらのパラメータには、元の画像・動画や3Dモデルのデータは含まれません。"
 msgstr ""
 
-#: ../../01_updates/index.md:74
+#: ../../01_updates/index.md:87
 msgid ""
 "一部操作の応答性を向上しました。   （sessionおよびprofileの読み込み、大量のGalleryとVideo "
 "Libraryの絞り込み、動画のスクラブ、DCC へのアニメーション転送）"
 msgstr ""
 
-#: ../../01_updates/index.md:77
+#: ../../01_updates/index.md:92
 msgid "読み込み状態、出力時の動画ごと・全体の進捗、推定残り時間、キャンセル操作、警告・エラーなどの表示を改善しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:79
+#: ../../01_updates/index.md:96
 msgid "バージョン警告や移行時のバックアップ、および互換性のないキャッシュの削除により、異なるバージョン間でのsession読み込みを改善しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:83
+#: ../../01_updates/index.md:100
 msgid "修正"
 msgstr ""
 
-#: ../../01_updates/index.md:86
+#: ../../01_updates/index.md:103
 msgid ""
 "アクセスできなかった『recent-session』の項目を修正し、起動時に『recent-"
 "session』メニューが正しく表示されるようにしました。"
 msgstr ""
 
-#: ../../01_updates/index.md:88
+#: ../../01_updates/index.md:107
 msgid ""
 "負のタイムスタンプを持つ動画における、シークバーおよびスクラブ操作の不具合を修正しました。   "
 "また、対応動画の終端において最終フレームが正しく保持されるよう改善しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:91
+#: ../../01_updates/index.md:112
 msgid "動画処理中に操作不能になる問題や、バックグラウンドの処理が重複して実行される問題を修正しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:93
+#: ../../01_updates/index.md:116
 msgid "編集時に、Galleryの絞り込み・Editorのタグ候補・profileのコントロールなどが更新されない問題を修正しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:95
+#: ../../01_updates/index.md:120
 msgid ""
 "通信切断後のDCCツールの起動および同期（コントローラー情報の読み込みなど）が正しく行われない問題を修正しました。   "
 "併せて、アニメーションのアップロード速度を向上し、Maya 2023との互換性を改善しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:98
+#: ../../01_updates/index.md:125
 msgid "Controller Infoの項目が並べ替えられない問題や動画のサイズ変更に失敗する問題を修正しました。"
 msgstr ""
 
-#: ../../01_updates/index.md:100
+#: ../../01_updates/index.md:129
 msgid ""
 "設定変更に伴う再起動の不具合や翻訳テキストが見つからない場合に表示がおかしくなる問題を修正しました。   "
 "また、ランチャーから起動した際に不要なプログラム画面（コンソールウィンドウ）が開いてしまう問題を修正しました。"
@@ -551,5 +515,23 @@ msgstr ""
 #~ "**RP+++** を追加されました。   "
 #~ "登録したプロファイル（Profile）の表情がよりダイレクトに反映されるようになり、口元の開閉動作も明瞭になります。   "
 #~ "キャラクター性を損なわずにメリハリのある表情を作りたい場合に推奨されます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**新アルゴリズム（Robust+++ / RP+++）について**   "
+#~ "Solverにポスト処理を内包した進化型アルゴリズム **Robust+++** および "
+#~ "**RP+++** を追加しました。   "
+#~ "登録したプロファイル（Profile）の表情がよりダイレクトに反映されるようになり、口元の開閉動作も明瞭になります。   "
+#~ "キャラクター性を損なわずにメリハリのある表情を作りたい場合に推奨されます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "FCSユーザーが利用できるローカルのModel Context "
+#~ "Protocol（MCP）サーバーをSettingsに追加しました。    ※利用には設定の有効化が必要です。    "
+#~ "設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io"
+#~ "/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。"
+#~ msgstr ""
+
+#~ msgid "変更 / 改善"
 #~ msgstr ""
 
