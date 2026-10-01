@@ -18,9 +18,9 @@
    Solverにポスト処理を内包した進化型アルゴリズム **Robust+++** および **RP+++** を追加されました。  
    登録したプロファイル（Profile）の表情がよりダイレクトに反映されるようになり、口元の開閉動作も明瞭になります。  
    キャラクター性を損なわずにメリハリのある表情を作りたい場合に推奨されます。  
-   
-  <br>
- - FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。  
+
+<br>
+- FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。  
    ※利用には設定の有効化が必要です。  
    設定方法・詳細については[テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)](https://zukunfcs.github.io/fcs-doc-advanced/26.10/jp/005_mcp.html)を参照ください。  
 <br>
