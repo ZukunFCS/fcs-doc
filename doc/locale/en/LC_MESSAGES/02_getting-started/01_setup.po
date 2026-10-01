@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-22 11:17+0000\n"
+"POT-Creation-Date: 2026-10-01 09:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -75,62 +75,76 @@ msgid "**事前インストール**"
 msgstr "**Pre-installation**"
 
 #: ../../02_getting-started/01_setup.md:14
-msgid "必須"
-msgstr "Required"
+msgid "必須  どちらか"
+msgstr ""
 
 #: ../../02_getting-started/01_setup.md:15
 msgid "Maya (対応バージョン　2018, 2020, 2022, 2023, 2024,2025,2026,2027)"
 msgstr "Maya (supported versions: 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027)"
 
-#: ../../02_getting-started/01_setup.md:17
+#: ../../02_getting-started/01_setup.md:16
+msgid "blender　※FCS ver26.10.01以降でのみ使用可能"
+msgstr ""
+
+#: ../../02_getting-started/01_setup.md:18
 msgid "推奨"
 msgstr "Recommended"
 
-#: ../../02_getting-started/01_setup.md:18
+#: ../../02_getting-started/01_setup.md:19
 msgid "Nvidia　CUDA/CuDNN"
 msgstr "Nvidia CUDA/CuDNN"
 
-#: ../../02_getting-started/01_setup.md:21
+#: ../../02_getting-started/01_setup.md:22
 msgid "**解析する動画の準備**"
 msgstr "**Preparing footage for analysis**"
 
-#: ../../02_getting-started/01_setup.md:24
+#: ../../02_getting-started/01_setup.md:25
 msgid "FCSで解析・アニメーションにしたい動画をご用意ください。   アクターの顔がはっきりと映っているものであれば基本的に使用可能です。"
-msgstr "Prepare the video you want to analyze and animate with FCS. In general, any footage that clearly shows the actor's face can be used."
+msgstr ""
+"Prepare the video you want to analyze and animate with FCS. In general, "
+"any footage that clearly shows the actor's face can be used."
 
-#: ../../02_getting-started/01_setup.md:26
+#: ../../02_getting-started/01_setup.md:27
 msgid "画面の向き：縦・横どちらの向きでも解析いただけます。"
 msgstr "Orientation: Both portrait and landscape footage can be analyzed."
 
-#: ../../02_getting-started/01_setup.md:27
-msgid "解像度： **極端に解像度の低いもの（480p以下）** のご使用はご遠慮ください。"
-msgstr "Resolution: Avoid using **extremely low-resolution footage (480p or below)**."
-
 #: ../../02_getting-started/01_setup.md:28
+msgid "解像度： **極端に解像度の低いもの（480p以下）** のご使用はご遠慮ください。"
+msgstr ""
+"Resolution: Avoid using **extremely low-resolution footage (480p or "
+"below)**."
+
+#: ../../02_getting-started/01_setup.md:29
 msgid "撮影環境：なるべく明るい場所で撮影してください。"
 msgstr "Filming environment: Record in a well-lit location whenever possible."
 
-#: ../../02_getting-started/01_setup.md:29
+#: ../../02_getting-started/01_setup.md:30
 msgid "ブレについて：アクションシーンなど動きの激しい撮影では、高フレームレート設定のカメラを使用し、モーションブラー（被写体ブレ）を抑えることで精度が向上します。"
-msgstr "Motion blur: For action scenes or other fast-moving footage, use a camera with a high frame-rate setting. Reducing motion blur improves accuracy."
+msgstr ""
+"Motion blur: For action scenes or other fast-moving footage, use a camera"
+" with a high frame-rate setting. Reducing motion blur improves accuracy."
 
-#: ../../02_getting-started/01_setup.md:32
+#: ../../02_getting-started/01_setup.md:33
 msgid "また、使用するカメラについて専用のカメラは不要です。   以下のような市販のカメラでも幅広く使用できます。"
-msgstr "No dedicated camera is required. A wide range of commercially available cameras can be used, including the following:"
+msgstr ""
+"No dedicated camera is required. A wide range of commercially available "
+"cameras can be used, including the following:"
 
-#: ../../02_getting-started/01_setup.md:34
+#: ../../02_getting-started/01_setup.md:35
 msgid "市販のヘッドマウント形式のカメラ"
 msgstr "Commercially available head-mounted cameras"
 
-#: ../../02_getting-started/01_setup.md:35
+#: ../../02_getting-started/01_setup.md:36
 msgid "ヘッドマウント以外の固定カメラ   （ビデオカメラやWebカメラ、GoPro、iPhone、androidなど）"
-msgstr "Fixed cameras other than head-mounted cameras (video cameras, webcams, GoPro cameras, iPhones, Android devices, etc.)"
+msgstr ""
+"Fixed cameras other than head-mounted cameras (video cameras, webcams, "
+"GoPro cameras, iPhones, Android devices, etc.)"
 
-#: ../../02_getting-started/01_setup.md:40
+#: ../../02_getting-started/01_setup.md:41
 msgid "**ライセンス**"
 msgstr "**License**"
 
-#: ../../02_getting-started/01_setup.md:43
+#: ../../02_getting-started/01_setup.md:44
 msgid ""
 "FCSを使用するためには、ライセンスキーが必要です。   また、一ヶ月無料のトライアルライセンスもご用意がございます。   "
 "[HELTECホームページ](https://sensing.heltec.co.jp/contact/)からお問い合わせください。"
@@ -140,16 +154,22 @@ msgstr ""
 "Please contact us via the [HELTEC "
 "website](https://sensing.heltec.co.jp/contact/)."
 
-#: ../../02_getting-started/01_setup.md:47
+#: ../../02_getting-started/01_setup.md:48
 msgid "お手持ちの動画やモデルデータをFCSで使用するにあたり、トライアルライセンスでの動作確認をおすすめしております。"
-msgstr "Before using your own footage and model data with FCS, we recommend testing them with a trial license."
+msgstr ""
+"Before using your own footage and model data with FCS, we recommend "
+"testing them with a trial license."
 
-#: ../../02_getting-started/01_setup.md:49
+#: ../../02_getting-started/01_setup.md:50
 msgid "**ダウンロード**"
 msgstr "**Download**"
 
-#: ../../02_getting-started/01_setup.md:52
+#: ../../02_getting-started/01_setup.md:53
 msgid "インストーラーは[こちら](https://github.com/ZukunFCS/fcs-doc/releases)からダウンロードできます。"
 msgstr ""
 "The installer can be downloaded from [here](https://github.com/ZukunFCS"
 "/fcs-doc/releases)."
+
+#~ msgid "必須"
+#~ msgstr "Required"
+
