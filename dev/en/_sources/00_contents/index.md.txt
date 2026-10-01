@@ -1,5 +1,16 @@
 ## 目次
 
+**FCSマニュアル 更新情報**
+
+```{include} 01_history.md
+    :start-after: <!--start_here-->
+    :end-before: <!--end_here-->
+```
+
+ [※過去の更新履歴はこちら](01_history)
+
+---
+
 FCSマニュアルの全コンテンツ一覧です。
 
  **概要・導入**  
@@ -44,16 +55,6 @@ FCSマニュアルの全コンテンツ一覧です。
 [・マニュアル更新履歴](01_history)
 
 
----
-
-**FCSマニュアル 更新情報**
-
-```{include} 01_history.md
-    :start-after: <!--start_here-->
-    :end-before: <!--end_here-->
-```
-
- [※過去の更新履歴はこちら](01_history)
 
 
 
