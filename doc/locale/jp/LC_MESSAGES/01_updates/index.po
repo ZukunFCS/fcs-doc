@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:24+0000\n"
+"POT-Creation-Date: 2026-10-01 09:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -53,7 +53,7 @@ msgid ""
 msgstr ""
 
 #: ../../01_updates/index.md:25
-msgid "〇過去パイプラインとの比較動画    　※プロファイルは全35個（内訳はショートROM26個、該当動画から9個）"
+msgid "〇過去パイプラインとの比較動画    　※プロファイルは全35個（スターターキットのROM動画より26個、該当動画より9個）"
 msgstr ""
 
 #: ../../01_updates/index.md:34
@@ -593,5 +593,8 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "〇過去パイプラインとの比較動画"
+#~ msgstr ""
+
+#~ msgid "〇過去パイプラインとの比較動画    　※プロファイルは全35個（内訳はショートROM26個、該当動画から9個）"
 #~ msgstr ""
 
