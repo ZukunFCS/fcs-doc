@@ -25,7 +25,7 @@
    〇過去パイプラインとの比較動画   
    　※プロファイルは全35個（スターターキットのROM動画より26個、該当動画より9個）  
 
-   <video width="100%" controls preload="metadata">
+   <video width="100%" controls preload="metadata" onloadedmetadata="this.volume = 1.0; this.muted = false;">
    <source src="../_static/261001_RP_Sample.mp4" type="video/mp4">
    </video>
 
