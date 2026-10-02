@@ -12,8 +12,8 @@
 ```{rubric} 新機能 / 追加項目
 ```
  - Blenderでの操作・アニメーション出力に対応しました。  
-   Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期、アニメーション転送、シーン保存、および付属のBlenderアドオンのインストールに対応しました。
-   ※tutorial動画を後日公開予定となっております。  
+   Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期、アニメーション転送、シーン保存、および付属のBlenderアドオンのインストールに対応しました。  
+   ※Tutorial動画を後日公開予定となっております。  
 
 <br>
 
