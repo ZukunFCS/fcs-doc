@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-03 17:12+0900\n"
+"POT-Creation-Date: 2026-10-01 09:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -106,12 +106,17 @@ msgid "**FCSマニュアル 更新情報**"
 msgstr "**FCS Manual Update Information**"
 
 #: ../../00_contents/01_history.md:87
-msgid "**2026/09/03 更新**"
+#, fuzzy
+msgid "**2026/10/02 更新**"
 msgstr "**Updated 2026/09/03**"
 
 #: ../../00_contents/01_history.md:88
-msgid "Tipsページに、一画面・二画面構成のレイアウト配置例を追加しました。"
-msgstr "Added single-monitor and dual-monitor layout examples to the Tips page."
+msgid "26.10.01のリリースノートを公開しました。"
+msgstr ""
+
+#: ../../00_contents/01_history.md:89
+msgid "マニュアルサイトを26.10verに合わせて更新いたしました。"
+msgstr ""
 
 #: ../../00_contents/index.md:56
 msgid "[※過去の更新履歴はこちら](01_history)"
@@ -133,3 +138,7 @@ msgstr "[*See past update history here](01_history)"
 
 #~ msgid "マニュアル内の軽微な誤字・リンク切れを修正しました。"
 #~ msgstr "Fixed minor typos and broken links in the manual."
+
+#~ msgid "Tipsページに、一画面・二画面構成のレイアウト配置例を追加しました。"
+#~ msgstr "Added single-monitor and dual-monitor layout examples to the Tips page."
+

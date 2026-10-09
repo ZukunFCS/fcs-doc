@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-01 12:58+0000\n"
+"POT-Creation-Date: 2026-10-06 05:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -53,62 +53,72 @@ msgstr ""
 msgid "ポストプロセス機能     演技表現をより効果的に自動で誇張・調整するための複数のポストプロセス処理を現在開発中です。"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:33
+#: ../../04_release-schedule/01_roadmap.md:31
+msgid "**→ こちら 26.10.01バージョン にて実装されました。**"
+msgstr ""
+
+#: ../../04_release-schedule/01_roadmap.md:36
+msgid ""
+"blenderへの対応  **→ こちら 26.10.01バージョン にて実装されました。**   　"
+"今後必要に応じて機能追加・修正を行っていく予定です。"
+msgstr ""
+
+#: ../../04_release-schedule/01_roadmap.md:43
 msgid "**継続的に推進する機能強化・改善事項**"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:38
+#: ../../04_release-schedule/01_roadmap.md:48
 msgid ""
 "ランドマーク検出機能の改善   FCS独自開発の表情検出エンジンにつきましては、引き続き最優先の改善事項として取り組んでまいります。   "
 "特に、ヘッドマウントカメラ（HMC）によるクローズアップ映像において、より微細な表情の変化を正確に捉えられるよう、検出精度の向上を継続いたします。"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:44
+#: ../../04_release-schedule/01_roadmap.md:54
 msgid ""
 "処理の高速化     ソフトウェア全体の最適化を行い、解析から出力に至る一連の処理時間の短縮を図ります。     "
 "大規模なデータ処理や短納期が求められる制作現場において、より効率的なワークフローを提供できるよう、内部構造の改善を継続して行ってまいります。"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:50
+#: ../../04_release-schedule/01_roadmap.md:60
 msgid "**諸般の事情により開発を断念・中止した項目**"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:55
+#: ../../04_release-schedule/01_roadmap.md:65
 msgid ""
 "リアルタイム動画生成 リアルタイムでのアニメーション解析・出力プログラムの作成   "
 "本機能につきましては、FCSへの標準搭載を見送ることといたしました。   "
 "今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。個別対応のご相談につきましてはお問い合わせください。"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:61
+#: ../../04_release-schedule/01_roadmap.md:71
 msgid ""
 "サンプルエンジンコードの作成(Unity, Unreal Engine, Motion Builder)   "
 "リアルタイム機能向けの上記エンジンを対象としたサンプルコードの提供計画は、リアルタイム機能と合わせて中止となりました。"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:66
+#: ../../04_release-schedule/01_roadmap.md:76
 msgid "自動リターゲット機能の搭載   任意のリグに対し自動的に大まかなリターゲットを行う機能の実装についても中止となりました。"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:71
+#: ../../04_release-schedule/01_roadmap.md:81
 msgid ""
 "Unreal Engineによるリターゲットへの対応   現在Mayaにて提供している各種機能をUnreal "
 "Engine上でも同等に提供する計画につきましても開発を中止いたしました。"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:76
+#: ../../04_release-schedule/01_roadmap.md:86
 msgid ""
 "FCSは、お客様の実際の制作現場により深く貢献できるツールを目指し、皆様からの追加機能のリクエストを随時お待ちしております。   "
 "また、標準的な機能提供に留まらず、貴社固有の制作パイプラインやワークフローに最適化したビルドのカスタマイズ対応も可能[^1]です。"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:81
+#: ../../04_release-schedule/01_roadmap.md:91
 msgid ""
 "製品に関するご質問やご要望、あるいは導入にあたっての技術的な課題などがございましたら、[HELTECホームページ](https://sensing.heltec.co.jp/product"
 "/zukun-lab/fcs/)よりお気軽にご相談ください。"
 msgstr ""
 
-#: ../../04_release-schedule/01_roadmap.md:83
+#: ../../04_release-schedule/01_roadmap.md:93
 msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。"
 msgstr ""
 
