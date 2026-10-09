@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-10-02T05:57:10+00:00" />
+    <meta property="article:modified_time" content="2026-10-09T05:03:08+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Release Notes &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
@@ -91,25 +91,16 @@
 <p><a class="reference external" href="https://github.com/ZukunFCS/fcs-doc/releases">Download FCS here</a></p>
 <section id="fcs-26-10-01">
 <h2>FCS 26.10.01<a class="headerlink" href="#fcs-26-10-01" title="Link to this heading"></a></h2>
-<p>日付: 2026/10/01<br />
-バージョン: 26.10.01<br />
-ステージ: Stable</p>
+<p>Date: 2026/10/09   Version: 26.10.01   Stage: Stable</p>
 <br>
-<p class="rubric">新機能 / 追加項目</p>
+<p class="rubric">Added / New</p>
 <ul class="simple">
-<li><p>Blenderでの操作・アニメーション出力に対応しました。<br />
-Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期、アニメーション転送、シーン保存、および付属のBlenderアドオンのインストールに対応しました。<br />
-※Tutorial動画を後日公開予定となっております。</p></li>
+<li><p>Added Blender support for operations and animation output, including session creation and export, connection controls, timeline and controller synchronization, animation transfer, scene saving, and installation of the bundled Blender add-on. A tutorial video will be published later.</p></li>
 </ul>
 <br>
 <ul>
-<li><p><strong>新アルゴリズム（Robust+++ / RP+++）について</strong><br />
-Solverにポスト処理を内包した進化型アルゴリズム <strong>Robust+++</strong> / <strong>RP+++</strong> を追加しました。<br />
-登録したプロファイル（Profile）の表情がよりダイレクトに反映されるようになり、<br />
-目元・口元の開閉動作も明瞭になります。<br />
-キャラクター性を損なわずにメリハリのある表情を作りたい場合に推奨されます。</p>
-<p>〇過去パイプラインとの比較動画<br />
-　※プロファイルは全35個（スターターキットのROM動画より26個、該当動画より9個）</p>
+<li><p>Added the enhanced <strong>Robust+++</strong> and <strong>RP+++</strong> algorithms with integrated post-processing to the Solver. Registered Profile expressions are reflected more directly, with clearer eye and mouth opening and closure. These profiles are recommended for stronger expression contrast while preserving the character’s identity.</p>
+<p>Comparison video with previous pipelines. The example uses 35 Profiles: 26 from the Starter Kit ROM video and 9 from this video.</p>
 <video width="100%" controls preload="metadata" onloadedmetadata="this.volume = 1.0; this.muted = false;">
 <source src="../_static/261001_RP_Sample.mp4" type="video/mp4">
 </video>
@@ -117,97 +108,80 @@ Solverにポスト処理を内包した進化型アルゴリズム <strong>Robus
 </ul>
 <br>
 <ul class="simple">
-<li><p>FCSユーザーが利用できるローカルのModel Context Protocol（MCP）サーバーをSettingsに追加しました。<br />
-※利用には設定の有効化が必要です。<br />
-設定方法・詳細については<a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.10/jp/005_mcp.html">テクニカルマニュアル/AIエージェントによるFCSの操作(MCP)</a>を参照ください。</p></li>
+<li><p>Added a local Model Context Protocol (MCP) server for FCS users in Settings. Enable the setting before use. See <a class="reference external" href="https://zukunfcs.github.io/fcs-doc-advanced/26.10/en/005_mcp.html">Technical Manual / Operating FCS with an AI Agent (MCP)</a> for setup and details.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>UIをカスタマイズできる機能を追加しました。<br />
-File ▶ Settingsウィンドウ ▶ UI よりカスタマイズ可能です。<br />
-※詳しくは<a class="reference internal" href="../06_glossary/01_Menu/settings.html"><span class="doc std std-doc"><strong>環境設定</strong></span></a> を参照ください。</p></li>
+<li><p>Added UI customization under File ▶ Settings ▶ UI. See <a class="reference internal" href="../06_glossary/01_Menu/settings.html"><span class="doc std std-doc"><strong>Preferences</strong></span></a> for details.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>Galleryにprofileの詳細一覧表示を追加しました。<br />
-Gallery左上のボタン（『switch to ~』と表示されます）より、<br />
-詳細一覧（List view）と画像一覧（Pictures view）の表示切り替えが可能になりました。<br />
-詳細一覧（List view）ではタグの削除などprofileの設定変更が可能です。</p></li>
+<li><p>Added a detailed Profile list to the Gallery. Use the button at the top left (labelled “switch to ~”) to switch between List view and Pictures view. List view also supports Profile setting changes such as removing tags.</p></li>
 </ul>
 <br>  
 <ul class="simple">
-<li><p>Gallery・Profile Editor・Controllerの各ウィンドウでRegionの色分けを統一しました。</p></li>
+<li><p>Unified Region colors across the Gallery, Profile Editor, and Controller windows.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>Controller Infoに【From Maya】/【From Blender】ボタンを追加しました。<br />
-選択したコントローラーの Default・Min・Maxの値を DCC から取得して適用します。</p></li>
+<li><p>Added <strong>From Maya</strong> and <strong>From Blender</strong> buttons to Controller Info to retrieve and apply the selected controllers’ Default, Min, and Max values from the DCC.</p></li>
 </ul>
 <br>  
 <ul class="simple">
-<li><p>処理バックエンドとして『Auto / D3D / DirectML / CPU』を明示的に選択できるようになりました。<br />
-『Auto』選択時は利用可能なバックエンドへ自動的に切り替えます。</p></li>
+<li><p>Added explicit Auto, D3D, DirectML, and CPU processing backend choices. Auto switches to an available backend automatically.</p></li>
 </ul>
 <br>
-<p class="rubric">変更 / 改善</p>
+<p class="rubric">Changes / Improvements</p>
 <ul class="simple">
-<li><p>ネイティブビデオデコードや高速推論経路、回転した動画の処理改善、<br />
-顔を検出できなかった場合の復旧機能の導入により、ビデオトラッキングの性能と信頼性を向上しました。</p></li>
+<li><p>Improved video tracking performance and reliability through native video decoding, faster inference paths, better handling of rotated videos, and recovery when a face is not detected.</p></li>
 </ul>
 <br>
 <ul>
-<li><p>独立したアップロード処理と解析処理を並行して実行することで、profileなどの学習および動画処理の待ち時間を短縮しました。</p>
-<p>FCS 26.10では、より高品質なアニメーションと高速な推論を実現するため、改良されたアニメーション解析アルゴリズムを導入しました。<br />
-これは <strong>東映ツークン研究所が開発した統計的な手法に基づく解析アルゴリズムであり、生成AIではありません。</strong></p>
-<p>処理の一部はFCSのクラウドサービスで実行されます、元の画像・動画フレームや3Dアセットがクラウドへアップロードされることはありません。<br />
-送信されるのは、個人の特定ができないような表情推定結果パラメータと、アニメーション生成に必要なコントローラーパラメータのみです。<br />
-これらのパラメータには、元の画像・動画や3Dモデルのデータは含まれません。</p>
+<li><p>Reduced waiting during Profile training and video processing by running independent uploads and analysis in parallel.</p>
+<p>FCS 26.10 introduces improved animation analysis algorithms for higher-quality animation and faster inference. These are <strong>statistical analysis algorithms developed by TOEI Zukun Laboratory, not generative AI.</strong></p>
+<p>Some processing runs in the FCS cloud service, but original images, video frames, and 3D assets are never uploaded. Only expression estimation parameters that do not identify individuals and controller parameters needed to generate animation are transmitted. These parameters contain no original image, video, or 3D model data.</p>
 </li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>一部操作の応答性を向上しました。<br />
-（sessionおよびprofileの読み込み、大量のGalleryとVideo Libraryの絞り込み、動画のスクラブ、DCC へのアニメーション転送）</p></li>
+<li><p>Improved responsiveness when loading sessions and Profiles, filtering large Galleries and Video Libraries, scrubbing video, and transferring animation to a DCC.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>読み込み状態、出力時の動画ごと・全体の進捗、推定残り時間、キャンセル操作、警告・エラーなどの表示を改善しました。</p></li>
+<li><p>Improved loading indicators, per-video and overall export progress, estimated time remaining, cancellation controls, and warning and error displays.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>バージョン警告や移行時のバックアップ、および互換性のないキャッシュの削除により、異なるバージョン間でのsession読み込みを改善しました。</p></li>
+<li><p>Improved loading sessions across versions with version warnings, migration backups, and removal of incompatible caches.</p></li>
 </ul>
 <br>
 <p class="rubric">Fixes</p>
 <ul class="simple">
-<li><p>アクセスできなかった『recent-session』の項目を修正し、起動時に『recent-session』メニューが正しく表示されるようにしました。</p></li>
+<li><p>Fixed inaccessible recent-session entries and populated the recent-session menu correctly at startup.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>負のタイムスタンプを持つ動画における、シークバーおよびスクラブ操作の不具合を修正しました。<br />
-また、対応動画の終端において最終フレームが正しく保持されるよう改善しました。</p></li>
+<li><p>Fixed seeking and scrubbing for videos with negative timestamps. Also improved retention of the final frame at the end of supported videos.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>動画処理中に操作不能になる問題や、バックグラウンドの処理が重複して実行される問題を修正しました。</p></li>
+<li><p>Fixed the interface becoming unresponsive during video processing and overlapping background processing jobs.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>編集時に、Galleryの絞り込み・Editorのタグ候補・profileのコントロールなどが更新されない問題を修正しました。</p></li>
+<li><p>Fixed Gallery filtering, Editor tag suggestions, and Profile controls failing to refresh after edits.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>通信切断後のDCCツールの起動および同期（コントローラー情報の読み込みなど）が正しく行われない問題を修正しました。<br />
-併せて、アニメーションのアップロード速度を向上し、Maya 2023との互換性を改善しました。</p></li>
+<li><p>Fixed DCC launch and synchronization after a connection loss, including Controller Info imports. Also improved animation upload speed and Maya 2023 compatibility.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>Controller Infoの項目が並べ替えられない問題や動画のサイズ変更に失敗する問題を修正しました。</p></li>
+<li><p>Fixed Controller Info items failing to rearrange and video resize failures.</p></li>
 </ul>
 <br>
 <ul class="simple">
-<li><p>設定変更に伴う再起動の不具合や翻訳テキストが見つからない場合に表示がおかしくなる問題を修正しました。<br />
-また、ランチャーから起動した際に不要なプログラム画面（コンソールウィンドウ）が開いてしまう問題を修正しました。</p></li>
+<li><p>Fixed settings-triggered restarts and incorrect display when translation text is missing. Also prevented unwanted console windows when starting the application through the launcher.</p></li>
 </ul>
 </section>
 </section>
@@ -224,7 +198,7 @@ Gallery左上のボタン（『switch to ~』と表示されます）より、<b
 
   <div role="contentinfo">
     <p>&#169; Copyright TOEI Zukun.
-      <span class="lastupdated">Last updated on 2026-10-02.
+      <span class="lastupdated">Last updated on 2026-10-09.
       </span></p>
   </div>
 
@@ -259,6 +233,8 @@ Gallery左上のボタン（『switch to ~』と表示されます）より、<b
         <dt>Version</dt>
         
           <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.10/en/index.html">26.10</a></dd>
         
           <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
         
