@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-02 05:57+0000\n"
+"POT-Creation-Date: 2026-10-09 05:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -31,7 +31,7 @@ msgid "FCS 26.10.01"
 msgstr ""
 
 #: ../../01_updates/index.md:6
-msgid "日付: 2026/10/01   バージョン: 26.10.01   ステージ: Stable"
+msgid "日付: 2026/10/09   バージョン: 26.10.01   ステージ: Stable"
 msgstr ""
 
 #: ../../01_updates/index.md:12
@@ -603,5 +603,8 @@ msgstr ""
 #~ "Blenderでの操作・アニメーション出力に対応しました。   "
 #~ "Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期、アニメーション転送、シーン保存、および付属のBlenderアドオンのインストールに対応しました。"
 #~ " ※tutorial動画を後日公開予定となっております。"
+#~ msgstr ""
+
+#~ msgid "日付: 2026/10/01   バージョン: 26.10.01   ステージ: Stable"
 #~ msgstr ""
 
