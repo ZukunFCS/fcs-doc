@@ -15,6 +15,8 @@
    Sessionの作成やExport、Blenderとの接続、Timelineやcontrollerの同期、アニメーション転送、シーン保存、および付属のBlenderアドオンのインストールに対応しました。  
    ※Tutorial動画を後日公開予定となっております。  
 
+ - **Blenderは4.x（4.0～4.5）のみ対応しています。Blender 5.xには現在対応していません。**  
+
 <br>
 
  - **新アルゴリズム（Robust+++ / RP+++）について**  
