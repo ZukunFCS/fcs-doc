@@ -999,3 +999,7 @@ msgstr ""
 #~ "console windows when starting the "
 #~ "application through the launcher."
 
+
+#: 01_updates/index.md:18
+msgid "**Blenderは4.x（4.0～4.5）のみ対応しています。Blender 5.xには現在対応していません。**"
+msgstr "**Blender support is limited to 4.x (4.0-4.5). Blender 5.x is not currently supported.**"

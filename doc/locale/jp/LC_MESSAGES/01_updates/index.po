@@ -608,3 +608,7 @@ msgstr ""
 #~ msgid "日付: 2026/10/01   バージョン: 26.10.01   ステージ: Stable"
 #~ msgstr ""
 
+
+#: 01_updates/index.md:18
+msgid "**Blenderは4.x（4.0～4.5）のみ対応しています。Blender 5.xには現在対応していません。**"
+msgstr "**Blenderは4.x（4.0～4.5）のみ対応しています。Blender 5.xには現在対応していません。**"
