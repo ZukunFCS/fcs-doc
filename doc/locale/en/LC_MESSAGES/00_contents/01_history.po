@@ -31,18 +31,16 @@ msgid "**最終更新**"
 msgstr "**Latest Update**"
 
 #: ../../00_contents/01_history.md:10
-#, fuzzy
 msgid "**2026/10/02 更新**"
-msgstr "**Updated 2026/09/03**"
+msgstr "**Updated 2026/10/02**"
 
 #: ../../00_contents/01_history.md:11
-#, fuzzy
 msgid "26.10.01のリリースノートを公開しました。"
-msgstr "FCS ver 26.04.03 release notes have been published."
+msgstr "FCS 26.10.01 release notes have been published."
 
 #: ../../00_contents/01_history.md:12
 msgid "マニュアルサイトを26.10verに合わせて更新いたしました。"
-msgstr ""
+msgstr "Updated the manual site for FCS 26.10."
 
 #: ../../00_contents/01_history.md:19
 msgid "**過去の更新**"
@@ -102,3 +100,11 @@ msgstr "Added single-monitor and dual-monitor layout examples to the Tips page."
 #~ "**Updated 2026/05/27**: FCS ver 26.04.02 "
 #~ "release notes have been published."
 
+
+#. FCS 26.10.02 release preparation
+msgid "**2026/10/21 更新**"
+msgstr "**Updated 2026/10/21**"
+
+#. FCS 26.10.02 release preparation
+msgid "26.10.02の修正内容と更新時の注意を追加しました。"
+msgstr "Added the fixes and update notes for FCS 26.10.02."
