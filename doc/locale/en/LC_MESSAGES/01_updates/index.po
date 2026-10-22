@@ -1019,3 +1019,36 @@ msgstr "Improved support for machines with multiple GPUs."
 #. FCS 26.10.02
 msgid "音声のない動画の処理に失敗する問題を修正しました。"
 msgstr "Fixed a bug where muted videos could fail processing."
+
+#. FCS 26.10.02
+msgid "起動時にワークスペースのタブが表示されない問題を修正しました。"
+msgstr "Fixed missing workspace tabs on startup."
+
+#. FCS 26.10.02
+msgid "Galleryの列数とサムネイル設定を修正しました。"
+msgstr "Fixed Gallery column and thumbnail settings."
+
+#. FCS 26.10.02
+msgid "プロファイルタグの追加と保存を修正しました。"
+msgstr "Fixed adding and saving profile tags."
+
+#. FCS 26.10.02
+msgid "Maya・BlenderのRegion設定とタイムライン同期を修正しました。"
+msgstr "Fixed Region settings and timeline synchronization in Maya and Blender."
+
+#. FCS 26.10.02
+msgid "RP++で処理済みの動画をRP+++で処理できない問題を修正しました。"
+msgstr "Fixed RP+++ processing after a video had been processed with RP++."
+
+#. FCS 26.10.02
+msgid "バッチ処理のエラー内容が表示に残るようになりました。"
+msgstr "Batch processing errors now remain visible."
+
+#. FCS 26.10.02
+msgid "Controller Infoの更新エラーを修正しました。"
+msgstr "Fixed Controller Info refresh errors."
+
+#. FCS 26.10.02
+msgid "Mayaのタイムライン設定時に選択中のフレームを維持するようにしました。"
+msgstr "Maya timeline setup now preserves the selected frame."
+
