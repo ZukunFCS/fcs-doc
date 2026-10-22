@@ -1013,65 +1013,42 @@ msgid "日付: 2026/10/21 / バージョン: 26.10.02 / ステージ: Stable"
 msgstr "Date: 2026/10/21 / Version: 26.10.02 / Stage: Stable"
 
 #. FCS 26.10.02
-msgid "更新時の注意"
-msgstr "Update Notes"
+msgid "複数のGPUを搭載したPCのサポートを改善しました。"
+msgstr "Improved support for machines with multiple GPUs."
 
 #. FCS 26.10.02
-msgid "RP++で処理済みの動画をRP+++で処理できない問題を修正しました。既存のトラッキングキャッシュを再利用できるため、プロファイルの切り替え前に削除する必要はありません。"
-msgstr "Fixed RP+++ processing failing after a video had already been processed with RP++. Existing tracking caches are reused correctly; users do not need to delete them before switching profiles."
+msgid "音声のない動画の処理に失敗する問題を修正しました。"
+msgstr "Fixed a bug where muted videos could fail processing."
 
 #. FCS 26.10.02
-msgid "バッチ処理に失敗した場合、Processorウィンドウにエラー内容が残るようになりました。"
-msgstr "Batch processing failures now remain visible in the Processor window."
+msgid "起動時にワークスペースのタブが表示されない問題を修正しました。"
+msgstr "Fixed missing workspace tabs on startup."
 
 #. FCS 26.10.02
-msgid "セッションの切り替えやコントローラー一覧の更新時に、Controller Infoの更新が失敗することがある問題を修正しました。"
-msgstr "Fixed intermittent Controller Info refresh errors when switching sessions or updating controller lists."
+msgid "Galleryの列数とサムネイル設定を修正しました。"
+msgstr "Fixed Gallery column and thumbnail settings."
 
 #. FCS 26.10.02
-msgid "Mayaのフレームレートと再生範囲を設定する際に、選択中のフレームを維持するようにしました。"
-msgstr "Maya timeline setup now preserves the selected frame when updating the frame rate and playback range."
+msgid "プロファイルタグの追加と保存を修正しました。"
+msgstr "Fixed adding and saving profile tags."
 
 #. FCS 26.10.02
-msgid "起動・再起動・終了時の安定性、およびサポートレポートに含まれる診断情報を改善しました。"
-msgstr "Improved startup, restart, and shutdown reliability, and the diagnostic context included with support reports."
+msgid "Maya・BlenderのRegion設定とタイムライン同期を修正しました。"
+msgstr "Fixed Region settings and timeline synchronization in Maya and Blender."
 
 #. FCS 26.10.02
-msgid "新規セッション作成中に表示される不要なクリーンアップエラーを解消しました。"
-msgstr "Removed unnecessary cleanup errors while creating a new session."
+msgid "RP++で処理済みの動画をRP+++で処理できない問題を修正しました。"
+msgstr "Fixed RP+++ processing after a video had been processed with RP++."
 
 #. FCS 26.10.02
-msgid "26.10.01から更新する際、既存の26.10セッションと有効なキャッシュは維持されます。"
-msgstr "Existing 26.10 sessions and valid caches are preserved when updating from 26.10.01."
+msgid "バッチ処理のエラー内容が表示に残るようになりました。"
+msgstr "Batch processing errors now remain visible."
 
 #. FCS 26.10.02
-msgid "Blenderの対応バージョンは引き続き4.x（4.0〜4.5）です。"
-msgstr "Blender support remains limited to 4.x (4.0-4.5)."
+msgid "Controller Infoの更新エラーを修正しました。"
+msgstr "Fixed Controller Info refresh errors."
 
-#. FCS 26.10.02 release preparation
-msgid "自動処理でGPU処理に失敗した場合、CPUで一度再試行するようになりました。GPUを明示的に選択した場合は復旧方法を表示します。また、処理成功後の終了処理を誤って失敗と判定する問題を修正しました。"
-msgstr "Auto processing now retries once on CPU after an accelerated processing failure. Explicit GPU selections show recovery guidance, and successful processing is no longer reported as failed during shutdown."
+#. FCS 26.10.02
+msgid "Mayaのタイムライン設定時に選択中のフレームを維持するようにしました。"
+msgstr "Maya timeline setup now preserves the selected frame."
 
-#. FCS 26.10.02 release preparation
-msgid "完了直前に処理が失敗した場合も、エラー内容を表示し続けるようになりました。音声のない動画でもアニメーションと画像を転送でき、メディア処理に失敗した際の診断情報も改善しました。"
-msgstr "Processing errors remain visible near completion. Videos without audio can still deliver animation and frames, and media failures provide clearer diagnostics."
-
-#. FCS 26.10.02 release preparation
-msgid "通信に失敗したサポートレポートは、作成時点のログとともにローカルに保存し、再送するようになりました。ローカル保存と送信完了を区別して表示します。"
-msgstr "Support reports are retained locally during connection failures and retried with their original log attachment. The UI distinguishes saved reports from confirmed delivery."
-
-#. FCS 26.10.02 release preparation
-msgid "ProcessorとTrainを含む8つのメインタブが、起動時および保存済みレイアウトでの再起動後に表示されるように修正しました。"
-msgstr "Restored all eight main workspace tabs at startup and after a saved-layout restart, including Processor and Train."
-
-#. FCS 26.10.02 release preparation
-msgid "Galleryの列数とサムネイル画質の設定が、プロファイル表示中にも反映されるようになりました。列数を増減した際の不安定な動作も修正しました。"
-msgstr "Gallery column and thumbnail-quality settings now update populated galleries reliably. Fixed instability when increasing or decreasing the column count."
-
-#. FCS 26.10.02 release preparation
-msgid "Enterキー、追加ボタン、候補からの選択によるプロファイルタグの追加と、保存後の再表示を修正しました。"
-msgstr "Fixed adding new profile tags with Enter, the add button, or suggestions, including persistence after saving and reopening."
-
-#. FCS 26.10.02 release preparation
-msgid "Maya・BlenderへのProfile Editorのプレビューで、Bothモードを含め無効なリージョンの値を転送しないように修正しました。タイムラインのBoth同期は選択中のアプリケーションと双方向に連動し、現在のフレームを維持します。"
-msgstr "Profile Editor preview respects disabled regions in Maya and Blender, including Both mode. Timeline Both synchronization follows the selected application in both directions while preserving the current frame."

@@ -106,5 +106,5 @@ msgid "**2026/10/21 更新**"
 msgstr "**Updated 2026/10/21**"
 
 #. FCS 26.10.02 release preparation
-msgid "26.10.02の修正内容と更新時の注意を追加しました。"
-msgstr "Added the fixes and update notes for FCS 26.10.02."
+msgid "26.10.02の修正内容を追加しました。"
+msgstr "Added the fixes for FCS 26.10.02."
