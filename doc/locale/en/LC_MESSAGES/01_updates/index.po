@@ -1021,32 +1021,32 @@ msgid "音声のない動画の処理に失敗する問題を修正しました�
 msgstr "Fixed a bug where muted videos could fail processing."
 
 #. FCS 26.10.02
-msgid "起動時にワークスペースのタブが表示されない問題を修正しました。"
-msgstr "Fixed missing workspace tabs on startup."
+msgid "FCSの再起動後にProcessorやTrainなどのタブが表示されなくなる問題を修正しました。"
+msgstr "Fixed workspace tabs, including Processor and Train, disappearing after restarting FCS."
 
 #. FCS 26.10.02
-msgid "Galleryの列数とサムネイル設定を修正しました。"
-msgstr "Fixed Gallery column and thumbnail settings."
+msgid "Galleryの列数とサムネイル画質の設定が反映されない問題を修正しました。"
+msgstr "Fixed Gallery column and thumbnail-quality settings not taking effect."
 
 #. FCS 26.10.02
-msgid "プロファイルタグの追加と保存を修正しました。"
-msgstr "Fixed adding and saving profile tags."
+msgid "Editorでプロファイルタグを追加・保存できない問題を修正しました。"
+msgstr "Fixed adding and saving profile tags in the Editor."
 
 #. FCS 26.10.02
-msgid "Maya・BlenderのRegion設定とタイムライン同期を修正しました。"
-msgstr "Fixed Region settings and timeline synchronization in Maya and Blender."
+msgid "Maya・Blenderで無効なRegionが反映される問題と、Bothモードのタイムライン同期の不具合を修正しました。"
+msgstr "Fixed disabled Regions still being applied in Maya and Blender, and timeline synchronization in Both mode."
 
 #. FCS 26.10.02
 msgid "RP++で処理済みの動画をRP+++で処理できない問題を修正しました。"
-msgstr "Fixed RP+++ processing after a video had been processed with RP++."
+msgstr "Fixed RP+++ processing failing for videos already processed with RP++."
 
 #. FCS 26.10.02
-msgid "バッチ処理のエラー内容が表示に残るようになりました。"
-msgstr "Batch processing errors now remain visible."
+msgid "バッチ処理のエラー内容がProcessorウィンドウから消えてしまう問題を修正しました。"
+msgstr "Fixed batch processing errors disappearing from the Processor window."
 
 #. FCS 26.10.02
-msgid "Controller Infoの更新エラーを修正しました。"
-msgstr "Fixed Controller Info refresh errors."
+msgid "セッションの切り替えやコントローラー一覧の更新時に、Controller Infoの更新が失敗する問題を修正しました。"
+msgstr "Fixed Controller Info refresh errors when switching sessions or updating controller lists."
 
 #. FCS 26.10.02
 msgid "Mayaのタイムライン設定時に選択中のフレームを維持するようにしました。"
