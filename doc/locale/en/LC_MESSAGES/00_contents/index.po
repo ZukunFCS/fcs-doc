@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:46+0000\n"
+"POT-Creation-Date: 2026-10-22 07:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -23,10 +23,27 @@ msgid "目次"
 msgstr "Table of Contents"
 
 #: ../../00_contents/index.md:3
+msgid "**FCSマニュアル 更新情報**"
+msgstr "**FCS Manual Update Information**"
+
+#: ../../00_contents/01_history.md:87
+#, fuzzy
+msgid "**2026/10/21 更新**"
+msgstr "**Updated 2026/09/03**"
+
+#: ../../00_contents/01_history.md:88
+msgid "26.10.02の修正内容を追加しました。"
+msgstr ""
+
+#: ../../00_contents/index.md:10
+msgid "[※過去の更新履歴はこちら](01_history)"
+msgstr "[*See past update history here](01_history)"
+
+#: ../../00_contents/index.md:14
 msgid "FCSマニュアルの全コンテンツ一覧です。"
 msgstr "This is a complete list of all FCS manual contents."
 
-#: ../../00_contents/index.md:5
+#: ../../00_contents/index.md:16
 msgid ""
 "**概要・導入**   [・リリースノート](../01_updates/index)   [・FCSとは](../02_getting-"
 "started/index)   [・事前準備](../02_getting-started/01_setup)   "
@@ -44,7 +61,7 @@ msgstr ""
 "[- Settings](../06_glossary/01_Menu/settings)  \n"
 "[- Starter Kit](../05_sample-project/index)"
 
-#: ../../00_contents/index.md:16
+#: ../../00_contents/index.md:27
 msgid ""
 "**作業フロー**   [・作業フロー (全体) ](../03_workflow/index)   "
 "[・FCS起動](../03_workflow/01_launch-FCS)   [・Session作成・読み込み](../03_workflow"
@@ -64,7 +81,7 @@ msgstr ""
 "[- Export Animation](../03_workflow/06_export-animation)  \n"
 "[- Export Session](../03_workflow/08_export)"
 
-#: ../../00_contents/index.md:28
+#: ../../00_contents/index.md:39
 msgid ""
 "**ユーザーガイド**   [・ユーザーガイド](../06_glossary/index)   "
 "[・Menu/ウィンドウ説明](../06_glossary/01_Menu/index)   "
@@ -84,7 +101,7 @@ msgstr ""
 "[- FCS Homepage](https://www.fcs.zukun-lab.com) *Redirects to an external"
 " site."
 
-#: ../../00_contents/index.md:39
+#: ../../00_contents/index.md:50
 msgid ""
 "**サポート/その他**   [・お問い合わせ](../07_support/index)   [・開発ロードマップ"
 "](../04_release-schedule/index)   [・テクニカルマニュアル](../08_advanced_doc_link)　"
@@ -100,27 +117,6 @@ msgstr ""
 "[- Chat Manual (NotebookLM)](../09_interactive_doc_link.rst) *Redirects "
 "to an external site.  \n"
 "[- Manual Update History](01_history)"
-
-#: ../../00_contents/index.md:49
-msgid "**FCSマニュアル 更新情報**"
-msgstr "**FCS Manual Update Information**"
-
-#: ../../00_contents/01_history.md:87
-#, fuzzy
-msgid "**2026/10/02 更新**"
-msgstr "**Updated 2026/09/03**"
-
-#: ../../00_contents/01_history.md:88
-msgid "26.10.01のリリースノートを公開しました。"
-msgstr ""
-
-#: ../../00_contents/01_history.md:89
-msgid "マニュアルサイトを26.10verに合わせて更新いたしました。"
-msgstr ""
-
-#: ../../00_contents/index.md:56
-msgid "[※過去の更新履歴はこちら](01_history)"
-msgstr "[*See past update history here](01_history)"
 
 #~ msgid "マニュアルサイトを26.04verに合わせて更新いたしました。   全体的な構成の変更・内容のアップデートを行っています。"
 #~ msgstr ""
@@ -141,4 +137,10 @@ msgstr "[*See past update history here](01_history)"
 
 #~ msgid "Tipsページに、一画面・二画面構成のレイアウト配置例を追加しました。"
 #~ msgstr "Added single-monitor and dual-monitor layout examples to the Tips page."
+
+#~ msgid "26.10.01のリリースノートを公開しました。"
+#~ msgstr ""
+
+#~ msgid "マニュアルサイトを26.10verに合わせて更新いたしました。"
+#~ msgstr ""
 

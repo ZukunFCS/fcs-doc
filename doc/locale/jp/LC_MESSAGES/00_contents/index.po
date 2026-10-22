@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-01 09:46+0000\n"
+"POT-Creation-Date: 2026-10-22 07:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -23,10 +23,26 @@ msgid "目次"
 msgstr ""
 
 #: ../../00_contents/index.md:3
+msgid "**FCSマニュアル 更新情報**"
+msgstr ""
+
+#: ../../00_contents/01_history.md:87
+msgid "**2026/10/21 更新**"
+msgstr ""
+
+#: ../../00_contents/01_history.md:88
+msgid "26.10.02の修正内容を追加しました。"
+msgstr ""
+
+#: ../../00_contents/index.md:10
+msgid "[※過去の更新履歴はこちら](01_history)"
+msgstr ""
+
+#: ../../00_contents/index.md:14
 msgid "FCSマニュアルの全コンテンツ一覧です。"
 msgstr ""
 
-#: ../../00_contents/index.md:5
+#: ../../00_contents/index.md:16
 msgid ""
 "**概要・導入**   [・リリースノート](../01_updates/index)   [・FCSとは](../02_getting-"
 "started/index)   [・事前準備](../02_getting-started/01_setup)   "
@@ -36,7 +52,7 @@ msgid ""
 "project/index)"
 msgstr ""
 
-#: ../../00_contents/index.md:16
+#: ../../00_contents/index.md:27
 msgid ""
 "**作業フロー**   [・作業フロー (全体) ](../03_workflow/index)   "
 "[・FCS起動](../03_workflow/01_launch-FCS)   [・Session作成・読み込み](../03_workflow"
@@ -47,7 +63,7 @@ msgid ""
 "[・Sessionのエクスポート](../03_workflow/08_export)"
 msgstr ""
 
-#: ../../00_contents/index.md:28
+#: ../../00_contents/index.md:39
 msgid ""
 "**ユーザーガイド**   [・ユーザーガイド](../06_glossary/index)   "
 "[・Menu/ウィンドウ説明](../06_glossary/01_Menu/index)   "
@@ -58,33 +74,13 @@ msgid ""
 "ホームページ](https://www.fcs.zukun-lab.com)　※外部サイトに移行します。"
 msgstr ""
 
-#: ../../00_contents/index.md:39
+#: ../../00_contents/index.md:50
 msgid ""
 "**サポート/その他**   [・お問い合わせ](../07_support/index)   [・開発ロードマップ"
 "](../04_release-schedule/index)   [・テクニカルマニュアル](../08_advanced_doc_link)　"
 "※外部サイトに移行します。   [・チャットマニュアル（Note book "
 "LM）](../09_interactive_doc_link.rst)　※外部サイトに移行します。   "
 "[・マニュアル更新履歴](01_history)"
-msgstr ""
-
-#: ../../00_contents/index.md:49
-msgid "**FCSマニュアル 更新情報**"
-msgstr ""
-
-#: ../../00_contents/01_history.md:87
-msgid "**2026/10/02 更新**"
-msgstr ""
-
-#: ../../00_contents/01_history.md:88
-msgid "26.10.01のリリースノートを公開しました。"
-msgstr ""
-
-#: ../../00_contents/01_history.md:89
-msgid "マニュアルサイトを26.10verに合わせて更新いたしました。"
-msgstr ""
-
-#: ../../00_contents/index.md:56
-msgid "[※過去の更新履歴はこちら](01_history)"
 msgstr ""
 
 #~ msgid ""
@@ -122,5 +118,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Tipsページに、一画面・二画面構成のレイアウト配置例を追加しました。"
+#~ msgstr ""
+
+#~ msgid "**2026/10/02 更新**"
+#~ msgstr ""
+
+#~ msgid "26.10.01のリリースノートを公開しました。"
+#~ msgstr ""
+
+#~ msgid "マニュアルサイトを26.10verに合わせて更新いたしました。"
 #~ msgstr ""
 
