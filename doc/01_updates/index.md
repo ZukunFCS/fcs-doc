@@ -3,7 +3,7 @@
 [FCSはこちらからダウンロード](https://github.com/ZukunFCS/fcs-doc/releases)
 
 ### FCS 26.10.02
-日付: 2026/10/21 / バージョン: 26.10.02 / ステージ: Stable
+日付: 2026/10/21 / バージョン: 26.10.02 / ステージ: Beta
 
 ```{rubric} 修正
 ```
