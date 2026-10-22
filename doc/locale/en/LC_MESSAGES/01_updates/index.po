@@ -1021,8 +1021,8 @@ msgid "音声のない動画の処理に失敗する問題を修正しました�
 msgstr "Fixed a bug where muted videos could fail processing."
 
 #. FCS 26.10.02
-msgid "FCSの再起動後にProcessorやTrainなどのタブが表示されなくなる問題を修正しました。"
-msgstr "Fixed workspace tabs, including Processor and Train, disappearing after restarting FCS."
+msgid "FCSの再起動後にProcessorやSolverなどのタブが表示されなくなる問題を修正しました。"
+msgstr "Fixed workspace tabs, including Processor and Solver, disappearing after restarting FCS."
 
 #. FCS 26.10.02
 msgid "Galleryの列数とサムネイル画質の設定が反映されない問題を修正しました。"

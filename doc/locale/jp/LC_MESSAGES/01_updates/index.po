@@ -630,8 +630,8 @@ msgid "音声のない動画の処理に失敗する問題を修正しました�
 msgstr "音声のない動画の処理に失敗する問題を修正しました。"
 
 #. FCS 26.10.02
-msgid "FCSの再起動後にProcessorやTrainなどのタブが表示されなくなる問題を修正しました。"
-msgstr "FCSの再起動後にProcessorやTrainなどのタブが表示されなくなる問題を修正しました。"
+msgid "FCSの再起動後にProcessorやSolverなどのタブが表示されなくなる問題を修正しました。"
+msgstr "FCSの再起動後にProcessorやSolverなどのタブが表示されなくなる問題を修正しました。"
 
 #. FCS 26.10.02
 msgid "Galleryの列数とサムネイル画質の設定が反映されない問題を修正しました。"
