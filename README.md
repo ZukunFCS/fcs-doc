@@ -6,6 +6,12 @@ You can directly view the [hosted version here](https://hisada-zukun.github.io/f
 If you require an offline manaul please feel free to build it yourself. 
 
 ### HTML
+
+> **Use a disposable, clean checkout for this build.** `doc/build_docs.py`
+> runs `git reset --hard`, `git clean -fd`, fetches tags, and switches refs.
+> It can discard tracked edits and untracked files; do not run it in a working
+> checkout containing changes or files you need to preserve.
+
 ```
 cd doc
 python build_docs.py
