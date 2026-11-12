@@ -1,62 +1,31 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-80-05-000002.md:4
-msgid "FCS-80-05-000002"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-05-000002.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-05-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-80-05-000002.md:10
-msgid "設定で対応しているBlenderのバージョンを選択してください。"
-msgstr "Choose a supported Blender version in Settings."
-
-#: ../../07_support/issues/FCS-80-05-000002.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-80-05-000002.md:14
-msgid "選択したBlenderバージョンが対応するメジャー.マイナー形式の識別子と一致しません。"
-msgstr ""
-"The selected Blender version does not match a supported major.minor "
-"identifier."
-
-#: ../../07_support/issues/FCS-80-05-000002.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-80-05-000002.md:18
-msgid ""
-"Blenderのバージョンは 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 から選択してください。例えば4.5.0やBlender "
-"4.5ではなく、4.5を指定してください。"
-msgstr ""
-"Select one of these Blender versions: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. For "
-"example, use 4.5 rather than 4.5.0 or Blender 4.5."
+msgid "設定で対応しているBlenderのバージョンを選択してください。"
+msgstr "Choose a supported Blender version in Settings."
 
-#: ../../07_support/issues/FCS-80-05-000002.md:20
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "セッションまたはアプリの選択が、このFCSビルドで使用できないBlenderバージョンを参照しています。"
+msgstr "This session or application selection refers to a Blender version that this FCS build cannot use."
+
+msgid "実際にインストールされているBlenderバージョンを確認し、セッションまたはアプリの設定で選択してください。このFCSビルドの対応バージョンは 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 です。非対応のバージョンを使用している場合は、対応するFCSビルドを使用するか、管理者に対応バージョンの導入を相談してください。FCSに表示されたバージョンでも失敗する場合は、そのバージョンとFCSバージョンを報告してください。"
+msgstr "Check the Blender version actually installed, then select that version in the session or application settings. This FCS build supports: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. If your installed version is not supported, use a compatible FCS build or ask your administrator about installing a supported Blender version. If a version offered by FCS still fails, report the selected version and FCS version."
+
 msgid "[同じ種類の問題を見る](family-05.md)"
 msgstr "[Browse this family](family-05.md)"
 
-#: ../../07_support/issues/FCS-80-05-000002.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-

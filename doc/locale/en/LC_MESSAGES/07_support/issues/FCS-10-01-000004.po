@@ -1,66 +1,31 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-10-01-000004.md:4
-msgid "FCS-10-01-000004"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000004.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000004.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-10-01-000004.md:10
-msgid "クラッシュレポートを記録できませんでした。アプリケーションログを添えてサポートにお問い合わせください。"
-msgstr ""
-"The crash report could not be recorded. Contact support with the "
-"application log."
-
-#: ../../07_support/issues/FCS-10-01-000004.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-10-01-000004.md:14
-msgid "クラッシュ報告の記録に失敗したため、サポートが保存済みの報告を受け取れない可能性があります。"
-msgstr ""
-"The crash-report recording step failed, so support may not have a saved "
-"crash report."
-
-#: ../../07_support/issues/FCS-10-01-000004.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-10-01-000004.md:18
-msgid ""
-"アプリのログと、クラッシュ直前の操作を保持してください。再起動後にBug "
-"Feedbackで送信するか、報告画面が開かない場合は通常のサポート窓口を使用してください。記録に失敗した報告が送信済みであるとは判断しないでください。"
-msgstr ""
-"Keep the application log and note what happened immediately before the "
-"crash. Send those details through Bug Feedback after restarting, or use "
-"your usual support channel if the report window is unavailable. Do not "
-"assume this failed recording delivered a report."
+msgid "クラッシュレポートを記録できませんでした。アプリケーションログを添えてサポートにお問い合わせください。"
+msgstr "The crash report could not be recorded. Contact support with the application log."
 
-#: ../../07_support/issues/FCS-10-01-000004.md:20
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "クラッシュ報告の記録に失敗したため、サポートが保存済みの報告を受け取れない可能性があります。"
+msgstr "The crash-report recording step failed, so support may not have a saved crash report."
+
+msgid "アプリのログと、クラッシュ直前の操作を保持してください。再起動後にBug Feedbackで送信するか、報告画面が開かない場合は通常のサポート窓口を使用してください。記録に失敗した報告が送信済みであるとは判断しないでください。"
+msgstr "Keep the application log and note what happened immediately before the crash. Send those details through Bug Feedback after restarting, or use your usual support channel if the report window is unavailable. Do not assume this failed recording delivered a report."
+
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
-#: ../../07_support/issues/FCS-10-01-000004.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-

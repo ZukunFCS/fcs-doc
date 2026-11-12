@@ -1,63 +1,31 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-55-02-000004.md:4
-msgid "FCS-55-02-000004"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-02-000004.md:6
-msgid "WARNING"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-02-000004.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-55-02-000004.md:10
-msgid "復元できるコントローラー設定が保存されていません。先に設定を保存してください。"
-msgstr ""
-"No saved controller settings are available to restore. Save the settings "
-"first."
-
-#: ../../07_support/issues/FCS-55-02-000004.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-55-02-000004.md:14
-msgid "数値の初期値を復元するための保存済みコントローラー表がありません。"
-msgstr "No saved controller table is available for restoring numeric defaults."
-
-#: ../../07_support/issues/FCS-55-02-000004.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-55-02-000004.md:18
-msgid ""
-"必要な上下限とデフォルト値を設定してController "
-"Settingsを保存してください。その後は保存済みの表から復元できます。一度も保存していない設定は復元できません。"
-msgstr ""
-"Set the desired limits and defaults, then save Controller Settings. "
-"Restore can use that saved table afterward; it cannot recover settings "
-"that were never saved."
+msgid "復元できる保存済みのコントローラー値がありません。"
+msgstr "There are no previously saved controller values to restore."
 
-#: ../../07_support/issues/FCS-55-02-000004.md:20
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "現在のキャラクターに、この復元操作で使用できる保存済みの設定がありません。"
+msgstr "The current character does not have saved controller settings for this restore operation."
+
+msgid "現在の値を保持するか、必要な上下限を手入力してください。値を確認してからコントローラ画面を保存すると、以後の編集で復元に使用できます。一度も保存されていない値を取り戻すことはできません。"
+msgstr "Keep the current values or enter the intended limits manually. Save the controller settings only when those values are correct; this creates a restore point for later edits and cannot recover values that were never saved."
+
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr "[Browse this family](family-02.md)"
 
-#: ../../07_support/issues/FCS-55-02-000004.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-

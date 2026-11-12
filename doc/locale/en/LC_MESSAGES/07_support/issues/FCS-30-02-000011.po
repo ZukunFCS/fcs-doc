@@ -1,65 +1,31 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-30-02-000011.md:4
-msgid "FCS-30-02-000011"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-02-000011.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-02-000011.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-30-02-000011.md:10
-msgid "移動したセッションで、想定されるMayaプロジェクトまたはシーンの場所を使用できませんでした。セッション設定で正しいパスを選択してください。"
-msgstr ""
-"The moved session could not use its expected Maya project or scene "
-"location. Choose the correct paths in Session Settings."
-
-#: ../../07_support/issues/FCS-30-02-000011.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-30-02-000011.md:14
-msgid "セッションの移動後、保存されていたMayaのワークスペースまたはシーンのパスをプロジェクトから解決できませんでした。"
-msgstr ""
-"After relocating the session, FCS could not resolve the saved Maya "
-"workspace or scene path relative to the project."
-
-#: ../../07_support/issues/FCS-30-02-000011.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-30-02-000011.md:18
-msgid ""
-"Session "
-"Settingsで実際のプロジェクトルート、Mayaワークスペースフォルダー、シーンファイルを選択してください。ネットワーク上の場合は先に接続を復旧してください。修正後にセッションを保存し、次回も新しい場所を使用するようにしてください。"
-msgstr ""
-"Open Session Settings and select the actual project root, Maya workspace "
-"directory and scene file. Reconnect a network location before selecting "
-"it. Save the corrected session so the next open uses the new locations."
+msgid "移動したセッションで、想定されるMayaプロジェクトまたはシーンの場所を使用できませんでした。セッション設定で正しいパスを選択してください。"
+msgstr "The moved session could not use its expected Maya project or scene location. Choose the correct paths in File → Session → Info."
 
-#: ../../07_support/issues/FCS-30-02-000011.md:20
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "セッションの移動後、保存されていたMayaのワークスペースまたはシーンのパスをプロジェクトから解決できませんでした。"
+msgstr "After relocating the session, FCS could not resolve the saved Maya workspace or scene path relative to the project."
+
+msgid "［ファイル］→［セッション］→［情報...］で実際のプロジェクトルート、Mayaワークスペースフォルダー、シーンファイルを選択してください。ネットワーク上の場合は先に接続を復旧してください。修正後にセッションを保存し、次回も新しい場所を使用するようにしてください。"
+msgstr "Open File → Session → Info and select the actual project root, Maya workspace directory and scene file. Reconnect a network location before selecting it. Save the corrected session so the next open uses the new locations."
+
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr "[Browse this family](family-02.md)"
 
-#: ../../07_support/issues/FCS-30-02-000011.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-

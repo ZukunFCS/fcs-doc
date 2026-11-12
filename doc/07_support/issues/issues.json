@@ -52,23 +52,23 @@
   "FCS-10-02-000003": {
     "severity": "ERROR",
     "message": {
-      "en": "Complete the required fields, then try again.",
-      "ja": "必須項目を入力してから、もう一度お試しください。"
+      "en": "FCS did not receive the information needed to start this action.",
+      "ja": "操作の開始に必要な情報をFCSが受け取れませんでした。"
     },
     "why": {
       "en": [
-        "A command was invoked without one of the fields required by its command schema."
+        "The action started with an incomplete selection, or FCS failed to pass on a selection you had already completed."
       ],
       "ja": [
-        "コマンドの仕様で必須とされるフィールドが指定されていません。"
+        "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "For automation, inspect the called command’s required-parameter schema and provide every required field. A field set to null or an empty string is treated as missing. In the app, reopen the action’s dialog, complete its required controls, and retry. Report the action if a completed dialog still submits a missing field."
+        "Reopen the action’s window, complete the visible inputs, and try once more. If those were already completed, report the window and the button you clicked through Bug Feedback."
       ],
       "ja": [
-        "自動操作では、呼び出すコマンドの必須パラメーターを確認し、すべて指定してください。nullや空の文字列も未指定として扱います。アプリでは対象のダイアログを開き直し、必須項目を入力して再実行してください。入力済みでも未指定になる場合は、対象の操作を報告してください。"
+        "対象の画面を開き直し、表示されている入力項目を設定して一度再実行してください。設定済みだった場合は、画面名とクリックしたボタンをBug Feedbackで報告してください。"
       ]
     },
     "parameters": [],
@@ -82,18 +82,18 @@
     },
     "why": {
       "en": [
-        "The update download target does not exist or is a file rather than a directory."
+        "The selected download folder is no longer available, or its saved location points to a file."
       ],
       "ja": [
-        "更新のダウンロード先が存在しないか、フォルダーではなくファイルです。"
+        "選択したダウンロード先フォルダーを使用できないか、保存された場所がファイルを指しています。"
       ]
     },
     "resolution": {
       "en": [
-        "Create or select an existing download folder, then retry the download. Select a directory, not an installer filename. Check free space and write access before starting the download."
+        "Start the download again and select an existing folder where you can save files and have room for the installer. If FCS keeps reusing the unavailable folder, save your work and restart FCS before starting the download again."
       ],
       "ja": [
-        "既存のダウンロード先フォルダーを選択するか、先に作成してから再実行してください。インストーラーのファイル名ではなく、フォルダーを指定してください。開始前に空き容量と書き込み権限を確認してください。"
+        "ダウンロードをやり直し、ファイルを保存でき、インストーラー用の空き容量がある既存のフォルダーを選択してください。使用できない以前のフォルダーが繰り返し使われる場合は、作業を保存してFCSを再起動してからダウンロードをやり直してください。"
       ]
     },
     "parameters": [],
@@ -102,23 +102,23 @@
   "FCS-10-01-000014": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose an available FCS version to download.",
-      "ja": "ダウンロードするFCSのバージョンを選択してください。"
+      "en": "FCS could not identify which update to download.",
+      "ja": "ダウンロードする更新をFCSが特定できませんでした。"
     },
     "why": {
       "en": [
-        "Downloading an update requires both the major and minor release identifiers; at least one is missing."
+        "The update window did not retain the selected release."
       ],
       "ja": [
-        "更新のダウンロードに必要なメジャーとマイナーのリリース識別子の少なくとも1つがありません。"
+        "更新画面で選択されたリリースを保持できませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Choose an available FCS version to download."
+        "Reopen the update window and select the intended release again. If a listed release still cannot be downloaded, report that release name and your current FCS version through Bug Feedback."
       ],
       "ja": [
-        "ダウンロードするFCSのバージョンを選択してください。"
+        "更新画面を開き直し、対象のリリースを選び直してください。表示されたリリースをダウンロードできない場合は、その名前と現在のFCSバージョンをBug Feedbackで報告してください。"
       ]
     },
     "parameters": [],
@@ -485,23 +485,23 @@
   "FCS-10-02-000004": {
     "severity": "ERROR",
     "message": {
-      "en": "Complete the required video-processing fields, then try again.",
-      "ja": "動画処理に必要な項目を入力してから、もう一度お試しください。"
+      "en": "FCS did not receive a video selection for processing.",
+      "ja": "処理対象の動画をFCSが受け取れませんでした。"
     },
     "why": {
       "en": [
-        "Video processing was submitted without a required parameter; an empty video_paths list is also rejected."
+        "Processing needs a selected source video. FCS may also have lost an existing selection while starting the action."
       ],
       "ja": [
-        "動画処理に必要なパラメーターがありません。video_pathsが空のリストの場合も実行できません。"
+        "処理には元動画の選択が必要です。開始時にFCSが選択内容を保持できなかった可能性もあります。"
       ]
     },
     "resolution": {
       "en": [
-        "Choose a video for single-video processing, or at least one video for a batch. Automation must provide video_path for a single video or a nonempty video_paths list for a batch. Supply the matching argument rather than an empty selection."
+        "Select the source video in Video Library; for a batch, select at least one video. Start processing again. If a selected video still produces this error, report the button you used and include a screenshot of the selection."
       ],
       "ja": [
-        "単一動画の処理では動画を1本、バッチでは1本以上を選択してください。自動操作では単一処理にvideo_path、バッチに空でないvideo_pathsリストが必要です。空の選択の代わりに対応する引数を指定してください。"
+        "動画ライブラリで元動画を選択してください。バッチの場合は1本以上が必要です。再実行しても選択済みの動画で発生する場合は、使用したボタン名と選択状態のスクリーンショットを添えて報告してください。"
       ]
     },
     "parameters": [],
@@ -510,23 +510,25 @@
   "FCS-10-01-000015": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose an available processing option.",
-      "ja": "使用可能な処理オプションを選択してください。"
+      "en": "FCS could not read the saved Solver settings.",
+      "ja": "保存されたソルバーの設定を読み取れませんでした。"
     },
     "why": {
       "en": [
-        "The submitted processing settings contain an unknown field or smoothing-region name."
+        "The saved settings may come from a different FCS version, or FCS may have failed to update them. This is not fixed by guessing a different dropdown option."
       ],
       "ja": [
-        "送信された処理設定に、未定義のフィールド名またはスムージング領域名が含まれています。"
+        "別のFCSバージョンの設定が残っているか、設定の更新に失敗した可能性があります。別の選択肢を試し続けて解決する問題ではありません。"
       ]
     },
     "resolution": {
       "en": [
-        "Use processing.settings to read the current schema. Top-level settings are profile, fisheye, same_video_weight, smoothing and postprocessing. Smoothing regions are upper, gaze, lower and eyelid. Postprocessing groups are gaze_freezing, profile_priority and clamp. Remove unsupported keys or update the automation client to match this FCS version."
+        "Save your work and restart FCS once. If the error returns, use Bug Feedback to report the code, FCS version, and the control you used just before it appeared.",
+        "If the problem keeps you from working, first record your preferences, then open Settings, click Restore, and confirm the restart. This resets all application preferences, including customized processing options and application locations."
       ],
       "ja": [
-        "processing.settingsで現在の構造を確認してください。最上位はprofile、fisheye、same_video_weight、smoothing、postprocessingです。スムージング領域はupper、gaze、lower、eyelidです。後処理の項目はgaze_freezing、profile_priority、clampです。非対応のキーを削除するか、FCSのバージョンに合う自動操作クライアントに更新してください。"
+        "作業を保存してFCSを一度再起動してください。再発する場合はBug Feedbackで、このコード、FCSバージョン、直前に操作した項目を報告してください。",
+        "作業を続けられない場合は、先に現在の設定を記録し、［ファイル］→［設定］で［デフォルトに戻す］をクリックして再起動を確認してください。処理設定やアプリの場所など、アプリの設定全体が初期値に戻ります。"
       ]
     },
     "parameters": [],
@@ -535,33 +537,27 @@
   "FCS-10-01-000009": {
     "severity": "ERROR",
     "message": {
-      "en": "Processing settings were not applied.",
-      "ja": "処理設定を適用できませんでした。"
+      "en": "FCS could not apply the Solver settings.",
+      "ja": "ソルバーの設定を適用できませんでした。"
     },
     "why": {
       "en": [
-        "Applying processing settings rejected a numeric value, smoothing method, gaze replacement, profile-priority option, or clamp mode. The checks below are independent; correct the setting you changed."
+        "FCS could not use one of the current or previously saved Solver settings. The problem can be in a different control from the one you just changed.",
+        "If this happens after choosing an option offered by FCS, it is an application settings problem; the available dropdown choices are not the cause."
       ],
       "ja": [
-        "数値、スムージング方式、視線の置換方法、プロファイル優先設定、またはクランプ方式が、処理設定の条件を満たしていません。以下はそれぞれ独立した条件です。変更した設定を修正してください。"
+        "現在または以前に保存されたソルバーの設定を使用できませんでした。直前に変更した項目とは別の設定に問題がある場合もあります。",
+        "FCSが表示する選択肢を選んで発生した場合は、アプリ側の設定処理の問題です。表示された選択肢を選んだこと自体が原因ではありません。"
       ]
     },
     "resolution": {
       "en": [
-        "Same-video weight must be between 1.0 and 10.0, inclusive; for example 5 is accepted.",
-        "Gaze-freezing threshold must be between 0.0 and 1.0, inclusive; for example 0.5. Replacement must be Last detected or Default value.",
-        "Profile-priority range must be between 0.0 and 2.0 seconds, inclusive; its exponent must be between 0.1 and 5.0, inclusive. For example, 1 second and exponent 1 are accepted. Select a priority mode offered for the current processing profile; availability depends on that profile.",
-        "Smoothing method must be Smoothing, Peak, 1€ or Raw. For 1€, minimum cutoff must be a finite number greater than 0; beta must be finite and at least 0. The derivative cutoff is fixed internally at 1.",
-        "Clamp mode must be No Clamp, Hard Clamp or Soft Clamp. Choose an option from the app rather than entering a translated label through automation.",
-        "Correct the affected field in Processing Settings and apply again. For automation, use the field names and nesting returned by processing.settings rather than adding unsupported keys."
+        "Save your work and restart FCS once. If the error returns, use Bug Feedback to report the code, FCS version, and the control you used just before it appeared.",
+        "If the problem keeps you from working, first record your preferences, then open Settings, click Restore, and confirm the restart. This resets all application preferences, including customized processing options and application locations."
       ],
       "ja": [
-        "同一動画の重みは 1.0 以上 10.0 以下です。例えば5は有効です。",
-        "視線固定のしきい値は 0.0 以上 1.0 以下です。例えば0.5は有効です。置換方法は Last detected または Default value です。",
-        "プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）、指数は 0.1 ～ 5.0（両端を含む）です。例えば範囲1秒、指数1は有効です。優先モードは現在の処理プロファイルで表示される候補から選んでください。候補はプロファイルによって異なります。",
-        "スムージング方式は Smoothing、Peak、1€、Raw のいずれかです。1€の最小カットオフは0より大きい有限値、betaは0以上の有限値です。微分カットオフは内部で1に固定されます。",
-        "クランプ方式は No Clamp、Hard Clamp、Soft Clamp のいずれかです。自動操作では翻訳したラベルを渡さず、アプリが示す値を使用してください。",
-        "処理設定の該当する項目を修正し、再度適用してください。自動操作では processing.settings が返すフィールド名と階層を使用し、非対応のキーを追加しないでください。"
+        "作業を保存してFCSを一度再起動してください。再発する場合はBug Feedbackで、このコード、FCSバージョン、直前に操作した項目を報告してください。",
+        "作業を続けられない場合は、先に現在の設定を記録し、［ファイル］→［設定］で［デフォルトに戻す］をクリックして再起動を確認してください。処理設定やアプリの場所など、アプリの設定全体が初期値に戻ります。"
       ]
     },
     "parameters": [
@@ -571,222 +567,262 @@
     "causes": {
       "same_video_weight": {
         "message": {
-          "en": "Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight.",
-          "ja": "同一動画の重みは 1.0 以上 10.0 以下にしてください。初期値は5です。"
+          "en": "The saved Same Video Weight is outside the supported range. This control is only shown in some builds.",
+          "ja": "保存された同じ動画の重みが対応範囲外です。この項目は一部のビルドでのみ表示されます。"
         },
         "why": {
           "en": [
-            "Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight."
+            "The saved Same Video Weight is outside the supported range. This control is only shown in some builds."
           ],
           "ja": [
-            "同一動画の重みは 1.0 以上 10.0 以下にしてください。初期値は5です。"
+            "保存された同じ動画の重みが対応範囲外です。この項目は一部のビルドでのみ表示されます。"
           ]
         },
         "resolution": {
           "en": [
-            "Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight."
+            "If your Solver window includes Same Video Weight, return it to 5 and retry. Its range is 1.0–10.0. If that control is not shown, use the saved-settings recovery above."
           ],
           "ja": [
-            "同一動画の重みは 1.0 以上 10.0 以下にしてください。初期値は5です。"
+            "ソルバーに同じ動画の重みが表示される場合は5に戻して再実行してください。範囲は 1.0～10.0 です。項目が表示されない場合は、上記の保存済み設定の復旧手順を使用してください。"
           ]
+        },
+        "title": {
+          "en": "Same Video Weight",
+          "ja": "同じ動画の重み"
         }
       },
       "smoothing_method": {
         "message": {
-          "en": "Choose Smoothing, Peak, 1€ or Raw as the smoothing method.",
-          "ja": "スムージング方式は Smoothing、Peak、1€、Raw のいずれかを選択してください。"
+          "en": "FCS could not use the saved Type under Denoising setting.",
+          "ja": "保存されたデノイジングの種類を使用できませんでした。"
         },
         "why": {
           "en": [
-            "Choose Smoothing, Peak, 1€ or Raw as the smoothing method."
+            "FCS could not read its saved Solver settings, or rejected a choice for Type, Replacement Value, Prioritize profile, or Clamp mode. Those menus already restrict the available choices; rejecting one of their offered choices is an application problem."
           ],
           "ja": [
-            "スムージング方式は Smoothing、Peak、1€、Raw のいずれかを選択してください。"
+            "保存されたソルバーの設定を読み取れないか、種類、置換値、プロファイルを優先、クランプ方式の選択を拒否しました。これらのメニューは選択肢が制限されているため、表示された項目を拒否する場合はアプリ側の問題です。"
           ]
         },
         "resolution": {
           "en": [
-            "Choose Smoothing, Peak, 1€ or Raw as the smoothing method."
+            "Use the recovery steps above. When reporting the problem, include which control was named in the error and what you were doing."
           ],
           "ja": [
-            "スムージング方式は Smoothing、Peak、1€、Raw のいずれかを選択してください。"
+            "上記の復旧手順を使用してください。報告する際は、エラーに表示された項目名と直前の操作を添えてください。"
           ]
+        },
+        "title": {
+          "en": "Saved Solver settings cannot be used",
+          "ja": "保存されたソルバーの設定を使用できない"
         }
       },
       "one_euro_value": {
         "message": {
-          "en": "For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted.",
-          "ja": "1€スムージングの最小カットオフは0より大きい有限値、betaは0以上の有限値にしてください。例えばカットオフ8、beta 1は有効です。"
+          "en": "The saved Smart smoothing controls are unreadable or outside the supported numeric range.",
+          "ja": "保存されたSmartの数値設定を読み取れないか、対応範囲外になっています。"
         },
         "why": {
           "en": [
-            "For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted."
+            "The saved Smart smoothing controls are unreadable or outside the supported numeric range."
           ],
           "ja": [
-            "1€スムージングの最小カットオフは0より大きい有限値、betaは0以上の有限値にしてください。例えばカットオフ8、beta 1は有効です。"
+            "保存されたSmartの数値設定を読み取れないか、対応範囲外になっています。"
           ]
         },
         "resolution": {
           "en": [
-            "For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted."
+            "In Solver → Denoising → Parameters, if Type is Smart, set Smoothing Control to 8 and Motion Responsiveness to 1, then retry. If those controls are not shown, or those values are already set, use the saved-settings recovery above."
           ],
           "ja": [
-            "1€スムージングの最小カットオフは0より大きい有限値、betaは0以上の有限値にしてください。例えばカットオフ8、beta 1は有効です。"
+            "ソルバー → デノイジング → パラメータで種類がSmartの場合、スムージング調整を8、動きへの追従性を1にして再実行してください。これらの項目が表示されない場合や、すでにその値の場合は、上記の保存済み設定の復旧手順を使用してください。"
           ]
+        },
+        "title": {
+          "en": "Smart smoothing controls",
+          "ja": "Smartのスムージング設定"
         }
       },
       "gaze_replacement": {
         "message": {
-          "en": "Choose Last detected or Default value for gaze-freezing replacement.",
-          "ja": "視線固定の置換方法は Last detected または Default value を選択してください。"
+          "en": "FCS could not use the saved Replacement Value under Gaze Freezing setting.",
+          "ja": "保存された視線固定の置換値を使用できませんでした。"
         },
         "why": {
           "en": [
-            "Choose Last detected or Default value for gaze-freezing replacement."
+            "FCS could not read its saved Solver settings, or rejected a choice for Type, Replacement Value, Prioritize profile, or Clamp mode. Those menus already restrict the available choices; rejecting one of their offered choices is an application problem."
           ],
           "ja": [
-            "視線固定の置換方法は Last detected または Default value を選択してください。"
+            "保存されたソルバーの設定を読み取れないか、種類、置換値、プロファイルを優先、クランプ方式の選択を拒否しました。これらのメニューは選択肢が制限されているため、表示された項目を拒否する場合はアプリ側の問題です。"
           ]
         },
         "resolution": {
           "en": [
-            "Choose Last detected or Default value for gaze-freezing replacement."
+            "Use the recovery steps above. When reporting the problem, include which control was named in the error and what you were doing."
           ],
           "ja": [
-            "視線固定の置換方法は Last detected または Default value を選択してください。"
+            "上記の復旧手順を使用してください。報告する際は、エラーに表示された項目名と直前の操作を添えてください。"
           ]
+        },
+        "title": {
+          "en": "Saved Solver settings cannot be used",
+          "ja": "保存されたソルバーの設定を使用できない"
         }
       },
       "gaze_threshold": {
         "message": {
-          "en": "Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default.",
-          "ja": "視線固定のしきい値は 0.0 以上 1.0 以下にしてください。初期値は0.5です。"
+          "en": "The saved gaze-freezing threshold could not be applied.",
+          "ja": "保存された視線固定のしきい値を適用できませんでした。"
         },
         "why": {
           "en": [
-            "Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default."
+            "The saved gaze-freezing threshold could not be applied."
           ],
           "ja": [
-            "視線固定のしきい値は 0.0 以上 1.0 以下にしてください。初期値は0.5です。"
+            "保存された視線固定のしきい値を適用できませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default."
+            "In Solver → Post processing → Gaze Freezing, set Freezing threshold to 0.5 and retry. Accepted values are 0.0–1.0, including both ends. If an available value still fails, report an FCS settings problem."
           ],
           "ja": [
-            "視線固定のしきい値は 0.0 以上 1.0 以下にしてください。初期値は0.5です。"
+            "ソルバー → 後処理 → 視線の固定の視線固定のしきい値を0.5にして再実行してください。範囲は 0.0～1.0（両端を含む）です。範囲内の値でも失敗する場合は、FCSの設定処理の問題として報告してください。"
           ]
+        },
+        "title": {
+          "en": "Freezing threshold",
+          "ja": "視線固定のしきい値"
         }
       },
       "priority_mode": {
         "message": {
-          "en": "Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile.",
-          "ja": "選択中の処理プロファイルで使用できる優先モードを、処理設定の候補から選択してください。候補はプロファイルによって異なります。"
+          "en": "FCS could not use the saved Prioritize profile setting.",
+          "ja": "保存されたプロファイルを優先の設定を使用できませんでした。"
         },
         "why": {
           "en": [
-            "Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile."
+            "FCS could not read its saved Solver settings, or rejected a choice for Type, Replacement Value, Prioritize profile, or Clamp mode. Those menus already restrict the available choices; rejecting one of their offered choices is an application problem."
           ],
           "ja": [
-            "選択中の処理プロファイルで使用できる優先モードを、処理設定の候補から選択してください。候補はプロファイルによって異なります。"
+            "保存されたソルバーの設定を読み取れないか、種類、置換値、プロファイルを優先、クランプ方式の選択を拒否しました。これらのメニューは選択肢が制限されているため、表示された項目を拒否する場合はアプリ側の問題です。"
           ]
         },
         "resolution": {
           "en": [
-            "Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile."
+            "Use the recovery steps above. When reporting the problem, include which control was named in the error and what you were doing."
           ],
           "ja": [
-            "選択中の処理プロファイルで使用できる優先モードを、処理設定の候補から選択してください。候補はプロファイルによって異なります。"
+            "上記の復旧手順を使用してください。報告する際は、エラーに表示された項目名と直前の操作を添えてください。"
           ]
+        },
+        "title": {
+          "en": "Saved Solver settings cannot be used",
+          "ja": "保存されたソルバーの設定を使用できない"
         }
       },
       "priority_range": {
         "message": {
-          "en": "Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range.",
-          "ja": "プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）にしてください。1を入力すると1秒になります。"
+          "en": "The saved profile-priority Range could not be applied.",
+          "ja": "保存されたプロファイル優先の範囲を適用できませんでした。"
         },
         "why": {
           "en": [
-            "Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range."
+            "The saved profile-priority Range could not be applied."
           ],
           "ja": [
-            "プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）にしてください。1を入力すると1秒になります。"
+            "保存されたプロファイル優先の範囲を適用できませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range."
+            "If Prioritize profile is already set to Local in Solver → Post processing, set Range to 1 second and retry. The accepted range is 0.0–2.0 seconds, including both ends. If Range is not visible, use the saved-settings recovery above."
           ],
           "ja": [
-            "プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）にしてください。1を入力すると1秒になります。"
+            "ソルバー → 後処理のプロファイルを優先がLocalの場合は、範囲を1秒にして再実行してください。範囲は 0.0～2.0 秒（両端を含む）です。範囲が表示されない場合は、上記の保存済み設定の復旧手順を使用してください。"
           ]
+        },
+        "title": {
+          "en": "Profile-priority Range",
+          "ja": "プロファイル優先の範囲"
         }
       },
       "priority_exponent": {
         "message": {
-          "en": "Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default.",
-          "ja": "プロファイル優先の指数は 0.1 ～ 5.0（両端を含む）にしてください。初期値は1です。"
+          "en": "The saved Exponential Coefficient could not be applied.",
+          "ja": "保存された指数係数を適用できませんでした。"
         },
         "why": {
           "en": [
-            "Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default."
+            "The saved Exponential Coefficient could not be applied."
           ],
           "ja": [
-            "プロファイル優先の指数は 0.1 ～ 5.0（両端を含む）にしてください。初期値は1です。"
+            "保存された指数係数を適用できませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default."
+            "If Prioritize profile is already set to Local in Solver → Post processing, set Exponential Coefficient to 1 and retry. Accepted values are 0.1–5.0, including both ends. If this control is not visible, use the saved-settings recovery above."
           ],
           "ja": [
-            "プロファイル優先の指数は 0.1 ～ 5.0（両端を含む）にしてください。初期値は1です。"
+            "ソルバー → 後処理のプロファイルを優先がLocalの場合は、指数係数を1にして再実行してください。範囲は 0.1～5.0（両端を含む）です。この項目が表示されない場合は、上記の保存済み設定の復旧手順を使用してください。"
           ]
+        },
+        "title": {
+          "en": "Exponential Coefficient",
+          "ja": "指数係数"
         }
       },
       "clamp": {
         "message": {
-          "en": "Choose No Clamp, Hard Clamp or Soft Clamp.",
-          "ja": "No Clamp、Hard Clamp、Soft Clamp のいずれかを選択してください。"
+          "en": "FCS could not use the saved Clamp mode setting.",
+          "ja": "保存されたクランプ方式の設定を使用できませんでした。"
         },
         "why": {
           "en": [
-            "Choose No Clamp, Hard Clamp or Soft Clamp."
+            "FCS could not read its saved Solver settings, or rejected a choice for Type, Replacement Value, Prioritize profile, or Clamp mode. Those menus already restrict the available choices; rejecting one of their offered choices is an application problem."
           ],
           "ja": [
-            "No Clamp、Hard Clamp、Soft Clamp のいずれかを選択してください。"
+            "保存されたソルバーの設定を読み取れないか、種類、置換値、プロファイルを優先、クランプ方式の選択を拒否しました。これらのメニューは選択肢が制限されているため、表示された項目を拒否する場合はアプリ側の問題です。"
           ]
         },
         "resolution": {
           "en": [
-            "Choose No Clamp, Hard Clamp or Soft Clamp."
+            "Use the recovery steps above. When reporting the problem, include which control was named in the error and what you were doing."
           ],
           "ja": [
-            "No Clamp、Hard Clamp、Soft Clamp のいずれかを選択してください。"
+            "上記の復旧手順を使用してください。報告する際は、エラーに表示された項目名と直前の操作を添えてください。"
           ]
+        },
+        "title": {
+          "en": "Saved Solver settings cannot be used",
+          "ja": "保存されたソルバーの設定を使用できない"
         }
       },
       "structure": {
         "message": {
-          "en": "A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings.",
-          "ja": "設定の構造または値が対応する形式ではありません。処理設定の該当する項目を設定し直してから再度適用してください。自動操作では processing.settings が返すフィールド名と構造を使用してください。"
+          "en": "FCS could not use the saved Solver settings setting.",
+          "ja": "保存されたソルバーの設定を読み取れませんでした。"
         },
         "why": {
           "en": [
-            "A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings."
+            "FCS could not read its saved Solver settings, or rejected a choice for Type, Replacement Value, Prioritize profile, or Clamp mode. Those menus already restrict the available choices; rejecting one of their offered choices is an application problem."
           ],
           "ja": [
-            "設定の構造または値が対応する形式ではありません。処理設定の該当する項目を設定し直してから再度適用してください。自動操作では processing.settings が返すフィールド名と構造を使用してください。"
+            "保存されたソルバーの設定を読み取れないか、種類、置換値、プロファイルを優先、クランプ方式の選択を拒否しました。これらのメニューは選択肢が制限されているため、表示された項目を拒否する場合はアプリ側の問題です。"
           ]
         },
         "resolution": {
           "en": [
-            "A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings."
+            "Use the recovery steps above. When reporting the problem, include which control was named in the error and what you were doing."
           ],
           "ja": [
-            "設定の構造または値が対応する形式ではありません。処理設定の該当する項目を設定し直してから再度適用してください。自動操作では processing.settings が返すフィールド名と構造を使用してください。"
+            "上記の復旧手順を使用してください。報告する際は、エラーに表示された項目名と直前の操作を添えてください。"
           ]
+        },
+        "title": {
+          "en": "Saved Solver settings cannot be used",
+          "ja": "保存されたソルバーの設定を使用できない"
         }
       }
     }
@@ -819,23 +855,23 @@
   "FCS-10-05-000001": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose Maya or Blender as the renderer.",
-      "ja": "DCCはMayaまたはBlenderを選択してください。"
+      "en": "FCS could not use the session’s application selection.",
+      "ja": "セッションのアプリ選択を使用できませんでした。"
     },
     "why": {
       "en": [
-        "The renderer request does not select a supported Maya or Blender backend."
+        "The saved session application is missing or incompatible with this FCS version."
       ],
       "ja": [
-        "指定されたDCCが、対応するMayaまたはBlenderではありません。"
+        "保存されたアプリの選択がないか、このFCSバージョンで使用できません。"
       ]
     },
     "resolution": {
       "en": [
-        "Select Maya or Blender in Session Settings or export options. Automation uses maya or blender as the renderer identifier; other applications are not supported by this selection."
+        "Open File → Session → Info and select the application used by this scene. If a Maya or Blender choice offered by FCS still fails, report it as an FCS session-settings problem."
       ],
       "ja": [
-        "Session Settingsまたは出力設定でMayaかBlenderを選択してください。自動操作ではmayaまたはblenderを識別子として使用します。この選択で他のアプリは使用できません。"
+        "［ファイル］→［セッション］→［情報...］で、このシーンで使用するアプリを選択してください。FCSに表示されたMayaまたはBlenderでも失敗する場合は、セッション設定の問題として報告してください。"
       ]
     },
     "parameters": [],
@@ -1046,8 +1082,8 @@
   "FCS-20-01-000002": {
     "severity": "ERROR",
     "message": {
-      "en": "Check your license in License Settings before continuing.",
-      "ja": "続行する前にライセンス設定でライセンスを確認してください。"
+      "en": "Check your license in Info → License before continuing.",
+      "ja": "続行する前に［情報］→［ライセンス］でライセンスを確認してください。"
     },
     "why": {
       "en": [
@@ -1059,10 +1095,10 @@
     },
     "resolution": {
       "en": [
-        "Check your license in License Settings before continuing."
+        "Check your license in Info → License before continuing."
       ],
       "ja": [
-        "続行する前にライセンス設定でライセンスを確認してください。"
+        "続行する前に［情報］→［ライセンス］でライセンスを確認してください。"
       ]
     },
     "parameters": [],
@@ -1071,8 +1107,8 @@
   "FCS-20-01-000001": {
     "severity": "ERROR",
     "message": {
-      "en": "Check your license key in License Settings.",
-      "ja": "ライセンス設定でライセンスキーを確認してください。"
+      "en": "Check your license key in Info → License.",
+      "ja": "［情報］→［ライセンス］でライセンスキーを確認してください。"
     },
     "why": {
       "en": [
@@ -1084,7 +1120,7 @@
     },
     "resolution": {
       "en": [
-        "Copy your issued license key into License Settings without adding text, spaces or line breaks. Check the license status there before retrying. If the correct key is still rejected, check its validity and available device seats with your license administrator; send support the status and code, not a public copy of the key."
+        "Copy your issued license key into Info → License without adding text, spaces or line breaks. Check the license status there before retrying. If the correct key is still rejected, check its validity and available device seats with your license administrator; send support the status and code, not a public copy of the key."
       ],
       "ja": [
         "発行されたライセンスキーを、余分な文字、空白、改行を加えずLicense Settingsに貼り付けてください。表示される状態を確認してから再実行してください。正しいキーでも拒否される場合は、有効期限と利用可能なデバイス数をライセンス管理者に確認してください。サポートには状態とコードを伝え、キーを公開しないでください。"
@@ -1286,12 +1322,12 @@
     },
     "resolution": {
       "en": [
-        "Open a complete session, or set its project folder, Actor and Character in Session Settings. For example, project C:/FCSProject, Actor Actor01, Character Character01 identifies C:/FCSProject/FCS/Actor01/Character01.",
-        "In Session Info, verify that the Project, Actor and Character folders exist, then select an existing scene with the extension appropriate to the renderer. Relative scene paths resolve from the project root. Retry Save after correcting those fields."
+        "Open a complete session, or set its project folder, Actor and Character in File → Session → Info. For example, project C:/FCSProject, Actor Actor01, Character Character01 identifies C:/FCSProject/FCS/Actor01/Character01.",
+        "In File → Session → Info, verify that the Project, Actor and Character folders exist, then select an existing scene with the extension appropriate to the renderer. Relative scene paths resolve from the project root. Retry Save after correcting those fields."
       ],
       "ja": [
-        "完全なセッションを開くか、Session Settingsでプロジェクトフォルダー、Actor、Characterを設定してください。例えばC:/FCSProject、Actor01、Character01の場合、データはC:/FCSProject/FCS/Actor01/Character01に配置されます。",
-        "Session InfoでProject、Actor、Characterの各フォルダーの存在を確認し、DCCに合う拡張子の既存のシーンを選択してください。相対パスはプロジェクトのルートを基準に解決されます。修正後にSaveを再実行してください。"
+        "完全なセッションを開くか、［ファイル］→［セッション］→［情報...］でプロジェクトフォルダー、Actor、Characterを設定してください。例えばC:/FCSProject、Actor01、Character01の場合、データはC:/FCSProject/FCS/Actor01/Character01に配置されます。",
+        "［ファイル］→［セッション］→［情報...］でProject、Actor、Characterの各フォルダーの存在を確認し、DCCに合う拡張子の既存のシーンを選択してください。相対パスはプロジェクトのルートを基準に解決されます。修正後にSaveを再実行してください。"
       ]
     },
     "parameters": [],
@@ -1363,10 +1399,10 @@
     },
     "resolution": {
       "en": [
-        "Set the project root in Session Settings and reopen the session. Its shared facial data belongs under project/Facial. Select the existing project rather than creating an unrelated empty Facial folder."
+        "Set the project root in File → Session → Info and reopen the session. Its shared facial data belongs under project/Facial. Select the existing project rather than creating an unrelated empty Facial folder."
       ],
       "ja": [
-        "Session Settingsでプロジェクトのルートを指定し、セッションを開き直してください。共有の顔データは プロジェクト/Facial にあります。無関係な空のFacialフォルダーを作らず、既存のプロジェクトを選択してください。"
+        "［ファイル］→［セッション］→［情報...］でプロジェクトのルートを指定し、セッションを開き直してください。共有の顔データは プロジェクト/Facial にあります。無関係な空のFacialフォルダーを作らず、既存のプロジェクトを選択してください。"
       ]
     },
     "parameters": [],
@@ -1413,10 +1449,10 @@
     },
     "resolution": {
       "en": [
-        "In Session Settings, select the existing project root that contains FCS and Facial. Reconnect its drive if necessary, then reopen or retry the session operation."
+        "In File → Session → Info, select the existing project root that contains FCS and Facial. Reconnect its drive if necessary, then reopen or retry the session operation."
       ],
       "ja": [
-        "Session SettingsでFCSとFacialを含む既存のプロジェクトルートを選択してください。必要に応じてドライブを再接続し、セッションを開き直すか、操作を再実行してください。"
+        "［ファイル］→［セッション］→［情報...］でFCSとFacialを含む既存のプロジェクトルートを選択してください。必要に応じてドライブを再接続し、セッションを開き直すか、操作を再実行してください。"
       ]
     },
     "parameters": [],
@@ -1513,10 +1549,10 @@
     },
     "resolution": {
       "en": [
-        "In Session Settings, select the existing project root that contains FCS and Facial. Reconnect its drive if necessary, then reopen or retry the session operation."
+        "In File → Session → Info, select the existing project root that contains FCS and Facial. Reconnect its drive if necessary, then reopen or retry the session operation."
       ],
       "ja": [
-        "Session SettingsでFCSとFacialを含む既存のプロジェクトルートを選択してください。必要に応じてドライブを再接続し、セッションを開き直すか、操作を再実行してください。"
+        "［ファイル］→［セッション］→［情報...］でFCSとFacialを含む既存のプロジェクトルートを選択してください。必要に応じてドライブを再接続し、セッションを開き直すか、操作を再実行してください。"
       ]
     },
     "parameters": [],
@@ -1538,10 +1574,10 @@
     },
     "resolution": {
       "en": [
-        "In Session Settings, select the existing project root that contains FCS and Facial. Reconnect its drive if necessary, then reopen or retry the session operation."
+        "In File → Session → Info, select the existing project root that contains FCS and Facial. Reconnect its drive if necessary, then reopen or retry the session operation."
       ],
       "ja": [
-        "Session SettingsでFCSとFacialを含む既存のプロジェクトルートを選択してください。必要に応じてドライブを再接続し、セッションを開き直すか、操作を再実行してください。"
+        "［ファイル］→［セッション］→［情報...］でFCSとFacialを含む既存のプロジェクトルートを選択してください。必要に応じてドライブを再接続し、セッションを開き直すか、操作を再実行してください。"
       ]
     },
     "parameters": [],
@@ -1670,7 +1706,7 @@
         "In Video Library, update the locations of missing videos or restore them to their original paths. Reconnect their source drive. Session editing can continue, but operations requiring those videos need the files restored."
       ],
       "ja": [
-        "Video Libraryで不足する動画の場所を更新するか、元のパスに復元してください。動画のドライブを再接続してください。セッションの編集は続けられますが、その動画を使用する処理にはファイルの復元が必要です。"
+        "動画ライブラリで不足する動画の場所を更新するか、元のパスに復元してください。動画のドライブを再接続してください。セッションの編集は続けられますが、その動画を使用する処理にはファイルの復元が必要です。"
       ]
     },
     "parameters": [],
@@ -1679,7 +1715,7 @@
   "FCS-30-01-000011": {
     "severity": "ERROR",
     "message": {
-      "en": "The session is missing a required project or scene setting. Check Session Settings before continuing.",
+      "en": "The session is missing a required project or scene setting. Check File → Session → Info before continuing.",
       "ja": "セッションに必要なプロジェクトまたはシーンの設定がありません。続行する前にセッション設定を確認してください。"
     },
     "why": {
@@ -1692,7 +1728,7 @@
     },
     "resolution": {
       "en": [
-        "The session is missing a required project or scene setting. Check Session Settings before continuing."
+        "The session is missing a required project or scene setting. Check File → Session → Info before continuing."
       ],
       "ja": [
         "セッションに必要なプロジェクトまたはシーンの設定がありません。続行する前にセッション設定を確認してください。"
@@ -1746,10 +1782,10 @@
     },
     "resolution": {
       "en": [
-        "In Session Settings, select an existing .ma or .mb file for Maya, or a .blend file for Blender. Check that the selected renderer matches the scene, then retry the requested action."
+        "In File → Session → Info, select an existing .ma or .mb file for Maya, or a .blend file for Blender. Check that the selected renderer matches the scene, then retry the requested action."
       ],
       "ja": [
-        "Session Settingsで、Mayaなら既存の .ma または .mb、Blenderなら .blend シーンを選択してください。DCCの選択とシーンの形式が一致することを確認してから再実行してください。"
+        "［ファイル］→［セッション］→［情報...］で、Mayaなら既存の .ma または .mb、Blenderなら .blend シーンを選択してください。DCCの選択とシーンの形式が一致することを確認してから再実行してください。"
       ]
     },
     "parameters": [],
@@ -1758,7 +1794,7 @@
   "FCS-30-02-000011": {
     "severity": "ERROR",
     "message": {
-      "en": "The moved session could not use its expected Maya project or scene location. Choose the correct paths in Session Settings.",
+      "en": "The moved session could not use its expected Maya project or scene location. Choose the correct paths in File → Session → Info.",
       "ja": "移動したセッションで、想定されるMayaプロジェクトまたはシーンの場所を使用できませんでした。セッション設定で正しいパスを選択してください。"
     },
     "why": {
@@ -1771,10 +1807,10 @@
     },
     "resolution": {
       "en": [
-        "Open Session Settings and select the actual project root, Maya workspace directory and scene file. Reconnect a network location before selecting it. Save the corrected session so the next open uses the new locations."
+        "Open File → Session → Info and select the actual project root, Maya workspace directory and scene file. Reconnect a network location before selecting it. Save the corrected session so the next open uses the new locations."
       ],
       "ja": [
-        "Session Settingsで実際のプロジェクトルート、Mayaワークスペースフォルダー、シーンファイルを選択してください。ネットワーク上の場合は先に接続を復旧してください。修正後にセッションを保存し、次回も新しい場所を使用するようにしてください。"
+        "［ファイル］→［セッション］→［情報...］で実際のプロジェクトルート、Mayaワークスペースフォルダー、シーンファイルを選択してください。ネットワーク上の場合は先に接続を復旧してください。修正後にセッションを保存し、次回も新しい場所を使用するようにしてください。"
       ]
     },
     "parameters": [],
@@ -1783,8 +1819,8 @@
   "FCS-30-04-000001": {
     "severity": "WARNING",
     "message": {
-      "en": "Session changes remain in memory but were not saved. Check the project, Actor, Character and scene in Session Info before closing FCS.",
-      "ja": "セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前にSession InfoでProject、Actor、Character、シーンを確認してください。"
+      "en": "Session changes remain in memory but were not saved. Check the project, Actor, Character and scene in File → Session → Info before closing FCS.",
+      "ja": "セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前に［ファイル］→［セッション］→［情報...］でProject、Actor、Character、シーンを確認してください。"
     },
     "why": {
       "en": [
@@ -1858,23 +1894,23 @@
   "FCS-30-04-000002": {
     "severity": "ERROR",
     "message": {
-      "en": "Create Actor could not complete.",
-      "ja": "アクターの作成を完了できませんでした。"
+      "en": "The actor folder could not be created.",
+      "ja": "アクターフォルダーを作成できませんでした。"
     },
     "why": {
       "en": [
-        "Create Actor has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+        "FCS could not create the new actor inside the selected project."
       ],
       "ja": [
-        "アクターの作成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+        "選択したプロジェクト内に、新しいアクターを作成できませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Check the matching condition below, correct it, then retry Create Actor."
+        "Check the project location and actor name using the matching explanation below, then try creating the actor again."
       ],
       "ja": [
-        "以下の該当する条件を確認し、修正してからアクターの作成を再実行してください。"
+        "以下の該当する項目でプロジェクトの場所とアクター名を確認してから、再度作成してください。"
       ]
     },
     "parameters": [
@@ -1902,6 +1938,10 @@
           "ja": [
             "FacialやFCSの内部ではなく、プロジェクトのルートを選択してください。新規プロジェクトはFCSの作成機能で必要なフォルダーを作成してください。既存プロジェクトで不足するフォルダーは、元のバックアップから復元してください。"
           ]
+        },
+        "title": {
+          "en": "The selected folder is not an FCS project",
+          "ja": "選択したフォルダーがFCSプロジェクトではない"
         }
       },
       "invalid_session_name": {
@@ -1924,6 +1964,10 @@
           "ja": [
             "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
           ]
+        },
+        "title": {
+          "en": "Actor or Character is blank",
+          "ja": "ActorまたはCharacterが空欄"
         }
       },
       "actor_folder_exists": {
@@ -1946,6 +1990,10 @@
           "ja": [
             "同じ名前のアクターフォルダーが既に存在します。別の名前を選ぶか、既存のアクターを開いてください。"
           ]
+        },
+        "title": {
+          "en": "An actor with this name already exists",
+          "ja": "同じ名前のアクターが存在"
         }
       },
       "unexpected": {
@@ -1968,28 +2016,36 @@
           "ja": [
             "現在のセッションとアクターの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
           ]
+        },
+        "title": {
+          "en": "FCS stopped unexpectedly",
+          "ja": "FCSで予期しない障害が発生"
         }
       },
       "required_session_actor_create": {
         "message": {
-          "en": "Required fields for session.actor.create: project_folder, actor. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "session.actor.create の必須項目は project_folder, actor です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for session.actor.create: project_folder, actor. Complete these fields before retrying. For automation, use these exact parameter names."
+            "Choose the FCS project folder and enter the new Actor name in the session-creation window. If both are already set, reopen that window and report the problem."
           ],
           "ja": [
-            "session.actor.create の必須項目は project_folder, actor です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "セッションの作成画面でFCSプロジェクトのフォルダーを選び、新しいActor名を入力してください。両方とも設定済みの場合は画面を開き直し、問題を報告してください。"
           ]
+        },
+        "title": {
+          "en": "New actor information",
+          "ja": "新しいアクターの情報"
         }
       }
     }
@@ -1997,23 +2053,23 @@
   "FCS-30-04-000003": {
     "severity": "ERROR",
     "message": {
-      "en": "Create Character could not complete.",
-      "ja": "キャラクターの作成を完了できませんでした。"
+      "en": "The character folder could not be created.",
+      "ja": "キャラクターフォルダーを作成できませんでした。"
     },
     "why": {
       "en": [
-        "Create Character has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+        "FCS could not create the new character inside the selected actor."
       ],
       "ja": [
-        "キャラクターの作成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+        "選択したアクター内に、新しいキャラクターを作成できませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Check the matching condition below, correct it, then retry Create Character."
+        "Check the selected project, actor and new character name using the explanations below, then retry."
       ],
       "ja": [
-        "以下の該当する条件を確認し、修正してからキャラクターの作成を再実行してください。"
+        "以下の説明で、選択したプロジェクト、アクター、新しいキャラクター名を確認してから再実行してください。"
       ]
     },
     "parameters": [
@@ -2041,6 +2097,10 @@
           "ja": [
             "FacialやFCSの内部ではなく、プロジェクトのルートを選択してください。新規プロジェクトはFCSの作成機能で必要なフォルダーを作成してください。既存プロジェクトで不足するフォルダーは、元のバックアップから復元してください。"
           ]
+        },
+        "title": {
+          "en": "The selected folder is not an FCS project",
+          "ja": "選択したフォルダーがFCSプロジェクトではない"
         }
       },
       "invalid_session_name": {
@@ -2063,6 +2123,10 @@
           "ja": [
             "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
           ]
+        },
+        "title": {
+          "en": "Actor or Character is blank",
+          "ja": "ActorまたはCharacterが空欄"
         }
       },
       "actor_folder_not_found": {
@@ -2085,6 +2149,10 @@
           "ja": [
             "アクターフォルダーが見つかりません。既存のアクターを選択するか、フォルダーを復元してください。"
           ]
+        },
+        "title": {
+          "en": "The actor folder is missing",
+          "ja": "アクターフォルダーが見つからない"
         }
       },
       "character_folder_exists": {
@@ -2107,6 +2175,10 @@
           "ja": [
             "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
           ]
+        },
+        "title": {
+          "en": "A character with this name already exists",
+          "ja": "同じ名前のキャラクターが存在"
         }
       },
       "unexpected": {
@@ -2129,28 +2201,36 @@
           "ja": [
             "現在のセッションとキャラクターの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
           ]
+        },
+        "title": {
+          "en": "FCS stopped unexpectedly",
+          "ja": "FCSで予期しない障害が発生"
         }
       },
       "required_session_character_create": {
         "message": {
-          "en": "Required fields for session.character.create: project_folder, actor, character. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "session.character.create の必須項目は project_folder, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for session.character.create: project_folder, actor, character. Complete these fields before retrying. For automation, use these exact parameter names."
+            "Choose the project and Actor, and enter the new Character name. If these are already set, reopen the session-creation window and report the problem."
           ],
           "ja": [
-            "session.character.create の必須項目は project_folder, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "プロジェクトとActorを選び、新しいCharacter名を入力してください。設定済みでも拒否される場合はセッションの作成画面を開き直し、問題を報告してください。"
           ]
+        },
+        "title": {
+          "en": "New character information",
+          "ja": "新しいキャラクターの情報"
         }
       }
     }
@@ -2158,23 +2238,23 @@
   "FCS-30-04-000004": {
     "severity": "ERROR",
     "message": {
-      "en": "Rename Actor could not complete.",
-      "ja": "アクター名の変更を完了できませんでした。"
+      "en": "The actor could not be renamed.",
+      "ja": "アクター名を変更できませんでした。"
     },
     "why": {
       "en": [
-        "Rename Actor has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+        "FCS did not finish renaming the actor and its folder."
       ],
       "ja": [
-        "アクター名の変更には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+        "アクターとそのフォルダーの名前変更を完了できませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Check the matching condition below, correct it, then retry Rename Actor."
+        "Use the matching correction below, then retry the actor rename. If the displayed name and folder location disagree, keep the project backup and report the problem."
       ],
       "ja": [
-        "以下の該当する条件を確認し、修正してからアクター名の変更を再実行してください。"
+        "以下の該当する修正を行い、再度名前を変更してください。表示名とフォルダーの場所が一致しない場合は、プロジェクトのバックアップを保持して報告してください。"
       ]
     },
     "parameters": [
@@ -2202,6 +2282,10 @@
           "ja": [
             "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
           ]
+        },
+        "title": {
+          "en": "Actor or Character is blank",
+          "ja": "ActorまたはCharacterが空欄"
         }
       },
       "actor_name_unchanged": {
@@ -2224,6 +2308,10 @@
           "ja": [
             "空白以外の別のアクター名を入力して再実行するか、現在の名前でよければ名前の変更をキャンセルしてください。"
           ]
+        },
+        "title": {
+          "en": "The actor name has not changed",
+          "ja": "アクター名が変更されていない"
         }
       },
       "actor_folder_exists": {
@@ -2246,6 +2334,10 @@
           "ja": [
             "同じ名前のアクターフォルダーが既に存在します。別の名前を選ぶか、既存のアクターを開いてください。"
           ]
+        },
+        "title": {
+          "en": "An actor with this name already exists",
+          "ja": "同じ名前のアクターが存在"
         }
       },
       "actor_folder_in_use": {
@@ -2268,6 +2360,10 @@
           "ja": [
             "このアクター内のファイルを使用しているMayaやBlenderのシーン、ファイルのプレビューなどを閉じてください。エクスポートが書き込み中でないことを確認してから再実行してください。拒否が続く場合は、フォルダーの権限とドライブ接続を確認してください。"
           ]
+        },
+        "title": {
+          "en": "The actor folder is in use",
+          "ja": "アクターフォルダーが使用中"
         }
       },
       "actor_folder_not_found": {
@@ -2290,6 +2386,10 @@
           "ja": [
             "アクターフォルダーが見つかりません。既存のアクターを選択するか、フォルダーを復元してください。"
           ]
+        },
+        "title": {
+          "en": "The actor folder is missing",
+          "ja": "アクターフォルダーが見つからない"
         }
       },
       "unexpected": {
@@ -2312,28 +2412,36 @@
           "ja": [
             "現在のセッションとアクター名の変更で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
           ]
+        },
+        "title": {
+          "en": "FCS stopped unexpectedly",
+          "ja": "FCSで予期しない障害が発生"
         }
       },
       "required_session_rename_actor": {
         "message": {
-          "en": "Required fields for session.rename_actor: actor. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "session.rename_actor の必須項目は actor です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for session.rename_actor: actor. Complete these fields before retrying. For automation, use these exact parameter names."
+            "Enter the new Actor name in the rename dialog. If it is already filled in, reopen the dialog and report the problem."
           ],
           "ja": [
-            "session.rename_actor の必須項目は actor です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "名前変更の画面で新しいActor名を入力してください。入力済みだった場合は画面を開き直し、問題を報告してください。"
           ]
+        },
+        "title": {
+          "en": "New actor name",
+          "ja": "新しいアクター名"
         }
       }
     }
@@ -2341,23 +2449,23 @@
   "FCS-30-04-000005": {
     "severity": "ERROR",
     "message": {
-      "en": "Rename Character could not complete.",
-      "ja": "キャラクター名の変更を完了できませんでした。"
+      "en": "The character could not be renamed.",
+      "ja": "キャラクター名を変更できませんでした。"
     },
     "why": {
       "en": [
-        "Rename Character has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+        "FCS did not finish renaming the character and its folder."
       ],
       "ja": [
-        "キャラクター名の変更には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+        "キャラクターとそのフォルダーの名前変更を完了できませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Check the matching condition below, correct it, then retry Rename Character."
+        "Use the matching correction below, then retry the character rename. If the displayed name and folder location disagree, keep the project backup and report the problem."
       ],
       "ja": [
-        "以下の該当する条件を確認し、修正してからキャラクター名の変更を再実行してください。"
+        "以下の該当する修正を行い、再度名前を変更してください。表示名とフォルダーの場所が一致しない場合は、プロジェクトのバックアップを保持して報告してください。"
       ]
     },
     "parameters": [
@@ -2385,6 +2493,10 @@
           "ja": [
             "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
           ]
+        },
+        "title": {
+          "en": "Actor or Character is blank",
+          "ja": "ActorまたはCharacterが空欄"
         }
       },
       "character_folder_exists": {
@@ -2407,6 +2519,10 @@
           "ja": [
             "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
           ]
+        },
+        "title": {
+          "en": "A character with this name already exists",
+          "ja": "同じ名前のキャラクターが存在"
         }
       },
       "character_folder_not_found": {
@@ -2429,6 +2545,10 @@
           "ja": [
             "キャラクターフォルダーが見つかりません。セッションを開き直すか、フォルダーを復元してください。"
           ]
+        },
+        "title": {
+          "en": "The character folder is missing",
+          "ja": "キャラクターフォルダーが見つからない"
         }
       },
       "unexpected": {
@@ -2451,28 +2571,36 @@
           "ja": [
             "現在のセッションとキャラクター名の変更で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
           ]
+        },
+        "title": {
+          "en": "FCS stopped unexpectedly",
+          "ja": "FCSで予期しない障害が発生"
         }
       },
       "required_session_rename_character": {
         "message": {
-          "en": "Required fields for session.rename_character: character. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "session.rename_character の必須項目は character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for session.rename_character: character. Complete these fields before retrying. For automation, use these exact parameter names."
+            "Enter the new Character name in the rename dialog. If it is already filled in, reopen the dialog and report the problem."
           ],
           "ja": [
-            "session.rename_character の必須項目は character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "名前変更の画面で新しいCharacter名を入力してください。入力済みだった場合は画面を開き直し、問題を報告してください。"
           ]
+        },
+        "title": {
+          "en": "New character name",
+          "ja": "新しいキャラクター名"
         }
       }
     }
@@ -2600,7 +2728,7 @@
         "Open the intended video from Video Library, wait for it to load, and retry the action. Import it into the session first if it is not listed."
       ],
       "ja": [
-        "Video Libraryから対象の動画を開き、読み込み完了後に再実行してください。一覧にない場合は、先にセッションにインポートしてください。"
+        "動画ライブラリから対象の動画を開き、読み込み完了後に再実行してください。一覧にない場合は、先にセッションにインポートしてください。"
       ]
     },
     "parameters": [],
@@ -2667,7 +2795,7 @@
         "The selected video is not registered in the current session’s Video Library."
       ],
       "ja": [
-        "選択した動画が現在のセッションのVideo Libraryに登録されていません。"
+        "選択した動画が現在のセッションの動画ライブラリに登録されていません。"
       ]
     },
     "resolution": {
@@ -2675,7 +2803,7 @@
         "Import the video into this session’s Video Library, then select that registered entry. Opening a file in another session does not register it here."
       ],
       "ja": [
-        "現在のセッションのVideo Libraryに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
+        "現在のセッションの動画ライブラリに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
       ]
     },
     "parameters": [],
@@ -2842,7 +2970,7 @@
         "A new Video Library folder group was requested without a name."
       ],
       "ja": [
-        "Video Libraryの新しいグループの名前が未指定です。"
+        "動画ライブラリの新しいグループの名前が未指定です。"
       ]
     },
     "resolution": {
@@ -2867,7 +2995,7 @@
         "The Video Library already contains a video-folder group with the requested name."
       ],
       "ja": [
-        "Video Libraryに同じ名前の動画グループが存在します。"
+        "動画ライブラリに同じ名前の動画グループが存在します。"
       ]
     },
     "resolution": {
@@ -2875,7 +3003,7 @@
         "Choose a different group name or use the existing group. This refers to the Video Library group, so renaming an unrelated directory on disk will not resolve the duplicate."
       ],
       "ja": [
-        "別のグループ名を指定するか、既存のグループを使用してください。これはVideo Library内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
+        "別のグループ名を指定するか、既存のグループを使用してください。これは動画ライブラリ内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
       ]
     },
     "parameters": [],
@@ -2892,7 +3020,7 @@
         "The requested Video Library folder group no longer exists in the current session."
       ],
       "ja": [
-        "指定したVideo Libraryのグループが、現在のセッションにありません。"
+        "指定した動画ライブラリのグループが、現在のセッションにありません。"
       ]
     },
     "resolution": {
@@ -2925,7 +3053,7 @@
         "Select two distinct Video Library entries, then create the folder again. Selecting the same entry twice does not provide two videos."
       ],
       "ja": [
-        "Video Libraryで異なる2つの動画を選択してから、再度グループを作成してください。同じ項目を2回選択しても、2本の動画にはなりません。"
+        "動画ライブラリで異なる2つの動画を選択してから、再度グループを作成してください。同じ項目を2回選択しても、2本の動画にはなりません。"
       ]
     },
     "parameters": [],
@@ -2942,7 +3070,7 @@
         "One of the videos selected for a new folder already belongs to a Video Library folder."
       ],
       "ja": [
-        "新しいグループに指定した動画の少なくとも1つが、既存のVideo Libraryグループに属しています。"
+        "新しいグループに指定した動画の少なくとも1つが、既存の動画ライブラリグループに属しています。"
       ]
     },
     "resolution": {
@@ -2992,7 +3120,7 @@
         "The selected video is not registered in the current session’s Video Library."
       ],
       "ja": [
-        "選択した動画が現在のセッションのVideo Libraryに登録されていません。"
+        "選択した動画が現在のセッションの動画ライブラリに登録されていません。"
       ]
     },
     "resolution": {
@@ -3000,7 +3128,7 @@
         "Import the video into this session’s Video Library, then select that registered entry. Opening a file in another session does not register it here."
       ],
       "ja": [
-        "現在のセッションのVideo Libraryに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
+        "現在のセッションの動画ライブラリに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
       ]
     },
     "parameters": [],
@@ -3113,23 +3241,23 @@
   "FCS-40-04-000001": {
     "severity": "ERROR",
     "message": {
-      "en": "Import Video could not complete.",
-      "ja": "動画のインポートを完了できませんでした。"
+      "en": "The video could not be imported.",
+      "ja": "動画をインポートできませんでした。"
     },
     "why": {
       "en": [
-        "Import Video has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+        "FCS could not add the selected video to this session. A missing file, an unsupported format or an unreadable video can prevent import."
       ],
       "ja": [
-        "動画のインポートには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+        "選択した動画をセッションに追加できませんでした。ファイルの欠落、非対応の形式、動画の読み取り不能などでインポートできない場合があります。"
       ]
     },
     "resolution": {
       "en": [
-        "Check the matching condition below, correct it, then retry Import Video."
+        "Find the matching file or video condition below, correct it, and retry import. Keep the original video if a readable file still fails."
       ],
       "ja": [
-        "以下の該当する条件を確認し、修正してから動画のインポートを再実行してください。"
+        "以下の該当する条件を修正してから再実行してください。再生可能な動画でも失敗する場合は、元の動画を保持してください。"
       ]
     },
     "parameters": [
@@ -3157,6 +3285,10 @@
           "ja": [
             "動画が見つかりません。インポートする既存の動画ファイルを選択してください。"
           ]
+        },
+        "title": {
+          "en": "The video file is missing",
+          "ja": "動画ファイルが見つからない"
         }
       },
       "video_import_unsupported_format": {
@@ -3179,6 +3311,10 @@
           "ja": [
             "拡張子が .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts のいずれかの既存の動画を選択してください。大文字・小文字は区別しません。これは対応コンテナーの一覧であり、内部のすべてのコーデックに対応する保証ではありません。元動画が再生できてもFCSで読めない場合、拡張子だけ変えず、コピーを再エンコードしてください。"
           ]
+        },
+        "title": {
+          "en": "Unsupported video format",
+          "ja": "動画の形式が非対応"
         }
       },
       "video_import_non_ascii_path": {
@@ -3201,6 +3337,10 @@
           "ja": [
             "動画を、全体がASCII文字のパスに移動またはコピーしてください（例：C:/FCSProject/Facial/RecData/take01.mp4）。名前には英数字、ハイフン、アンダースコアを使用し、空白を含めないでください。親フォルダーが非ASCIIの場合、ファイル名だけ変更しても解決しません。移動先からインポートしてください。"
           ]
+        },
+        "title": {
+          "en": "Non-ASCII characters in the video path",
+          "ja": "動画のパスにASCII以外の文字がある"
         }
       },
       "video_import_whitespace_path": {
@@ -3223,6 +3363,10 @@
           "ja": [
             "動画のファイル名とすべての親フォルダーから空白を除去してください。例えばC:/FCS Project/RecData/take 01.mp4ではなく、C:/FCSProject/RecData/take_01.mp4を使用してください。名前を変更またはコピーした動画を再度インポートしてください。"
           ]
+        },
+        "title": {
+          "en": "Spaces in the video path",
+          "ja": "動画のパスに空白がある"
         }
       },
       "video_metadata_invalid": {
@@ -3245,6 +3389,10 @@
           "ja": [
             "動画のコピーや録画が完了し、プレーヤーで最後まで再生できることを確認してください。完全な元ファイルを選択してください。元動画が再生できてもFCSで読めない場合はコピーを再エンコードし、元ファイルをサポート用に保持してください。"
           ]
+        },
+        "title": {
+          "en": "The video cannot be read",
+          "ja": "動画を読み取れない"
         }
       },
       "video_has_no_frames": {
@@ -3267,6 +3415,10 @@
           "ja": [
             "コピーや録画の完了と、動画全体をプレーヤーで再生できることを確認してください。完全な元動画を選択するか、コピーを再エンコードしてください。再生できる動画でも読み取れない場合は、元ファイルをサポート用に保持してください。"
           ]
+        },
+        "title": {
+          "en": "No video frames can be read",
+          "ja": "動画フレームを読み取れない"
         }
       },
       "unexpected": {
@@ -3289,50 +3441,62 @@
           "ja": [
             "現在のセッションと動画のインポートで作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
           ]
+        },
+        "title": {
+          "en": "FCS stopped unexpectedly",
+          "ja": "FCSで予期しない障害が発生"
         }
       },
       "required_video_import": {
         "message": {
-          "en": "Required fields for video.import: video_paths. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "video.import の必須項目は video_paths です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for video.import: video_paths. Complete these fields before retrying. For automation, use these exact parameter names."
+            "Choose at least one existing video in the import dialog and confirm the selection. If selecting a file still produces this error, reopen the dialog and report the problem."
           ],
           "ja": [
-            "video.import の必須項目は video_paths です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "インポート画面で既存の動画を1本以上選択して確定してください。ファイルを選択しても再発する場合は、画面を開き直してから問題を報告してください。"
           ]
+        },
+        "title": {
+          "en": "Video selection",
+          "ja": "動画の選択"
         }
       },
       "required_video_import_preview": {
         "message": {
-          "en": "Required fields for video.import.preview: video_path. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "video.import.preview の必須項目は video_path です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for video.import.preview: video_path. Complete these fields before retrying. For automation, use these exact parameter names."
+            "Select the source video again in the import dialog. If a selected, readable video still cannot open a preview, report the problem with the video format and FCS version."
           ],
           "ja": [
-            "video.import.preview の必須項目は video_path です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "インポート画面で元動画を選び直してください。選択済みで再生可能な動画でもプレビューが開かない場合は、動画の形式とFCSバージョンを添えて報告してください。"
           ]
+        },
+        "title": {
+          "en": "Video preview",
+          "ja": "動画のプレビュー"
         }
       }
     }
@@ -3340,23 +3504,23 @@
   "FCS-40-04-000002": {
     "severity": "ERROR",
     "message": {
-      "en": "Create Video Folder could not complete.",
-      "ja": "動画グループの作成を完了できませんでした。"
+      "en": "The video group could not be created.",
+      "ja": "動画グループを作成できませんでした。"
     },
     "why": {
       "en": [
-        "Create Video Folder has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+        "FCS could not group the selected videos. The selection or group name may conflict with an existing group."
       ],
       "ja": [
-        "動画グループの作成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+        "選択した動画をグループにできませんでした。選択内容やグループ名が既存のグループと重複している場合があります。"
       ]
     },
     "resolution": {
       "en": [
-        "Check the matching condition below, correct it, then retry Create Video Folder."
+        "Check the selected videos and group name using the explanations below, then create the group again."
       ],
       "ja": [
-        "以下の該当する条件を確認し、修正してから動画グループの作成を再実行してください。"
+        "以下の説明で選択した動画とグループ名を確認してから、再度グループを作成してください。"
       ]
     },
     "parameters": [
@@ -3374,7 +3538,7 @@
             "The Video Library already contains a video-folder group with the requested name."
           ],
           "ja": [
-            "Video Libraryに同じ名前の動画グループが存在します。"
+            "動画ライブラリに同じ名前の動画グループが存在します。"
           ]
         },
         "resolution": {
@@ -3382,8 +3546,12 @@
             "Choose a different group name or use the existing group. This refers to the Video Library group, so renaming an unrelated directory on disk will not resolve the duplicate."
           ],
           "ja": [
-            "別のグループ名を指定するか、既存のグループを使用してください。これはVideo Library内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
+            "別のグループ名を指定するか、既存のグループを使用してください。これは動画ライブラリ内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
           ]
+        },
+        "title": {
+          "en": "The group name is already used",
+          "ja": "グループ名が使用済み"
         }
       },
       "video_folder_same_video": {
@@ -3404,8 +3572,12 @@
             "Select two distinct Video Library entries, then create the folder again. Selecting the same entry twice does not provide two videos."
           ],
           "ja": [
-            "Video Libraryで異なる2つの動画を選択してから、再度グループを作成してください。同じ項目を2回選択しても、2本の動画にはなりません。"
+            "動画ライブラリで異なる2つの動画を選択してから、再度グループを作成してください。同じ項目を2回選択しても、2本の動画にはなりません。"
           ]
+        },
+        "title": {
+          "en": "The same video was selected twice",
+          "ja": "同じ動画を2回選択している"
         }
       },
       "video_folder_create_requires_ungrouped": {
@@ -3418,7 +3590,7 @@
             "One of the videos selected for a new folder already belongs to a Video Library folder."
           ],
           "ja": [
-            "新しいグループに指定した動画の少なくとも1つが、既存のVideo Libraryグループに属しています。"
+            "新しいグループに指定した動画の少なくとも1つが、既存の動画ライブラリグループに属しています。"
           ]
         },
         "resolution": {
@@ -3428,6 +3600,10 @@
           "ja": [
             "現在どのグループにも属していない2本の動画を選択するか、先に対象の動画を既存のグループから外してください。その後で新しいグループを作成してください。"
           ]
+        },
+        "title": {
+          "en": "A video already belongs to another group",
+          "ja": "動画が別のグループに所属している"
         }
       },
       "video_not_registered": {
@@ -3440,7 +3616,7 @@
             "The selected video is not registered in the current session’s Video Library."
           ],
           "ja": [
-            "選択した動画が現在のセッションのVideo Libraryに登録されていません。"
+            "選択した動画が現在のセッションの動画ライブラリに登録されていません。"
           ]
         },
         "resolution": {
@@ -3448,8 +3624,12 @@
             "Import the video into this session’s Video Library, then select that registered entry. Opening a file in another session does not register it here."
           ],
           "ja": [
-            "現在のセッションのVideo Libraryに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
+            "現在のセッションの動画ライブラリに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
           ]
+        },
+        "title": {
+          "en": "The video is not in this session",
+          "ja": "動画がこのセッションに登録されていない"
         }
       },
       "unexpected": {
@@ -3472,28 +3652,36 @@
           "ja": [
             "現在のセッションと動画グループの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
           ]
+        },
+        "title": {
+          "en": "FCS stopped unexpectedly",
+          "ja": "FCSで予期しない障害が発生"
         }
       },
       "required_video_folder_create": {
         "message": {
-          "en": "Required fields for video.folder.create: name, source_video_stem, target_video_stem. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "video.folder.create の必須項目は name, source_video_stem, target_video_stem です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for video.folder.create: name, source_video_stem, target_video_stem. Complete these fields before retrying. For automation, use these exact parameter names."
+            "Select two different ungrouped videos and enter a group name, then create the group. If the completed selection is rejected, reopen Video Library and report the problem."
           ],
           "ja": [
-            "video.folder.create の必須項目は name, source_video_stem, target_video_stem です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "グループに属していない異なる2本の動画を選び、グループ名を入力してから作成してください。設定済みでも拒否される場合は動画ライブラリを開き直し、問題を報告してください。"
           ]
+        },
+        "title": {
+          "en": "Video group selection",
+          "ja": "動画グループの選択"
         }
       }
     }
@@ -3655,23 +3843,23 @@
   "FCS-50-01-000009": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose an available facial region for the profile.",
-      "ja": "プロファイルに使用可能な顔の領域を選択してください。"
+      "en": "A profile’s saved facial region could not be used.",
+      "ja": "プロファイルに保存された顔領域を使用できませんでした。"
     },
     "why": {
       "en": [
-        "The supplied profile region is not a recognized facial-region identifier."
+        "FCS could not read the profile’s facial-region selection."
       ],
       "ja": [
-        "指定されたプロファイルの領域名が、顔領域の識別子として認識されません。"
+        "プロファイルの顔領域の選択内容をFCSが読み取れませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Select Upper, Eyelid, Gaze or Lower in the profile controls. Automation identifiers are upper, eyelid, gaze and lower; do not substitute translated labels."
+        "Open the affected profile in the Editor window, select its intended facial region, and save. If a region offered by FCS still fails, report the profile name and the region you selected."
       ],
       "ja": [
-        "プロファイル設定でUpper、Eyelid、Gaze、Lowerから選択してください。自動操作の識別子はupper、eyelid、gaze、lowerです。翻訳したラベルで置き換えないでください。"
+        "対象のプロファイルをエディタで開き、使用する顔領域を選択して保存してください。表示された領域を選んでも失敗する場合は、プロファイル名と選択した領域を報告してください。"
       ]
     },
     "parameters": [],
@@ -3680,23 +3868,23 @@
   "FCS-50-01-000015": {
     "severity": "ERROR",
     "message": {
-      "en": "Open a profile in the Profile Editor before continuing.",
+      "en": "Open a profile in the Editor window before continuing.",
       "ja": "続行する前にプロファイルエディターでプロファイルを開いてください。"
     },
     "why": {
       "en": [
-        "No profile is active in the Profile Editor."
+        "No profile is active in the Editor window."
       ],
       "ja": [
-        "Profile Editorでプロファイルが開かれていません。"
+        "エディタでプロファイルが開かれていません。"
       ]
     },
     "resolution": {
       "en": [
-        "Open a profile from Gallery in the Profile Editor, or create a new profile, before applying edits or saving."
+        "Open a profile from Gallery in the Editor window, or create a new profile, before applying edits or saving."
       ],
       "ja": [
-        "GalleryからプロファイルをProfile Editorで開くか、新しいプロファイルを作成してから、編集や保存を行ってください。"
+        "Galleryからプロファイルをエディタで開くか、新しいプロファイルを作成してから、編集や保存を行ってください。"
       ]
     },
     "parameters": [],
@@ -3805,23 +3993,23 @@
   "FCS-50-01-000001": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose an available video selection for automatic profile generation.",
-      "ja": "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
+      "en": "FCS could not use the saved profile-generation mode.",
+      "ja": "保存されたプロファイルの生成方法を使用できませんでした。"
     },
     "why": {
       "en": [
-        "The automatic-generation selection mode is neither General nor ROM."
+        "The profile-generation window has a saved selection that FCS cannot apply."
       ],
       "ja": [
-        "自動生成の選択モードがGeneralでもROMでもありません。"
+        "プロファイルの自動生成画面で、保存された選択内容をFCSが適用できませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Choose General to select representative frames, or ROM to select frames against reference profiles. Automation must send General or ROM with that spelling."
+        "Reopen the profile-generation window and select the intended mode again. If a mode shown by FCS still fails, report the problem; changing unrelated video settings will not repair it."
       ],
       "ja": [
-        "代表的なフレームを選ぶ場合はGeneral、参照プロファイルに対応するフレームを選ぶ場合はROMを選択してください。自動操作でもGeneralまたはROMをそのまま指定してください。"
+        "プロファイルの自動生成画面を開き直し、使用する方法を選び直してください。表示された選択肢でも失敗する場合は、問題を報告してください。無関係な動画設定を変更しても復旧できません。"
       ]
     },
     "parameters": [],
@@ -3830,23 +4018,23 @@
   "FCS-50-01-000018": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose an available processing pipeline.",
-      "ja": "使用可能な処理パイプラインを選択してください。"
+      "en": "The saved processing profile is unavailable in this FCS build.",
+      "ja": "保存された処理プロファイルを、このFCSビルドで使用できません。"
     },
     "why": {
       "en": [
-        "The selected processing-profile name is not available in this installation. Availability can differ by build."
+        "A session or saved setting refers to a processing profile that is not included in this installation."
       ],
       "ja": [
-        "選択した処理プロファイル名が、このインストールでは使用できません。候補はビルドによって異なる場合があります。"
+        "セッションまたは保存された設定が、このインストールに含まれない処理プロファイルを参照しています。"
       ]
     },
     "resolution": {
       "en": [
-        "Choose a processing profile from the current Processing Settings list. Automation can read available names through processing.profiles. Use the returned name exactly rather than a translated or older profile name."
+        "In Solver, select the processing profile you intend to use from the available list. If the desired profile is absent, check that you installed the intended FCS edition and version. If a listed profile fails, report its name and FCS version."
       ],
       "ja": [
-        "処理設定に現在表示されているプロファイルから選択してください。自動操作ではprocessing.profilesで候補を取得できます。翻訳した名前や旧バージョンの名前ではなく、返された名前をそのまま使用してください。"
+        "ソルバーで、使用する処理プロファイルを表示された一覧から選択してください。必要なものがない場合は、FCSのエディションとバージョンを確認してください。表示されたものでも失敗する場合は、名前とFCSバージョンを報告してください。"
       ]
     },
     "parameters": [],
@@ -3930,23 +4118,23 @@
   "FCS-50-01-000010": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose a valid smoothing preset file.",
-      "ja": "有効なスムージングプリセットファイルを選択してください。"
+      "en": "The selected smoothing preset could not be loaded.",
+      "ja": "選択したスムージングプリセットを読み込めませんでした。"
     },
     "why": {
       "en": [
-        "The smoothing preset could not be read as YAML, is not a mapping, lacks a required region or parameter, or names an unsupported smoothing method."
+        "The preset may be incomplete, damaged, or saved by an incompatible FCS version."
       ],
       "ja": [
-        "スムージングプリセットがYAMLとして読めない、マッピング形式でない、必要な領域やパラメーターがない、または非対応の方式を指定しています。"
+        "プリセットが不完全、破損、または互換性のないFCSバージョンで保存された可能性があります。"
       ]
     },
     "resolution": {
       "en": [
-        "Load a preset saved by FCS. A hand-edited preset needs upper, gaze, lower and eyelid mappings. Each needs type: Smoothing, Peak, 1€ or Raw. Smoothing requires weight and reps; Peak requires threshold, width and linear_weight; 1€ optionally accepts min_cutoff and beta. Correct the YAML structure or save a fresh preset from the Smoothing controls."
+        "Choose another preset saved by this FCS version, or recreate the desired settings in Solver and save a new smoothing preset. Keep the original file if you ask support to recover it."
       ],
       "ja": [
-        "FCSで保存したプリセットを読み込んでください。手動編集する場合はupper、gaze、lower、eyelidのマッピングが必要です。各typeはSmoothing、Peak、1€、Rawのいずれかです。Smoothingにはweightとreps、Peakにはthreshold、width、linear_weightが必要です。1€にはmin_cutoffとbetaを任意で指定できます。YAMLを修正するか、スムージング設定から新しく保存してください。"
+        "このFCSバージョンで保存した別のプリセットを選ぶか、ソルバーで必要な設定を作り直して新しいスムージングプリセットを保存してください。復旧を依頼する場合は元のファイルを保持してください。"
       ]
     },
     "parameters": [],
@@ -4459,10 +4647,10 @@
     },
     "resolution": {
       "en": [
-        "Keep the Profile Editor open so the draft is retained. Check the profile name, source image and current controller data, and confirm write access to the project. Retry Save. If it still fails, copy the nearby Log entries before restarting; closing the editor can lose the unsaved draft."
+        "Keep the Editor window open so the draft is retained. Check the profile name, source image and current controller data, and confirm write access to the project. Retry Save. If it still fails, copy the nearby Log entries before restarting; closing the editor can lose the unsaved draft."
       ],
       "ja": [
-        "下書きを保持するため、Profile Editorを開いたままにしてください。プロファイル名、元画像、現在のコントローラーデータと、プロジェクトへの書き込み権限を確認して再度Saveしてください。再発する場合は再起動前に前後のログをコピーしてください。画面を閉じると未保存の編集内容を失う可能性があります。"
+        "下書きを保持するため、エディタを開いたままにしてください。プロファイル名、元画像、現在のコントローラーデータと、プロジェクトへの書き込み権限を確認して再度Saveしてください。再発する場合は再起動前に前後のログをコピーしてください。画面を閉じると未保存の編集内容を失う可能性があります。"
       ]
     },
     "parameters": [],
@@ -4525,23 +4713,23 @@
   "FCS-50-04-000002": {
     "severity": "ERROR",
     "message": {
-      "en": "Generate Profiles could not complete.",
-      "ja": "プロファイルの自動生成を完了できませんでした。"
+      "en": "Profiles could not be generated.",
+      "ja": "プロファイルを自動生成できませんでした。"
     },
     "why": {
       "en": [
-        "Generate Profiles has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+        "FCS could not create profiles from the selected video. The source video, reference profiles or generation options may be unavailable."
       ],
       "ja": [
-        "プロファイルの自動生成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+        "選択した動画からプロファイルを作成できませんでした。元動画、参照プロファイル、生成の設定を使用できない場合があります。"
       ]
     },
     "resolution": {
       "en": [
-        "Check the matching condition below, correct it, then retry Generate Profiles."
+        "Check the source video and generation options using the matching explanation below, then generate again. If a complete selection is rejected, report the generation window as an FCS problem."
       ],
       "ja": [
-        "以下の該当する条件を確認し、修正してからプロファイルの自動生成を再実行してください。"
+        "以下の該当する説明で元動画と生成の設定を確認してから再実行してください。すべて選択済みでも拒否される場合は、生成画面の問題として報告してください。"
       ]
     },
     "parameters": [
@@ -4569,6 +4757,10 @@
           "ja": [
             "現在のキャラクターのGalleryにプロファイルを1つ以上作成して保存し、再度自動生成してください。"
           ]
+        },
+        "title": {
+          "en": "No reference profile is available",
+          "ja": "参照プロファイルがない"
         }
       },
       "auto_profile_no_region_enabled": {
@@ -4591,28 +4783,36 @@
           "ja": [
             "自動生成のオプションでUpper、Eyelid、Gaze、Lowerの少なくとも1つを有効にしてから再実行してください。"
           ]
+        },
+        "title": {
+          "en": "No facial region is enabled",
+          "ja": "有効な顔領域がない"
         }
       },
       "auto_profile_invalid_selection": {
         "message": {
-          "en": "Choose an available video selection for automatic profile generation.",
-          "ja": "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
+          "en": "FCS could not use the saved profile-generation mode.",
+          "ja": "保存されたプロファイルの生成方法を使用できませんでした。"
         },
         "why": {
           "en": [
-            "The automatic-generation selection mode is neither General nor ROM."
+            "The profile-generation window has a saved selection that FCS cannot apply."
           ],
           "ja": [
-            "自動生成の選択モードがGeneralでもROMでもありません。"
+            "プロファイルの自動生成画面で、保存された選択内容をFCSが適用できませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Choose General to select representative frames, or ROM to select frames against reference profiles. Automation must send General or ROM with that spelling."
+            "Reopen the profile-generation window and select the intended mode again. If a mode shown by FCS still fails, report the problem; changing unrelated video settings will not repair it."
           ],
           "ja": [
-            "代表的なフレームを選ぶ場合はGeneral、参照プロファイルに対応するフレームを選ぶ場合はROMを選択してください。自動操作でもGeneralまたはROMをそのまま指定してください。"
+            "プロファイルの自動生成画面を開き直し、使用する方法を選び直してください。表示された選択肢でも失敗する場合は、問題を報告してください。無関係な動画設定を変更しても復旧できません。"
           ]
+        },
+        "title": {
+          "en": "Saved frame-selection mode cannot be used",
+          "ja": "保存されたフレーム選択方法を使用できない"
         }
       },
       "auto_profile_video_not_found": {
@@ -4635,6 +4835,10 @@
           "ja": [
             "動画が見つかりません。復元または再インポートしてからプロファイルを生成してください。"
           ]
+        },
+        "title": {
+          "en": "The source video is missing",
+          "ja": "元動画が見つからない"
         }
       },
       "session_retarget_folder_missing": {
@@ -4657,6 +4861,10 @@
           "ja": [
             "プロジェクト、Actor、Characterが設定されたセッションを開いてください。キャラクターデータは プロジェクト/FCS/Actor/Character にあり、その下にRetargetDataがあります。対象のキャラクターを開いてからプロファイル操作を再実行してください。"
           ]
+        },
+        "title": {
+          "en": "No character session is open",
+          "ja": "キャラクターのセッションが開かれていない"
         }
       },
       "unexpected": {
@@ -4679,28 +4887,36 @@
           "ja": [
             "現在のセッションとプロファイルの自動生成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
           ]
+        },
+        "title": {
+          "en": "FCS stopped unexpectedly",
+          "ja": "FCSで予期しない障害が発生"
         }
       },
       "required_rom_gallery_auto_profile_generate": {
         "message": {
-          "en": "Required fields for rom.gallery.auto_profile.generate: video_path. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "rom.gallery.auto_profile.generate の必須項目は video_path です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for rom.gallery.auto_profile.generate: video_path. Complete these fields before retrying. For automation, use these exact parameter names."
+            "Select the source video and the intended profile-generation options, then generate again. If all visible choices are set and this error returns, report the generation dialog as an FCS problem."
           ],
           "ja": [
-            "rom.gallery.auto_profile.generate の必須項目は video_path です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "元動画とプロファイル生成の設定を選択してから再実行してください。画面上の項目を設定済みでも再発する場合は、自動生成画面の問題として報告してください。"
           ]
+        },
+        "title": {
+          "en": "Generation options",
+          "ja": "自動生成の設定"
         }
       }
     }
@@ -4746,10 +4962,10 @@
     },
     "resolution": {
       "en": [
-        "In Controller Settings, assign Upper, Eyelid, Gaze or Lower to every controller, save the controller table, then train again."
+        "Open Window → Controllers and assign Upper, Eyelid, Gaze or Lower to every controller, save the controller table, then train again."
       ],
       "ja": [
-        "Controller Settingsで、すべてのコントローラーにUpper、Eyelid、Gaze、Lowerのいずれかを割り当て、表を保存してから再学習してください。"
+        "コントローラ画面で、すべてのコントローラーにUpper、Eyelid、Gaze、Lowerのいずれかを割り当て、表を保存してから再学習してください。"
       ]
     },
     "parameters": [],
@@ -4771,10 +4987,10 @@
     },
     "resolution": {
       "en": [
-        "Assign at least one controller to each required facial region in Controller Settings, save the table, then retry. Assigning every controller to one region does not fill the other groups."
+        "Assign at least one controller to each required facial region in the Controller window, save the table, then retry. Assigning every controller to one region does not fill the other groups."
       ],
       "ja": [
-        "Controller Settingsで必要な各顔領域に1つ以上のコントローラーを割り当て、表を保存してから再実行してください。すべてを1つの領域に割り当てても、他の領域は満たされません。"
+        "コントローラ画面で必要な各顔領域に1つ以上のコントローラーを割り当て、表を保存してから再実行してください。すべてを1つの領域に割り当てても、他の領域は満たされません。"
       ]
     },
     "parameters": [],
@@ -4783,23 +4999,23 @@
   "FCS-55-01-000017": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose a valid facial region for the controller.",
-      "ja": "コントローラーに有効な顔の領域を選択してください。"
+      "en": "A controller’s saved facial region could not be used.",
+      "ja": "コントローラーに保存された顔領域を使用できませんでした。"
     },
     "why": {
       "en": [
-        "A controller has an unrecognized or unassigned facial region."
+        "The controller may be unassigned, or its saved region may no longer be readable."
       ],
       "ja": [
-        "コントローラーの顔領域が未定義または未割り当てです。"
+        "領域が未割り当てか、保存された領域を読み取れない状態です。"
       ]
     },
     "resolution": {
       "en": [
-        "Choose Upper, Eyelid, Gaze or Lower for the controller. Automation uses upper, eyelid, gaze or lower. The null/unassigned value is not accepted when validating a saved controller."
+        "Open Window → Controllers and assign the affected controller to the correct facial region and save. If an existing assignment shown by FCS is rejected, report the controller name and selected region."
       ],
       "ja": [
-        "コントローラーの領域をUpper、Eyelid、Gaze、Lowerから選んでください。自動操作ではupper、eyelid、gaze、lowerを使用します。保存対象のコントローラーにnullや未割り当ては使用できません。"
+        "コントローラ画面で対象のコントローラーを正しい顔領域に割り当てて保存してください。FCSに表示されている割り当てでも拒否される場合は、コントローラー名と領域を報告してください。"
       ]
     },
     "parameters": [],
@@ -4833,23 +5049,23 @@
   "FCS-55-01-000018": {
     "severity": "ERROR",
     "message": {
-      "en": "The selected controller is no longer available. Refresh the controller list and select it again.",
-      "ja": "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
+      "en": "The selected controller is no longer available.",
+      "ja": "選択したコントローラーを使用できません。"
     },
     "why": {
       "en": [
-        "The requested controller name is absent from the current controller list."
+        "The controller may have been renamed or removed since the window was opened."
       ],
       "ja": [
-        "指定した名前のコントローラーが、現在の一覧にありません。"
+        "画面を開いた後に、コントローラーが名前変更または削除された可能性があります。"
       ]
     },
     "resolution": {
       "en": [
-        "Refresh Controller Settings and select an existing controller. If it was renamed or removed, update the selected name or automation request before retrying."
+        "Open Window → Controllers again and select the current controller again. If it is listed but cannot be used, report its name and the action that failed."
       ],
       "ja": [
-        "Controller Settingsを更新して既存のコントローラーを選択してください。名前変更や削除をした場合は、選択内容や自動操作の名前を更新してから再実行してください。"
+        "コントローラ画面を開き直し、現在のコントローラーを選び直してください。一覧に表示されているのに使用できない場合は、名前と失敗した操作を報告してください。"
       ]
     },
     "parameters": [],
@@ -4883,23 +5099,23 @@
   "FCS-55-01-000009": {
     "severity": "ERROR",
     "message": {
-      "en": "Every replacement controller name must be nonempty.",
-      "ja": "変更後のコントローラー名は、すべて空でない名前にしてください。"
+      "en": "A new controller name is blank.",
+      "ja": "変更後のコントローラー名が空欄です。"
     },
     "why": {
       "en": [
-        "At least one replacement controller name is an empty string."
+        "At least one selected controller has no new name in the rename preview."
       ],
       "ja": [
-        "変更後のコントローラー名の少なくとも1つが空の文字列です。"
+        "名前変更のプレビューで、少なくとも1つの新しい名前が空欄になっています。"
       ]
     },
     "resolution": {
       "en": [
-        "Enter a nonempty new name for every selected controller. In automation, check each new_names entry; matching list lengths alone is not enough if an entry is empty."
+        "In Rename Controllers, check the preview and enter a name for every selected controller before applying. If every name is shown and FCS still rejects the rename, report a screenshot of the preview."
       ],
       "ja": [
-        "選択した各コントローラーの新しい名前を入力してください。自動操作ではnew_namesの各要素を確認してください。要素数が合っていても、空の名前がある場合は変更できません。"
+        "Rename Controllersでプレビューを確認し、選択したすべてのコントローラーの名前を入力してから適用してください。名前が表示されているのに拒否される場合は、プレビューのスクリーンショットを添えて報告してください。"
       ]
     },
     "parameters": [],
@@ -4933,23 +5149,23 @@
   "FCS-55-01-000008": {
     "severity": "ERROR",
     "message": {
-      "en": "Select each controller only once in the rename list.",
-      "ja": "名前変更リストでは各コントローラーを1回だけ選択してください。"
+      "en": "FCS repeated a controller in the rename selection.",
+      "ja": "名前変更の対象でコントローラーが重複しました。"
     },
     "why": {
       "en": [
-        "The rename request lists the same source controller more than once."
+        "The same controller reached the rename action more than once."
       ],
       "ja": [
-        "名前変更の対象に、同じ元コントローラーが複数回指定されています。"
+        "同じコントローラーが、名前変更の処理に複数回渡されました。"
       ]
     },
     "resolution": {
       "en": [
-        "Select each source controller once. For automation, remove duplicate entries from old_names and retain one corresponding new name for each source."
+        "Reopen Rename Controllers and select the controllers again. If the preview contains each controller once and the error returns, report the problem with a screenshot of the preview."
       ],
       "ja": [
-        "元のコントローラーはそれぞれ1回だけ選択してください。自動操作ではold_namesの重複を除去し、各対象に対応する新しい名前を1つずつ指定してください。"
+        "Rename Controllersを開き直し、対象を選び直してください。プレビューに各コントローラーが1回ずつ表示されているのに再発する場合は、そのスクリーンショットを添えて報告してください。"
       ]
     },
     "parameters": [],
@@ -4958,23 +5174,23 @@
   "FCS-55-01-000010": {
     "severity": "ERROR",
     "message": {
-      "en": "Provide one new name for each controller being renamed.",
-      "ja": "名前を変更する各コントローラーに、新しい名前を1つずつ指定してください。"
+      "en": "FCS could not apply the rename preview.",
+      "ja": "名前変更のプレビューを適用できませんでした。"
     },
     "why": {
       "en": [
-        "The rename request has different numbers of source names and replacement names."
+        "FCS did not keep a complete new name for every selected controller. The rename was stopped before these names were changed."
       ],
       "ja": [
-        "名前変更の元の名前と新しい名前の数が一致していません。"
+        "選択した各コントローラーの新しい名前をFCSが正しく保持できず、変更前に処理を停止しました。"
       ]
     },
     "resolution": {
       "en": [
-        "Supply exactly one new name for each selected controller. In automation, old_names and new_names must have equal lengths and matching order."
+        "Close and reopen Rename Controllers, select the controllers again, and regenerate the preview. If the complete preview still fails, report this as an FCS rename problem."
       ],
       "ja": [
-        "選択したコントローラーごとに新しい名前を1つ指定してください。自動操作ではold_namesとnew_namesの要素数を同じにし、対応する順序で指定してください。"
+        "Rename Controllersを開き直し、対象を選び直してプレビューを作成してください。完全なプレビューでも失敗する場合は、FCSの名前変更の問題として報告してください。"
       ]
     },
     "parameters": [],
@@ -4996,10 +5212,10 @@
     },
     "resolution": {
       "en": [
-        "Remove duplicate rows or rename them so every controller name is unique, then save Controller Settings again."
+        "Remove duplicate rows or rename them so every controller name is unique, then save the controller settings again."
       ],
       "ja": [
-        "重複する行を削除するか、各コントローラー名が一意になるよう変更し、Controller Settingsを再度保存してください。"
+        "重複する行を削除するか、各コントローラー名が一意になるよう変更し、コントローラ画面を再度保存してください。"
       ]
     },
     "parameters": [],
@@ -5133,23 +5349,23 @@
   "FCS-55-01-000019": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose an available controller preset.",
-      "ja": "使用可能なコントローラープリセットを選択してください。"
+      "en": "The selected controller preset could not be loaded.",
+      "ja": "選択したコントローラープリセットを読み込めませんでした。"
     },
     "why": {
       "en": [
-        "The requested preset name is absent from the installed controller-preset list."
+        "FCS could not match the saved preset selection to an available preset."
       ],
       "ja": [
-        "指定したプリセット名が、インストールされているコントローラープリセットの一覧にありません。"
+        "保存された選択内容を、使用可能なプリセットに対応付けられませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Choose ARKit or Metahuman from the controller-preset list. Automation must use the spelling returned by controller.metadata. A preset name from another application is not an installed FCS preset."
+        "Open Window → Controllers again and select the intended preset again. If a preset offered by FCS still fails, report the preset name and FCS version through Bug Feedback."
       ],
       "ja": [
-        "コントローラープリセットの一覧からARKitまたはMetahumanを選択してください。自動操作ではcontroller.metadataが返す表記を使用してください。他のアプリのプリセット名を指定しても、FCSにインストールされたプリセットにはなりません。"
+        "コントローラ画面を開き直し、対象のプリセットを選び直してください。FCSに表示されたプリセットでも失敗する場合は、プリセット名とFCSバージョンをBug Feedbackで報告してください。"
       ]
     },
     "parameters": [],
@@ -5387,23 +5603,23 @@
   "FCS-55-02-000004": {
     "severity": "WARNING",
     "message": {
-      "en": "No saved controller settings are available to restore. Save the settings first.",
-      "ja": "復元できるコントローラー設定が保存されていません。先に設定を保存してください。"
+      "en": "There are no previously saved controller values to restore.",
+      "ja": "復元できる保存済みのコントローラー値がありません。"
     },
     "why": {
       "en": [
-        "No saved controller table is available for restoring numeric defaults."
+        "The current character does not have saved controller settings for this restore operation."
       ],
       "ja": [
-        "数値の初期値を復元するための保存済みコントローラー表がありません。"
+        "現在のキャラクターに、この復元操作で使用できる保存済みの設定がありません。"
       ]
     },
     "resolution": {
       "en": [
-        "Set the desired limits and defaults, then save Controller Settings. Restore can use that saved table afterward; it cannot recover settings that were never saved."
+        "Keep the current values or enter the intended limits manually. Save the controller settings only when those values are correct; this creates a restore point for later edits and cannot recover values that were never saved."
       ],
       "ja": [
-        "必要な上下限とデフォルト値を設定してController Settingsを保存してください。その後は保存済みの表から復元できます。一度も保存していない設定は復元できません。"
+        "現在の値を保持するか、必要な上下限を手入力してください。値を確認してからコントローラ画面を保存すると、以後の編集で復元に使用できます。一度も保存されていない値を取り戻すことはできません。"
       ]
     },
     "parameters": [],
@@ -5442,7 +5658,7 @@
     },
     "why": {
       "en": [
-        "The controller schema changed and some saved profile values no longer matched it, so those values were reset."
+        "The controller setup changed and some saved profile values no longer matched it, so those values were reset."
       ],
       "ja": [
         "コントローラーの構成変更により一部のプロファイル値が一致しなくなったため、その値をリセットしました。"
@@ -5556,6 +5772,10 @@
           "ja": [
             "必要な各顔領域にコントローラーが1つ以上必要です。不足している領域に割り当ててから、再度保存してください。"
           ]
+        },
+        "title": {
+          "en": "A facial region has no controllers",
+          "ja": "コントローラーのない顔領域がある"
         }
       },
       "invalid_region": {
@@ -5578,6 +5798,10 @@
           "ja": [
             "各コントローラーに顔の領域を指定する必要があります。未割り当てのコントローラーに領域を選択してから、再度保存してください。"
           ]
+        },
+        "title": {
+          "en": "A controller has no usable region",
+          "ja": "コントローラーの領域が未設定"
         }
       },
       "duplicate_name": {
@@ -5600,6 +5824,10 @@
           "ja": [
             "コントローラー名は重複できません。重複する行の名前を変更するか、行を削除してから、再度保存してください。"
           ]
+        },
+        "title": {
+          "en": "Controller names are duplicated",
+          "ja": "コントローラー名が重複"
         }
       },
       "invalid_range": {
@@ -5622,6 +5850,10 @@
           "ja": [
             "最大値は最小値より0.0001以上大きくする必要があります。最大値を上げるか最小値を下げてから、再度保存してください。例えば、最小値0、最大値1は有効です。"
           ]
+        },
+        "title": {
+          "en": "Minimum and Maximum are too close or reversed",
+          "ja": "最小値と最大値が近すぎるか逆順"
         }
       }
     }
@@ -5629,23 +5861,23 @@
   "FCS-55-04-000003": {
     "severity": "ERROR",
     "message": {
-      "en": "Rename Controllers could not complete.",
-      "ja": "コントローラー名の変更を完了できませんでした。"
+      "en": "The controllers could not be renamed.",
+      "ja": "コントローラー名を変更できませんでした。"
     },
     "why": {
       "en": [
-        "Rename Controllers has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+        "FCS could not apply the rename preview. Blank or duplicate new names and an out-of-date controller selection can block the rename."
       ],
       "ja": [
-        "コントローラー名の変更には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+        "名前変更のプレビューを適用できませんでした。新しい名前の空欄や重複、古い選択内容などで名前を変更できない場合があります。"
       ]
     },
     "resolution": {
       "en": [
-        "Check the matching condition below, correct it, then retry Rename Controllers."
+        "Check the preview against the matching condition below. If every displayed name is valid and the rename still fails, report the preview as an FCS problem."
       ],
       "ja": [
-        "以下の該当する条件を確認し、修正してからコントローラー名の変更を再実行してください。"
+        "以下の該当する条件とプレビューを比較してください。表示された名前がすべて正しいのに失敗する場合は、FCSの問題としてプレビューを報告してください。"
       ]
     },
     "parameters": [
@@ -5673,94 +5905,114 @@
           "ja": [
             "名前変更のプレビューで、変更後の各名前が一意になるよう修正してください。変更しないコントローラーの名前とも重複しないことを確認してから、再度適用してください。"
           ]
+        },
+        "title": {
+          "en": "A new name is already in use",
+          "ja": "新しい名前が使用済み"
         }
       },
       "controller_rename_duplicate_source": {
         "message": {
-          "en": "Select each controller only once in the rename list.",
-          "ja": "名前変更リストでは各コントローラーを1回だけ選択してください。"
+          "en": "FCS repeated a controller in the rename selection.",
+          "ja": "名前変更の対象でコントローラーが重複しました。"
         },
         "why": {
           "en": [
-            "The rename request lists the same source controller more than once."
+            "The same controller reached the rename action more than once."
           ],
           "ja": [
-            "名前変更の対象に、同じ元コントローラーが複数回指定されています。"
+            "同じコントローラーが、名前変更の処理に複数回渡されました。"
           ]
         },
         "resolution": {
           "en": [
-            "Select each source controller once. For automation, remove duplicate entries from old_names and retain one corresponding new name for each source."
+            "Reopen Rename Controllers and select the controllers again. If the preview contains each controller once and the error returns, report the problem with a screenshot of the preview."
           ],
           "ja": [
-            "元のコントローラーはそれぞれ1回だけ選択してください。自動操作ではold_namesの重複を除去し、各対象に対応する新しい名前を1つずつ指定してください。"
+            "Rename Controllersを開き直し、対象を選び直してください。プレビューに各コントローラーが1回ずつ表示されているのに再発する場合は、そのスクリーンショットを添えて報告してください。"
           ]
+        },
+        "title": {
+          "en": "Rename selection was repeated",
+          "ja": "名前変更の対象が重複"
         }
       },
       "controller_rename_length_mismatch": {
         "message": {
-          "en": "Provide one new name for each controller being renamed.",
-          "ja": "名前を変更する各コントローラーに、新しい名前を1つずつ指定してください。"
+          "en": "FCS could not apply the rename preview.",
+          "ja": "名前変更のプレビューを適用できませんでした。"
         },
         "why": {
           "en": [
-            "The rename request has different numbers of source names and replacement names."
+            "FCS did not keep a complete new name for every selected controller. The rename was stopped before these names were changed."
           ],
           "ja": [
-            "名前変更の元の名前と新しい名前の数が一致していません。"
+            "選択した各コントローラーの新しい名前をFCSが正しく保持できず、変更前に処理を停止しました。"
           ]
         },
         "resolution": {
           "en": [
-            "Supply exactly one new name for each selected controller. In automation, old_names and new_names must have equal lengths and matching order."
+            "Close and reopen Rename Controllers, select the controllers again, and regenerate the preview. If the complete preview still fails, report this as an FCS rename problem."
           ],
           "ja": [
-            "選択したコントローラーごとに新しい名前を1つ指定してください。自動操作ではold_namesとnew_namesの要素数を同じにし、対応する順序で指定してください。"
+            "Rename Controllersを開き直し、対象を選び直してプレビューを作成してください。完全なプレビューでも失敗する場合は、FCSの名前変更の問題として報告してください。"
           ]
+        },
+        "title": {
+          "en": "Rename preview is incomplete",
+          "ja": "名前変更のプレビューが不完全"
         }
       },
       "controller_rename_empty": {
         "message": {
-          "en": "Every replacement controller name must be nonempty.",
-          "ja": "変更後のコントローラー名は、すべて空でない名前にしてください。"
+          "en": "A new controller name is blank.",
+          "ja": "変更後のコントローラー名が空欄です。"
         },
         "why": {
           "en": [
-            "At least one replacement controller name is an empty string."
+            "At least one selected controller has no new name in the rename preview."
           ],
           "ja": [
-            "変更後のコントローラー名の少なくとも1つが空の文字列です。"
+            "名前変更のプレビューで、少なくとも1つの新しい名前が空欄になっています。"
           ]
         },
         "resolution": {
           "en": [
-            "Enter a nonempty new name for every selected controller. In automation, check each new_names entry; matching list lengths alone is not enough if an entry is empty."
+            "In Rename Controllers, check the preview and enter a name for every selected controller before applying. If every name is shown and FCS still rejects the rename, report a screenshot of the preview."
           ],
           "ja": [
-            "選択した各コントローラーの新しい名前を入力してください。自動操作ではnew_namesの各要素を確認してください。要素数が合っていても、空の名前がある場合は変更できません。"
+            "Rename Controllersでプレビューを確認し、選択したすべてのコントローラーの名前を入力してから適用してください。名前が表示されているのに拒否される場合は、プレビューのスクリーンショットを添えて報告してください。"
           ]
+        },
+        "title": {
+          "en": "A new name is blank",
+          "ja": "新しい名前が空欄"
         }
       },
       "unknown_controller": {
         "message": {
-          "en": "The selected controller is no longer available. Refresh the controller list and select it again.",
-          "ja": "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
+          "en": "The selected controller is no longer available.",
+          "ja": "選択したコントローラーを使用できません。"
         },
         "why": {
           "en": [
-            "The requested controller name is absent from the current controller list."
+            "The controller may have been renamed or removed since the window was opened."
           ],
           "ja": [
-            "指定した名前のコントローラーが、現在の一覧にありません。"
+            "画面を開いた後に、コントローラーが名前変更または削除された可能性があります。"
           ]
         },
         "resolution": {
           "en": [
-            "Refresh Controller Settings and select an existing controller. If it was renamed or removed, update the selected name or automation request before retrying."
+            "Open Window → Controllers again and select the current controller again. If it is listed but cannot be used, report its name and the action that failed."
           ],
           "ja": [
-            "Controller Settingsを更新して既存のコントローラーを選択してください。名前変更や削除をした場合は、選択内容や自動操作の名前を更新してから再実行してください。"
+            "コントローラ画面を開き直し、現在のコントローラーを選び直してください。一覧に表示されているのに使用できない場合は、名前と失敗した操作を報告してください。"
           ]
+        },
+        "title": {
+          "en": "A selected controller no longer exists",
+          "ja": "選択したコントローラーが存在しない"
         }
       },
       "unexpected": {
@@ -5783,28 +6035,36 @@
           "ja": [
             "現在のセッションとコントローラー名の変更で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
           ]
+        },
+        "title": {
+          "en": "FCS stopped unexpectedly",
+          "ja": "FCSで予期しない障害が発生"
         }
       },
       "required_controller_rename_many": {
         "message": {
-          "en": "Required fields for controller.rename_many: old_names, new_names. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "controller.rename_many の必須項目は old_names, new_names です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for controller.rename_many: old_names, new_names. Complete these fields before retrying. For automation, use these exact parameter names."
+            "Reopen Rename Controllers, select the controllers again, and check the preview before applying. If a complete preview is rejected, report the problem; FCS did not complete the rename."
           ],
           "ja": [
-            "controller.rename_many の必須項目は old_names, new_names です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "Rename Controllersを開き直し、対象を選び直してプレビューを確認してから適用してください。完全なプレビューでも拒否される場合は報告してください。名前の変更は完了していません。"
           ]
+        },
+        "title": {
+          "en": "Rename preview",
+          "ja": "名前変更のプレビュー"
         }
       }
     }
@@ -5812,23 +6072,23 @@
   "FCS-55-04-000004": {
     "severity": "ERROR",
     "message": {
-      "en": "Paste Controller Limits could not complete.",
-      "ja": "コントローラー上下限の貼り付けを完了できませんでした。"
+      "en": "The controller limits could not be pasted.",
+      "ja": "コントローラーの上下限を貼り付けられませんでした。"
     },
     "why": {
       "en": [
-        "Paste Controller Limits has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+        "The copied values could not be applied as numeric limits for the selected controller."
       ],
       "ja": [
-        "コントローラー上下限の貼り付けには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+        "コピーした値を、選択したコントローラーの数値の上下限として適用できませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Check the matching condition below, correct it, then retry Paste Controller Limits."
+        "Copy limits from an existing controller again, then paste them onto the intended controller. If you use plain text, check the format and range described below."
       ],
       "ja": [
-        "以下の該当する条件を確認し、修正してからコントローラー上下限の貼り付けを再実行してください。"
+        "既存のコントローラーから上下限をコピーし直し、対象に貼り付けてください。テキストを使用する場合は、以下の形式と範囲を確認してください。"
       ]
     },
     "parameters": [
@@ -5856,6 +6116,10 @@
           "ja": [
             "最小値,最大値,デフォルト値の順に指定してください（例：0,1,0.5）。最大値は最小値より 0.0001 以上大きくしてください。既存のコントローラーから上下限をコピーして、再度貼り付けることを推奨します。"
           ]
+        },
+        "title": {
+          "en": "Copied limits cannot be pasted",
+          "ja": "コピーした上下限を貼り付けられない"
         }
       },
       "invalid_controller_range": {
@@ -5878,6 +6142,10 @@
           "ja": [
             "最小値と最大値には有限の数値を入力し、最大値 − 最小値を 0.0001 以上にしてください。例えば0と1は有効です。最大値を上げるか最小値を下げてください。一律の−1～1という制限はありません。"
           ]
+        },
+        "title": {
+          "en": "Copied limits are invalid",
+          "ja": "コピーした上下限が不正"
         }
       },
       "unexpected": {
@@ -5900,6 +6168,10 @@
           "ja": [
             "現在のセッションとコントローラー上下限の貼り付けで作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
           ]
+        },
+        "title": {
+          "en": "FCS stopped unexpectedly",
+          "ja": "FCSで予期しない障害が発生"
         }
       }
     }
@@ -5974,7 +6246,7 @@
     },
     "resolution": {
       "en": [
-        "Train the current character from its profiles, or load a solver that matches that character’s controller schema. Retry prediction after the solver is available."
+        "Train the current character from its profiles, or load a solver that matches that character’s controller setup. Retry prediction after the solver is available."
       ],
       "ja": [
         "現在のキャラクターのプロファイルから学習するか、そのコントローラー構成に合うソルバーを読み込んでください。ソルバーを使用できる状態で予測を再実行してください。"
@@ -6340,7 +6612,7 @@
     },
     "resolution": {
       "en": [
-        "Select the intended character and check its current profiles and controller schema. Train or load a solver for that same character, then retry prediction. If a newly trained solver also fails, preserve the session and Log for Bug Feedback."
+        "Select the intended character and check its current profiles and controller setup. Train or load a solver for that same character, then retry prediction. If a newly trained solver also fails, preserve the session and Log for Bug Feedback."
       ],
       "ja": [
         "対象のキャラクターと、現在のプロファイルおよびコントローラー構成を確認してください。同じキャラクター用のソルバーを学習または読み込み、再予測してください。学習し直しても失敗する場合は、セッションとログを保持してBug Feedbackで報告してください。"
@@ -6456,7 +6728,7 @@
   "FCS-70-08-000004": {
     "severity": "WARNING",
     "message": {
-      "en": "Some animation adjustments could not be applied. Review the delivered motion and the selected Train settings, then retry the affected adjustments.",
+      "en": "Some animation adjustments could not be applied. Review the delivered motion and the selected Solver settings, then retry the affected adjustments.",
       "ja": "一部のアニメーション調整を適用できませんでした。反映された動きと学習ウィンドウの設定を確認してから、適用できなかった調整を再試行してください。"
     },
     "why": {
@@ -6469,7 +6741,7 @@
     },
     "resolution": {
       "en": [
-        "Some animation adjustments could not be applied. Review the delivered motion and the selected Train settings, then retry the affected adjustments."
+        "Some animation adjustments could not be applied. Review the delivered motion and the selected Solver settings, then retry the affected adjustments."
       ],
       "ja": [
         "一部のアニメーション調整を適用できませんでした。反映された動きと学習ウィンドウの設定を確認してから、適用できなかった調整を再試行してください。"
@@ -6750,23 +7022,23 @@
   "FCS-80-01-000013": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose scene settings for the renderer selected in this session.",
-      "ja": "このセッションで選択されているレンダラーのシーン設定を指定してください。"
+      "en": "FCS could not apply the scene settings for the selected application.",
+      "ja": "選択したアプリのシーン設定を適用できませんでした。"
     },
     "why": {
       "en": [
-        "The request supplied scene settings belonging to a renderer other than the one selected for this session."
+        "The session contains scene settings that do not match its selected application. This can happen with a moved or older session."
       ],
       "ja": [
-        "現在のセッションで選択されているDCCとは異なるDCC用のシーン設定が指定されています。"
+        "セッションのシーン設定が、選択したアプリと一致していません。移動したセッションや以前の設定で発生する場合があります。"
       ]
     },
     "resolution": {
       "en": [
-        "Choose scene settings for the renderer selected in this session."
+        "Keep a backup of the session. Open File → Session → Info and check that the selected application and scene belong together. If the displayed settings are correct but rejected, report the problem through Bug Feedback."
       ],
       "ja": [
-        "このセッションで選択されているレンダラーのシーン設定を指定してください。"
+        "セッションのバックアップを保持してください。［ファイル］→［セッション］→［情報...］で、選択したアプリとシーンが対応していることを確認してください。表示内容が正しいのに拒否される場合はBug Feedbackで報告してください。"
       ]
     },
     "parameters": [],
@@ -6780,18 +7052,18 @@
     },
     "why": {
       "en": [
-        "The selected Blender version does not match a supported major.minor identifier."
+        "This session or application selection refers to a Blender version that this FCS build cannot use."
       ],
       "ja": [
-        "選択したBlenderバージョンが対応するメジャー.マイナー形式の識別子と一致しません。"
+        "セッションまたはアプリの選択が、このFCSビルドで使用できないBlenderバージョンを参照しています。"
       ]
     },
     "resolution": {
       "en": [
-        "Select one of these Blender versions: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. For example, use 4.5 rather than 4.5.0 or Blender 4.5."
+        "Check the Blender version actually installed, then select that version in the session or application settings. This FCS build supports: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. If your installed version is not supported, use a compatible FCS build or ask your administrator about installing a supported Blender version. If a version offered by FCS still fails, report the selected version and FCS version."
       ],
       "ja": [
-        "Blenderのバージョンは 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 から選択してください。例えば4.5.0やBlender 4.5ではなく、4.5を指定してください。"
+        "実際にインストールされているBlenderバージョンを確認し、セッションまたはアプリの設定で選択してください。このFCSビルドの対応バージョンは 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 です。非対応のバージョンを使用している場合は、対応するFCSビルドを使用するか、管理者に対応バージョンの導入を相談してください。FCSに表示されたバージョンでも失敗する場合は、そのバージョンとFCSバージョンを報告してください。"
       ]
     },
     "parameters": [],
@@ -6805,18 +7077,18 @@
     },
     "why": {
       "en": [
-        "The selected Maya version is not among the supported version identifiers."
+        "This session or application selection refers to a Maya version that this FCS build cannot use."
       ],
       "ja": [
-        "選択したMayaバージョンが対応するバージョン識別子に含まれていません。"
+        "セッションまたはアプリの選択が、このFCSビルドで使用できないMayaバージョンを参照しています。"
       ]
     },
     "resolution": {
       "en": [
-        "Select one of these Maya versions: 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027. Use the four-digit year, for example 2026, rather than a product name or decimal version."
+        "Check the Maya version actually installed, then select that version in the session or application settings. This FCS build supports: 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027. If your installed version is not supported, use a compatible FCS build or ask your administrator about installing a supported Maya version. If a version offered by FCS still fails, report the selected version and FCS version."
       ],
       "ja": [
-        "Mayaのバージョンは 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 から選択してください。製品名や小数ではなく、2026のような4桁の年を指定してください。"
+        "実際にインストールされているMayaバージョンを確認し、セッションまたはアプリの設定で選択してください。このFCSビルドの対応バージョンは 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 です。非対応のバージョンを使用している場合は、対応するFCSビルドを使用するか、管理者に対応バージョンの導入を相談してください。FCSに表示されたバージョンでも失敗する場合は、そのバージョンとFCSバージョンを報告してください。"
       ]
     },
     "parameters": [],
@@ -6825,23 +7097,23 @@
   "FCS-80-01-000019": {
     "severity": "ERROR",
     "message": {
-      "en": "Choose Maya or Blender as the renderer.",
-      "ja": "レンダラーとしてMayaまたはBlenderを選択してください。"
+      "en": "FCS could not use the selected scene application.",
+      "ja": "選択したシーンのアプリを使用できませんでした。"
     },
     "why": {
       "en": [
-        "The requested renderer identifier is not a supported Maya or Blender backend."
+        "FCS could not recognize the saved application selection for this action."
       ],
       "ja": [
-        "指定されたDCCの識別子が、対応するMayaまたはBlenderではありません。"
+        "この操作で、保存されたアプリの選択内容をFCSが認識できませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "Choose Maya or Blender as the renderer."
+        "Reopen File → Session → Info and check the selected application and scene. If the displayed selection is correct and the error returns, report the session and the action that failed."
       ],
       "ja": [
-        "レンダラーとしてMayaまたはBlenderを選択してください。"
+        "［ファイル］→［セッション］→［情報...］を開き直し、選択したアプリとシーンを確認してください。表示内容が正しいのに再発する場合は、セッションと失敗した操作を報告してください。"
       ]
     },
     "parameters": [],
@@ -6913,10 +7185,10 @@
     },
     "resolution": {
       "en": [
-        "In Session Settings, select an existing .ma or .mb scene for Maya, or .blend for Blender. The renderer-launch check ignores extension case. Save or convert the scene in its owning application; renaming another format does not convert it."
+        "In File → Session → Info, select an existing .ma or .mb scene for Maya, or .blend for Blender. The renderer-launch check ignores extension case. Save or convert the scene in its owning application; renaming another format does not convert it."
       ],
       "ja": [
-        "Session Settingsで、Mayaでは既存の .ma または .mb、Blenderでは .blend シーンを選択してください。DCC起動時の拡張子検証では大文字・小文字を区別しません。元のアプリから正しい形式で保存または変換してください。別形式のファイル名を変更するだけでは変換できません。"
+        "［ファイル］→［セッション］→［情報...］で、Mayaでは既存の .ma または .mb、Blenderでは .blend シーンを選択してください。DCC起動時の拡張子検証では大文字・小文字を区別しません。元のアプリから正しい形式で保存または変換してください。別形式のファイル名を変更するだけでは変換できません。"
       ]
     },
     "parameters": [],
@@ -7279,23 +7551,23 @@
   "FCS-80-05-000001": {
     "severity": "ERROR",
     "message": {
-      "en": "Automatic Maya plug-in installation is unavailable on this system. Install the plug-in manually or contact support.",
-      "ja": "このシステムではMayaプラグインの自動インストールを使用できません。手動でインストールするか、サポートにお問い合わせください。"
+      "en": "Automatic Maya plug-in installation is unavailable on this operating system.",
+      "ja": "このOSではMayaプラグインの自動インストールを使用できません。"
     },
     "why": {
       "en": [
-        "Automatic Maya plug-in installation is not implemented for this operating system."
+        "The automatic installer does not support this operating system; changing the Maya scene will not enable it."
       ],
       "ja": [
-        "このOSでは、Mayaプラグインの自動インストールに対応していません。"
+        "自動インストーラーがこのOSに対応していません。Mayaシーンを変更しても有効にはなりません。"
       ]
     },
     "resolution": {
       "en": [
-        "Automatic Maya plug-in installation is unavailable on this system. Install the plug-in manually or contact support."
+        "Use Bug Feedback or your support contact to request the Maya plug-in package and installation instructions for your operating system. Include the OS, Maya version and FCS version."
       ],
       "ja": [
-        "このシステムではMayaプラグインの自動インストールを使用できません。手動でインストールするか、サポートにお問い合わせください。"
+        "Bug Feedbackまたはサポート窓口に、このOS用のMayaプラグインとインストール手順を依頼してください。OS、Mayaバージョン、FCSバージョンを添えてください。"
       ]
     },
     "parameters": [],
@@ -7304,27 +7576,23 @@
   "FCS-80-04-000003": {
     "severity": "ERROR",
     "message": {
-      "en": "The Maya plug-in could not be installed. Contact support.",
-      "ja": "Mayaプラグインをインストールできませんでした。サポートにお問い合わせください。"
+      "en": "FCS could not install the Maya plug-in.",
+      "ja": "Mayaプラグインをインストールできませんでした。"
     },
     "why": {
       "en": [
-        "The automatic FCS plug-in installation into the selected Maya installation failed."
+        "The plug-in files could not be installed into the selected Maya setup."
       ],
       "ja": [
-        "選択したMayaへのFCSプラグインの自動インストールに失敗しました。"
+        "選択したMaya環境に、プラグインのファイルをインストールできませんでした。"
       ]
     },
     "resolution": {
       "en": [
-        "The Maya plug-in could not be installed. Contact support.",
-        "Keep unsaved work and completed outputs. Copy the displayed code and Log message and note the action, time, FCS version, and affected inputs.",
-        "If the same action still fails after the stated checks, send a Bug Feedback report with those details. A report saved locally is not confirmation of server delivery."
+        "Close Maya, check its installation location in FCS Settings, and retry plug-in installation. If it still fails, report your OS, Maya version, FCS version and the installation message through Bug Feedback."
       ],
       "ja": [
-        "Mayaプラグインをインストールできませんでした。サポートにお問い合わせください。",
-        "未保存の作業と出力済みのファイルを保持してください。表示されたコードとログのメッセージをコピーし、操作内容、時刻、FCSバージョン、対象の入力を記録してください。",
-        "指定された確認後も同じ操作で失敗する場合は、これらの情報を添えてBug Feedbackから報告してください。ローカルに保存された報告は、サーバーへの送信完了を意味しません。"
+        "Mayaを閉じ、FCSの設定でMayaのインストール先を確認してから、プラグインのインストールを再実行してください。再発する場合はOS、Mayaバージョン、FCSバージョン、表示されたメッセージをBug Feedbackで報告してください。"
       ]
     },
     "parameters": [],
@@ -7781,7 +8049,7 @@
         "In Video Library, restore each missing source or update its file location. Reconnect a disconnected source drive. Retry export after the videos are readable, or choose No video when a media copy is not required."
       ],
       "ja": [
-        "Video Libraryで不足する元動画を復元するか、ファイルの場所を更新してください。切断されたドライブは再接続してください。動画が読み取れる状態で再実行するか、動画のコピーが不要ならNo videoを選択してください。"
+        "動画ライブラリで不足する元動画を復元するか、ファイルの場所を更新してください。切断されたドライブは再接続してください。動画が読み取れる状態で再実行するか、動画のコピーが不要ならNo videoを選択してください。"
       ]
     },
     "parameters": [],
@@ -7906,7 +8174,7 @@
         "Restore those videos to their registered locations or relink them in Video Library. Files with the same names in another directory are not automatically used. Reconnect a source drive before retrying export."
       ],
       "ja": [
-        "対象の動画を登録された場所に復元するか、Video Libraryで再リンクしてください。別のフォルダーに同名の動画があっても自動では使用されません。元動画のドライブを再接続してから再実行してください。"
+        "対象の動画を登録された場所に復元するか、動画ライブラリで再リンクしてください。別のフォルダーに同名の動画があっても自動では使用されません。元動画のドライブを再接続してから再実行してください。"
       ]
     },
     "parameters": [
@@ -7961,6 +8229,10 @@
           "ja": [
             "エクスポート先を選び、ActorとCharacterの両方を入力してください。保存先は エクスポート先/FCS/Actor/Character になります。"
           ]
+        },
+        "title": {
+          "en": "Missing export information",
+          "ja": "エクスポート情報の不足"
         }
       },
       "source_overlap": {
@@ -7983,6 +8255,10 @@
           "ja": [
             "保存先のキャラクターフォルダーは現在のキャラクターフォルダーの外側にしてください。同じ場所、その親フォルダー、その内部は使用できません。エクスポート先、Actor、Characterのいずれかを変更してください。"
           ]
+        },
+        "title": {
+          "en": "Destination overlaps the current session",
+          "ja": "現在のセッションと保存先が重複"
         }
       },
       "existing_target": {
@@ -8005,6 +8281,10 @@
           "ja": [
             "保存先に同じキャラクターフォルダーがあります。別の保存先またはキャラクター名を選んでください。置き換える場合は、既存のキャラクターをバックアップし、置き換える対象を確認してください。"
           ]
+        },
+        "title": {
+          "en": "Character already exists at the destination",
+          "ja": "保存先に同じキャラクターが存在"
         }
       },
       "project_video_target": {
@@ -8027,19 +8307,23 @@
           "ja": [
             "Associated videos または All files を選択した場合、現在のプロジェクトとは別のフォルダーに出力してください。元動画のコピーが不要な場合は No video を選べます。"
           ]
+        },
+        "title": {
+          "en": "Videos would overwrite the current project",
+          "ja": "動画の保存先が現在のプロジェクトと重複"
         }
       },
       "missing_video": {
         "message": {
           "en": "Associated videos and All files require the source videos to exist at their stored locations. Restore the original files or update their paths in Video Library, then retry. Choose No video only if the exported session does not need a media copy.",
-          "ja": "Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
+          "ja": "Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、動画ライブラリでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
         },
         "why": {
           "en": [
             "Associated videos and All files require the source videos to exist at their stored locations. Restore the original files or update their paths in Video Library, then retry. Choose No video only if the exported session does not need a media copy."
           ],
           "ja": [
-            "Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
+            "Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、動画ライブラリでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
           ]
         },
         "resolution": {
@@ -8047,21 +8331,25 @@
             "Associated videos and All files require the source videos to exist at their stored locations. Restore the original files or update their paths in Video Library, then retry. Choose No video only if the exported session does not need a media copy."
           ],
           "ja": [
-            "Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
+            "Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、動画ライブラリでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
           ]
+        },
+        "title": {
+          "en": "Source videos are missing",
+          "ja": "元動画が見つからない"
         }
       },
       "filename_collision": {
         "message": {
           "en": "All files cannot flatten different source files with the same filename into one export folder. Give the source files unique filenames and update their Video Library paths, or export Associated videos instead.",
-          "ja": "All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo Libraryのパスを更新するか、Associated videos を選択してください。"
+          "ja": "All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にして動画ライブラリのパスを更新するか、Associated videos を選択してください。"
         },
         "why": {
           "en": [
             "All files cannot flatten different source files with the same filename into one export folder. Give the source files unique filenames and update their Video Library paths, or export Associated videos instead."
           ],
           "ja": [
-            "All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo Libraryのパスを更新するか、Associated videos を選択してください。"
+            "All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にして動画ライブラリのパスを更新するか、Associated videos を選択してください。"
           ]
         },
         "resolution": {
@@ -8069,8 +8357,12 @@
             "All files cannot flatten different source files with the same filename into one export folder. Give the source files unique filenames and update their Video Library paths, or export Associated videos instead."
           ],
           "ja": [
-            "All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo Libraryのパスを更新するか、Associated videos を選択してください。"
+            "All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にして動画ライブラリのパスを更新するか、Associated videos を選択してください。"
           ]
+        },
+        "title": {
+          "en": "Different videos have the same filename",
+          "ja": "異なる動画のファイル名が重複"
         }
       },
       "maya_scene": {
@@ -8093,6 +8385,10 @@
           "ja": [
             "エクスポート先のDCCをMayaに変更する場合、既存の .ma または .mb シーンを選択してください。拡張子は小文字にしてください。相対パスはエクスポート先を基準に解決されます。シーンを復元するか、実際の場所を選択してください。"
           ]
+        },
+        "title": {
+          "en": "Maya scene cannot be opened",
+          "ja": "Mayaシーンを開けない"
         }
       },
       "maya_workspace": {
@@ -8115,6 +8411,10 @@
           "ja": [
             "Mayaに変更する場合、既存のMayaワークスペースフォルダーを選択してください。シーンファイルではなくフォルダーを指定してください。ドライブが使用できない場合は再接続してから選び直してください。"
           ]
+        },
+        "title": {
+          "en": "Maya project folder is unavailable",
+          "ja": "Mayaプロジェクトフォルダーを使用できない"
         }
       },
       "blender_scene": {
@@ -8137,6 +8437,10 @@
           "ja": [
             "エクスポート先のDCCをBlenderに変更する場合、既存の .blend シーンを選択してください。拡張子の大文字・小文字は区別しません。相対パスはエクスポート先を基準に解決されます。"
           ]
+        },
+        "title": {
+          "en": "Blender scene cannot be opened",
+          "ja": "Blenderシーンを開けない"
         }
       },
       "renderer": {
@@ -8159,50 +8463,62 @@
           "ja": [
             "エクスポートするセッションのDCCはMayaまたはBlenderを選択してください。他のDCCは使用できません。"
           ]
+        },
+        "title": {
+          "en": "Saved application selection cannot be used",
+          "ja": "保存されたアプリの選択を使用できない"
         }
       },
       "required_export_session": {
         "message": {
-          "en": "Required fields for export.session: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "export.session の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for export.session: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names."
+            "In Export Session, choose a destination and enter Actor and Character, then try Export again. If they were already filled in, close and reopen the export window; report the problem if it returns."
           ],
           "ja": [
-            "export.session の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "Export Sessionで保存先を選び、ActorとCharacterを入力してから再実行してください。入力済みだった場合は出力画面を開き直し、再発する場合は報告してください。"
           ]
+        },
+        "title": {
+          "en": "Export settings",
+          "ja": "エクスポート設定"
         }
       },
       "required_export_session_validate": {
         "message": {
-          "en": "Required fields for export.session.validate: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names.",
-          "ja": "export.session.validate の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+          "en": "FCS did not receive the information needed to continue.",
+          "ja": "続行に必要な情報をFCSが受け取れませんでした。"
         },
         "why": {
           "en": [
-            "The operation was submitted without a required field."
+            "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
           ],
           "ja": [
-            "操作に必要なフィールドが指定されていません。"
+            "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
           ]
         },
         "resolution": {
           "en": [
-            "Required fields for export.session.validate: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names."
+            "In Export Session, choose a destination and enter Actor and Character. If the completed form is still rejected, reopen the window and report the problem with a screenshot."
           ],
           "ja": [
-            "export.session.validate の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+            "Export Sessionで保存先を選び、ActorとCharacterを入力してください。入力済みでも拒否される場合は画面を開き直し、スクリーンショットを添えて報告してください。"
           ]
+        },
+        "title": {
+          "en": "Export settings",
+          "ja": "エクスポート設定"
         }
       },
       "maya_version": {
@@ -8225,6 +8541,10 @@
           "ja": [
             "Maya用の出力では、対応する4桁の年 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 から選択してください。"
           ]
+        },
+        "title": {
+          "en": "Unsupported Maya version",
+          "ja": "Mayaのバージョンが非対応"
         }
       },
       "blender_version": {
@@ -8247,6 +8567,10 @@
           "ja": [
             "Blender用の出力では、対応するメジャー.マイナーバージョン 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 から選択してください。例えば4.5.0ではなく4.5を指定してください。"
           ]
+        },
+        "title": {
+          "en": "Unsupported Blender version",
+          "ja": "Blenderのバージョンが非対応"
         }
       }
     }

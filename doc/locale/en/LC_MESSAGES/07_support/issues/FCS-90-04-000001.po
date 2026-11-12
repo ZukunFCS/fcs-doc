@@ -1,64 +1,31 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-90-04-000001.md:4
-msgid "FCS-90-04-000001"
-msgstr ""
-
-#: ../../07_support/issues/FCS-90-04-000001.md:6
-msgid "WARNING"
-msgstr ""
-
-#: ../../07_support/issues/FCS-90-04-000001.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-90-04-000001.md:10
-msgid "指定されたスクリーンショットを保存できませんでした。もう一度試すか、サポートにお問い合わせください。"
-msgstr "The requested screenshot was not saved. Try again or contact support."
-
-#: ../../07_support/issues/FCS-90-04-000001.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-90-04-000001.md:14
-msgid "スクリーンショットの取得または保存に失敗し、画像ファイルを確認できませんでした。"
-msgstr ""
-"The screenshot-capture or save step failed; a screenshot file was not "
-"confirmed."
-
-#: ../../07_support/issues/FCS-90-04-000001.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-90-04-000001.md:18
-msgid ""
-"スクリーンショットの保存先に書き込み権限と空き容量があることを確認し、再度取得してください。Bug "
-"Feedbackでは、添付されたと判断する前に画像の存在を確認してください。取得できない場合も、ログと再現手順を送信してください。"
-msgstr ""
-"Check that the screenshot destination is writable and has free space, "
-"then capture again. For Bug Feedback, verify that the image exists before"
-" assuming it is attached; send the Log and reproduction steps even if a "
-"screenshot remains unavailable."
+msgid "指定されたスクリーンショットを保存できませんでした。もう一度試すか、サポートにお問い合わせください。"
+msgstr "The requested screenshot was not saved. Try again or contact support."
 
-#: ../../07_support/issues/FCS-90-04-000001.md:20
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "スクリーンショットの取得または保存に失敗し、画像ファイルを確認できませんでした。"
+msgstr "The screenshot-capture or save step failed; a screenshot file was not confirmed."
+
+msgid "スクリーンショットの保存先に書き込み権限と空き容量があることを確認し、再度取得してください。Bug Feedbackでは、添付されたと判断する前に画像の存在を確認してください。取得できない場合も、ログと再現手順を送信してください。"
+msgstr "Check that the screenshot destination is writable and has free space, then capture again. For Bug Feedback, verify that the image exists before assuming it is attached; send the Log and reproduction steps even if a screenshot remains unavailable."
+
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr "[Browse this family](family-04.md)"
 
-#: ../../07_support/issues/FCS-90-04-000001.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-

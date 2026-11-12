@@ -1,59 +1,31 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-50-01-000009.md:4
-msgid "FCS-50-01-000009"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-01-000009.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-01-000009.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-50-01-000009.md:10
-msgid "プロファイルに使用可能な顔の領域を選択してください。"
-msgstr "Choose an available facial region for the profile."
-
-#: ../../07_support/issues/FCS-50-01-000009.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-50-01-000009.md:14
-msgid "指定されたプロファイルの領域名が、顔領域の識別子として認識されません。"
-msgstr "The supplied profile region is not a recognized facial-region identifier."
-
-#: ../../07_support/issues/FCS-50-01-000009.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-50-01-000009.md:18
-msgid "プロファイル設定でUpper、Eyelid、Gaze、Lowerから選択してください。自動操作の識別子はupper、eyelid、gaze、lowerです。翻訳したラベルで置き換えないでください。"
-msgstr ""
-"Select Upper, Eyelid, Gaze or Lower in the profile controls. Automation "
-"identifiers are upper, eyelid, gaze and lower; do not substitute "
-"translated labels."
+msgid "プロファイルに保存された顔領域を使用できませんでした。"
+msgstr "A profile’s saved facial region could not be used."
 
-#: ../../07_support/issues/FCS-50-01-000009.md:20
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "プロファイルの顔領域の選択内容をFCSが読み取れませんでした。"
+msgstr "FCS could not read the profile’s facial-region selection."
+
+msgid "対象のプロファイルをエディタで開き、使用する顔領域を選択して保存してください。表示された領域を選んでも失敗する場合は、プロファイル名と選択した領域を報告してください。"
+msgstr "Open the affected profile in the Editor window, select its intended facial region, and save. If a region offered by FCS still fails, report the profile name and the region you selected."
+
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
-#: ../../07_support/issues/FCS-50-01-000009.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-
