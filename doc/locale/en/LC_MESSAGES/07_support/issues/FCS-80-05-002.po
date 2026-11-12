@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "設定で対応しているBlenderのバージョンを選択してください。"
+msgstr "Choose a supported Blender version in Settings."
+
+msgid "選択したアプリケーションのバージョン、形式、またはオプションは、現在のワークフローでは対応していません。"
+msgstr "The selected application version, format, or option is not supported by the current workflow."

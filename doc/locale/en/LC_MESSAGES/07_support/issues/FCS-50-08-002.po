@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "同じフレームに矛盾するプロファイル拘束がありました。FCSは最初の値を保持しました。対象のプロファイルを確認してください。"
+msgstr "Conflicting profile constraints were found at the same frame. FCS kept the first value. Check the affected profiles."
+
+msgid "複数の入力が同じ項目またはフレームに矛盾する値を指定しています。保持された結果はメッセージに示されています。"
+msgstr "Multiple inputs request incompatible values for the same item or frame. The retained result is described by the message."

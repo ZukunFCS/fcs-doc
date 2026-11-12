@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "スムージングプリセットの名前を入力してください。"
+msgstr "Enter a name for the smoothing preset."
+
+msgid "入力または選択が空のため、この操作に使用できる有効な項目がありません。"
+msgstr "The input or selection is empty, so there is no valid item for the action to use."

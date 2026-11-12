@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "このシステムではMayaプラグインの自動インストールを使用できません。手動でインストールするか、サポートにお問い合わせください。"
+msgstr "Automatic Maya plug-in installation is unavailable on this system. Install the plug-in manually or contact support."
+
+msgid "選択したアプリケーションのバージョン、形式、またはオプションは、現在のワークフローでは対応していません。"
+msgstr "The selected application version, format, or option is not supported by the current workflow."

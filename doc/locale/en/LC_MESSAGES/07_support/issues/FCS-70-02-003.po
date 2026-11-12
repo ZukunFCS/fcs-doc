@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "視線固定に必要な保存済みトラッキングデータがありません。選択した動画を再処理してデータを再作成してから、再試行してください。作成済みのアニメーションは保持されています。"
+msgstr "Saved tracking data needed for gaze freezing is missing. Process the selected video again to recreate it, then retry. Completed animation has been kept."
+
+msgid "この操作に必要な入力または保存済みの項目が存在しないか、使用できません。復元または指定が必要な入力はメッセージに示されています。"
+msgstr "An input or saved item needed by this action is absent or unavailable. The message identifies which input must be restored or supplied."

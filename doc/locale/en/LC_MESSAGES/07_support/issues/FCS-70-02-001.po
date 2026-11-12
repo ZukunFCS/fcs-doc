@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "アニメーションを読み込むかエクスポートする前に、動画を処理してください。"
+msgstr "Process the video before loading or exporting its animation."
+
+msgid "この操作に必要なファイル、フォルダー、または選択項目が、設定された場所に存在しないかアクセスできません。"
+msgstr "A file, folder, or selected item required by this action no longer exists at the configured location or cannot be accessed."

@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "学習を開始する前にプロファイルを追加してください。"
+msgstr "Add profiles before starting training."
+
+msgid "キャラクターのコントローラーを学習するには、有効なプロファイルが少なくとも1つ必要ですが、使用可能なプロファイルが指定されていません。"
+msgstr "Training needs at least one enabled profile to learn the character controls. No usable profiles were supplied."

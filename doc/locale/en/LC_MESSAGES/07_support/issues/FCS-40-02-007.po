@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択した動画フォルダーは使用できなくなりました。動画ライブラリを更新して選択し直してください。"
+msgstr "The selected video folder is no longer available. Refresh the Video Library and select it again."
+
+msgid "この操作に必要なファイル、フォルダー、または選択項目が、設定された場所に存在しないかアクセスできません。"
+msgstr "A file, folder, or selected item required by this action no longer exists at the configured location or cannot be accessed."

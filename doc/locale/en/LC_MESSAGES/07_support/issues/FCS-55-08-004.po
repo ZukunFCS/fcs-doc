@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のコントローラーの制限値が無効です。結果を使用する前にコントローラー設定を確認してください。"
+msgstr "Some controller limits are invalid. Check the controller settings before relying on the result."
+
+msgid "選択したデータ、名前、形式、または値が、この操作に必要な条件を満たしていません。"
+msgstr "The selected data, name, format, or value does not satisfy the requirements for this action."
