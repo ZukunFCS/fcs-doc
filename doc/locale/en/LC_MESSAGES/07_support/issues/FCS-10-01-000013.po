@@ -1,61 +1,31 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-10-01-000013.md:4
-msgid "FCS-10-01-000013"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000013.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000013.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-10-01-000013.md:10
-msgid "更新をダウンロードする前に既存のダウンロード先フォルダーを選択してください。"
-msgstr "Choose an existing download folder before downloading the update."
-
-#: ../../07_support/issues/FCS-10-01-000013.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-10-01-000013.md:14
-msgid "更新のダウンロード先が存在しないか、フォルダーではなくファイルです。"
-msgstr ""
-"The update download target does not exist or is a file rather than a "
-"directory."
-
-#: ../../07_support/issues/FCS-10-01-000013.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-10-01-000013.md:18
-msgid "既存のダウンロード先フォルダーを選択するか、先に作成してから再実行してください。インストーラーのファイル名ではなく、フォルダーを指定してください。開始前に空き容量と書き込み権限を確認してください。"
-msgstr ""
-"Create or select an existing download folder, then retry the download. "
-"Select a directory, not an installer filename. Check free space and write"
-" access before starting the download."
+msgid "更新をダウンロードする前に既存のダウンロード先フォルダーを選択してください。"
+msgstr "Choose an existing download folder before downloading the update."
 
-#: ../../07_support/issues/FCS-10-01-000013.md:20
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "選択したダウンロード先フォルダーを使用できないか、保存された場所がファイルを指しています。"
+msgstr "The selected download folder is no longer available, or its saved location points to a file."
+
+msgid "ダウンロードをやり直し、ファイルを保存でき、インストーラー用の空き容量がある既存のフォルダーを選択してください。使用できない以前のフォルダーが繰り返し使われる場合は、作業を保存してFCSを再起動してからダウンロードをやり直してください。"
+msgstr "Start the download again and select an existing folder where you can save files and have room for the installer. If FCS keeps reusing the unavailable folder, save your work and restart FCS before starting the download again."
+
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
-#: ../../07_support/issues/FCS-10-01-000013.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-

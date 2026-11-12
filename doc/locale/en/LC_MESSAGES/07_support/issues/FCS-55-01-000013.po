@@ -1,53 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-55-01-000013.md:4
-msgid "FCS-55-01-000013"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000013.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000013.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-55-01-000013.md:10
-#: ../../07_support/issues/FCS-55-01-000013.md:18
-msgid "コントローラー名を入力してください。"
-msgstr "Enter a controller name."
-
-#: ../../07_support/issues/FCS-55-01-000013.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-55-01-000013.md:14
-msgid "コントローラーの操作で、名前が空になっています。"
-msgstr "The controller operation was submitted with an empty controller name."
-
-#: ../../07_support/issues/FCS-55-01-000013.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-55-01-000013.md:20
+msgid "コントローラー名を入力してください。"
+msgstr "Enter a controller name."
+
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "コントローラーの操作で、名前が空になっています。"
+msgstr "The controller operation was submitted with an empty controller name."
+
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
-#: ../../07_support/issues/FCS-55-01-000013.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-

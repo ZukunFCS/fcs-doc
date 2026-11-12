@@ -1,55 +1,31 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-10-01-000014.md:4
-msgid "FCS-10-01-000014"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000014.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000014.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-10-01-000014.md:10
-#: ../../07_support/issues/FCS-10-01-000014.md:18
-msgid "ダウンロードするFCSのバージョンを選択してください。"
-msgstr "Choose an available FCS version to download."
-
-#: ../../07_support/issues/FCS-10-01-000014.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-10-01-000014.md:14
-msgid "更新のダウンロードに必要なメジャーとマイナーのリリース識別子の少なくとも1つがありません。"
-msgstr ""
-"Downloading an update requires both the major and minor release "
-"identifiers; at least one is missing."
-
-#: ../../07_support/issues/FCS-10-01-000014.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-10-01-000014.md:20
+msgid "ダウンロードする更新をFCSが特定できませんでした。"
+msgstr "FCS could not identify which update to download."
+
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "更新画面で選択されたリリースを保持できませんでした。"
+msgstr "The update window did not retain the selected release."
+
+msgid "更新画面を開き直し、対象のリリースを選び直してください。表示されたリリースをダウンロードできない場合は、その名前と現在のFCSバージョンをBug Feedbackで報告してください。"
+msgstr "Reopen the update window and select the intended release again. If a listed release still cannot be downloaded, report that release name and your current FCS version through Bug Feedback."
+
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
-#: ../../07_support/issues/FCS-10-01-000014.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-

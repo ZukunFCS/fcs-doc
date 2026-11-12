@@ -1,59 +1,31 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-10-04-000003.md:4
-msgid "FCS-10-04-000003"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-04-000003.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-04-000003.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-10-04-000003.md:10
-msgid "レイアウトを保存できませんでした。サポートにお問い合わせください。"
-msgstr "The layout could not be saved. Contact support."
-
-#: ../../07_support/issues/FCS-10-04-000003.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-10-04-000003.md:14
-msgid "指定された画面構成ファイルを書き込めませんでした。"
-msgstr "FCS could not write the requested layout file."
-
-#: ../../07_support/issues/FCS-10-04-000003.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-10-04-000003.md:18
-msgid "書き込み可能で空き容量のある保存先を選び、画面構成を再度保存してください。ネットワークドライブの場合は再接続するか、ローカルフォルダーを試してください。保存済みファイルを確認するまで現在の画面構成を保持してください。"
-msgstr ""
-"Choose a writable destination with free disk space and save the layout "
-"again. If the destination is on a network drive, reconnect it or try a "
-"local folder. Preserve the current layout until a saved file exists."
+msgid "レイアウトを保存できませんでした。サポートにお問い合わせください。"
+msgstr "The layout could not be saved. Contact support."
 
-#: ../../07_support/issues/FCS-10-04-000003.md:20
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+msgid "指定された画面構成ファイルを書き込めませんでした。"
+msgstr "FCS could not write the requested layout file."
+
+msgid "書き込み可能で空き容量のある保存先を選び、画面構成を再度保存してください。ネットワークドライブの場合は再接続するか、ローカルフォルダーを試してください。保存済みファイルを確認するまで現在の画面構成を保持してください。"
+msgstr "Choose a writable destination with free disk space and save the layout again. If the destination is on a network drive, reconnect it or try a local folder. Preserve the current layout until a saved file exists."
+
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr "[Browse this family](family-04.md)"
 
-#: ../../07_support/issues/FCS-10-04-000003.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
-
