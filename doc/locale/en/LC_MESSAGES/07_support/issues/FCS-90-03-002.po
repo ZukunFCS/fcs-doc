@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "NASまたはネットワークドライブ上の一時メディアファイルを削除できませんでした。ネットワーク接続を確認し、ドライブに再接続してください。出力済みのファイルは保持されています。"
+msgstr "Temporary media files on your NAS or network drive could not be removed. Check your network connection and reconnect the drive. Completed outputs have been kept."
+
+msgid "ファイル操作中に共有ドライブへアクセスできないか、接続が切断されました。元ファイルを読み取れても、出力先への書き込みや一時ファイルの削除ができるとは限りません。"
+msgstr "The shared drive could not be reached, or its connection was interrupted during a file operation. Reading the source does not establish that the destination can be written or cleaned up."
+
+msgid "エクスプローラーで実際の元フォルダーと出力先を開き、共有ドライブに再接続してください。"
+msgstr "Open the exact source and output folders in File Explorer and reconnect the shared drive."
+
+msgid "出力先で小さなテストファイルを作成・削除できることを確認してください。アクセスできない場合はストレージ管理者にお問い合わせください。"
+msgstr "Confirm that you can create and remove a small test file in the output folder. Ask the storage administrator if access is denied."
+
+msgid "出力済みのファイルは保持してください。アクセスが復旧してから、失敗した操作または出力のみを再試行してください。"
+msgstr "Keep completed outputs. After access is restored, retry only the action or output that failed."

@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "同じ名前のスムージングプリセットが既に存在します。別の名前を選択してください。"
+msgstr "A smoothing preset with that name already exists. Choose another name."
+
+msgid "指定した名前または保存先が既に使用されています。既存の作業を置き換える可能性があるため、この操作は実行できません。"
+msgstr "The requested name or destination is already occupied. Reusing it could replace existing work, so this action is blocked."

@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画の解像度倍率には0より大きい値を指定してください。"
+msgstr "Choose a video resolution scale greater than zero."
+
+msgid "選択したデータ、名前、形式、または値が、この操作に必要な条件を満たしていません。"
+msgstr "The selected data, name, format, or value does not satisfy the requirements for this action."

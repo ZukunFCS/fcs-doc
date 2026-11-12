@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "先に1つ以上のコントローラーを選択してください。"
+msgstr "Select one or more controllers first."
+
+msgid "必要な入力、選択、または有効な前提条件がない状態で操作を開始しました。"
+msgstr "The action was requested without a required input, selection, or valid prerequisite."

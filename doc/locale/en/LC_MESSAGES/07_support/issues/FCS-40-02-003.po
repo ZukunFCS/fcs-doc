@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "元動画に音声がないため、音声を読み込めませんでした。音声を含む動画を選択するか、音声が不要な場合はAudioをオフにして再試行してください。"
+msgstr "Audio could not be delivered because the source video has no audio. Choose a video containing audio, or turn off Audio and retry if you do not need it."
+
+msgid "この操作に必要な入力または保存済みの項目が存在しないか、使用できません。復元または指定が必要な入力はメッセージに示されています。"
+msgstr "An input or saved item needed by this action is absent or unavailable. The message identifies which input must be restored or supplied."

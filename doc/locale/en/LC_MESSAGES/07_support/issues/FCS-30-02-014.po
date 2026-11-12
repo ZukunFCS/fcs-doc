@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部の元動画が見つかりません。動画ライブラリで場所を更新してください。"
+msgstr "Some source videos could not be found. Update their locations in the Video Library."
+
+msgid "この操作に必要な入力または保存済みの項目が存在しないか、使用できません。復元または指定が必要な入力はメッセージに示されています。"
+msgstr "An input or saved item needed by this action is absent or unavailable. The message identifies which input must be restored or supplied."
