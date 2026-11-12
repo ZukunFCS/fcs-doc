@@ -1,0 +1,21 @@
+---
+orphan: true
+---
+# FCS-10-01-000015
+
+ERROR
+
+## メッセージ
+
+使用可能な処理オプションを選択してください。
+
+## 原因
+
+- 送信された処理設定に、未定義のフィールド名またはスムージング領域名が含まれています。
+
+## 対処方法
+
+1. processing.settingsで現在の構造を確認してください。最上位はprofile、fisheye、same_video_weight、smoothing、postprocessingです。スムージング領域はupper、gaze、lower、eyelidです。後処理の項目はgaze_freezing、profile_priority、clampです。非対応のキーを削除するか、FCSのバージョンに合う自動操作クライアントに更新してください。
+
+[別のコードを検索](index.md)
+

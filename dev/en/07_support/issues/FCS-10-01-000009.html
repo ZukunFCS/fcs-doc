@@ -1,0 +1,254 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-11-12T10:04:53+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FCS-10-01-000009 &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=6a604523" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=3ce10a4d"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script data-sd-tabs-storage-prefix="sphinx-design-tab-id-" src="../../_static/design-tabs.js?v=fcb327ea"></script>
+      <script src="../../_static/tab_links.js?v=76999cc6"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../00_contents/index.html">Table of Contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../01_updates/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../02_getting-started/index.html">What is FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../03_workflow/index.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../06_glossary/index.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Help and Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../04_release-schedule/index.html">Development Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../08_advanced_doc_link.html">Technical Manual ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../09_interactive_doc_link.html">Chat Manual (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">FCS-10-01-000009</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/07_support/issues/FCS-10-01-000009.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="fcs-10-01-000009">
+<h1>FCS-10-01-000009<a class="headerlink" href="#fcs-10-01-000009" title="Link to this heading"></a></h1>
+<p>ERROR</p>
+<section id="id1">
+<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>Processing settings were not applied.</p>
+</section>
+<section id="id2">
+<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Applying processing settings rejected a numeric value, smoothing method, gaze replacement, profile-priority option, or clamp mode. The checks below are independent; correct the setting you changed.</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Same-video weight must be between 1.0 and 10.0, inclusive; for example 5 is accepted.</p></li>
+<li><p>Gaze-freezing threshold must be between 0.0 and 1.0, inclusive; for example 0.5. Replacement must be Last detected or Default value.</p></li>
+<li><p>Profile-priority range must be between 0.0 and 2.0 seconds, inclusive; its exponent must be between 0.1 and 5.0, inclusive. For example, 1 second and exponent 1 are accepted. Select a priority mode offered for the current processing profile; availability depends on that profile.</p></li>
+<li><p>Smoothing method must be Smoothing, Peak, 1€ or Raw. For 1€, minimum cutoff must be a finite number greater than 0; beta must be finite and at least 0. The derivative cutoff is fixed internally at 1.</p></li>
+<li><p>Clamp mode must be No Clamp, Hard Clamp or Soft Clamp. Choose an option from the app rather than entering a translated label through automation.</p></li>
+<li><p>Correct the affected field in Processing Settings and apply again. For automation, use the field names and nesting returned by processing.settings rather than adding unsupported keys.</p></li>
+</ol>
+<span id="same-video-weight"></span></section>
+<section id="id4">
+<h2>Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight.<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight.</p></li>
+<li><p>Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight.</p></li>
+</ul>
+<span id="smoothing-method"></span></section>
+<section id="smoothingpeak1raw">
+<h2>Choose Smoothing, Peak, 1€ or Raw as the smoothing method.<a class="headerlink" href="#smoothingpeak1raw" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Choose Smoothing, Peak, 1€ or Raw as the smoothing method.</p></li>
+<li><p>Choose Smoothing, Peak, 1€ or Raw as the smoothing method.</p></li>
+</ul>
+<span id="one-euro-value"></span></section>
+<section id="beta08beta-1">
+<h2>For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted.<a class="headerlink" href="#beta08beta-1" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted.</p></li>
+<li><p>For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted.</p></li>
+</ul>
+<span id="gaze-replacement"></span></section>
+<section id="last-detected-default-value">
+<h2>Choose Last detected or Default value for gaze-freezing replacement.<a class="headerlink" href="#last-detected-default-value" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Choose Last detected or Default value for gaze-freezing replacement.</p></li>
+<li><p>Choose Last detected or Default value for gaze-freezing replacement.</p></li>
+</ul>
+<span id="gaze-threshold"></span></section>
+<section id="id5">
+<h2>Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default.<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default.</p></li>
+<li><p>Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default.</p></li>
+</ul>
+<span id="priority-mode"></span></section>
+<section id="id6">
+<h2>Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile.<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile.</p></li>
+<li><p>Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile.</p></li>
+</ul>
+<span id="priority-range"></span></section>
+<section id="id7">
+<h2>Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range.<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range.</p></li>
+<li><p>Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range.</p></li>
+</ul>
+<span id="priority-exponent"></span></section>
+<section id="id8">
+<h2>Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default.<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default.</p></li>
+<li><p>Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default.</p></li>
+</ul>
+<span id="clamp"></span></section>
+<section id="no-clamphard-clampsoft-clamp">
+<h2>Choose No Clamp, Hard Clamp or Soft Clamp.<a class="headerlink" href="#no-clamphard-clampsoft-clamp" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>Choose No Clamp, Hard Clamp or Soft Clamp.</p></li>
+<li><p>Choose No Clamp, Hard Clamp or Soft Clamp.</p></li>
+</ul>
+<span id="structure"></span></section>
+<section id="processing-settings">
+<h2>A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings.<a class="headerlink" href="#processing-settings" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings.</p></li>
+<li><p>A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings.</p></li>
+</ul>
+<p><a class="reference internal" href="index.html"><span class="std std-doc">別のコードを検索</span></a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-11-12.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Version">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Language: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.10/en/index.html">26.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

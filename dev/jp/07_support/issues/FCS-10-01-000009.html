@@ -1,0 +1,254 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="jp" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-11-12T10:04:53+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FCS-10-01-000009 &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=6a604523" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=5a3f213f"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script data-sd-tabs-storage-prefix="sphinx-design-tab-id-" src="../../_static/design-tabs.js?v=fcb327ea"></script>
+      <script src="../../_static/tab_links.js?v=76999cc6"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">コンテンツ:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../00_contents/index.html">目次</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../01_updates/index.html">リリースノート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../02_getting-started/index.html">FCSとは</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../03_workflow/index.html">作業フロー</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../06_glossary/index.html">ユーザーガイド</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">ヘルプとサポート</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../04_release-schedule/index.html">開発ロードマップ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../08_advanced_doc_link.html">fcs-doc-advanced ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../09_interactive_doc_link.html">チャットマニュアル (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">FCS-10-01-000009</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/07_support/issues/FCS-10-01-000009.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="fcs-10-01-000009">
+<h1>FCS-10-01-000009<a class="headerlink" href="#fcs-10-01-000009" title="Link to this heading"></a></h1>
+<p>ERROR</p>
+<section id="id1">
+<h2>メッセージ<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>処理設定を適用できませんでした。</p>
+</section>
+<section id="id2">
+<h2>原因<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>数値、スムージング方式、視線の置換方法、プロファイル優先設定、またはクランプ方式が、処理設定の条件を満たしていません。以下はそれぞれ独立した条件です。変更した設定を修正してください。</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>対処方法<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>同一動画の重みは 1.0 以上 10.0 以下です。例えば5は有効です。</p></li>
+<li><p>視線固定のしきい値は 0.0 以上 1.0 以下です。例えば0.5は有効です。置換方法は Last detected または Default value です。</p></li>
+<li><p>プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）、指数は 0.1 ～ 5.0（両端を含む）です。例えば範囲1秒、指数1は有効です。優先モードは現在の処理プロファイルで表示される候補から選んでください。候補はプロファイルによって異なります。</p></li>
+<li><p>スムージング方式は Smoothing、Peak、1€、Raw のいずれかです。1€の最小カットオフは0より大きい有限値、betaは0以上の有限値です。微分カットオフは内部で1に固定されます。</p></li>
+<li><p>クランプ方式は No Clamp、Hard Clamp、Soft Clamp のいずれかです。自動操作では翻訳したラベルを渡さず、アプリが示す値を使用してください。</p></li>
+<li><p>処理設定の該当する項目を修正し、再度適用してください。自動操作では processing.settings が返すフィールド名と階層を使用し、非対応のキーを追加しないでください。</p></li>
+</ol>
+<span id="same-video-weight"></span></section>
+<section id="id4">
+<h2>同一動画の重みは 1.0 以上 10.0 以下にしてください。初期値は5です。<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>同一動画の重みは 1.0 以上 10.0 以下にしてください。初期値は5です。</p></li>
+<li><p>同一動画の重みは 1.0 以上 10.0 以下にしてください。初期値は5です。</p></li>
+</ul>
+<span id="smoothing-method"></span></section>
+<section id="smoothingpeak1raw">
+<h2>スムージング方式は Smoothing、Peak、1€、Raw のいずれかを選択してください。<a class="headerlink" href="#smoothingpeak1raw" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>スムージング方式は Smoothing、Peak、1€、Raw のいずれかを選択してください。</p></li>
+<li><p>スムージング方式は Smoothing、Peak、1€、Raw のいずれかを選択してください。</p></li>
+</ul>
+<span id="one-euro-value"></span></section>
+<section id="beta08beta-1">
+<h2>1€スムージングの最小カットオフは0より大きい有限値、betaは0以上の有限値にしてください。例えばカットオフ8、beta 1は有効です。<a class="headerlink" href="#beta08beta-1" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>1€スムージングの最小カットオフは0より大きい有限値、betaは0以上の有限値にしてください。例えばカットオフ8、beta 1は有効です。</p></li>
+<li><p>1€スムージングの最小カットオフは0より大きい有限値、betaは0以上の有限値にしてください。例えばカットオフ8、beta 1は有効です。</p></li>
+</ul>
+<span id="gaze-replacement"></span></section>
+<section id="last-detected-default-value">
+<h2>視線固定の置換方法は Last detected または Default value を選択してください。<a class="headerlink" href="#last-detected-default-value" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>視線固定の置換方法は Last detected または Default value を選択してください。</p></li>
+<li><p>視線固定の置換方法は Last detected または Default value を選択してください。</p></li>
+</ul>
+<span id="gaze-threshold"></span></section>
+<section id="id5">
+<h2>視線固定のしきい値は 0.0 以上 1.0 以下にしてください。初期値は0.5です。<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>視線固定のしきい値は 0.0 以上 1.0 以下にしてください。初期値は0.5です。</p></li>
+<li><p>視線固定のしきい値は 0.0 以上 1.0 以下にしてください。初期値は0.5です。</p></li>
+</ul>
+<span id="priority-mode"></span></section>
+<section id="id6">
+<h2>選択中の処理プロファイルで使用できる優先モードを、処理設定の候補から選択してください。候補はプロファイルによって異なります。<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>選択中の処理プロファイルで使用できる優先モードを、処理設定の候補から選択してください。候補はプロファイルによって異なります。</p></li>
+<li><p>選択中の処理プロファイルで使用できる優先モードを、処理設定の候補から選択してください。候補はプロファイルによって異なります。</p></li>
+</ul>
+<span id="priority-range"></span></section>
+<section id="id7">
+<h2>プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）にしてください。1を入力すると1秒になります。<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）にしてください。1を入力すると1秒になります。</p></li>
+<li><p>プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）にしてください。1を入力すると1秒になります。</p></li>
+</ul>
+<span id="priority-exponent"></span></section>
+<section id="id8">
+<h2>プロファイル優先の指数は 0.1 ～ 5.0（両端を含む）にしてください。初期値は1です。<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>プロファイル優先の指数は 0.1 ～ 5.0（両端を含む）にしてください。初期値は1です。</p></li>
+<li><p>プロファイル優先の指数は 0.1 ～ 5.0（両端を含む）にしてください。初期値は1です。</p></li>
+</ul>
+<span id="clamp"></span></section>
+<section id="no-clamphard-clampsoft-clamp">
+<h2>No Clamp、Hard Clamp、Soft Clamp のいずれかを選択してください。<a class="headerlink" href="#no-clamphard-clampsoft-clamp" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>No Clamp、Hard Clamp、Soft Clamp のいずれかを選択してください。</p></li>
+<li><p>No Clamp、Hard Clamp、Soft Clamp のいずれかを選択してください。</p></li>
+</ul>
+<span id="structure"></span></section>
+<section id="processing-settings">
+<h2>設定の構造または値が対応する形式ではありません。処理設定の該当する項目を設定し直してから再度適用してください。自動操作では processing.settings が返すフィールド名と構造を使用してください。<a class="headerlink" href="#processing-settings" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>設定の構造または値が対応する形式ではありません。処理設定の該当する項目を設定し直してから再度適用してください。自動操作では processing.settings が返すフィールド名と構造を使用してください。</p></li>
+<li><p>設定の構造または値が対応する形式ではありません。処理設定の該当する項目を設定し直してから再度適用してください。自動操作では processing.settings が返すフィールド名と構造を使用してください。</p></li>
+</ul>
+<p><a class="reference internal" href="index.html"><span class="std std-doc">別のコードを検索</span></a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-11-12.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="バージョン">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      バージョン: dev 言語: jp
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>言語</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>バージョン</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.10/jp/index.html">26.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/jp/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/jp/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/jp/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/jp/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/jp/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/jp/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/jp/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
