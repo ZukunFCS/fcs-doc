@@ -1,19 +1,49 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 07:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-50-08-002.md:1
+msgid "FCS-50-08-002"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-08-002.md:3
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-08-002.md:5
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-50-08-002.md:7
+#: ../../07_support/issues/FCS-50-08-002.md:15
+msgid "同じフレームに矛盾するプロファイル拘束がありました。FCSは最初の値を保持しました。対象のプロファイルを確認してください。"
+msgstr ""
+"Conflicting profile constraints were found at the same frame. FCS kept "
+"the first value. Check the affected profiles."
+
+#: ../../07_support/issues/FCS-50-08-002.md:9
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-50-08-002.md:11
+msgid "複数の入力が同じ項目またはフレームに矛盾する値を指定しています。保持された結果はメッセージに示されています。"
+msgstr ""
+"Multiple inputs request incompatible values for the same item or frame. "
+"The retained result is described by the message."
+
+#: ../../07_support/issues/FCS-50-08-002.md:13
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "同じフレームに矛盾するプロファイル拘束がありました。FCSは最初の値を保持しました。対象のプロファイルを確認してください。"
-msgstr "Conflicting profile constraints were found at the same frame. FCS kept the first value. Check the affected profiles."
-
-msgid "複数の入力が同じ項目またはフレームに矛盾する値を指定しています。保持された結果はメッセージに示されています。"
-msgstr "Multiple inputs request incompatible values for the same item or frame. The retained result is described by the message."

@@ -1,19 +1,47 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 07:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-55-01-009.md:1
+msgid "FCS-55-01-009"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-01-009.md:3
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-01-009.md:5
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-55-01-009.md:7
+#: ../../07_support/issues/FCS-55-01-009.md:15
 msgid "名前を変更するすべてのコントローラーに、空でない名前を入力してください。"
 msgstr "Enter a non-empty name for every controller being renamed."
 
+#: ../../07_support/issues/FCS-55-01-009.md:9
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-55-01-009.md:11
 msgid "入力または選択が空のため、この操作に使用できる有効な項目がありません。"
-msgstr "The input or selection is empty, so there is no valid item for the action to use."
+msgstr ""
+"The input or selection is empty, so there is no valid item for the action"
+" to use."
+
+#: ../../07_support/issues/FCS-55-01-009.md:13
+msgid "対処方法"
+msgstr "How to resolve it"
+

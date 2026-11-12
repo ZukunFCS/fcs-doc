@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 07:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-40-01-010.md:1
+msgid "FCS-40-01-010"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-010.md:3
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-010.md:5
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-010.md:7
+#: ../../07_support/issues/FCS-40-01-010.md:15
+msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-010.md:9
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-010.md:11
+msgid "このコードはメッセージに示された状態を記録しますが、それだけでは根本的な原因を特定できません。対処手順で解決しない場合は、サポートによるアプリケーション診断情報の確認が必要です。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-010.md:13
+msgid "対処方法"
+msgstr ""
+

@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 07:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-90-03-003.md:1
+msgid "FCS-90-03-003"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-003.md:3
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-003.md:5
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-003.md:7
+#: ../../07_support/issues/FCS-90-03-003.md:15
+msgid "メディア出力中にNASまたはネットワークドライブにアクセスできませんでした。ネットワーク接続を確認し、ドライブに再接続してから、もう一度出力してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-003.md:9
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-003.md:11
+msgid "ファイル操作中に共有ドライブへアクセスできないか、接続が切断されました。元ファイルを読み取れても、出力先への書き込みや一時ファイルの削除ができるとは限りません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-003.md:13
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-003.md:16
+msgid "エクスプローラーで実際の元フォルダーと出力先を開き、共有ドライブに再接続してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-003.md:17
+msgid "出力先で小さなテストファイルを作成・削除できることを確認してください。アクセスできない場合はストレージ管理者にお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-003.md:18
+msgid "出力済みのファイルは保持してください。アクセスが復旧してから、失敗した操作または出力のみを再試行してください。"
+msgstr ""
+
