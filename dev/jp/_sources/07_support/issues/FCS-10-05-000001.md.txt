@@ -17,5 +17,7 @@ DCCはMayaまたはBlenderを選択してください。
 
 1. Session Settingsまたは出力設定でMayaかBlenderを選択してください。自動操作ではmayaまたはblenderを識別子として使用します。この選択で他のアプリは使用できません。
 
+[同じ種類の問題を見る](family-05.md)
+
 [別のコードを検索](index.md)
 

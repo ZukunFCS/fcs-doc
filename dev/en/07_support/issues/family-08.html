@@ -1,0 +1,363 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fallback or degraded result &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=6a604523" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=3ce10a4d"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script data-sd-tabs-storage-prefix="sphinx-design-tab-id-" src="../../_static/design-tabs.js?v=fcb327ea"></script>
+      <script src="../../_static/tab_links.js?v=76999cc6"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../00_contents/index.html">Table of Contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../01_updates/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../02_getting-started/index.html">What is FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../03_workflow/index.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../06_glossary/index.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Help and Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../04_release-schedule/index.html">Development Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../08_advanced_doc_link.html">Technical Manual ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../09_interactive_doc_link.html">Chat Manual (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Fallback or degraded result</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/07_support/issues/family-08.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>Fallback or degraded result<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p><a class="reference internal" href="index.html"><span class="std std-doc">Back to lookup and families</span></a></p>
+<section id="id2">
+<h2>Application and settings<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-08-000001.html"><span class="std std-doc">FCS-10-08-000001</span></a></p></td>
+<td><p>{action}: finished with limitations. Review the related warnings and resolve them before relying on the affected result.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-10-08-000002.html"><span class="std std-doc">FCS-10-08-000002</span></a></p></td>
+<td><p>The automation connection did not close normally. Contact support if it cannot be restarted.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-08-000003.html"><span class="std std-doc">FCS-10-08-000003</span></a></p></td>
+<td><p>Landmark-frame export is deprecated. Contact support if your workflow depends on this output.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-10-08-000004.html"><span class="std std-doc">FCS-10-08-000004</span></a></p></td>
+<td><p>Some video frames were skipped. The animation may be incomplete or out of sync. Contact support if this happens again.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-08-000005.html"><span class="std std-doc">FCS-10-08-000005</span></a></p></td>
+<td><p>Part of the application interface could not be updated. Contact support.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id3">
+<h2>Projects and sessions<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-08-000001.html"><span class="std std-doc">FCS-30-08-000001</span></a></p></td>
+<td><p>The session lock could not be removed before restarting. If reopening fails, contact support.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id4">
+<h2>Video and media<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-40-08-000001.html"><span class="std std-doc">FCS-40-08-000001</span></a></p></td>
+<td><p>Video timing could not be read; saved timing was used. Check the frame rate and range before using the result, and reimport the video if they are incorrect.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h2>Profiles<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-08-000001.html"><span class="std std-doc">FCS-50-08-000001</span></a></p></td>
+<td><p>Some profile constraints exceeded the controller limits and were clamped. Check the affected poses.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-08-000002.html"><span class="std std-doc">FCS-50-08-000002</span></a></p></td>
+<td><p>Conflicting profile constraints were found at the same frame. FCS kept the first value. Check the affected profiles.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-08-000003.html"><span class="std std-doc">FCS-50-08-000003</span></a></p></td>
+<td><p>Some profile constraints could not be used. Check that their controllers and values match the current character.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-08-000004.html"><span class="std std-doc">FCS-50-08-000004</span></a></p></td>
+<td><p>Some profile constraints were skipped because their source frame or controller values are unavailable. Check the affected profiles.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-08-000005.html"><span class="std std-doc">FCS-50-08-000005</span></a></p></td>
+<td><p>A face could not be located in some profiles; the full images were used. Replace unclear or incorrectly oriented images, check the landmarks, and retrain.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-08-000006.html"><span class="std std-doc">FCS-50-08-000006</span></a></p></td>
+<td><p>A profile already exists at this frame. Select it in Gallery to edit it.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-08-000007.html"><span class="std std-doc">FCS-50-08-000007</span></a></p></td>
+<td><p>The profile has unsaved changes. Save or discard them before continuing.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-08-000008.html"><span class="std std-doc">FCS-50-08-000008</span></a></p></td>
+<td><p>A profile image could not be displayed. Check its source image or contact support.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-08-000009.html"><span class="std std-doc">FCS-50-08-000009</span></a></p></td>
+<td><p>Some profiles could not be loaded and are missing from Gallery. Contact support before saving over the original session.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-08-000010.html"><span class="std std-doc">FCS-50-08-000010</span></a></p></td>
+<td><p>Some profiles could not be loaded. They may be absent from Gallery. Contact support before saving changes over the original session.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-08-000011.html"><span class="std std-doc">FCS-50-08-000011</span></a></p></td>
+<td><p>The requested profile-priority option could not be applied. The completed animation is available without that option.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-08-000012.html"><span class="std std-doc">FCS-50-08-000012</span></a></p></td>
+<td><p>Open a profile in Gallery before editing it.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h2>Controllers<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-08-000001.html"><span class="std std-doc">FCS-55-08-000001</span></a></p></td>
+<td><p>Capture the required controller values before applying the renderer-import wizard.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-08-000003.html"><span class="std std-doc">FCS-55-08-000003</span></a></p></td>
+<td><p>Some controller movement exclusions were ignored. Check the controller mappings and predicted motion; correct the mappings and retrain, or contact support.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-08-000004.html"><span class="std std-doc">FCS-55-08-000004</span></a></p></td>
+<td><p>Some controller limits are invalid. Check the controller settings before relying on the result.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-08-000006.html"><span class="std std-doc">FCS-55-08-000006</span></a></p></td>
+<td><p>Select one or more controllers first.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-08-000007.html"><span class="std std-doc">FCS-55-08-000007</span></a></p></td>
+<td><p>Some profiles no longer matched the controller list and their controller values were reset. Review those poses before saving.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-08-000008.html"><span class="std std-doc">FCS-55-08-000008</span></a></p></td>
+<td><p>No controller values were selected for the region override.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id7">
+<h2>Training and solvers<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-60-08-000001.html"><span class="std std-doc">FCS-60-08-000001</span></a></p></td>
+<td><p>No neutral profile was selected. The first profile will be used as neutral. Check that it shows a relaxed face.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id8">
+<h2>Processing and prediction<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-70-08-000001.html"><span class="std std-doc">FCS-70-08-000001</span></a></p></td>
+<td><p>Some animation values could not be read and were replaced. Check the imported animation.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-70-08-000002.html"><span class="std std-doc">FCS-70-08-000002</span></a></p></td>
+<td><p>Some animation values were invalid and were repaired. Review the affected result before using it, and contact support.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-70-08-000004.html"><span class="std std-doc">FCS-70-08-000004</span></a></p></td>
+<td><p>Some animation adjustments could not be applied. Review the delivered motion and the selected Train settings, then retry the affected adjustments.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-70-08-000005.html"><span class="std std-doc">FCS-70-08-000005</span></a></p></td>
+<td><p>The tracking sequence does not match this video and was not imported. Select the matching video and sequence.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-70-08-000006.html"><span class="std std-doc">FCS-70-08-000006</span></a></p></td>
+<td><p>A saved tracking sequence could not be read. Reprocess the video or contact support.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mayablender">
+<h2>Maya and Blender delivery<a class="headerlink" href="#mayablender" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-80-08-000003.html"><span class="std std-doc">FCS-80-08-000003</span></a></p></td>
+<td><p>Scene timing could not be updated. Check the scene frame rate and range before using the animation; reconnect Maya or Blender and retry.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-80-08-000010.html"><span class="std std-doc">FCS-80-08-000010</span></a></p></td>
+<td><p>Some delivery adjustments were unavailable: {outputs}. Review the completed result, check the selected settings, and retry the affected adjustments.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-80-08-000011.html"><span class="std std-doc">FCS-80-08-000011</span></a></p></td>
+<td><p>A delivery adjustment could not complete. Review the completed animation, copy this code and the Log message to support, and open help for recovery steps.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-80-08-000012.html"><span class="std std-doc">FCS-80-08-000012</span></a></p></td>
+<td><p>Automatic renderer synchronization was disabled after a connection failure. Reconnect Maya or Blender before enabling it again.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-11-12.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Version">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Language: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.10/en/index.html">26.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

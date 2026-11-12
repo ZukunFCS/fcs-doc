@@ -1,0 +1,543 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Input validation &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=6a604523" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=3ce10a4d"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script data-sd-tabs-storage-prefix="sphinx-design-tab-id-" src="../../_static/design-tabs.js?v=fcb327ea"></script>
+      <script src="../../_static/tab_links.js?v=76999cc6"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../00_contents/index.html">Table of Contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../01_updates/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../02_getting-started/index.html">What is FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../03_workflow/index.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../06_glossary/index.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Help and Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../04_release-schedule/index.html">Development Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../08_advanced_doc_link.html">Technical Manual ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../09_interactive_doc_link.html">Chat Manual (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Input validation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/07_support/issues/family-01.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>Input validation<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p><a class="reference internal" href="index.html"><span class="std std-doc">Back to lookup and families</span></a></p>
+<section id="id2">
+<h2>Application and settings<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-01-000001.html"><span class="std std-doc">FCS-10-01-000001</span></a></p></td>
+<td><p>Saved settings could not be loaded. FCS is using defaults. Check your preferences before continuing.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-10-01-000004.html"><span class="std std-doc">FCS-10-01-000004</span></a></p></td>
+<td><p>The crash report could not be recorded. Contact support with the application log.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-01-000006.html"><span class="std std-doc">FCS-10-01-000006</span></a></p></td>
+<td><p>Choose a Blender scene with the .blend file extension.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-10-01-000007.html"><span class="std std-doc">FCS-10-01-000007</span></a></p></td>
+<td><p>Choose an export destination.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-01-000008.html"><span class="std std-doc">FCS-10-01-000008</span></a></p></td>
+<td><p>Choose a Maya scene with the .ma or .mb file extension.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-10-01-000009.html"><span class="std std-doc">FCS-10-01-000009</span></a></p></td>
+<td><p>Processing settings were not applied.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-01-000013.html"><span class="std std-doc">FCS-10-01-000013</span></a></p></td>
+<td><p>Choose an existing download folder before downloading the update.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-10-01-000014.html"><span class="std std-doc">FCS-10-01-000014</span></a></p></td>
+<td><p>Choose an available FCS version to download.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-01-000015.html"><span class="std std-doc">FCS-10-01-000015</span></a></p></td>
+<td><p>Choose an available processing option.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id3">
+<h2>Licensing<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-20-01-000001.html"><span class="std std-doc">FCS-20-01-000001</span></a></p></td>
+<td><p>Check your license key in License Settings.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-20-01-000002.html"><span class="std std-doc">FCS-20-01-000002</span></a></p></td>
+<td><p>Check your license in License Settings before continuing.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id4">
+<h2>Projects and sessions<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-01-000001.html"><span class="std std-doc">FCS-30-01-000001</span></a></p></td>
+<td><p>An actor folder with that name already exists. Choose another name or open the existing actor.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-30-01-000002.html"><span class="std std-doc">FCS-30-01-000002</span></a></p></td>
+<td><p>Close files and folders belonging to this actor, then try renaming it again.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-01-000003.html"><span class="std std-doc">FCS-30-01-000003</span></a></p></td>
+<td><p>Enter a different actor name.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-30-01-000004.html"><span class="std std-doc">FCS-30-01-000004</span></a></p></td>
+<td><p>A character folder with that name already exists. Choose another name or open the existing character.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-01-000005.html"><span class="std std-doc">FCS-30-01-000005</span></a></p></td>
+<td><p>Choose an existing project folder.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-30-01-000006.html"><span class="std std-doc">FCS-30-01-000006</span></a></p></td>
+<td><p>Complete the project, actor, and character fields before continuing.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-01-000007.html"><span class="std std-doc">FCS-30-01-000007</span></a></p></td>
+<td><p>Enter a nonblank Actor and Character name, then retry.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-30-01-000008.html"><span class="std std-doc">FCS-30-01-000008</span></a></p></td>
+<td><p>Choose an empty folder for the new project or open the existing project.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-01-000009.html"><span class="std std-doc">FCS-30-01-000009</span></a></p></td>
+<td><p>A session already exists at this location. Open it or choose a different actor or character.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-30-01-000010.html"><span class="std std-doc">FCS-30-01-000010</span></a></p></td>
+<td><p>Choose a session file before opening it.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-01-000011.html"><span class="std std-doc">FCS-30-01-000011</span></a></p></td>
+<td><p>The session is missing a required project or scene setting. Check Session Settings before continuing.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h2>Video and media<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-40-01-000002.html"><span class="std std-doc">FCS-40-01-000002</span></a></p></td>
+<td><p>Choose a video resolution scale greater than zero.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-40-01-000003.html"><span class="std std-doc">FCS-40-01-000003</span></a></p></td>
+<td><p>Choose an existing folder for landmark images.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-40-01-000005.html"><span class="std std-doc">FCS-40-01-000005</span></a></p></td>
+<td><p>No face was detected. Choose footage with a clearly visible face, check its orientation, and try again.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-40-01-000006.html"><span class="std std-doc">FCS-40-01-000006</span></a></p></td>
+<td><p>Choose two videos that are not already in a folder.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-40-01-000007.html"><span class="std std-doc">FCS-40-01-000007</span></a></p></td>
+<td><p>A video folder with that name already exists. Choose another name.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-40-01-000008.html"><span class="std std-doc">FCS-40-01-000008</span></a></p></td>
+<td><p>Enter a video folder name.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-40-01-000009.html"><span class="std std-doc">FCS-40-01-000009</span></a></p></td>
+<td><p>Choose two different videos to create a folder.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-40-01-000010.html"><span class="std std-doc">FCS-40-01-000010</span></a></p></td>
+<td><p>The selected video has no readable frames. Choose a valid video file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-40-01-000011.html"><span class="std std-doc">FCS-40-01-000011</span></a></p></td>
+<td><p>Move or rename the video and its parent folders so the full path contains only ASCII characters, then import it again.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-40-01-000012.html"><span class="std std-doc">FCS-40-01-000012</span></a></p></td>
+<td><p>Rename the video or its parent folders so the full path contains no spaces or other whitespace, then import it again.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-40-01-000013.html"><span class="std std-doc">FCS-40-01-000013</span></a></p></td>
+<td><p>The selected video has no readable frames. Choose a valid video file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-40-01-000014.html"><span class="std std-doc">FCS-40-01-000014</span></a></p></td>
+<td><p>Import the video into the current session before continuing.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-40-01-000015.html"><span class="std std-doc">FCS-40-01-000015</span></a></p></td>
+<td><p>The video is not registered in this session. Add it to the Video Library and try again.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h2>Profiles<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-01-000001.html"><span class="std std-doc">FCS-50-01-000001</span></a></p></td>
+<td><p>Choose an available video selection for automatic profile generation.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-01-000002.html"><span class="std std-doc">FCS-50-01-000002</span></a></p></td>
+<td><p>Enable at least one facial region before generating profiles.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-01-000003.html"><span class="std std-doc">FCS-50-01-000003</span></a></p></td>
+<td><p>Create at least one profile before using automatic profile generation.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-01-000004.html"><span class="std std-doc">FCS-50-01-000004</span></a></p></td>
+<td><p>Select a video before generating profiles.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-01-000005.html"><span class="std std-doc">FCS-50-01-000005</span></a></p></td>
+<td><p>Enter a profile name.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-01-000006.html"><span class="std std-doc">FCS-50-01-000006</span></a></p></td>
+<td><p>Enter a name for the smoothing preset.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-01-000007.html"><span class="std std-doc">FCS-50-01-000007</span></a></p></td>
+<td><p>Enter a tag before adding it.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-01-000009.html"><span class="std std-doc">FCS-50-01-000009</span></a></p></td>
+<td><p>Choose an available facial region for the profile.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-01-000010.html"><span class="std std-doc">FCS-50-01-000010</span></a></p></td>
+<td><p>Choose a valid smoothing preset file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-01-000015.html"><span class="std std-doc">FCS-50-01-000015</span></a></p></td>
+<td><p>Open a profile in the Profile Editor before continuing.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-01-000016.html"><span class="std std-doc">FCS-50-01-000016</span></a></p></td>
+<td><p>A profile with that name already exists. Choose another name.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-01-000017.html"><span class="std std-doc">FCS-50-01-000017</span></a></p></td>
+<td><p>A smoothing preset with that name already exists. Choose another name.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-01-000018.html"><span class="std std-doc">FCS-50-01-000018</span></a></p></td>
+<td><p>Choose an available processing pipeline.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id7">
+<h2>Controllers<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-01-000001.html"><span class="std std-doc">FCS-55-01-000001</span></a></p></td>
+<td><p>Assign a facial region to each controller before training.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-01-000002.html"><span class="std std-doc">FCS-55-01-000002</span></a></p></td>
+<td><p>The clipboard does not contain recognized controller data. Copy controller data and try again.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-01-000003.html"><span class="std std-doc">FCS-55-01-000003</span></a></p></td>
+<td><p>Select a controller to copy.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-01-000004.html"><span class="std std-doc">FCS-55-01-000004</span></a></p></td>
+<td><p>Select a controller before pasting values.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-01-000005.html"><span class="std std-doc">FCS-55-01-000005</span></a></p></td>
+<td><p>These controllers belong to different regions. Choose controllers in the same region.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-01-000007.html"><span class="std std-doc">FCS-55-01-000007</span></a></p></td>
+<td><p>The new controller names must be unique. Choose a different name for each controller.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-01-000008.html"><span class="std std-doc">FCS-55-01-000008</span></a></p></td>
+<td><p>Select each controller only once in the rename list.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-01-000009.html"><span class="std std-doc">FCS-55-01-000009</span></a></p></td>
+<td><p>Every replacement controller name must be nonempty.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-01-000010.html"><span class="std std-doc">FCS-55-01-000010</span></a></p></td>
+<td><p>Provide one new name for each controller being renamed.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-01-000011.html"><span class="std std-doc">FCS-55-01-000011</span></a></p></td>
+<td><p>Select controllers in Maya or Blender, then click Add Selected.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-01-000012.html"><span class="std std-doc">FCS-55-01-000012</span></a></p></td>
+<td><p>Controller names must be unique. Remove or rename the duplicate controllers.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-01-000013.html"><span class="std std-doc">FCS-55-01-000013</span></a></p></td>
+<td><p>Enter a controller name.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-01-000014.html"><span class="std std-doc">FCS-55-01-000014</span></a></p></td>
+<td><p>Enter the controller prefix to remove.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-01-000015.html"><span class="std std-doc">FCS-55-01-000015</span></a></p></td>
+<td><p>Copy valid controller limits before pasting them.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-01-000016.html"><span class="std std-doc">FCS-55-01-000016</span></a></p></td>
+<td><p>Enter finite controller limits with Maximum at least 0.0001 greater than Minimum.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-01-000017.html"><span class="std std-doc">FCS-55-01-000017</span></a></p></td>
+<td><p>Choose a valid facial region for the controller.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-01-000018.html"><span class="std std-doc">FCS-55-01-000018</span></a></p></td>
+<td><p>The selected controller is no longer available. Refresh the controller list and select it again.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-01-000019.html"><span class="std std-doc">FCS-55-01-000019</span></a></p></td>
+<td><p>Choose an available controller preset.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id8">
+<h2>Training and solvers<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-60-01-000001.html"><span class="std std-doc">FCS-60-01-000001</span></a></p></td>
+<td><p>Train or load a solver before continuing.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id9">
+<h2>Processing and prediction<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-70-01-000004.html"><span class="std std-doc">FCS-70-01-000004</span></a></p></td>
+<td><p>Prediction cannot use the current solver. Train again or contact support.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-70-01-000005.html"><span class="std std-doc">FCS-70-01-000005</span></a></p></td>
+<td><p>Face tracking could not produce the required data. Contact support.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-70-01-000007.html"><span class="std std-doc">FCS-70-01-000007</span></a></p></td>
+<td><p>Add profiles to the timeline before continuing.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mayablender">
+<h2>Maya and Blender delivery<a class="headerlink" href="#mayablender" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-80-01-000001.html"><span class="std std-doc">FCS-80-01-000001</span></a></p></td>
+<td><p>Choose a Blender scene file in the session settings.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-80-01-000013.html"><span class="std std-doc">FCS-80-01-000013</span></a></p></td>
+<td><p>Choose scene settings for the renderer selected in this session.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-80-01-000014.html"><span class="std std-doc">FCS-80-01-000014</span></a></p></td>
+<td><p>Choose a Maya project folder in the session settings.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-80-01-000016.html"><span class="std std-doc">FCS-80-01-000016</span></a></p></td>
+<td><p>Choose a Maya scene file in the session settings.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-80-01-000017.html"><span class="std std-doc">FCS-80-01-000017</span></a></p></td>
+<td><p>Choose .ma or .mb for Maya, or .blend for Blender.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-80-01-000018.html"><span class="std std-doc">FCS-80-01-000018</span></a></p></td>
+<td><p>Check the scene and FCS settings in Maya or Blender, then try again.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-80-01-000019.html"><span class="std std-doc">FCS-80-01-000019</span></a></p></td>
+<td><p>Choose Maya or Blender as the renderer.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nas">
+<h2>Storage and NAS<a class="headerlink" href="#nas" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-90-01-000001.html"><span class="std std-doc">FCS-90-01-000001</span></a></p></td>
+<td><p>The saved file could not be read. Contact support.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id10">
+<h2>Session export<a class="headerlink" href="#id10" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-95-01-000001.html"><span class="std std-doc">FCS-95-01-000001</span></a></p></td>
+<td><p>The destination character folder already exists. Choose another destination or character name.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-95-01-000002.html"><span class="std std-doc">FCS-95-01-000002</span></a></p></td>
+<td><p>Choose an export destination outside the current session folder.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-95-01-000003.html"><span class="std std-doc">FCS-95-01-000003</span></a></p></td>
+<td><p>Two source videos have the same filename. Rename one or export only the associated videos.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-95-01-000004.html"><span class="std std-doc">FCS-95-01-000004</span></a></p></td>
+<td><p>Choose a different folder for exported videos; do not use the current project folder.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-95-01-000005.html"><span class="std std-doc">FCS-95-01-000005</span></a></p></td>
+<td><p>The session could not be exported.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-11-12.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Version">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Language: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.10/en/index.html">26.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -17,5 +17,7 @@ ERROR
 
 1. FCSで保存したプリセットを読み込んでください。手動編集する場合はupper、gaze、lower、eyelidのマッピングが必要です。各typeはSmoothing、Peak、1€、Rawのいずれかです。Smoothingにはweightとreps、Peakにはthreshold、width、linear_weightが必要です。1€にはmin_cutoffとbetaを任意で指定できます。YAMLを修正するか、スムージング設定から新しく保存してください。
 
+[同じ種類の問題を見る](family-01.md)
+
 [別のコードを検索](index.md)
 

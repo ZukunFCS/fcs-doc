@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>File access &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=6a604523" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=3ce10a4d"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script data-sd-tabs-storage-prefix="sphinx-design-tab-id-" src="../../_static/design-tabs.js?v=fcb327ea"></script>
+      <script src="../../_static/tab_links.js?v=76999cc6"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../00_contents/index.html">Table of Contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../01_updates/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../02_getting-started/index.html">What is FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../03_workflow/index.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../06_glossary/index.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Help and Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../04_release-schedule/index.html">Development Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../08_advanced_doc_link.html">Technical Manual ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../09_interactive_doc_link.html">Chat Manual (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">File access</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/07_support/issues/family-04.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="id1">
+<h1>File access<a class="headerlink" href="#id1" title="Link to this heading"></a></h1>
+<p><a class="reference internal" href="index.html"><span class="std std-doc">Back to lookup and families</span></a></p>
+<section id="id2">
+<h2>Application and settings<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-04-000001.html"><span class="std std-doc">FCS-10-04-000001</span></a></p></td>
+<td><p>Application settings could not be saved. Contact support.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-10-04-000002.html"><span class="std std-doc">FCS-10-04-000002</span></a></p></td>
+<td><p>The layout is applied for this session but could not be saved for the next start. Check the settings-folder permissions or contact support.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-10-04-000003.html"><span class="std std-doc">FCS-10-04-000003</span></a></p></td>
+<td><p>The layout could not be saved. Contact support.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id3">
+<h2>Projects and sessions<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-04-000001.html"><span class="std std-doc">FCS-30-04-000001</span></a></p></td>
+<td><p>Session changes remain in memory but were not saved. Check the project, Actor, Character and scene in Session Info before closing FCS.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-30-04-000002.html"><span class="std std-doc">FCS-30-04-000002</span></a></p></td>
+<td><p>Create Actor could not complete.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-04-000003.html"><span class="std std-doc">FCS-30-04-000003</span></a></p></td>
+<td><p>Create Character could not complete.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-30-04-000004.html"><span class="std std-doc">FCS-30-04-000004</span></a></p></td>
+<td><p>Rename Actor could not complete.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-30-04-000005.html"><span class="std std-doc">FCS-30-04-000005</span></a></p></td>
+<td><p>Rename Character could not complete.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id4">
+<h2>Video and media<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-40-04-000001.html"><span class="std std-doc">FCS-40-04-000001</span></a></p></td>
+<td><p>Import Video could not complete.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-40-04-000002.html"><span class="std std-doc">FCS-40-04-000002</span></a></p></td>
+<td><p>Create Video Folder could not complete.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id5">
+<h2>Profiles<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-50-04-000001.html"><span class="std std-doc">FCS-50-04-000001</span></a></p></td>
+<td><p>The profile was not saved. Your draft is still available. Contact support.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-50-04-000002.html"><span class="std std-doc">FCS-50-04-000002</span></a></p></td>
+<td><p>Generate Profiles could not complete.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id6">
+<h2>Controllers<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-04-000002.html"><span class="std std-doc">FCS-55-04-000002</span></a></p></td>
+<td><p>Controller settings were not saved. Your edits are still available.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-55-04-000003.html"><span class="std std-doc">FCS-55-04-000003</span></a></p></td>
+<td><p>Rename Controllers could not complete.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-55-04-000004.html"><span class="std std-doc">FCS-55-04-000004</span></a></p></td>
+<td><p>Paste Controller Limits could not complete.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mayablender">
+<h2>Maya and Blender delivery<a class="headerlink" href="#mayablender" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-80-04-000001.html"><span class="std std-doc">FCS-80-04-000001</span></a></p></td>
+<td><p>The scene could not be saved. Check the Maya or Blender connection and destination write access, then retry Scene export.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="FCS-80-04-000002.html"><span class="std std-doc">FCS-80-04-000002</span></a></p></td>
+<td><p>The playblast could not be saved. Check the Maya or Blender connection, selected camera, and destination write access, then retry Playblast.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-80-04-000003.html"><span class="std std-doc">FCS-80-04-000003</span></a></p></td>
+<td><p>The Maya plug-in could not be installed. Contact support.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="nas">
+<h2>Storage and NAS<a class="headerlink" href="#nas" title="Link to this heading"></a></h2>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="FCS-90-04-000001.html"><span class="std std-doc">FCS-90-04-000001</span></a></p></td>
+<td><p>The requested screenshot was not saved. Try again or contact support.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-11-12.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Version">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Language: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.10/en/index.html">26.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -17,5 +17,7 @@ ActorとCharacterに空白以外の名前を入力して、再実行してくだ
 
 1. ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。
 
+[同じ種類の問題を見る](family-01.md)
+
 [別のコードを検索](index.md)
 

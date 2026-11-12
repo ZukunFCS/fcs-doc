@@ -71,5 +71,7 @@ ERROR
 - 操作に必要なフィールドが指定されていません。
 - video.folder.create の必須項目は name, source_video_stem, target_video_stem です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。
 
+[同じ種類の問題を見る](family-04.md)
+
 [別のコードを検索](index.md)
 
