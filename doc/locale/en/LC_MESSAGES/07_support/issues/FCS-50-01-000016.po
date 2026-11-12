@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "同じ名前のプロファイルが既に存在します。別の名前を選択してください。"
+msgstr "A profile with that name already exists. Choose another name."
+
+msgid "現在のキャラクターのGalleryに、指定した名前のプロファイルが既にあります。"
+msgstr "The current character’s Gallery already contains a profile using the requested name."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

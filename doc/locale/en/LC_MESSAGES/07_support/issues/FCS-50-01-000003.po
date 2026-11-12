@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルの自動生成を使用する前に、少なくとも1つのプロファイルを作成してください。"
+msgstr "Create at least one profile before using automatic profile generation."
+
+msgid "自動生成の参照に必要な既存のプロファイルが、このセッションにありません。"
+msgstr "Automatic generation needs an existing profile as a reference, but this session has none."
+
+msgid "現在のキャラクターのGalleryにプロファイルを1つ以上作成して保存し、再度自動生成してください。"
+msgstr "Create and save at least one profile in the current character’s Gallery, then retry automatic profile generation."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

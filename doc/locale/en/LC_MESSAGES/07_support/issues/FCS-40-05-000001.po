@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画の拡張子は .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts のいずれかを使用してください。"
+msgstr "Choose a video with one of these extensions: .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts."
+
+msgid "元ファイルの拡張子が、FCSで対応する動画コンテナーの拡張子ではありません。"
+msgstr "The source filename extension is not among FCS’s supported video-container extensions."
+
+msgid "拡張子が .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts のいずれかの既存の動画を選択してください。大文字・小文字は区別しません。これは対応コンテナーの一覧であり、内部のすべてのコーデックに対応する保証ではありません。元動画が再生できてもFCSで読めない場合、拡張子だけ変えず、コピーを再エンコードしてください。"
+msgstr "Choose an existing video with one of these extensions: .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts; extension matching ignores case. These identify accepted containers, not a guarantee that every codec inside them can be decoded. If the original plays but cannot be read by FCS, re-encode a copy rather than merely renaming its extension."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

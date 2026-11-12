@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "視線固定に必要な保存済みトラッキングデータがありません。選択した動画を再処理してデータを再作成してから、再試行してください。作成済みのアニメーションは保持されています。"
+msgstr "Saved tracking data needed for gaze freezing is missing. Process the selected video again to recreate it, then retry. Completed animation has been kept."
+
+msgid "視線固定に必要なトラッキングキャッシュがありません。完了済みのアニメーションは保持されています。"
+msgstr "The gaze-freezing stage could not find its required tracking cache. Existing completed animation has been retained."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "この場所には既にセッションが存在します。既存のセッションを開くか、別のアクターまたはキャラクターを選択してください。"
+msgstr "A session already exists at this location. Open it or choose a different actor or character."
+
+msgid "対象キャラクターの場所に、再利用または上書きの対象となるセッションが存在します。"
+msgstr "The target character location already contains a session that would be reused or overwritten."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

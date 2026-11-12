@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のプロファイル拘束を使用できませんでした。コントローラーと値が現在のキャラクターに対応しているか確認してください。"
+msgstr "Some profile constraints could not be used. Check that their controllers and values match the current character."
+
+msgid "プロファイルの制約を、このキャラクターで使用できるコントローラーデータに対応付けられませんでした。"
+msgstr "A profile constraint could not be matched to usable controller data for this character."
+
+msgid "対象のプロファイルを開き、コントローラー名と値を現在のコントローラー一覧と比較してください。名前変更や削除されたコントローラーの制約を修正または作成し直してから、再学習してください。"
+msgstr "Open the affected profiles and compare their controller names and values with the current controller list. Correct or recreate constraints for renamed or removed controls, then retrain."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

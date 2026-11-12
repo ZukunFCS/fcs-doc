@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "このフレームには既にプロファイルが存在します。編集するにはギャラリーで選択してください。"
+msgstr "A profile already exists at this frame. Select it in Gallery to edit it."
+
+msgid "同じ元フレームを使用するプロファイルがあり、追加すると重複します。"
+msgstr "A profile already uses the requested source frame, so adding another profile from that frame would duplicate it."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

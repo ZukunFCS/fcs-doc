@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "トラッキングシーケンスがこの動画と一致しないため、インポートしませんでした。対応する動画とシーケンスを選択してください。"
+msgstr "The tracking sequence does not match this video and was not imported. Select the matching video and sequence."
+
+msgid "選択したトラッキングデータが選択中の動画に対応していないため、その読み込みを適用しませんでした。"
+msgstr "The selected tracking sequence does not correspond to the selected video, so FCS left that import unapplied."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

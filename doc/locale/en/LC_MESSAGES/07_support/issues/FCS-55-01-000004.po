@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "値を貼り付ける前にコントローラーを選択してください。"
+msgstr "Select a controller before pasting values."
+
+msgid "コントローラーのデータを貼り付ける先のコントローラーが選択されていません。"
+msgstr "Pasting controller data was requested without a target controller."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

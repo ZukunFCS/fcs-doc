@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルに未保存の変更があります。保存または破棄してから続行してください。"
+msgstr "The profile has unsaved changes. Save or discard them before continuing."
+
+msgid "現在の編集中のデータに未保存の変更があります。別の操作を続行すると変更が失われる可能性があります。"
+msgstr "The current draft contains edits that have not been saved. Continuing with another action could discard them."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

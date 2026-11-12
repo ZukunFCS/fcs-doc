@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "ライセンス設定でライセンスキーを確認してください。"
+msgstr "Check your license key in License Settings."
+
+msgid "現在のライセンスが検証に通らず、ライセンスが必要な操作を実行できません。"
+msgstr "The current license did not pass validation, so licensed operations cannot continue."
+
+msgid "発行されたライセンスキーを、余分な文字、空白、改行を加えずLicense Settingsに貼り付けてください。表示される状態を確認してから再実行してください。正しいキーでも拒否される場合は、有効期限と利用可能なデバイス数をライセンス管理者に確認してください。サポートには状態とコードを伝え、キーを公開しないでください。"
+msgstr "Copy your issued license key into License Settings without adding text, spaces or line breaks. Check the license status there before retrying. If the correct key is still rejected, check its validity and available device seats with your license administrator; send support the status and code, not a public copy of the key."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

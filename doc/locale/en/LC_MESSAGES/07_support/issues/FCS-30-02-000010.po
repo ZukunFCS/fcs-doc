@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "セッション設定で既存のプロジェクトフォルダーを選択してください。"
+msgstr "Choose an existing project folder in the session settings."
+
+msgid "セッションのプロジェクトルートが未設定か、使用できません。"
+msgstr "The session has no usable project-root location."
+
+msgid "Session SettingsでFCSとFacialを含む既存のプロジェクトルートを選択してください。必要に応じてドライブを再接続し、セッションを開き直すか、操作を再実行してください。"
+msgstr "In Session Settings, select the existing project root that contains FCS and Facial. Reconnect its drive if necessary, then reopen or retry the session operation."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

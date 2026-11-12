@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画フォルダー名を入力してください。"
+msgstr "Enter a video folder name."
+
+msgid "Video Libraryの新しいグループの名前が未指定です。"
+msgstr "A new Video Library folder group was requested without a name."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

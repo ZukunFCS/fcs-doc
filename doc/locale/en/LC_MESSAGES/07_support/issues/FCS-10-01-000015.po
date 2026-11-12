@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "使用可能な処理オプションを選択してください。"
+msgstr "Choose an available processing option."
+
+msgid "送信された処理設定に、未定義のフィールド名またはスムージング領域名が含まれています。"
+msgstr "The submitted processing settings contain an unknown field or smoothing-region name."
+
+msgid "processing.settingsで現在の構造を確認してください。最上位はprofile、fisheye、same_video_weight、smoothing、postprocessingです。スムージング領域はupper、gaze、lower、eyelidです。後処理の項目はgaze_freezing、profile_priority、clampです。非対応のキーを削除するか、FCSのバージョンに合う自動操作クライアントに更新してください。"
+msgstr "Use processing.settings to read the current schema. Top-level settings are profile, fisheye, same_video_weight, smoothing and postprocessing. Smoothing regions are upper, gaze, lower and eyelid. Postprocessing groups are gaze_freezing, profile_priority and clamp. Remove unsupported keys or update the automation client to match this FCS version."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

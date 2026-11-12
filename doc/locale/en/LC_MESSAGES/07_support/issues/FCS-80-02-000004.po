@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "Mayaが見つかりません。設定でインストール先フォルダーを選択してください。"
+msgstr "Maya could not be found. Choose its installation folder in Settings."
+
+msgid "設定された場所または既定の場所に、選択したMayaを見つけられませんでした。"
+msgstr "FCS could not find the selected Maya installation at its configured or default application location."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

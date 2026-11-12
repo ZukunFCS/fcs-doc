@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "Mayaのシーンが見つかりません。既存の.maまたは.mbファイルを選択してください。"
+msgstr "Cannot find the Maya scene. Choose an existing .ma or .mb file."
+
+msgid "選択したMayaシーンのパスが既存のファイルではありません。"
+msgstr "The selected Maya scene path does not identify an existing file."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

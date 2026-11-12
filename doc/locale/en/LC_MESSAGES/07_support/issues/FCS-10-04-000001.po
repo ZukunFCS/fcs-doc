@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "アプリケーション設定を保存できませんでした。サポートにお問い合わせください。"
+msgstr "Application settings could not be saved. Contact support."
+
+msgid "アプリ設定の保存に失敗しました。再起動時に変更内容が失われる可能性があります。"
+msgstr "The application-settings save operation failed; the edited settings may be lost on restart."
+
+msgid "変更した設定を記録するまでFCSを開いたままにしてください。設定の保存先の空き容量と書き込み権限を確認し、再度適用してください。同じ設定を保存できない状態が続く場合は報告してください。"
+msgstr "Keep FCS open while noting the changed settings. Check free disk space and write access to the settings location, then apply the settings again. Report the failure if the same values still cannot be saved."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

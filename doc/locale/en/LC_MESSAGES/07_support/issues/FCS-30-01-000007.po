@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "ActorとCharacterに空白以外の名前を入力して、再実行してください。"
+msgstr "Enter a nonblank Actor and Character name, then retry."
+
+msgid "ActorまたはCharacterの名前が空か、空白のみになっています。"
+msgstr "The Actor or Character name is empty or contains only whitespace."
+
+msgid "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
+msgstr "Enter a nonblank Actor and Character name, for example Actor01 and Character01, then retry. This check does not impose a numeric range."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

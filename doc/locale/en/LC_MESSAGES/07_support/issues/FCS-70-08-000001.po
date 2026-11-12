@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のアニメーション値を読み取れなかったため、置き換えました。インポートしたアニメーションを確認してください。"
+msgstr "Some animation values could not be read and were replaced. Check the imported animation."
+
+msgid "アニメーションCSVに読み取り不能または非有限のサンプルがあり、値を置き換えて読み込みを続行しました。"
+msgstr "The animation CSV contained unreadable or nonfinite samples, which were replaced so import could continue."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

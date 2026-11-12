@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "シーンを保存できませんでした。MayaまたはBlenderとの接続と出力先の書き込み権限を確認してから、Sceneの出力を再試行してください。"
+msgstr "The scene could not be saved. Check the Maya or Blender connection and destination write access, then retry Scene export."
+
+msgid "指定されたシーンの書き出しを完了できませんでした。"
+msgstr "The DCC scene-export step did not finish writing the requested scene output."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

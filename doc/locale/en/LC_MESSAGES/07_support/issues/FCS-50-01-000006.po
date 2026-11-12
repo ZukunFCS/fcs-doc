@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "スムージングプリセットの名前を入力してください。"
+msgstr "Enter a name for the smoothing preset."
+
+msgid "スムージングプリセットの保存には、空でないプリセット名が必要です。"
+msgstr "Saving a smoothing preset requires a nonempty preset name."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "スムージングプリセットが見つかりません。既存のプリセットファイルを選択してください。"
+msgstr "Cannot find the smoothing preset. Choose an existing preset file."
+
+msgid "選択したスムージングプリセットの保存ファイルが見つかりません。"
+msgstr "The selected saved smoothing-preset file cannot be found."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

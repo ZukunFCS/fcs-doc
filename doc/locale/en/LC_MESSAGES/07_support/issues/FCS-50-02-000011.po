@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択したプロファイルは使用できなくなりました。ギャラリーを更新して選択し直してください。"
+msgstr "The selected profile is no longer available. Refresh the Gallery and select it again."
+
+msgid "現在のキャラクターのGalleryに、指定した名前のプロファイルがありません。"
+msgstr "The requested profile name is absent from the current character’s Gallery."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

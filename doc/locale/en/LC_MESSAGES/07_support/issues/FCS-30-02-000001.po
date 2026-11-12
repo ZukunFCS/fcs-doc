@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "アクターフォルダーが見つかりません。既存のアクターを選択するか、フォルダーを復元してください。"
+msgstr "Cannot find the actor folder. Choose an existing actor or restore its folder."
+
+msgid "プロジェクトのFCSフォルダー内に、選択したアクターのフォルダーがありません。"
+msgstr "The selected actor directory is missing below the project’s FCS folder."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "コピー元のコントローラーは存在しません。既存のコントローラーからコピーして、もう一度お試しください。"
+msgstr "The copied controller no longer exists. Copy from an existing controller and try again."
+
+msgid "コピーした対応コントローラーの設定が参照する元のコントローラーが存在しません。"
+msgstr "The controller referenced by the copied corresponding-control mapping no longer exists."
+
+msgid "既存のコントローラーから設定をコピーし直し、対象に貼り付けてください。コントローラーを削除または名前変更した場合は一覧を更新してください。"
+msgstr "Copy the mapping again from an existing controller, then paste it onto the intended target. Refresh the list after controller removal or renaming."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

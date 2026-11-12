@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "セッション設定でMayaのシーンファイルを選択してください。"
+msgstr "Choose a Maya scene file in the session settings."
+
+msgid "Maya用のセッションまたは出力設定に、シーンファイルが指定されていません。"
+msgstr "The Maya session or export settings do not specify a scene file."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

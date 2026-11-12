@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "シーンの時間設定を更新できませんでした。アニメーションを使用する前にシーンのフレームレートと範囲を確認し、MayaまたはBlenderに再接続してから再試行してください。"
+msgstr "Scene timing could not be updated. Check the scene frame rate and range before using the animation; reconnect Maya or Blender and retry."
+
+msgid "アニメーションの出力は続行しましたが、指定したシーンのタイミング設定を適用できませんでした。"
+msgstr "Animation delivery continued, but the requested scene timing configuration could not be applied."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

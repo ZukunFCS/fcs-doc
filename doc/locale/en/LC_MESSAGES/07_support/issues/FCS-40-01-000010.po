@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
+msgstr "The selected video has no readable frames. Choose a valid video file."
+
+msgid "選択されたファイルから動画フレームを読み取れませんでした。"
+msgstr "The selected file yielded zero readable video frames."
+
+msgid "コピーや録画の完了と、動画全体をプレーヤーで再生できることを確認してください。完全な元動画を選択するか、コピーを再エンコードしてください。再生できる動画でも読み取れない場合は、元ファイルをサポート用に保持してください。"
+msgstr "Check that copying or recording has finished and the complete file plays in a media player. Choose the complete original video or re-encode a copy. Keep the original for support if a playable file still cannot be read."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

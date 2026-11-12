@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "既存のプロジェクトフォルダーを選択してください。"
+msgstr "Choose an existing project folder."
+
+msgid "アクターの作成にはFCS、Facial、Facial/RecDataフォルダーを含むプロジェクトのルートが必要です。通常のファイルをフォルダーとして指定することもできません。"
+msgstr "Creating an actor requires an FCS project root containing FCS, Facial and Facial/RecData directories. A path that already exists as a regular file is also invalid."
+
+msgid "FacialやFCSの内部ではなく、プロジェクトのルートを選択してください。新規プロジェクトはFCSの作成機能で必要なフォルダーを作成してください。既存プロジェクトで不足するフォルダーは、元のバックアップから復元してください。"
+msgstr "Select the project root, not its Facial or FCS subfolder. If starting a new project, create it using FCS project creation so the required directories exist. Restore missing project directories from the original project backup."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

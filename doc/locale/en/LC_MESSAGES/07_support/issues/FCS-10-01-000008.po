@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "拡張子が.maまたは.mbのMayaシーンを選択してください。"
+msgstr "Choose a Maya scene with the .ma or .mb file extension."
+
+msgid "選択したシーンファイル名が小文字の .ma または .mb で終わっていません。"
+msgstr "The selected scene filename does not end in lowercase .ma or .mb."
+
+msgid "既存のMaya ASCII（.ma）またはMaya Binary（.mb）シーンを選択してください。他形式のシーンはMayaからこれらの形式で保存してください。無関係なファイルの拡張子だけ変更しても変換されません。"
+msgstr "Choose an existing Maya ASCII (.ma) or Maya Binary (.mb) scene. Save a non-Maya scene from Maya in one of these formats; renaming an unrelated file extension does not convert its contents."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

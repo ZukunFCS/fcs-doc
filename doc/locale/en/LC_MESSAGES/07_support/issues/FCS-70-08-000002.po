@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のアニメーション値が無効なため修復しました。結果を使用する前に対象箇所を確認し、サポートにお問い合わせください。"
+msgstr "Some animation values were invalid and were repaired. Review the affected result before using it, and contact support."
+
+msgid "アニメーションに無効な数値が含まれていたため、使用可能な結果を生成するように置き換えました。"
+msgstr "The animation contained invalid numeric values and FCS replaced them to produce a usable result."
+
+msgid "出力前に、修復したアニメーションに飛び、動きの欠落、タイミングのずれがないか確認してください。元のアニメーションとコントローラーの上下限を確認し、修正した元データがあれば生成または読み込みをやり直してください。同じ値が繰り返し修復される場合は、元データとログを保持してください。"
+msgstr "Inspect the repaired motion for jumps, missing motion or incorrect timing before delivery. Check the source animation and controller limits; regenerate or reimport a corrected source if available. Keep the original source and Log if the same values are repaired repeatedly."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

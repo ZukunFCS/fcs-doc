@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画処理に必要な項目を入力してから、もう一度お試しください。"
+msgstr "Complete the required video-processing fields, then try again."
+
+msgid "動画処理に必要なパラメーターがありません。video_pathsが空のリストの場合も実行できません。"
+msgstr "Video processing was submitted without a required parameter; an empty video_paths list is also rejected."
+
+msgid "単一動画の処理では動画を1本、バッチでは1本以上を選択してください。自動操作では単一処理にvideo_path、バッチに空でないvideo_pathsリストが必要です。空の選択の代わりに対応する引数を指定してください。"
+msgstr "Choose a video for single-video processing, or at least one video for a batch. Automation must provide video_path for a single video or a nonempty video_paths list for a batch. Supply the matching argument rather than an empty selection."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

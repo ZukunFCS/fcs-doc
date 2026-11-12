@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "現在のセッションフォルダーの外にエクスポート先を指定してください。"
+msgstr "Choose an export destination outside the current session folder."
+
+msgid "実際の保存先が、元のキャラクターフォルダーと同じ場所、その親、またはその内部になっています。"
+msgstr "The resolved destination character folder equals, contains or is inside the source character folder."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "DCCはMayaまたはBlenderを選択してください。"
+msgstr "Choose Maya or Blender as the renderer."
+
+msgid "指定されたDCCが、対応するMayaまたはBlenderではありません。"
+msgstr "The renderer request does not select a supported Maya or Blender backend."
+
+msgid "Session Settingsまたは出力設定でMayaかBlenderを選択してください。自動操作ではmayaまたはblenderを識別子として使用します。この選択で他のアプリは使用できません。"
+msgstr "Select Maya or Blender in Session Settings or export options. Automation uses maya or blender as the renderer identifier; other applications are not supported by this selection."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -49,10 +49,14 @@ jobs:
         run: |
           cd doc
           python3 build_docs.py
+      - name: Assemble complete Pages tree and remove obsolete dev pages
+        run: |
+          python3 -m unittest discover -s tests -p test_assemble_pages.py
+          python3 doc/assemble_pages.py doc/_build/html published
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: doc/_build/html
-          keep_files: true
+          publish_dir: published
+          keep_files: false

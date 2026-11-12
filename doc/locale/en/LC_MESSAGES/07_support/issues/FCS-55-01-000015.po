@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "有効なコントローラーの制限値をコピーしてから貼り付けてください。"
+msgstr "Copy valid controller limits before pasting them."
+
+msgid "コントローラー上下限のクリップボードがカンマ区切りの数値3つでないか、上下限の条件を満たしていません。"
+msgstr "The controller-limits clipboard is not three comma-separated numbers, or the pasted range fails the controller-limit check."
+
+msgid "最小値,最大値,デフォルト値の順に指定してください（例：0,1,0.5）。最大値は最小値より 0.0001 以上大きくしてください。既存のコントローラーから上下限をコピーして、再度貼り付けることを推奨します。"
+msgstr "Use Minimum,Maximum,Default in that order, for example 0,1,0.5. Maximum must exceed Minimum by at least 0.0001. Prefer copying limits from an existing controller, then paste again."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

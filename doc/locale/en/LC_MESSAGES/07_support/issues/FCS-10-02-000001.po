@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択されたレイアウトファイルが見つかりません。既存のレイアウトファイルを選択してください。"
+msgstr "The selected layout file could not be found. Choose an existing layout file."
+
+msgid "選択した画面構成ファイルが、指定したパスに存在しません。"
+msgstr "The selected layout file no longer exists at the requested path."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

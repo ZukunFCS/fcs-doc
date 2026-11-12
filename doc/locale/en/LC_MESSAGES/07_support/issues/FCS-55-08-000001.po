@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "DCCからの読み込みウィザードを適用する前に、必要なコントローラー値をキャプチャーしてください。"
+msgstr "Capture the required controller values before applying the renderer-import wizard."
+
+msgid "DCC読み込みウィザードで、Applyに必要な値のキャプチャーが完了していません。"
+msgstr "The renderer-import wizard has not captured every value required by its Apply step."
+
+msgid "ウィザードで必要な値をキャプチャーしてからApplyを実行してください。コントローラーを選択しただけでは値をキャプチャーしたことにはなりません。ウィザードを開いたまま、不足するキャプチャーを完了してください。"
+msgstr "Complete the required value captures in the wizard, then Apply. Selecting a controller alone does not capture the values. Keep the wizard open while completing the missing capture steps."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

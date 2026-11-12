@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
+msgstr "The selected video has no readable frames. Choose a valid video file."
+
+msgid "選択した動画から有効なフレーム数とメタデータを読み取れませんでした。"
+msgstr "FCS could not read a positive frame count and usable metadata from the selected video."
+
+msgid "動画のコピーや録画が完了し、プレーヤーで最後まで再生できることを確認してください。完全な元ファイルを選択してください。元動画が再生できてもFCSで読めない場合はコピーを再エンコードし、元ファイルをサポート用に保持してください。"
+msgstr "Confirm that the video plays through in a media player and has finished copying or recording. Select the complete original file. If the original plays but FCS cannot read it, re-encode a copy and keep the original for support."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

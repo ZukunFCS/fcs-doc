@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "保存されたファイルを読み取れませんでした。サポートにお問い合わせください。"
+msgstr "The saved file could not be read. Contact support."
+
+msgid "選択した保存済みデータを読み込みまたは解釈できませんでした。"
+msgstr "FCS could not decode or read the selected saved-data file."
+
+msgid "読み取れないファイルのコピーを保持してください。コピーの完了とドライブ接続を確認してください。元ファイルを編集や上書きせず、FCSで保存した正常なバックアップを試してください。バックアップでも失敗する場合は、ファイルの種類、FCSバージョン、ログを添えて報告してください。"
+msgstr "Keep a copy of the unreadable file. Check that copying has finished and its drive is connected. Try a known-good backup saved by FCS rather than editing or repeatedly overwriting the original. Send the file type, FCS version and Log to support if the backup also fails."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

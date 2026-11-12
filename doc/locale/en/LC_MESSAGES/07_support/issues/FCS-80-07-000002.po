@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "MayaまたはBlenderにアニメーションを反映できませんでした。FCSとの接続と選択したシーンを確認してから、アニメーションの反映を再試行してください。"
+msgstr "Animation could not be delivered to Maya or Blender. Check its FCS connection and the selected scene, then retry animation delivery."
+
+msgid "アニメーションを選択したDCCシーンに送る処理が完了しませんでした。"
+msgstr "The animation-transfer step failed before the requested animation was delivered to the selected DCC scene."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

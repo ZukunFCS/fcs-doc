@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のアニメーション調整を適用できませんでした。反映された動きと学習ウィンドウの設定を確認してから、適用できなかった調整を再試行してください。"
+msgstr "Some animation adjustments could not be applied. Review the delivered motion and the selected Train settings, then retry the affected adjustments."
+
+msgid "指定した後処理の調整の一部に失敗した状態で、アニメーションの出力を続行しました。"
+msgstr "Animation delivery continued after one or more requested postprocessing adjustments failed."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

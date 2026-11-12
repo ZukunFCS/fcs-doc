@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "Mayaのプロジェクトフォルダーが見つかりません。既存のフォルダーを選択してください。"
+msgstr "Cannot find the Maya project folder. Choose an existing folder."
+
+msgid "選択したMayaワークスペースのパスが既存のフォルダーではありません。"
+msgstr "The selected Maya workspace path is not an existing directory."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

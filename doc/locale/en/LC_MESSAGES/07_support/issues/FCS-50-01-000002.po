@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルを生成する前に、少なくとも1つの顔領域を有効にしてください。"
+msgstr "Enable at least one facial region before generating profiles."
+
+msgid "Generalによるプロファイルの自動選択で、有効な顔領域がありません。"
+msgstr "General automatic profile selection has no facial region enabled."
+
+msgid "自動生成のオプションでUpper、Eyelid、Gaze、Lowerの少なくとも1つを有効にしてから再実行してください。"
+msgstr "Enable at least one of Upper, Eyelid, Gaze or Lower in the automatic-generation options, then generate again."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "Blenderのシーンが見つかりません。既存の.blendファイルを選択してください。"
+msgstr "Cannot find the Blender scene. Choose an existing .blend file."
+
+msgid "選択したBlenderシーンのパスが既存のファイルではありません。"
+msgstr "The selected Blender scene path is not an existing file."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

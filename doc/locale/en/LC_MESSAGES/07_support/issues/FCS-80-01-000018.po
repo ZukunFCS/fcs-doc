@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "MayaまたはBlenderのシーンとFCS設定を確認してから、もう一度お試しください。"
+msgstr "Check the scene and FCS settings in Maya or Blender, then try again."
+
+msgid "指定された操作の前提となるシーンまたはFCSの設定を、DCC側で検証できませんでした。"
+msgstr "The DCC rejected a scene or FCS configuration prerequisite before performing the requested action."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

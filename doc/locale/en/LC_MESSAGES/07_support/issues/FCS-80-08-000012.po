@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "接続の失敗によりレンダラーの自動同期を無効にしました。MayaまたはBlenderに再接続してから有効にし直してください。"
+msgstr "Automatic renderer synchronization was disabled after a connection failure. Reconnect Maya or Blender before enabling it again."
+
+msgid "DCCの接続障害後に自動同期を無効にし、他のアプリ操作を続行できる状態にしました。"
+msgstr "FCS disabled automatic synchronization after the renderer connection failed, allowing the rest of the application to continue."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

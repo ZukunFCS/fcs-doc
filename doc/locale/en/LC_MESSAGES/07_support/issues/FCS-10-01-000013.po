@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "更新をダウンロードする前に既存のダウンロード先フォルダーを選択してください。"
+msgstr "Choose an existing download folder before downloading the update."
+
+msgid "更新のダウンロード先が存在しないか、フォルダーではなくファイルです。"
+msgstr "The update download target does not exist or is a file rather than a directory."
+
+msgid "既存のダウンロード先フォルダーを選択するか、先に作成してから再実行してください。インストーラーのファイル名ではなく、フォルダーを指定してください。開始前に空き容量と書き込み権限を確認してください。"
+msgstr "Create or select an existing download folder, then retry the download. Select a directory, not an installer filename. Check free space and write access before starting the download."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のプロファイル拘束がコントローラーの制限値を超えたため、範囲内に制限しました。対象のポーズを確認してください。"
+msgstr "Some profile constraints exceeded the controller limits and were clamped. Check the affected poses."
+
+msgid "指定された一部の値が設定済みのコントローラー制限を超えています。結果は許容範囲に制限されました。"
+msgstr "Some requested values exceed the configured controller limits. The result was restricted to the permitted range."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

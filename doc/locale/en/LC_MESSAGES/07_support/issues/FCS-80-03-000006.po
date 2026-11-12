@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "MayaまたはBlenderへの出力を開始できませんでした。対象のアプリケーションとシーンを開き、FCSとの接続を確認してから再試行してください。"
+msgstr "Maya or Blender delivery could not start. Open the intended application and scene, check its FCS connection, then retry."
+
+msgid "出力用のMayaまたはBlenderの接続とシーンを初期化できませんでした。"
+msgstr "Delivery could not initialize its Maya or Blender connection and scene."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

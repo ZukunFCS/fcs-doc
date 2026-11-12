@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "要求された一部の出力を完了できませんでした。出力済みのファイルは保持されています。失敗した出力のメッセージを確認し、接続または出力先のアクセス権を修正してから再試行してください。"
+msgstr "Some requested outputs could not be delivered. Completed outputs have been kept. Review the failed output messages, correct their connection or destination access, and retry."
+
+msgid "他の工程が完了していても、指定した出力の少なくとも1つが失敗しています。"
+msgstr "At least one requested output failed even though other delivery steps may have completed."
+
+msgid "未保存の作業と出力済みのファイルを保持してください。表示されたコードとログのメッセージをコピーし、操作内容、時刻、FCSバージョン、対象の入力を記録してください。"
+msgstr "Keep unsaved work and completed outputs. Copy the displayed code and Log message and note the action, time, FCS version, and affected inputs."
+
+msgid "指定された確認後も同じ操作で失敗する場合は、これらの情報を添えてBug Feedbackから報告してください。ローカルに保存された報告は、サーバーへの送信完了を意味しません。"
+msgstr "If the same action still fails after the stated checks, send a Bug Feedback report with those details. A report saved locally is not confirmation of server delivery."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

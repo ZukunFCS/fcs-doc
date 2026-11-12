@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "編集する前にギャラリーでプロファイルを開いてください。"
+msgstr "Open a profile in Gallery before editing it."
+
+msgid "操作の対象となるプロファイルが選択されていません。"
+msgstr "The profile operation had no selected profiles to apply to."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
+msgstr "The selected controller is no longer available. Refresh the controller list and select it again."
+
+msgid "指定した名前のコントローラーが、現在の一覧にありません。"
+msgstr "The requested controller name is absent from the current controller list."
+
+msgid "Controller Settingsを更新して既存のコントローラーを選択してください。名前変更や削除をした場合は、選択内容や自動操作の名前を更新してから再実行してください。"
+msgstr "Refresh Controller Settings and select an existing controller. If it was renamed or removed, update the selected name or automation request before retrying."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

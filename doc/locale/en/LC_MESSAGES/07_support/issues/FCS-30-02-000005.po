@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロジェクトフォルダーを選択し、セッションを開き直してから続行してください。"
+msgstr "Choose a project folder and reopen the session before continuing."
+
+msgid "セッションにプロジェクトの場所がなく、Facialデータフォルダーを特定できません。"
+msgstr "The session has no project location from which FCS can resolve its Facial data directory."
+
+msgid "Session Settingsでプロジェクトのルートを指定し、セッションを開き直してください。共有の顔データは プロジェクト/Facial にあります。無関係な空のFacialフォルダーを作らず、既存のプロジェクトを選択してください。"
+msgstr "Set the project root in Session Settings and reopen the session. Its shared facial data belongs under project/Facial. Select the existing project rather than creating an unrelated empty Facial folder."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

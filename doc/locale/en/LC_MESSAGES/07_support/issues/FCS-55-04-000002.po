@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "コントローラー設定を保存できませんでした。編集内容は残っています。"
+msgstr "Controller settings were not saved. Your edits are still available."
+
+msgid "保存時にコントローラー名、顔領域の割り当て、数値の範囲を検証します。"
+msgstr "Saving validates controller names, facial-region assignments, and numeric limits."
+
+msgid "以下の該当する原因を確認し、コントローラー表を修正してから再度保存してください。"
+msgstr "Check the applicable cause below, correct the controller table, then save again."
+
+msgid "必要な各顔領域にコントローラーが1つ以上必要です。不足している領域に割り当ててから、再度保存してください。"
+msgstr "Every required facial region needs at least one controller. Assign controllers to the missing regions, then save again."
+
+msgid "各コントローラーに顔の領域を指定する必要があります。未割り当てのコントローラーに領域を選択してから、再度保存してください。"
+msgstr "Each controller must have a facial region; the unassigned region is not accepted. Choose a region for each unassigned controller, then save again."
+
+msgid "コントローラー名は重複できません。重複する行の名前を変更するか、行を削除してから、再度保存してください。"
+msgstr "Controller names must be unique. Rename or remove duplicate rows, then save again."
+
+msgid "最大値は最小値より0.0001以上大きくする必要があります。最大値を上げるか最小値を下げてから、再度保存してください。例えば、最小値0、最大値1は有効です。"
+msgstr "Maximum must be at least 0.0001 greater than Minimum. Increase Maximum or decrease Minimum, then save again. For example, Minimum 0 and Maximum 1 are accepted."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

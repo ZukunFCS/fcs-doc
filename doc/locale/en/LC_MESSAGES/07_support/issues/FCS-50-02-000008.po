@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のプロファイルから特徴を読み取れませんでした。元画像と顔の見え方を確認し、修正したプロファイルを保存してから再学習してください。問題が続く場合はサポートにお問い合わせください。"
+msgstr "Some profile features could not be read. Check the source images and face visibility, save corrected profiles, and train again. Contact support if this continues."
+
+msgid "プロファイル画像から、現在の計算に必要な顔の特徴を取得できませんでした。"
+msgstr "A profile image could not supply the face features needed by the current calculation."
+
+msgid "対象のプロファイルを開き、元画像が存在し、正しい向きの顔が明瞭に映っていることを確認してください。使用できない画像を交換または修正し、プロファイルを保存してから再学習してください。"
+msgstr "Open the affected profiles and verify that their source images exist and show a clearly visible, correctly oriented face. Replace or correct unusable images, save the profiles, then train again."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

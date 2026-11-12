@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
+msgstr "A character folder with that name already exists. Choose another name or open the existing character."
+
+msgid "選択したアクター内に、同じ名前のキャラクターフォルダーが存在します。"
+msgstr "A character directory with this name already exists below the selected actor."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

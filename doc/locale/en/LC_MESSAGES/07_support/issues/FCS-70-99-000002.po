@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "予測に失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
+msgstr "Prediction failed. Contact support. Keep completed outputs and open help for recovery steps."
+
+msgid "未分類の例外により、指定した結果を生成する前にアニメーションの予測が停止しました。"
+msgstr "Animation prediction stopped before producing its requested result because of an unclassified exception."
+
+msgid "選択した動画・プロファイルとソルバーが使用可能か確認してください。ソルバーを使用できない場合は現在の設定で学習し直し、再発する場合は対象と設定を報告してください。"
+msgstr "Confirm the selected video/profile and solver are available. Train with the current settings if the message says the solver cannot be used. If prediction still fails, report the affected profile/video and settings."
+
+msgid "未保存の作業と出力済みのファイルを保持してください。表示されたコードとログのメッセージをコピーし、操作内容、時刻、FCSバージョン、対象の入力を記録してください。"
+msgstr "Keep unsaved work and completed outputs. Copy the displayed code and Log message and note the action, time, FCS version, and affected inputs."
+
+msgid "指定された確認後も同じ操作で失敗する場合は、これらの情報を添えてBug Feedbackから報告してください。ローカルに保存された報告は、サーバーへの送信完了を意味しません。"
+msgstr "If the same action still fails after the stated checks, send a Bug Feedback report with those details. A report saved locally is not confirmation of server delivery."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

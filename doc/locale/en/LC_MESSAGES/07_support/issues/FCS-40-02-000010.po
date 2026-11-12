@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "続行する前に動画を開いてください。"
+msgstr "Open a video before continuing."
+
+msgid "この操作には動画プレーヤーで開かれた動画が必要ですが、動画が開かれていません。"
+msgstr "The operation requires an active video, but no video is open in the video player."
+
+msgid "Video Libraryから対象の動画を開き、読み込み完了後に再実行してください。一覧にない場合は、先にセッションにインポートしてください。"
+msgstr "Open the intended video from Video Library, wait for it to load, and retry the action. Import it into the session first if it is not listed."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

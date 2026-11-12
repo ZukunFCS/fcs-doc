@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画が見つかりません。復元するか、既存の動画ファイルを選択してください。"
+msgstr "Cannot find the video. Restore it or choose an existing video file."
+
+msgid "選択した動画ファイルが、記録されている場所にありません。"
+msgstr "The selected video file is absent from its recorded location."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

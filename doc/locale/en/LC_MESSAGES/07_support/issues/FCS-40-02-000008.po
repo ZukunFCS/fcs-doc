@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画が見つかりません。インポートする既存の動画ファイルを選択してください。"
+msgstr "Cannot find the video. Choose an existing video file to import."
+
+msgid "インポート元の動画のパスが存在しません。"
+msgstr "The video-import source path does not exist."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

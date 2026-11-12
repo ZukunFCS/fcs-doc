@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "続行する前に現在のセッションに動画をインポートしてください。"
+msgstr "Import the video into the current session before continuing."
+
+msgid "選択した動画が現在のセッションのVideo Libraryに登録されていません。"
+msgstr "The selected video is not registered in the current session’s Video Library."
+
+msgid "現在のセッションのVideo Libraryに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
+msgstr "Import the video into this session’s Video Library, then select that registered entry. Opening a file in another session does not register it here."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

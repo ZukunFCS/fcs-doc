@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "続行する前にタイムラインにプロファイルを追加してください。"
+msgstr "Add profiles to the timeline before continuing."
+
+msgid "操作に渡されたアニメーションのタイムラインに、サンプルがありません。"
+msgstr "The operation received an animation timeline with no samples."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

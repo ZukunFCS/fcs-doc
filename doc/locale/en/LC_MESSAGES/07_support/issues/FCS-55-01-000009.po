@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "変更後のコントローラー名は、すべて空でない名前にしてください。"
+msgstr "Every replacement controller name must be nonempty."
+
+msgid "変更後のコントローラー名の少なくとも1つが空の文字列です。"
+msgstr "At least one replacement controller name is an empty string."
+
+msgid "選択した各コントローラーの新しい名前を入力してください。自動操作ではnew_namesの各要素を確認してください。要素数が合っていても、空の名前がある場合は変更できません。"
+msgstr "Enter a nonempty new name for every selected controller. In automation, check each new_names entry; matching list lengths alone is not enough if an entry is empty."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "ニュートラルのプロファイルが選択されていません。最初のプロファイルをニュートラルとして使用します。リラックスした表情であることを確認してください。"
+msgstr "No neutral profile was selected. The first profile will be used as neutral. Check that it shows a relaxed face."
+
+msgid "ニュートラルが明示的に選択されていないため、最初のプロファイルを基準に学習しました。"
+msgstr "No explicit neutral profile was selected, so training selected the first profile as its neutral reference."
+
+msgid "最初のプロファイルがリラックスしたニュートラルの顔か確認してください。異なる場合は正しいニュートラルを明示的に選択し、ソルバーを使用する前に再学習してください。"
+msgstr "Check that the selected first profile shows a relaxed neutral face. If it does not, explicitly select the correct neutral profile and retrain before relying on the solver."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

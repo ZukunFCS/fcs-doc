@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "先に1つ以上のコントローラーを選択してください。"
+msgstr "Select one or more controllers first."
+
+msgid "操作の対象となるコントローラーが選択されていません。"
+msgstr "The controller operation has no selected controllers."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "続行する前にソルバーを学習するか読み込んでください。"
+msgstr "Train or load a solver before continuing."
+
+msgid "現在のセッションに、予測に使用できる学習済みまたは読み込み済みのソルバーがありません。"
+msgstr "The current session has no trained or loaded solver for prediction."
+
+msgid "現在のキャラクターのプロファイルから学習するか、そのコントローラー構成に合うソルバーを読み込んでください。ソルバーを使用できる状態で予測を再実行してください。"
+msgstr "Train the current character from its profiles, or load a solver that matches that character’s controller schema. Retry prediction after the solver is available."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

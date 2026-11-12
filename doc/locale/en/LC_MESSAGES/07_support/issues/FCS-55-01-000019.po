@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "使用可能なコントローラープリセットを選択してください。"
+msgstr "Choose an available controller preset."
+
+msgid "指定したプリセット名が、インストールされているコントローラープリセットの一覧にありません。"
+msgstr "The requested preset name is absent from the installed controller-preset list."
+
+msgid "コントローラープリセットの一覧からARKitまたはMetahumanを選択してください。自動操作ではcontroller.metadataが返す表記を使用してください。他のアプリのプリセット名を指定しても、FCSにインストールされたプリセットにはなりません。"
+msgstr "Choose ARKit or Metahuman from the controller-preset list. Automation must use the spelling returned by controller.metadata. A preset name from another application is not an installed FCS preset."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

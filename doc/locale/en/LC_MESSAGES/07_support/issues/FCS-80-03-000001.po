@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "MayaまたはBlenderに接続できません。アプリケーションを開き、FCSプラグインを有効にしてから、もう一度お試しください。"
+msgstr "Cannot connect to Maya or Blender. Open it and enable the FCS plug-in, then try again."
+
+msgid "選択したMayaまたはBlenderに、FCSから使用可能な接続を確立できませんでした。"
+msgstr "The requested operation could not obtain a working FCS connection to the selected Maya or Blender instance."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

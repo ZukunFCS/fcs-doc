@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画の解像度倍率には0より大きい値を指定してください。"
+msgstr "Choose a video resolution scale greater than zero."
+
+msgid "動画の解像度倍率に0以下の値が指定されています。"
+msgstr "Video resolution scaling was requested with a value less than or equal to zero."
+
+msgid "0より大きい解像度倍率を指定してください。1は元のサイズ、0.5は幅と高さをそれぞれ半分にします。倍率を修正してから動画を開き直してください。"
+msgstr "Choose a resolution scale greater than 0: 1 keeps the source size, 0.5 uses half its width and height. Reopen the video after correcting the scale."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

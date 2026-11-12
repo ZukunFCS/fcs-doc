@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部の元動画が見つかりません。次のファイルを復元するか、参照先を再設定してからエクスポートしてください： {files}"
+msgstr "Some source videos are missing. Restore or relink these files before exporting: {files}"
+
+msgid "セッションのエクスポート準備時に、アプリに表示された元動画を見つけられませんでした。"
+msgstr "The source videos named in the app could not be found when preparing the session export."
+
+msgid "対象の動画を登録された場所に復元するか、Video Libraryで再リンクしてください。別のフォルダーに同名の動画があっても自動では使用されません。元動画のドライブを再接続してから再実行してください。"
+msgstr "Restore those videos to their registered locations or relink them in Video Library. Files with the same names in another directory are not automatically used. Reconnect a source drive before retrying export."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

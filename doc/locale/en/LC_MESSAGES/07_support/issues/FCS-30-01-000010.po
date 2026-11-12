@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "開くセッションファイルを選択してください。"
+msgstr "Choose a session file before opening it."
+
+msgid "Open Sessionでセッションファイルが選択されていません。"
+msgstr "Open Session was submitted without a session-file selection."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

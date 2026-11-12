@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "フォルダーを作成するには、異なる2つの動画を選択してください。"
+msgstr "Choose two different videos to create a folder."
+
+msgid "動画グループの作成に指定した2つの入力が同じ動画です。"
+msgstr "Both inputs to video-folder creation identify the same video."
+
+msgid "Video Libraryで異なる2つの動画を選択してから、再度グループを作成してください。同じ項目を2回選択しても、2本の動画にはなりません。"
+msgstr "Select two distinct Video Library entries, then create the folder again. Selecting the same entry twice does not provide two videos."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "保存された設定を読み込めませんでした。FCSは既定値を使用しています。続行する前に設定を確認してください。"
+msgstr "Saved settings could not be loaded. FCS is using defaults. Check your preferences before continuing."
+
+msgid "保存されたアプリ設定を読み込めず、初期設定を使用しています。以前の設定が有効でない可能性があります。"
+msgstr "FCS could not read the saved application settings and loaded defaults instead. Previous preferences may therefore no longer be active."
+
+msgid "処理を始める前に、設定で言語、MayaまたはBlenderの場所、処理設定を確認してください。必要な値を入力し直して保存してください。読み取れない設定は繰り返し上書きせず、サポート用にコピーを保持してください。"
+msgstr "Before processing, review language, Maya or Blender locations, and processing preferences in Settings. Re-enter the required values and save. Keep a copy of the unreadable settings for support rather than repeatedly overwriting it."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

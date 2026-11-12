@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "元フレームまたはコントローラー値を使用できないため、一部のプロファイル拘束をスキップしました。対象のプロファイルを確認してください。"
+msgstr "Some profile constraints were skipped because their source frame or controller values are unavailable. Check the affected profiles."
+
+msgid "制約が参照する元フレームまたはコントローラー値がなく、その制約を省略しました。"
+msgstr "A constraint refers to a source frame or controller value that is unavailable, so that constraint was omitted."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

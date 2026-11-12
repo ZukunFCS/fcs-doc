@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "変更後のコントローラー名は重複しないようにしてください。各コントローラーに異なる名前を指定してください。"
+msgstr "The new controller names must be unique. Choose a different name for each controller."
+
+msgid "変更後の名前同士、または変更対象外のコントローラー名と重複しています。"
+msgstr "The proposed names collide with one another or with another controller that is not being renamed."
+
+msgid "名前変更のプレビューで、変更後の各名前が一意になるよう修正してください。変更しないコントローラーの名前とも重複しないことを確認してから、再度適用してください。"
+msgstr "Check the rename preview and give each resulting controller a unique name. Include unchanged controllers when checking for collisions, then apply the rename again."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

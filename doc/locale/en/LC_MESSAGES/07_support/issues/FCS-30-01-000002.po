@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "このアクターのファイルやフォルダーを閉じてから、名前の変更をもう一度お試しください。"
+msgstr "Close files and folders belonging to this actor, then try renaming it again."
+
+msgid "アクターフォルダーまたは内部のファイルへのアクセスが拒否され、名前を変更できませんでした。"
+msgstr "The actor-directory rename could not proceed because access to that directory or one of its files was denied."
+
+msgid "このアクター内のファイルを使用しているMayaやBlenderのシーン、ファイルのプレビューなどを閉じてください。エクスポートが書き込み中でないことを確認してから再実行してください。拒否が続く場合は、フォルダーの権限とドライブ接続を確認してください。"
+msgstr "Close applications using files under this actor, including Maya or Blender scenes and file previews. Ensure no export is writing there, then retry the rename. If access is still denied, check folder permissions and the connection to its drive."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイル名を入力してください。"
+msgstr "Enter a profile name."
+
+msgid "プロファイル名の操作で、名前が空になっています。"
+msgstr "A profile-name operation was submitted with an empty name."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

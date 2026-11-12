@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "別のアクター名を入力してください。"
+msgstr "Enter a different actor name."
+
+msgid "新しいアクター名が現在の名前と同じため、名前を変更できません。"
+msgstr "The requested new actor name matches the current actor name, so there is no rename to perform."
+
+msgid "空白以外の別のアクター名を入力して再実行するか、現在の名前でよければ名前の変更をキャンセルしてください。"
+msgstr "Enter a different nonblank actor name and retry, or cancel the rename if the current name is already correct."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

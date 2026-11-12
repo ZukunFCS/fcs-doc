@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
+msgstr "Choose an available video selection for automatic profile generation."
+
+msgid "自動生成の選択モードがGeneralでもROMでもありません。"
+msgstr "The automatic-generation selection mode is neither General nor ROM."
+
+msgid "代表的なフレームを選ぶ場合はGeneral、参照プロファイルに対応するフレームを選ぶ場合はROMを選択してください。自動操作でもGeneralまたはROMをそのまま指定してください。"
+msgstr "Choose General to select representative frames, or ROM to select frames against reference profiles. Automation must send General or ROM with that spelling."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "設定で対応しているMayaのバージョンを選択してください。"
+msgstr "Choose a supported Maya version in Settings."
+
+msgid "選択したMayaバージョンが対応するバージョン識別子に含まれていません。"
+msgstr "The selected Maya version is not among the supported version identifiers."
+
+msgid "Mayaのバージョンは 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 から選択してください。製品名や小数ではなく、2026のような4桁の年を指定してください。"
+msgstr "Select one of these Maya versions: 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027. Use the four-digit year, for example 2026, rather than a product name or decimal version."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルを保存できませんでした。編集中の内容は残っています。サポートにお問い合わせください。"
+msgstr "The profile was not saved. Your draft is still available. Contact support."
+
+msgid "編集したプロファイルの保存に失敗しました。修正して再度保存できるよう、編集画面に下書きを保持しています。"
+msgstr "Committing the edited profile failed. The editor retained the draft so it can be corrected and saved again."
+
+msgid "下書きを保持するため、Profile Editorを開いたままにしてください。プロファイル名、元画像、現在のコントローラーデータと、プロジェクトへの書き込み権限を確認して再度Saveしてください。再発する場合は再起動前に前後のログをコピーしてください。画面を閉じると未保存の編集内容を失う可能性があります。"
+msgstr "Keep the Profile Editor open so the draft is retained. Check the profile name, source image and current controller data, and confirm write access to the project. Retry Save. If it still fails, copy the nearby Log entries before restarting; closing the editor can lose the unsaved draft."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画のエクスポート先には現在のプロジェクトフォルダー以外のフォルダーを選択してください。"
+msgstr "Choose a different folder for exported videos; do not use the current project folder."
+
+msgid "動画のコピー先に現在のプロジェクトフォルダーが指定され、元動画の場所と重なっています。"
+msgstr "A media-copy export targets the current project folder, which would reuse the source media location."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

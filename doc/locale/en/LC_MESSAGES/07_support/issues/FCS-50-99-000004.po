@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルは保存しましたが、次の操作を完了できませんでした。サポートにお問い合わせください。"
+msgstr "The profile was saved, but the next action could not be completed. Contact support."
+
+msgid "プロファイルの保存後、続く操作でエラーが発生しました。その操作を再実行するために、プロファイルを保存し直す必要はありません。"
+msgstr "The profile was saved successfully, but a subsequent requested action raised an error. Saving the profile again is not required merely to repeat that next action."
+
+msgid "Galleryでプロファイルを確認してください。保存自体は完了しています。続く別のプロファイルを開く、編集画面を閉じるなどの操作について、関連するエラーを確認してから再実行してください。再発する場合は保存済みプロファイルとログを保持してください。"
+msgstr "Verify the profile in Gallery; its save already completed. Retry the subsequent action, such as opening another profile or closing the editor, after checking its reported error. Preserve the saved profile and Log if the transition still fails."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

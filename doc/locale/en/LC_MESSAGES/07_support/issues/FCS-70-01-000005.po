@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "顔のトラッキングで必要なデータを生成できませんでした。サポートにお問い合わせください。"
+msgstr "Face tracking could not produce the required data. Contact support."
+
+msgid "トラッキング処理で、予測に必要な顔のデータを取得できませんでした。"
+msgstr "The tracking stage did not produce the usable face data required by prediction."
+
+msgid "元動画が再生でき、向きが正しく、顔が明瞭に映っていることを確認してください。動画を再処理してトラッキングを作り直し、予測を再実行してください。使用可能な同じ動画で再発する場合は、動画と処理時のログを保持してください。"
+msgstr "Check that the source video plays, has the correct rotation, and shows a clearly visible face. Reprocess that video to rebuild tracking, then retry prediction. If the same usable footage still fails, keep the video and processing Log for support."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画フレームを反映できませんでした。元動画、出力先フォルダーの書き込み権限、MayaまたはBlenderとの接続を確認してから、Framesを再試行してください。"
+msgstr "Video frames could not be delivered. Check the source video, output-folder write access, and the Maya or Blender connection, then retry Frames."
+
+msgid "指定された動画フレームの準備または配置を完了できませんでした。"
+msgstr "The frame-delivery step could not prepare or attach the requested video images."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

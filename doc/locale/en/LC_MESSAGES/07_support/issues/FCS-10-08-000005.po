@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "アプリケーション画面の一部を更新できませんでした。サポートにお問い合わせください。"
+msgstr "Part of the application interface could not be updated. Contact support."
+
+msgid "アプリの実行中に画面の更新に失敗しました。表示されている操作部品の状態が古い可能性があります。"
+msgstr "An interface refresh failed while the application continued running. A visible control may still show an older state."
+
+msgid "対象の画面を開き直し、操作前に選択内容と値を確認してください。表示が更新されない場合はセッションを保存してから再起動してください。対象の画面と更新を起こした操作を報告してください。"
+msgstr "Reopen the affected window and verify its current selection and values before acting on them. Save the session before restarting if the window remains stale. Report the affected window and the action that triggered the refresh."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

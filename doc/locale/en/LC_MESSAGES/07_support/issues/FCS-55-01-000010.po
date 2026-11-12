@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "名前を変更する各コントローラーに、新しい名前を1つずつ指定してください。"
+msgstr "Provide one new name for each controller being renamed."
+
+msgid "名前変更の元の名前と新しい名前の数が一致していません。"
+msgstr "The rename request has different numbers of source names and replacement names."
+
+msgid "選択したコントローラーごとに新しい名前を1つ指定してください。自動操作ではold_namesとnew_namesの要素数を同じにし、対応する順序で指定してください。"
+msgstr "Supply exactly one new name for each selected controller. In automation, old_names and new_names must have equal lengths and matching order."
+
+msgid "別のコードを検索"
+msgstr "Find another code"
