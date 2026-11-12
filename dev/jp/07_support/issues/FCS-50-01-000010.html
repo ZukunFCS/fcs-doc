@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-50-01-000010 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,20 +85,12 @@
 <h1>FCS-50-01-000010<a class="headerlink" href="#fcs-50-01-000010" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>メッセージ<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>有効なスムージングプリセットファイルを選択してください。</p>
+<h2>原因<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>プリセットが不完全、破損、または互換性のないFCSバージョンで保存された可能性があります。</p>
 </section>
 <section id="id2">
-<h2>原因<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>スムージングプリセットがYAMLとして読めない、マッピング形式でない、必要な領域やパラメーターがない、または非対応の方式を指定しています。</p></li>
-</ul>
-</section>
-<section id="id3">
-<h2>対処方法<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>FCSで保存したプリセットを読み込んでください。手動編集する場合はupper、gaze、lower、eyelidのマッピングが必要です。各typeはSmoothing、Peak、1€、Rawのいずれかです。Smoothingにはweightとreps、Peakにはthreshold、width、linear_weightが必要です。1€にはmin_cutoffとbetaを任意で指定できます。YAMLを修正するか、スムージング設定から新しく保存してください。</p></li>
-</ol>
+<h2>対処方法<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>このFCSバージョンで保存した別のプリセットを選ぶか、ソルバーで必要な設定を作り直して新しいスムージングプリセットを保存してください。復旧を依頼する場合は元のファイルを保持してください。</p>
 <p><a class="reference internal" href="family-01.html"><span class="std std-doc">同じ種類の問題を見る</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">別のコードを検索</span></a></p>
 </section>

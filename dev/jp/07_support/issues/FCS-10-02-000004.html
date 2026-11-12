@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-10-02-000004 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,20 +85,12 @@
 <h1>FCS-10-02-000004<a class="headerlink" href="#fcs-10-02-000004" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>メッセージ<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>動画処理に必要な項目を入力してから、もう一度お試しください。</p>
+<h2>原因<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>処理には元動画の選択が必要です。開始時にFCSが選択内容を保持できなかった可能性もあります。</p>
 </section>
 <section id="id2">
-<h2>原因<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>動画処理に必要なパラメーターがありません。video_pathsが空のリストの場合も実行できません。</p></li>
-</ul>
-</section>
-<section id="id3">
-<h2>対処方法<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>単一動画の処理では動画を1本、バッチでは1本以上を選択してください。自動操作では単一処理にvideo_path、バッチに空でないvideo_pathsリストが必要です。空の選択の代わりに対応する引数を指定してください。</p></li>
-</ol>
+<h2>対処方法<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>動画ライブラリで元動画を選択してください。バッチの場合は1本以上が必要です。再実行しても選択済みの動画で発生する場合は、使用したボタン名と選択状態のスクリーンショットを添えて報告してください。</p>
 <p><a class="reference internal" href="family-02.html"><span class="std std-doc">同じ種類の問題を見る</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">別のコードを検索</span></a></p>
 </section>

@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-55-04-000003 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,69 +85,36 @@
 <h1>FCS-55-04-000003<a class="headerlink" href="#fcs-55-04-000003" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>Rename Controllers could not complete.</p>
+<h2>Why this happens<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>FCS could not apply the rename preview. Blank or duplicate new names and an out-of-date controller selection can block the rename.</p>
 </section>
 <section id="id2">
-<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Rename Controllers has several prerequisites. The sections below describe the recognized causes and their individual corrections.</p></li>
-</ul>
+<h2>How to resolve it<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>Check the preview against the matching condition below. If every displayed name is valid and the rename still fails, report the preview as an FCS problem.</p>
 </section>
 <section id="id3">
-<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>Check the matching condition below, correct it, then retry Rename Controllers.</p></li>
-</ol>
-<span id="controller-rename-collision"></span></section>
-<section id="id4">
-<h2>The new controller names must be unique. Choose a different name for each controller.<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The proposed names collide with one another or with another controller that is not being renamed.</p></li>
-<li><p>Check the rename preview and give each resulting controller a unique name. Include unchanged controllers when checking for collisions, then apply the rename again.</p></li>
-</ul>
-<span id="controller-rename-duplicate-source"></span></section>
-<section id="id5">
-<h2>Select each controller only once in the rename list.<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The rename request lists the same source controller more than once.</p></li>
-<li><p>Select each source controller once. For automation, remove duplicate entries from old_names and retain one corresponding new name for each source.</p></li>
-</ul>
-<span id="controller-rename-length-mismatch"></span></section>
-<section id="id6">
-<h2>Provide one new name for each controller being renamed.<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The rename request has different numbers of source names and replacement names.</p></li>
-<li><p>Supply exactly one new name for each selected controller. In automation, old_names and new_names must have equal lengths and matching order.</p></li>
-</ul>
-<span id="controller-rename-empty"></span></section>
-<section id="id7">
-<h2>Every replacement controller name must be nonempty.<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>At least one replacement controller name is an empty string.</p></li>
-<li><p>Enter a nonempty new name for every selected controller. In automation, check each new_names entry; matching list lengths alone is not enough if an entry is empty.</p></li>
-</ul>
-<span id="unknown-controller"></span></section>
-<section id="id8">
-<h2>The selected controller is no longer available. Refresh the controller list and select it again.<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The requested controller name is absent from the current controller list.</p></li>
-<li><p>Refresh Controller Settings and select an existing controller. If it was renamed or removed, update the selected name or automation request before retrying.</p></li>
-</ul>
-<span id="unexpected"></span></section>
-<section id="id9">
-<h2>Rename Controllers stopped because of an unexpected failure. Keep your current work and the Log before retrying.<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The Rename Controllers operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details.</p></li>
-<li><p>Preserve the current session and any files already created by Rename Controllers. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log.</p></li>
-</ul>
-<span id="required-controller-rename-many"></span></section>
-<section id="controller-rename-many-old-names-new-names">
-<h2>Required fields for controller.rename_many: old_names, new_names. Complete these fields before retrying. For automation, use these exact parameter names.<a class="headerlink" href="#controller-rename-many-old-names-new-names" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The operation was submitted without a required field.</p></li>
-<li><p>Required fields for controller.rename_many: old_names, new_names. Complete these fields before retrying. For automation, use these exact parameter names.</p></li>
-</ul>
+<h2>Possible causes<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<span id="controller-rename-collision"></span><p><strong>A new name is already in use</strong></p>
+<p>The proposed names collide with one another or with another controller that is not being renamed.</p>
+<p>Check the rename preview and give each resulting controller a unique name. Include unchanged controllers when checking for collisions, then apply the rename again.</p>
+<span id="controller-rename-duplicate-source"></span><p><strong>Rename selection was repeated</strong></p>
+<p>The same controller reached the rename action more than once.</p>
+<p>Reopen Rename Controllers and select the controllers again. If the preview contains each controller once and the error returns, report the problem with a screenshot of the preview.</p>
+<span id="controller-rename-length-mismatch"></span><p><strong>Rename preview is incomplete</strong></p>
+<p>FCS did not keep a complete new name for every selected controller. The rename was stopped before these names were changed.</p>
+<p>Close and reopen Rename Controllers, select the controllers again, and regenerate the preview. If the complete preview still fails, report this as an FCS rename problem.</p>
+<span id="controller-rename-empty"></span><p><strong>A new name is blank</strong></p>
+<p>At least one selected controller has no new name in the rename preview.</p>
+<p>In Rename Controllers, check the preview and enter a name for every selected controller before applying. If every name is shown and FCS still rejects the rename, report a screenshot of the preview.</p>
+<span id="unknown-controller"></span><p><strong>A selected controller no longer exists</strong></p>
+<p>The controller may have been renamed or removed since the window was opened.</p>
+<p>Open Window → Controllers again and select the current controller again. If it is listed but cannot be used, report its name and the action that failed.</p>
+<span id="unexpected"></span><p><strong>FCS stopped unexpectedly</strong></p>
+<p>The Rename Controllers operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details.</p>
+<p>Preserve the current session and any files already created by Rename Controllers. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log.</p>
+<span id="required-controller-rename-many"></span><p><strong>Rename preview</strong></p>
+<p>The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action.</p>
+<p>Reopen Rename Controllers, select the controllers again, and check the preview before applying. If a complete preview is rejected, report the problem; FCS did not complete the rename.</p>
 <p><a class="reference internal" href="family-04.html"><span class="std std-doc">Browse this family</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">Find another code</span></a></p>
 </section>

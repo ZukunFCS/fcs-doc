@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-50-04-000002 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,69 +85,36 @@
 <h1>FCS-50-04-000002<a class="headerlink" href="#fcs-50-04-000002" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>Generate Profiles could not complete.</p>
+<h2>Why this happens<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>FCS could not create profiles from the selected video. The source video, reference profiles or generation options may be unavailable.</p>
 </section>
 <section id="id2">
-<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Generate Profiles has several prerequisites. The sections below describe the recognized causes and their individual corrections.</p></li>
-</ul>
+<h2>How to resolve it<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>Check the source video and generation options using the matching explanation below, then generate again. If a complete selection is rejected, report the generation window as an FCS problem.</p>
 </section>
 <section id="id3">
-<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>Check the matching condition below, correct it, then retry Generate Profiles.</p></li>
-</ol>
-<span id="auto-profile-requires-profile"></span></section>
-<section id="id4">
-<h2>Create at least one profile before using automatic profile generation.<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Automatic generation needs an existing profile as a reference, but this session has none.</p></li>
-<li><p>Create and save at least one profile in the current character’s Gallery, then retry automatic profile generation.</p></li>
-</ul>
-<span id="auto-profile-no-region-enabled"></span></section>
-<section id="id5">
-<h2>Enable at least one facial region before generating profiles.<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>General automatic profile selection has no facial region enabled.</p></li>
-<li><p>Enable at least one of Upper, Eyelid, Gaze or Lower in the automatic-generation options, then generate again.</p></li>
-</ul>
-<span id="auto-profile-invalid-selection"></span></section>
-<section id="id6">
-<h2>Choose an available video selection for automatic profile generation.<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The automatic-generation selection mode is neither General nor ROM.</p></li>
-<li><p>Choose General to select representative frames, or ROM to select frames against reference profiles. Automation must send General or ROM with that spelling.</p></li>
-</ul>
-<span id="auto-profile-video-not-found"></span></section>
-<section id="id7">
-<h2>Cannot find the video. Restore or reimport it before generating profiles.<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Automatic profile generation cannot find its selected source video.</p></li>
-<li><p>Cannot find the video. Restore or reimport it before generating profiles.</p></li>
-</ul>
-<span id="session-retarget-folder-missing"></span></section>
-<section id="id8">
-<h2>Open a complete session with an actor and character before continuing.<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>FCS cannot resolve the current character’s RetargetData directory because the session has no complete character location.</p></li>
-<li><p>Open a session with a project, Actor and Character. The character data is under project/FCS/Actor/Character, with RetargetData below it. Retry the profile operation after opening the intended character.</p></li>
-</ul>
-<span id="unexpected"></span></section>
-<section id="id9">
-<h2>Generate Profiles stopped because of an unexpected failure. Keep your current work and the Log before retrying.<a class="headerlink" href="#id9" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The Generate Profiles operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details.</p></li>
-<li><p>Preserve the current session and any files already created by Generate Profiles. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log.</p></li>
-</ul>
-<span id="required-rom-gallery-auto-profile-generate"></span></section>
-<section id="rom-gallery-auto-profile-generate-video-path">
-<h2>Required fields for rom.gallery.auto_profile.generate: video_path. Complete these fields before retrying. For automation, use these exact parameter names.<a class="headerlink" href="#rom-gallery-auto-profile-generate-video-path" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The operation was submitted without a required field.</p></li>
-<li><p>Required fields for rom.gallery.auto_profile.generate: video_path. Complete these fields before retrying. For automation, use these exact parameter names.</p></li>
-</ul>
+<h2>Possible causes<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<span id="auto-profile-requires-profile"></span><p><strong>No reference profile is available</strong></p>
+<p>Automatic generation needs an existing profile as a reference, but this session has none.</p>
+<p>Create and save at least one profile in the current character’s Gallery, then retry automatic profile generation.</p>
+<span id="auto-profile-no-region-enabled"></span><p><strong>No facial region is enabled</strong></p>
+<p>General automatic profile selection has no facial region enabled.</p>
+<p>Enable at least one of Upper, Eyelid, Gaze or Lower in the automatic-generation options, then generate again.</p>
+<span id="auto-profile-invalid-selection"></span><p><strong>Saved frame-selection mode cannot be used</strong></p>
+<p>The profile-generation window has a saved selection that FCS cannot apply.</p>
+<p>Reopen the profile-generation window and select the intended mode again. If a mode shown by FCS still fails, report the problem; changing unrelated video settings will not repair it.</p>
+<span id="auto-profile-video-not-found"></span><p><strong>The source video is missing</strong></p>
+<p>Automatic profile generation cannot find its selected source video.</p>
+<p>Cannot find the video. Restore or reimport it before generating profiles.</p>
+<span id="session-retarget-folder-missing"></span><p><strong>No character session is open</strong></p>
+<p>FCS cannot resolve the current character’s RetargetData directory because the session has no complete character location.</p>
+<p>Open a session with a project, Actor and Character. The character data is under project/FCS/Actor/Character, with RetargetData below it. Retry the profile operation after opening the intended character.</p>
+<span id="unexpected"></span><p><strong>FCS stopped unexpectedly</strong></p>
+<p>The Generate Profiles operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details.</p>
+<p>Preserve the current session and any files already created by Generate Profiles. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log.</p>
+<span id="required-rom-gallery-auto-profile-generate"></span><p><strong>Generation options</strong></p>
+<p>The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action.</p>
+<p>Select the source video and the intended profile-generation options, then generate again. If all visible choices are set and this error returns, report the generation dialog as an FCS problem.</p>
 <p><a class="reference internal" href="family-04.html"><span class="std std-doc">Browse this family</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">Find another code</span></a></p>
 </section>

@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-90-99-000001 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,17 +85,11 @@
 <h1>FCS-90-99-000001<a class="headerlink" href="#fcs-90-99-000001" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>Saving failed. Contact support. Keep completed outputs and open help for recovery steps.</p>
+<h2>Why this happens<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>Saving stopped on an exception that did not match a more specific supported validation error.</p>
 </section>
 <section id="id2">
-<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Saving stopped on an exception that did not match a more specific supported validation error.</p></li>
-</ul>
-</section>
-<section id="id3">
-<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<h2>How to resolve it<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
 <ol class="arabic simple">
 <li><p>Keep FCS open and retain unsaved edits. Check the destination exists and is writable; reconnect shared storage if needed. Retry saving. If it still fails, report it before discarding the draft or closing the application.</p></li>
 <li><p>Keep unsaved work and completed outputs. Copy the displayed code and Log message and note the action, time, FCS version, and affected inputs.</p></li>

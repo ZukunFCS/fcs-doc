@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-55-04-000002 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,48 +85,23 @@
 <h1>FCS-55-04-000002<a class="headerlink" href="#fcs-55-04-000002" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>Controller settings were not saved. Your edits are still available.</p>
+<h2>Why this happens<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>Saving validates controller names, facial-region assignments, and numeric limits.</p>
 </section>
 <section id="id2">
-<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Saving validates controller names, facial-region assignments, and numeric limits.</p></li>
-</ul>
+<h2>How to resolve it<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>Check the applicable cause below, correct the controller table, then save again.</p>
 </section>
 <section id="id3">
-<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>Check the applicable cause below, correct the controller table, then save again.</p></li>
-</ol>
-<span id="missing-regions"></span></section>
-<section id="id4">
-<h2>Every required facial region needs at least one controller. Assign controllers to the missing regions, then save again.<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Every required facial region needs at least one controller. Assign controllers to the missing regions, then save again.</p></li>
-<li><p>Every required facial region needs at least one controller. Assign controllers to the missing regions, then save again.</p></li>
-</ul>
-<span id="invalid-region"></span></section>
-<section id="id5">
-<h2>Each controller must have a facial region; the unassigned region is not accepted. Choose a region for each unassigned controller, then save again.<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Each controller must have a facial region; the unassigned region is not accepted. Choose a region for each unassigned controller, then save again.</p></li>
-<li><p>Each controller must have a facial region; the unassigned region is not accepted. Choose a region for each unassigned controller, then save again.</p></li>
-</ul>
-<span id="duplicate-name"></span></section>
-<section id="id6">
-<h2>Controller names must be unique. Rename or remove duplicate rows, then save again.<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Controller names must be unique. Rename or remove duplicate rows, then save again.</p></li>
-<li><p>Controller names must be unique. Rename or remove duplicate rows, then save again.</p></li>
-</ul>
-<span id="invalid-range"></span></section>
-<section id="id7">
-<h2>Maximum must be at least 0.0001 greater than Minimum. Increase Maximum or decrease Minimum, then save again. For example, Minimum 0 and Maximum 1 are accepted.<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Maximum must be at least 0.0001 greater than Minimum. Increase Maximum or decrease Minimum, then save again. For example, Minimum 0 and Maximum 1 are accepted.</p></li>
-<li><p>Maximum must be at least 0.0001 greater than Minimum. Increase Maximum or decrease Minimum, then save again. For example, Minimum 0 and Maximum 1 are accepted.</p></li>
-</ul>
+<h2>Possible causes<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<span id="missing-regions"></span><p><strong>A facial region has no controllers</strong></p>
+<p>Every required facial region needs at least one controller. Assign controllers to the missing regions, then save again.</p>
+<span id="invalid-region"></span><p><strong>A controller has no usable region</strong></p>
+<p>Each controller must have a facial region; the unassigned region is not accepted. Choose a region for each unassigned controller, then save again.</p>
+<span id="duplicate-name"></span><p><strong>Controller names are duplicated</strong></p>
+<p>Controller names must be unique. Rename or remove duplicate rows, then save again.</p>
+<span id="invalid-range"></span><p><strong>Minimum and Maximum are too close or reversed</strong></p>
+<p>Maximum must be at least 0.0001 greater than Minimum. Increase Maximum or decrease Minimum, then save again. For example, Minimum 0 and Maximum 1 are accepted.</p>
 <p><a class="reference internal" href="family-04.html"><span class="std std-doc">Browse this family</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">Find another code</span></a></p>
 </section>

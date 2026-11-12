@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-40-04-000002 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,62 +85,33 @@
 <h1>FCS-40-04-000002<a class="headerlink" href="#fcs-40-04-000002" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>メッセージ<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>動画グループの作成を完了できませんでした。</p>
+<h2>原因<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>選択した動画をグループにできませんでした。選択内容やグループ名が既存のグループと重複している場合があります。</p>
 </section>
 <section id="id2">
-<h2>原因<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>動画グループの作成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。</p></li>
-</ul>
+<h2>対処方法<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>以下の説明で選択した動画とグループ名を確認してから、再度グループを作成してください。</p>
 </section>
 <section id="id3">
-<h2>対処方法<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>以下の該当する条件を確認し、修正してから動画グループの作成を再実行してください。</p></li>
-</ol>
-<span id="video-folder-name-duplicate"></span></section>
-<section id="id4">
-<h2>同じ名前の動画フォルダーが既に存在します。別の名前を選択してください。<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Video Libraryに同じ名前の動画グループが存在します。</p></li>
-<li><p>別のグループ名を指定するか、既存のグループを使用してください。これはVideo Library内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。</p></li>
-</ul>
-<span id="video-folder-same-video"></span></section>
-<section id="id5">
-<h2>フォルダーを作成するには、異なる2つの動画を選択してください。<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>動画グループの作成に指定した2つの入力が同じ動画です。</p></li>
-<li><p>Video Libraryで異なる2つの動画を選択してから、再度グループを作成してください。同じ項目を2回選択しても、2本の動画にはなりません。</p></li>
-</ul>
-<span id="video-folder-create-requires-ungrouped"></span></section>
-<section id="id6">
-<h2>まだフォルダーに入っていない2つの動画を選択してください。<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>新しいグループに指定した動画の少なくとも1つが、既存のVideo Libraryグループに属しています。</p></li>
-<li><p>現在どのグループにも属していない2本の動画を選択するか、先に対象の動画を既存のグループから外してください。その後で新しいグループを作成してください。</p></li>
-</ul>
-<span id="video-not-registered"></span></section>
-<section id="id7">
-<h2>続行する前に現在のセッションに動画をインポートしてください。<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>選択した動画が現在のセッションのVideo Libraryに登録されていません。</p></li>
-<li><p>現在のセッションのVideo Libraryに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。</p></li>
-</ul>
-<span id="unexpected"></span></section>
-<section id="id8">
-<h2>動画グループの作成で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>動画グループの作成で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。</p></li>
-<li><p>現在のセッションと動画グループの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。</p></li>
-</ul>
-<span id="required-video-folder-create"></span></section>
-<section id="video-folder-create-name-source-video-stem-target-video-stem">
-<h2>video.folder.create の必須項目は name, source_video_stem, target_video_stem です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。<a class="headerlink" href="#video-folder-create-name-source-video-stem-target-video-stem" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>操作に必要なフィールドが指定されていません。</p></li>
-<li><p>video.folder.create の必須項目は name, source_video_stem, target_video_stem です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。</p></li>
-</ul>
+<h2>考えられる原因<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<span id="video-folder-name-duplicate"></span><p><strong>グループ名が使用済み</strong></p>
+<p>動画ライブラリに同じ名前の動画グループが存在します。</p>
+<p>別のグループ名を指定するか、既存のグループを使用してください。これは動画ライブラリ内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。</p>
+<span id="video-folder-same-video"></span><p><strong>同じ動画を2回選択している</strong></p>
+<p>動画グループの作成に指定した2つの入力が同じ動画です。</p>
+<p>動画ライブラリで異なる2つの動画を選択してから、再度グループを作成してください。同じ項目を2回選択しても、2本の動画にはなりません。</p>
+<span id="video-folder-create-requires-ungrouped"></span><p><strong>動画が別のグループに所属している</strong></p>
+<p>新しいグループに指定した動画の少なくとも1つが、既存の動画ライブラリグループに属しています。</p>
+<p>現在どのグループにも属していない2本の動画を選択するか、先に対象の動画を既存のグループから外してください。その後で新しいグループを作成してください。</p>
+<span id="video-not-registered"></span><p><strong>動画がこのセッションに登録されていない</strong></p>
+<p>選択した動画が現在のセッションの動画ライブラリに登録されていません。</p>
+<p>現在のセッションの動画ライブラリに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。</p>
+<span id="unexpected"></span><p><strong>FCSで予期しない障害が発生</strong></p>
+<p>動画グループの作成で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。</p>
+<p>現在のセッションと動画グループの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。</p>
+<span id="required-video-folder-create"></span><p><strong>動画グループの選択</strong></p>
+<p>選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。</p>
+<p>グループに属していない異なる2本の動画を選び、グループ名を入力してから作成してください。設定済みでも拒否される場合は動画ライブラリを開き直し、問題を報告してください。</p>
 <p><a class="reference internal" href="family-04.html"><span class="std std-doc">同じ種類の問題を見る</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">別のコードを検索</span></a></p>
 </section>

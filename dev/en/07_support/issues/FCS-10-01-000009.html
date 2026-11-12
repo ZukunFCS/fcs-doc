@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-10-01-000009 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,95 +85,43 @@
 <h1>FCS-10-01-000009<a class="headerlink" href="#fcs-10-01-000009" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>Processing settings were not applied.</p>
+<h2>Why this happens<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>FCS could not use one of the current or previously saved Solver settings. The problem can be in a different control from the one you just changed.</p></li>
+<li><p>If this happens after choosing an option offered by FCS, it is an application settings problem; the available dropdown choices are not the cause.</p></li>
+</ul>
 </section>
 <section id="id2">
-<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Applying processing settings rejected a numeric value, smoothing method, gaze replacement, profile-priority option, or clamp mode. The checks below are independent; correct the setting you changed.</p></li>
-</ul>
+<h2>How to resolve it<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Save your work and restart FCS once. If the error returns, use Bug Feedback to report the code, FCS version, and the control you used just before it appeared.</p></li>
+<li><p>If the problem keeps you from working, first record your preferences, then open Settings, click Restore, and confirm the restart. This resets all application preferences, including customized processing options and application locations.</p></li>
+</ol>
 </section>
 <section id="id3">
-<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>Same-video weight must be between 1.0 and 10.0, inclusive; for example 5 is accepted.</p></li>
-<li><p>Gaze-freezing threshold must be between 0.0 and 1.0, inclusive; for example 0.5. Replacement must be Last detected or Default value.</p></li>
-<li><p>Profile-priority range must be between 0.0 and 2.0 seconds, inclusive; its exponent must be between 0.1 and 5.0, inclusive. For example, 1 second and exponent 1 are accepted. Select a priority mode offered for the current processing profile; availability depends on that profile.</p></li>
-<li><p>Smoothing method must be Smoothing, Peak, 1€ or Raw. For 1€, minimum cutoff must be a finite number greater than 0; beta must be finite and at least 0. The derivative cutoff is fixed internally at 1.</p></li>
-<li><p>Clamp mode must be No Clamp, Hard Clamp or Soft Clamp. Choose an option from the app rather than entering a translated label through automation.</p></li>
-<li><p>Correct the affected field in Processing Settings and apply again. For automation, use the field names and nesting returned by processing.settings rather than adding unsupported keys.</p></li>
-</ol>
-<span id="same-video-weight"></span></section>
-<section id="id4">
-<h2>Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight.<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight.</p></li>
-<li><p>Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight.</p></li>
-</ul>
-<span id="smoothing-method"></span></section>
-<section id="smoothingpeak1raw">
-<h2>Choose Smoothing, Peak, 1€ or Raw as the smoothing method.<a class="headerlink" href="#smoothingpeak1raw" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Choose Smoothing, Peak, 1€ or Raw as the smoothing method.</p></li>
-<li><p>Choose Smoothing, Peak, 1€ or Raw as the smoothing method.</p></li>
-</ul>
-<span id="one-euro-value"></span></section>
-<section id="beta08beta-1">
-<h2>For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted.<a class="headerlink" href="#beta08beta-1" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted.</p></li>
-<li><p>For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted.</p></li>
-</ul>
-<span id="gaze-replacement"></span></section>
-<section id="last-detected-default-value">
-<h2>Choose Last detected or Default value for gaze-freezing replacement.<a class="headerlink" href="#last-detected-default-value" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Choose Last detected or Default value for gaze-freezing replacement.</p></li>
-<li><p>Choose Last detected or Default value for gaze-freezing replacement.</p></li>
-</ul>
-<span id="gaze-threshold"></span></section>
-<section id="id5">
-<h2>Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default.<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default.</p></li>
-<li><p>Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default.</p></li>
-</ul>
-<span id="priority-mode"></span></section>
-<section id="id6">
-<h2>Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile.<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile.</p></li>
-<li><p>Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile.</p></li>
-</ul>
-<span id="priority-range"></span></section>
-<section id="id7">
-<h2>Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range.<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range.</p></li>
-<li><p>Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range.</p></li>
-</ul>
-<span id="priority-exponent"></span></section>
-<section id="id8">
-<h2>Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default.<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default.</p></li>
-<li><p>Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default.</p></li>
-</ul>
-<span id="clamp"></span></section>
-<section id="no-clamphard-clampsoft-clamp">
-<h2>Choose No Clamp, Hard Clamp or Soft Clamp.<a class="headerlink" href="#no-clamphard-clampsoft-clamp" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Choose No Clamp, Hard Clamp or Soft Clamp.</p></li>
-<li><p>Choose No Clamp, Hard Clamp or Soft Clamp.</p></li>
-</ul>
-<span id="structure"></span></section>
-<section id="processing-settings">
-<h2>A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings.<a class="headerlink" href="#processing-settings" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings.</p></li>
-<li><p>A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings.</p></li>
-</ul>
+<h2>Possible causes<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<span id="same-video-weight"></span><p><strong>Same Video Weight</strong></p>
+<p>The saved Same Video Weight is outside the supported range. This control is only shown in some builds.</p>
+<p>If your Solver window includes Same Video Weight, return it to 5 and retry. Its range is 1.0–10.0. If that control is not shown, use the saved-settings recovery above.</p>
+<span id="smoothing-method"></span>
+<span id="gaze-replacement"></span>
+<span id="priority-mode"></span>
+<span id="clamp"></span>
+<span id="structure"></span><p><strong>Saved Solver settings cannot be used</strong></p>
+<p>FCS could not read its saved Solver settings, or rejected a choice for Type, Replacement Value, Prioritize profile, or Clamp mode. Those menus already restrict the available choices; rejecting one of their offered choices is an application problem.</p>
+<p>Use the recovery steps above. When reporting the problem, include which control was named in the error and what you were doing.</p>
+<span id="one-euro-value"></span><p><strong>Smart smoothing controls</strong></p>
+<p>The saved Smart smoothing controls are unreadable or outside the supported numeric range.</p>
+<p>In Solver → Denoising → Parameters, if Type is Smart, set Smoothing Control to 8 and Motion Responsiveness to 1, then retry. If those controls are not shown, or those values are already set, use the saved-settings recovery above.</p>
+<span id="gaze-threshold"></span><p><strong>Freezing threshold</strong></p>
+<p>The saved gaze-freezing threshold could not be applied.</p>
+<p>In Solver → Post processing → Gaze Freezing, set Freezing threshold to 0.5 and retry. Accepted values are 0.0–1.0, including both ends. If an available value still fails, report an FCS settings problem.</p>
+<span id="priority-range"></span><p><strong>Profile-priority Range</strong></p>
+<p>The saved profile-priority Range could not be applied.</p>
+<p>If Prioritize profile is already set to Local in Solver → Post processing, set Range to 1 second and retry. The accepted range is 0.0–2.0 seconds, including both ends. If Range is not visible, use the saved-settings recovery above.</p>
+<span id="priority-exponent"></span><p><strong>Exponential Coefficient</strong></p>
+<p>The saved Exponential Coefficient could not be applied.</p>
+<p>If Prioritize profile is already set to Local in Solver → Post processing, set Exponential Coefficient to 1 and retry. Accepted values are 0.1–5.0, including both ends. If this control is not visible, use the saved-settings recovery above.</p>
 <p><a class="reference internal" href="family-01.html"><span class="std std-doc">Browse this family</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">Find another code</span></a></p>
 </section>

@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-95-01-000005 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,118 +85,45 @@
 <h1>FCS-95-01-000005<a class="headerlink" href="#fcs-95-01-000005" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>The session could not be exported.</p>
+<h2>Why this happens<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>Session export checks the destination, Actor and Character, selected media, and any replacement DCC scene before copying the session.</p>
 </section>
 <section id="id2">
-<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Session export checks the destination, Actor and Character, selected media, and any replacement DCC scene before copying the session.</p></li>
-</ul>
+<h2>How to resolve it<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>Use the matching check below, correct the export settings, then click Export again. The current session remains the source.</p>
 </section>
 <section id="id3">
-<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>Use the matching check below, correct the export settings, then click Export again. The current session remains the source.</p></li>
-</ol>
-<span id="required-fields"></span></section>
-<section id="actorcharacter-fcs-actor-character">
-<h2>Choose an export destination and enter both Actor and Character. The exported session is created at destination/FCS/Actor/Character.<a class="headerlink" href="#actorcharacter-fcs-actor-character" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Choose an export destination and enter both Actor and Character. The exported session is created at destination/FCS/Actor/Character.</p></li>
-<li><p>Choose an export destination and enter both Actor and Character. The exported session is created at destination/FCS/Actor/Character.</p></li>
-</ul>
-<span id="source-overlap"></span></section>
-<section id="actorcharacter">
-<h2>The destination character folder must be outside the current character folder. It must not equal, contain, or be contained by the source character folder. Choose another destination, Actor, or Character.<a class="headerlink" href="#actorcharacter" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The destination character folder must be outside the current character folder. It must not equal, contain, or be contained by the source character folder. Choose another destination, Actor, or Character.</p></li>
-<li><p>The destination character folder must be outside the current character folder. It must not equal, contain, or be contained by the source character folder. Choose another destination, Actor, or Character.</p></li>
-</ul>
-<span id="existing-target"></span></section>
-<section id="id4">
-<h2>The destination already contains this character folder. Choose a different destination or character name. Use replacement only if you intend to replace that existing character and have backed it up.<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The destination already contains this character folder. Choose a different destination or character name. Use replacement only if you intend to replace that existing character and have backed it up.</p></li>
-<li><p>The destination already contains this character folder. Choose a different destination or character name. Use replacement only if you intend to replace that existing character and have backed it up.</p></li>
-</ul>
-<span id="project-video-target"></span></section>
-<section id="associated-videos-all-files-no-video">
-<h2>When exporting Associated videos or All files, choose a destination different from the current project folder. Alternatively, choose No video if a copy of the source media is not needed.<a class="headerlink" href="#associated-videos-all-files-no-video" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>When exporting Associated videos or All files, choose a destination different from the current project folder. Alternatively, choose No video if a copy of the source media is not needed.</p></li>
-<li><p>When exporting Associated videos or All files, choose a destination different from the current project folder. Alternatively, choose No video if a copy of the source media is not needed.</p></li>
-</ul>
-<span id="missing-video"></span></section>
-<section id="associated-videos-all-files-video-library-no-video">
-<h2>Associated videos and All files require the source videos to exist at their stored locations. Restore the original files or update their paths in Video Library, then retry. Choose No video only if the exported session does not need a media copy.<a class="headerlink" href="#associated-videos-all-files-video-library-no-video" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Associated videos and All files require the source videos to exist at their stored locations. Restore the original files or update their paths in Video Library, then retry. Choose No video only if the exported session does not need a media copy.</p></li>
-<li><p>Associated videos and All files require the source videos to exist at their stored locations. Restore the original files or update their paths in Video Library, then retry. Choose No video only if the exported session does not need a media copy.</p></li>
-</ul>
-<span id="filename-collision"></span></section>
-<section id="all-files-1video-libraryassociated-videos">
-<h2>All files cannot flatten different source files with the same filename into one export folder. Give the source files unique filenames and update their Video Library paths, or export Associated videos instead.<a class="headerlink" href="#all-files-1video-libraryassociated-videos" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>All files cannot flatten different source files with the same filename into one export folder. Give the source files unique filenames and update their Video Library paths, or export Associated videos instead.</p></li>
-<li><p>All files cannot flatten different source files with the same filename into one export folder. Give the source files unique filenames and update their Video Library paths, or export Associated videos instead.</p></li>
-</ul>
-<span id="maya-scene"></span></section>
-<section id="dccmaya-ma-mb">
-<h2>When switching the exported session to Maya, select an existing .ma or .mb scene file. Use a lowercase extension. Relative paths are resolved from the export destination. Restore a missing scene or select its actual location.<a class="headerlink" href="#dccmaya-ma-mb" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>When switching the exported session to Maya, select an existing .ma or .mb scene file. Use a lowercase extension. Relative paths are resolved from the export destination. Restore a missing scene or select its actual location.</p></li>
-<li><p>When switching the exported session to Maya, select an existing .ma or .mb scene file. Use a lowercase extension. Relative paths are resolved from the export destination. Restore a missing scene or select its actual location.</p></li>
-</ul>
-<span id="maya-workspace"></span></section>
-<section id="mayamaya">
-<h2>When switching to Maya, choose an existing Maya workspace directory. Select the folder itself, not a scene file. Reconnect an unavailable drive before choosing the folder again.<a class="headerlink" href="#mayamaya" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>When switching to Maya, choose an existing Maya workspace directory. Select the folder itself, not a scene file. Reconnect an unavailable drive before choosing the folder again.</p></li>
-<li><p>When switching to Maya, choose an existing Maya workspace directory. Select the folder itself, not a scene file. Reconnect an unavailable drive before choosing the folder again.</p></li>
-</ul>
-<span id="blender-scene"></span></section>
-<section id="dccblender-blend">
-<h2>When switching the exported session to Blender, choose an existing .blend scene file. Extension matching is case-insensitive. Relative paths are resolved from the export destination.<a class="headerlink" href="#dccblender-blend" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>When switching the exported session to Blender, choose an existing .blend scene file. Extension matching is case-insensitive. Relative paths are resolved from the export destination.</p></li>
-<li><p>When switching the exported session to Blender, choose an existing .blend scene file. Extension matching is case-insensitive. Relative paths are resolved from the export destination.</p></li>
-</ul>
-<span id="renderer"></span></section>
-<section id="dccmayablenderdcc">
-<h2>Choose Maya or Blender for the exported session. Selecting another renderer is not supported.<a class="headerlink" href="#dccmayablenderdcc" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Choose Maya or Blender for the exported session. Selecting another renderer is not supported.</p></li>
-<li><p>Choose Maya or Blender for the exported session. Selecting another renderer is not supported.</p></li>
-</ul>
-<span id="required-export-session"></span></section>
-<section id="export-session-output-dest-actor-character">
-<h2>Required fields for export.session: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names.<a class="headerlink" href="#export-session-output-dest-actor-character" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The operation was submitted without a required field.</p></li>
-<li><p>Required fields for export.session: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names.</p></li>
-</ul>
-<span id="required-export-session-validate"></span></section>
-<section id="export-session-validate-output-dest-actor-character">
-<h2>Required fields for export.session.validate: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names.<a class="headerlink" href="#export-session-validate-output-dest-actor-character" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The operation was submitted without a required field.</p></li>
-<li><p>Required fields for export.session.validate: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names.</p></li>
-</ul>
-<span id="maya-version"></span></section>
-<section id="maya4-2018-2020-2022-2023-2024-2025-2026-2027">
-<h2>For Maya export, select a supported four-digit version: 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027.<a class="headerlink" href="#maya4-2018-2020-2022-2023-2024-2025-2026-2027" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>For Maya export, select a supported four-digit version: 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027.</p></li>
-<li><p>For Maya export, select a supported four-digit version: 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027.</p></li>
-</ul>
-<span id="blender-version"></span></section>
-<section id="blender-4-0-4-1-4-2-4-3-4-4-4-5-4-5-04-5">
-<h2>For Blender export, select a supported major.minor version: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. For example, use 4.5 rather than 4.5.0.<a class="headerlink" href="#blender-4-0-4-1-4-2-4-3-4-4-4-5-4-5-04-5" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>For Blender export, select a supported major.minor version: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. For example, use 4.5 rather than 4.5.0.</p></li>
-<li><p>For Blender export, select a supported major.minor version: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. For example, use 4.5 rather than 4.5.0.</p></li>
-</ul>
+<h2>Possible causes<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<span id="required-fields"></span><p><strong>Missing export information</strong></p>
+<p>Choose an export destination and enter both Actor and Character. The exported session is created at destination/FCS/Actor/Character.</p>
+<span id="source-overlap"></span><p><strong>Destination overlaps the current session</strong></p>
+<p>The destination character folder must be outside the current character folder. It must not equal, contain, or be contained by the source character folder. Choose another destination, Actor, or Character.</p>
+<span id="existing-target"></span><p><strong>Character already exists at the destination</strong></p>
+<p>The destination already contains this character folder. Choose a different destination or character name. Use replacement only if you intend to replace that existing character and have backed it up.</p>
+<span id="project-video-target"></span><p><strong>Videos would overwrite the current project</strong></p>
+<p>When exporting Associated videos or All files, choose a destination different from the current project folder. Alternatively, choose No video if a copy of the source media is not needed.</p>
+<span id="missing-video"></span><p><strong>Source videos are missing</strong></p>
+<p>Associated videos and All files require the source videos to exist at their stored locations. Restore the original files or update their paths in Video Library, then retry. Choose No video only if the exported session does not need a media copy.</p>
+<span id="filename-collision"></span><p><strong>Different videos have the same filename</strong></p>
+<p>All files cannot flatten different source files with the same filename into one export folder. Give the source files unique filenames and update their Video Library paths, or export Associated videos instead.</p>
+<span id="maya-scene"></span><p><strong>Maya scene cannot be opened</strong></p>
+<p>When switching the exported session to Maya, select an existing .ma or .mb scene file. Use a lowercase extension. Relative paths are resolved from the export destination. Restore a missing scene or select its actual location.</p>
+<span id="maya-workspace"></span><p><strong>Maya project folder is unavailable</strong></p>
+<p>When switching to Maya, choose an existing Maya workspace directory. Select the folder itself, not a scene file. Reconnect an unavailable drive before choosing the folder again.</p>
+<span id="blender-scene"></span><p><strong>Blender scene cannot be opened</strong></p>
+<p>When switching the exported session to Blender, choose an existing .blend scene file. Extension matching is case-insensitive. Relative paths are resolved from the export destination.</p>
+<span id="renderer"></span><p><strong>Saved application selection cannot be used</strong></p>
+<p>Choose Maya or Blender for the exported session. Selecting another renderer is not supported.</p>
+<span id="required-export-session"></span><p><strong>Export settings</strong></p>
+<p>The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action.</p>
+<p>In Export Session, choose a destination and enter Actor and Character, then try Export again. If they were already filled in, close and reopen the export window; report the problem if it returns.</p>
+<span id="required-export-session-validate"></span><p><strong>Export settings</strong></p>
+<p>The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action.</p>
+<p>In Export Session, choose a destination and enter Actor and Character. If the completed form is still rejected, reopen the window and report the problem with a screenshot.</p>
+<span id="maya-version"></span><p><strong>Unsupported Maya version</strong></p>
+<p>For Maya export, select a supported four-digit version: 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027.</p>
+<span id="blender-version"></span><p><strong>Unsupported Blender version</strong></p>
+<p>For Blender export, select a supported major.minor version: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. For example, use 4.5 rather than 4.5.0.</p>
 <p><a class="reference internal" href="family-01.html"><span class="std std-doc">Browse this family</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">Find another code</span></a></p>
 </section>

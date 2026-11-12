@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-10-01-000015 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,19 +85,14 @@
 <h1>FCS-10-01-000015<a class="headerlink" href="#fcs-10-01-000015" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>メッセージ<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>使用可能な処理オプションを選択してください。</p>
+<h2>原因<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>別のFCSバージョンの設定が残っているか、設定の更新に失敗した可能性があります。別の選択肢を試し続けて解決する問題ではありません。</p>
 </section>
 <section id="id2">
-<h2>原因<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>送信された処理設定に、未定義のフィールド名またはスムージング領域名が含まれています。</p></li>
-</ul>
-</section>
-<section id="id3">
-<h2>対処方法<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<h2>対処方法<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
 <ol class="arabic simple">
-<li><p>processing.settingsで現在の構造を確認してください。最上位はprofile、fisheye、same_video_weight、smoothing、postprocessingです。スムージング領域はupper、gaze、lower、eyelidです。後処理の項目はgaze_freezing、profile_priority、clampです。非対応のキーを削除するか、FCSのバージョンに合う自動操作クライアントに更新してください。</p></li>
+<li><p>作業を保存してFCSを一度再起動してください。再発する場合はBug Feedbackで、このコード、FCSバージョン、直前に操作した項目を報告してください。</p></li>
+<li><p>作業を続けられない場合は、先に現在の設定を記録し、［ファイル］→［設定］で［デフォルトに戻す］をクリックして再起動を確認してください。処理設定やアプリの場所など、アプリの設定全体が初期値に戻ります。</p></li>
 </ol>
 <p><a class="reference internal" href="family-01.html"><span class="std std-doc">同じ種類の問題を見る</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">別のコードを検索</span></a></p>

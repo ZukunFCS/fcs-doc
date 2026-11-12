@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-10-01-000015 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,19 +85,14 @@
 <h1>FCS-10-01-000015<a class="headerlink" href="#fcs-10-01-000015" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>Choose an available processing option.</p>
+<h2>Why this happens<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>The saved settings may come from a different FCS version, or FCS may have failed to update them. This is not fixed by guessing a different dropdown option.</p>
 </section>
 <section id="id2">
-<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The submitted processing settings contain an unknown field or smoothing-region name.</p></li>
-</ul>
-</section>
-<section id="id3">
-<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<h2>How to resolve it<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
 <ol class="arabic simple">
-<li><p>Use processing.settings to read the current schema. Top-level settings are profile, fisheye, same_video_weight, smoothing and postprocessing. Smoothing regions are upper, gaze, lower and eyelid. Postprocessing groups are gaze_freezing, profile_priority and clamp. Remove unsupported keys or update the automation client to match this FCS version.</p></li>
+<li><p>Save your work and restart FCS once. If the error returns, use Bug Feedback to report the code, FCS version, and the control you used just before it appeared.</p></li>
+<li><p>If the problem keeps you from working, first record your preferences, then open Settings, click Restore, and confirm the restart. This resets all application preferences, including customized processing options and application locations.</p></li>
 </ol>
 <p><a class="reference internal" href="family-01.html"><span class="std std-doc">Browse this family</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">Find another code</span></a></p>

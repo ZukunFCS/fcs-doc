@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-55-04-000002 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,48 +85,23 @@
 <h1>FCS-55-04-000002<a class="headerlink" href="#fcs-55-04-000002" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>メッセージ<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>コントローラー設定を保存できませんでした。編集内容は残っています。</p>
+<h2>原因<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>保存時にコントローラー名、顔領域の割り当て、数値の範囲を検証します。</p>
 </section>
 <section id="id2">
-<h2>原因<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>保存時にコントローラー名、顔領域の割り当て、数値の範囲を検証します。</p></li>
-</ul>
+<h2>対処方法<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>以下の該当する原因を確認し、コントローラー表を修正してから再度保存してください。</p>
 </section>
 <section id="id3">
-<h2>対処方法<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>以下の該当する原因を確認し、コントローラー表を修正してから再度保存してください。</p></li>
-</ol>
-<span id="missing-regions"></span></section>
-<section id="id4">
-<h2>必要な各顔領域にコントローラーが1つ以上必要です。不足している領域に割り当ててから、再度保存してください。<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>必要な各顔領域にコントローラーが1つ以上必要です。不足している領域に割り当ててから、再度保存してください。</p></li>
-<li><p>必要な各顔領域にコントローラーが1つ以上必要です。不足している領域に割り当ててから、再度保存してください。</p></li>
-</ul>
-<span id="invalid-region"></span></section>
-<section id="id5">
-<h2>各コントローラーに顔の領域を指定する必要があります。未割り当てのコントローラーに領域を選択してから、再度保存してください。<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>各コントローラーに顔の領域を指定する必要があります。未割り当てのコントローラーに領域を選択してから、再度保存してください。</p></li>
-<li><p>各コントローラーに顔の領域を指定する必要があります。未割り当てのコントローラーに領域を選択してから、再度保存してください。</p></li>
-</ul>
-<span id="duplicate-name"></span></section>
-<section id="id6">
-<h2>コントローラー名は重複できません。重複する行の名前を変更するか、行を削除してから、再度保存してください。<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>コントローラー名は重複できません。重複する行の名前を変更するか、行を削除してから、再度保存してください。</p></li>
-<li><p>コントローラー名は重複できません。重複する行の名前を変更するか、行を削除してから、再度保存してください。</p></li>
-</ul>
-<span id="invalid-range"></span></section>
-<section id="id7">
-<h2>最大値は最小値より0.0001以上大きくする必要があります。最大値を上げるか最小値を下げてから、再度保存してください。例えば、最小値0、最大値1は有効です。<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>最大値は最小値より0.0001以上大きくする必要があります。最大値を上げるか最小値を下げてから、再度保存してください。例えば、最小値0、最大値1は有効です。</p></li>
-<li><p>最大値は最小値より0.0001以上大きくする必要があります。最大値を上げるか最小値を下げてから、再度保存してください。例えば、最小値0、最大値1は有効です。</p></li>
-</ul>
+<h2>考えられる原因<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<span id="missing-regions"></span><p><strong>コントローラーのない顔領域がある</strong></p>
+<p>必要な各顔領域にコントローラーが1つ以上必要です。不足している領域に割り当ててから、再度保存してください。</p>
+<span id="invalid-region"></span><p><strong>コントローラーの領域が未設定</strong></p>
+<p>各コントローラーに顔の領域を指定する必要があります。未割り当てのコントローラーに領域を選択してから、再度保存してください。</p>
+<span id="duplicate-name"></span><p><strong>コントローラー名が重複</strong></p>
+<p>コントローラー名は重複できません。重複する行の名前を変更するか、行を削除してから、再度保存してください。</p>
+<span id="invalid-range"></span><p><strong>最小値と最大値が近すぎるか逆順</strong></p>
+<p>最大値は最小値より0.0001以上大きくする必要があります。最大値を上げるか最小値を下げてから、再度保存してください。例えば、最小値0、最大値1は有効です。</p>
 <p><a class="reference internal" href="family-04.html"><span class="std std-doc">同じ種類の問題を見る</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">別のコードを検索</span></a></p>
 </section>

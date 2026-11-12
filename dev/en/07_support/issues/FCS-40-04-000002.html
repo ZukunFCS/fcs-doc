@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-40-04-000002 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,62 +85,33 @@
 <h1>FCS-40-04-000002<a class="headerlink" href="#fcs-40-04-000002" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>Create Video Folder could not complete.</p>
+<h2>Why this happens<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>FCS could not group the selected videos. The selection or group name may conflict with an existing group.</p>
 </section>
 <section id="id2">
-<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Create Video Folder has several prerequisites. The sections below describe the recognized causes and their individual corrections.</p></li>
-</ul>
+<h2>How to resolve it<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>Check the selected videos and group name using the explanations below, then create the group again.</p>
 </section>
 <section id="id3">
-<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>Check the matching condition below, correct it, then retry Create Video Folder.</p></li>
-</ol>
-<span id="video-folder-name-duplicate"></span></section>
-<section id="id4">
-<h2>A video folder with that name already exists. Choose another name.<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The Video Library already contains a video-folder group with the requested name.</p></li>
-<li><p>Choose a different group name or use the existing group. This refers to the Video Library group, so renaming an unrelated directory on disk will not resolve the duplicate.</p></li>
-</ul>
-<span id="video-folder-same-video"></span></section>
-<section id="id5">
-<h2>Choose two different videos to create a folder.<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Both inputs to video-folder creation identify the same video.</p></li>
-<li><p>Select two distinct Video Library entries, then create the folder again. Selecting the same entry twice does not provide two videos.</p></li>
-</ul>
-<span id="video-folder-create-requires-ungrouped"></span></section>
-<section id="id6">
-<h2>Choose two videos that are not already in a folder.<a class="headerlink" href="#id6" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>One of the videos selected for a new folder already belongs to a Video Library folder.</p></li>
-<li><p>Select two currently ungrouped videos, or first remove the desired video from its existing group. Then create the new group.</p></li>
-</ul>
-<span id="video-not-registered"></span></section>
-<section id="id7">
-<h2>Import the video into the current session before continuing.<a class="headerlink" href="#id7" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The selected video is not registered in the current session’s Video Library.</p></li>
-<li><p>Import the video into this session’s Video Library, then select that registered entry. Opening a file in another session does not register it here.</p></li>
-</ul>
-<span id="unexpected"></span></section>
-<section id="id8">
-<h2>Create Video Folder stopped because of an unexpected failure. Keep your current work and the Log before retrying.<a class="headerlink" href="#id8" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The Create Video Folder operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details.</p></li>
-<li><p>Preserve the current session and any files already created by Create Video Folder. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log.</p></li>
-</ul>
-<span id="required-video-folder-create"></span></section>
-<section id="video-folder-create-name-source-video-stem-target-video-stem">
-<h2>Required fields for video.folder.create: name, source_video_stem, target_video_stem. Complete these fields before retrying. For automation, use these exact parameter names.<a class="headerlink" href="#video-folder-create-name-source-video-stem-target-video-stem" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>The operation was submitted without a required field.</p></li>
-<li><p>Required fields for video.folder.create: name, source_video_stem, target_video_stem. Complete these fields before retrying. For automation, use these exact parameter names.</p></li>
-</ul>
+<h2>Possible causes<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<span id="video-folder-name-duplicate"></span><p><strong>The group name is already used</strong></p>
+<p>The Video Library already contains a video-folder group with the requested name.</p>
+<p>Choose a different group name or use the existing group. This refers to the Video Library group, so renaming an unrelated directory on disk will not resolve the duplicate.</p>
+<span id="video-folder-same-video"></span><p><strong>The same video was selected twice</strong></p>
+<p>Both inputs to video-folder creation identify the same video.</p>
+<p>Select two distinct Video Library entries, then create the folder again. Selecting the same entry twice does not provide two videos.</p>
+<span id="video-folder-create-requires-ungrouped"></span><p><strong>A video already belongs to another group</strong></p>
+<p>One of the videos selected for a new folder already belongs to a Video Library folder.</p>
+<p>Select two currently ungrouped videos, or first remove the desired video from its existing group. Then create the new group.</p>
+<span id="video-not-registered"></span><p><strong>The video is not in this session</strong></p>
+<p>The selected video is not registered in the current session’s Video Library.</p>
+<p>Import the video into this session’s Video Library, then select that registered entry. Opening a file in another session does not register it here.</p>
+<span id="unexpected"></span><p><strong>FCS stopped unexpectedly</strong></p>
+<p>The Create Video Folder operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details.</p>
+<p>Preserve the current session and any files already created by Create Video Folder. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log.</p>
+<span id="required-video-folder-create"></span><p><strong>Video group selection</strong></p>
+<p>The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action.</p>
+<p>Select two different ungrouped videos and enter a group name, then create the group. If the completed selection is rejected, reopen Video Library and report the problem.</p>
 <p><a class="reference internal" href="family-04.html"><span class="std std-doc">Browse this family</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">Find another code</span></a></p>
 </section>

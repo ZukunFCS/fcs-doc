@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2026-11-12T10:59:46+00:00" />
+    <meta property="article:modified_time" content="2026-11-12T12:19:54+00:00" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FCS-95-01-000005 &mdash; FCS Docs dev documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
@@ -85,118 +85,45 @@
 <h1>FCS-95-01-000005<a class="headerlink" href="#fcs-95-01-000005" title="Link to this heading"></a></h1>
 <p>ERROR</p>
 <section id="id1">
-<h2>メッセージ<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>セッションをエクスポートできませんでした。</p>
+<h2>原因<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>セッションをコピーする前に、保存先、Actor、Character、対象動画、変更先DCCのシーンを検証します。</p>
 </section>
 <section id="id2">
-<h2>原因<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>セッションをコピーする前に、保存先、Actor、Character、対象動画、変更先DCCのシーンを検証します。</p></li>
-</ul>
+<h2>対処方法<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<p>以下の該当する項目を確認し、エクスポート設定を修正してからExportを再実行してください。現在のセッションがコピー元です。</p>
 </section>
 <section id="id3">
-<h2>対処方法<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
-<ol class="arabic simple">
-<li><p>以下の該当する項目を確認し、エクスポート設定を修正してからExportを再実行してください。現在のセッションがコピー元です。</p></li>
-</ol>
-<span id="required-fields"></span></section>
-<section id="actorcharacter-fcs-actor-character">
-<h2>エクスポート先を選び、ActorとCharacterの両方を入力してください。保存先は エクスポート先/FCS/Actor/Character になります。<a class="headerlink" href="#actorcharacter-fcs-actor-character" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>エクスポート先を選び、ActorとCharacterの両方を入力してください。保存先は エクスポート先/FCS/Actor/Character になります。</p></li>
-<li><p>エクスポート先を選び、ActorとCharacterの両方を入力してください。保存先は エクスポート先/FCS/Actor/Character になります。</p></li>
-</ul>
-<span id="source-overlap"></span></section>
-<section id="actorcharacter">
-<h2>保存先のキャラクターフォルダーは現在のキャラクターフォルダーの外側にしてください。同じ場所、その親フォルダー、その内部は使用できません。エクスポート先、Actor、Characterのいずれかを変更してください。<a class="headerlink" href="#actorcharacter" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>保存先のキャラクターフォルダーは現在のキャラクターフォルダーの外側にしてください。同じ場所、その親フォルダー、その内部は使用できません。エクスポート先、Actor、Characterのいずれかを変更してください。</p></li>
-<li><p>保存先のキャラクターフォルダーは現在のキャラクターフォルダーの外側にしてください。同じ場所、その親フォルダー、その内部は使用できません。エクスポート先、Actor、Characterのいずれかを変更してください。</p></li>
-</ul>
-<span id="existing-target"></span></section>
-<section id="id4">
-<h2>保存先に同じキャラクターフォルダーがあります。別の保存先またはキャラクター名を選んでください。置き換える場合は、既存のキャラクターをバックアップし、置き換える対象を確認してください。<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>保存先に同じキャラクターフォルダーがあります。別の保存先またはキャラクター名を選んでください。置き換える場合は、既存のキャラクターをバックアップし、置き換える対象を確認してください。</p></li>
-<li><p>保存先に同じキャラクターフォルダーがあります。別の保存先またはキャラクター名を選んでください。置き換える場合は、既存のキャラクターをバックアップし、置き換える対象を確認してください。</p></li>
-</ul>
-<span id="project-video-target"></span></section>
-<section id="associated-videos-all-files-no-video">
-<h2>Associated videos または All files を選択した場合、現在のプロジェクトとは別のフォルダーに出力してください。元動画のコピーが不要な場合は No video を選べます。<a class="headerlink" href="#associated-videos-all-files-no-video" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Associated videos または All files を選択した場合、現在のプロジェクトとは別のフォルダーに出力してください。元動画のコピーが不要な場合は No video を選べます。</p></li>
-<li><p>Associated videos または All files を選択した場合、現在のプロジェクトとは別のフォルダーに出力してください。元動画のコピーが不要な場合は No video を選べます。</p></li>
-</ul>
-<span id="missing-video"></span></section>
-<section id="associated-videos-all-files-video-library-no-video">
-<h2>Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。<a class="headerlink" href="#associated-videos-all-files-video-library-no-video" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。</p></li>
-<li><p>Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。</p></li>
-</ul>
-<span id="filename-collision"></span></section>
-<section id="all-files-1video-libraryassociated-videos">
-<h2>All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo Libraryのパスを更新するか、Associated videos を選択してください。<a class="headerlink" href="#all-files-1video-libraryassociated-videos" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo Libraryのパスを更新するか、Associated videos を選択してください。</p></li>
-<li><p>All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo Libraryのパスを更新するか、Associated videos を選択してください。</p></li>
-</ul>
-<span id="maya-scene"></span></section>
-<section id="dccmaya-ma-mb">
-<h2>エクスポート先のDCCをMayaに変更する場合、既存の .ma または .mb シーンを選択してください。拡張子は小文字にしてください。相対パスはエクスポート先を基準に解決されます。シーンを復元するか、実際の場所を選択してください。<a class="headerlink" href="#dccmaya-ma-mb" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>エクスポート先のDCCをMayaに変更する場合、既存の .ma または .mb シーンを選択してください。拡張子は小文字にしてください。相対パスはエクスポート先を基準に解決されます。シーンを復元するか、実際の場所を選択してください。</p></li>
-<li><p>エクスポート先のDCCをMayaに変更する場合、既存の .ma または .mb シーンを選択してください。拡張子は小文字にしてください。相対パスはエクスポート先を基準に解決されます。シーンを復元するか、実際の場所を選択してください。</p></li>
-</ul>
-<span id="maya-workspace"></span></section>
-<section id="mayamaya">
-<h2>Mayaに変更する場合、既存のMayaワークスペースフォルダーを選択してください。シーンファイルではなくフォルダーを指定してください。ドライブが使用できない場合は再接続してから選び直してください。<a class="headerlink" href="#mayamaya" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Mayaに変更する場合、既存のMayaワークスペースフォルダーを選択してください。シーンファイルではなくフォルダーを指定してください。ドライブが使用できない場合は再接続してから選び直してください。</p></li>
-<li><p>Mayaに変更する場合、既存のMayaワークスペースフォルダーを選択してください。シーンファイルではなくフォルダーを指定してください。ドライブが使用できない場合は再接続してから選び直してください。</p></li>
-</ul>
-<span id="blender-scene"></span></section>
-<section id="dccblender-blend">
-<h2>エクスポート先のDCCをBlenderに変更する場合、既存の .blend シーンを選択してください。拡張子の大文字・小文字は区別しません。相対パスはエクスポート先を基準に解決されます。<a class="headerlink" href="#dccblender-blend" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>エクスポート先のDCCをBlenderに変更する場合、既存の .blend シーンを選択してください。拡張子の大文字・小文字は区別しません。相対パスはエクスポート先を基準に解決されます。</p></li>
-<li><p>エクスポート先のDCCをBlenderに変更する場合、既存の .blend シーンを選択してください。拡張子の大文字・小文字は区別しません。相対パスはエクスポート先を基準に解決されます。</p></li>
-</ul>
-<span id="renderer"></span></section>
-<section id="dccmayablenderdcc">
-<h2>エクスポートするセッションのDCCはMayaまたはBlenderを選択してください。他のDCCは使用できません。<a class="headerlink" href="#dccmayablenderdcc" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>エクスポートするセッションのDCCはMayaまたはBlenderを選択してください。他のDCCは使用できません。</p></li>
-<li><p>エクスポートするセッションのDCCはMayaまたはBlenderを選択してください。他のDCCは使用できません。</p></li>
-</ul>
-<span id="required-export-session"></span></section>
-<section id="export-session-output-dest-actor-character">
-<h2>export.session の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。<a class="headerlink" href="#export-session-output-dest-actor-character" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>操作に必要なフィールドが指定されていません。</p></li>
-<li><p>export.session の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。</p></li>
-</ul>
-<span id="required-export-session-validate"></span></section>
-<section id="export-session-validate-output-dest-actor-character">
-<h2>export.session.validate の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。<a class="headerlink" href="#export-session-validate-output-dest-actor-character" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>操作に必要なフィールドが指定されていません。</p></li>
-<li><p>export.session.validate の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。</p></li>
-</ul>
-<span id="maya-version"></span></section>
-<section id="maya4-2018-2020-2022-2023-2024-2025-2026-2027">
-<h2>Maya用の出力では、対応する4桁の年 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 から選択してください。<a class="headerlink" href="#maya4-2018-2020-2022-2023-2024-2025-2026-2027" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Maya用の出力では、対応する4桁の年 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 から選択してください。</p></li>
-<li><p>Maya用の出力では、対応する4桁の年 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 から選択してください。</p></li>
-</ul>
-<span id="blender-version"></span></section>
-<section id="blender-4-0-4-1-4-2-4-3-4-4-4-5-4-5-04-5">
-<h2>Blender用の出力では、対応するメジャー.マイナーバージョン 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 から選択してください。例えば4.5.0ではなく4.5を指定してください。<a class="headerlink" href="#blender-4-0-4-1-4-2-4-3-4-4-4-5-4-5-04-5" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>Blender用の出力では、対応するメジャー.マイナーバージョン 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 から選択してください。例えば4.5.0ではなく4.5を指定してください。</p></li>
-<li><p>Blender用の出力では、対応するメジャー.マイナーバージョン 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 から選択してください。例えば4.5.0ではなく4.5を指定してください。</p></li>
-</ul>
+<h2>考えられる原因<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<span id="required-fields"></span><p><strong>エクスポート情報の不足</strong></p>
+<p>エクスポート先を選び、ActorとCharacterの両方を入力してください。保存先は エクスポート先/FCS/Actor/Character になります。</p>
+<span id="source-overlap"></span><p><strong>現在のセッションと保存先が重複</strong></p>
+<p>保存先のキャラクターフォルダーは現在のキャラクターフォルダーの外側にしてください。同じ場所、その親フォルダー、その内部は使用できません。エクスポート先、Actor、Characterのいずれかを変更してください。</p>
+<span id="existing-target"></span><p><strong>保存先に同じキャラクターが存在</strong></p>
+<p>保存先に同じキャラクターフォルダーがあります。別の保存先またはキャラクター名を選んでください。置き換える場合は、既存のキャラクターをバックアップし、置き換える対象を確認してください。</p>
+<span id="project-video-target"></span><p><strong>動画の保存先が現在のプロジェクトと重複</strong></p>
+<p>Associated videos または All files を選択した場合、現在のプロジェクトとは別のフォルダーに出力してください。元動画のコピーが不要な場合は No video を選べます。</p>
+<span id="missing-video"></span><p><strong>元動画が見つからない</strong></p>
+<p>Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、動画ライブラリでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。</p>
+<span id="filename-collision"></span><p><strong>異なる動画のファイル名が重複</strong></p>
+<p>All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にして動画ライブラリのパスを更新するか、Associated videos を選択してください。</p>
+<span id="maya-scene"></span><p><strong>Mayaシーンを開けない</strong></p>
+<p>エクスポート先のDCCをMayaに変更する場合、既存の .ma または .mb シーンを選択してください。拡張子は小文字にしてください。相対パスはエクスポート先を基準に解決されます。シーンを復元するか、実際の場所を選択してください。</p>
+<span id="maya-workspace"></span><p><strong>Mayaプロジェクトフォルダーを使用できない</strong></p>
+<p>Mayaに変更する場合、既存のMayaワークスペースフォルダーを選択してください。シーンファイルではなくフォルダーを指定してください。ドライブが使用できない場合は再接続してから選び直してください。</p>
+<span id="blender-scene"></span><p><strong>Blenderシーンを開けない</strong></p>
+<p>エクスポート先のDCCをBlenderに変更する場合、既存の .blend シーンを選択してください。拡張子の大文字・小文字は区別しません。相対パスはエクスポート先を基準に解決されます。</p>
+<span id="renderer"></span><p><strong>保存されたアプリの選択を使用できない</strong></p>
+<p>エクスポートするセッションのDCCはMayaまたはBlenderを選択してください。他のDCCは使用できません。</p>
+<span id="required-export-session"></span><p><strong>エクスポート設定</strong></p>
+<p>選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。</p>
+<p>Export Sessionで保存先を選び、ActorとCharacterを入力してから再実行してください。入力済みだった場合は出力画面を開き直し、再発する場合は報告してください。</p>
+<span id="required-export-session-validate"></span><p><strong>エクスポート設定</strong></p>
+<p>選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。</p>
+<p>Export Sessionで保存先を選び、ActorとCharacterを入力してください。入力済みでも拒否される場合は画面を開き直し、スクリーンショットを添えて報告してください。</p>
+<span id="maya-version"></span><p><strong>Mayaのバージョンが非対応</strong></p>
+<p>Maya用の出力では、対応する4桁の年 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 から選択してください。</p>
+<span id="blender-version"></span><p><strong>Blenderのバージョンが非対応</strong></p>
+<p>Blender用の出力では、対応するメジャー.マイナーバージョン 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 から選択してください。例えば4.5.0ではなく4.5を指定してください。</p>
 <p><a class="reference internal" href="family-01.html"><span class="std std-doc">同じ種類の問題を見る</span></a></p>
 <p><a class="reference internal" href="index.html"><span class="std std-doc">別のコードを検索</span></a></p>
 </section>
