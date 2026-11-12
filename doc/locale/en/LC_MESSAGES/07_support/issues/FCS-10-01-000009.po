@@ -42,7 +42,7 @@ msgstr "If your Solver window includes Same Video Weight, return it to 5 and ret
 msgid "**保存されたソルバーの設定を使用できない**"
 msgstr "**Saved Solver settings cannot be used**"
 
-msgid "保存された種類 under デノイジングの設定を使用できませんでした。"
+msgid "保存されたデノイジングの種類を使用できませんでした。"
 msgstr "FCS could not use the saved Type under Denoising setting."
 
 msgid "保存されたソルバーの設定を読み取れないか、種類、置換値、プロファイルを優先、クランプ方式の選択を拒否しました。これらのメニューは選択肢が制限されているため、表示された項目を拒否する場合はアプリ側の問題です。"

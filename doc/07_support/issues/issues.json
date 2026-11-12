@@ -594,7 +594,7 @@
       "smoothing_method": {
         "message": {
           "en": "FCS could not use the saved Type under Denoising setting.",
-          "ja": "保存された種類 under デノイジングの設定を使用できませんでした。"
+          "ja": "保存されたデノイジングの種類を使用できませんでした。"
         },
         "why": {
           "en": [
@@ -646,7 +646,7 @@
       "gaze_replacement": {
         "message": {
           "en": "FCS could not use the saved Replacement Value under Gaze Freezing setting.",
-          "ja": "保存された置換値 under 視線の固定の設定を使用できませんでした。"
+          "ja": "保存された視線固定の置換値を使用できませんでした。"
         },
         "why": {
           "en": [
@@ -802,7 +802,7 @@
       "structure": {
         "message": {
           "en": "FCS could not use the saved Solver settings setting.",
-          "ja": "保存されたソルバー settingsの設定を使用できませんでした。"
+          "ja": "保存されたソルバーの設定を読み取れませんでした。"
         },
         "why": {
           "en": [
