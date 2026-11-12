@@ -1,0 +1,434 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="article:modified_time" content="2026-11-12T07:51:18+00:00" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FCS-80-03-005 &mdash; FCS Docs dev documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=6a604523" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=3ce10a4d"></script>
+      <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+      <script data-sd-tabs-storage-prefix="sphinx-design-tab-id-" src="../../_static/design-tabs.js?v=fcb327ea"></script>
+      <script src="../../_static/tab_links.js?v=76999cc6"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="FCS-80-03-006" href="FCS-80-03-006.html" />
+    <link rel="prev" title="FCS-80-03-004" href="FCS-80-03-004.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            FCS Docs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../00_contents/index.html">Table of Contents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../01_updates/index.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../02_getting-started/index.html">What is FCS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../03_workflow/index.html">Workflow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../06_glossary/index.html">User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Help and Support</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Warning and error code reference</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="index.html#cc">CC: Category</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html#ff">FF: Failure family</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="FCS-00-99-001.html">FCS-00-99-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-00-99-002.html">FCS-00-99-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-01-001.html">FCS-10-01-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-01-004.html">FCS-10-01-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-01-006.html">FCS-10-01-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-01-007.html">FCS-10-01-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-01-008.html">FCS-10-01-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-01-009.html">FCS-10-01-009</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-01-013.html">FCS-10-01-013</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-01-014.html">FCS-10-01-014</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-01-015.html">FCS-10-01-015</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-02-001.html">FCS-10-02-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-02-002.html">FCS-10-02-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-02-003.html">FCS-10-02-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-02-004.html">FCS-10-02-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-02-006.html">FCS-10-02-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-04-001.html">FCS-10-04-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-04-002.html">FCS-10-04-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-04-003.html">FCS-10-04-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-05-001.html">FCS-10-05-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-07-001.html">FCS-10-07-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-07-003.html">FCS-10-07-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-08-001.html">FCS-10-08-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-08-002.html">FCS-10-08-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-08-003.html">FCS-10-08-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-08-004.html">FCS-10-08-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-08-005.html">FCS-10-08-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-99-001.html">FCS-10-99-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-99-002.html">FCS-10-99-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-99-003.html">FCS-10-99-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-99-004.html">FCS-10-99-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-10-99-005.html">FCS-10-99-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-20-01-001.html">FCS-20-01-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-20-01-002.html">FCS-20-01-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-001.html">FCS-30-01-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-002.html">FCS-30-01-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-003.html">FCS-30-01-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-004.html">FCS-30-01-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-005.html">FCS-30-01-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-006.html">FCS-30-01-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-007.html">FCS-30-01-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-008.html">FCS-30-01-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-009.html">FCS-30-01-009</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-010.html">FCS-30-01-010</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-01-011.html">FCS-30-01-011</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-001.html">FCS-30-02-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-002.html">FCS-30-02-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-003.html">FCS-30-02-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-004.html">FCS-30-02-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-005.html">FCS-30-02-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-006.html">FCS-30-02-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-007.html">FCS-30-02-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-008.html">FCS-30-02-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-009.html">FCS-30-02-009</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-010.html">FCS-30-02-010</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-011.html">FCS-30-02-011</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-012.html">FCS-30-02-012</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-013.html">FCS-30-02-013</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-014.html">FCS-30-02-014</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-02-015.html">FCS-30-02-015</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-04-001.html">FCS-30-04-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-05-001.html">FCS-30-05-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-08-001.html">FCS-30-08-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-30-99-001.html">FCS-30-99-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-002.html">FCS-40-01-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-003.html">FCS-40-01-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-005.html">FCS-40-01-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-006.html">FCS-40-01-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-007.html">FCS-40-01-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-008.html">FCS-40-01-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-009.html">FCS-40-01-009</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-010.html">FCS-40-01-010</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-011.html">FCS-40-01-011</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-012.html">FCS-40-01-012</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-013.html">FCS-40-01-013</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-014.html">FCS-40-01-014</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-01-015.html">FCS-40-01-015</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-02-002.html">FCS-40-02-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-02-003.html">FCS-40-02-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-02-005.html">FCS-40-02-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-02-006.html">FCS-40-02-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-02-007.html">FCS-40-02-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-02-008.html">FCS-40-02-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-02-009.html">FCS-40-02-009</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-02-010.html">FCS-40-02-010</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-05-001.html">FCS-40-05-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-07-001.html">FCS-40-07-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-08-001.html">FCS-40-08-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-40-99-001.html">FCS-40-99-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-001.html">FCS-50-01-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-002.html">FCS-50-01-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-003.html">FCS-50-01-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-004.html">FCS-50-01-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-005.html">FCS-50-01-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-006.html">FCS-50-01-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-007.html">FCS-50-01-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-009.html">FCS-50-01-009</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-010.html">FCS-50-01-010</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-015.html">FCS-50-01-015</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-016.html">FCS-50-01-016</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-017.html">FCS-50-01-017</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-01-018.html">FCS-50-01-018</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-001.html">FCS-50-02-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-002.html">FCS-50-02-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-003.html">FCS-50-02-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-005.html">FCS-50-02-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-006.html">FCS-50-02-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-008.html">FCS-50-02-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-009.html">FCS-50-02-009</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-010.html">FCS-50-02-010</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-011.html">FCS-50-02-011</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-02-012.html">FCS-50-02-012</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-04-001.html">FCS-50-04-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-001.html">FCS-50-08-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-002.html">FCS-50-08-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-003.html">FCS-50-08-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-004.html">FCS-50-08-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-005.html">FCS-50-08-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-006.html">FCS-50-08-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-007.html">FCS-50-08-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-008.html">FCS-50-08-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-009.html">FCS-50-08-009</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-010.html">FCS-50-08-010</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-011.html">FCS-50-08-011</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-08-012.html">FCS-50-08-012</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-99-001.html">FCS-50-99-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-99-002.html">FCS-50-99-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-99-003.html">FCS-50-99-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-50-99-004.html">FCS-50-99-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-001.html">FCS-55-01-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-002.html">FCS-55-01-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-003.html">FCS-55-01-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-004.html">FCS-55-01-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-005.html">FCS-55-01-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-007.html">FCS-55-01-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-008.html">FCS-55-01-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-009.html">FCS-55-01-009</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-010.html">FCS-55-01-010</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-011.html">FCS-55-01-011</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-012.html">FCS-55-01-012</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-013.html">FCS-55-01-013</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-014.html">FCS-55-01-014</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-015.html">FCS-55-01-015</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-016.html">FCS-55-01-016</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-017.html">FCS-55-01-017</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-018.html">FCS-55-01-018</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-01-019.html">FCS-55-01-019</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-02-002.html">FCS-55-02-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-02-003.html">FCS-55-02-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-02-004.html">FCS-55-02-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-02-005.html">FCS-55-02-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-02-006.html">FCS-55-02-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-04-001.html">FCS-55-04-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-08-001.html">FCS-55-08-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-08-002.html">FCS-55-08-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-08-003.html">FCS-55-08-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-08-004.html">FCS-55-08-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-08-005.html">FCS-55-08-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-08-006.html">FCS-55-08-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-08-007.html">FCS-55-08-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-55-08-008.html">FCS-55-08-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-60-01-001.html">FCS-60-01-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-60-02-002.html">FCS-60-02-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-60-02-004.html">FCS-60-02-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-60-02-005.html">FCS-60-02-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-60-02-007.html">FCS-60-02-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-60-02-008.html">FCS-60-02-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-60-08-001.html">FCS-60-08-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-60-99-001.html">FCS-60-99-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-60-99-002.html">FCS-60-99-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-01-004.html">FCS-70-01-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-01-005.html">FCS-70-01-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-01-007.html">FCS-70-01-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-02-001.html">FCS-70-02-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-02-002.html">FCS-70-02-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-02-003.html">FCS-70-02-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-07-001.html">FCS-70-07-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-07-002.html">FCS-70-07-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-08-001.html">FCS-70-08-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-08-002.html">FCS-70-08-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-08-004.html">FCS-70-08-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-08-005.html">FCS-70-08-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-08-006.html">FCS-70-08-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-99-001.html">FCS-70-99-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-99-002.html">FCS-70-99-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-70-99-003.html">FCS-70-99-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-01-001.html">FCS-80-01-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-01-013.html">FCS-80-01-013</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-01-014.html">FCS-80-01-014</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-01-016.html">FCS-80-01-016</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-01-017.html">FCS-80-01-017</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-01-018.html">FCS-80-01-018</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-01-019.html">FCS-80-01-019</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-02-001.html">FCS-80-02-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-02-002.html">FCS-80-02-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-02-003.html">FCS-80-02-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-02-004.html">FCS-80-02-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-02-005.html">FCS-80-02-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-02-006.html">FCS-80-02-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-02-007.html">FCS-80-02-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-02-008.html">FCS-80-02-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-03-001.html">FCS-80-03-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-03-002.html">FCS-80-03-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-03-004.html">FCS-80-03-004</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">FCS-80-03-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-03-006.html">FCS-80-03-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-04-001.html">FCS-80-04-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-04-002.html">FCS-80-04-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-04-003.html">FCS-80-04-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-05-001.html">FCS-80-05-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-05-002.html">FCS-80-05-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-05-003.html">FCS-80-05-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-07-001.html">FCS-80-07-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-07-002.html">FCS-80-07-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-07-003.html">FCS-80-07-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-07-004.html">FCS-80-07-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-07-005.html">FCS-80-07-005</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-07-006.html">FCS-80-07-006</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-07-007.html">FCS-80-07-007</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-07-008.html">FCS-80-07-008</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-08-003.html">FCS-80-08-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-08-010.html">FCS-80-08-010</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-08-011.html">FCS-80-08-011</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-08-012.html">FCS-80-08-012</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-80-99-001.html">FCS-80-99-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-90-01-001.html">FCS-90-01-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-90-02-001.html">FCS-90-02-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-90-03-002.html">FCS-90-03-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-90-03-003.html">FCS-90-03-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-90-04-001.html">FCS-90-04-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-90-99-001.html">FCS-90-99-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-95-01-001.html">FCS-95-01-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-95-01-002.html">FCS-95-01-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-95-01-003.html">FCS-95-01-003</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-95-01-004.html">FCS-95-01-004</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-95-02-001.html">FCS-95-02-001</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-95-02-002.html">FCS-95-02-002</a></li>
+<li class="toctree-l4"><a class="reference internal" href="FCS-95-99-001.html">FCS-95-99-001</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../04_release-schedule/index.html">Development Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../08_advanced_doc_link.html">Technical Manual ↗</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../09_interactive_doc_link.html">Chat Manual (NotebookLM) ↗</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">FCS Docs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Help and Support</a></li>
+          <li class="breadcrumb-item"><a href="index.html">Warning and error code reference</a></li>
+      <li class="breadcrumb-item active">FCS-80-03-005</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/07_support/issues/FCS-80-03-005.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="fcs-80-03-005">
+<h1>FCS-80-03-005<a class="headerlink" href="#fcs-80-03-005" title="Link to this heading"></a></h1>
+<p>WARNING</p>
+<section id="id1">
+<h2>Message<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
+<p>Timeline synchronization stopped. Reconnect Maya or Blender before enabling synchronization again.</p>
+</section>
+<section id="id2">
+<h2>Why this happens<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>This code records the condition described by the message; it does not by itself establish an underlying cause. If the recovery steps do not resolve it, support needs the application diagnostics.</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>How to resolve it<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><p>Timeline synchronization stopped. Reconnect Maya or Blender before enabling synchronization again.</p></li>
+<li><p>Keep unsaved work and completed outputs. Copy the displayed code and Log message and note the action, time, FCS version, and affected inputs.</p></li>
+<li><p>If the same action still fails after the stated checks, send a Bug Feedback report with those details. A report saved locally is not confirmation of server delivery.</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="FCS-80-03-004.html" class="btn btn-neutral float-left" title="FCS-80-03-004" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="FCS-80-03-006.html" class="btn btn-neutral float-right" title="FCS-80-03-006" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright TOEI Zukun.
+      <span class="lastupdated">Last updated on 2026-11-12.
+      </span></p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="Version">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      Version: dev Language: en
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/jp/index.html">jp</a></dd>
+          
+            <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">en</a></dd>
+          
+      </dl>
+      
+      
+      <dl>
+        <dt>Version</dt>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/dev/en/index.html">dev (unreleased)</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.10/en/index.html">26.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/26.04/en/index.html">26.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.10/en/index.html">25.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.07/en/index.html">25.07</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.04/en/index.html">25.04</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/25.01/en/index.html">25.01</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.10/en/index.html">24.10</a></dd>
+        
+          <dd><a href="https://zukunfcs.github.io/fcs-doc/24.07/en/index.html">24.07</a></dd>
+        
+      </dl>
+      
+      <br>
+      </dl>
+    </div>
+  </div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

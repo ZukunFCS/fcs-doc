@@ -50,3 +50,11 @@ FCSが使用中にクラッシュまたはエラーが発生した場合、表�
 :maxdepth: 1
 :hidden:
 ```
+
+<!-- BEGIN GENERATED FCS ISSUE REFERENCE -->
+```{toctree}
+:maxdepth: 1
+
+issues/index
+```
+<!-- END GENERATED FCS ISSUE REFERENCE -->
