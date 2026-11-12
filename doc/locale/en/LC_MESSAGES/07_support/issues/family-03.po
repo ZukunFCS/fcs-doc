@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "接続"
+msgstr "Connection"
+
+msgid "[検索・種類の一覧に戻る](index.md)"
+msgstr "[Back to lookup and families](index.md)"
+
+msgid "コード"
+msgstr "Code"
+
+msgid "説明"
+msgstr "Description"
+
+msgid "Maya・Blenderへの出力"
+msgstr "Maya and Blender delivery"
+
+msgid "MayaまたはBlenderに接続できません。アプリケーションを開き、FCSプラグインを有効にしてから、もう一度お試しください。"
+msgstr "Cannot connect to Maya or Blender. Open it and enable the FCS plug-in, then try again."
+
+msgid "MayaまたはBlenderへの出力を完了できませんでした。対象のアプリケーションとシーンを開き、FCSとの接続を確認してから、要求した出力を再試行してください。"
+msgstr "Maya or Blender delivery could not complete. Open the intended application and scene, check its FCS connection, then retry the requested delivery."
+
+msgid "タイムラインの同期が停止しました。MayaまたはBlenderに再接続してから、同期を有効にし直してください。"
+msgstr "Timeline synchronization stopped. Reconnect Maya or Blender before enabling synchronization again."
+
+msgid "MayaまたはBlenderへの出力を開始できませんでした。対象のアプリケーションとシーンを開き、FCSとの接続を確認してから再試行してください。"
+msgstr "Maya or Blender delivery could not start. Open the intended application and scene, check its FCS connection, then retry."
+
+msgid "ストレージとNAS"
+msgstr "Storage and NAS"
+
+msgid "NASまたはネットワークドライブ上の一時メディアファイルを削除できませんでした。ネットワーク接続を確認し、ドライブに再接続してください。出力済みのファイルは保持されています。"
+msgstr "Temporary media files on your NAS or network drive could not be removed. Check your network connection and reconnect the drive. Completed outputs have been kept."
+
+msgid "メディア出力中にNASまたはネットワークドライブにアクセスできませんでした。ネットワーク接続を確認し、ドライブに再接続してから、もう一度出力してください。"
+msgstr "Media delivery could not access your NAS or network drive. Check your network connection and reconnect the drive, then retry the export."

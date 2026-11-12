@@ -8,3 +8,33 @@ msgstr "Find an error code"
 
 msgid "アプリに表示されたコードを入力すると、原因と対処方法を確認できます。"
 msgstr "Enter the code shown in the app to find its causes and how to resolve them."
+
+msgid "問題の種類から探す"
+msgstr "Browse by problem family"
+
+msgid "コードが分からない場合は、問題の種類を選び、説明から該当する項目を探してください。"
+msgstr "If you do not know the code, choose a problem family and find the matching description."
+
+msgid "[入力の確認](family-01.md) (83)"
+msgstr "[Input validation](family-01.md) (83)"
+
+msgid "[データの不足](family-02.md) (62)"
+msgstr "[Missing data](family-02.md) (62)"
+
+msgid "[接続](family-03.md) (7)"
+msgstr "[Connection](family-03.md) (7)"
+
+msgid "[ファイルへのアクセス](family-04.md) (19)"
+msgstr "[File access](family-04.md) (19)"
+
+msgid "[互換性](family-05.md) (6)"
+msgstr "[Compatibility](family-05.md) (6)"
+
+msgid "[出力の不足](family-07.md) (13)"
+msgstr "[Incomplete output](family-07.md) (13)"
+
+msgid "[代替動作・結果の制限](family-08.md) (35)"
+msgstr "[Fallback or degraded result](family-08.md) (35)"
+
+msgid "[予期しない失敗](family-99.md) (21)"
+msgstr "[Unexpected failure](family-99.md) (21)"

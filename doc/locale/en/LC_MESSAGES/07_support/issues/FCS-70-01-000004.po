@@ -1,61 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-70-01-000004.md:4
-msgid "FCS-70-01-000004"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-01-000004.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-01-000004.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-70-01-000004.md:10
-msgid "現在のソルバーでは予測できません。学習し直すか、サポートにお問い合わせください。"
-msgstr "Prediction cannot use the current solver. Train again or contact support."
-
-#: ../../07_support/issues/FCS-70-01-000004.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-70-01-000004.md:14
-msgid "指定されたソルバーデータを予測に使用できませんでした。"
-msgstr "The prediction task could not use the supplied solver data."
-
-#: ../../07_support/issues/FCS-70-01-000004.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-70-01-000004.md:18
-msgid ""
-"対象のキャラクターと、現在のプロファイルおよびコントローラー構成を確認してください。同じキャラクター用のソルバーを学習または読み込み、再予測してください。学習し直しても失敗する場合は、セッションとログを保持してBug"
-" Feedbackで報告してください。"
-msgstr ""
-"Select the intended character and check its current profiles and "
-"controller schema. Train or load a solver for that same character, then "
-"retry prediction. If a newly trained solver also fails, preserve the "
-"session and Log for Bug Feedback."
+msgid "現在のソルバーでは予測できません。学習し直すか、サポートにお問い合わせください。"
+msgstr "Prediction cannot use the current solver. Train again or contact support."
 
-#: ../../07_support/issues/FCS-70-01-000004.md:20
+msgid "指定されたソルバーデータを予測に使用できませんでした。"
+msgstr "The prediction task could not use the supplied solver data."
+
+msgid "対象のキャラクターと、現在のプロファイルおよびコントローラー構成を確認してください。同じキャラクター用のソルバーを学習または読み込み、再予測してください。学習し直しても失敗する場合は、セッションとログを保持してBug Feedbackで報告してください。"
+msgstr "Select the intended character and check its current profiles and controller schema. Train or load a solver for that same character, then retry prediction. If a newly trained solver also fails, preserve the session and Log for Bug Feedback."
+
+msgid "[同じ種類の問題を見る](family-01.md)"
+msgstr "[Browse this family](family-01.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

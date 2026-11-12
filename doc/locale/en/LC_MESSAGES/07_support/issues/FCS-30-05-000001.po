@@ -1,56 +1,25 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-30-05-000001.md:4
-msgid "FCS-30-05-000001"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-05-000001.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-05-000001.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-30-05-000001.md:10
-#: ../../07_support/issues/FCS-30-05-000001.md:18
-msgid "このセッションは別のFCSバージョンを使用しています。開く前に互換性の案内を確認してください。"
-msgstr ""
-"This session uses a different FCS version. Review the compatibility "
-"notice before opening it."
-
-#: ../../07_support/issues/FCS-30-05-000001.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-30-05-000001.md:14
-msgid "セッションが古いデータ形式を使用しているため、読み込みを続けるには移行を明示的に許可する必要があります。"
-msgstr ""
-"The session uses an older data representation that requires an explicit "
-"migration before this load can proceed."
-
-#: ../../07_support/issues/FCS-30-05-000001.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-30-05-000001.md:20
+msgid "このセッションは別のFCSバージョンを使用しています。開く前に互換性の案内を確認してください。"
+msgstr "This session uses a different FCS version. Review the compatibility notice before opening it."
+
+msgid "セッションが古いデータ形式を使用しているため、読み込みを続けるには移行を明示的に許可する必要があります。"
+msgstr "The session uses an older data representation that requires an explicit migration before this load can proceed."
+
+msgid "[同じ種類の問題を見る](family-05.md)"
+msgstr "[Browse this family](family-05.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

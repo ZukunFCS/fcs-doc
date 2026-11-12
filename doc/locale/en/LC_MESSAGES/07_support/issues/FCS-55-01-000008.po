@@ -1,58 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-55-01-000008.md:4
-msgid "FCS-55-01-000008"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000008.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000008.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-55-01-000008.md:10
-msgid "名前変更リストでは各コントローラーを1回だけ選択してください。"
-msgstr "Select each controller only once in the rename list."
-
-#: ../../07_support/issues/FCS-55-01-000008.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-55-01-000008.md:14
-msgid "名前変更の対象に、同じ元コントローラーが複数回指定されています。"
-msgstr "The rename request lists the same source controller more than once."
-
-#: ../../07_support/issues/FCS-55-01-000008.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-55-01-000008.md:18
+msgid "名前変更リストでは各コントローラーを1回だけ選択してください。"
+msgstr "Select each controller only once in the rename list."
+
+msgid "名前変更の対象に、同じ元コントローラーが複数回指定されています。"
+msgstr "The rename request lists the same source controller more than once."
+
 msgid "元のコントローラーはそれぞれ1回だけ選択してください。自動操作ではold_namesの重複を除去し、各対象に対応する新しい名前を1つずつ指定してください。"
-msgstr ""
-"Select each source controller once. For automation, remove duplicate "
-"entries from old_names and retain one corresponding new name for each "
-"source."
+msgstr "Select each source controller once. For automation, remove duplicate entries from old_names and retain one corresponding new name for each source."
 
-#: ../../07_support/issues/FCS-55-01-000008.md:20
+msgid "[同じ種類の問題を見る](family-01.md)"
+msgstr "[Browse this family](family-01.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

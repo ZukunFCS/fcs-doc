@@ -1,182 +1,73 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-10-01-000009.md:4
-msgid "FCS-10-01-000009"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000009.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000009.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-10-01-000009.md:10
-msgid "処理設定を適用できませんでした。"
-msgstr "Processing settings were not applied."
-
-#: ../../07_support/issues/FCS-10-01-000009.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-10-01-000009.md:14
-msgid "数値、スムージング方式、視線の置換方法、プロファイル優先設定、またはクランプ方式が、処理設定の条件を満たしていません。以下はそれぞれ独立した条件です。変更した設定を修正してください。"
-msgstr ""
-"Applying processing settings rejected a numeric value, smoothing method, "
-"gaze replacement, profile-priority option, or clamp mode. The checks "
-"below are independent; correct the setting you changed."
-
-#: ../../07_support/issues/FCS-10-01-000009.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-10-01-000009.md:18
+msgid "処理設定を適用できませんでした。"
+msgstr "Processing settings were not applied."
+
+msgid "数値、スムージング方式、視線の置換方法、プロファイル優先設定、またはクランプ方式が、処理設定の条件を満たしていません。以下はそれぞれ独立した条件です。変更した設定を修正してください。"
+msgstr "Applying processing settings rejected a numeric value, smoothing method, gaze replacement, profile-priority option, or clamp mode. The checks below are independent; correct the setting you changed."
+
 msgid "同一動画の重みは 1.0 以上 10.0 以下です。例えば5は有効です。"
-msgstr ""
-"Same-video weight must be between 1.0 and 10.0, inclusive; for example 5 "
-"is accepted."
+msgstr "Same-video weight must be between 1.0 and 10.0, inclusive; for example 5 is accepted."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:19
-msgid ""
-"視線固定のしきい値は 0.0 以上 1.0 以下です。例えば0.5は有効です。置換方法は Last detected または Default "
-"value です。"
-msgstr ""
-"Gaze-freezing threshold must be between 0.0 and 1.0, inclusive; for "
-"example 0.5. Replacement must be Last detected or Default value."
+msgid "視線固定のしきい値は 0.0 以上 1.0 以下です。例えば0.5は有効です。置換方法は Last detected または Default value です。"
+msgstr "Gaze-freezing threshold must be between 0.0 and 1.0, inclusive; for example 0.5. Replacement must be Last detected or Default value."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:20
-msgid ""
-"プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）、指数は 0.1 ～ "
-"5.0（両端を含む）です。例えば範囲1秒、指数1は有効です。優先モードは現在の処理プロファイルで表示される候補から選んでください。候補はプロファイルによって異なります。"
-msgstr ""
-"Profile-priority range must be between 0.0 and 2.0 seconds, inclusive; "
-"its exponent must be between 0.1 and 5.0, inclusive. For example, 1 "
-"second and exponent 1 are accepted. Select a priority mode offered for "
-"the current processing profile; availability depends on that profile."
+msgid "プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）、指数は 0.1 ～ 5.0（両端を含む）です。例えば範囲1秒、指数1は有効です。優先モードは現在の処理プロファイルで表示される候補から選んでください。候補はプロファイルによって異なります。"
+msgstr "Profile-priority range must be between 0.0 and 2.0 seconds, inclusive; its exponent must be between 0.1 and 5.0, inclusive. For example, 1 second and exponent 1 are accepted. Select a priority mode offered for the current processing profile; availability depends on that profile."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:21
-msgid ""
-"スムージング方式は Smoothing、Peak、1€、Raw "
-"のいずれかです。1€の最小カットオフは0より大きい有限値、betaは0以上の有限値です。微分カットオフは内部で1に固定されます。"
-msgstr ""
-"Smoothing method must be Smoothing, Peak, 1€ or Raw. For 1€, minimum "
-"cutoff must be a finite number greater than 0; beta must be finite and at"
-" least 0. The derivative cutoff is fixed internally at 1."
+msgid "スムージング方式は Smoothing、Peak、1€、Raw のいずれかです。1€の最小カットオフは0より大きい有限値、betaは0以上の有限値です。微分カットオフは内部で1に固定されます。"
+msgstr "Smoothing method must be Smoothing, Peak, 1€ or Raw. For 1€, minimum cutoff must be a finite number greater than 0; beta must be finite and at least 0. The derivative cutoff is fixed internally at 1."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:22
-msgid ""
-"クランプ方式は No Clamp、Hard Clamp、Soft Clamp "
-"のいずれかです。自動操作では翻訳したラベルを渡さず、アプリが示す値を使用してください。"
-msgstr ""
-"Clamp mode must be No Clamp, Hard Clamp or Soft Clamp. Choose an option "
-"from the app rather than entering a translated label through automation."
+msgid "クランプ方式は No Clamp、Hard Clamp、Soft Clamp のいずれかです。自動操作では翻訳したラベルを渡さず、アプリが示す値を使用してください。"
+msgstr "Clamp mode must be No Clamp, Hard Clamp or Soft Clamp. Choose an option from the app rather than entering a translated label through automation."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:23
-msgid ""
-"処理設定の該当する項目を修正し、再度適用してください。自動操作では processing.settings "
-"が返すフィールド名と階層を使用し、非対応のキーを追加しないでください。"
-msgstr ""
-"Correct the affected field in Processing Settings and apply again. For "
-"automation, use the field names and nesting returned by "
-"processing.settings rather than adding unsupported keys."
+msgid "処理設定の該当する項目を修正し、再度適用してください。自動操作では processing.settings が返すフィールド名と階層を使用し、非対応のキーを追加しないでください。"
+msgstr "Correct the affected field in Processing Settings and apply again. For automation, use the field names and nesting returned by processing.settings rather than adding unsupported keys."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:29
-#: ../../07_support/issues/FCS-10-01-000009.md:31
-#: ../../07_support/issues/FCS-10-01-000009.md:32
 msgid "同一動画の重みは 1.0 以上 10.0 以下にしてください。初期値は5です。"
-msgstr ""
-"Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use"
-" the default weight."
+msgstr "Same-video weight must be between 1.0 and 10.0, inclusive. Enter 5 to use the default weight."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:38
-#: ../../07_support/issues/FCS-10-01-000009.md:40
-#: ../../07_support/issues/FCS-10-01-000009.md:41
 msgid "スムージング方式は Smoothing、Peak、1€、Raw のいずれかを選択してください。"
 msgstr "Choose Smoothing, Peak, 1€ or Raw as the smoothing method."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:47
-#: ../../07_support/issues/FCS-10-01-000009.md:49
-#: ../../07_support/issues/FCS-10-01-000009.md:50
 msgid "1€スムージングの最小カットオフは0より大きい有限値、betaは0以上の有限値にしてください。例えばカットオフ8、beta 1は有効です。"
-msgstr ""
-"For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a "
-"finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted."
+msgstr "For 1€ smoothing, enter a finite minimum cutoff greater than 0 and a finite beta of at least 0. For example, cutoff 8 and beta 1 are accepted."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:56
-#: ../../07_support/issues/FCS-10-01-000009.md:58
-#: ../../07_support/issues/FCS-10-01-000009.md:59
 msgid "視線固定の置換方法は Last detected または Default value を選択してください。"
 msgstr "Choose Last detected or Default value for gaze-freezing replacement."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:65
-#: ../../07_support/issues/FCS-10-01-000009.md:67
-#: ../../07_support/issues/FCS-10-01-000009.md:68
 msgid "視線固定のしきい値は 0.0 以上 1.0 以下にしてください。初期値は0.5です。"
-msgstr ""
-"Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5"
-" to use the default."
+msgstr "Gaze-freezing threshold must be between 0.0 and 1.0, inclusive. Enter 0.5 to use the default."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:74
-#: ../../07_support/issues/FCS-10-01-000009.md:76
-#: ../../07_support/issues/FCS-10-01-000009.md:77
 msgid "選択中の処理プロファイルで使用できる優先モードを、処理設定の候補から選択してください。候補はプロファイルによって異なります。"
-msgstr ""
-"Choose a profile-priority mode available for the selected processing "
-"profile. Check the modes offered in Processing Settings; available modes "
-"depend on that profile."
+msgstr "Choose a profile-priority mode available for the selected processing profile. Check the modes offered in Processing Settings; available modes depend on that profile."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:83
-#: ../../07_support/issues/FCS-10-01-000009.md:85
-#: ../../07_support/issues/FCS-10-01-000009.md:86
 msgid "プロファイル優先の範囲は 0.0 ～ 2.0 秒（両端を含む）にしてください。1を入力すると1秒になります。"
-msgstr ""
-"Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. "
-"Enter 1 for a one-second range."
+msgstr "Profile-priority range must be between 0.0 and 2.0 seconds, inclusive. Enter 1 for a one-second range."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:92
-#: ../../07_support/issues/FCS-10-01-000009.md:94
-#: ../../07_support/issues/FCS-10-01-000009.md:95
 msgid "プロファイル優先の指数は 0.1 ～ 5.0（両端を含む）にしてください。初期値は1です。"
-msgstr ""
-"Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1"
-" to use the default."
+msgstr "Profile-priority exponent must be between 0.1 and 5.0, inclusive. Enter 1 to use the default."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:101
-#: ../../07_support/issues/FCS-10-01-000009.md:103
-#: ../../07_support/issues/FCS-10-01-000009.md:104
 msgid "No Clamp、Hard Clamp、Soft Clamp のいずれかを選択してください。"
 msgstr "Choose No Clamp, Hard Clamp or Soft Clamp."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:110
-#: ../../07_support/issues/FCS-10-01-000009.md:112
-#: ../../07_support/issues/FCS-10-01-000009.md:113
-msgid ""
-"設定の構造または値が対応する形式ではありません。処理設定の該当する項目を設定し直してから再度適用してください。自動操作では "
-"processing.settings が返すフィールド名と構造を使用してください。"
-msgstr ""
-"A settings object has unsupported fields or values. Restore the affected "
-"Processing Settings control, then apply again. Automation clients must "
-"use the field names and structure returned by processing.settings."
+msgid "設定の構造または値が対応する形式ではありません。処理設定の該当する項目を設定し直してから再度適用してください。自動操作では processing.settings が返すフィールド名と構造を使用してください。"
+msgstr "A settings object has unsupported fields or values. Restore the affected Processing Settings control, then apply again. Automation clients must use the field names and structure returned by processing.settings."
 
-#: ../../07_support/issues/FCS-10-01-000009.md:115
+msgid "[同じ種類の問題を見る](family-01.md)"
+msgstr "[Browse this family](family-01.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

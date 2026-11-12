@@ -1,169 +1,85 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-50-04-000002.md:4
-msgid "FCS-50-04-000002"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-04-000002.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-04-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-50-04-000002.md:10
-msgid "プロファイルの自動生成を完了できませんでした。"
-msgstr "Generate Profiles could not complete."
-
-#: ../../07_support/issues/FCS-50-04-000002.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-50-04-000002.md:14
-msgid "プロファイルの自動生成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
-msgstr ""
-"Generate Profiles has several prerequisites. The sections below describe "
-"the recognized causes and their individual corrections."
-
-#: ../../07_support/issues/FCS-50-04-000002.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-50-04-000002.md:18
-msgid "以下の該当する条件を確認し、修正してからプロファイルの自動生成を再実行してください。"
-msgstr ""
-"Check the matching condition below, correct it, then retry Generate "
-"Profiles."
+msgid "プロファイルの自動生成を完了できませんでした。"
+msgstr "Generate Profiles could not complete."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:24
+msgid "プロファイルの自動生成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+msgstr "Generate Profiles has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+
+msgid "以下の該当する条件を確認し、修正してからプロファイルの自動生成を再実行してください。"
+msgstr "Check the matching condition below, correct it, then retry Generate Profiles."
+
 msgid "プロファイルの自動生成を使用する前に、少なくとも1つのプロファイルを作成してください。"
 msgstr "Create at least one profile before using automatic profile generation."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:26
 msgid "自動生成の参照に必要な既存のプロファイルが、このセッションにありません。"
-msgstr ""
-"Automatic generation needs an existing profile as a reference, but this "
-"session has none."
+msgstr "Automatic generation needs an existing profile as a reference, but this session has none."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:27
 msgid "現在のキャラクターのGalleryにプロファイルを1つ以上作成して保存し、再度自動生成してください。"
-msgstr ""
-"Create and save at least one profile in the current character’s Gallery, "
-"then retry automatic profile generation."
+msgstr "Create and save at least one profile in the current character’s Gallery, then retry automatic profile generation."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:33
 msgid "プロファイルを生成する前に、少なくとも1つの顔領域を有効にしてください。"
 msgstr "Enable at least one facial region before generating profiles."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:35
 msgid "Generalによるプロファイルの自動選択で、有効な顔領域がありません。"
 msgstr "General automatic profile selection has no facial region enabled."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:36
 msgid "自動生成のオプションでUpper、Eyelid、Gaze、Lowerの少なくとも1つを有効にしてから再実行してください。"
-msgstr ""
-"Enable at least one of Upper, Eyelid, Gaze or Lower in the automatic-"
-"generation options, then generate again."
+msgstr "Enable at least one of Upper, Eyelid, Gaze or Lower in the automatic-generation options, then generate again."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:42
 msgid "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
 msgstr "Choose an available video selection for automatic profile generation."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:44
 msgid "自動生成の選択モードがGeneralでもROMでもありません。"
 msgstr "The automatic-generation selection mode is neither General nor ROM."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:45
 msgid "代表的なフレームを選ぶ場合はGeneral、参照プロファイルに対応するフレームを選ぶ場合はROMを選択してください。自動操作でもGeneralまたはROMをそのまま指定してください。"
-msgstr ""
-"Choose General to select representative frames, or ROM to select frames "
-"against reference profiles. Automation must send General or ROM with that"
-" spelling."
+msgstr "Choose General to select representative frames, or ROM to select frames against reference profiles. Automation must send General or ROM with that spelling."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:51
-#: ../../07_support/issues/FCS-50-04-000002.md:54
 msgid "動画が見つかりません。復元または再インポートしてからプロファイルを生成してください。"
 msgstr "Cannot find the video. Restore or reimport it before generating profiles."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:53
 msgid "プロファイルの自動生成で、選択した元動画を見つけられませんでした。"
 msgstr "Automatic profile generation cannot find its selected source video."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:60
 msgid "アクターとキャラクターが設定された完全なセッションを開いてから続行してください。"
 msgstr "Open a complete session with an actor and character before continuing."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:62
 msgid "セッションのキャラクターの場所が未設定のため、RetargetDataフォルダーを特定できません。"
-msgstr ""
-"FCS cannot resolve the current character’s RetargetData directory because"
-" the session has no complete character location."
+msgstr "FCS cannot resolve the current character’s RetargetData directory because the session has no complete character location."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:63
-msgid ""
-"プロジェクト、Actor、Characterが設定されたセッションを開いてください。キャラクターデータは "
-"プロジェクト/FCS/Actor/Character "
-"にあり、その下にRetargetDataがあります。対象のキャラクターを開いてからプロファイル操作を再実行してください。"
-msgstr ""
-"Open a session with a project, Actor and Character. The character data is"
-" under project/FCS/Actor/Character, with RetargetData below it. Retry the"
-" profile operation after opening the intended character."
+msgid "プロジェクト、Actor、Characterが設定されたセッションを開いてください。キャラクターデータは プロジェクト/FCS/Actor/Character にあり、その下にRetargetDataがあります。対象のキャラクターを開いてからプロファイル操作を再実行してください。"
+msgstr "Open a session with a project, Actor and Character. The character data is under project/FCS/Actor/Character, with RetargetData below it. Retry the profile operation after opening the intended character."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:69
 msgid "プロファイルの自動生成で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
-msgstr ""
-"Generate Profiles stopped because of an unexpected failure. Keep your "
-"current work and the Log before retrying."
+msgstr "Generate Profiles stopped because of an unexpected failure. Keep your current work and the Log before retrying."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:71
 msgid "プロファイルの自動生成で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
-msgstr ""
-"The Generate Profiles operation failed outside the input checks listed on"
-" this page. Its technical cause requires the operation’s Log details."
+msgstr "The Generate Profiles operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:72
-msgid ""
-"現在のセッションとプロファイルの自動生成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
-" Feedbackで報告してください。"
-msgstr ""
-"Preserve the current session and any files already created by Generate "
-"Profiles. Check the errors from the same operation in Log. Save available"
-" work, then retry once. If it repeats, send Bug Feedback with this code, "
-"FCS version, the operation settings and its Log."
+msgid "現在のセッションとプロファイルの自動生成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
+msgstr "Preserve the current session and any files already created by Generate Profiles. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:78
-#: ../../07_support/issues/FCS-50-04-000002.md:81
-msgid ""
-"rom.gallery.auto_profile.generate の必須項目は video_path "
-"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
-msgstr ""
-"Required fields for rom.gallery.auto_profile.generate: video_path. "
-"Complete these fields before retrying. For automation, use these exact "
-"parameter names."
+msgid "rom.gallery.auto_profile.generate の必須項目は video_path です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr "Required fields for rom.gallery.auto_profile.generate: video_path. Complete these fields before retrying. For automation, use these exact parameter names."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:80
 msgid "操作に必要なフィールドが指定されていません。"
 msgstr "The operation was submitted without a required field."
 
-#: ../../07_support/issues/FCS-50-04-000002.md:83
+msgid "[同じ種類の問題を見る](family-04.md)"
+msgstr "[Browse this family](family-04.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

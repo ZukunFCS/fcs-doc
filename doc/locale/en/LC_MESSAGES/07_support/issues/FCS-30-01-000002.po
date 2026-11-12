@@ -1,63 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-30-01-000002.md:4
-msgid "FCS-30-01-000002"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-01-000002.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-01-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-30-01-000002.md:10
-msgid "このアクターのファイルやフォルダーを閉じてから、名前の変更をもう一度お試しください。"
-msgstr ""
-"Close files and folders belonging to this actor, then try renaming it "
-"again."
-
-#: ../../07_support/issues/FCS-30-01-000002.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-30-01-000002.md:14
-msgid "アクターフォルダーまたは内部のファイルへのアクセスが拒否され、名前を変更できませんでした。"
-msgstr ""
-"The actor-directory rename could not proceed because access to that "
-"directory or one of its files was denied."
-
-#: ../../07_support/issues/FCS-30-01-000002.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-30-01-000002.md:18
+msgid "このアクターのファイルやフォルダーを閉じてから、名前の変更をもう一度お試しください。"
+msgstr "Close files and folders belonging to this actor, then try renaming it again."
+
+msgid "アクターフォルダーまたは内部のファイルへのアクセスが拒否され、名前を変更できませんでした。"
+msgstr "The actor-directory rename could not proceed because access to that directory or one of its files was denied."
+
 msgid "このアクター内のファイルを使用しているMayaやBlenderのシーン、ファイルのプレビューなどを閉じてください。エクスポートが書き込み中でないことを確認してから再実行してください。拒否が続く場合は、フォルダーの権限とドライブ接続を確認してください。"
-msgstr ""
-"Close applications using files under this actor, including Maya or "
-"Blender scenes and file previews. Ensure no export is writing there, then"
-" retry the rename. If access is still denied, check folder permissions "
-"and the connection to its drive."
+msgstr "Close applications using files under this actor, including Maya or Blender scenes and file previews. Ensure no export is writing there, then retry the rename. If access is still denied, check folder permissions and the connection to its drive."
 
-#: ../../07_support/issues/FCS-30-01-000002.md:20
+msgid "[同じ種類の問題を見る](family-01.md)"
+msgstr "[Browse this family](family-01.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

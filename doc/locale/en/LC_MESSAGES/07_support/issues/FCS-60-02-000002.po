@@ -1,57 +1,25 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-60-02-000002.md:4
-msgid "FCS-60-02-000002"
-msgstr ""
-
-#: ../../07_support/issues/FCS-60-02-000002.md:6
-msgid "WARNING"
-msgstr ""
-
-#: ../../07_support/issues/FCS-60-02-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-60-02-000002.md:10
-#: ../../07_support/issues/FCS-60-02-000002.md:18
-msgid "アライメントの平均化を使用できないため、より単純なアライメントを使用しました。ポーズを確認し、別の処理プロファイルを選択して再学習するか、サポートにお問い合わせください。"
-msgstr ""
-"Alignment averaging is unavailable; a simpler alignment was used. Review "
-"the poses, choose another processing profile and retrain, or contact "
-"support."
-
-#: ../../07_support/issues/FCS-60-02-000002.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-60-02-000002.md:14
-msgid "平均化によるアライメントを作成できず、簡略化したアライメントで学習しました。"
-msgstr ""
-"The averaging stage could not construct its preferred alignment, so "
-"training used a simpler alignment instead."
-
-#: ../../07_support/issues/FCS-60-02-000002.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-60-02-000002.md:20
+msgid "アライメントの平均化を使用できないため、より単純なアライメントを使用しました。ポーズを確認し、別の処理プロファイルを選択して再学習するか、サポートにお問い合わせください。"
+msgstr "Alignment averaging is unavailable; a simpler alignment was used. Review the poses, choose another processing profile and retrain, or contact support."
+
+msgid "平均化によるアライメントを作成できず、簡略化したアライメントで学習しました。"
+msgstr "The averaging stage could not construct its preferred alignment, so training used a simpler alignment instead."
+
+msgid "[同じ種類の問題を見る](family-02.md)"
+msgstr "[Browse this family](family-02.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"
