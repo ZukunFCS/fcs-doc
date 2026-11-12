@@ -1,56 +1,25 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-50-08-000004.md:4
-msgid "FCS-50-08-000004"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-08-000004.md:6
-msgid "WARNING"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-08-000004.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-50-08-000004.md:10
-#: ../../07_support/issues/FCS-50-08-000004.md:18
-msgid "元フレームまたはコントローラー値を使用できないため、一部のプロファイル拘束をスキップしました。対象のプロファイルを確認してください。"
-msgstr ""
-"Some profile constraints were skipped because their source frame or "
-"controller values are unavailable. Check the affected profiles."
-
-#: ../../07_support/issues/FCS-50-08-000004.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-50-08-000004.md:14
-msgid "制約が参照する元フレームまたはコントローラー値がなく、その制約を省略しました。"
-msgstr ""
-"A constraint refers to a source frame or controller value that is "
-"unavailable, so that constraint was omitted."
-
-#: ../../07_support/issues/FCS-50-08-000004.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-50-08-000004.md:20
+msgid "元フレームまたはコントローラー値を使用できないため、一部のプロファイル拘束をスキップしました。対象のプロファイルを確認してください。"
+msgstr "Some profile constraints were skipped because their source frame or controller values are unavailable. Check the affected profiles."
+
+msgid "制約が参照する元フレームまたはコントローラー値がなく、その制約を省略しました。"
+msgstr "A constraint refers to a source frame or controller value that is unavailable, so that constraint was omitted."
+
+msgid "[同じ種類の問題を見る](family-08.md)"
+msgstr "[Browse this family](family-08.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

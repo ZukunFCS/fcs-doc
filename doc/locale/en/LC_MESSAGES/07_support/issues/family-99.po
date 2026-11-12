@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "予期しない失敗"
+msgstr "Unexpected failure"
+
+msgid "[検索・種類の一覧に戻る](index.md)"
+msgstr "[Back to lookup and families](index.md)"
+
+msgid "コード"
+msgstr "Code"
+
+msgid "説明"
+msgstr "Description"
+
+msgid "全般"
+msgstr "General"
+
+msgid "結果が不完全な可能性があります。出力済みのファイルを保持し、このコードとログのメッセージをコピーしてサポートにお問い合わせください。復旧手順はヘルプを開いて確認してください。"
+msgstr "The result may be incomplete. Keep completed outputs and copy this code and the Log message to support. Open help for recovery steps."
+
+msgid "要求された操作を完了できませんでした。このコードとログのメッセージをコピーしてサポートにお問い合わせください。"
+msgstr "The requested action could not complete. Copy this code and the Log message when contacting support."
+
+msgid "アプリケーションと設定"
+msgstr "Application and settings"
+
+msgid "FCSを正常に終了できませんでした。アプリケーションが開いたままの場合は、サポートにお問い合わせください。"
+msgstr "FCS could not finish shutting down normally. Contact support if the application remains open."
+
+msgid "サポート報告ウィンドウを開けませんでした。別の利用可能な方法でサポートにお問い合わせください。"
+msgstr "The support-report window could not be opened. Contact support by another available channel."
+
+msgid "選択された言語を適用できませんでした。別の言語を選択するか、サポートにお問い合わせください。"
+msgstr "The selected language could not be applied. Choose another language or contact support."
+
+msgid "指定された操作を完了できませんでした。選択内容を確認するか、サポートにお問い合わせください。"
+msgstr "The requested action could not be completed. Check the selection or contact support."
+
+msgid "自動操作の設定を適用できませんでした。選択したポートを確認してもう一度試すか、サポートにお問い合わせください。"
+msgstr "The automation settings could not be applied. Check the selected port and try again, or contact support."
+
+msgid "プロジェクトとセッション"
+msgstr "Projects and sessions"
+
+msgid "セッション設定を更新できませんでした。選択したパスを確認するか、サポートにお問い合わせください。"
+msgstr "The session settings could not be updated. Check the selected paths or contact support."
+
+msgid "動画とメディア"
+msgstr "Video and media"
+
+msgid "インポートに失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
+msgstr "Import failed. Contact support. Keep completed outputs and open help for recovery steps."
+
+msgid "プロファイル"
+msgstr "Profiles"
+
+msgid "一部のプロファイルの変更を保存できませんでした。対象のプロファイルを確認するか、サポートにお問い合わせください。"
+msgstr "Some profile changes could not be saved. Check the affected profiles or contact support."
+
+msgid "プロファイル画像を表示できませんでした。元画像を確認するか、サポートにお問い合わせください。"
+msgstr "A profile image could not be displayed. Check its source image or contact support."
+
+msgid "プロファイルのランドマークを表示できませんでした。もう一度試すか、サポートにお問い合わせください。"
+msgstr "The profile landmarks could not be displayed. Try again or contact support."
+
+msgid "プロファイルは保存しましたが、次の操作を完了できませんでした。サポートにお問い合わせください。"
+msgstr "The profile was saved, but the next action could not be completed. Contact support."
+
+msgid "学習とソルバー"
+msgstr "Training and solvers"
+
+msgid "学習に失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
+msgstr "Training failed. Contact support. Keep completed outputs and open help for recovery steps."
+
+msgid "学習に失敗しました。サポートにお問い合わせください。"
+msgstr "Training failed. Contact support."
+
+msgid "処理と予測"
+msgstr "Processing and prediction"
+
+msgid "処理に失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
+msgstr "Processing failed. Contact support. Keep completed outputs and open help for recovery steps."
+
+msgid "予測に失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
+msgstr "Prediction failed. Contact support. Keep completed outputs and open help for recovery steps."
+
+msgid "処理に失敗しました。サポートにお問い合わせください。"
+msgstr "Processing failed. Contact support."
+
+msgid "Maya・Blenderへの出力"
+msgstr "Maya and Blender delivery"
+
+msgid "MayaまたはBlenderでの操作に失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
+msgstr "The requested Maya or Blender action failed. Contact support. Keep completed outputs and open help for recovery steps."
+
+msgid "ストレージとNAS"
+msgstr "Storage and NAS"
+
+msgid "保存に失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
+msgstr "Saving failed. Contact support. Keep completed outputs and open help for recovery steps."
+
+msgid "セッションのエクスポート"
+msgstr "Session export"
+
+msgid "エクスポートに失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
+msgstr "Export failed. Contact support. Keep completed outputs and open help for recovery steps."

@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "代替動作・結果の制限"
+msgstr "Fallback or degraded result"
+
+msgid "[検索・種類の一覧に戻る](index.md)"
+msgstr "[Back to lookup and families](index.md)"
+
+msgid "コード"
+msgstr "Code"
+
+msgid "説明"
+msgstr "Description"
+
+msgid "アプリケーションと設定"
+msgstr "Application and settings"
+
+msgid "{action}：制限付きで完了しました。関連する警告を確認し、問題を解決してから対象の結果を使用してください。"
+msgstr "{action}: finished with limitations. Review the related warnings and resolve them before relying on the affected result."
+
+msgid "自動操作の接続が正常に終了しませんでした。再起動できない場合はサポートにお問い合わせください。"
+msgstr "The automation connection did not close normally. Contact support if it cannot be restarted."
+
+msgid "ランドマークフレームのエクスポートは非推奨です。この出力を必要とするワークフローを使用している場合は、サポートにお問い合わせください。"
+msgstr "Landmark-frame export is deprecated. Contact support if your workflow depends on this output."
+
+msgid "一部の動画フレームをスキップしました。アニメーションが不完全、または同期がずれている可能性があります。再発する場合はサポートにお問い合わせください。"
+msgstr "Some video frames were skipped. The animation may be incomplete or out of sync. Contact support if this happens again."
+
+msgid "アプリケーション画面の一部を更新できませんでした。サポートにお問い合わせください。"
+msgstr "Part of the application interface could not be updated. Contact support."
+
+msgid "プロジェクトとセッション"
+msgstr "Projects and sessions"
+
+msgid "再起動前にセッションのロックを解除できませんでした。開き直せない場合はサポートにお問い合わせください。"
+msgstr "The session lock could not be removed before restarting. If reopening fails, contact support."
+
+msgid "動画とメディア"
+msgstr "Video and media"
+
+msgid "動画の時間情報を読み取れなかったため、保存済みの時間情報を使用しました。結果を使用する前にフレームレートと範囲を確認し、正しくない場合は動画を再インポートしてください。"
+msgstr "Video timing could not be read; saved timing was used. Check the frame rate and range before using the result, and reimport the video if they are incorrect."
+
+msgid "プロファイル"
+msgstr "Profiles"
+
+msgid "一部のプロファイル拘束がコントローラーの制限値を超えたため、範囲内に制限しました。対象のポーズを確認してください。"
+msgstr "Some profile constraints exceeded the controller limits and were clamped. Check the affected poses."
+
+msgid "同じフレームに矛盾するプロファイル拘束がありました。FCSは最初の値を保持しました。対象のプロファイルを確認してください。"
+msgstr "Conflicting profile constraints were found at the same frame. FCS kept the first value. Check the affected profiles."
+
+msgid "一部のプロファイル拘束を使用できませんでした。コントローラーと値が現在のキャラクターに対応しているか確認してください。"
+msgstr "Some profile constraints could not be used. Check that their controllers and values match the current character."
+
+msgid "元フレームまたはコントローラー値を使用できないため、一部のプロファイル拘束をスキップしました。対象のプロファイルを確認してください。"
+msgstr "Some profile constraints were skipped because their source frame or controller values are unavailable. Check the affected profiles."
+
+msgid "一部のプロファイルで顔の位置を特定できなかったため、画像全体を使用しました。不鮮明な画像や向きが正しくない画像を置き換え、ランドマークを確認してから再学習してください。"
+msgstr "A face could not be located in some profiles; the full images were used. Replace unclear or incorrectly oriented images, check the landmarks, and retrain."
+
+msgid "このフレームには既にプロファイルが存在します。編集するにはギャラリーで選択してください。"
+msgstr "A profile already exists at this frame. Select it in Gallery to edit it."
+
+msgid "プロファイルに未保存の変更があります。保存または破棄してから続行してください。"
+msgstr "The profile has unsaved changes. Save or discard them before continuing."
+
+msgid "プロファイル画像を表示できませんでした。元画像を確認するか、サポートにお問い合わせください。"
+msgstr "A profile image could not be displayed. Check its source image or contact support."
+
+msgid "一部のプロファイルを読み込めず、ギャラリーに表示されていません。元のセッションに上書き保存する前にサポートにお問い合わせください。"
+msgstr "Some profiles could not be loaded and are missing from Gallery. Contact support before saving over the original session."
+
+msgid "一部のプロファイルを読み込めませんでした。ギャラリーに表示されていない可能性があります。元のセッションに変更を上書き保存する前に、サポートにお問い合わせください。"
+msgstr "Some profiles could not be loaded. They may be absent from Gallery. Contact support before saving changes over the original session."
+
+msgid "指定されたプロファイル優先オプションを適用できませんでした。このオプションなしで完成したアニメーションを使用できます。"
+msgstr "The requested profile-priority option could not be applied. The completed animation is available without that option."
+
+msgid "編集する前にギャラリーでプロファイルを開いてください。"
+msgstr "Open a profile in Gallery before editing it."
+
+msgid "コントローラー"
+msgstr "Controllers"
+
+msgid "DCCからの読み込みウィザードを適用する前に、必要なコントローラー値をキャプチャーしてください。"
+msgstr "Capture the required controller values before applying the renderer-import wizard."
+
+msgid "一部のコントローラーの動きの除外設定を無視しました。コントローラーの対応付けと予測された動きを確認し、対応付けを修正して再学習するか、サポートにお問い合わせください。"
+msgstr "Some controller movement exclusions were ignored. Check the controller mappings and predicted motion; correct the mappings and retrain, or contact support."
+
+msgid "一部のコントローラーの制限値が無効です。結果を使用する前にコントローラー設定を確認してください。"
+msgstr "Some controller limits are invalid. Check the controller settings before relying on the result."
+
+msgid "先に1つ以上のコントローラーを選択してください。"
+msgstr "Select one or more controllers first."
+
+msgid "一部のプロファイルがコントローラー一覧と一致しないため、コントローラー値をリセットしました。保存前に対象のポーズを確認してください。"
+msgstr "Some profiles no longer matched the controller list and their controller values were reset. Review those poses before saving."
+
+msgid "領域のオーバーライド用のコントローラー値が選択されていません。"
+msgstr "No controller values were selected for the region override."
+
+msgid "学習とソルバー"
+msgstr "Training and solvers"
+
+msgid "ニュートラルのプロファイルが選択されていません。最初のプロファイルをニュートラルとして使用します。リラックスした表情であることを確認してください。"
+msgstr "No neutral profile was selected. The first profile will be used as neutral. Check that it shows a relaxed face."
+
+msgid "処理と予測"
+msgstr "Processing and prediction"
+
+msgid "一部のアニメーション値を読み取れなかったため、置き換えました。インポートしたアニメーションを確認してください。"
+msgstr "Some animation values could not be read and were replaced. Check the imported animation."
+
+msgid "一部のアニメーション値が無効なため修復しました。結果を使用する前に対象箇所を確認し、サポートにお問い合わせください。"
+msgstr "Some animation values were invalid and were repaired. Review the affected result before using it, and contact support."
+
+msgid "一部のアニメーション調整を適用できませんでした。反映された動きと学習ウィンドウの設定を確認してから、適用できなかった調整を再試行してください。"
+msgstr "Some animation adjustments could not be applied. Review the delivered motion and the selected Train settings, then retry the affected adjustments."
+
+msgid "トラッキングシーケンスがこの動画と一致しないため、インポートしませんでした。対応する動画とシーケンスを選択してください。"
+msgstr "The tracking sequence does not match this video and was not imported. Select the matching video and sequence."
+
+msgid "保存済みのトラッキングシーケンスを読み取れませんでした。動画を再処理するか、サポートにお問い合わせください。"
+msgstr "A saved tracking sequence could not be read. Reprocess the video or contact support."
+
+msgid "Maya・Blenderへの出力"
+msgstr "Maya and Blender delivery"
+
+msgid "シーンの時間設定を更新できませんでした。アニメーションを使用する前にシーンのフレームレートと範囲を確認し、MayaまたはBlenderに再接続してから再試行してください。"
+msgstr "Scene timing could not be updated. Check the scene frame rate and range before using the animation; reconnect Maya or Blender and retry."
+
+msgid "次の出力調整を使用できませんでした：{outputs}。完成した結果と選択した設定を確認し、対象の調整を再試行してください。"
+msgstr "Some delivery adjustments were unavailable: {outputs}. Review the completed result, check the selected settings, and retry the affected adjustments."
+
+msgid "出力調整の一部を完了できませんでした。完成したアニメーションを確認し、このコードとログのメッセージをコピーしてサポートにお問い合わせください。復旧手順はヘルプで確認してください。"
+msgstr "A delivery adjustment could not complete. Review the completed animation, copy this code and the Log message to support, and open help for recovery steps."
+
+msgid "接続の失敗によりレンダラーの自動同期を無効にしました。MayaまたはBlenderに再接続してから有効にし直してください。"
+msgstr "Automatic renderer synchronization was disabled after a connection failure. Reconnect Maya or Blender before enabling it again."

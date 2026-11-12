@@ -1,63 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-10-01-000001.md:4
-msgid "FCS-10-01-000001"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000001.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000001.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-10-01-000001.md:10
-msgid "保存された設定を読み込めませんでした。FCSは既定値を使用しています。続行する前に設定を確認してください。"
-msgstr ""
-"Saved settings could not be loaded. FCS is using defaults. Check your "
-"preferences before continuing."
-
-#: ../../07_support/issues/FCS-10-01-000001.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-10-01-000001.md:14
-msgid "保存されたアプリ設定を読み込めず、初期設定を使用しています。以前の設定が有効でない可能性があります。"
-msgstr ""
-"FCS could not read the saved application settings and loaded defaults "
-"instead. Previous preferences may therefore no longer be active."
-
-#: ../../07_support/issues/FCS-10-01-000001.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-10-01-000001.md:18
+msgid "保存された設定を読み込めませんでした。FCSは既定値を使用しています。続行する前に設定を確認してください。"
+msgstr "Saved settings could not be loaded. FCS is using defaults. Check your preferences before continuing."
+
+msgid "保存されたアプリ設定を読み込めず、初期設定を使用しています。以前の設定が有効でない可能性があります。"
+msgstr "FCS could not read the saved application settings and loaded defaults instead. Previous preferences may therefore no longer be active."
+
 msgid "処理を始める前に、設定で言語、MayaまたはBlenderの場所、処理設定を確認してください。必要な値を入力し直して保存してください。読み取れない設定は繰り返し上書きせず、サポート用にコピーを保持してください。"
-msgstr ""
-"Before processing, review language, Maya or Blender locations, and "
-"processing preferences in Settings. Re-enter the required values and "
-"save. Keep a copy of the unreadable settings for support rather than "
-"repeatedly overwriting it."
+msgstr "Before processing, review language, Maya or Blender locations, and processing preferences in Settings. Re-enter the required values and save. Keep a copy of the unreadable settings for support rather than repeatedly overwriting it."
 
-#: ../../07_support/issues/FCS-10-01-000001.md:20
+msgid "[同じ種類の問題を見る](family-01.md)"
+msgstr "[Browse this family](family-01.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

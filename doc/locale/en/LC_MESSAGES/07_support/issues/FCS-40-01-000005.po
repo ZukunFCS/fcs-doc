@@ -1,63 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-40-01-000005.md:4
-msgid "FCS-40-01-000005"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-01-000005.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-01-000005.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-40-01-000005.md:10
-msgid "顔が検出されませんでした。顔がはっきり映った映像を選び、映像の向きを確認してから、もう一度お試しください。"
-msgstr ""
-"No face was detected. Choose footage with a clearly visible face, check "
-"its orientation, and try again."
-
-#: ../../07_support/issues/FCS-40-01-000005.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-40-01-000005.md:14
-msgid "選択された画像または動画フレームから、使用できる顔を検出できませんでした。"
-msgstr ""
-"Face detection returned no usable face for the selected image or video "
-"frame."
-
-#: ../../07_support/issues/FCS-40-01-000005.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-40-01-000005.md:18
+msgid "顔が検出されませんでした。顔がはっきり映った映像を選び、映像の向きを確認してから、もう一度お試しください。"
+msgstr "No face was detected. Choose footage with a clearly visible face, check its orientation, and try again."
+
+msgid "選択された画像または動画フレームから、使用できる顔を検出できませんでした。"
+msgstr "Face detection returned no usable face for the selected image or video frame."
+
 msgid "動画の回転を確認し、顔が大きく明瞭に映っているフレームを選択してください。遮蔽物、動きによるぼけ、顔の見切れを避けてください。向きを修正するか、別のフレームや撮影素材を選んで再実行してください。"
-msgstr ""
-"Check the video rotation and choose a frame with a large, clearly visible"
-" face. Avoid occlusion, motion blur and frames where the face is outside "
-"the image. Correct the orientation or choose another frame or recording, "
-"then retry."
+msgstr "Check the video rotation and choose a frame with a large, clearly visible face. Avoid occlusion, motion blur and frames where the face is outside the image. Correct the orientation or choose another frame or recording, then retry."
 
-#: ../../07_support/issues/FCS-40-01-000005.md:20
+msgid "[同じ種類の問題を見る](family-01.md)"
+msgstr "[Browse this family](family-01.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

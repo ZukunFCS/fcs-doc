@@ -1,64 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-95-02-000002.md:4
-msgid "FCS-95-02-000002"
-msgstr ""
-
-#: ../../07_support/issues/FCS-95-02-000002.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-95-02-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-95-02-000002.md:10
-msgid "一部の元動画が見つかりません。復元または再リンクしてからエクスポートしてください。"
-msgstr "Some source videos are missing. Restore or relink them before exporting."
-
-#: ../../07_support/issues/FCS-95-02-000002.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-95-02-000002.md:14
-msgid "Associated videosまたはAll filesが選択されていますが、登録された元動画がディスクにありません。"
-msgstr ""
-"Associated videos or All files was selected, but one or more registered "
-"source videos are missing from disk."
-
-#: ../../07_support/issues/FCS-95-02-000002.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-95-02-000002.md:18
-msgid ""
-"Video "
-"Libraryで不足する元動画を復元するか、ファイルの場所を更新してください。切断されたドライブは再接続してください。動画が読み取れる状態で再実行するか、動画のコピーが不要ならNo"
-" videoを選択してください。"
-msgstr ""
-"In Video Library, restore each missing source or update its file "
-"location. Reconnect a disconnected source drive. Retry export after the "
-"videos are readable, or choose No video when a media copy is not "
-"required."
+msgid "一部の元動画が見つかりません。復元または再リンクしてからエクスポートしてください。"
+msgstr "Some source videos are missing. Restore or relink them before exporting."
 
-#: ../../07_support/issues/FCS-95-02-000002.md:20
+msgid "Associated videosまたはAll filesが選択されていますが、登録された元動画がディスクにありません。"
+msgstr "Associated videos or All files was selected, but one or more registered source videos are missing from disk."
+
+msgid "Video Libraryで不足する元動画を復元するか、ファイルの場所を更新してください。切断されたドライブは再接続してください。動画が読み取れる状態で再実行するか、動画のコピーが不要ならNo videoを選択してください。"
+msgstr "In Video Library, restore each missing source or update its file location. Reconnect a disconnected source drive. Retry export after the videos are readable, or choose No video when a media copy is not required."
+
+msgid "[同じ種類の問題を見る](family-02.md)"
+msgstr "[Browse this family](family-02.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

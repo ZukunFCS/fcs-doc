@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "互換性"
+msgstr "Compatibility"
+
+msgid "[検索・種類の一覧に戻る](index.md)"
+msgstr "[Back to lookup and families](index.md)"
+
+msgid "コード"
+msgstr "Code"
+
+msgid "説明"
+msgstr "Description"
+
+msgid "アプリケーションと設定"
+msgstr "Application and settings"
+
+msgid "DCCはMayaまたはBlenderを選択してください。"
+msgstr "Choose Maya or Blender as the renderer."
+
+msgid "プロジェクトとセッション"
+msgstr "Projects and sessions"
+
+msgid "このセッションは別のFCSバージョンを使用しています。開く前に互換性の案内を確認してください。"
+msgstr "This session uses a different FCS version. Review the compatibility notice before opening it."
+
+msgid "動画とメディア"
+msgstr "Video and media"
+
+msgid "動画の拡張子は .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts のいずれかを使用してください。"
+msgstr "Choose a video with one of these extensions: .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts."
+
+msgid "Maya・Blenderへの出力"
+msgstr "Maya and Blender delivery"
+
+msgid "このシステムではMayaプラグインの自動インストールを使用できません。手動でインストールするか、サポートにお問い合わせください。"
+msgstr "Automatic Maya plug-in installation is unavailable on this system. Install the plug-in manually or contact support."
+
+msgid "設定で対応しているBlenderのバージョンを選択してください。"
+msgstr "Choose a supported Blender version in Settings."
+
+msgid "設定で対応しているMayaのバージョンを選択してください。"
+msgstr "Choose a supported Maya version in Settings."

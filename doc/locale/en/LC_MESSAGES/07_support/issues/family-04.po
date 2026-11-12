@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "ファイルへのアクセス"
+msgstr "File access"
+
+msgid "[検索・種類の一覧に戻る](index.md)"
+msgstr "[Back to lookup and families](index.md)"
+
+msgid "コード"
+msgstr "Code"
+
+msgid "説明"
+msgstr "Description"
+
+msgid "アプリケーションと設定"
+msgstr "Application and settings"
+
+msgid "アプリケーション設定を保存できませんでした。サポートにお問い合わせください。"
+msgstr "Application settings could not be saved. Contact support."
+
+msgid "このセッションにはレイアウトを適用しましたが、次回起動用に保存できませんでした。設定フォルダーのアクセス権を確認するか、サポートにお問い合わせください。"
+msgstr "The layout is applied for this session but could not be saved for the next start. Check the settings-folder permissions or contact support."
+
+msgid "レイアウトを保存できませんでした。サポートにお問い合わせください。"
+msgstr "The layout could not be saved. Contact support."
+
+msgid "プロジェクトとセッション"
+msgstr "Projects and sessions"
+
+msgid "セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前にSession InfoでProject、Actor、Character、シーンを確認してください。"
+msgstr "Session changes remain in memory but were not saved. Check the project, Actor, Character and scene in Session Info before closing FCS."
+
+msgid "アクターの作成を完了できませんでした。"
+msgstr "Create Actor could not complete."
+
+msgid "キャラクターの作成を完了できませんでした。"
+msgstr "Create Character could not complete."
+
+msgid "アクター名の変更を完了できませんでした。"
+msgstr "Rename Actor could not complete."
+
+msgid "キャラクター名の変更を完了できませんでした。"
+msgstr "Rename Character could not complete."
+
+msgid "動画とメディア"
+msgstr "Video and media"
+
+msgid "動画のインポートを完了できませんでした。"
+msgstr "Import Video could not complete."
+
+msgid "動画グループの作成を完了できませんでした。"
+msgstr "Create Video Folder could not complete."
+
+msgid "プロファイル"
+msgstr "Profiles"
+
+msgid "プロファイルを保存できませんでした。編集中の内容は残っています。サポートにお問い合わせください。"
+msgstr "The profile was not saved. Your draft is still available. Contact support."
+
+msgid "プロファイルの自動生成を完了できませんでした。"
+msgstr "Generate Profiles could not complete."
+
+msgid "コントローラー"
+msgstr "Controllers"
+
+msgid "コントローラー設定を保存できませんでした。編集内容は残っています。"
+msgstr "Controller settings were not saved. Your edits are still available."
+
+msgid "コントローラー名の変更を完了できませんでした。"
+msgstr "Rename Controllers could not complete."
+
+msgid "コントローラー上下限の貼り付けを完了できませんでした。"
+msgstr "Paste Controller Limits could not complete."
+
+msgid "Maya・Blenderへの出力"
+msgstr "Maya and Blender delivery"
+
+msgid "シーンを保存できませんでした。MayaまたはBlenderとの接続と出力先の書き込み権限を確認してから、Sceneの出力を再試行してください。"
+msgstr "The scene could not be saved. Check the Maya or Blender connection and destination write access, then retry Scene export."
+
+msgid "プレイブラストを保存できませんでした。MayaまたはBlenderとの接続、選択したカメラ、出力先の書き込み権限を確認してから、Playblastを再試行してください。"
+msgstr "The playblast could not be saved. Check the Maya or Blender connection, selected camera, and destination write access, then retry Playblast."
+
+msgid "Mayaプラグインをインストールできませんでした。サポートにお問い合わせください。"
+msgstr "The Maya plug-in could not be installed. Contact support."
+
+msgid "ストレージとNAS"
+msgstr "Storage and NAS"
+
+msgid "指定されたスクリーンショットを保存できませんでした。もう一度試すか、サポートにお問い合わせください。"
+msgstr "The requested screenshot was not saved. Try again or contact support."

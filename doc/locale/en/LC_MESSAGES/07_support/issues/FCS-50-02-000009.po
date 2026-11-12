@@ -1,63 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-50-02-000009.md:4
-msgid "FCS-50-02-000009"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000009.md:6
-msgid "WARNING"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000009.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-50-02-000009.md:10
-msgid "一部のプロファイル画像を読み込めませんでした。元画像を確認するか、サポートにお問い合わせください。"
-msgstr ""
-"Some profile images could not be loaded. Check the source images or "
-"contact support."
-
-#: ../../07_support/issues/FCS-50-02-000009.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-50-02-000009.md:14
-msgid "プロファイルに関連付けられた画像を、保存されている参照先から読み取れませんでした。"
-msgstr ""
-"The image associated with a profile could not be read from its stored "
-"source."
-
-#: ../../07_support/issues/FCS-50-02-000009.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-50-02-000009.md:18
+msgid "一部のプロファイル画像を読み込めませんでした。元画像を確認するか、サポートにお問い合わせください。"
+msgstr "Some profile images could not be loaded. Check the source images or contact support."
+
+msgid "プロファイルに関連付けられた画像を、保存されている参照先から読み取れませんでした。"
+msgstr "The image associated with a profile could not be read from its stored source."
+
 msgid "対象のプロファイルを開き、元画像または元動画のフレームを確認してください。移動や削除した元データを復元するか、使用可能なフレームからプロファイルを作成し直してください。画像が不足したGalleryを保存する前に、元のセッションをバックアップしてください。"
-msgstr ""
-"Open the affected profile and locate its original image or source-video "
-"frame. Restore a moved or deleted source, or recreate the profile from an"
-" available frame. Keep the original session backup before saving a "
-"Gallery that is missing profile images."
+msgstr "Open the affected profile and locate its original image or source-video frame. Restore a moved or deleted source, or recreate the profile from an available frame. Keep the original session backup before saving a Gallery that is missing profile images."
 
-#: ../../07_support/issues/FCS-50-02-000009.md:20
+msgid "[同じ種類の問題を見る](family-02.md)"
+msgstr "[Browse this family](family-02.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

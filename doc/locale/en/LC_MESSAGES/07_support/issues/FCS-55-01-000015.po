@@ -1,62 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-55-01-000015.md:4
-msgid "FCS-55-01-000015"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000015.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000015.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-55-01-000015.md:10
-msgid "有効なコントローラーの制限値をコピーしてから貼り付けてください。"
-msgstr "Copy valid controller limits before pasting them."
-
-#: ../../07_support/issues/FCS-55-01-000015.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-55-01-000015.md:14
-msgid "コントローラー上下限のクリップボードがカンマ区切りの数値3つでないか、上下限の条件を満たしていません。"
-msgstr ""
-"The controller-limits clipboard is not three comma-separated numbers, or "
-"the pasted range fails the controller-limit check."
-
-#: ../../07_support/issues/FCS-55-01-000015.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-55-01-000015.md:18
-msgid ""
-"最小値,最大値,デフォルト値の順に指定してください（例：0,1,0.5）。最大値は最小値より 0.0001 "
-"以上大きくしてください。既存のコントローラーから上下限をコピーして、再度貼り付けることを推奨します。"
-msgstr ""
-"Use Minimum,Maximum,Default in that order, for example 0,1,0.5. Maximum "
-"must exceed Minimum by at least 0.0001. Prefer copying limits from an "
-"existing controller, then paste again."
+msgid "有効なコントローラーの制限値をコピーしてから貼り付けてください。"
+msgstr "Copy valid controller limits before pasting them."
 
-#: ../../07_support/issues/FCS-55-01-000015.md:20
+msgid "コントローラー上下限のクリップボードがカンマ区切りの数値3つでないか、上下限の条件を満たしていません。"
+msgstr "The controller-limits clipboard is not three comma-separated numbers, or the pasted range fails the controller-limit check."
+
+msgid "最小値,最大値,デフォルト値の順に指定してください（例：0,1,0.5）。最大値は最小値より 0.0001 以上大きくしてください。既存のコントローラーから上下限をコピーして、再度貼り付けることを推奨します。"
+msgstr "Use Minimum,Maximum,Default in that order, for example 0,1,0.5. Maximum must exceed Minimum by at least 0.0001. Prefer copying limits from an existing controller, then paste again."
+
+msgid "[同じ種類の問題を見る](family-01.md)"
+msgstr "[Browse this family](family-01.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

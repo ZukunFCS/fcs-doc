@@ -1,122 +1,55 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-55-04-000004.md:4
-msgid "FCS-55-04-000004"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-04-000004.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-04-000004.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-55-04-000004.md:10
-msgid "コントローラー上下限の貼り付けを完了できませんでした。"
-msgstr "Paste Controller Limits could not complete."
-
-#: ../../07_support/issues/FCS-55-04-000004.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-55-04-000004.md:14
-msgid "コントローラー上下限の貼り付けには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
-msgstr ""
-"Paste Controller Limits has several prerequisites. The sections below "
-"describe the recognized causes and their individual corrections."
-
-#: ../../07_support/issues/FCS-55-04-000004.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-55-04-000004.md:18
-msgid "以下の該当する条件を確認し、修正してからコントローラー上下限の貼り付けを再実行してください。"
-msgstr ""
-"Check the matching condition below, correct it, then retry Paste "
-"Controller Limits."
+msgid "コントローラー上下限の貼り付けを完了できませんでした。"
+msgstr "Paste Controller Limits could not complete."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:24
+msgid "コントローラー上下限の貼り付けには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+msgstr "Paste Controller Limits has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+
+msgid "以下の該当する条件を確認し、修正してからコントローラー上下限の貼り付けを再実行してください。"
+msgstr "Check the matching condition below, correct it, then retry Paste Controller Limits."
+
 msgid "有効なコントローラーの制限値をコピーしてから貼り付けてください。"
 msgstr "Copy valid controller limits before pasting them."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:26
 msgid "コントローラー上下限のクリップボードがカンマ区切りの数値3つでないか、上下限の条件を満たしていません。"
-msgstr ""
-"The controller-limits clipboard is not three comma-separated numbers, or "
-"the pasted range fails the controller-limit check."
+msgstr "The controller-limits clipboard is not three comma-separated numbers, or the pasted range fails the controller-limit check."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:27
-msgid ""
-"最小値,最大値,デフォルト値の順に指定してください（例：0,1,0.5）。最大値は最小値より 0.0001 "
-"以上大きくしてください。既存のコントローラーから上下限をコピーして、再度貼り付けることを推奨します。"
-msgstr ""
-"Use Minimum,Maximum,Default in that order, for example 0,1,0.5. Maximum "
-"must exceed Minimum by at least 0.0001. Prefer copying limits from an "
-"existing controller, then paste again."
+msgid "最小値,最大値,デフォルト値の順に指定してください（例：0,1,0.5）。最大値は最小値より 0.0001 以上大きくしてください。既存のコントローラーから上下限をコピーして、再度貼り付けることを推奨します。"
+msgstr "Use Minimum,Maximum,Default in that order, for example 0,1,0.5. Maximum must exceed Minimum by at least 0.0001. Prefer copying limits from an existing controller, then paste again."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:33
 msgid "コントローラーの上下限には有限値を入力し、最大値を最小値より 0.0001 以上大きくしてください。"
-msgstr ""
-"Enter finite controller limits with Maximum at least 0.0001 greater than "
-"Minimum."
+msgstr "Enter finite controller limits with Maximum at least 0.0001 greater than Minimum."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:35
 msgid "コントローラーの上下限が逆順、同値、非有限値、または差が 0.0001 未満です。"
-msgstr ""
-"The controller limits are reversed, equal, nonfinite, or less than 0.0001"
-" apart."
+msgstr "The controller limits are reversed, equal, nonfinite, or less than 0.0001 apart."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:36
-msgid ""
-"最小値と最大値には有限の数値を入力し、最大値 − 最小値を 0.0001 "
-"以上にしてください。例えば0と1は有効です。最大値を上げるか最小値を下げてください。一律の−1～1という制限はありません。"
-msgstr ""
-"Enter finite numbers for Minimum and Maximum, with Maximum − Minimum ≥ "
-"0.0001. For example, 0 and 1 are accepted. Increase Maximum or decrease "
-"Minimum; there is no fixed global −1 to 1 limit."
+msgid "最小値と最大値には有限の数値を入力し、最大値 − 最小値を 0.0001 以上にしてください。例えば0と1は有効です。最大値を上げるか最小値を下げてください。一律の−1～1という制限はありません。"
+msgstr "Enter finite numbers for Minimum and Maximum, with Maximum − Minimum ≥ 0.0001. For example, 0 and 1 are accepted. Increase Maximum or decrease Minimum; there is no fixed global −1 to 1 limit."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:42
 msgid "コントローラー上下限の貼り付けで予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
-msgstr ""
-"Paste Controller Limits stopped because of an unexpected failure. Keep "
-"your current work and the Log before retrying."
+msgstr "Paste Controller Limits stopped because of an unexpected failure. Keep your current work and the Log before retrying."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:44
 msgid "コントローラー上下限の貼り付けで、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
-msgstr ""
-"The Paste Controller Limits operation failed outside the input checks "
-"listed on this page. Its technical cause requires the operation’s Log "
-"details."
+msgstr "The Paste Controller Limits operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:45
-msgid ""
-"現在のセッションとコントローラー上下限の貼り付けで作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
-" Feedbackで報告してください。"
-msgstr ""
-"Preserve the current session and any files already created by Paste "
-"Controller Limits. Check the errors from the same operation in Log. Save "
-"available work, then retry once. If it repeats, send Bug Feedback with "
-"this code, FCS version, the operation settings and its Log."
+msgid "現在のセッションとコントローラー上下限の貼り付けで作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
+msgstr "Preserve the current session and any files already created by Paste Controller Limits. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log."
 
-#: ../../07_support/issues/FCS-55-04-000004.md:47
+msgid "[同じ種類の問題を見る](family-04.md)"
+msgstr "[Browse this family](family-04.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"

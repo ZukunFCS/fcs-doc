@@ -1,62 +1,28 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: en\n"
-"Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.18.0\n"
 
-#: ../../07_support/issues/FCS-10-99-000002.md:4
-msgid "FCS-10-99-000002"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-99-000002.md:6
-msgid "ERROR"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-99-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-#: ../../07_support/issues/FCS-10-99-000002.md:10
-msgid "サポート報告ウィンドウを開けませんでした。別の利用可能な方法でサポートにお問い合わせください。"
-msgstr ""
-"The support-report window could not be opened. Contact support by another"
-" available channel."
-
-#: ../../07_support/issues/FCS-10-99-000002.md:12
 msgid "原因"
 msgstr "Why this happens"
 
-#: ../../07_support/issues/FCS-10-99-000002.md:14
-msgid "サポート報告画面を作成または表示できませんでした。"
-msgstr "FCS could not construct or show the support-report window."
-
-#: ../../07_support/issues/FCS-10-99-000002.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-#: ../../07_support/issues/FCS-10-99-000002.md:18
-msgid ""
-"コードと前後のログをコピーしてください。FCSを再起動し、Bug "
-"Feedbackを再度開いてください。引き続き開かない場合は、保持した情報を通常のサポート窓口から送信してください。"
-msgstr ""
-"Copy the code and nearby Log entries. Restart FCS and try Bug Feedback "
-"again. If that window still cannot open, send the saved details through "
-"your usual support channel."
+msgid "サポート報告ウィンドウを開けませんでした。別の利用可能な方法でサポートにお問い合わせください。"
+msgstr "The support-report window could not be opened. Contact support by another available channel."
 
-#: ../../07_support/issues/FCS-10-99-000002.md:20
+msgid "サポート報告画面を作成または表示できませんでした。"
+msgstr "FCS could not construct or show the support-report window."
+
+msgid "コードと前後のログをコピーしてください。FCSを再起動し、Bug Feedbackを再度開いてください。引き続き開かない場合は、保持した情報を通常のサポート窓口から送信してください。"
+msgstr "Copy the code and nearby Log entries. Restart FCS and try Bug Feedback again. If that window still cannot open, send the saved details through your usual support channel."
+
+msgid "[同じ種類の問題を見る](family-99.md)"
+msgstr "[Browse this family](family-99.md)"
+
 msgid "[別のコードを検索](index.md)"
-msgstr ""
-
-#~ msgid "別のコードを検索"
-#~ msgstr "Find another code"
-
+msgstr "[Find another code](index.md)"
