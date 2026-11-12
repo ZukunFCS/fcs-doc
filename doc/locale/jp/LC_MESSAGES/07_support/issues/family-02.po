@@ -1,0 +1,579 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/family-02.md:4
+msgid "データの不足"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:6
+msgid "[検索・種類の一覧に戻る](index.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:8
+msgid "アプリケーションと設定"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:10
+#: ../../07_support/issues/family-02.md:20
+#: ../../07_support/issues/family-02.md:40
+#: ../../07_support/issues/family-02.md:53
+#: ../../07_support/issues/family-02.md:68
+#: ../../07_support/issues/family-02.md:78
+#: ../../07_support/issues/family-02.md:88
+#: ../../07_support/issues/family-02.md:96
+#: ../../07_support/issues/family-02.md:109
+#: ../../07_support/issues/family-02.md:115
+msgid "コード"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:10
+#: ../../07_support/issues/family-02.md:20
+#: ../../07_support/issues/family-02.md:40
+#: ../../07_support/issues/family-02.md:53
+#: ../../07_support/issues/family-02.md:68
+#: ../../07_support/issues/family-02.md:78
+#: ../../07_support/issues/family-02.md:88
+#: ../../07_support/issues/family-02.md:96
+#: ../../07_support/issues/family-02.md:109
+#: ../../07_support/issues/family-02.md:115
+msgid "説明"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:10
+msgid "[FCS-10-02-000001](FCS-10-02-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:12
+msgid "選択されたレイアウトファイルが見つかりません。既存のレイアウトファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:12
+msgid "[FCS-10-02-000002](FCS-10-02-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:13
+msgid "必要なレイアウトリソースがありません。サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:13
+msgid "[FCS-10-02-000003](FCS-10-02-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:14
+msgid "必須項目を入力してから、もう一度お試しください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:14
+msgid "[FCS-10-02-000004](FCS-10-02-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:15
+msgid "動画処理に必要な項目を入力してから、もう一度お試しください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:15
+msgid "[FCS-10-02-000006](FCS-10-02-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:16
+msgid "プロファイルのプレビューを使用できません。アニメーション処理は続行できます。現在の設定で学習してプレビューの復旧を試み、解決しない場合はサポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:18
+msgid "プロジェクトとセッション"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:20
+msgid "[FCS-30-02-000001](FCS-30-02-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:22
+msgid "アクターフォルダーが見つかりません。既存のアクターを選択するか、フォルダーを復元してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:22
+msgid "[FCS-30-02-000002](FCS-30-02-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:23
+msgid "キャラクターフォルダーが見つかりません。セッションを開き直すか、フォルダーを復元してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:23
+msgid "[FCS-30-02-000003](FCS-30-02-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:24
+#: ../../07_support/issues/family-02.md:25
+#: ../../07_support/issues/family-02.md:29
+msgid "続行する前にセッションを開いてください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:24
+msgid "[FCS-30-02-000004](FCS-30-02-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:25
+msgid "[FCS-30-02-000005](FCS-30-02-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:26
+msgid "プロジェクトフォルダーを選択し、セッションを開き直してから続行してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:26
+msgid "[FCS-30-02-000006](FCS-30-02-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:27
+msgid "セッションファイルが見つかりません。既存のセッションファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:27
+msgid "[FCS-30-02-000007](FCS-30-02-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:28
+msgid "有効なセッションファイルが見つかりません。既存のFCSセッションを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:28
+msgid "[FCS-30-02-000008](FCS-30-02-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:29
+msgid "[FCS-30-02-000009](FCS-30-02-000009.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:30
+#: ../../07_support/issues/family-02.md:36
+msgid "セッション設定でプロジェクトフォルダーを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:30
+msgid "[FCS-30-02-000010](FCS-30-02-000010.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:31
+msgid "セッション設定で既存のプロジェクトフォルダーを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:31
+msgid "[FCS-30-02-000011](FCS-30-02-000011.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:32
+msgid "移動したセッションで、想定されるMayaプロジェクトまたはシーンの場所を使用できませんでした。セッション設定で正しいパスを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:32
+msgid "[FCS-30-02-000012](FCS-30-02-000012.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:33
+msgid "アクターとキャラクターが設定された完全なセッションを開いてから続行してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:33
+msgid "[FCS-30-02-000013](FCS-30-02-000013.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:34
+msgid "セッション設定でシーンファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:34
+msgid "[FCS-30-02-000014](FCS-30-02-000014.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:35
+msgid "一部の元動画が見つかりません。動画ライブラリで場所を更新してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:35
+msgid "[FCS-30-02-000015](FCS-30-02-000015.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:38
+msgid "動画とメディア"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:40
+msgid "[FCS-40-02-000002](FCS-40-02-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:42
+msgid "一部のランドマーク画像は顔のオーバーレイなしで保存されました。エクスポートした画像を確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:42
+msgid "[FCS-40-02-000003](FCS-40-02-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:43
+msgid "元動画に音声がないため、音声を読み込めませんでした。音声を含む動画を選択するか、音声が不要な場合はAudioをオフにして再試行してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:43
+msgid "[FCS-40-02-000005](FCS-40-02-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:44
+msgid "動画が見つかりません。既存の動画ファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:44
+msgid "[FCS-40-02-000006](FCS-40-02-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:45
+#: ../../07_support/issues/family-02.md:48
+msgid "動画が見つかりません。復元するか、既存の動画ファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:45
+msgid "[FCS-40-02-000007](FCS-40-02-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:46
+msgid "選択した動画フォルダーは使用できなくなりました。動画ライブラリを更新して選択し直してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:46
+msgid "[FCS-40-02-000008](FCS-40-02-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:47
+msgid "動画が見つかりません。インポートする既存の動画ファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:47
+msgid "[FCS-40-02-000009](FCS-40-02-000009.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:48
+msgid "[FCS-40-02-000010](FCS-40-02-000010.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:49
+msgid "続行する前に動画を開いてください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:51
+msgid "プロファイル"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:53
+msgid "[FCS-50-02-000001](FCS-50-02-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:55
+msgid "動画が見つかりません。復元または再インポートしてからプロファイルを生成してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:55
+msgid "[FCS-50-02-000002](FCS-50-02-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:56
+msgid "ノイズ除去プリセットが見つかりません。既存のプリセットファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:56
+msgid "[FCS-50-02-000003](FCS-50-02-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:57
+msgid "一部のギャラリーアイコンを読み込めませんでした。ギャラリーを使用できない場合はサポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:57
+msgid "[FCS-50-02-000005](FCS-50-02-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:58
+msgid "プロファイルのキャッシュを使用できません。学習は続行できますが、次回以降の学習に時間がかかる場合があります。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:58
+msgid "[FCS-50-02-000006](FCS-50-02-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:59
+msgid "プロファイルの信頼度を計算できませんでした。信頼度スコアを使用できない可能性があります。サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:59
+msgid "[FCS-50-02-000008](FCS-50-02-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:60
+msgid "一部のプロファイルから特徴を読み取れませんでした。元画像と顔の見え方を確認し、修正したプロファイルを保存してから再学習してください。問題が続く場合はサポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:60
+msgid "[FCS-50-02-000009](FCS-50-02-000009.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:61
+msgid "一部のプロファイル画像を読み込めませんでした。元画像を確認するか、サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:61
+msgid "[FCS-50-02-000010](FCS-50-02-000010.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:62
+msgid "選択した一部のプロファイルの動きを予測できませんでした。元画像と対応するコントローラーを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:62
+msgid "[FCS-50-02-000011](FCS-50-02-000011.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:63
+msgid "選択したプロファイルは使用できなくなりました。ギャラリーを更新して選択し直してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:63
+msgid "[FCS-50-02-000012](FCS-50-02-000012.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:64
+msgid "スムージングプリセットが見つかりません。既存のプリセットファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:66
+msgid "コントローラー"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:68
+msgid "[FCS-55-02-000002](FCS-55-02-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:70
+msgid "インポートしたアニメーションに一部のコントローラーがありません。既定値を使用しました。インポートしたアニメーションを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:70
+msgid "[FCS-55-02-000003](FCS-55-02-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:71
+msgid "コピー元のコントローラーは存在しません。既存のコントローラーからコピーして、もう一度お試しください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:71
+msgid "[FCS-55-02-000004](FCS-55-02-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:72
+msgid "復元できるコントローラー設定が保存されていません。先に設定を保存してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:72
+msgid "[FCS-55-02-000005](FCS-55-02-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:73
+msgid "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:73
+msgid "[FCS-55-02-000006](FCS-55-02-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:74
+msgid "学習前に必要なすべての顔領域にコントローラーを割り当ててください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:76
+msgid "学習とソルバー"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:78
+msgid "[FCS-60-02-000002](FCS-60-02-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:80
+msgid "アライメントの平均化を使用できないため、より単純なアライメントを使用しました。ポーズを確認し、別の処理プロファイルを選択して再学習するか、サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:80
+msgid "[FCS-60-02-000004](FCS-60-02-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:81
+msgid "アライメントのスムージングを使用できないため、アライメントを平滑化していません。動きを確認し、別の処理プロファイルを選択して再学習するか、サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:81
+msgid "[FCS-60-02-000005](FCS-60-02-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:82
+msgid "学習前にニュートラルのプロファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:82
+msgid "[FCS-60-02-000007](FCS-60-02-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:83
+msgid "ソルバーファイルが見つかりません。既存のソルバーファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:83
+msgid "[FCS-60-02-000008](FCS-60-02-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:84
+msgid "学習を開始する前にプロファイルを追加してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:86
+msgid "処理と予測"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:88
+msgid "[FCS-70-02-000001](FCS-70-02-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:90
+msgid "アニメーションを読み込むかエクスポートする前に、動画を処理してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:90
+msgid "[FCS-70-02-000002](FCS-70-02-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:91
+msgid "選択した動画を再処理し、視線固定に必要なトラッキングデータを作成してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:91
+msgid "[FCS-70-02-000003](FCS-70-02-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:92
+msgid "視線固定に必要な保存済みトラッキングデータがありません。選択した動画を再処理してデータを再作成してから、再試行してください。作成済みのアニメーションは保持されています。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:94
+msgid "Maya・Blenderへの出力"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:96
+msgid "[FCS-80-02-000001](FCS-80-02-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:98
+msgid "Blenderのシーンが見つかりません。既存の.blendファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:98
+msgid "[FCS-80-02-000002](FCS-80-02-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:99
+msgid "Blenderが見つかりません。設定でインストール先フォルダーを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:99
+msgid "[FCS-80-02-000003](FCS-80-02-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:100
+msgid "Mayaのプロジェクトフォルダーが見つかりません。既存のフォルダーを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:100
+msgid "[FCS-80-02-000004](FCS-80-02-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:101
+msgid "Mayaが見つかりません。設定でインストール先フォルダーを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:101
+msgid "[FCS-80-02-000005](FCS-80-02-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:102
+msgid "Mayaのシーンが見つかりません。既存の.maまたは.mbファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:102
+msgid "[FCS-80-02-000006](FCS-80-02-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:103
+msgid "MayaまたはBlenderが見つかりません。設定でアプリケーションの場所を指定してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:103
+msgid "[FCS-80-02-000007](FCS-80-02-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:104
+msgid "シーンが見つかりません。既存のシーンファイルを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:104
+msgid "[FCS-80-02-000008](FCS-80-02-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:105
+msgid "プロジェクトフォルダーが見つかりません。既存のプロジェクトフォルダーを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:107
+msgid "ストレージとNAS"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:109
+msgid "[FCS-90-02-000001](FCS-90-02-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:111
+msgid "指定されたファイルが見つかりません。場所を確認してから、もう一度お試しください。"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:113
+msgid "セッションのエクスポート"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:115
+msgid "[FCS-95-02-000001](FCS-95-02-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:117
+#, python-brace-format
+msgid "一部の元動画が見つかりません。次のファイルを復元するか、参照先を再設定してからエクスポートしてください： {files}"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:117
+msgid "[FCS-95-02-000002](FCS-95-02-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-02.md:118
+msgid "一部の元動画が見つかりません。復元または再リンクしてからエクスポートしてください。"
+msgstr ""
+

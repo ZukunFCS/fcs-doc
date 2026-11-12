@@ -1,28 +1,64 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-50-02-000010.md:4
+msgid "FCS-50-02-000010"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-50-02-000010.md:10
+msgid "選択した一部のプロファイルの動きを予測できませんでした。元画像と対応するコントローラーを確認してください。"
+msgstr ""
+"Some selected profile movements could not be predicted. Check their "
+"source images and corresponding controls."
+
+#: ../../07_support/issues/FCS-50-02-000010.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-50-02-000010.md:14
+msgid "選択したプロファイルの動きに必要な対応コントローラーまたはARKitの係数がありません。"
+msgstr ""
+"The corresponding-controller or ARKit coefficients needed for some "
+"selected profile movements were unavailable."
+
+#: ../../07_support/issues/FCS-50-02-000010.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "選択した一部のプロファイルの動きを予測できませんでした。元画像と対応するコントローラーを確認してください。"
-msgstr "Some selected profile movements could not be predicted. Check their source images and corresponding controls."
-
-msgid "選択したプロファイルの動きに必要な対応コントローラーまたはARKitの係数がありません。"
-msgstr "The corresponding-controller or ARKit coefficients needed for some selected profile movements were unavailable."
-
+#: ../../07_support/issues/FCS-50-02-000010.md:18
 msgid "選択した各プロファイルに読み取り可能な顔画像があり、コントローラーが対象のキャラクターに対応していることを確認してください。画像や対応付けを修正してから、対象の動きを再計算してください。残りの結果を使用する前に、省略された動きを確認してください。"
-msgstr "Check that each selected profile has a readable face image and that its controls are mapped to the intended character. Recalculate the affected profile movements after correcting the image or mapping. Review skipped movements before using the remaining result."
+msgstr ""
+"Check that each selected profile has a readable face image and that its "
+"controls are mapped to the intended character. Recalculate the affected "
+"profile movements after correcting the image or mapping. Review skipped "
+"movements before using the remaining result."
 
+#: ../../07_support/issues/FCS-50-02-000010.md:20
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr "[Browse this family](family-02.md)"
 
+#: ../../07_support/issues/FCS-50-02-000010.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

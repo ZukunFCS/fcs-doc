@@ -1,0 +1,364 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/family-08.md:4
+msgid "代替動作・結果の制限"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:6
+msgid "[検索・種類の一覧に戻る](index.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:8
+msgid "アプリケーションと設定"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:10
+#: ../../07_support/issues/family-08.md:20
+#: ../../07_support/issues/family-08.md:26
+#: ../../07_support/issues/family-08.md:32
+#: ../../07_support/issues/family-08.md:49
+#: ../../07_support/issues/family-08.md:60
+#: ../../07_support/issues/family-08.md:66
+#: ../../07_support/issues/family-08.md:76
+msgid "コード"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:10
+#: ../../07_support/issues/family-08.md:20
+#: ../../07_support/issues/family-08.md:26
+#: ../../07_support/issues/family-08.md:32
+#: ../../07_support/issues/family-08.md:49
+#: ../../07_support/issues/family-08.md:60
+#: ../../07_support/issues/family-08.md:66
+#: ../../07_support/issues/family-08.md:76
+msgid "説明"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:10
+msgid "[FCS-10-08-000001](FCS-10-08-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:12
+#, python-brace-format
+msgid "{action}：制限付きで完了しました。関連する警告を確認し、問題を解決してから対象の結果を使用してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:12
+msgid "[FCS-10-08-000002](FCS-10-08-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:13
+msgid "自動操作の接続が正常に終了しませんでした。再起動できない場合はサポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:13
+msgid "[FCS-10-08-000003](FCS-10-08-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:14
+msgid "ランドマークフレームのエクスポートは非推奨です。この出力を必要とするワークフローを使用している場合は、サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:14
+msgid "[FCS-10-08-000004](FCS-10-08-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:15
+msgid "一部の動画フレームをスキップしました。アニメーションが不完全、または同期がずれている可能性があります。再発する場合はサポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:15
+msgid "[FCS-10-08-000005](FCS-10-08-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:16
+msgid "アプリケーション画面の一部を更新できませんでした。サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:18
+msgid "プロジェクトとセッション"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:20
+msgid "[FCS-30-08-000001](FCS-30-08-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:22
+msgid "再起動前にセッションのロックを解除できませんでした。開き直せない場合はサポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:24
+msgid "動画とメディア"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:26
+msgid "[FCS-40-08-000001](FCS-40-08-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:28
+msgid "動画の時間情報を読み取れなかったため、保存済みの時間情報を使用しました。結果を使用する前にフレームレートと範囲を確認し、正しくない場合は動画を再インポートしてください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:30
+msgid "プロファイル"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:32
+msgid "[FCS-50-08-000001](FCS-50-08-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:34
+msgid "一部のプロファイル拘束がコントローラーの制限値を超えたため、範囲内に制限しました。対象のポーズを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:34
+msgid "[FCS-50-08-000002](FCS-50-08-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:35
+msgid "同じフレームに矛盾するプロファイル拘束がありました。FCSは最初の値を保持しました。対象のプロファイルを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:35
+msgid "[FCS-50-08-000003](FCS-50-08-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:36
+msgid "一部のプロファイル拘束を使用できませんでした。コントローラーと値が現在のキャラクターに対応しているか確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:36
+msgid "[FCS-50-08-000004](FCS-50-08-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:37
+msgid "元フレームまたはコントローラー値を使用できないため、一部のプロファイル拘束をスキップしました。対象のプロファイルを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:37
+msgid "[FCS-50-08-000005](FCS-50-08-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:38
+msgid "一部のプロファイルで顔の位置を特定できなかったため、画像全体を使用しました。不鮮明な画像や向きが正しくない画像を置き換え、ランドマークを確認してから再学習してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:38
+msgid "[FCS-50-08-000006](FCS-50-08-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:39
+msgid "このフレームには既にプロファイルが存在します。編集するにはギャラリーで選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:39
+msgid "[FCS-50-08-000007](FCS-50-08-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:40
+msgid "プロファイルに未保存の変更があります。保存または破棄してから続行してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:40
+msgid "[FCS-50-08-000008](FCS-50-08-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:41
+msgid "プロファイル画像を表示できませんでした。元画像を確認するか、サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:41
+msgid "[FCS-50-08-000009](FCS-50-08-000009.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:42
+msgid "一部のプロファイルを読み込めず、ギャラリーに表示されていません。元のセッションに上書き保存する前にサポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:42
+msgid "[FCS-50-08-000010](FCS-50-08-000010.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:43
+msgid "一部のプロファイルを読み込めませんでした。ギャラリーに表示されていない可能性があります。元のセッションに変更を上書き保存する前に、サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:43
+msgid "[FCS-50-08-000011](FCS-50-08-000011.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:44
+msgid "指定されたプロファイル優先オプションを適用できませんでした。このオプションなしで完成したアニメーションを使用できます。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:44
+msgid "[FCS-50-08-000012](FCS-50-08-000012.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:45
+msgid "編集する前にギャラリーでプロファイルを開いてください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:47
+msgid "コントローラー"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:49
+msgid "[FCS-55-08-000001](FCS-55-08-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:51
+msgid "DCCからの読み込みウィザードを適用する前に、必要なコントローラー値をキャプチャーしてください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:51
+msgid "[FCS-55-08-000003](FCS-55-08-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:52
+msgid "一部のコントローラーの動きの除外設定を無視しました。コントローラーの対応付けと予測された動きを確認し、対応付けを修正して再学習するか、サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:52
+msgid "[FCS-55-08-000004](FCS-55-08-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:53
+msgid "一部のコントローラーの制限値が無効です。結果を使用する前にコントローラー設定を確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:53
+msgid "[FCS-55-08-000006](FCS-55-08-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:54
+msgid "先に1つ以上のコントローラーを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:54
+msgid "[FCS-55-08-000007](FCS-55-08-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:55
+msgid "一部のプロファイルがコントローラー一覧と一致しないため、コントローラー値をリセットしました。保存前に対象のポーズを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:55
+msgid "[FCS-55-08-000008](FCS-55-08-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:56
+msgid "領域のオーバーライド用のコントローラー値が選択されていません。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:58
+msgid "学習とソルバー"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:60
+msgid "[FCS-60-08-000001](FCS-60-08-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:62
+msgid "ニュートラルのプロファイルが選択されていません。最初のプロファイルをニュートラルとして使用します。リラックスした表情であることを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:64
+msgid "処理と予測"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:66
+msgid "[FCS-70-08-000001](FCS-70-08-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:68
+msgid "一部のアニメーション値を読み取れなかったため、置き換えました。インポートしたアニメーションを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:68
+msgid "[FCS-70-08-000002](FCS-70-08-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:69
+msgid "一部のアニメーション値が無効なため修復しました。結果を使用する前に対象箇所を確認し、サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:69
+msgid "[FCS-70-08-000004](FCS-70-08-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:70
+msgid "一部のアニメーション調整を適用できませんでした。反映された動きと学習ウィンドウの設定を確認してから、適用できなかった調整を再試行してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:70
+msgid "[FCS-70-08-000005](FCS-70-08-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:71
+msgid "トラッキングシーケンスがこの動画と一致しないため、インポートしませんでした。対応する動画とシーケンスを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:71
+msgid "[FCS-70-08-000006](FCS-70-08-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:72
+msgid "保存済みのトラッキングシーケンスを読み取れませんでした。動画を再処理するか、サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:74
+msgid "Maya・Blenderへの出力"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:76
+msgid "[FCS-80-08-000003](FCS-80-08-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:78
+msgid "シーンの時間設定を更新できませんでした。アニメーションを使用する前にシーンのフレームレートと範囲を確認し、MayaまたはBlenderに再接続してから再試行してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:78
+msgid "[FCS-80-08-000010](FCS-80-08-000010.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:79
+#, python-brace-format
+msgid "次の出力調整を使用できませんでした：{outputs}。完成した結果と選択した設定を確認し、対象の調整を再試行してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:79
+msgid "[FCS-80-08-000011](FCS-80-08-000011.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:80
+msgid "出力調整の一部を完了できませんでした。完成したアニメーションを確認し、このコードとログのメッセージをコピーしてサポートにお問い合わせください。復旧手順はヘルプで確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:80
+msgid "[FCS-80-08-000012](FCS-80-08-000012.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-08.md:81
+msgid "接続の失敗によりレンダラーの自動同期を無効にしました。MayaまたはBlenderに再接続してから有効にし直してください。"
+msgstr ""
+

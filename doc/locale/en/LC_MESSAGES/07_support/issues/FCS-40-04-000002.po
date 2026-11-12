@@ -1,79 +1,164 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-40-04-000002.md:4
+msgid "FCS-40-04-000002"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000002.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-40-04-000002.md:10
 msgid "動画グループの作成を完了できませんでした。"
 msgstr "Create Video Folder could not complete."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-40-04-000002.md:14
 msgid "動画グループの作成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
-msgstr "Create Video Folder has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+msgstr ""
+"Create Video Folder has several prerequisites. The sections below "
+"describe the recognized causes and their individual corrections."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-40-04-000002.md:18
 msgid "以下の該当する条件を確認し、修正してから動画グループの作成を再実行してください。"
-msgstr "Check the matching condition below, correct it, then retry Create Video Folder."
+msgstr ""
+"Check the matching condition below, correct it, then retry Create Video "
+"Folder."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:24
 msgid "同じ名前の動画フォルダーが既に存在します。別の名前を選択してください。"
 msgstr "A video folder with that name already exists. Choose another name."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:26
 msgid "Video Libraryに同じ名前の動画グループが存在します。"
-msgstr "The Video Library already contains a video-folder group with the requested name."
+msgstr ""
+"The Video Library already contains a video-folder group with the "
+"requested name."
 
-msgid "別のグループ名を指定するか、既存のグループを使用してください。これはVideo Library内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
-msgstr "Choose a different group name or use the existing group. This refers to the Video Library group, so renaming an unrelated directory on disk will not resolve the duplicate."
+#: ../../07_support/issues/FCS-40-04-000002.md:27
+msgid ""
+"別のグループ名を指定するか、既存のグループを使用してください。これはVideo "
+"Library内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
+msgstr ""
+"Choose a different group name or use the existing group. This refers to "
+"the Video Library group, so renaming an unrelated directory on disk will "
+"not resolve the duplicate."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:33
 msgid "フォルダーを作成するには、異なる2つの動画を選択してください。"
 msgstr "Choose two different videos to create a folder."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:35
 msgid "動画グループの作成に指定した2つの入力が同じ動画です。"
 msgstr "Both inputs to video-folder creation identify the same video."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:36
 msgid "Video Libraryで異なる2つの動画を選択してから、再度グループを作成してください。同じ項目を2回選択しても、2本の動画にはなりません。"
-msgstr "Select two distinct Video Library entries, then create the folder again. Selecting the same entry twice does not provide two videos."
+msgstr ""
+"Select two distinct Video Library entries, then create the folder again. "
+"Selecting the same entry twice does not provide two videos."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:42
 msgid "まだフォルダーに入っていない2つの動画を選択してください。"
 msgstr "Choose two videos that are not already in a folder."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:44
 msgid "新しいグループに指定した動画の少なくとも1つが、既存のVideo Libraryグループに属しています。"
-msgstr "One of the videos selected for a new folder already belongs to a Video Library folder."
+msgstr ""
+"One of the videos selected for a new folder already belongs to a Video "
+"Library folder."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:45
 msgid "現在どのグループにも属していない2本の動画を選択するか、先に対象の動画を既存のグループから外してください。その後で新しいグループを作成してください。"
-msgstr "Select two currently ungrouped videos, or first remove the desired video from its existing group. Then create the new group."
+msgstr ""
+"Select two currently ungrouped videos, or first remove the desired video "
+"from its existing group. Then create the new group."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:51
 msgid "続行する前に現在のセッションに動画をインポートしてください。"
 msgstr "Import the video into the current session before continuing."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:53
 msgid "選択した動画が現在のセッションのVideo Libraryに登録されていません。"
-msgstr "The selected video is not registered in the current session’s Video Library."
+msgstr ""
+"The selected video is not registered in the current session’s Video "
+"Library."
 
-msgid "現在のセッションのVideo Libraryに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
-msgstr "Import the video into this session’s Video Library, then select that registered entry. Opening a file in another session does not register it here."
+#: ../../07_support/issues/FCS-40-04-000002.md:54
+msgid ""
+"現在のセッションのVideo "
+"Libraryに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
+msgstr ""
+"Import the video into this session’s Video Library, then select that "
+"registered entry. Opening a file in another session does not register it "
+"here."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:60
 msgid "動画グループの作成で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
-msgstr "Create Video Folder stopped because of an unexpected failure. Keep your current work and the Log before retrying."
+msgstr ""
+"Create Video Folder stopped because of an unexpected failure. Keep your "
+"current work and the Log before retrying."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:62
 msgid "動画グループの作成で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
-msgstr "The Create Video Folder operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details."
+msgstr ""
+"The Create Video Folder operation failed outside the input checks listed "
+"on this page. Its technical cause requires the operation’s Log details."
 
-msgid "現在のセッションと動画グループの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
-msgstr "Preserve the current session and any files already created by Create Video Folder. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log."
+#: ../../07_support/issues/FCS-40-04-000002.md:63
+msgid ""
+"現在のセッションと動画グループの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
+" Feedbackで報告してください。"
+msgstr ""
+"Preserve the current session and any files already created by Create "
+"Video Folder. Check the errors from the same operation in Log. Save "
+"available work, then retry once. If it repeats, send Bug Feedback with "
+"this code, FCS version, the operation settings and its Log."
 
-msgid "video.folder.create の必須項目は name, source_video_stem, target_video_stem です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
-msgstr "Required fields for video.folder.create: name, source_video_stem, target_video_stem. Complete these fields before retrying. For automation, use these exact parameter names."
+#: ../../07_support/issues/FCS-40-04-000002.md:69
+#: ../../07_support/issues/FCS-40-04-000002.md:72
+msgid ""
+"video.folder.create の必須項目は name, source_video_stem, target_video_stem "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+"Required fields for video.folder.create: name, source_video_stem, "
+"target_video_stem. Complete these fields before retrying. For automation,"
+" use these exact parameter names."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:71
 msgid "操作に必要なフィールドが指定されていません。"
 msgstr "The operation was submitted without a required field."
 
+#: ../../07_support/issues/FCS-40-04-000002.md:74
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr "[Browse this family](family-04.md)"
 
+#: ../../07_support/issues/FCS-40-04-000002.md:76
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

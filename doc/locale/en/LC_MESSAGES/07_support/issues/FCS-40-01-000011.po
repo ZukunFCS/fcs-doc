@@ -1,28 +1,65 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-40-01-000011.md:4
+msgid "FCS-40-01-000011"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000011.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000011.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-40-01-000011.md:10
+msgid "動画と親フォルダーを移動または名前変更し、フルパスにASCII文字だけが含まれるようにしてから、再インポートしてください。"
+msgstr ""
+"Move or rename the video and its parent folders so the full path contains"
+" only ASCII characters, then import it again."
+
+#: ../../07_support/issues/FCS-40-01-000011.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-40-01-000011.md:14
+msgid "動画のフルパスにASCII以外の文字が含まれています。親フォルダー名とファイル名の両方が検証されます。"
+msgstr ""
+"The full video path contains a character outside ASCII, including a non-"
+"ASCII parent-directory or filename character."
+
+#: ../../07_support/issues/FCS-40-01-000011.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "動画と親フォルダーを移動または名前変更し、フルパスにASCII文字だけが含まれるようにしてから、再インポートしてください。"
-msgstr "Move or rename the video and its parent folders so the full path contains only ASCII characters, then import it again."
-
-msgid "動画のフルパスにASCII以外の文字が含まれています。親フォルダー名とファイル名の両方が検証されます。"
-msgstr "The full video path contains a character outside ASCII, including a non-ASCII parent-directory or filename character."
-
+#: ../../07_support/issues/FCS-40-01-000011.md:18
 msgid "動画を、全体がASCII文字のパスに移動またはコピーしてください（例：C:/FCSProject/Facial/RecData/take01.mp4）。名前には英数字、ハイフン、アンダースコアを使用し、空白を含めないでください。親フォルダーが非ASCIIの場合、ファイル名だけ変更しても解決しません。移動先からインポートしてください。"
-msgstr "Move or copy the video to a path using ASCII characters throughout, for example C:/FCSProject/Facial/RecData/take01.mp4. Use Latin letters, digits, hyphens or underscores for the names, and no whitespace. Import from that new location; changing only the filename does not fix a non-ASCII parent folder."
+msgstr ""
+"Move or copy the video to a path using ASCII characters throughout, for "
+"example C:/FCSProject/Facial/RecData/take01.mp4. Use Latin letters, "
+"digits, hyphens or underscores for the names, and no whitespace. Import "
+"from that new location; changing only the filename does not fix a non-"
+"ASCII parent folder."
 
+#: ../../07_support/issues/FCS-40-01-000011.md:20
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-40-01-000011.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

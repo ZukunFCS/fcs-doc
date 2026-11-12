@@ -1,94 +1,208 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-40-04-000001.md:4
+msgid "FCS-40-04-000001"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000001.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000001.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-40-04-000001.md:10
 msgid "動画のインポートを完了できませんでした。"
 msgstr "Import Video could not complete."
 
-msgid "動画のインポートには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
-msgstr "Import Video has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+#: ../../07_support/issues/FCS-40-04-000001.md:12
+msgid "原因"
+msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-40-04-000001.md:14
+msgid "動画のインポートには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+msgstr ""
+"Import Video has several prerequisites. The sections below describe the "
+"recognized causes and their individual corrections."
+
+#: ../../07_support/issues/FCS-40-04-000001.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-40-04-000001.md:18
 msgid "以下の該当する条件を確認し、修正してから動画のインポートを再実行してください。"
 msgstr "Check the matching condition below, correct it, then retry Import Video."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:24
+#: ../../07_support/issues/FCS-40-04-000001.md:27
 msgid "動画が見つかりません。インポートする既存の動画ファイルを選択してください。"
 msgstr "Cannot find the video. Choose an existing video file to import."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:26
 msgid "インポート元の動画のパスが存在しません。"
 msgstr "The video-import source path does not exist."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:33
 msgid "動画の拡張子は .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts のいずれかを使用してください。"
-msgstr "Choose a video with one of these extensions: .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts."
+msgstr ""
+"Choose a video with one of these extensions: .avi, .m2ts, .m4v, .mkv, "
+".mov, .mp4, .mts, .ts."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:35
 msgid "元ファイルの拡張子が、FCSで対応する動画コンテナーの拡張子ではありません。"
-msgstr "The source filename extension is not among FCS’s supported video-container extensions."
+msgstr ""
+"The source filename extension is not among FCS’s supported video-"
+"container extensions."
 
-msgid "拡張子が .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts のいずれかの既存の動画を選択してください。大文字・小文字は区別しません。これは対応コンテナーの一覧であり、内部のすべてのコーデックに対応する保証ではありません。元動画が再生できてもFCSで読めない場合、拡張子だけ変えず、コピーを再エンコードしてください。"
-msgstr "Choose an existing video with one of these extensions: .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts; extension matching ignores case. These identify accepted containers, not a guarantee that every codec inside them can be decoded. If the original plays but cannot be read by FCS, re-encode a copy rather than merely renaming its extension."
+#: ../../07_support/issues/FCS-40-04-000001.md:36
+msgid ""
+"拡張子が .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts "
+"のいずれかの既存の動画を選択してください。大文字・小文字は区別しません。これは対応コンテナーの一覧であり、内部のすべてのコーデックに対応する保証ではありません。元動画が再生できてもFCSで読めない場合、拡張子だけ変えず、コピーを再エンコードしてください。"
+msgstr ""
+"Choose an existing video with one of these extensions: .avi, .m2ts, .m4v,"
+" .mkv, .mov, .mp4, .mts, .ts; extension matching ignores case. These "
+"identify accepted containers, not a guarantee that every codec inside "
+"them can be decoded. If the original plays but cannot be read by FCS, re-"
+"encode a copy rather than merely renaming its extension."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:42
 msgid "動画と親フォルダーを移動または名前変更し、フルパスにASCII文字だけが含まれるようにしてから、再インポートしてください。"
-msgstr "Move or rename the video and its parent folders so the full path contains only ASCII characters, then import it again."
+msgstr ""
+"Move or rename the video and its parent folders so the full path contains"
+" only ASCII characters, then import it again."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:44
 msgid "動画のフルパスにASCII以外の文字が含まれています。親フォルダー名とファイル名の両方が検証されます。"
-msgstr "The full video path contains a character outside ASCII, including a non-ASCII parent-directory or filename character."
+msgstr ""
+"The full video path contains a character outside ASCII, including a non-"
+"ASCII parent-directory or filename character."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:45
 msgid "動画を、全体がASCII文字のパスに移動またはコピーしてください（例：C:/FCSProject/Facial/RecData/take01.mp4）。名前には英数字、ハイフン、アンダースコアを使用し、空白を含めないでください。親フォルダーが非ASCIIの場合、ファイル名だけ変更しても解決しません。移動先からインポートしてください。"
-msgstr "Move or copy the video to a path using ASCII characters throughout, for example C:/FCSProject/Facial/RecData/take01.mp4. Use Latin letters, digits, hyphens or underscores for the names, and no whitespace. Import from that new location; changing only the filename does not fix a non-ASCII parent folder."
+msgstr ""
+"Move or copy the video to a path using ASCII characters throughout, for "
+"example C:/FCSProject/Facial/RecData/take01.mp4. Use Latin letters, "
+"digits, hyphens or underscores for the names, and no whitespace. Import "
+"from that new location; changing only the filename does not fix a non-"
+"ASCII parent folder."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:51
 msgid "動画または親フォルダーの名前を変更し、フルパスからスペースなどの空白文字を除いてから、再インポートしてください。"
-msgstr "Rename the video or its parent folders so the full path contains no spaces or other whitespace, then import it again."
+msgstr ""
+"Rename the video or its parent folders so the full path contains no "
+"spaces or other whitespace, then import it again."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:53
 msgid "動画のフルパスのどこかに、スペースやタブなどの空白文字が含まれています。"
-msgstr "At least one part of the full video path contains whitespace, such as a space or tab."
+msgstr ""
+"At least one part of the full video path contains whitespace, such as a "
+"space or tab."
 
-msgid "動画のファイル名とすべての親フォルダーから空白を除去してください。例えばC:/FCS Project/RecData/take 01.mp4ではなく、C:/FCSProject/RecData/take_01.mp4を使用してください。名前を変更またはコピーした動画を再度インポートしてください。"
-msgstr "Remove whitespace from the video filename and every parent folder. For example, use C:/FCSProject/RecData/take_01.mp4 instead of C:/FCS Project/RecData/take 01.mp4. Import the renamed or copied file again."
+#: ../../07_support/issues/FCS-40-04-000001.md:54
+msgid ""
+"動画のファイル名とすべての親フォルダーから空白を除去してください。例えばC:/FCS Project/RecData/take "
+"01.mp4ではなく、C:/FCSProject/RecData/take_01.mp4を使用してください。名前を変更またはコピーした動画を再度インポートしてください。"
+msgstr ""
+"Remove whitespace from the video filename and every parent folder. For "
+"example, use C:/FCSProject/RecData/take_01.mp4 instead of C:/FCS "
+"Project/RecData/take 01.mp4. Import the renamed or copied file again."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:60
+#: ../../07_support/issues/FCS-40-04-000001.md:69
 msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
 msgstr "The selected video has no readable frames. Choose a valid video file."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:62
 msgid "選択した動画から有効なフレーム数とメタデータを読み取れませんでした。"
-msgstr "FCS could not read a positive frame count and usable metadata from the selected video."
+msgstr ""
+"FCS could not read a positive frame count and usable metadata from the "
+"selected video."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:63
 msgid "動画のコピーや録画が完了し、プレーヤーで最後まで再生できることを確認してください。完全な元ファイルを選択してください。元動画が再生できてもFCSで読めない場合はコピーを再エンコードし、元ファイルをサポート用に保持してください。"
-msgstr "Confirm that the video plays through in a media player and has finished copying or recording. Select the complete original file. If the original plays but FCS cannot read it, re-encode a copy and keep the original for support."
+msgstr ""
+"Confirm that the video plays through in a media player and has finished "
+"copying or recording. Select the complete original file. If the original "
+"plays but FCS cannot read it, re-encode a copy and keep the original for "
+"support."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:71
 msgid "選択されたファイルから動画フレームを読み取れませんでした。"
 msgstr "The selected file yielded zero readable video frames."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:72
 msgid "コピーや録画の完了と、動画全体をプレーヤーで再生できることを確認してください。完全な元動画を選択するか、コピーを再エンコードしてください。再生できる動画でも読み取れない場合は、元ファイルをサポート用に保持してください。"
-msgstr "Check that copying or recording has finished and the complete file plays in a media player. Choose the complete original video or re-encode a copy. Keep the original for support if a playable file still cannot be read."
+msgstr ""
+"Check that copying or recording has finished and the complete file plays "
+"in a media player. Choose the complete original video or re-encode a "
+"copy. Keep the original for support if a playable file still cannot be "
+"read."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:78
 msgid "動画のインポートで予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
-msgstr "Import Video stopped because of an unexpected failure. Keep your current work and the Log before retrying."
+msgstr ""
+"Import Video stopped because of an unexpected failure. Keep your current "
+"work and the Log before retrying."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:80
 msgid "動画のインポートで、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
-msgstr "The Import Video operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details."
+msgstr ""
+"The Import Video operation failed outside the input checks listed on this"
+" page. Its technical cause requires the operation’s Log details."
 
-msgid "現在のセッションと動画のインポートで作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
-msgstr "Preserve the current session and any files already created by Import Video. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log."
+#: ../../07_support/issues/FCS-40-04-000001.md:81
+msgid ""
+"現在のセッションと動画のインポートで作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
+" Feedbackで報告してください。"
+msgstr ""
+"Preserve the current session and any files already created by Import "
+"Video. Check the errors from the same operation in Log. Save available "
+"work, then retry once. If it repeats, send Bug Feedback with this code, "
+"FCS version, the operation settings and its Log."
 
-msgid "video.import の必須項目は video_paths です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
-msgstr "Required fields for video.import: video_paths. Complete these fields before retrying. For automation, use these exact parameter names."
+#: ../../07_support/issues/FCS-40-04-000001.md:87
+#: ../../07_support/issues/FCS-40-04-000001.md:90
+msgid ""
+"video.import の必須項目は video_paths "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+"Required fields for video.import: video_paths. Complete these fields "
+"before retrying. For automation, use these exact parameter names."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:89
+#: ../../07_support/issues/FCS-40-04-000001.md:98
 msgid "操作に必要なフィールドが指定されていません。"
 msgstr "The operation was submitted without a required field."
 
-msgid "video.import.preview の必須項目は video_path です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
-msgstr "Required fields for video.import.preview: video_path. Complete these fields before retrying. For automation, use these exact parameter names."
+#: ../../07_support/issues/FCS-40-04-000001.md:96
+#: ../../07_support/issues/FCS-40-04-000001.md:99
+msgid ""
+"video.import.preview の必須項目は video_path "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+"Required fields for video.import.preview: video_path. Complete these "
+"fields before retrying. For automation, use these exact parameter names."
 
+#: ../../07_support/issues/FCS-40-04-000001.md:101
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr "[Browse this family](family-04.md)"
 
+#: ../../07_support/issues/FCS-40-04-000001.md:103
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

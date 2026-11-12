@@ -1,28 +1,62 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-30-04-000001.md:4
+msgid "FCS-30-04-000001"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000001.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000001.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-30-04-000001.md:10
+msgid ""
+"セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前にSession "
+"InfoでProject、Actor、Character、シーンを確認してください。"
+msgstr ""
+"Session changes remain in memory but were not saved. Check the project, "
+"Actor, Character and scene in Session Info before closing FCS."
+
+#: ../../07_support/issues/FCS-30-04-000001.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-30-04-000001.md:14
+msgid "プロジェクト、Actor、Characterのフォルダー、または選択したシーンの検証に失敗し、メモリー上のセッションを保存できませんでした。"
+msgstr ""
+"The in-memory session could not be persisted because its project, Actor "
+"or Character directory or selected scene failed validation."
+
+#: ../../07_support/issues/FCS-30-04-000001.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前にSession InfoでProject、Actor、Character、シーンを確認してください。"
-msgstr "Session changes remain in memory but were not saved. Check the project, Actor, Character and scene in Session Info before closing FCS."
-
-msgid "プロジェクト、Actor、Characterのフォルダー、または選択したシーンの検証に失敗し、メモリー上のセッションを保存できませんでした。"
-msgstr "The in-memory session could not be persisted because its project, Actor or Character directory or selected scene failed validation."
-
+#: ../../07_support/issues/FCS-30-04-000001.md:18
 msgid "セッションを保存できませんでした。プロジェクトフォルダーとシーンの設定を確認してください。"
 msgstr "The session was not saved. Check its project folder and scene settings."
 
+#: ../../07_support/issues/FCS-30-04-000001.md:20
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr "[Browse this family](family-04.md)"
 
+#: ../../07_support/issues/FCS-30-04-000001.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

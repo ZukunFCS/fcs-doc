@@ -1,28 +1,61 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-10-01-000008.md:4
+msgid "FCS-10-01-000008"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000008.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000008.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-10-01-000008.md:10
 msgid "拡張子が.maまたは.mbのMayaシーンを選択してください。"
 msgstr "Choose a Maya scene with the .ma or .mb file extension."
 
+#: ../../07_support/issues/FCS-10-01-000008.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-10-01-000008.md:14
 msgid "選択したシーンファイル名が小文字の .ma または .mb で終わっていません。"
 msgstr "The selected scene filename does not end in lowercase .ma or .mb."
 
-msgid "既存のMaya ASCII（.ma）またはMaya Binary（.mb）シーンを選択してください。他形式のシーンはMayaからこれらの形式で保存してください。無関係なファイルの拡張子だけ変更しても変換されません。"
-msgstr "Choose an existing Maya ASCII (.ma) or Maya Binary (.mb) scene. Save a non-Maya scene from Maya in one of these formats; renaming an unrelated file extension does not convert its contents."
+#: ../../07_support/issues/FCS-10-01-000008.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-10-01-000008.md:18
+msgid ""
+"既存のMaya ASCII（.ma）またはMaya "
+"Binary（.mb）シーンを選択してください。他形式のシーンはMayaからこれらの形式で保存してください。無関係なファイルの拡張子だけ変更しても変換されません。"
+msgstr ""
+"Choose an existing Maya ASCII (.ma) or Maya Binary (.mb) scene. Save a "
+"non-Maya scene from Maya in one of these formats; renaming an unrelated "
+"file extension does not convert its contents."
+
+#: ../../07_support/issues/FCS-10-01-000008.md:20
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-10-01-000008.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

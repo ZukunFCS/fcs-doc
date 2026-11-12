@@ -1,28 +1,64 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-50-04-000001.md:4
+msgid "FCS-50-04-000001"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-04-000001.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-04-000001.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-50-04-000001.md:10
 msgid "プロファイルを保存できませんでした。編集中の内容は残っています。サポートにお問い合わせください。"
 msgstr "The profile was not saved. Your draft is still available. Contact support."
 
+#: ../../07_support/issues/FCS-50-04-000001.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-50-04-000001.md:14
 msgid "編集したプロファイルの保存に失敗しました。修正して再度保存できるよう、編集画面に下書きを保持しています。"
-msgstr "Committing the edited profile failed. The editor retained the draft so it can be corrected and saved again."
+msgstr ""
+"Committing the edited profile failed. The editor retained the draft so it"
+" can be corrected and saved again."
 
-msgid "下書きを保持するため、Profile Editorを開いたままにしてください。プロファイル名、元画像、現在のコントローラーデータと、プロジェクトへの書き込み権限を確認して再度Saveしてください。再発する場合は再起動前に前後のログをコピーしてください。画面を閉じると未保存の編集内容を失う可能性があります。"
-msgstr "Keep the Profile Editor open so the draft is retained. Check the profile name, source image and current controller data, and confirm write access to the project. Retry Save. If it still fails, copy the nearby Log entries before restarting; closing the editor can lose the unsaved draft."
+#: ../../07_support/issues/FCS-50-04-000001.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-50-04-000001.md:18
+msgid ""
+"下書きを保持するため、Profile "
+"Editorを開いたままにしてください。プロファイル名、元画像、現在のコントローラーデータと、プロジェクトへの書き込み権限を確認して再度Saveしてください。再発する場合は再起動前に前後のログをコピーしてください。画面を閉じると未保存の編集内容を失う可能性があります。"
+msgstr ""
+"Keep the Profile Editor open so the draft is retained. Check the profile "
+"name, source image and current controller data, and confirm write access "
+"to the project. Retry Save. If it still fails, copy the nearby Log "
+"entries before restarting; closing the editor can lose the unsaved draft."
+
+#: ../../07_support/issues/FCS-50-04-000001.md:20
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr "[Browse this family](family-04.md)"
 
+#: ../../07_support/issues/FCS-50-04-000001.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

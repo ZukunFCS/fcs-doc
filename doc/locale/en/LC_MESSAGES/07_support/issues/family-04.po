@@ -1,94 +1,234 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/family-04.md:4
 msgid "ファイルへのアクセス"
 msgstr "File access"
 
+#: ../../07_support/issues/family-04.md:6
 msgid "[検索・種類の一覧に戻る](index.md)"
 msgstr "[Back to lookup and families](index.md)"
 
-msgid "コード"
-msgstr "Code"
-
-msgid "説明"
-msgstr "Description"
-
+#: ../../07_support/issues/family-04.md:8
 msgid "アプリケーションと設定"
 msgstr "Application and settings"
 
+#: ../../07_support/issues/family-04.md:10
+#: ../../07_support/issues/family-04.md:18
+#: ../../07_support/issues/family-04.md:28
+#: ../../07_support/issues/family-04.md:35
+#: ../../07_support/issues/family-04.md:42
+#: ../../07_support/issues/family-04.md:50
+#: ../../07_support/issues/family-04.md:58
+msgid "コード"
+msgstr "Code"
+
+#: ../../07_support/issues/family-04.md:10
+#: ../../07_support/issues/family-04.md:18
+#: ../../07_support/issues/family-04.md:28
+#: ../../07_support/issues/family-04.md:35
+#: ../../07_support/issues/family-04.md:42
+#: ../../07_support/issues/family-04.md:50
+#: ../../07_support/issues/family-04.md:58
+msgid "説明"
+msgstr "Description"
+
+#: ../../07_support/issues/family-04.md:10
+msgid "[FCS-10-04-000001](FCS-10-04-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:12
 msgid "アプリケーション設定を保存できませんでした。サポートにお問い合わせください。"
 msgstr "Application settings could not be saved. Contact support."
 
-msgid "このセッションにはレイアウトを適用しましたが、次回起動用に保存できませんでした。設定フォルダーのアクセス権を確認するか、サポートにお問い合わせください。"
-msgstr "The layout is applied for this session but could not be saved for the next start. Check the settings-folder permissions or contact support."
+#: ../../07_support/issues/family-04.md:12
+msgid "[FCS-10-04-000002](FCS-10-04-000002.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-04.md:13
+msgid "このセッションにはレイアウトを適用しましたが、次回起動用に保存できませんでした。設定フォルダーのアクセス権を確認するか、サポートにお問い合わせください。"
+msgstr ""
+"The layout is applied for this session but could not be saved for the "
+"next start. Check the settings-folder permissions or contact support."
+
+#: ../../07_support/issues/family-04.md:13
+msgid "[FCS-10-04-000003](FCS-10-04-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:14
 msgid "レイアウトを保存できませんでした。サポートにお問い合わせください。"
 msgstr "The layout could not be saved. Contact support."
 
+#: ../../07_support/issues/family-04.md:16
 msgid "プロジェクトとセッション"
 msgstr "Projects and sessions"
 
-msgid "セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前にSession InfoでProject、Actor、Character、シーンを確認してください。"
-msgstr "Session changes remain in memory but were not saved. Check the project, Actor, Character and scene in Session Info before closing FCS."
+#: ../../07_support/issues/family-04.md:18
+msgid "[FCS-30-04-000001](FCS-30-04-000001.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-04.md:20
+msgid ""
+"セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前にSession "
+"InfoでProject、Actor、Character、シーンを確認してください。"
+msgstr ""
+"Session changes remain in memory but were not saved. Check the project, "
+"Actor, Character and scene in Session Info before closing FCS."
+
+#: ../../07_support/issues/family-04.md:20
+msgid "[FCS-30-04-000002](FCS-30-04-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:21
 msgid "アクターの作成を完了できませんでした。"
 msgstr "Create Actor could not complete."
 
+#: ../../07_support/issues/family-04.md:21
+msgid "[FCS-30-04-000003](FCS-30-04-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:22
 msgid "キャラクターの作成を完了できませんでした。"
 msgstr "Create Character could not complete."
 
+#: ../../07_support/issues/family-04.md:22
+msgid "[FCS-30-04-000004](FCS-30-04-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:23
 msgid "アクター名の変更を完了できませんでした。"
 msgstr "Rename Actor could not complete."
 
+#: ../../07_support/issues/family-04.md:23
+msgid "[FCS-30-04-000005](FCS-30-04-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:24
 msgid "キャラクター名の変更を完了できませんでした。"
 msgstr "Rename Character could not complete."
 
+#: ../../07_support/issues/family-04.md:26
 msgid "動画とメディア"
 msgstr "Video and media"
 
+#: ../../07_support/issues/family-04.md:28
+msgid "[FCS-40-04-000001](FCS-40-04-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:30
 msgid "動画のインポートを完了できませんでした。"
 msgstr "Import Video could not complete."
 
+#: ../../07_support/issues/family-04.md:30
+msgid "[FCS-40-04-000002](FCS-40-04-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:31
 msgid "動画グループの作成を完了できませんでした。"
 msgstr "Create Video Folder could not complete."
 
+#: ../../07_support/issues/family-04.md:33
 msgid "プロファイル"
 msgstr "Profiles"
 
+#: ../../07_support/issues/family-04.md:35
+msgid "[FCS-50-04-000001](FCS-50-04-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:37
 msgid "プロファイルを保存できませんでした。編集中の内容は残っています。サポートにお問い合わせください。"
 msgstr "The profile was not saved. Your draft is still available. Contact support."
 
+#: ../../07_support/issues/family-04.md:37
+msgid "[FCS-50-04-000002](FCS-50-04-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:38
 msgid "プロファイルの自動生成を完了できませんでした。"
 msgstr "Generate Profiles could not complete."
 
+#: ../../07_support/issues/family-04.md:40
 msgid "コントローラー"
 msgstr "Controllers"
 
+#: ../../07_support/issues/family-04.md:42
+msgid "[FCS-55-04-000002](FCS-55-04-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:44
 msgid "コントローラー設定を保存できませんでした。編集内容は残っています。"
 msgstr "Controller settings were not saved. Your edits are still available."
 
+#: ../../07_support/issues/family-04.md:44
+msgid "[FCS-55-04-000003](FCS-55-04-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:45
 msgid "コントローラー名の変更を完了できませんでした。"
 msgstr "Rename Controllers could not complete."
 
+#: ../../07_support/issues/family-04.md:45
+msgid "[FCS-55-04-000004](FCS-55-04-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:46
 msgid "コントローラー上下限の貼り付けを完了できませんでした。"
 msgstr "Paste Controller Limits could not complete."
 
+#: ../../07_support/issues/family-04.md:48
 msgid "Maya・Blenderへの出力"
 msgstr "Maya and Blender delivery"
 
+#: ../../07_support/issues/family-04.md:50
+msgid "[FCS-80-04-000001](FCS-80-04-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:52
 msgid "シーンを保存できませんでした。MayaまたはBlenderとの接続と出力先の書き込み権限を確認してから、Sceneの出力を再試行してください。"
-msgstr "The scene could not be saved. Check the Maya or Blender connection and destination write access, then retry Scene export."
+msgstr ""
+"The scene could not be saved. Check the Maya or Blender connection and "
+"destination write access, then retry Scene export."
 
+#: ../../07_support/issues/family-04.md:52
+msgid "[FCS-80-04-000002](FCS-80-04-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:53
 msgid "プレイブラストを保存できませんでした。MayaまたはBlenderとの接続、選択したカメラ、出力先の書き込み権限を確認してから、Playblastを再試行してください。"
-msgstr "The playblast could not be saved. Check the Maya or Blender connection, selected camera, and destination write access, then retry Playblast."
+msgstr ""
+"The playblast could not be saved. Check the Maya or Blender connection, "
+"selected camera, and destination write access, then retry Playblast."
 
+#: ../../07_support/issues/family-04.md:53
+msgid "[FCS-80-04-000003](FCS-80-04-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:54
 msgid "Mayaプラグインをインストールできませんでした。サポートにお問い合わせください。"
 msgstr "The Maya plug-in could not be installed. Contact support."
 
+#: ../../07_support/issues/family-04.md:56
 msgid "ストレージとNAS"
 msgstr "Storage and NAS"
 
+#: ../../07_support/issues/family-04.md:58
+msgid "[FCS-90-04-000001](FCS-90-04-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-04.md:60
 msgid "指定されたスクリーンショットを保存できませんでした。もう一度試すか、サポートにお問い合わせください。"
 msgstr "The requested screenshot was not saved. Try again or contact support."
+

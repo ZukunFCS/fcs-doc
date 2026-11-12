@@ -1,28 +1,65 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-20-01-000001.md:4
+msgid "FCS-20-01-000001"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-20-01-000001.md:10
 msgid "ライセンス設定でライセンスキーを確認してください。"
 msgstr "Check your license key in License Settings."
 
+#: ../../07_support/issues/FCS-20-01-000001.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-20-01-000001.md:14
 msgid "現在のライセンスが検証に通らず、ライセンスが必要な操作を実行できません。"
-msgstr "The current license did not pass validation, so licensed operations cannot continue."
+msgstr ""
+"The current license did not pass validation, so licensed operations "
+"cannot continue."
 
-msgid "発行されたライセンスキーを、余分な文字、空白、改行を加えずLicense Settingsに貼り付けてください。表示される状態を確認してから再実行してください。正しいキーでも拒否される場合は、有効期限と利用可能なデバイス数をライセンス管理者に確認してください。サポートには状態とコードを伝え、キーを公開しないでください。"
-msgstr "Copy your issued license key into License Settings without adding text, spaces or line breaks. Check the license status there before retrying. If the correct key is still rejected, check its validity and available device seats with your license administrator; send support the status and code, not a public copy of the key."
+#: ../../07_support/issues/FCS-20-01-000001.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-20-01-000001.md:18
+msgid ""
+"発行されたライセンスキーを、余分な文字、空白、改行を加えずLicense "
+"Settingsに貼り付けてください。表示される状態を確認してから再実行してください。正しいキーでも拒否される場合は、有効期限と利用可能なデバイス数をライセンス管理者に確認してください。サポートには状態とコードを伝え、キーを公開しないでください。"
+msgstr ""
+"Copy your issued license key into License Settings without adding text, "
+"spaces or line breaks. Check the license status there before retrying. If"
+" the correct key is still rejected, check its validity and available "
+"device seats with your license administrator; send support the status and"
+" code, not a public copy of the key."
+
+#: ../../07_support/issues/FCS-20-01-000001.md:20
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-20-01-000001.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

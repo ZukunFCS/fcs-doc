@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -24,6 +24,46 @@ msgstr ""
 
 #: ../../07_support/issues/index.md:3
 msgid "アプリに表示されたコードを入力すると、原因と対処方法を確認できます。"
+msgstr ""
+
+#: ../../07_support/issues/index.md:44
+msgid "問題の種類から探す"
+msgstr ""
+
+#: ../../07_support/issues/index.md:46
+msgid "コードが分からない場合は、問題の種類を選び、説明から該当する項目を探してください。"
+msgstr ""
+
+#: ../../07_support/issues/index.md:48
+msgid "[入力の確認](family-01.md) (83)"
+msgstr ""
+
+#: ../../07_support/issues/index.md:49
+msgid "[データの不足](family-02.md) (62)"
+msgstr ""
+
+#: ../../07_support/issues/index.md:50
+msgid "[接続](family-03.md) (7)"
+msgstr ""
+
+#: ../../07_support/issues/index.md:51
+msgid "[ファイルへのアクセス](family-04.md) (19)"
+msgstr ""
+
+#: ../../07_support/issues/index.md:52
+msgid "[互換性](family-05.md) (6)"
+msgstr ""
+
+#: ../../07_support/issues/index.md:53
+msgid "[出力の不足](family-07.md) (13)"
+msgstr ""
+
+#: ../../07_support/issues/index.md:54
+msgid "[代替動作・結果の制限](family-08.md) (35)"
+msgstr ""
+
+#: ../../07_support/issues/index.md:55
+msgid "[予期しない失敗](family-99.md) (21)"
 msgstr ""
 
 #~ msgid "警告・エラーコード一覧"

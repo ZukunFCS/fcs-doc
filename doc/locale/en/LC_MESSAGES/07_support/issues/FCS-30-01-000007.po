@@ -1,28 +1,58 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-30-01-000007.md:4
+msgid "FCS-30-01-000007"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-01-000007.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-01-000007.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-30-01-000007.md:10
 msgid "ActorとCharacterに空白以外の名前を入力して、再実行してください。"
 msgstr "Enter a nonblank Actor and Character name, then retry."
 
+#: ../../07_support/issues/FCS-30-01-000007.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-30-01-000007.md:14
 msgid "ActorまたはCharacterの名前が空か、空白のみになっています。"
 msgstr "The Actor or Character name is empty or contains only whitespace."
 
-msgid "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
-msgstr "Enter a nonblank Actor and Character name, for example Actor01 and Character01, then retry. This check does not impose a numeric range."
+#: ../../07_support/issues/FCS-30-01-000007.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-30-01-000007.md:18
+msgid "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
+msgstr ""
+"Enter a nonblank Actor and Character name, for example Actor01 and "
+"Character01, then retry. This check does not impose a numeric range."
+
+#: ../../07_support/issues/FCS-30-01-000007.md:20
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-30-01-000007.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

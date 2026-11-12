@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -58,6 +58,10 @@ msgid ""
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-07-000001.md:22
+msgid "[同じ種類の問題を見る](family-07.md)"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-07-000001.md:24
 msgid "[別のコードを検索](index.md)"
 msgstr ""
 

@@ -1,28 +1,65 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-10-08-000004.md:4
+msgid "FCS-10-08-000004"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000004.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000004.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-10-08-000004.md:10
+msgid "一部の動画フレームをスキップしました。アニメーションが不完全、または同期がずれている可能性があります。再発する場合はサポートにお問い合わせください。"
+msgstr ""
+"Some video frames were skipped. The animation may be incomplete or out of"
+" sync. Contact support if this happens again."
+
+#: ../../07_support/issues/FCS-10-08-000004.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-10-08-000004.md:14
+msgid "ネイティブ動画リーダーで一部のデコード済みフレームを転送できず、そのフレームが省略されました。"
+msgstr ""
+"The native video reader failed to transfer some decoded frames, so those "
+"frames were skipped."
+
+#: ../../07_support/issues/FCS-10-08-000004.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "一部の動画フレームをスキップしました。アニメーションが不完全、または同期がずれている可能性があります。再発する場合はサポートにお問い合わせください。"
-msgstr "Some video frames were skipped. The animation may be incomplete or out of sync. Contact support if this happens again."
-
-msgid "ネイティブ動画リーダーで一部のデコード済みフレームを転送できず、そのフレームが省略されました。"
-msgstr "The native video reader failed to transfer some decoded frames, so those frames were skipped."
-
+#: ../../07_support/issues/FCS-10-08-000004.md:18
 msgid "省略されたフレーム付近のアニメーションと元動画のタイミングを、使用前に比較してください。動画全体をローカルにコピーして再実行してください。同じフレームで失敗する場合は、元動画、FCSバージョン、ログを保持してください。修復や省略されたフレームが元動画と一致するとは判断しないでください。"
-msgstr "Review the animation around skipped frames and compare its timing with the source video before using it. Retry from a complete local copy of the video. If the same frames fail, keep the original video, FCS version and Log for support; do not assume repaired or skipped frames match the source."
+msgstr ""
+"Review the animation around skipped frames and compare its timing with "
+"the source video before using it. Retry from a complete local copy of the"
+" video. If the same frames fail, keep the original video, FCS version and"
+" Log for support; do not assume repaired or skipped frames match the "
+"source."
 
+#: ../../07_support/issues/FCS-10-08-000004.md:20
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr "[Browse this family](family-08.md)"
 
+#: ../../07_support/issues/FCS-10-08-000004.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

@@ -1,28 +1,65 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-40-01-000012.md:4
+msgid "FCS-40-01-000012"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000012.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000012.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-40-01-000012.md:10
+msgid "動画または親フォルダーの名前を変更し、フルパスからスペースなどの空白文字を除いてから、再インポートしてください。"
+msgstr ""
+"Rename the video or its parent folders so the full path contains no "
+"spaces or other whitespace, then import it again."
+
+#: ../../07_support/issues/FCS-40-01-000012.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-40-01-000012.md:14
+msgid "動画のフルパスのどこかに、スペースやタブなどの空白文字が含まれています。"
+msgstr ""
+"At least one part of the full video path contains whitespace, such as a "
+"space or tab."
+
+#: ../../07_support/issues/FCS-40-01-000012.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "動画または親フォルダーの名前を変更し、フルパスからスペースなどの空白文字を除いてから、再インポートしてください。"
-msgstr "Rename the video or its parent folders so the full path contains no spaces or other whitespace, then import it again."
+#: ../../07_support/issues/FCS-40-01-000012.md:18
+msgid ""
+"動画のファイル名とすべての親フォルダーから空白を除去してください。例えばC:/FCS Project/RecData/take "
+"01.mp4ではなく、C:/FCSProject/RecData/take_01.mp4を使用してください。名前を変更またはコピーした動画を再度インポートしてください。"
+msgstr ""
+"Remove whitespace from the video filename and every parent folder. For "
+"example, use C:/FCSProject/RecData/take_01.mp4 instead of C:/FCS "
+"Project/RecData/take 01.mp4. Import the renamed or copied file again."
 
-msgid "動画のフルパスのどこかに、スペースやタブなどの空白文字が含まれています。"
-msgstr "At least one part of the full video path contains whitespace, such as a space or tab."
-
-msgid "動画のファイル名とすべての親フォルダーから空白を除去してください。例えばC:/FCS Project/RecData/take 01.mp4ではなく、C:/FCSProject/RecData/take_01.mp4を使用してください。名前を変更またはコピーした動画を再度インポートしてください。"
-msgstr "Remove whitespace from the video filename and every parent folder. For example, use C:/FCSProject/RecData/take_01.mp4 instead of C:/FCS Project/RecData/take 01.mp4. Import the renamed or copied file again."
-
+#: ../../07_support/issues/FCS-40-01-000012.md:20
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-40-01-000012.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

@@ -1,25 +1,58 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-40-08-000001.md:4
+msgid "FCS-40-08-000001"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-08-000001.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-08-000001.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-40-08-000001.md:10
+#: ../../07_support/issues/FCS-40-08-000001.md:18
+msgid "動画の時間情報を読み取れなかったため、保存済みの時間情報を使用しました。結果を使用する前にフレームレートと範囲を確認し、正しくない場合は動画を再インポートしてください。"
+msgstr ""
+"Video timing could not be read; saved timing was used. Check the frame "
+"rate and range before using the result, and reimport the video if they "
+"are incorrect."
+
+#: ../../07_support/issues/FCS-40-08-000001.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-40-08-000001.md:14
+msgid "出力時に元動画のタイミング情報を読み取れず、以前保存されたタイミングを使用しました。"
+msgstr ""
+"The source video’s timing could not be read during delivery, so "
+"previously saved timing was used."
+
+#: ../../07_support/issues/FCS-40-08-000001.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "動画の時間情報を読み取れなかったため、保存済みの時間情報を使用しました。結果を使用する前にフレームレートと範囲を確認し、正しくない場合は動画を再インポートしてください。"
-msgstr "Video timing could not be read; saved timing was used. Check the frame rate and range before using the result, and reimport the video if they are incorrect."
-
-msgid "出力時に元動画のタイミング情報を読み取れず、以前保存されたタイミングを使用しました。"
-msgstr "The source video’s timing could not be read during delivery, so previously saved timing was used."
-
+#: ../../07_support/issues/FCS-40-08-000001.md:20
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr "[Browse this family](family-08.md)"
 
+#: ../../07_support/issues/FCS-40-08-000001.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+

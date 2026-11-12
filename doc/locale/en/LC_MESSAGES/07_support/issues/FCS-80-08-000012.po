@@ -1,25 +1,57 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-80-08-000012.md:4
+msgid "FCS-80-08-000012"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-08-000012.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-08-000012.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-80-08-000012.md:10
+#: ../../07_support/issues/FCS-80-08-000012.md:18
+msgid "接続の失敗によりレンダラーの自動同期を無効にしました。MayaまたはBlenderに再接続してから有効にし直してください。"
+msgstr ""
+"Automatic renderer synchronization was disabled after a connection "
+"failure. Reconnect Maya or Blender before enabling it again."
+
+#: ../../07_support/issues/FCS-80-08-000012.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-80-08-000012.md:14
+msgid "DCCの接続障害後に自動同期を無効にし、他のアプリ操作を続行できる状態にしました。"
+msgstr ""
+"FCS disabled automatic synchronization after the renderer connection "
+"failed, allowing the rest of the application to continue."
+
+#: ../../07_support/issues/FCS-80-08-000012.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "接続の失敗によりレンダラーの自動同期を無効にしました。MayaまたはBlenderに再接続してから有効にし直してください。"
-msgstr "Automatic renderer synchronization was disabled after a connection failure. Reconnect Maya or Blender before enabling it again."
-
-msgid "DCCの接続障害後に自動同期を無効にし、他のアプリ操作を続行できる状態にしました。"
-msgstr "FCS disabled automatic synchronization after the renderer connection failed, allowing the rest of the application to continue."
-
+#: ../../07_support/issues/FCS-80-08-000012.md:20
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr "[Browse this family](family-08.md)"
 
+#: ../../07_support/issues/FCS-80-08-000012.md:22
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
