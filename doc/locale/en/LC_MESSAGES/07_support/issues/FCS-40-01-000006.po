@@ -1,25 +1,59 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-40-01-000006.md:4
+msgid "FCS-40-01-000006"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-40-01-000006.md:10
 msgid "まだフォルダーに入っていない2つの動画を選択してください。"
 msgstr "Choose two videos that are not already in a folder."
 
+#: ../../07_support/issues/FCS-40-01-000006.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-40-01-000006.md:14
 msgid "新しいグループに指定した動画の少なくとも1つが、既存のVideo Libraryグループに属しています。"
-msgstr "One of the videos selected for a new folder already belongs to a Video Library folder."
+msgstr ""
+"One of the videos selected for a new folder already belongs to a Video "
+"Library folder."
 
+#: ../../07_support/issues/FCS-40-01-000006.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-40-01-000006.md:18
 msgid "現在どのグループにも属していない2本の動画を選択するか、先に対象の動画を既存のグループから外してください。その後で新しいグループを作成してください。"
-msgstr "Select two currently ungrouped videos, or first remove the desired video from its existing group. Then create the new group."
+msgstr ""
+"Select two currently ungrouped videos, or first remove the desired video "
+"from its existing group. Then create the new group."
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-40-01-000006.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

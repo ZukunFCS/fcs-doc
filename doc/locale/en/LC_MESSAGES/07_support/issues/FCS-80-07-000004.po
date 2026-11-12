@@ -1,22 +1,57 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-80-07-000004.md:4
+msgid "FCS-80-07-000004"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-07-000004.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-07-000004.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-80-07-000004.md:10
+#: ../../07_support/issues/FCS-80-07-000004.md:18
+msgid "動画フレームを反映できませんでした。元動画、出力先フォルダーの書き込み権限、MayaまたはBlenderとの接続を確認してから、Framesを再試行してください。"
+msgstr ""
+"Video frames could not be delivered. Check the source video, output-"
+"folder write access, and the Maya or Blender connection, then retry "
+"Frames."
+
+#: ../../07_support/issues/FCS-80-07-000004.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-80-07-000004.md:14
+msgid "指定された動画フレームの準備または配置を完了できませんでした。"
+msgstr ""
+"The frame-delivery step could not prepare or attach the requested video "
+"images."
+
+#: ../../07_support/issues/FCS-80-07-000004.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "動画フレームを反映できませんでした。元動画、出力先フォルダーの書き込み権限、MayaまたはBlenderとの接続を確認してから、Framesを再試行してください。"
-msgstr "Video frames could not be delivered. Check the source video, output-folder write access, and the Maya or Blender connection, then retry Frames."
+#: ../../07_support/issues/FCS-80-07-000004.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
 
-msgid "指定された動画フレームの準備または配置を完了できませんでした。"
-msgstr "The frame-delivery step could not prepare or attach the requested video images."
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
 
-msgid "別のコードを検索"
-msgstr "Find another code"

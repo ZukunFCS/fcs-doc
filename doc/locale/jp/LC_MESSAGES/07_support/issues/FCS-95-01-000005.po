@@ -1,0 +1,163 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-95-01-000005.md:4
+msgid "FCS-95-01-000005"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:10
+msgid "セッションをエクスポートできませんでした。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:14
+msgid "セッションをコピーする前に、保存先、Actor、Character、対象動画、変更先DCCのシーンを検証します。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:18
+msgid "以下の該当する項目を確認し、エクスポート設定を修正してからExportを再実行してください。現在のセッションがコピー元です。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:24
+#: ../../07_support/issues/FCS-95-01-000005.md:26
+#: ../../07_support/issues/FCS-95-01-000005.md:27
+msgid ""
+"エクスポート先を選び、ActorとCharacterの両方を入力してください。保存先は エクスポート先/FCS/Actor/Character "
+"になります。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:33
+#: ../../07_support/issues/FCS-95-01-000005.md:35
+#: ../../07_support/issues/FCS-95-01-000005.md:36
+msgid "保存先のキャラクターフォルダーは現在のキャラクターフォルダーの外側にしてください。同じ場所、その親フォルダー、その内部は使用できません。エクスポート先、Actor、Characterのいずれかを変更してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:42
+#: ../../07_support/issues/FCS-95-01-000005.md:44
+#: ../../07_support/issues/FCS-95-01-000005.md:45
+msgid "保存先に同じキャラクターフォルダーがあります。別の保存先またはキャラクター名を選んでください。置き換える場合は、既存のキャラクターをバックアップし、置き換える対象を確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:51
+#: ../../07_support/issues/FCS-95-01-000005.md:53
+#: ../../07_support/issues/FCS-95-01-000005.md:54
+msgid ""
+"Associated videos または All files "
+"を選択した場合、現在のプロジェクトとは別のフォルダーに出力してください。元動画のコピーが不要な場合は No video を選べます。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:60
+#: ../../07_support/issues/FCS-95-01-000005.md:62
+#: ../../07_support/issues/FCS-95-01-000005.md:63
+msgid ""
+"Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video "
+"Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:69
+#: ../../07_support/issues/FCS-95-01-000005.md:71
+#: ../../07_support/issues/FCS-95-01-000005.md:72
+msgid ""
+"All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo "
+"Libraryのパスを更新するか、Associated videos を選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:78
+#: ../../07_support/issues/FCS-95-01-000005.md:80
+#: ../../07_support/issues/FCS-95-01-000005.md:81
+msgid ""
+"エクスポート先のDCCをMayaに変更する場合、既存の .ma または .mb "
+"シーンを選択してください。拡張子は小文字にしてください。相対パスはエクスポート先を基準に解決されます。シーンを復元するか、実際の場所を選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:87
+#: ../../07_support/issues/FCS-95-01-000005.md:89
+#: ../../07_support/issues/FCS-95-01-000005.md:90
+msgid "Mayaに変更する場合、既存のMayaワークスペースフォルダーを選択してください。シーンファイルではなくフォルダーを指定してください。ドライブが使用できない場合は再接続してから選び直してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:96
+#: ../../07_support/issues/FCS-95-01-000005.md:98
+#: ../../07_support/issues/FCS-95-01-000005.md:99
+msgid ""
+"エクスポート先のDCCをBlenderに変更する場合、既存の .blend "
+"シーンを選択してください。拡張子の大文字・小文字は区別しません。相対パスはエクスポート先を基準に解決されます。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:105
+#: ../../07_support/issues/FCS-95-01-000005.md:107
+#: ../../07_support/issues/FCS-95-01-000005.md:108
+msgid "エクスポートするセッションのDCCはMayaまたはBlenderを選択してください。他のDCCは使用できません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:114
+#: ../../07_support/issues/FCS-95-01-000005.md:117
+msgid ""
+"export.session の必須項目は output_dest, actor, character "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:116
+#: ../../07_support/issues/FCS-95-01-000005.md:125
+msgid "操作に必要なフィールドが指定されていません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:123
+#: ../../07_support/issues/FCS-95-01-000005.md:126
+msgid ""
+"export.session.validate の必須項目は output_dest, actor, character "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:132
+#: ../../07_support/issues/FCS-95-01-000005.md:134
+#: ../../07_support/issues/FCS-95-01-000005.md:135
+msgid ""
+"Maya用の出力では、対応する4桁の年 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 "
+"から選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:141
+#: ../../07_support/issues/FCS-95-01-000005.md:143
+#: ../../07_support/issues/FCS-95-01-000005.md:144
+msgid ""
+"Blender用の出力では、対応するメジャー.マイナーバージョン 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 "
+"から選択してください。例えば4.5.0ではなく4.5を指定してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:146
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

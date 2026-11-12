@@ -1,22 +1,54 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-80-01-000019.md:4
+msgid "FCS-80-01-000019"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-01-000019.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-01-000019.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-80-01-000019.md:10
+#: ../../07_support/issues/FCS-80-01-000019.md:18
 msgid "レンダラーとしてMayaまたはBlenderを選択してください。"
 msgstr "Choose Maya or Blender as the renderer."
 
-msgid "指定されたDCCの識別子が、対応するMayaまたはBlenderではありません。"
-msgstr "The requested renderer identifier is not a supported Maya or Blender backend."
+#: ../../07_support/issues/FCS-80-01-000019.md:12
+msgid "原因"
+msgstr "Why this happens"
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-80-01-000019.md:14
+msgid "指定されたDCCの識別子が、対応するMayaまたはBlenderではありません。"
+msgstr ""
+"The requested renderer identifier is not a supported Maya or Blender "
+"backend."
+
+#: ../../07_support/issues/FCS-80-01-000019.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-80-01-000019.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

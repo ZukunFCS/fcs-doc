@@ -1,31 +1,76 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-90-03-000002.md:4
+msgid "FCS-90-03-000002"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-000002.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-90-03-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-90-03-000002.md:10
+#: ../../07_support/issues/FCS-90-03-000002.md:18
+msgid "NASまたはネットワークドライブ上の一時メディアファイルを削除できませんでした。ネットワーク接続を確認し、ドライブに再接続してください。出力済みのファイルは保持されています。"
+msgstr ""
+"Temporary media files on your NAS or network drive could not be removed. "
+"Check your network connection and reconnect the drive. Completed outputs "
+"have been kept."
+
+#: ../../07_support/issues/FCS-90-03-000002.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-90-03-000002.md:14
+msgid "ファイル操作中に共有ドライブへアクセスできないか、接続が切断されました。元ファイルを読み取れても、出力先への書き込みや一時ファイルの削除ができるとは限りません。"
+msgstr ""
+"The shared drive could not be reached, or its connection was interrupted "
+"during a file operation. Reading the source does not establish that the "
+"destination can be written or cleaned up."
+
+#: ../../07_support/issues/FCS-90-03-000002.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "NASまたはネットワークドライブ上の一時メディアファイルを削除できませんでした。ネットワーク接続を確認し、ドライブに再接続してください。出力済みのファイルは保持されています。"
-msgstr "Temporary media files on your NAS or network drive could not be removed. Check your network connection and reconnect the drive. Completed outputs have been kept."
-
-msgid "ファイル操作中に共有ドライブへアクセスできないか、接続が切断されました。元ファイルを読み取れても、出力先への書き込みや一時ファイルの削除ができるとは限りません。"
-msgstr "The shared drive could not be reached, or its connection was interrupted during a file operation. Reading the source does not establish that the destination can be written or cleaned up."
-
+#: ../../07_support/issues/FCS-90-03-000002.md:19
 msgid "エクスプローラーで実際の元フォルダーと出力先を開き、共有ドライブに再接続してください。"
-msgstr "Open the exact source and output folders in File Explorer and reconnect the shared drive."
+msgstr ""
+"Open the exact source and output folders in File Explorer and reconnect "
+"the shared drive."
 
+#: ../../07_support/issues/FCS-90-03-000002.md:20
 msgid "出力先で小さなテストファイルを作成・削除できることを確認してください。アクセスできない場合はストレージ管理者にお問い合わせください。"
-msgstr "Confirm that you can create and remove a small test file in the output folder. Ask the storage administrator if access is denied."
+msgstr ""
+"Confirm that you can create and remove a small test file in the output "
+"folder. Ask the storage administrator if access is denied."
 
+#: ../../07_support/issues/FCS-90-03-000002.md:21
 msgid "出力済みのファイルは保持してください。アクセスが復旧してから、失敗した操作または出力のみを再試行してください。"
-msgstr "Keep completed outputs. After access is restored, retry only the action or output that failed."
+msgstr ""
+"Keep completed outputs. After access is restored, retry only the action "
+"or output that failed."
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-90-03-000002.md:23
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

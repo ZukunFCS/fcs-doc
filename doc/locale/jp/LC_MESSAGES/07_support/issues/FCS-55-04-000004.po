@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-55-04-000004.md:4
+msgid "FCS-55-04-000004"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:10
+msgid "コントローラー上下限の貼り付けを完了できませんでした。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:14
+msgid "コントローラー上下限の貼り付けには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:18
+msgid "以下の該当する条件を確認し、修正してからコントローラー上下限の貼り付けを再実行してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:24
+msgid "有効なコントローラーの制限値をコピーしてから貼り付けてください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:26
+msgid "コントローラー上下限のクリップボードがカンマ区切りの数値3つでないか、上下限の条件を満たしていません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:27
+msgid ""
+"最小値,最大値,デフォルト値の順に指定してください（例：0,1,0.5）。最大値は最小値より 0.0001 "
+"以上大きくしてください。既存のコントローラーから上下限をコピーして、再度貼り付けることを推奨します。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:33
+msgid "コントローラーの上下限には有限値を入力し、最大値を最小値より 0.0001 以上大きくしてください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:35
+msgid "コントローラーの上下限が逆順、同値、非有限値、または差が 0.0001 未満です。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:36
+msgid ""
+"最小値と最大値には有限の数値を入力し、最大値 − 最小値を 0.0001 "
+"以上にしてください。例えば0と1は有効です。最大値を上げるか最小値を下げてください。一律の−1～1という制限はありません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:42
+msgid "コントローラー上下限の貼り付けで予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:44
+msgid "コントローラー上下限の貼り付けで、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:45
+msgid ""
+"現在のセッションとコントローラー上下限の貼り付けで作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
+" Feedbackで報告してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:47
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

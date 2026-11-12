@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-30-04-000004.md:4
+msgid "FCS-30-04-000004"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:10
+msgid "アクター名の変更を完了できませんでした。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:14
+msgid "アクター名の変更には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:18
+msgid "以下の該当する条件を確認し、修正してからアクター名の変更を再実行してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:24
+msgid "ActorとCharacterに空白以外の名前を入力して、再実行してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:26
+msgid "ActorまたはCharacterの名前が空か、空白のみになっています。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:27
+msgid "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:33
+msgid "別のアクター名を入力してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:35
+msgid "新しいアクター名が現在の名前と同じため、名前を変更できません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:36
+msgid "空白以外の別のアクター名を入力して再実行するか、現在の名前でよければ名前の変更をキャンセルしてください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:42
+#: ../../07_support/issues/FCS-30-04-000004.md:45
+msgid "同じ名前のアクターフォルダーが既に存在します。別の名前を選ぶか、既存のアクターを開いてください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:44
+msgid "プロジェクトのFCSフォルダー内に、同じ名前のアクターフォルダーが存在します。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:51
+msgid "このアクターのファイルやフォルダーを閉じてから、名前の変更をもう一度お試しください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:53
+msgid "アクターフォルダーまたは内部のファイルへのアクセスが拒否され、名前を変更できませんでした。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:54
+msgid "このアクター内のファイルを使用しているMayaやBlenderのシーン、ファイルのプレビューなどを閉じてください。エクスポートが書き込み中でないことを確認してから再実行してください。拒否が続く場合は、フォルダーの権限とドライブ接続を確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:60
+#: ../../07_support/issues/FCS-30-04-000004.md:63
+msgid "アクターフォルダーが見つかりません。既存のアクターを選択するか、フォルダーを復元してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:62
+msgid "プロジェクトのFCSフォルダー内に、選択したアクターのフォルダーがありません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:69
+msgid "アクター名の変更で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:71
+msgid "アクター名の変更で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:72
+msgid ""
+"現在のセッションとアクター名の変更で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
+" Feedbackで報告してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:78
+#: ../../07_support/issues/FCS-30-04-000004.md:81
+msgid ""
+"session.rename_actor の必須項目は actor "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:80
+msgid "操作に必要なフィールドが指定されていません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000004.md:83
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

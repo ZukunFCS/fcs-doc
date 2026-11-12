@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-10-01-000015.md:4
+msgid "FCS-10-01-000015"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000015.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000015.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000015.md:10
+msgid "使用可能な処理オプションを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000015.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000015.md:14
+msgid "送信された処理設定に、未定義のフィールド名またはスムージング領域名が含まれています。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000015.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000015.md:18
+msgid "processing.settingsで現在の構造を確認してください。最上位はprofile、fisheye、same_video_weight、smoothing、postprocessingです。スムージング領域はupper、gaze、lower、eyelidです。後処理の項目はgaze_freezing、profile_priority、clampです。非対応のキーを削除するか、FCSのバージョンに合う自動操作クライアントに更新してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000015.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-55-04-000003.md:4
+msgid "FCS-55-04-000003"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:10
+msgid "コントローラー名の変更を完了できませんでした。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:14
+msgid "コントローラー名の変更には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:18
+msgid "以下の該当する条件を確認し、修正してからコントローラー名の変更を再実行してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:24
+msgid "変更後のコントローラー名は重複しないようにしてください。各コントローラーに異なる名前を指定してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:26
+msgid "変更後の名前同士、または変更対象外のコントローラー名と重複しています。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:27
+msgid "名前変更のプレビューで、変更後の各名前が一意になるよう修正してください。変更しないコントローラーの名前とも重複しないことを確認してから、再度適用してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:33
+msgid "名前変更リストでは各コントローラーを1回だけ選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:35
+msgid "名前変更の対象に、同じ元コントローラーが複数回指定されています。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:36
+msgid "元のコントローラーはそれぞれ1回だけ選択してください。自動操作ではold_namesの重複を除去し、各対象に対応する新しい名前を1つずつ指定してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:42
+msgid "名前を変更する各コントローラーに、新しい名前を1つずつ指定してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:44
+msgid "名前変更の元の名前と新しい名前の数が一致していません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:45
+msgid "選択したコントローラーごとに新しい名前を1つ指定してください。自動操作ではold_namesとnew_namesの要素数を同じにし、対応する順序で指定してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:51
+msgid "変更後のコントローラー名は、すべて空でない名前にしてください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:53
+msgid "変更後のコントローラー名の少なくとも1つが空の文字列です。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:54
+msgid "選択した各コントローラーの新しい名前を入力してください。自動操作ではnew_namesの各要素を確認してください。要素数が合っていても、空の名前がある場合は変更できません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:60
+msgid "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:62
+msgid "指定した名前のコントローラーが、現在の一覧にありません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:63
+msgid ""
+"Controller "
+"Settingsを更新して既存のコントローラーを選択してください。名前変更や削除をした場合は、選択内容や自動操作の名前を更新してから再実行してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:69
+msgid "コントローラー名の変更で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:71
+msgid "コントローラー名の変更で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:72
+msgid ""
+"現在のセッションとコントローラー名の変更で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
+" Feedbackで報告してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:78
+#: ../../07_support/issues/FCS-55-04-000003.md:81
+msgid ""
+"controller.rename_many の必須項目は old_names, new_names "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:80
+msgid "操作に必要なフィールドが指定されていません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:83
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

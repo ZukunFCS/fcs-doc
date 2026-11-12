@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 07:51+0000\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -19,106 +19,88 @@ msgstr ""
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../07_support/issues/index.md:1
-msgid "警告・エラーコード一覧"
+msgid "エラーコードを検索"
 msgstr ""
 
 #: ../../07_support/issues/index.md:3
-msgid "ログのコードを選び、原因と対処手順を確認してください。警告は制限付きで操作を継続できる状態、エラーは要求された操作を完了できない状態を示します。"
+msgid "アプリに表示されたコードを入力すると、原因と対処方法を確認できます。"
 msgstr ""
 
-#: ../../07_support/issues/index.md:5
-msgid "`FCS-CC-FF-NNN`"
-msgstr ""
+#~ msgid "警告・エラーコード一覧"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:7
-msgid "CC: カテゴリー"
-msgstr ""
+#~ msgid "ログのコードを選び、原因と対処手順を確認してください。警告は制限付きで操作を継続できる状態、エラーは要求された操作を完了できない状態を示します。"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:9
-msgid "00: 全般"
-msgstr ""
+#~ msgid "`FCS-CC-FF-NNN`"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:10
-msgid "10: アプリケーションと設定"
-msgstr ""
+#~ msgid "CC: カテゴリー"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:11
-msgid "20: ライセンス"
-msgstr ""
+#~ msgid "00: 全般"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:12
-msgid "30: プロジェクトとセッション"
-msgstr ""
+#~ msgid "10: アプリケーションと設定"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:13
-msgid "40: 動画とメディア"
-msgstr ""
+#~ msgid "20: ライセンス"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:14
-msgid "50: プロファイル"
-msgstr ""
+#~ msgid "30: プロジェクトとセッション"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:15
-msgid "55: コントローラー"
-msgstr ""
+#~ msgid "40: 動画とメディア"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:16
-msgid "60: 学習とソルバー"
-msgstr ""
+#~ msgid "50: プロファイル"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:17
-msgid "70: 処理と予測"
-msgstr ""
+#~ msgid "55: コントローラー"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:18
-msgid "80: Maya・Blenderへの出力"
-msgstr ""
+#~ msgid "60: 学習とソルバー"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:19
-msgid "90: ストレージとNAS"
-msgstr ""
+#~ msgid "70: 処理と予測"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:20
-msgid "95: セッションのエクスポート"
-msgstr ""
+#~ msgid "80: Maya・Blenderへの出力"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:22
-msgid "FF: 問題の種類"
-msgstr ""
+#~ msgid "90: ストレージとNAS"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:24
-msgid "01: 入力の確認"
-msgstr ""
+#~ msgid "95: セッションのエクスポート"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:25
-msgid "02: データの不足"
-msgstr ""
+#~ msgid "FF: 問題の種類"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:26
-msgid "03: 接続"
-msgstr ""
+#~ msgid "01: 入力の確認"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:27
-msgid "04: ファイルへのアクセス"
-msgstr ""
+#~ msgid "02: データの不足"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:28
-msgid "05: 互換性"
-msgstr ""
+#~ msgid "03: 接続"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:29
-msgid "06: リソースの制限"
-msgstr ""
+#~ msgid "04: ファイルへのアクセス"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:30
-msgid "07: 出力の不足"
-msgstr ""
+#~ msgid "05: 互換性"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:31
-msgid "08: 代替動作・結果の制限"
-msgstr ""
+#~ msgid "06: リソースの制限"
+#~ msgstr ""
 
-#: ../../07_support/issues/index.md:32
-msgid "99: 予期しない失敗"
-msgstr ""
+#~ msgid "07: 出力の不足"
+#~ msgstr ""
+
+#~ msgid "08: 代替動作・結果の制限"
+#~ msgstr ""
+
+#~ msgid "99: 予期しない失敗"
+#~ msgstr ""
 

@@ -1,25 +1,61 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-40-01-000013.md:4
+msgid "FCS-40-01-000013"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000013.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000013.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-40-01-000013.md:10
 msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
 msgstr "The selected video has no readable frames. Choose a valid video file."
 
+#: ../../07_support/issues/FCS-40-01-000013.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-40-01-000013.md:14
 msgid "選択した動画から有効なフレーム数とメタデータを読み取れませんでした。"
-msgstr "FCS could not read a positive frame count and usable metadata from the selected video."
+msgstr ""
+"FCS could not read a positive frame count and usable metadata from the "
+"selected video."
 
+#: ../../07_support/issues/FCS-40-01-000013.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-40-01-000013.md:18
 msgid "動画のコピーや録画が完了し、プレーヤーで最後まで再生できることを確認してください。完全な元ファイルを選択してください。元動画が再生できてもFCSで読めない場合はコピーを再エンコードし、元ファイルをサポート用に保持してください。"
-msgstr "Confirm that the video plays through in a media player and has finished copying or recording. Select the complete original file. If the original plays but FCS cannot read it, re-encode a copy and keep the original for support."
+msgstr ""
+"Confirm that the video plays through in a media player and has finished "
+"copying or recording. Select the complete original file. If the original "
+"plays but FCS cannot read it, re-encode a copy and keep the original for "
+"support."
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-40-01-000013.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-20-01-000001.md:4
+msgid "FCS-20-01-000001"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:10
+msgid "ライセンス設定でライセンスキーを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:14
+msgid "現在のライセンスが検証に通らず、ライセンスが必要な操作を実行できません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:18
+msgid ""
+"発行されたライセンスキーを、余分な文字、空白、改行を加えずLicense "
+"Settingsに貼り付けてください。表示される状態を確認してから再実行してください。正しいキーでも拒否される場合は、有効期限と利用可能なデバイス数をライセンス管理者に確認してください。サポートには状態とコードを伝え、キーを公開しないでください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-20-01-000001.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

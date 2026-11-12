@@ -1,22 +1,56 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-10-08-000003.md:4
+msgid "FCS-10-08-000003"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000003.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000003.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-10-08-000003.md:10
+#: ../../07_support/issues/FCS-10-08-000003.md:18
+msgid "ランドマークフレームのエクスポートは非推奨です。この出力を必要とするワークフローを使用している場合は、サポートにお問い合わせください。"
+msgstr ""
+"Landmark-frame export is deprecated. Contact support if your workflow "
+"depends on this output."
+
+#: ../../07_support/issues/FCS-10-08-000003.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-10-08-000003.md:14
+msgid "選択したランドマークフレーム出力は非推奨の経路で、現在の推奨ワークフローではありません。"
+msgstr ""
+"The selected landmark-frame export path is deprecated and may not provide"
+" the current supported workflow."
+
+#: ../../07_support/issues/FCS-10-08-000003.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "ランドマークフレームのエクスポートは非推奨です。この出力を必要とするワークフローを使用している場合は、サポートにお問い合わせください。"
-msgstr "Landmark-frame export is deprecated. Contact support if your workflow depends on this output."
+#: ../../07_support/issues/FCS-10-08-000003.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
 
-msgid "選択したランドマークフレーム出力は非推奨の経路で、現在の推奨ワークフローではありません。"
-msgstr "The selected landmark-frame export path is deprecated and may not provide the current supported workflow."
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
 
-msgid "別のコードを検索"
-msgstr "Find another code"

@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-10-08-000005.md:4
+msgid "FCS-10-08-000005"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000005.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000005.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000005.md:10
+msgid "アプリケーション画面の一部を更新できませんでした。サポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000005.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000005.md:14
+msgid "アプリの実行中に画面の更新に失敗しました。表示されている操作部品の状態が古い可能性があります。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000005.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000005.md:18
+msgid "対象の画面を開き直し、操作前に選択内容と値を確認してください。表示が更新されない場合はセッションを保存してから再起動してください。対象の画面と更新を起こした操作を報告してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000005.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

@@ -1,25 +1,62 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-50-01-000010.md:4
+msgid "FCS-50-01-000010"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-01-000010.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-01-000010.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-50-01-000010.md:10
 msgid "有効なスムージングプリセットファイルを選択してください。"
 msgstr "Choose a valid smoothing preset file."
 
+#: ../../07_support/issues/FCS-50-01-000010.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-50-01-000010.md:14
 msgid "スムージングプリセットがYAMLとして読めない、マッピング形式でない、必要な領域やパラメーターがない、または非対応の方式を指定しています。"
-msgstr "The smoothing preset could not be read as YAML, is not a mapping, lacks a required region or parameter, or names an unsupported smoothing method."
+msgstr ""
+"The smoothing preset could not be read as YAML, is not a mapping, lacks a"
+" required region or parameter, or names an unsupported smoothing method."
 
+#: ../../07_support/issues/FCS-50-01-000010.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-50-01-000010.md:18
 msgid "FCSで保存したプリセットを読み込んでください。手動編集する場合はupper、gaze、lower、eyelidのマッピングが必要です。各typeはSmoothing、Peak、1€、Rawのいずれかです。Smoothingにはweightとreps、Peakにはthreshold、width、linear_weightが必要です。1€にはmin_cutoffとbetaを任意で指定できます。YAMLを修正するか、スムージング設定から新しく保存してください。"
-msgstr "Load a preset saved by FCS. A hand-edited preset needs upper, gaze, lower and eyelid mappings. Each needs type: Smoothing, Peak, 1€ or Raw. Smoothing requires weight and reps; Peak requires threshold, width and linear_weight; 1€ optionally accepts min_cutoff and beta. Correct the YAML structure or save a fresh preset from the Smoothing controls."
+msgstr ""
+"Load a preset saved by FCS. A hand-edited preset needs upper, gaze, lower"
+" and eyelid mappings. Each needs type: Smoothing, Peak, 1€ or Raw. "
+"Smoothing requires weight and reps; Peak requires threshold, width and "
+"linear_weight; 1€ optionally accepts min_cutoff and beta. Correct the "
+"YAML structure or save a fresh preset from the Smoothing controls."
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-50-01-000010.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

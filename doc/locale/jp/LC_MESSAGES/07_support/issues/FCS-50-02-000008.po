@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-50-02-000008.md:4
+msgid "FCS-50-02-000008"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000008.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000008.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000008.md:10
+msgid "一部のプロファイルから特徴を読み取れませんでした。元画像と顔の見え方を確認し、修正したプロファイルを保存してから再学習してください。問題が続く場合はサポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000008.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000008.md:14
+msgid "プロファイル画像から、現在の計算に必要な顔の特徴を取得できませんでした。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000008.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000008.md:18
+msgid "対象のプロファイルを開き、元画像が存在し、正しい向きの顔が明瞭に映っていることを確認してください。使用できない画像を交換または修正し、プロファイルを保存してから再学習してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000008.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

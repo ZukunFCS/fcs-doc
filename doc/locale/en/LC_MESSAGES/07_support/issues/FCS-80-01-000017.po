@@ -1,25 +1,63 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-80-01-000017.md:4
+msgid "FCS-80-01-000017"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-01-000017.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-01-000017.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-80-01-000017.md:10
 msgid "Mayaでは .ma または .mb、Blenderでは .blend を選択してください。"
 msgstr "Choose .ma or .mb for Maya, or .blend for Blender."
 
+#: ../../07_support/issues/FCS-80-01-000017.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-80-01-000017.md:14
 msgid "シーンの拡張子が、この操作で選択されているDCCに対応していません。"
-msgstr "The scene filename extension does not match the renderer selected for this operation."
+msgstr ""
+"The scene filename extension does not match the renderer selected for "
+"this operation."
 
-msgid "Session Settingsで、Mayaでは既存の .ma または .mb、Blenderでは .blend シーンを選択してください。DCC起動時の拡張子検証では大文字・小文字を区別しません。元のアプリから正しい形式で保存または変換してください。別形式のファイル名を変更するだけでは変換できません。"
-msgstr "In Session Settings, select an existing .ma or .mb scene for Maya, or .blend for Blender. The renderer-launch check ignores extension case. Save or convert the scene in its owning application; renaming another format does not convert it."
+#: ../../07_support/issues/FCS-80-01-000017.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-80-01-000017.md:18
+msgid ""
+"Session Settingsで、Mayaでは既存の .ma または .mb、Blenderでは .blend "
+"シーンを選択してください。DCC起動時の拡張子検証では大文字・小文字を区別しません。元のアプリから正しい形式で保存または変換してください。別形式のファイル名を変更するだけでは変換できません。"
+msgstr ""
+"In Session Settings, select an existing .ma or .mb scene for Maya, or "
+".blend for Blender. The renderer-launch check ignores extension case. "
+"Save or convert the scene in its owning application; renaming another "
+"format does not convert it."
+
+#: ../../07_support/issues/FCS-80-01-000017.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

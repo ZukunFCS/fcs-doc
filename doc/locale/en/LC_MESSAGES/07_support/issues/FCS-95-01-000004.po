@@ -1,22 +1,56 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-95-01-000004.md:4
+msgid "FCS-95-01-000004"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000004.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000004.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-95-01-000004.md:10
+#: ../../07_support/issues/FCS-95-01-000004.md:18
+msgid "動画のエクスポート先には現在のプロジェクトフォルダー以外のフォルダーを選択してください。"
+msgstr ""
+"Choose a different folder for exported videos; do not use the current "
+"project folder."
+
+#: ../../07_support/issues/FCS-95-01-000004.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-95-01-000004.md:14
+msgid "動画のコピー先に現在のプロジェクトフォルダーが指定され、元動画の場所と重なっています。"
+msgstr ""
+"A media-copy export targets the current project folder, which would reuse"
+" the source media location."
+
+#: ../../07_support/issues/FCS-95-01-000004.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "動画のエクスポート先には現在のプロジェクトフォルダー以外のフォルダーを選択してください。"
-msgstr "Choose a different folder for exported videos; do not use the current project folder."
+#: ../../07_support/issues/FCS-95-01-000004.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
 
-msgid "動画のコピー先に現在のプロジェクトフォルダーが指定され、元動画の場所と重なっています。"
-msgstr "A media-copy export targets the current project folder, which would reuse the source media location."
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
 
-msgid "別のコードを検索"
-msgstr "Find another code"

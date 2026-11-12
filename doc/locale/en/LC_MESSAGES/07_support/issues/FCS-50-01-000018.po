@@ -1,25 +1,60 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-50-01-000018.md:4
+msgid "FCS-50-01-000018"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-01-000018.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-01-000018.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-50-01-000018.md:10
 msgid "使用可能な処理パイプラインを選択してください。"
 msgstr "Choose an available processing pipeline."
 
+#: ../../07_support/issues/FCS-50-01-000018.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-50-01-000018.md:14
 msgid "選択した処理プロファイル名が、このインストールでは使用できません。候補はビルドによって異なる場合があります。"
-msgstr "The selected processing-profile name is not available in this installation. Availability can differ by build."
+msgstr ""
+"The selected processing-profile name is not available in this "
+"installation. Availability can differ by build."
 
+#: ../../07_support/issues/FCS-50-01-000018.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-50-01-000018.md:18
 msgid "処理設定に現在表示されているプロファイルから選択してください。自動操作ではprocessing.profilesで候補を取得できます。翻訳した名前や旧バージョンの名前ではなく、返された名前をそのまま使用してください。"
-msgstr "Choose a processing profile from the current Processing Settings list. Automation can read available names through processing.profiles. Use the returned name exactly rather than a translated or older profile name."
+msgstr ""
+"Choose a processing profile from the current Processing Settings list. "
+"Automation can read available names through processing.profiles. Use the "
+"returned name exactly rather than a translated or older profile name."
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-50-01-000018.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

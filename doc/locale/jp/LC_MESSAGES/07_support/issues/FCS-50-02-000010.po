@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-50-02-000010.md:4
+msgid "FCS-50-02-000010"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:10
+msgid "選択した一部のプロファイルの動きを予測できませんでした。元画像と対応するコントローラーを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:14
+msgid "選択したプロファイルの動きに必要な対応コントローラーまたはARKitの係数がありません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:18
+msgid "選択した各プロファイルに読み取り可能な顔画像があり、コントローラーが対象のキャラクターに対応していることを確認してください。画像や対応付けを修正してから、対象の動きを再計算してください。残りの結果を使用する前に、省略された動きを確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-02-000010.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

@@ -1,70 +1,152 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-30-04-000003.md:4
+msgid "FCS-30-04-000003"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000003.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000003.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-30-04-000003.md:10
 msgid "キャラクターの作成を完了できませんでした。"
 msgstr "Create Character could not complete."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-30-04-000003.md:14
 msgid "キャラクターの作成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
-msgstr "Create Character has several prerequisites. The sections below describe the recognized causes and their individual corrections."
+msgstr ""
+"Create Character has several prerequisites. The sections below describe "
+"the recognized causes and their individual corrections."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-30-04-000003.md:18
 msgid "以下の該当する条件を確認し、修正してからキャラクターの作成を再実行してください。"
-msgstr "Check the matching condition below, correct it, then retry Create Character."
+msgstr ""
+"Check the matching condition below, correct it, then retry Create "
+"Character."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:24
 msgid "既存のプロジェクトフォルダーを選択してください。"
 msgstr "Choose an existing project folder."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:26
 msgid "アクターの作成にはFCS、Facial、Facial/RecDataフォルダーを含むプロジェクトのルートが必要です。通常のファイルをフォルダーとして指定することもできません。"
-msgstr "Creating an actor requires an FCS project root containing FCS, Facial and Facial/RecData directories. A path that already exists as a regular file is also invalid."
+msgstr ""
+"Creating an actor requires an FCS project root containing FCS, Facial and"
+" Facial/RecData directories. A path that already exists as a regular file"
+" is also invalid."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:27
 msgid "FacialやFCSの内部ではなく、プロジェクトのルートを選択してください。新規プロジェクトはFCSの作成機能で必要なフォルダーを作成してください。既存プロジェクトで不足するフォルダーは、元のバックアップから復元してください。"
-msgstr "Select the project root, not its Facial or FCS subfolder. If starting a new project, create it using FCS project creation so the required directories exist. Restore missing project directories from the original project backup."
+msgstr ""
+"Select the project root, not its Facial or FCS subfolder. If starting a "
+"new project, create it using FCS project creation so the required "
+"directories exist. Restore missing project directories from the original "
+"project backup."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:33
 msgid "ActorとCharacterに空白以外の名前を入力して、再実行してください。"
 msgstr "Enter a nonblank Actor and Character name, then retry."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:35
 msgid "ActorまたはCharacterの名前が空か、空白のみになっています。"
 msgstr "The Actor or Character name is empty or contains only whitespace."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:36
 msgid "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
-msgstr "Enter a nonblank Actor and Character name, for example Actor01 and Character01, then retry. This check does not impose a numeric range."
+msgstr ""
+"Enter a nonblank Actor and Character name, for example Actor01 and "
+"Character01, then retry. This check does not impose a numeric range."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:42
+#: ../../07_support/issues/FCS-30-04-000003.md:45
 msgid "アクターフォルダーが見つかりません。既存のアクターを選択するか、フォルダーを復元してください。"
-msgstr "Cannot find the actor folder. Choose an existing actor or restore its folder."
+msgstr ""
+"Cannot find the actor folder. Choose an existing actor or restore its "
+"folder."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:44
 msgid "プロジェクトのFCSフォルダー内に、選択したアクターのフォルダーがありません。"
 msgstr "The selected actor directory is missing below the project’s FCS folder."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:51
+#: ../../07_support/issues/FCS-30-04-000003.md:54
 msgid "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
-msgstr "A character folder with that name already exists. Choose another name or open the existing character."
+msgstr ""
+"A character folder with that name already exists. Choose another name or "
+"open the existing character."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:53
 msgid "選択したアクター内に、同じ名前のキャラクターフォルダーが存在します。"
-msgstr "A character directory with this name already exists below the selected actor."
+msgstr ""
+"A character directory with this name already exists below the selected "
+"actor."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:60
 msgid "キャラクターの作成で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
-msgstr "Create Character stopped because of an unexpected failure. Keep your current work and the Log before retrying."
+msgstr ""
+"Create Character stopped because of an unexpected failure. Keep your "
+"current work and the Log before retrying."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:62
 msgid "キャラクターの作成で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
-msgstr "The Create Character operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details."
+msgstr ""
+"The Create Character operation failed outside the input checks listed on "
+"this page. Its technical cause requires the operation’s Log details."
 
-msgid "現在のセッションとキャラクターの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
-msgstr "Preserve the current session and any files already created by Create Character. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log."
+#: ../../07_support/issues/FCS-30-04-000003.md:63
+msgid ""
+"現在のセッションとキャラクターの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
+" Feedbackで報告してください。"
+msgstr ""
+"Preserve the current session and any files already created by Create "
+"Character. Check the errors from the same operation in Log. Save "
+"available work, then retry once. If it repeats, send Bug Feedback with "
+"this code, FCS version, the operation settings and its Log."
 
-msgid "session.character.create の必須項目は project_folder, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
-msgstr "Required fields for session.character.create: project_folder, actor, character. Complete these fields before retrying. For automation, use these exact parameter names."
+#: ../../07_support/issues/FCS-30-04-000003.md:69
+#: ../../07_support/issues/FCS-30-04-000003.md:72
+msgid ""
+"session.character.create の必須項目は project_folder, actor, character "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+"Required fields for session.character.create: project_folder, actor, "
+"character. Complete these fields before retrying. For automation, use "
+"these exact parameter names."
 
+#: ../../07_support/issues/FCS-30-04-000003.md:71
 msgid "操作に必要なフィールドが指定されていません。"
 msgstr "The operation was submitted without a required field."
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-30-04-000003.md:74
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

@@ -1,37 +1,93 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-55-04-000002.md:4
+msgid "FCS-55-04-000002"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000002.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-55-04-000002.md:10
 msgid "コントローラー設定を保存できませんでした。編集内容は残っています。"
 msgstr "Controller settings were not saved. Your edits are still available."
 
+#: ../../07_support/issues/FCS-55-04-000002.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-55-04-000002.md:14
 msgid "保存時にコントローラー名、顔領域の割り当て、数値の範囲を検証します。"
-msgstr "Saving validates controller names, facial-region assignments, and numeric limits."
+msgstr ""
+"Saving validates controller names, facial-region assignments, and numeric"
+" limits."
 
+#: ../../07_support/issues/FCS-55-04-000002.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-55-04-000002.md:18
 msgid "以下の該当する原因を確認し、コントローラー表を修正してから再度保存してください。"
-msgstr "Check the applicable cause below, correct the controller table, then save again."
+msgstr ""
+"Check the applicable cause below, correct the controller table, then save"
+" again."
 
+#: ../../07_support/issues/FCS-55-04-000002.md:24
+#: ../../07_support/issues/FCS-55-04-000002.md:26
+#: ../../07_support/issues/FCS-55-04-000002.md:27
 msgid "必要な各顔領域にコントローラーが1つ以上必要です。不足している領域に割り当ててから、再度保存してください。"
-msgstr "Every required facial region needs at least one controller. Assign controllers to the missing regions, then save again."
+msgstr ""
+"Every required facial region needs at least one controller. Assign "
+"controllers to the missing regions, then save again."
 
+#: ../../07_support/issues/FCS-55-04-000002.md:33
+#: ../../07_support/issues/FCS-55-04-000002.md:35
+#: ../../07_support/issues/FCS-55-04-000002.md:36
 msgid "各コントローラーに顔の領域を指定する必要があります。未割り当てのコントローラーに領域を選択してから、再度保存してください。"
-msgstr "Each controller must have a facial region; the unassigned region is not accepted. Choose a region for each unassigned controller, then save again."
+msgstr ""
+"Each controller must have a facial region; the unassigned region is not "
+"accepted. Choose a region for each unassigned controller, then save "
+"again."
 
+#: ../../07_support/issues/FCS-55-04-000002.md:42
+#: ../../07_support/issues/FCS-55-04-000002.md:44
+#: ../../07_support/issues/FCS-55-04-000002.md:45
 msgid "コントローラー名は重複できません。重複する行の名前を変更するか、行を削除してから、再度保存してください。"
-msgstr "Controller names must be unique. Rename or remove duplicate rows, then save again."
+msgstr ""
+"Controller names must be unique. Rename or remove duplicate rows, then "
+"save again."
 
+#: ../../07_support/issues/FCS-55-04-000002.md:51
+#: ../../07_support/issues/FCS-55-04-000002.md:53
+#: ../../07_support/issues/FCS-55-04-000002.md:54
 msgid "最大値は最小値より0.0001以上大きくする必要があります。最大値を上げるか最小値を下げてから、再度保存してください。例えば、最小値0、最大値1は有効です。"
-msgstr "Maximum must be at least 0.0001 greater than Minimum. Increase Maximum or decrease Minimum, then save again. For example, Minimum 0 and Maximum 1 are accepted."
+msgstr ""
+"Maximum must be at least 0.0001 greater than Minimum. Increase Maximum or"
+" decrease Minimum, then save again. For example, Minimum 0 and Maximum 1 "
+"are accepted."
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-55-04-000002.md:56
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

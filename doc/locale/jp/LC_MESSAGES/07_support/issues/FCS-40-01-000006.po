@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) TOEI Zukun
+# This file is distributed under the same license as the FCS Docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FCS Docs latest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: jp\n"
+"Language-Team: jp <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../07_support/issues/FCS-40-01-000006.md:4
+msgid "FCS-40-01-000006"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:8
+msgid "メッセージ"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:10
+msgid "まだフォルダーに入っていない2つの動画を選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:12
+msgid "原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:14
+msgid "新しいグループに指定した動画の少なくとも1つが、既存のVideo Libraryグループに属しています。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:16
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:18
+msgid "現在どのグループにも属していない2本の動画を選択するか、先に対象の動画を既存のグループから外してください。その後で新しいグループを作成してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000006.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+

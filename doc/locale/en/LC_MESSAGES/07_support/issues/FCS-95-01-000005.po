@@ -1,70 +1,206 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-95-01-000005.md:4
+msgid "FCS-95-01-000005"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:8
 msgid "メッセージ"
 msgstr "Message"
 
-msgid "原因"
-msgstr "Why this happens"
-
-msgid "対処方法"
-msgstr "How to resolve it"
-
+#: ../../07_support/issues/FCS-95-01-000005.md:10
 msgid "セッションをエクスポートできませんでした。"
 msgstr "The session could not be exported."
 
+#: ../../07_support/issues/FCS-95-01-000005.md:12
+msgid "原因"
+msgstr "Why this happens"
+
+#: ../../07_support/issues/FCS-95-01-000005.md:14
 msgid "セッションをコピーする前に、保存先、Actor、Character、対象動画、変更先DCCのシーンを検証します。"
-msgstr "Session export checks the destination, Actor and Character, selected media, and any replacement DCC scene before copying the session."
+msgstr ""
+"Session export checks the destination, Actor and Character, selected "
+"media, and any replacement DCC scene before copying the session."
 
+#: ../../07_support/issues/FCS-95-01-000005.md:16
+msgid "対処方法"
+msgstr "How to resolve it"
+
+#: ../../07_support/issues/FCS-95-01-000005.md:18
 msgid "以下の該当する項目を確認し、エクスポート設定を修正してからExportを再実行してください。現在のセッションがコピー元です。"
-msgstr "Use the matching check below, correct the export settings, then click Export again. The current session remains the source."
+msgstr ""
+"Use the matching check below, correct the export settings, then click "
+"Export again. The current session remains the source."
 
-msgid "エクスポート先を選び、ActorとCharacterの両方を入力してください。保存先は エクスポート先/FCS/Actor/Character になります。"
-msgstr "Choose an export destination and enter both Actor and Character. The exported session is created at destination/FCS/Actor/Character."
+#: ../../07_support/issues/FCS-95-01-000005.md:24
+#: ../../07_support/issues/FCS-95-01-000005.md:26
+#: ../../07_support/issues/FCS-95-01-000005.md:27
+msgid ""
+"エクスポート先を選び、ActorとCharacterの両方を入力してください。保存先は エクスポート先/FCS/Actor/Character "
+"になります。"
+msgstr ""
+"Choose an export destination and enter both Actor and Character. The "
+"exported session is created at destination/FCS/Actor/Character."
 
+#: ../../07_support/issues/FCS-95-01-000005.md:33
+#: ../../07_support/issues/FCS-95-01-000005.md:35
+#: ../../07_support/issues/FCS-95-01-000005.md:36
 msgid "保存先のキャラクターフォルダーは現在のキャラクターフォルダーの外側にしてください。同じ場所、その親フォルダー、その内部は使用できません。エクスポート先、Actor、Characterのいずれかを変更してください。"
-msgstr "The destination character folder must be outside the current character folder. It must not equal, contain, or be contained by the source character folder. Choose another destination, Actor, or Character."
+msgstr ""
+"The destination character folder must be outside the current character "
+"folder. It must not equal, contain, or be contained by the source "
+"character folder. Choose another destination, Actor, or Character."
 
+#: ../../07_support/issues/FCS-95-01-000005.md:42
+#: ../../07_support/issues/FCS-95-01-000005.md:44
+#: ../../07_support/issues/FCS-95-01-000005.md:45
 msgid "保存先に同じキャラクターフォルダーがあります。別の保存先またはキャラクター名を選んでください。置き換える場合は、既存のキャラクターをバックアップし、置き換える対象を確認してください。"
-msgstr "The destination already contains this character folder. Choose a different destination or character name. Use replacement only if you intend to replace that existing character and have backed it up."
+msgstr ""
+"The destination already contains this character folder. Choose a "
+"different destination or character name. Use replacement only if you "
+"intend to replace that existing character and have backed it up."
 
-msgid "Associated videos または All files を選択した場合、現在のプロジェクトとは別のフォルダーに出力してください。元動画のコピーが不要な場合は No video を選べます。"
-msgstr "When exporting Associated videos or All files, choose a destination different from the current project folder. Alternatively, choose No video if a copy of the source media is not needed."
+#: ../../07_support/issues/FCS-95-01-000005.md:51
+#: ../../07_support/issues/FCS-95-01-000005.md:53
+#: ../../07_support/issues/FCS-95-01-000005.md:54
+msgid ""
+"Associated videos または All files "
+"を選択した場合、現在のプロジェクトとは別のフォルダーに出力してください。元動画のコピーが不要な場合は No video を選べます。"
+msgstr ""
+"When exporting Associated videos or All files, choose a destination "
+"different from the current project folder. Alternatively, choose No video"
+" if a copy of the source media is not needed."
 
-msgid "Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
-msgstr "Associated videos and All files require the source videos to exist at their stored locations. Restore the original files or update their paths in Video Library, then retry. Choose No video only if the exported session does not need a media copy."
+#: ../../07_support/issues/FCS-95-01-000005.md:60
+#: ../../07_support/issues/FCS-95-01-000005.md:62
+#: ../../07_support/issues/FCS-95-01-000005.md:63
+msgid ""
+"Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video "
+"Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
+msgstr ""
+"Associated videos and All files require the source videos to exist at "
+"their stored locations. Restore the original files or update their paths "
+"in Video Library, then retry. Choose No video only if the exported "
+"session does not need a media copy."
 
-msgid "All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo Libraryのパスを更新するか、Associated videos を選択してください。"
-msgstr "All files cannot flatten different source files with the same filename into one export folder. Give the source files unique filenames and update their Video Library paths, or export Associated videos instead."
+#: ../../07_support/issues/FCS-95-01-000005.md:69
+#: ../../07_support/issues/FCS-95-01-000005.md:71
+#: ../../07_support/issues/FCS-95-01-000005.md:72
+msgid ""
+"All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo "
+"Libraryのパスを更新するか、Associated videos を選択してください。"
+msgstr ""
+"All files cannot flatten different source files with the same filename "
+"into one export folder. Give the source files unique filenames and update"
+" their Video Library paths, or export Associated videos instead."
 
-msgid "エクスポート先のDCCをMayaに変更する場合、既存の .ma または .mb シーンを選択してください。拡張子は小文字にしてください。相対パスはエクスポート先を基準に解決されます。シーンを復元するか、実際の場所を選択してください。"
-msgstr "When switching the exported session to Maya, select an existing .ma or .mb scene file. Use a lowercase extension. Relative paths are resolved from the export destination. Restore a missing scene or select its actual location."
+#: ../../07_support/issues/FCS-95-01-000005.md:78
+#: ../../07_support/issues/FCS-95-01-000005.md:80
+#: ../../07_support/issues/FCS-95-01-000005.md:81
+msgid ""
+"エクスポート先のDCCをMayaに変更する場合、既存の .ma または .mb "
+"シーンを選択してください。拡張子は小文字にしてください。相対パスはエクスポート先を基準に解決されます。シーンを復元するか、実際の場所を選択してください。"
+msgstr ""
+"When switching the exported session to Maya, select an existing .ma or "
+".mb scene file. Use a lowercase extension. Relative paths are resolved "
+"from the export destination. Restore a missing scene or select its actual"
+" location."
 
+#: ../../07_support/issues/FCS-95-01-000005.md:87
+#: ../../07_support/issues/FCS-95-01-000005.md:89
+#: ../../07_support/issues/FCS-95-01-000005.md:90
 msgid "Mayaに変更する場合、既存のMayaワークスペースフォルダーを選択してください。シーンファイルではなくフォルダーを指定してください。ドライブが使用できない場合は再接続してから選び直してください。"
-msgstr "When switching to Maya, choose an existing Maya workspace directory. Select the folder itself, not a scene file. Reconnect an unavailable drive before choosing the folder again."
+msgstr ""
+"When switching to Maya, choose an existing Maya workspace directory. "
+"Select the folder itself, not a scene file. Reconnect an unavailable "
+"drive before choosing the folder again."
 
-msgid "エクスポート先のDCCをBlenderに変更する場合、既存の .blend シーンを選択してください。拡張子の大文字・小文字は区別しません。相対パスはエクスポート先を基準に解決されます。"
-msgstr "When switching the exported session to Blender, choose an existing .blend scene file. Extension matching is case-insensitive. Relative paths are resolved from the export destination."
+#: ../../07_support/issues/FCS-95-01-000005.md:96
+#: ../../07_support/issues/FCS-95-01-000005.md:98
+#: ../../07_support/issues/FCS-95-01-000005.md:99
+msgid ""
+"エクスポート先のDCCをBlenderに変更する場合、既存の .blend "
+"シーンを選択してください。拡張子の大文字・小文字は区別しません。相対パスはエクスポート先を基準に解決されます。"
+msgstr ""
+"When switching the exported session to Blender, choose an existing .blend"
+" scene file. Extension matching is case-insensitive. Relative paths are "
+"resolved from the export destination."
 
+#: ../../07_support/issues/FCS-95-01-000005.md:105
+#: ../../07_support/issues/FCS-95-01-000005.md:107
+#: ../../07_support/issues/FCS-95-01-000005.md:108
 msgid "エクスポートするセッションのDCCはMayaまたはBlenderを選択してください。他のDCCは使用できません。"
-msgstr "Choose Maya or Blender for the exported session. Selecting another renderer is not supported."
+msgstr ""
+"Choose Maya or Blender for the exported session. Selecting another "
+"renderer is not supported."
 
-msgid "export.session の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
-msgstr "Required fields for export.session: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names."
+#: ../../07_support/issues/FCS-95-01-000005.md:114
+#: ../../07_support/issues/FCS-95-01-000005.md:117
+msgid ""
+"export.session の必須項目は output_dest, actor, character "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+"Required fields for export.session: output_dest, actor, character. "
+"Complete these fields before retrying. For automation, use these exact "
+"parameter names."
 
+#: ../../07_support/issues/FCS-95-01-000005.md:116
+#: ../../07_support/issues/FCS-95-01-000005.md:125
 msgid "操作に必要なフィールドが指定されていません。"
 msgstr "The operation was submitted without a required field."
 
-msgid "export.session.validate の必須項目は output_dest, actor, character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
-msgstr "Required fields for export.session.validate: output_dest, actor, character. Complete these fields before retrying. For automation, use these exact parameter names."
+#: ../../07_support/issues/FCS-95-01-000005.md:123
+#: ../../07_support/issues/FCS-95-01-000005.md:126
+msgid ""
+"export.session.validate の必須項目は output_dest, actor, character "
+"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgstr ""
+"Required fields for export.session.validate: output_dest, actor, "
+"character. Complete these fields before retrying. For automation, use "
+"these exact parameter names."
 
-msgid "Maya用の出力では、対応する4桁の年 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 から選択してください。"
-msgstr "For Maya export, select a supported four-digit version: 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027."
+#: ../../07_support/issues/FCS-95-01-000005.md:132
+#: ../../07_support/issues/FCS-95-01-000005.md:134
+#: ../../07_support/issues/FCS-95-01-000005.md:135
+msgid ""
+"Maya用の出力では、対応する4桁の年 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 "
+"から選択してください。"
+msgstr ""
+"For Maya export, select a supported four-digit version: 2018, 2020, 2022,"
+" 2023, 2024, 2025, 2026, 2027."
 
-msgid "Blender用の出力では、対応するメジャー.マイナーバージョン 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 から選択してください。例えば4.5.0ではなく4.5を指定してください。"
-msgstr "For Blender export, select a supported major.minor version: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. For example, use 4.5 rather than 4.5.0."
+#: ../../07_support/issues/FCS-95-01-000005.md:141
+#: ../../07_support/issues/FCS-95-01-000005.md:143
+#: ../../07_support/issues/FCS-95-01-000005.md:144
+msgid ""
+"Blender用の出力では、対応するメジャー.マイナーバージョン 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 "
+"から選択してください。例えば4.5.0ではなく4.5を指定してください。"
+msgstr ""
+"For Blender export, select a supported major.minor version: 4.0, 4.1, "
+"4.2, 4.3, 4.4, 4.5. For example, use 4.5 rather than 4.5.0."
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-95-01-000005.md:146
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+

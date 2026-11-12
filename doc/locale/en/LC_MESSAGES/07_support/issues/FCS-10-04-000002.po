@@ -1,25 +1,63 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 10:05+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/FCS-10-04-000002.md:4
+msgid "FCS-10-04-000002"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-04-000002.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-04-000002.md:8
 msgid "メッセージ"
 msgstr "Message"
 
+#: ../../07_support/issues/FCS-10-04-000002.md:10
+msgid "このセッションにはレイアウトを適用しましたが、次回起動用に保存できませんでした。設定フォルダーのアクセス権を確認するか、サポートにお問い合わせください。"
+msgstr ""
+"The layout is applied for this session but could not be saved for the "
+"next start. Check the settings-folder permissions or contact support."
+
+#: ../../07_support/issues/FCS-10-04-000002.md:12
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-10-04-000002.md:14
+msgid "画面構成は現在のセッションに適用されましたが、次回起動用に保存できませんでした。"
+msgstr ""
+"The layout change was applied in memory, but FCS could not persist it for"
+" the next launch."
+
+#: ../../07_support/issues/FCS-10-04-000002.md:16
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "このセッションにはレイアウトを適用しましたが、次回起動用に保存できませんでした。設定フォルダーのアクセス権を確認するか、サポートにお問い合わせください。"
-msgstr "The layout is applied for this session but could not be saved for the next start. Check the settings-folder permissions or contact support."
-
-msgid "画面構成は現在のセッションに適用されましたが、次回起動用に保存できませんでした。"
-msgstr "The layout change was applied in memory, but FCS could not persist it for the next launch."
-
+#: ../../07_support/issues/FCS-10-04-000002.md:18
 msgid "現在の画面構成で作業を続けられます。設定の保存先に書き込み権限と空き容量があることを確認し、画面構成を保存し直してください。セッションを保存してから再起動してください。以前の画面構成に戻る場合があります。"
-msgstr "Continue working with the current layout. Check that the settings location is writable and the disk has free space, then save the layout again. Reopen FCS only after saving your session; the previous layout may return."
+msgstr ""
+"Continue working with the current layout. Check that the settings "
+"location is writable and the disk has free space, then save the layout "
+"again. Reopen FCS only after saving your session; the previous layout may"
+" return."
 
-msgid "別のコードを検索"
-msgstr "Find another code"
+#: ../../07_support/issues/FCS-10-04-000002.md:20
+msgid "[別のコードを検索](index.md)"
+msgstr ""
+
+#~ msgid "別のコードを検索"
+#~ msgstr "Find another code"
+
