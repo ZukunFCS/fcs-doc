@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,38 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-01-000017.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000017.md:10
-msgid "コントローラーに有効な顔の領域を選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000017.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000017.md:14
-msgid "コントローラーの顔領域が未定義または未割り当てです。"
+#: ../../07_support/issues/FCS-55-01-000017.md:10
+msgid "領域が未割り当てか、保存された領域を読み取れない状態です。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000017.md:16
+#: ../../07_support/issues/FCS-55-01-000017.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000017.md:18
-msgid "コントローラーの領域をUpper、Eyelid、Gaze、Lowerから選んでください。自動操作ではupper、eyelid、gaze、lowerを使用します。保存対象のコントローラーにnullや未割り当ては使用できません。"
+#: ../../07_support/issues/FCS-55-01-000017.md:14
+msgid "コントローラ画面で対象のコントローラーを正しい顔領域に割り当てて保存してください。FCSに表示されている割り当てでも拒否される場合は、コントローラー名と領域を報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000017.md:20
+#: ../../07_support/issues/FCS-55-01-000017.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000017.md:22
+#: ../../07_support/issues/FCS-55-01-000017.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "コントローラーに有効な顔の領域を選択してください。"
+#~ msgstr ""
+
+#~ msgid "コントローラーの顔領域が未定義または未割り当てです。"
+#~ msgstr ""
+
+#~ msgid "コントローラーの領域をUpper、Eyelid、Gaze、Lowerから選んでください。自動操作ではupper、eyelid、gaze、lowerを使用します。保存対象のコントローラーにnullや未割り当ては使用できません。"
+#~ msgstr ""
 

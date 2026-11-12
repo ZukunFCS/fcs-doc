@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,31 +27,32 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-02-000007.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-02-000007.md:10
-#: ../../07_support/issues/FCS-40-02-000007.md:18
-msgid "選択した動画フォルダーは使用できなくなりました。動画ライブラリを更新して選択し直してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-02-000007.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-02-000007.md:14
-msgid "指定したVideo Libraryのグループが、現在のセッションにありません。"
+#: ../../07_support/issues/FCS-40-02-000007.md:10
+msgid "指定した動画ライブラリのグループが、現在のセッションにありません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-02-000007.md:16
+#: ../../07_support/issues/FCS-40-02-000007.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-02-000007.md:20
+#: ../../07_support/issues/FCS-40-02-000007.md:14
+msgid "選択した動画フォルダーは使用できなくなりました。動画ライブラリを更新して選択し直してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-02-000007.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-02-000007.md:22
+#: ../../07_support/issues/FCS-40-02-000007.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "指定したVideo Libraryのグループが、現在のセッションにありません。"
+#~ msgstr ""
 

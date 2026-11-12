@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,34 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-02-000006.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000006.md:10
-msgid "プロファイルの信頼度を計算できませんでした。信頼度スコアを使用できない可能性があります。サポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000006.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000006.md:14
+#: ../../07_support/issues/FCS-50-02-000006.md:10
 msgid "信頼度の計算で、使用可能なプロファイルの準備、比較用ソルバーの学習、またはスコアの計算に失敗しました。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000006.md:16
+#: ../../07_support/issues/FCS-50-02-000006.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000006.md:18
+#: ../../07_support/issues/FCS-50-02-000006.md:14
 msgid ""
 "選択したプロファイルの元画像を読み取れ、現在のコントローラー値があることを確認してください。現在の設定で学習してから信頼度を再計算してください。代替のスコアは信頼度が不明な状態として扱い、プロファイルが正確である証拠とは判断しないでください。再発する場合は計算時のログを添えてBug"
 " Feedbackで報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000006.md:20
+#: ../../07_support/issues/FCS-50-02-000006.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000006.md:22
+#: ../../07_support/issues/FCS-50-02-000006.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "プロファイルの信頼度を計算できませんでした。信頼度スコアを使用できない可能性があります。サポートにお問い合わせください。"
+#~ msgstr ""
 

@@ -1,37 +1,77 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-30-01-000006.md:4
+msgid "FCS-30-01-000006"
+msgstr ""
 
+#: ../../07_support/issues/FCS-30-01-000006.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-01-000006.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-30-01-000006.md:10
+msgid "現在のセッションに、データの場所を決めるためのプロジェクト、Actor、Characterのいずれかがありません。"
+msgstr ""
+"The current session lacks the project, Actor or Character needed to "
+"locate its data."
+
+#: ../../07_support/issues/FCS-30-01-000006.md:11
+msgid "保存には、セッションのDCCに対応する既存のMaya .ma/.mbまたはBlender .blendシーンも必要です。"
+msgstr ""
+"Saving also requires an existing Maya .ma/.mb or Blender .blend scene "
+"appropriate to the session renderer."
+
+#: ../../07_support/issues/FCS-30-01-000006.md:13
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "プロジェクト、アクター、キャラクターの各項目を入力してから続行してください。"
-msgstr "Complete the project, actor, and character fields before continuing."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "現在のセッションに、データの場所を決めるためのプロジェクト、Actor、Characterのいずれかがありません。"
-msgstr "The current session lacks the project, Actor or Character needed to locate its data."
-
-msgid "保存には、セッションのDCCに対応する既存のMaya .ma/.mbまたはBlender .blendシーンも必要です。"
-msgstr "Saving also requires an existing Maya .ma/.mb or Blender .blend scene appropriate to the session renderer."
-
+#: ../../07_support/issues/FCS-30-01-000006.md:15
 msgid "完全なセッションを開くか、［ファイル］→［セッション］→［情報...］でプロジェクトフォルダー、Actor、Characterを設定してください。例えばC:/FCSProject、Actor01、Character01の場合、データはC:/FCSProject/FCS/Actor01/Character01に配置されます。"
-msgstr "Open a complete session, or set its project folder, Actor and Character in File → Session → Info. For example, project C:/FCSProject, Actor Actor01, Character Character01 identifies C:/FCSProject/FCS/Actor01/Character01."
+msgstr ""
+"Open a complete session, or set its project folder, Actor and Character "
+"in File → Session → Info. For example, project C:/FCSProject, Actor "
+"Actor01, Character Character01 identifies "
+"C:/FCSProject/FCS/Actor01/Character01."
 
+#: ../../07_support/issues/FCS-30-01-000006.md:16
 msgid "［ファイル］→［セッション］→［情報...］でProject、Actor、Characterの各フォルダーの存在を確認し、DCCに合う拡張子の既存のシーンを選択してください。相対パスはプロジェクトのルートを基準に解決されます。修正後にSaveを再実行してください。"
-msgstr "In File → Session → Info, verify that the Project, Actor and Character folders exist, then select an existing scene with the extension appropriate to the renderer. Relative scene paths resolve from the project root. Retry Save after correcting those fields."
+msgstr ""
+"In File → Session → Info, verify that the Project, Actor and Character "
+"folders exist, then select an existing scene with the extension "
+"appropriate to the renderer. Relative scene paths resolve from the "
+"project root. Retry Save after correcting those fields."
 
+#: ../../07_support/issues/FCS-30-01-000006.md:19
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-30-01-000006.md:21
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "プロジェクト、アクター、キャラクターの各項目を入力してから続行してください。"
+#~ msgstr "Complete the project, actor, and character fields before continuing."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

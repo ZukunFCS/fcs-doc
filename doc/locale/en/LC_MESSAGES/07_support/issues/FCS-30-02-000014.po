@@ -1,31 +1,66 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-30-02-000014.md:4
+msgid "FCS-30-02-000014"
+msgstr ""
 
+#: ../../07_support/issues/FCS-30-02-000014.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-02-000014.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-30-02-000014.md:10
+msgid "セッションは開きましたが、登録されている動画が保存済みの場所に見つかりません。"
+msgstr ""
+"The session opened with video references whose files are no longer "
+"available at their saved locations."
+
+#: ../../07_support/issues/FCS-30-02-000014.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "一部の元動画が見つかりません。動画ライブラリで場所を更新してください。"
-msgstr "Some source videos could not be found. Update their locations in the Video Library."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "セッションは開きましたが、登録されている動画が保存済みの場所に見つかりません。"
-msgstr "The session opened with video references whose files are no longer available at their saved locations."
-
+#: ../../07_support/issues/FCS-30-02-000014.md:14
 msgid "動画ライブラリで不足する動画の場所を更新するか、元のパスに復元してください。動画のドライブを再接続してください。セッションの編集は続けられますが、その動画を使用する処理にはファイルの復元が必要です。"
-msgstr "In Video Library, update the locations of missing videos or restore them to their original paths. Reconnect their source drive. Session editing can continue, but operations requiring those videos need the files restored."
+msgstr ""
+"In Video Library, update the locations of missing videos or restore them "
+"to their original paths. Reconnect their source drive. Session editing "
+"can continue, but operations requiring those videos need the files "
+"restored."
 
+#: ../../07_support/issues/FCS-30-02-000014.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr "[Browse this family](family-02.md)"
 
+#: ../../07_support/issues/FCS-30-02-000014.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "一部の元動画が見つかりません。動画ライブラリで場所を更新してください。"
+#~ msgstr ""
+#~ "Some source videos could not be "
+#~ "found. Update their locations in the "
+#~ "Video Library."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

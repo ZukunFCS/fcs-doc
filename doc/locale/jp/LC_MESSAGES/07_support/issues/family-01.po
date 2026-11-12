@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -103,7 +103,7 @@ msgid "[FCS-10-01-000009](FCS-10-01-000009.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:17
-msgid "処理設定を適用できませんでした。"
+msgid "ソルバーの設定を適用できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:17
@@ -119,7 +119,7 @@ msgid "[FCS-10-01-000014](FCS-10-01-000014.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:19
-msgid "ダウンロードするFCSのバージョンを選択してください。"
+msgid "ダウンロードする更新をFCSが特定できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:19
@@ -127,7 +127,7 @@ msgid "[FCS-10-01-000015](FCS-10-01-000015.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:20
-msgid "使用可能な処理オプションを選択してください。"
+msgid "保存されたソルバーの設定を読み取れませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:22
@@ -139,7 +139,7 @@ msgid "[FCS-20-01-000001](FCS-20-01-000001.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:26
-msgid "ライセンス設定でライセンスキーを確認してください。"
+msgid "［情報］→［ライセンス］でライセンスキーを確認してください。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:26
@@ -147,7 +147,7 @@ msgid "[FCS-20-01-000002](FCS-20-01-000002.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:27
-msgid "続行する前にライセンス設定でライセンスを確認してください。"
+msgid "続行する前に［情報］→［ライセンス］でライセンスを確認してください。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:29
@@ -356,7 +356,7 @@ msgid "[FCS-50-01-000001](FCS-50-01-000001.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:67
-msgid "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
+msgid "保存されたプロファイルの生成方法を使用できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:67
@@ -412,7 +412,7 @@ msgid "[FCS-50-01-000009](FCS-50-01-000009.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:74
-msgid "プロファイルに使用可能な顔の領域を選択してください。"
+msgid "プロファイルに保存された顔領域を使用できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:74
@@ -420,7 +420,7 @@ msgid "[FCS-50-01-000010](FCS-50-01-000010.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:75
-msgid "有効なスムージングプリセットファイルを選択してください。"
+msgid "選択したスムージングプリセットを読み込めませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:75
@@ -452,7 +452,7 @@ msgid "[FCS-50-01-000018](FCS-50-01-000018.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:79
-msgid "使用可能な処理パイプラインを選択してください。"
+msgid "保存された処理プロファイルを、このFCSビルドで使用できません。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:81
@@ -512,7 +512,7 @@ msgid "[FCS-55-01-000008](FCS-55-01-000008.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:91
-msgid "名前変更リストでは各コントローラーを1回だけ選択してください。"
+msgid "名前変更の対象でコントローラーが重複しました。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:91
@@ -520,7 +520,7 @@ msgid "[FCS-55-01-000009](FCS-55-01-000009.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:92
-msgid "変更後のコントローラー名は、すべて空でない名前にしてください。"
+msgid "変更後のコントローラー名が空欄です。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:92
@@ -528,7 +528,7 @@ msgid "[FCS-55-01-000010](FCS-55-01-000010.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:93
-msgid "名前を変更する各コントローラーに、新しい名前を1つずつ指定してください。"
+msgid "名前変更のプレビューを適用できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:93
@@ -584,7 +584,7 @@ msgid "[FCS-55-01-000017](FCS-55-01-000017.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:100
-msgid "コントローラーに有効な顔の領域を選択してください。"
+msgid "コントローラーに保存された顔領域を使用できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:100
@@ -592,7 +592,7 @@ msgid "[FCS-55-01-000018](FCS-55-01-000018.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:101
-msgid "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
+msgid "選択したコントローラーを使用できません。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:101
@@ -600,7 +600,7 @@ msgid "[FCS-55-01-000019](FCS-55-01-000019.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:102
-msgid "使用可能なコントローラープリセットを選択してください。"
+msgid "選択したコントローラープリセットを読み込めませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:104
@@ -660,7 +660,7 @@ msgid "[FCS-80-01-000013](FCS-80-01-000013.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:123
-msgid "このセッションで選択されているレンダラーのシーン設定を指定してください。"
+msgid "選択したアプリのシーン設定を適用できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:123
@@ -700,7 +700,7 @@ msgid "[FCS-80-01-000019](FCS-80-01-000019.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:128
-msgid "レンダラーとしてMayaまたはBlenderを選択してください。"
+msgid "選択したシーンのアプリを使用できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-01.md:130
@@ -758,4 +758,55 @@ msgstr ""
 #: ../../07_support/issues/family-01.md:144
 msgid "セッションをエクスポートできませんでした。"
 msgstr ""
+
+#~ msgid "処理設定を適用できませんでした。"
+#~ msgstr ""
+
+#~ msgid "ダウンロードするFCSのバージョンを選択してください。"
+#~ msgstr ""
+
+#~ msgid "使用可能な処理オプションを選択してください。"
+#~ msgstr ""
+
+#~ msgid "ライセンス設定でライセンスキーを確認してください。"
+#~ msgstr ""
+
+#~ msgid "続行する前にライセンス設定でライセンスを確認してください。"
+#~ msgstr ""
+
+#~ msgid "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
+#~ msgstr ""
+
+#~ msgid "プロファイルに使用可能な顔の領域を選択してください。"
+#~ msgstr ""
+
+#~ msgid "有効なスムージングプリセットファイルを選択してください。"
+#~ msgstr ""
+
+#~ msgid "使用可能な処理パイプラインを選択してください。"
+#~ msgstr ""
+
+#~ msgid "名前変更リストでは各コントローラーを1回だけ選択してください。"
+#~ msgstr ""
+
+#~ msgid "変更後のコントローラー名は、すべて空でない名前にしてください。"
+#~ msgstr ""
+
+#~ msgid "名前を変更する各コントローラーに、新しい名前を1つずつ指定してください。"
+#~ msgstr ""
+
+#~ msgid "コントローラーに有効な顔の領域を選択してください。"
+#~ msgstr ""
+
+#~ msgid "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
+#~ msgstr ""
+
+#~ msgid "使用可能なコントローラープリセットを選択してください。"
+#~ msgstr ""
+
+#~ msgid "このセッションで選択されているレンダラーのシーン設定を指定してください。"
+#~ msgstr ""
+
+#~ msgid "レンダラーとしてMayaまたはBlenderを選択してください。"
+#~ msgstr ""
 

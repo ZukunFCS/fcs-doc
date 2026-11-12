@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-01-000018.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000018.md:10
-msgid "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000018.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000018.md:14
-msgid "指定した名前のコントローラーが、現在の一覧にありません。"
+#: ../../07_support/issues/FCS-55-01-000018.md:10
+msgid "画面を開いた後に、コントローラーが名前変更または削除された可能性があります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000018.md:16
+#: ../../07_support/issues/FCS-55-01-000018.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000018.md:18
-msgid ""
-"Controller "
-"Settingsを更新して既存のコントローラーを選択してください。名前変更や削除をした場合は、選択内容や自動操作の名前を更新してから再実行してください。"
+#: ../../07_support/issues/FCS-55-01-000018.md:14
+msgid "コントローラ画面を開き直し、現在のコントローラーを選び直してください。一覧に表示されているのに使用できない場合は、名前と失敗した操作を報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000018.md:20
+#: ../../07_support/issues/FCS-55-01-000018.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000018.md:22
+#: ../../07_support/issues/FCS-55-01-000018.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
+#~ msgstr ""
+
+#~ msgid "指定した名前のコントローラーが、現在の一覧にありません。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Controller "
+#~ "Settingsを更新して既存のコントローラーを選択してください。名前変更や削除をした場合は、選択内容や自動操作の名前を更新してから再実行してください。"
+#~ msgstr ""
 

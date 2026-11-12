@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-60-01-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-60-01-000001.md:10
-msgid "続行する前にソルバーを学習するか読み込んでください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-60-01-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-01-000001.md:14
+#: ../../07_support/issues/FCS-60-01-000001.md:10
 msgid "現在のセッションに、予測に使用できる学習済みまたは読み込み済みのソルバーがありません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-01-000001.md:16
+#: ../../07_support/issues/FCS-60-01-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-01-000001.md:18
+#: ../../07_support/issues/FCS-60-01-000001.md:14
 msgid "現在のキャラクターのプロファイルから学習するか、そのコントローラー構成に合うソルバーを読み込んでください。ソルバーを使用できる状態で予測を再実行してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-01-000001.md:20
+#: ../../07_support/issues/FCS-60-01-000001.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-01-000001.md:22
+#: ../../07_support/issues/FCS-60-01-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "続行する前にソルバーを学習するか読み込んでください。"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-01-000015.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-01-000015.md:10
-msgid "この動画はセッションに登録されていません。動画ライブラリに追加してから、もう一度お試しください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-01-000015.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000015.md:14
-msgid "選択した動画が現在のセッションのVideo Libraryに登録されていません。"
+#: ../../07_support/issues/FCS-40-01-000015.md:10
+msgid "選択した動画が現在のセッションの動画ライブラリに登録されていません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000015.md:16
+#: ../../07_support/issues/FCS-40-01-000015.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000015.md:18
-msgid ""
-"現在のセッションのVideo "
-"Libraryに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
+#: ../../07_support/issues/FCS-40-01-000015.md:14
+msgid "現在のセッションの動画ライブラリに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000015.md:20
+#: ../../07_support/issues/FCS-40-01-000015.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000015.md:22
+#: ../../07_support/issues/FCS-40-01-000015.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "この動画はセッションに登録されていません。動画ライブラリに追加してから、もう一度お試しください。"
+#~ msgstr ""
+
+#~ msgid "選択した動画が現在のセッションのVideo Libraryに登録されていません。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "現在のセッションのVideo "
+#~ "Libraryに動画をインポートし、登録された項目を選択してください。別のセッションで開いただけでは、現在のセッションには登録されません。"
+#~ msgstr ""
 

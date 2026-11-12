@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-70-08-000002.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-08-000002.md:10
-msgid "一部のアニメーション値が無効なため修復しました。結果を使用する前に対象箇所を確認し、サポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-08-000002.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-08-000002.md:14
+#: ../../07_support/issues/FCS-70-08-000002.md:10
 msgid "アニメーションに無効な数値が含まれていたため、使用可能な結果を生成するように置き換えました。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-08-000002.md:16
+#: ../../07_support/issues/FCS-70-08-000002.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-08-000002.md:18
+#: ../../07_support/issues/FCS-70-08-000002.md:14
 msgid "出力前に、修復したアニメーションに飛び、動きの欠落、タイミングのずれがないか確認してください。元のアニメーションとコントローラーの上下限を確認し、修正した元データがあれば生成または読み込みをやり直してください。同じ値が繰り返し修復される場合は、元データとログを保持してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-08-000002.md:20
+#: ../../07_support/issues/FCS-70-08-000002.md:17
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-08-000002.md:22
+#: ../../07_support/issues/FCS-70-08-000002.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "一部のアニメーション値が無効なため修復しました。結果を使用する前に対象箇所を確認し、サポートにお問い合わせください。"
+#~ msgstr ""
 

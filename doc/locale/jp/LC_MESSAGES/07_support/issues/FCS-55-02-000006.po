@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,37 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-02-000006.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-02-000006.md:10
-msgid "学習前に必要なすべての顔領域にコントローラーを割り当ててください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-02-000006.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000006.md:14
+#: ../../07_support/issues/FCS-55-02-000006.md:10
 msgid "必要なUpper、Eyelid、Gaze、Lowerのうち、コントローラーがない領域があります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000006.md:16
+#: ../../07_support/issues/FCS-55-02-000006.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000006.md:18
-msgid ""
-"Controller "
-"Settingsで必要な各顔領域に1つ以上のコントローラーを割り当て、表を保存してから再実行してください。すべてを1つの領域に割り当てても、他の領域は満たされません。"
+#: ../../07_support/issues/FCS-55-02-000006.md:14
+msgid "コントローラ画面で必要な各顔領域に1つ以上のコントローラーを割り当て、表を保存してから再実行してください。すべてを1つの領域に割り当てても、他の領域は満たされません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000006.md:20
+#: ../../07_support/issues/FCS-55-02-000006.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000006.md:22
+#: ../../07_support/issues/FCS-55-02-000006.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "学習前に必要なすべての顔領域にコントローラーを割り当ててください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Controller "
+#~ "Settingsで必要な各顔領域に1つ以上のコントローラーを割り当て、表を保存してから再実行してください。すべてを1つの領域に割り当てても、他の領域は満たされません。"
+#~ msgstr ""
 

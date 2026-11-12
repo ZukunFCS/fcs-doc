@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,48 +27,44 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-04-000004.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-04-000004.md:10
-msgid "コントローラー上下限の貼り付けを完了できませんでした。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-04-000004.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000004.md:14
-msgid "コントローラー上下限の貼り付けには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+#: ../../07_support/issues/FCS-55-04-000004.md:10
+msgid "コピーした値を、選択したコントローラーの数値の上下限として適用できませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000004.md:16
+#: ../../07_support/issues/FCS-55-04-000004.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000004.md:18
-msgid "以下の該当する条件を確認し、修正してからコントローラー上下限の貼り付けを再実行してください。"
+#: ../../07_support/issues/FCS-55-04-000004.md:14
+msgid "既存のコントローラーから上下限をコピーし直し、対象に貼り付けてください。テキストを使用する場合は、以下の形式と範囲を確認してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:16
+msgid "考えられる原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000004.md:22
+msgid "**コピーした上下限を貼り付けられない**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-04-000004.md:24
-msgid "有効なコントローラーの制限値をコピーしてから貼り付けてください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-04-000004.md:26
 msgid "コントローラー上下限のクリップボードがカンマ区切りの数値3つでないか、上下限の条件を満たしていません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000004.md:27
+#: ../../07_support/issues/FCS-55-04-000004.md:26
 msgid ""
 "最小値,最大値,デフォルト値の順に指定してください（例：0,1,0.5）。最大値は最小値より 0.0001 "
 "以上大きくしてください。既存のコントローラーから上下限をコピーして、再度貼り付けることを推奨します。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000004.md:33
-msgid "コントローラーの上下限には有限値を入力し、最大値を最小値より 0.0001 以上大きくしてください。"
+#: ../../07_support/issues/FCS-55-04-000004.md:32
+msgid "**コピーした上下限が不正**"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000004.md:35
+#: ../../07_support/issues/FCS-55-04-000004.md:34
 msgid "コントローラーの上下限が逆順、同値、非有限値、または差が 0.0001 未満です。"
 msgstr ""
 
@@ -79,24 +75,45 @@ msgid ""
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-04-000004.md:42
-msgid "コントローラー上下限の貼り付けで予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+msgid "**FCSで予期しない障害が発生**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-04-000004.md:44
 msgid "コントローラー上下限の貼り付けで、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000004.md:45
+#: ../../07_support/issues/FCS-55-04-000004.md:46
 msgid ""
 "現在のセッションとコントローラー上下限の貼り付けで作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
 " Feedbackで報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000004.md:47
+#: ../../07_support/issues/FCS-55-04-000004.md:49
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000004.md:49
+#: ../../07_support/issues/FCS-55-04-000004.md:51
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "コントローラー上下限の貼り付けを完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "コントローラー上下限の貼り付けには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+#~ msgstr ""
+
+#~ msgid "以下の該当する条件を確認し、修正してからコントローラー上下限の貼り付けを再実行してください。"
+#~ msgstr ""
+
+#~ msgid "有効なコントローラーの制限値をコピーしてから貼り付けてください。"
+#~ msgstr ""
+
+#~ msgid "コントローラーの上下限には有限値を入力し、最大値を最小値より 0.0001 以上大きくしてください。"
+#~ msgstr ""
+
+#~ msgid "コントローラー上下限の貼り付けで予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+#~ msgstr ""
 

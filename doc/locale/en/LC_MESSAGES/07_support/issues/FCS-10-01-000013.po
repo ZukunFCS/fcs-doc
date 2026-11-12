@@ -1,31 +1,63 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-10-01-000013.md:4
+msgid "FCS-10-01-000013"
+msgstr ""
 
+#: ../../07_support/issues/FCS-10-01-000013.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000013.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-10-01-000013.md:10
+msgid "選択したダウンロード先フォルダーを使用できないか、保存された場所がファイルを指しています。"
+msgstr ""
+"The selected download folder is no longer available, or its saved "
+"location points to a file."
+
+#: ../../07_support/issues/FCS-10-01-000013.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "更新をダウンロードする前に既存のダウンロード先フォルダーを選択してください。"
-msgstr "Choose an existing download folder before downloading the update."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "選択したダウンロード先フォルダーを使用できないか、保存された場所がファイルを指しています。"
-msgstr "The selected download folder is no longer available, or its saved location points to a file."
-
+#: ../../07_support/issues/FCS-10-01-000013.md:14
 msgid "ダウンロードをやり直し、ファイルを保存でき、インストーラー用の空き容量がある既存のフォルダーを選択してください。使用できない以前のフォルダーが繰り返し使われる場合は、作業を保存してFCSを再起動してからダウンロードをやり直してください。"
-msgstr "Start the download again and select an existing folder where you can save files and have room for the installer. If FCS keeps reusing the unavailable folder, save your work and restart FCS before starting the download again."
+msgstr ""
+"Start the download again and select an existing folder where you can save"
+" files and have room for the installer. If FCS keeps reusing the "
+"unavailable folder, save your work and restart FCS before starting the "
+"download again."
 
+#: ../../07_support/issues/FCS-10-01-000013.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-10-01-000013.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "更新をダウンロードする前に既存のダウンロード先フォルダーを選択してください。"
+#~ msgstr "Choose an existing download folder before downloading the update."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

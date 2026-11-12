@@ -1,85 +1,153 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-30-04-000005.md:4
+msgid "FCS-30-04-000005"
+msgstr ""
 
+#: ../../07_support/issues/FCS-30-04-000005.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000005.md:8
 msgid "原因"
 msgstr "Why this happens"
 
-msgid "対処方法"
-msgstr "How to resolve it"
-
-msgid "キャラクター名を変更できませんでした。"
-msgstr "The character could not be renamed."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
+#: ../../07_support/issues/FCS-30-04-000005.md:10
 msgid "キャラクターとそのフォルダーの名前変更を完了できませんでした。"
 msgstr "FCS did not finish renaming the character and its folder."
 
-msgid "以下の該当する修正を行い、再度名前を変更してください。表示名とフォルダーの場所が一致しない場合は、プロジェクトのバックアップを保持して報告してください。"
-msgstr "Use the matching correction below, then retry the character rename. If the displayed name and folder location disagree, keep the project backup and report the problem."
+#: ../../07_support/issues/FCS-30-04-000005.md:12
+msgid "対処方法"
+msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-30-04-000005.md:14
+msgid "以下の該当する修正を行い、再度名前を変更してください。表示名とフォルダーの場所が一致しない場合は、プロジェクトのバックアップを保持して報告してください。"
+msgstr ""
+"Use the matching correction below, then retry the character rename. If "
+"the displayed name and folder location disagree, keep the project backup "
+"and report the problem."
+
+#: ../../07_support/issues/FCS-30-04-000005.md:16
+msgid "考えられる原因"
+msgstr "Possible causes"
+
+#: ../../07_support/issues/FCS-30-04-000005.md:22
 msgid "**ActorまたはCharacterが空欄**"
 msgstr "**Actor or Character is blank**"
 
-msgid "ActorとCharacterに空白以外の名前を入力して、再実行してください。"
-msgstr "Enter a nonblank Actor and Character name, then retry."
-
+#: ../../07_support/issues/FCS-30-04-000005.md:24
 msgid "ActorまたはCharacterの名前が空か、空白のみになっています。"
 msgstr "The Actor or Character name is empty or contains only whitespace."
 
+#: ../../07_support/issues/FCS-30-04-000005.md:26
 msgid "ActorとCharacterに空白以外の名前（例：Actor01、Character01）を入力して再実行してください。この検証に数値の範囲制限はありません。"
-msgstr "Enter a nonblank Actor and Character name, for example Actor01 and Character01, then retry. This check does not impose a numeric range."
+msgstr ""
+"Enter a nonblank Actor and Character name, for example Actor01 and "
+"Character01, then retry. This check does not impose a numeric range."
 
+#: ../../07_support/issues/FCS-30-04-000005.md:32
 msgid "**同じ名前のキャラクターが存在**"
 msgstr "**A character with this name already exists**"
 
-msgid "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
-msgstr "A character folder with that name already exists. Choose another name or open the existing character."
-
+#: ../../07_support/issues/FCS-30-04-000005.md:34
 msgid "選択したアクター内に、同じ名前のキャラクターフォルダーが存在します。"
-msgstr "A character directory with this name already exists below the selected actor."
+msgstr ""
+"A character directory with this name already exists below the selected "
+"actor."
 
+#: ../../07_support/issues/FCS-30-04-000005.md:36
+msgid "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
+msgstr ""
+"A character folder with that name already exists. Choose another name or "
+"open the existing character."
+
+#: ../../07_support/issues/FCS-30-04-000005.md:42
 msgid "**キャラクターフォルダーが見つからない**"
 msgstr "**The character folder is missing**"
 
-msgid "キャラクターフォルダーが見つかりません。セッションを開き直すか、フォルダーを復元してください。"
-msgstr "Cannot find the character folder. Reopen the session or restore its folder."
-
+#: ../../07_support/issues/FCS-30-04-000005.md:44
 msgid "アクターのフォルダー内に、選択したキャラクターのフォルダーがありません。"
 msgstr "The selected character directory is missing below the actor directory."
 
+#: ../../07_support/issues/FCS-30-04-000005.md:46
+msgid "キャラクターフォルダーが見つかりません。セッションを開き直すか、フォルダーを復元してください。"
+msgstr ""
+"Cannot find the character folder. Reopen the session or restore its "
+"folder."
+
+#: ../../07_support/issues/FCS-30-04-000005.md:52
 msgid "**FCSで予期しない障害が発生**"
 msgstr "**FCS stopped unexpectedly**"
 
-msgid "キャラクター名の変更で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
-msgstr "Rename Character stopped because of an unexpected failure. Keep your current work and the Log before retrying."
-
+#: ../../07_support/issues/FCS-30-04-000005.md:54
 msgid "キャラクター名の変更で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
-msgstr "The Rename Character operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details."
+msgstr ""
+"The Rename Character operation failed outside the input checks listed on "
+"this page. Its technical cause requires the operation’s Log details."
 
-msgid "現在のセッションとキャラクター名の変更で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
-msgstr "Preserve the current session and any files already created by Rename Character. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log."
+#: ../../07_support/issues/FCS-30-04-000005.md:56
+msgid ""
+"現在のセッションとキャラクター名の変更で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
+" Feedbackで報告してください。"
+msgstr ""
+"Preserve the current session and any files already created by Rename "
+"Character. Check the errors from the same operation in Log. Save "
+"available work, then retry once. If it repeats, send Bug Feedback with "
+"this code, FCS version, the operation settings and its Log."
 
+#: ../../07_support/issues/FCS-30-04-000005.md:62
 msgid "**新しいキャラクター名**"
 msgstr "**New character name**"
 
-msgid "続行に必要な情報をFCSが受け取れませんでした。"
-msgstr "FCS did not receive the information needed to continue."
-
+#: ../../07_support/issues/FCS-30-04-000005.md:64
 msgid "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
-msgstr "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
+msgstr ""
+"The operation was started with an incomplete selection, or FCS failed to "
+"carry the completed selection into the action."
 
+#: ../../07_support/issues/FCS-30-04-000005.md:66
 msgid "名前変更の画面で新しいCharacter名を入力してください。入力済みだった場合は画面を開き直し、問題を報告してください。"
-msgstr "Enter the new Character name in the rename dialog. If it is already filled in, reopen the dialog and report the problem."
+msgstr ""
+"Enter the new Character name in the rename dialog. If it is already "
+"filled in, reopen the dialog and report the problem."
 
+#: ../../07_support/issues/FCS-30-04-000005.md:69
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr "[Browse this family](family-04.md)"
 
+#: ../../07_support/issues/FCS-30-04-000005.md:71
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "キャラクター名を変更できませんでした。"
+#~ msgstr "The character could not be renamed."
+
+#~ msgid "ActorとCharacterに空白以外の名前を入力して、再実行してください。"
+#~ msgstr "Enter a nonblank Actor and Character name, then retry."
+
+#~ msgid "キャラクター名の変更で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+#~ msgstr ""
+#~ "Rename Character stopped because of an"
+#~ " unexpected failure. Keep your current "
+#~ "work and the Log before retrying."
+
+#~ msgid "続行に必要な情報をFCSが受け取れませんでした。"
+#~ msgstr "FCS did not receive the information needed to continue."
+

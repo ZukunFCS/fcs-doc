@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-01-000019.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000019.md:10
-msgid "使用可能なコントローラープリセットを選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000019.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000019.md:14
-msgid "指定したプリセット名が、インストールされているコントローラープリセットの一覧にありません。"
+#: ../../07_support/issues/FCS-55-01-000019.md:10
+msgid "保存された選択内容を、使用可能なプリセットに対応付けられませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000019.md:16
+#: ../../07_support/issues/FCS-55-01-000019.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000019.md:18
-msgid "コントローラープリセットの一覧からARKitまたはMetahumanを選択してください。自動操作ではcontroller.metadataが返す表記を使用してください。他のアプリのプリセット名を指定しても、FCSにインストールされたプリセットにはなりません。"
+#: ../../07_support/issues/FCS-55-01-000019.md:14
+msgid ""
+"コントローラ画面を開き直し、対象のプリセットを選び直してください。FCSに表示されたプリセットでも失敗する場合は、プリセット名とFCSバージョンをBug"
+" Feedbackで報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000019.md:20
+#: ../../07_support/issues/FCS-55-01-000019.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000019.md:22
+#: ../../07_support/issues/FCS-55-01-000019.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "使用可能なコントローラープリセットを選択してください。"
+#~ msgstr ""
+
+#~ msgid "指定したプリセット名が、インストールされているコントローラープリセットの一覧にありません。"
+#~ msgstr ""
+
+#~ msgid "コントローラープリセットの一覧からARKitまたはMetahumanを選択してください。自動操作ではcontroller.metadataが返す表記を使用してください。他のアプリのプリセット名を指定しても、FCSにインストールされたプリセットにはなりません。"
+#~ msgstr ""
 

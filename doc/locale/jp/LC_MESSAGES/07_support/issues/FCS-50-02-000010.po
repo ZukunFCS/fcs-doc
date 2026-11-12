@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-02-000010.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000010.md:10
-msgid "選択した一部のプロファイルの動きを予測できませんでした。元画像と対応するコントローラーを確認してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000010.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000010.md:14
+#: ../../07_support/issues/FCS-50-02-000010.md:10
 msgid "選択したプロファイルの動きに必要な対応コントローラーまたはARKitの係数がありません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000010.md:16
+#: ../../07_support/issues/FCS-50-02-000010.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000010.md:18
+#: ../../07_support/issues/FCS-50-02-000010.md:14
 msgid "選択した各プロファイルに読み取り可能な顔画像があり、コントローラーが対象のキャラクターに対応していることを確認してください。画像や対応付けを修正してから、対象の動きを再計算してください。残りの結果を使用する前に、省略された動きを確認してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000010.md:20
+#: ../../07_support/issues/FCS-50-02-000010.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000010.md:22
+#: ../../07_support/issues/FCS-50-02-000010.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "選択した一部のプロファイルの動きを予測できませんでした。元画像と対応するコントローラーを確認してください。"
+#~ msgstr ""
 

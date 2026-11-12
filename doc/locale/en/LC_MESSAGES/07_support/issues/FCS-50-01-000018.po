@@ -1,31 +1,63 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-50-01-000018.md:4
+msgid "FCS-50-01-000018"
+msgstr ""
 
+#: ../../07_support/issues/FCS-50-01-000018.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-01-000018.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-50-01-000018.md:10
+msgid "セッションまたは保存された設定が、このインストールに含まれない処理プロファイルを参照しています。"
+msgstr ""
+"A session or saved setting refers to a processing profile that is not "
+"included in this installation."
+
+#: ../../07_support/issues/FCS-50-01-000018.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "保存された処理プロファイルを、このFCSビルドで使用できません。"
-msgstr "The saved processing profile is unavailable in this FCS build."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "セッションまたは保存された設定が、このインストールに含まれない処理プロファイルを参照しています。"
-msgstr "A session or saved setting refers to a processing profile that is not included in this installation."
-
+#: ../../07_support/issues/FCS-50-01-000018.md:14
 msgid "ソルバーで、使用する処理プロファイルを表示された一覧から選択してください。必要なものがない場合は、FCSのエディションとバージョンを確認してください。表示されたものでも失敗する場合は、名前とFCSバージョンを報告してください。"
-msgstr "In Solver, select the processing profile you intend to use from the available list. If the desired profile is absent, check that you installed the intended FCS edition and version. If a listed profile fails, report its name and FCS version."
+msgstr ""
+"In Solver, select the processing profile you intend to use from the "
+"available list. If the desired profile is absent, check that you "
+"installed the intended FCS edition and version. If a listed profile "
+"fails, report its name and FCS version."
 
+#: ../../07_support/issues/FCS-50-01-000018.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-50-01-000018.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "保存された処理プロファイルを、このFCSビルドで使用できません。"
+#~ msgstr "The saved processing profile is unavailable in this FCS build."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

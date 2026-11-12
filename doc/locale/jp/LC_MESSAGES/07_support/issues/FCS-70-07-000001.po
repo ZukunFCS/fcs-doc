@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,42 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-70-07-000001.md:8
-msgid "メッセージ"
+msgid "原因"
 msgstr ""
 
 #: ../../07_support/issues/FCS-70-07-000001.md:10
-#: ../../07_support/issues/FCS-70-07-000001.md:18
+msgid "バッチの終了時に失敗した項目があります。件数の表示は、全項目の正常完了を意味しません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-70-07-000001.md:12
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-70-07-000001.md:14
 #, python-brace-format
 msgid "バッチ処理が完了していません。成功{completed}件、失敗{failed}件です。失敗した項目を確認し、報告された問題を修正してから、その項目を再試行してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-07-000001.md:12
-msgid "原因"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-07-000001.md:14
-msgid "バッチの終了時に失敗した項目があります。件数の表示は、全項目の正常完了を意味しません。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-07-000001.md:16
-msgid "対処方法"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-07-000001.md:19
+#: ../../07_support/issues/FCS-70-07-000001.md:15
 msgid "未保存の作業と出力済みのファイルを保持してください。表示されたコードとログのメッセージをコピーし、操作内容、時刻、FCSバージョン、対象の入力を記録してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-07-000001.md:20
+#: ../../07_support/issues/FCS-70-07-000001.md:16
 msgid ""
 "指定された確認後も同じ操作で失敗する場合は、これらの情報を添えてBug "
 "Feedbackから報告してください。ローカルに保存された報告は、サーバーへの送信完了を意味しません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-07-000001.md:22
+#: ../../07_support/issues/FCS-70-07-000001.md:19
 msgid "[同じ種類の問題を見る](family-07.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-07-000001.md:24
+#: ../../07_support/issues/FCS-70-07-000001.md:21
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
 

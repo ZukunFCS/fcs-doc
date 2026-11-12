@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,37 +27,37 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-95-02-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-95-02-000001.md:10
-#, python-brace-format
-msgid "一部の元動画が見つかりません。次のファイルを復元するか、参照先を再設定してからエクスポートしてください： {files}"
-msgstr ""
-
-#: ../../07_support/issues/FCS-95-02-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000001.md:14
+#: ../../07_support/issues/FCS-95-02-000001.md:10
 msgid "セッションのエクスポート準備時に、アプリに表示された元動画を見つけられませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000001.md:16
+#: ../../07_support/issues/FCS-95-02-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000001.md:18
-msgid ""
-"対象の動画を登録された場所に復元するか、Video "
-"Libraryで再リンクしてください。別のフォルダーに同名の動画があっても自動では使用されません。元動画のドライブを再接続してから再実行してください。"
+#: ../../07_support/issues/FCS-95-02-000001.md:14
+msgid "対象の動画を登録された場所に復元するか、動画ライブラリで再リンクしてください。別のフォルダーに同名の動画があっても自動では使用されません。元動画のドライブを再接続してから再実行してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000001.md:20
+#: ../../07_support/issues/FCS-95-02-000001.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000001.md:22
+#: ../../07_support/issues/FCS-95-02-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "一部の元動画が見つかりません。次のファイルを復元するか、参照先を再設定してからエクスポートしてください： {files}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "対象の動画を登録された場所に復元するか、Video "
+#~ "Libraryで再リンクしてください。別のフォルダーに同名の動画があっても自動では使用されません。元動画のドライブを再接続してから再実行してください。"
+#~ msgstr ""
 

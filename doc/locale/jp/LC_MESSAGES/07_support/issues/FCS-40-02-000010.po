@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,35 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-02-000010.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-02-000010.md:10
-msgid "続行する前に動画を開いてください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-02-000010.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-02-000010.md:14
+#: ../../07_support/issues/FCS-40-02-000010.md:10
 msgid "この操作には動画プレーヤーで開かれた動画が必要ですが、動画が開かれていません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-02-000010.md:16
+#: ../../07_support/issues/FCS-40-02-000010.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-02-000010.md:18
-msgid "Video Libraryから対象の動画を開き、読み込み完了後に再実行してください。一覧にない場合は、先にセッションにインポートしてください。"
+#: ../../07_support/issues/FCS-40-02-000010.md:14
+msgid "動画ライブラリから対象の動画を開き、読み込み完了後に再実行してください。一覧にない場合は、先にセッションにインポートしてください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-02-000010.md:20
+#: ../../07_support/issues/FCS-40-02-000010.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-02-000010.md:22
+#: ../../07_support/issues/FCS-40-02-000010.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "続行する前に動画を開いてください。"
+#~ msgstr ""
+
+#~ msgid "Video Libraryから対象の動画を開き、読み込み完了後に再実行してください。一覧にない場合は、先にセッションにインポートしてください。"
+#~ msgstr ""
 

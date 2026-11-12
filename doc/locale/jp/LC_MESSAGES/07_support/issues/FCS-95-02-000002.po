@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,37 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-95-02-000002.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-95-02-000002.md:10
-msgid "一部の元動画が見つかりません。復元または再リンクしてからエクスポートしてください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-95-02-000002.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000002.md:14
+#: ../../07_support/issues/FCS-95-02-000002.md:10
 msgid "Associated videosまたはAll filesが選択されていますが、登録された元動画がディスクにありません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000002.md:16
+#: ../../07_support/issues/FCS-95-02-000002.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000002.md:18
+#: ../../07_support/issues/FCS-95-02-000002.md:14
 msgid ""
-"Video "
-"Libraryで不足する元動画を復元するか、ファイルの場所を更新してください。切断されたドライブは再接続してください。動画が読み取れる状態で再実行するか、動画のコピーが不要ならNo"
+"動画ライブラリで不足する元動画を復元するか、ファイルの場所を更新してください。切断されたドライブは再接続してください。動画が読み取れる状態で再実行するか、動画のコピーが不要ならNo"
 " videoを選択してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000002.md:20
+#: ../../07_support/issues/FCS-95-02-000002.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-02-000002.md:22
+#: ../../07_support/issues/FCS-95-02-000002.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "一部の元動画が見つかりません。復元または再リンクしてからエクスポートしてください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Video "
+#~ "Libraryで不足する元動画を復元するか、ファイルの場所を更新してください。切断されたドライブは再接続してください。動画が読み取れる状態で再実行するか、動画のコピーが不要ならNo"
+#~ " videoを選択してください。"
+#~ msgstr ""
 

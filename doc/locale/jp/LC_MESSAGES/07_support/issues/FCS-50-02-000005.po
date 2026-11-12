@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-02-000005.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000005.md:10
-msgid "プロファイルのキャッシュを使用できません。学習は続行できますが、次回以降の学習に時間がかかる場合があります。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000005.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000005.md:14
+#: ../../07_support/issues/FCS-50-02-000005.md:10
 msgid "再利用するプロファイルのキャッシュを読み込みまたは作成できませんでした。学習時にデータを再計算できます。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000005.md:16
+#: ../../07_support/issues/FCS-50-02-000005.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000005.md:18
+#: ../../07_support/issues/FCS-50-02-000005.md:14
 msgid "学習は続けられます。次の学習前に、プロジェクトのキャッシュ保存先の空き容量と書き込み権限を確認してください。繰り返し学習しても遅い場合は、キャッシュが再利用されない原因を調べられるようログを保持してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000005.md:20
+#: ../../07_support/issues/FCS-50-02-000005.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000005.md:22
+#: ../../07_support/issues/FCS-50-02-000005.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "プロファイルのキャッシュを使用できません。学習は続行できますが、次回以降の学習に時間がかかる場合があります。"
+#~ msgstr ""
 

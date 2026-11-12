@@ -1,94 +1,193 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-10-01-000009.md:4
+msgid "FCS-10-01-000009"
+msgstr ""
 
+#: ../../07_support/issues/FCS-10-01-000009.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-01-000009.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-10-01-000009.md:10
+msgid "現在または以前に保存されたソルバーの設定を使用できませんでした。直前に変更した項目とは別の設定に問題がある場合もあります。"
+msgstr ""
+"FCS could not use one of the current or previously saved Solver settings."
+" The problem can be in a different control from the one you just changed."
+
+#: ../../07_support/issues/FCS-10-01-000009.md:11
+msgid "FCSが表示する選択肢を選んで発生した場合は、アプリ側の設定処理の問題です。表示された選択肢を選んだこと自体が原因ではありません。"
+msgstr ""
+"If this happens after choosing an option offered by FCS, it is an "
+"application settings problem; the available dropdown choices are not the "
+"cause."
+
+#: ../../07_support/issues/FCS-10-01-000009.md:13
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "ソルバーの設定を適用できませんでした。"
-msgstr "FCS could not apply the Solver settings."
+#: ../../07_support/issues/FCS-10-01-000009.md:15
+msgid ""
+"作業を保存してFCSを一度再起動してください。再発する場合はBug "
+"Feedbackで、このコード、FCSバージョン、直前に操作した項目を報告してください。"
+msgstr ""
+"Save your work and restart FCS once. If the error returns, use Bug "
+"Feedback to report the code, FCS version, and the control you used just "
+"before it appeared."
 
+#: ../../07_support/issues/FCS-10-01-000009.md:16
+msgid "作業を続けられない場合は、先に現在の設定を記録し、［ファイル］→［設定］で［デフォルトに戻す］をクリックして再起動を確認してください。処理設定やアプリの場所など、アプリの設定全体が初期値に戻ります。"
+msgstr ""
+"If the problem keeps you from working, first record your preferences, "
+"then open Settings, click Restore, and confirm the restart. This resets "
+"all application preferences, including customized processing options and "
+"application locations."
+
+#: ../../07_support/issues/FCS-10-01-000009.md:18
 msgid "考えられる原因"
 msgstr "Possible causes"
 
-msgid "現在または以前に保存されたソルバーの設定を使用できませんでした。直前に変更した項目とは別の設定に問題がある場合もあります。"
-msgstr "FCS could not use one of the current or previously saved Solver settings. The problem can be in a different control from the one you just changed."
-
-msgid "FCSが表示する選択肢を選んで発生した場合は、アプリ側の設定処理の問題です。表示された選択肢を選んだこと自体が原因ではありません。"
-msgstr "If this happens after choosing an option offered by FCS, it is an application settings problem; the available dropdown choices are not the cause."
-
-msgid "作業を保存してFCSを一度再起動してください。再発する場合はBug Feedbackで、このコード、FCSバージョン、直前に操作した項目を報告してください。"
-msgstr "Save your work and restart FCS once. If the error returns, use Bug Feedback to report the code, FCS version, and the control you used just before it appeared."
-
-msgid "作業を続けられない場合は、先に現在の設定を記録し、［ファイル］→［設定］で［デフォルトに戻す］をクリックして再起動を確認してください。処理設定やアプリの場所など、アプリの設定全体が初期値に戻ります。"
-msgstr "If the problem keeps you from working, first record your preferences, then open Settings, click Restore, and confirm the restart. This resets all application preferences, including customized processing options and application locations."
-
+#: ../../07_support/issues/FCS-10-01-000009.md:24
 msgid "**同じ動画の重み**"
 msgstr "**Same Video Weight**"
 
+#: ../../07_support/issues/FCS-10-01-000009.md:26
 msgid "保存された同じ動画の重みが対応範囲外です。この項目は一部のビルドでのみ表示されます。"
-msgstr "The saved Same Video Weight is outside the supported range. This control is only shown in some builds."
+msgstr ""
+"The saved Same Video Weight is outside the supported range. This control "
+"is only shown in some builds."
 
-msgid "ソルバーに同じ動画の重みが表示される場合は5に戻して再実行してください。範囲は 1.0～10.0 です。項目が表示されない場合は、上記の保存済み設定の復旧手順を使用してください。"
-msgstr "If your Solver window includes Same Video Weight, return it to 5 and retry. Its range is 1.0–10.0. If that control is not shown, use the saved-settings recovery above."
+#: ../../07_support/issues/FCS-10-01-000009.md:28
+msgid ""
+"ソルバーに同じ動画の重みが表示される場合は5に戻して再実行してください。範囲は 1.0～10.0 "
+"です。項目が表示されない場合は、上記の保存済み設定の復旧手順を使用してください。"
+msgstr ""
+"If your Solver window includes Same Video Weight, return it to 5 and "
+"retry. Its range is 1.0–10.0. If that control is not shown, use the "
+"saved-settings recovery above."
 
+#: ../../07_support/issues/FCS-10-01-000009.md:38
 msgid "**保存されたソルバーの設定を使用できない**"
 msgstr "**Saved Solver settings cannot be used**"
 
-msgid "保存されたデノイジングの種類を使用できませんでした。"
-msgstr "FCS could not use the saved Type under Denoising setting."
-
+#: ../../07_support/issues/FCS-10-01-000009.md:40
 msgid "保存されたソルバーの設定を読み取れないか、種類、置換値、プロファイルを優先、クランプ方式の選択を拒否しました。これらのメニューは選択肢が制限されているため、表示された項目を拒否する場合はアプリ側の問題です。"
-msgstr "FCS could not read its saved Solver settings, or rejected a choice for Type, Replacement Value, Prioritize profile, or Clamp mode. Those menus already restrict the available choices; rejecting one of their offered choices is an application problem."
+msgstr ""
+"FCS could not read its saved Solver settings, or rejected a choice for "
+"Type, Replacement Value, Prioritize profile, or Clamp mode. Those menus "
+"already restrict the available choices; rejecting one of their offered "
+"choices is an application problem."
 
+#: ../../07_support/issues/FCS-10-01-000009.md:42
 msgid "上記の復旧手順を使用してください。報告する際は、エラーに表示された項目名と直前の操作を添えてください。"
-msgstr "Use the recovery steps above. When reporting the problem, include which control was named in the error and what you were doing."
+msgstr ""
+"Use the recovery steps above. When reporting the problem, include which "
+"control was named in the error and what you were doing."
 
+#: ../../07_support/issues/FCS-10-01-000009.md:48
 msgid "**Smartのスムージング設定**"
 msgstr "**Smart smoothing controls**"
 
+#: ../../07_support/issues/FCS-10-01-000009.md:50
 msgid "保存されたSmartの数値設定を読み取れないか、対応範囲外になっています。"
-msgstr "The saved Smart smoothing controls are unreadable or outside the supported numeric range."
+msgstr ""
+"The saved Smart smoothing controls are unreadable or outside the "
+"supported numeric range."
 
-msgid "ソルバー → デノイジング → パラメータで種類がSmartの場合、スムージング調整を8、動きへの追従性を1にして再実行してください。これらの項目が表示されない場合や、すでにその値の場合は、上記の保存済み設定の復旧手順を使用してください。"
-msgstr "In Solver → Denoising → Parameters, if Type is Smart, set Smoothing Control to 8 and Motion Responsiveness to 1, then retry. If those controls are not shown, or those values are already set, use the saved-settings recovery above."
+#: ../../07_support/issues/FCS-10-01-000009.md:52
+msgid ""
+"ソルバー → デノイジング → "
+"パラメータで種類がSmartの場合、スムージング調整を8、動きへの追従性を1にして再実行してください。これらの項目が表示されない場合や、すでにその値の場合は、上記の保存済み設定の復旧手順を使用してください。"
+msgstr ""
+"In Solver → Denoising → Parameters, if Type is Smart, set Smoothing "
+"Control to 8 and Motion Responsiveness to 1, then retry. If those "
+"controls are not shown, or those values are already set, use the saved-"
+"settings recovery above."
 
+#: ../../07_support/issues/FCS-10-01-000009.md:58
 msgid "**視線固定のしきい値**"
 msgstr "**Freezing threshold**"
 
+#: ../../07_support/issues/FCS-10-01-000009.md:60
 msgid "保存された視線固定のしきい値を適用できませんでした。"
 msgstr "The saved gaze-freezing threshold could not be applied."
 
-msgid "ソルバー → 後処理 → 視線の固定の視線固定のしきい値を0.5にして再実行してください。範囲は 0.0～1.0（両端を含む）です。範囲内の値でも失敗する場合は、FCSの設定処理の問題として報告してください。"
-msgstr "In Solver → Post processing → Gaze Freezing, set Freezing threshold to 0.5 and retry. Accepted values are 0.0–1.0, including both ends. If an available value still fails, report an FCS settings problem."
+#: ../../07_support/issues/FCS-10-01-000009.md:62
+msgid ""
+"ソルバー → 後処理 → 視線の固定の視線固定のしきい値を0.5にして再実行してください。範囲は "
+"0.0～1.0（両端を含む）です。範囲内の値でも失敗する場合は、FCSの設定処理の問題として報告してください。"
+msgstr ""
+"In Solver → Post processing → Gaze Freezing, set Freezing threshold to "
+"0.5 and retry. Accepted values are 0.0–1.0, including both ends. If an "
+"available value still fails, report an FCS settings problem."
 
+#: ../../07_support/issues/FCS-10-01-000009.md:68
 msgid "**プロファイル優先の範囲**"
 msgstr "**Profile-priority Range**"
 
+#: ../../07_support/issues/FCS-10-01-000009.md:70
 msgid "保存されたプロファイル優先の範囲を適用できませんでした。"
 msgstr "The saved profile-priority Range could not be applied."
 
-msgid "ソルバー → 後処理のプロファイルを優先がLocalの場合は、範囲を1秒にして再実行してください。範囲は 0.0～2.0 秒（両端を含む）です。範囲が表示されない場合は、上記の保存済み設定の復旧手順を使用してください。"
-msgstr "If Prioritize profile is already set to Local in Solver → Post processing, set Range to 1 second and retry. The accepted range is 0.0–2.0 seconds, including both ends. If Range is not visible, use the saved-settings recovery above."
+#: ../../07_support/issues/FCS-10-01-000009.md:72
+msgid ""
+"ソルバー → 後処理のプロファイルを優先がLocalの場合は、範囲を1秒にして再実行してください。範囲は 0.0～2.0 "
+"秒（両端を含む）です。範囲が表示されない場合は、上記の保存済み設定の復旧手順を使用してください。"
+msgstr ""
+"If Prioritize profile is already set to Local in Solver → Post "
+"processing, set Range to 1 second and retry. The accepted range is "
+"0.0–2.0 seconds, including both ends. If Range is not visible, use the "
+"saved-settings recovery above."
 
+#: ../../07_support/issues/FCS-10-01-000009.md:78
 msgid "**指数係数**"
 msgstr "**Exponential Coefficient**"
 
+#: ../../07_support/issues/FCS-10-01-000009.md:80
 msgid "保存された指数係数を適用できませんでした。"
 msgstr "The saved Exponential Coefficient could not be applied."
 
-msgid "ソルバー → 後処理のプロファイルを優先がLocalの場合は、指数係数を1にして再実行してください。範囲は 0.1～5.0（両端を含む）です。この項目が表示されない場合は、上記の保存済み設定の復旧手順を使用してください。"
-msgstr "If Prioritize profile is already set to Local in Solver → Post processing, set Exponential Coefficient to 1 and retry. Accepted values are 0.1–5.0, including both ends. If this control is not visible, use the saved-settings recovery above."
+#: ../../07_support/issues/FCS-10-01-000009.md:82
+msgid ""
+"ソルバー → 後処理のプロファイルを優先がLocalの場合は、指数係数を1にして再実行してください。範囲は "
+"0.1～5.0（両端を含む）です。この項目が表示されない場合は、上記の保存済み設定の復旧手順を使用してください。"
+msgstr ""
+"If Prioritize profile is already set to Local in Solver → Post "
+"processing, set Exponential Coefficient to 1 and retry. Accepted values "
+"are 0.1–5.0, including both ends. If this control is not visible, use the"
+" saved-settings recovery above."
 
+#: ../../07_support/issues/FCS-10-01-000009.md:85
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-10-01-000009.md:87
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "ソルバーの設定を適用できませんでした。"
+#~ msgstr "FCS could not apply the Solver settings."
+
+#~ msgid "保存されたデノイジングの種類を使用できませんでした。"
+#~ msgstr "FCS could not use the saved Type under Denoising setting."
+

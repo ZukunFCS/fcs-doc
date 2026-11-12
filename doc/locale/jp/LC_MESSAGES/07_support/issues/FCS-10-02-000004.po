@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,38 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-10-02-000004.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-02-000004.md:10
-msgid "動画処理に必要な項目を入力してから、もう一度お試しください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-02-000004.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000004.md:14
-msgid "動画処理に必要なパラメーターがありません。video_pathsが空のリストの場合も実行できません。"
+#: ../../07_support/issues/FCS-10-02-000004.md:10
+msgid "処理には元動画の選択が必要です。開始時にFCSが選択内容を保持できなかった可能性もあります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000004.md:16
+#: ../../07_support/issues/FCS-10-02-000004.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000004.md:18
-msgid "単一動画の処理では動画を1本、バッチでは1本以上を選択してください。自動操作では単一処理にvideo_path、バッチに空でないvideo_pathsリストが必要です。空の選択の代わりに対応する引数を指定してください。"
+#: ../../07_support/issues/FCS-10-02-000004.md:14
+msgid "動画ライブラリで元動画を選択してください。バッチの場合は1本以上が必要です。再実行しても選択済みの動画で発生する場合は、使用したボタン名と選択状態のスクリーンショットを添えて報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000004.md:20
+#: ../../07_support/issues/FCS-10-02-000004.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000004.md:22
+#: ../../07_support/issues/FCS-10-02-000004.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "動画処理に必要な項目を入力してから、もう一度お試しください。"
+#~ msgstr ""
+
+#~ msgid "動画処理に必要なパラメーターがありません。video_pathsが空のリストの場合も実行できません。"
+#~ msgstr ""
+
+#~ msgid "単一動画の処理では動画を1本、バッチでは1本以上を選択してください。自動操作では単一処理にvideo_path、バッチに空でないvideo_pathsリストが必要です。空の選択の代わりに対応する引数を指定してください。"
+#~ msgstr ""
 

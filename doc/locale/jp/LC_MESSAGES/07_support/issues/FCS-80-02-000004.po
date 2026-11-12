@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,31 +27,29 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-80-02-000004.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-02-000004.md:10
-#: ../../07_support/issues/FCS-80-02-000004.md:18
-msgid "Mayaが見つかりません。設定でインストール先フォルダーを選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-02-000004.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-02-000004.md:14
+#: ../../07_support/issues/FCS-80-02-000004.md:10
 msgid "設定された場所または既定の場所に、選択したMayaを見つけられませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-02-000004.md:16
+#: ../../07_support/issues/FCS-80-02-000004.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-02-000004.md:20
+#: ../../07_support/issues/FCS-80-02-000004.md:14
+msgid "Mayaが見つかりません。設定でインストール先フォルダーを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-02-000004.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-02-000004.md:22
+#: ../../07_support/issues/FCS-80-02-000004.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
 

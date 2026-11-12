@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,46 +27,42 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-04-000003.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-04-000003.md:10
-msgid "キャラクターの作成を完了できませんでした。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-04-000003.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:14
-msgid "キャラクターの作成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+#: ../../07_support/issues/FCS-30-04-000003.md:10
+msgid "選択したアクター内に、新しいキャラクターを作成できませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:16
+#: ../../07_support/issues/FCS-30-04-000003.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:18
-msgid "以下の該当する条件を確認し、修正してからキャラクターの作成を再実行してください。"
+#: ../../07_support/issues/FCS-30-04-000003.md:14
+msgid "以下の説明で、選択したプロジェクト、アクター、新しいキャラクター名を確認してから再実行してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000003.md:16
+msgid "考えられる原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000003.md:22
+msgid "**選択したフォルダーがFCSプロジェクトではない**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-04-000003.md:24
-msgid "既存のプロジェクトフォルダーを選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-04-000003.md:26
 msgid "アクターの作成にはFCS、Facial、Facial/RecDataフォルダーを含むプロジェクトのルートが必要です。通常のファイルをフォルダーとして指定することもできません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:27
+#: ../../07_support/issues/FCS-30-04-000003.md:26
 msgid "FacialやFCSの内部ではなく、プロジェクトのルートを選択してください。新規プロジェクトはFCSの作成機能で必要なフォルダーを作成してください。既存プロジェクトで不足するフォルダーは、元のバックアップから復元してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:33
-msgid "ActorとCharacterに空白以外の名前を入力して、再実行してください。"
+#: ../../07_support/issues/FCS-30-04-000003.md:32
+msgid "**ActorまたはCharacterが空欄**"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:35
+#: ../../07_support/issues/FCS-30-04-000003.md:34
 msgid "ActorまたはCharacterの名前が空か、空白のみになっています。"
 msgstr ""
 
@@ -75,53 +71,90 @@ msgid "ActorとCharacterに空白以外の名前（例：Actor01、Character01�
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-04-000003.md:42
-#: ../../07_support/issues/FCS-30-04-000003.md:45
-msgid "アクターフォルダーが見つかりません。既存のアクターを選択するか、フォルダーを復元してください。"
+msgid "**アクターフォルダーが見つからない**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-04-000003.md:44
 msgid "プロジェクトのFCSフォルダー内に、選択したアクターのフォルダーがありません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:51
-#: ../../07_support/issues/FCS-30-04-000003.md:54
-msgid "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
+#: ../../07_support/issues/FCS-30-04-000003.md:46
+msgid "アクターフォルダーが見つかりません。既存のアクターを選択するか、フォルダーを復元してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:53
+#: ../../07_support/issues/FCS-30-04-000003.md:52
+msgid "**同じ名前のキャラクターが存在**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000003.md:54
 msgid "選択したアクター内に、同じ名前のキャラクターフォルダーが存在します。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:60
-msgid "キャラクターの作成で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+#: ../../07_support/issues/FCS-30-04-000003.md:56
+msgid "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-04-000003.md:62
+msgid "**FCSで予期しない障害が発生**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000003.md:64
 msgid "キャラクターの作成で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:63
+#: ../../07_support/issues/FCS-30-04-000003.md:66
 msgid ""
 "現在のセッションとキャラクターの作成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
 " Feedbackで報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-04-000003.md:69
 #: ../../07_support/issues/FCS-30-04-000003.md:72
-msgid ""
-"session.character.create の必須項目は project_folder, actor, character "
-"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-04-000003.md:71
-msgid "操作に必要なフィールドが指定されていません。"
+msgid "**新しいキャラクターの情報**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-04-000003.md:74
-msgid "[同じ種類の問題を見る](family-04.md)"
+msgid "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-04-000003.md:76
+msgid "プロジェクトとActorを選び、新しいCharacter名を入力してください。設定済みでも拒否される場合はセッションの作成画面を開き直し、問題を報告してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000003.md:79
+msgid "[同じ種類の問題を見る](family-04.md)"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-04-000003.md:81
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "キャラクターの作成を完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "キャラクターの作成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+#~ msgstr ""
+
+#~ msgid "以下の該当する条件を確認し、修正してからキャラクターの作成を再実行してください。"
+#~ msgstr ""
+
+#~ msgid "既存のプロジェクトフォルダーを選択してください。"
+#~ msgstr ""
+
+#~ msgid "ActorとCharacterに空白以外の名前を入力して、再実行してください。"
+#~ msgstr ""
+
+#~ msgid "キャラクターの作成で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "session.character.create の必須項目は project_folder, "
+#~ "actor, character "
+#~ "です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+#~ msgstr ""
+
+#~ msgid "操作に必要なフィールドが指定されていません。"
+#~ msgstr ""
 

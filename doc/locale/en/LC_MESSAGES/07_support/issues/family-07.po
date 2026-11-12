@@ -1,67 +1,194 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/family-07.md:4
 msgid "出力の不足"
 msgstr "Incomplete output"
 
+#: ../../07_support/issues/family-07.md:6
 msgid "[検索・種類の一覧に戻る](index.md)"
 msgstr "[Back to lookup and families](index.md)"
 
-msgid "コード"
-msgstr "Code"
-
-msgid "説明"
-msgstr "Description"
-
+#: ../../07_support/issues/family-07.md:8
 msgid "アプリケーションと設定"
 msgstr "Application and settings"
 
+#: ../../07_support/issues/family-07.md:10
+#: ../../07_support/issues/family-07.md:17
+#: ../../07_support/issues/family-07.md:23
+#: ../../07_support/issues/family-07.md:30
+msgid "コード"
+msgstr "Code"
+
+#: ../../07_support/issues/family-07.md:10
+#: ../../07_support/issues/family-07.md:17
+#: ../../07_support/issues/family-07.md:23
+#: ../../07_support/issues/family-07.md:30
+msgid "説明"
+msgstr "Description"
+
+#: ../../07_support/issues/family-07.md:10
+msgid "[FCS-10-07-000001](FCS-10-07-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:12
 msgid "要求された出力ファイルが存在しないか、空です。選択した出力先と書き込み権限を確認してから、その出力を再試行してください。出力済みのファイルは保持されています。"
-msgstr "A requested output file is missing or empty. Check the selected output destination and write access, then retry that output. Completed outputs have been kept."
+msgstr ""
+"A requested output file is missing or empty. Check the selected output "
+"destination and write access, then retry that output. Completed outputs "
+"have been kept."
 
+#: ../../07_support/issues/family-07.md:12
+msgid "[FCS-10-07-000003](FCS-10-07-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:13
 msgid "要求された出力を作成できませんでした。出力先と書き込み権限を確認してから再試行してください。解決しない場合は、このメッセージをコピーしてサポートにお問い合わせください。"
-msgstr "The requested output was not created. Check the output destination and write access, then retry. If it still fails, copy this message and contact support."
+msgstr ""
+"The requested output was not created. Check the output destination and "
+"write access, then retry. If it still fails, copy this message and "
+"contact support."
 
+#: ../../07_support/issues/family-07.md:15
 msgid "動画とメディア"
 msgstr "Video and media"
 
-msgid "メディアファイルを作成できませんでした。元動画を開けることと出力先フォルダーに書き込めることを確認し、必要に応じて共有ストレージに再接続してから再試行してください。"
-msgstr "Media output could not be created. Check that the source video opens and the output folder is writable, reconnect shared storage if needed, then retry."
+#: ../../07_support/issues/family-07.md:17
+msgid "[FCS-40-07-000001](FCS-40-07-000001.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-07.md:19
+msgid "メディアファイルを作成できませんでした。元動画を開けることと出力先フォルダーに書き込めることを確認し、必要に応じて共有ストレージに再接続してから再試行してください。"
+msgstr ""
+"Media output could not be created. Check that the source video opens and "
+"the output folder is writable, reconnect shared storage if needed, then "
+"retry."
+
+#: ../../07_support/issues/family-07.md:21
 msgid "処理と予測"
 msgstr "Processing and prediction"
 
+#: ../../07_support/issues/family-07.md:23
+msgid "[FCS-70-07-000001](FCS-70-07-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:25
+#, python-brace-format
 msgid "バッチ処理が完了していません。成功{completed}件、失敗{failed}件です。失敗した項目を確認し、報告された問題を修正してから、その項目を再試行してください。"
-msgstr "Batch incomplete: {completed} completed, {failed} failed. Review the failed items, correct their reported issues, and retry them."
+msgstr ""
+"Batch incomplete: {completed} completed, {failed} failed. Review the "
+"failed items, correct their reported issues, and retry them."
 
+#: ../../07_support/issues/family-07.md:25
+msgid "[FCS-70-07-000002](FCS-70-07-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:26
 msgid "一部の項目で失敗しました。対象の項目を確認して、もう一度お試しください。問題が続く場合はサポートにお問い合わせください。"
-msgstr "Some items failed. Check the affected items and try again. Contact support if this continues."
+msgstr ""
+"Some items failed. Check the affected items and try again. Contact "
+"support if this continues."
 
+#: ../../07_support/issues/family-07.md:28
 msgid "Maya・Blenderへの出力"
 msgstr "Maya and Blender delivery"
 
+#: ../../07_support/issues/family-07.md:30
+msgid "[FCS-80-07-000001](FCS-80-07-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:32
 msgid "要求された一部の出力を完了できませんでした。出力済みのファイルは保持されています。失敗した出力のメッセージを確認し、接続または出力先のアクセス権を修正してから再試行してください。"
-msgstr "Some requested outputs could not be delivered. Completed outputs have been kept. Review the failed output messages, correct their connection or destination access, and retry."
+msgstr ""
+"Some requested outputs could not be delivered. Completed outputs have "
+"been kept. Review the failed output messages, correct their connection or"
+" destination access, and retry."
 
+#: ../../07_support/issues/family-07.md:32
+msgid "[FCS-80-07-000002](FCS-80-07-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:33
 msgid "MayaまたはBlenderにアニメーションを反映できませんでした。FCSとの接続と選択したシーンを確認してから、アニメーションの反映を再試行してください。"
-msgstr "Animation could not be delivered to Maya or Blender. Check its FCS connection and the selected scene, then retry animation delivery."
+msgstr ""
+"Animation could not be delivered to Maya or Blender. Check its FCS "
+"connection and the selected scene, then retry animation delivery."
 
+#: ../../07_support/issues/family-07.md:33
+msgid "[FCS-80-07-000003](FCS-80-07-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:34
 msgid "音声を反映できませんでした。元動画の音声、出力先フォルダーの書き込み権限、MayaまたはBlenderとの接続を確認してから再試行してください。"
-msgstr "Audio could not be delivered. Check the source audio, output-folder write access, and the Maya or Blender connection, then retry."
+msgstr ""
+"Audio could not be delivered. Check the source audio, output-folder write"
+" access, and the Maya or Blender connection, then retry."
 
+#: ../../07_support/issues/family-07.md:34
+msgid "[FCS-80-07-000004](FCS-80-07-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:35
 msgid "動画フレームを反映できませんでした。元動画、出力先フォルダーの書き込み権限、MayaまたはBlenderとの接続を確認してから、Framesを再試行してください。"
-msgstr "Video frames could not be delivered. Check the source video, output-folder write access, and the Maya or Blender connection, then retry Frames."
+msgstr ""
+"Video frames could not be delivered. Check the source video, output-"
+"folder write access, and the Maya or Blender connection, then retry "
+"Frames."
 
+#: ../../07_support/issues/family-07.md:35
+msgid "[FCS-80-07-000005](FCS-80-07-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:36
 msgid "ランドマーク画像を反映できませんでした。元動画と出力先フォルダーの書き込み権限を確認し、対応しているランドマーク画像オプションで再試行してください。"
-msgstr "Landmark images could not be delivered. Check the source video and output-folder write access, then retry with a supported landmark-image option."
+msgstr ""
+"Landmark images could not be delivered. Check the source video and "
+"output-folder write access, then retry with a supported landmark-image "
+"option."
 
+#: ../../07_support/issues/family-07.md:36
+msgid "[FCS-80-07-000006](FCS-80-07-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:37
 msgid "要求された出力を確認できませんでした。出力先との接続と、選択した各出力が存在して開けることを確認し、不足している出力を再試行してください。"
-msgstr "Requested outputs could not be verified. Check the destination connection and that each selected output exists and opens, then retry any missing output."
+msgstr ""
+"Requested outputs could not be verified. Check the destination connection"
+" and that each selected output exists and opens, then retry any missing "
+"output."
 
+#: ../../07_support/issues/family-07.md:37
+msgid "[FCS-80-07-000007](FCS-80-07-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:38
+#, python-brace-format
 msgid "次の出力処理を完了できませんでした：{outputs}。出力済みのファイルを保持し、接続と出力先のアクセス権を確認してから、失敗した処理を再試行してください。"
-msgstr "Delivery steps could not complete: {outputs}. Keep completed outputs, check the connection and destination access, and retry the failed steps."
+msgstr ""
+"Delivery steps could not complete: {outputs}. Keep completed outputs, "
+"check the connection and destination access, and retry the failed steps."
 
+#: ../../07_support/issues/family-07.md:38
+msgid "[FCS-80-07-000008](FCS-80-07-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-07.md:39
 msgid "要求された出力処理を完了できませんでした。出力済みのファイルを保持し、このコードとログのメッセージをコピーしてサポートにお問い合わせください。復旧手順はヘルプで確認してください。"
-msgstr "A requested delivery step could not complete. Keep completed outputs, copy this code and the Log message to support, and open help for recovery steps."
+msgstr ""
+"A requested delivery step could not complete. Keep completed outputs, "
+"copy this code and the Log message to support, and open help for recovery"
+" steps."
+

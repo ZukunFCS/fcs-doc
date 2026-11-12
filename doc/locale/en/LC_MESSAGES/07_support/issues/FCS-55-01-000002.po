@@ -1,31 +1,68 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-55-01-000002.md:4
+msgid "FCS-55-01-000002"
+msgstr ""
 
+#: ../../07_support/issues/FCS-55-01-000002.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-01-000002.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-55-01-000002.md:10
+msgid "クリップボードから、現在のコントローラー表で使用できる上下限を取得できませんでした。"
+msgstr ""
+"The clipboard paste could not produce controller limits accepted by the "
+"current controller table."
+
+#: ../../07_support/issues/FCS-55-01-000002.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "クリップボードに有効なコントローラーデータがありません。コントローラーデータをコピーしてから、もう一度お試しください。"
-msgstr "The clipboard does not contain recognized controller data. Copy controller data and try again."
+#: ../../07_support/issues/FCS-55-01-000002.md:14
+msgid ""
+"既存のコントローラーから数値の上下限をコピーし、対象の行に貼り付けてください。テキスト形式は最小値,最大値,デフォルト値（例：0,1,0.5）です。最大値は最小値より"
+" 0.0001 以上大きくしてください。対応コントローラーの設定は別の種類のクリップボードデータです。"
+msgstr ""
+"Copy numeric limits from an existing controller, then paste onto the "
+"intended row. Plain-text limits use Minimum,Maximum,Default, for example "
+"0,1,0.5; Maximum must be at least 0.0001 above Minimum. The "
+"corresponding-controller mapping clipboard is a different kind of data."
 
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "クリップボードから、現在のコントローラー表で使用できる上下限を取得できませんでした。"
-msgstr "The clipboard paste could not produce controller limits accepted by the current controller table."
-
-msgid "既存のコントローラーから数値の上下限をコピーし、対象の行に貼り付けてください。テキスト形式は最小値,最大値,デフォルト値（例：0,1,0.5）です。最大値は最小値より 0.0001 以上大きくしてください。対応コントローラーの設定は別の種類のクリップボードデータです。"
-msgstr "Copy numeric limits from an existing controller, then paste onto the intended row. Plain-text limits use Minimum,Maximum,Default, for example 0,1,0.5; Maximum must be at least 0.0001 above Minimum. The corresponding-controller mapping clipboard is a different kind of data."
-
+#: ../../07_support/issues/FCS-55-01-000002.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-55-01-000002.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "クリップボードに有効なコントローラーデータがありません。コントローラーデータをコピーしてから、もう一度お試しください。"
+#~ msgstr ""
+#~ "The clipboard does not contain "
+#~ "recognized controller data. Copy controller"
+#~ " data and try again."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

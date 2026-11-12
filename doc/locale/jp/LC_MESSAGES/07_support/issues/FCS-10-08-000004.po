@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-10-08-000004.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-08-000004.md:10
-msgid "一部の動画フレームをスキップしました。アニメーションが不完全、または同期がずれている可能性があります。再発する場合はサポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-08-000004.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000004.md:14
+#: ../../07_support/issues/FCS-10-08-000004.md:10
 msgid "ネイティブ動画リーダーで一部のデコード済みフレームを転送できず、そのフレームが省略されました。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000004.md:16
+#: ../../07_support/issues/FCS-10-08-000004.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000004.md:18
+#: ../../07_support/issues/FCS-10-08-000004.md:14
 msgid "省略されたフレーム付近のアニメーションと元動画のタイミングを、使用前に比較してください。動画全体をローカルにコピーして再実行してください。同じフレームで失敗する場合は、元動画、FCSバージョン、ログを保持してください。修復や省略されたフレームが元動画と一致するとは判断しないでください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000004.md:20
+#: ../../07_support/issues/FCS-10-08-000004.md:17
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000004.md:22
+#: ../../07_support/issues/FCS-10-08-000004.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "一部の動画フレームをスキップしました。アニメーションが不完全、または同期がずれている可能性があります。再発する場合はサポートにお問い合わせください。"
+#~ msgstr ""
 

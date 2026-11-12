@@ -1,28 +1,58 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-80-08-000003.md:4
+msgid "FCS-80-08-000003"
+msgstr ""
 
+#: ../../07_support/issues/FCS-80-08-000003.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-08-000003.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-80-08-000003.md:10
+msgid "アニメーションの出力は続行しましたが、指定したシーンのタイミング設定を適用できませんでした。"
+msgstr ""
+"Animation delivery continued, but the requested scene timing "
+"configuration could not be applied."
+
+#: ../../07_support/issues/FCS-80-08-000003.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-80-08-000003.md:14
 msgid "シーンの時間設定を更新できませんでした。アニメーションを使用する前にシーンのフレームレートと範囲を確認し、MayaまたはBlenderに再接続してから再試行してください。"
-msgstr "Scene timing could not be updated. Check the scene frame rate and range before using the animation; reconnect Maya or Blender and retry."
+msgstr ""
+"Scene timing could not be updated. Check the scene frame rate and range "
+"before using the animation; reconnect Maya or Blender and retry."
 
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "アニメーションの出力は続行しましたが、指定したシーンのタイミング設定を適用できませんでした。"
-msgstr "Animation delivery continued, but the requested scene timing configuration could not be applied."
-
+#: ../../07_support/issues/FCS-80-08-000003.md:17
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr "[Browse this family](family-08.md)"
 
+#: ../../07_support/issues/FCS-80-08-000003.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

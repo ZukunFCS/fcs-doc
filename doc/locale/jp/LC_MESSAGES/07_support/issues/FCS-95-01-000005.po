@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,122 +27,145 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-95-01-000005.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-95-01-000005.md:10
-msgid "セッションをエクスポートできませんでした。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-95-01-000005.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:14
+#: ../../07_support/issues/FCS-95-01-000005.md:10
 msgid "セッションをコピーする前に、保存先、Actor、Character、対象動画、変更先DCCのシーンを検証します。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:16
+#: ../../07_support/issues/FCS-95-01-000005.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:18
+#: ../../07_support/issues/FCS-95-01-000005.md:14
 msgid "以下の該当する項目を確認し、エクスポート設定を修正してからExportを再実行してください。現在のセッションがコピー元です。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:24
-#: ../../07_support/issues/FCS-95-01-000005.md:26
-#: ../../07_support/issues/FCS-95-01-000005.md:27
+#: ../../07_support/issues/FCS-95-01-000005.md:16
+msgid "考えられる原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:22
+msgid "**エクスポート情報の不足**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:25
 msgid ""
 "エクスポート先を選び、ActorとCharacterの両方を入力してください。保存先は エクスポート先/FCS/Actor/Character "
 "になります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:33
-#: ../../07_support/issues/FCS-95-01-000005.md:35
-#: ../../07_support/issues/FCS-95-01-000005.md:36
+#: ../../07_support/issues/FCS-95-01-000005.md:31
+msgid "**現在のセッションと保存先が重複**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:34
 msgid "保存先のキャラクターフォルダーは現在のキャラクターフォルダーの外側にしてください。同じ場所、その親フォルダー、その内部は使用できません。エクスポート先、Actor、Characterのいずれかを変更してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:42
-#: ../../07_support/issues/FCS-95-01-000005.md:44
-#: ../../07_support/issues/FCS-95-01-000005.md:45
+#: ../../07_support/issues/FCS-95-01-000005.md:40
+msgid "**保存先に同じキャラクターが存在**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:43
 msgid "保存先に同じキャラクターフォルダーがあります。別の保存先またはキャラクター名を選んでください。置き換える場合は、既存のキャラクターをバックアップし、置き換える対象を確認してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:51
-#: ../../07_support/issues/FCS-95-01-000005.md:53
-#: ../../07_support/issues/FCS-95-01-000005.md:54
+#: ../../07_support/issues/FCS-95-01-000005.md:49
+msgid "**動画の保存先が現在のプロジェクトと重複**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:52
 msgid ""
 "Associated videos または All files "
 "を選択した場合、現在のプロジェクトとは別のフォルダーに出力してください。元動画のコピーが不要な場合は No video を選べます。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:60
-#: ../../07_support/issues/FCS-95-01-000005.md:62
-#: ../../07_support/issues/FCS-95-01-000005.md:63
-msgid ""
-"Associated videos と All files では、登録された場所に元動画が必要です。元ファイルを復元するか、Video "
-"Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video を選択してください。"
+#: ../../07_support/issues/FCS-95-01-000005.md:58
+msgid "**元動画が見つからない**"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:69
-#: ../../07_support/issues/FCS-95-01-000005.md:71
-#: ../../07_support/issues/FCS-95-01-000005.md:72
+#: ../../07_support/issues/FCS-95-01-000005.md:61
 msgid ""
-"All files では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo "
-"Libraryのパスを更新するか、Associated videos を選択してください。"
+"Associated videos と All files "
+"では、登録された場所に元動画が必要です。元ファイルを復元するか、動画ライブラリでパスを更新してから再実行してください。動画のコピーが不要な場合に限り"
+" No video を選択してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:78
-#: ../../07_support/issues/FCS-95-01-000005.md:80
-#: ../../07_support/issues/FCS-95-01-000005.md:81
+#: ../../07_support/issues/FCS-95-01-000005.md:67
+msgid "**異なる動画のファイル名が重複**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:70
+msgid ""
+"All files "
+"では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にして動画ライブラリのパスを更新するか、Associated"
+" videos を選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:76
+msgid "**Mayaシーンを開けない**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:79
 msgid ""
 "エクスポート先のDCCをMayaに変更する場合、既存の .ma または .mb "
 "シーンを選択してください。拡張子は小文字にしてください。相対パスはエクスポート先を基準に解決されます。シーンを復元するか、実際の場所を選択してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:87
-#: ../../07_support/issues/FCS-95-01-000005.md:89
-#: ../../07_support/issues/FCS-95-01-000005.md:90
+#: ../../07_support/issues/FCS-95-01-000005.md:85
+msgid "**Mayaプロジェクトフォルダーを使用できない**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:88
 msgid "Mayaに変更する場合、既存のMayaワークスペースフォルダーを選択してください。シーンファイルではなくフォルダーを指定してください。ドライブが使用できない場合は再接続してから選び直してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:96
-#: ../../07_support/issues/FCS-95-01-000005.md:98
-#: ../../07_support/issues/FCS-95-01-000005.md:99
+#: ../../07_support/issues/FCS-95-01-000005.md:94
+msgid "**Blenderシーンを開けない**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:97
 msgid ""
 "エクスポート先のDCCをBlenderに変更する場合、既存の .blend "
 "シーンを選択してください。拡張子の大文字・小文字は区別しません。相対パスはエクスポート先を基準に解決されます。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:105
-#: ../../07_support/issues/FCS-95-01-000005.md:107
-#: ../../07_support/issues/FCS-95-01-000005.md:108
+#: ../../07_support/issues/FCS-95-01-000005.md:103
+msgid "**保存されたアプリの選択を使用できない**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000005.md:106
 msgid "エクスポートするセッションのDCCはMayaまたはBlenderを選択してください。他のDCCは使用できません。"
 msgstr ""
 
+#: ../../07_support/issues/FCS-95-01-000005.md:112
+#: ../../07_support/issues/FCS-95-01-000005.md:122
+msgid "**エクスポート設定**"
+msgstr ""
+
 #: ../../07_support/issues/FCS-95-01-000005.md:114
-#: ../../07_support/issues/FCS-95-01-000005.md:117
-msgid ""
-"export.session の必須項目は output_dest, actor, character "
-"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+#: ../../07_support/issues/FCS-95-01-000005.md:124
+msgid "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/FCS-95-01-000005.md:116
-#: ../../07_support/issues/FCS-95-01-000005.md:125
-msgid "操作に必要なフィールドが指定されていません。"
+msgid ""
+"Export "
+"Sessionで保存先を選び、ActorとCharacterを入力してから再実行してください。入力済みだった場合は出力画面を開き直し、再発する場合は報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:123
 #: ../../07_support/issues/FCS-95-01-000005.md:126
 msgid ""
-"export.session.validate の必須項目は output_dest, actor, character "
-"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+"Export "
+"Sessionで保存先を選び、ActorとCharacterを入力してください。入力済みでも拒否される場合は画面を開き直し、スクリーンショットを添えて報告してください。"
 msgstr ""
 
 #: ../../07_support/issues/FCS-95-01-000005.md:132
-#: ../../07_support/issues/FCS-95-01-000005.md:134
+msgid "**Mayaのバージョンが非対応**"
+msgstr ""
+
 #: ../../07_support/issues/FCS-95-01-000005.md:135
 msgid ""
 "Maya用の出力では、対応する4桁の年 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 "
@@ -150,18 +173,53 @@ msgid ""
 msgstr ""
 
 #: ../../07_support/issues/FCS-95-01-000005.md:141
-#: ../../07_support/issues/FCS-95-01-000005.md:143
+msgid "**Blenderのバージョンが非対応**"
+msgstr ""
+
 #: ../../07_support/issues/FCS-95-01-000005.md:144
 msgid ""
 "Blender用の出力では、対応するメジャー.マイナーバージョン 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 "
 "から選択してください。例えば4.5.0ではなく4.5を指定してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:146
+#: ../../07_support/issues/FCS-95-01-000005.md:147
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-95-01-000005.md:148
+#: ../../07_support/issues/FCS-95-01-000005.md:149
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "セッションをエクスポートできませんでした。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Associated videos と All files "
+#~ "では、登録された場所に元動画が必要です。元ファイルを復元するか、Video "
+#~ "Libraryでパスを更新してから再実行してください。動画のコピーが不要な場合に限り No video "
+#~ "を選択してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "All files "
+#~ "では、同じファイル名の異なる動画を1つの保存先にコピーできません。元ファイルを別々の名前にしてVideo "
+#~ "Libraryのパスを更新するか、Associated videos を選択してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "export.session の必須項目は output_dest, actor, "
+#~ "character です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+#~ msgstr ""
+
+#~ msgid "操作に必要なフィールドが指定されていません。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "export.session.validate の必須項目は output_dest, actor,"
+#~ " character "
+#~ "です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-60-08-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-60-08-000001.md:10
-msgid "ニュートラルのプロファイルが選択されていません。最初のプロファイルをニュートラルとして使用します。リラックスした表情であることを確認してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-60-08-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-08-000001.md:14
+#: ../../07_support/issues/FCS-60-08-000001.md:10
 msgid "ニュートラルが明示的に選択されていないため、最初のプロファイルを基準に学習しました。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-08-000001.md:16
+#: ../../07_support/issues/FCS-60-08-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-08-000001.md:18
+#: ../../07_support/issues/FCS-60-08-000001.md:14
 msgid "最初のプロファイルがリラックスしたニュートラルの顔か確認してください。異なる場合は正しいニュートラルを明示的に選択し、ソルバーを使用する前に再学習してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-08-000001.md:20
+#: ../../07_support/issues/FCS-60-08-000001.md:17
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-08-000001.md:22
+#: ../../07_support/issues/FCS-60-08-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "ニュートラルのプロファイルが選択されていません。最初のプロファイルをニュートラルとして使用します。リラックスした表情であることを確認してください。"
+#~ msgstr ""
 

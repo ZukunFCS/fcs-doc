@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,32 +27,30 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-10-08-000001.md:8
-msgid "メッセージ"
+msgid "原因"
 msgstr ""
 
 #: ../../07_support/issues/FCS-10-08-000001.md:10
-#: ../../07_support/issues/FCS-10-08-000001.md:18
+msgid "各工程の少なくとも1つで制限が報告された状態で、操作が完了しました。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000001.md:12
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000001.md:14
 #, python-brace-format
 msgid "{action}：制限付きで完了しました。関連する警告を確認し、問題を解決してから対象の結果を使用してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000001.md:12
-msgid "原因"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-08-000001.md:14
-msgid "各工程の少なくとも1つで制限が報告された状態で、操作が完了しました。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-08-000001.md:16
-msgid "対処方法"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-08-000001.md:20
+#: ../../07_support/issues/FCS-10-08-000001.md:17
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000001.md:22
+#: ../../07_support/issues/FCS-10-08-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
 

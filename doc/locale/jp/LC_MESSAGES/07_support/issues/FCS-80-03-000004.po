@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,41 +27,39 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-80-03-000004.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-03-000004.md:10
-#: ../../07_support/issues/FCS-80-03-000004.md:18
-msgid "タイムラインの同期が停止しました。MayaまたはBlenderに再接続してから、同期を有効にし直してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-03-000004.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-03-000004.md:14
+#: ../../07_support/issues/FCS-80-03-000004.md:10
 msgid "現在のDCC接続では、指定したタイムラインの同期を完了できませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-03-000004.md:16
+#: ../../07_support/issues/FCS-80-03-000004.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-03-000004.md:19
+#: ../../07_support/issues/FCS-80-03-000004.md:14
+msgid "タイムラインの同期が停止しました。MayaまたはBlenderに再接続してから、同期を有効にし直してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-03-000004.md:15
 msgid "未保存の作業と出力済みのファイルを保持してください。表示されたコードとログのメッセージをコピーし、操作内容、時刻、FCSバージョン、対象の入力を記録してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-03-000004.md:20
+#: ../../07_support/issues/FCS-80-03-000004.md:16
 msgid ""
 "指定された確認後も同じ操作で失敗する場合は、これらの情報を添えてBug "
 "Feedbackから報告してください。ローカルに保存された報告は、サーバーへの送信完了を意味しません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-03-000004.md:22
+#: ../../07_support/issues/FCS-80-03-000004.md:19
 msgid "[同じ種類の問題を見る](family-03.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-03-000004.md:24
+#: ../../07_support/issues/FCS-80-03-000004.md:21
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
 

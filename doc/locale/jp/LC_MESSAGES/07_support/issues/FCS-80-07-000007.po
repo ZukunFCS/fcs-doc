@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,42 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-80-07-000007.md:8
-msgid "メッセージ"
+msgid "原因"
 msgstr ""
 
 #: ../../07_support/issues/FCS-80-07-000007.md:10
-#: ../../07_support/issues/FCS-80-07-000007.md:18
+msgid "アプリに表示された出力工程が失敗しました。すでに完了した工程の出力は破棄していません。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-07-000007.md:12
+msgid "対処方法"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-07-000007.md:14
 #, python-brace-format
 msgid "次の出力処理を完了できませんでした：{outputs}。出力済みのファイルを保持し、接続と出力先のアクセス権を確認してから、失敗した処理を再試行してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-07-000007.md:12
-msgid "原因"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-07-000007.md:14
-msgid "アプリに表示された出力工程が失敗しました。すでに完了した工程の出力は破棄していません。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-07-000007.md:16
-msgid "対処方法"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-07-000007.md:19
+#: ../../07_support/issues/FCS-80-07-000007.md:15
 msgid "未保存の作業と出力済みのファイルを保持してください。表示されたコードとログのメッセージをコピーし、操作内容、時刻、FCSバージョン、対象の入力を記録してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-07-000007.md:20
+#: ../../07_support/issues/FCS-80-07-000007.md:16
 msgid ""
 "指定された確認後も同じ操作で失敗する場合は、これらの情報を添えてBug "
 "Feedbackから報告してください。ローカルに保存された報告は、サーバーへの送信完了を意味しません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-07-000007.md:22
+#: ../../07_support/issues/FCS-80-07-000007.md:19
 msgid "[同じ種類の問題を見る](family-07.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-07-000007.md:24
+#: ../../07_support/issues/FCS-80-07-000007.md:21
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
 

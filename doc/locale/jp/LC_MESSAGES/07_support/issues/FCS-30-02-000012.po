@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,37 +27,35 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-02-000012.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-02-000012.md:10
-msgid "アクターとキャラクターが設定された完全なセッションを開いてから続行してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-02-000012.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000012.md:14
+#: ../../07_support/issues/FCS-30-02-000012.md:10
 msgid "セッションのキャラクターの場所が未設定のため、RetargetDataフォルダーを特定できません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000012.md:16
+#: ../../07_support/issues/FCS-30-02-000012.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000012.md:18
+#: ../../07_support/issues/FCS-30-02-000012.md:14
 msgid ""
 "プロジェクト、Actor、Characterが設定されたセッションを開いてください。キャラクターデータは "
 "プロジェクト/FCS/Actor/Character "
 "にあり、その下にRetargetDataがあります。対象のキャラクターを開いてからプロファイル操作を再実行してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000012.md:20
+#: ../../07_support/issues/FCS-30-02-000012.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000012.md:22
+#: ../../07_support/issues/FCS-30-02-000012.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "アクターとキャラクターが設定された完全なセッションを開いてから続行してください。"
+#~ msgstr ""
 

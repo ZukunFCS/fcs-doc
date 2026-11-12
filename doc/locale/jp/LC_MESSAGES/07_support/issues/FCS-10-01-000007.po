@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,34 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-10-01-000007.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000007.md:10
-msgid "エクスポート先を選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000007.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000007.md:14
+#: ../../07_support/issues/FCS-10-01-000007.md:10
 msgid "セッション、シーン、またはプレイブラストの保存先が未指定です。セッションのエクスポートではActorとCharacterも必要です。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000007.md:16
+#: ../../07_support/issues/FCS-10-01-000007.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000007.md:18
+#: ../../07_support/issues/FCS-10-01-000007.md:14
 msgid ""
 "セッションのエクスポートでは保存先フォルダーを選び、ActorとCharacterを入力してください。Scene "
 "exportまたはPlayblastでは、その出力の設定で保存先を選択してから、同じ出力を再実行してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000007.md:20
+#: ../../07_support/issues/FCS-10-01-000007.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000007.md:22
+#: ../../07_support/issues/FCS-10-01-000007.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "エクスポート先を選択してください。"
+#~ msgstr ""
 

@@ -1,31 +1,63 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-10-02-000004.md:4
+msgid "FCS-10-02-000004"
+msgstr ""
 
+#: ../../07_support/issues/FCS-10-02-000004.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-02-000004.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-10-02-000004.md:10
+msgid "処理には元動画の選択が必要です。開始時にFCSが選択内容を保持できなかった可能性もあります。"
+msgstr ""
+"Processing needs a selected source video. FCS may also have lost an "
+"existing selection while starting the action."
+
+#: ../../07_support/issues/FCS-10-02-000004.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "処理対象の動画をFCSが受け取れませんでした。"
-msgstr "FCS did not receive a video selection for processing."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "処理には元動画の選択が必要です。開始時にFCSが選択内容を保持できなかった可能性もあります。"
-msgstr "Processing needs a selected source video. FCS may also have lost an existing selection while starting the action."
-
+#: ../../07_support/issues/FCS-10-02-000004.md:14
 msgid "動画ライブラリで元動画を選択してください。バッチの場合は1本以上が必要です。再実行しても選択済みの動画で発生する場合は、使用したボタン名と選択状態のスクリーンショットを添えて報告してください。"
-msgstr "Select the source video in Video Library; for a batch, select at least one video. Start processing again. If a selected video still produces this error, report the button you used and include a screenshot of the selection."
+msgstr ""
+"Select the source video in Video Library; for a batch, select at least "
+"one video. Start processing again. If a selected video still produces "
+"this error, report the button you used and include a screenshot of the "
+"selection."
 
+#: ../../07_support/issues/FCS-10-02-000004.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr "[Browse this family](family-02.md)"
 
+#: ../../07_support/issues/FCS-10-02-000004.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "処理対象の動画をFCSが受け取れませんでした。"
+#~ msgstr "FCS did not receive a video selection for processing."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-99-000004.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-99-000004.md:10
-msgid "プロファイルは保存しましたが、次の操作を完了できませんでした。サポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-99-000004.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-99-000004.md:14
+#: ../../07_support/issues/FCS-50-99-000004.md:10
 msgid "プロファイルの保存後、続く操作でエラーが発生しました。その操作を再実行するために、プロファイルを保存し直す必要はありません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-99-000004.md:16
+#: ../../07_support/issues/FCS-50-99-000004.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-99-000004.md:18
+#: ../../07_support/issues/FCS-50-99-000004.md:14
 msgid "Galleryでプロファイルを確認してください。保存自体は完了しています。続く別のプロファイルを開く、編集画面を閉じるなどの操作について、関連するエラーを確認してから再実行してください。再発する場合は保存済みプロファイルとログを保持してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-99-000004.md:20
+#: ../../07_support/issues/FCS-50-99-000004.md:17
 msgid "[同じ種類の問題を見る](family-99.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-99-000004.md:22
+#: ../../07_support/issues/FCS-50-99-000004.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "プロファイルは保存しましたが、次の操作を完了できませんでした。サポートにお問い合わせください。"
+#~ msgstr ""
 

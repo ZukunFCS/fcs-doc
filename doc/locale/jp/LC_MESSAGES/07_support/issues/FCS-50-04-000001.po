@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,37 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-04-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-04-000001.md:10
-msgid "プロファイルを保存できませんでした。編集中の内容は残っています。サポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-04-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000001.md:14
+#: ../../07_support/issues/FCS-50-04-000001.md:10
 msgid "編集したプロファイルの保存に失敗しました。修正して再度保存できるよう、編集画面に下書きを保持しています。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000001.md:16
+#: ../../07_support/issues/FCS-50-04-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000001.md:18
-msgid ""
-"下書きを保持するため、Profile "
-"Editorを開いたままにしてください。プロファイル名、元画像、現在のコントローラーデータと、プロジェクトへの書き込み権限を確認して再度Saveしてください。再発する場合は再起動前に前後のログをコピーしてください。画面を閉じると未保存の編集内容を失う可能性があります。"
+#: ../../07_support/issues/FCS-50-04-000001.md:14
+msgid "下書きを保持するため、エディタを開いたままにしてください。プロファイル名、元画像、現在のコントローラーデータと、プロジェクトへの書き込み権限を確認して再度Saveしてください。再発する場合は再起動前に前後のログをコピーしてください。画面を閉じると未保存の編集内容を失う可能性があります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000001.md:20
+#: ../../07_support/issues/FCS-50-04-000001.md:17
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000001.md:22
+#: ../../07_support/issues/FCS-50-04-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "プロファイルを保存できませんでした。編集中の内容は残っています。サポートにお問い合わせください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "下書きを保持するため、Profile "
+#~ "Editorを開いたままにしてください。プロファイル名、元画像、現在のコントローラーデータと、プロジェクトへの書き込み権限を確認して再度Saveしてください。再発する場合は再起動前に前後のログをコピーしてください。画面を閉じると未保存の編集内容を失う可能性があります。"
+#~ msgstr ""
 

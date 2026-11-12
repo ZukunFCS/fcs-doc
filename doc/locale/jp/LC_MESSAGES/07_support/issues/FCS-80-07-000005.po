@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,31 +27,29 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-80-07-000005.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-07-000005.md:10
-#: ../../07_support/issues/FCS-80-07-000005.md:18
-msgid "ランドマーク画像を反映できませんでした。元動画と出力先フォルダーの書き込み権限を確認し、対応しているランドマーク画像オプションで再試行してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-07-000005.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-07-000005.md:14
+#: ../../07_support/issues/FCS-80-07-000005.md:10
 msgid "ランドマーク画像の出力処理が完了する前に失敗しました。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-07-000005.md:16
+#: ../../07_support/issues/FCS-80-07-000005.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-07-000005.md:20
+#: ../../07_support/issues/FCS-80-07-000005.md:14
+msgid "ランドマーク画像を反映できませんでした。元動画と出力先フォルダーの書き込み権限を確認し、対応しているランドマーク画像オプションで再試行してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-07-000005.md:17
 msgid "[同じ種類の問題を見る](family-07.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-07-000005.md:22
+#: ../../07_support/issues/FCS-80-07-000005.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
 

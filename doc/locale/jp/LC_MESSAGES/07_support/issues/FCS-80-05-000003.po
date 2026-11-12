@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,44 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-80-05-000003.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-05-000003.md:10
-msgid "設定で対応しているMayaのバージョンを選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-05-000003.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-05-000003.md:14
-msgid "選択したMayaバージョンが対応するバージョン識別子に含まれていません。"
+#: ../../07_support/issues/FCS-80-05-000003.md:10
+msgid "セッションまたはアプリの選択が、このFCSビルドで使用できないMayaバージョンを参照しています。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-05-000003.md:16
+#: ../../07_support/issues/FCS-80-05-000003.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-05-000003.md:18
+#: ../../07_support/issues/FCS-80-05-000003.md:14
 msgid ""
-"Mayaのバージョンは 2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 "
-"から選択してください。製品名や小数ではなく、2026のような4桁の年を指定してください。"
+"実際にインストールされているMayaバージョンを確認し、セッションまたはアプリの設定で選択してください。このFCSビルドの対応バージョンは "
+"2018, 2020, 2022, 2023, 2024, 2025, 2026, 2027 "
+"です。非対応のバージョンを使用している場合は、対応するFCSビルドを使用するか、管理者に対応バージョンの導入を相談してください。FCSに表示されたバージョンでも失敗する場合は、そのバージョンとFCSバージョンを報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-05-000003.md:20
+#: ../../07_support/issues/FCS-80-05-000003.md:17
 msgid "[同じ種類の問題を見る](family-05.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-05-000003.md:22
+#: ../../07_support/issues/FCS-80-05-000003.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "設定で対応しているMayaのバージョンを選択してください。"
+#~ msgstr ""
+
+#~ msgid "選択したMayaバージョンが対応するバージョン識別子に含まれていません。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mayaのバージョンは 2018, 2020, 2022, 2023, "
+#~ "2024, 2025, 2026, 2027 "
+#~ "から選択してください。製品名や小数ではなく、2026のような4桁の年を指定してください。"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,31 +27,37 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-80-01-000013.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-01-000013.md:10
-#: ../../07_support/issues/FCS-80-01-000013.md:18
-msgid "このセッションで選択されているレンダラーのシーン設定を指定してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-01-000013.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-01-000013.md:14
-msgid "現在のセッションで選択されているDCCとは異なるDCC用のシーン設定が指定されています。"
+#: ../../07_support/issues/FCS-80-01-000013.md:10
+msgid "セッションのシーン設定が、選択したアプリと一致していません。移動したセッションや以前の設定で発生する場合があります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-01-000013.md:16
+#: ../../07_support/issues/FCS-80-01-000013.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-01-000013.md:20
+#: ../../07_support/issues/FCS-80-01-000013.md:14
+msgid ""
+"セッションのバックアップを保持してください。［ファイル］→［セッション］→［情報...］で、選択したアプリとシーンが対応していることを確認してください。表示内容が正しいのに拒否される場合はBug"
+" Feedbackで報告してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-01-000013.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-01-000013.md:22
+#: ../../07_support/issues/FCS-80-01-000013.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "このセッションで選択されているレンダラーのシーン設定を指定してください。"
+#~ msgstr ""
+
+#~ msgid "現在のセッションで選択されているDCCとは異なるDCC用のシーン設定が指定されています。"
+#~ msgstr ""
 

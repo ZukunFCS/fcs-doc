@@ -1,31 +1,61 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-40-01-000010.md:4
+msgid "FCS-40-01-000010"
+msgstr ""
 
+#: ../../07_support/issues/FCS-40-01-000010.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000010.md:8
 msgid "原因"
 msgstr "Why this happens"
 
-msgid "対処方法"
-msgstr "How to resolve it"
-
-msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
-msgstr "The selected video has no readable frames. Choose a valid video file."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
+#: ../../07_support/issues/FCS-40-01-000010.md:10
 msgid "選択されたファイルから動画フレームを読み取れませんでした。"
 msgstr "The selected file yielded zero readable video frames."
 
-msgid "コピーや録画の完了と、動画全体をプレーヤーで再生できることを確認してください。完全な元動画を選択するか、コピーを再エンコードしてください。再生できる動画でも読み取れない場合は、元ファイルをサポート用に保持してください。"
-msgstr "Check that copying or recording has finished and the complete file plays in a media player. Choose the complete original video or re-encode a copy. Keep the original for support if a playable file still cannot be read."
+#: ../../07_support/issues/FCS-40-01-000010.md:12
+msgid "対処方法"
+msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-40-01-000010.md:14
+msgid "コピーや録画の完了と、動画全体をプレーヤーで再生できることを確認してください。完全な元動画を選択するか、コピーを再エンコードしてください。再生できる動画でも読み取れない場合は、元ファイルをサポート用に保持してください。"
+msgstr ""
+"Check that copying or recording has finished and the complete file plays "
+"in a media player. Choose the complete original video or re-encode a "
+"copy. Keep the original for support if a playable file still cannot be "
+"read."
+
+#: ../../07_support/issues/FCS-40-01-000010.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-40-01-000010.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
+#~ msgstr "The selected video has no readable frames. Choose a valid video file."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

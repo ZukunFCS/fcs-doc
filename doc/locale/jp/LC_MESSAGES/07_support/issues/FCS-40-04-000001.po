@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,43 +27,42 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-04-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-04-000001.md:10
-msgid "動画のインポートを完了できませんでした。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-04-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:14
-msgid "動画のインポートには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+#: ../../07_support/issues/FCS-40-04-000001.md:10
+msgid "選択した動画をセッションに追加できませんでした。ファイルの欠落、非対応の形式、動画の読み取り不能などでインポートできない場合があります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:16
+#: ../../07_support/issues/FCS-40-04-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:18
-msgid "以下の該当する条件を確認し、修正してから動画のインポートを再実行してください。"
+#: ../../07_support/issues/FCS-40-04-000001.md:14
+msgid "以下の該当する条件を修正してから再実行してください。再生可能な動画でも失敗する場合は、元の動画を保持してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000001.md:16
+msgid "考えられる原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000001.md:22
+msgid "**動画ファイルが見つからない**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-04-000001.md:24
-#: ../../07_support/issues/FCS-40-04-000001.md:27
-msgid "動画が見つかりません。インポートする既存の動画ファイルを選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-04-000001.md:26
 msgid "インポート元の動画のパスが存在しません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:33
-msgid "動画の拡張子は .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts のいずれかを使用してください。"
+#: ../../07_support/issues/FCS-40-04-000001.md:26
+msgid "動画が見つかりません。インポートする既存の動画ファイルを選択してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:35
+#: ../../07_support/issues/FCS-40-04-000001.md:32
+msgid "**動画の形式が非対応**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000001.md:34
 msgid "元ファイルの拡張子が、FCSで対応する動画コンテナーの拡張子ではありません。"
 msgstr ""
 
@@ -74,90 +73,135 @@ msgid ""
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-04-000001.md:42
-msgid "動画と親フォルダーを移動または名前変更し、フルパスにASCII文字だけが含まれるようにしてから、再インポートしてください。"
+msgid "**動画のパスにASCII以外の文字がある**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-04-000001.md:44
 msgid "動画のフルパスにASCII以外の文字が含まれています。親フォルダー名とファイル名の両方が検証されます。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:45
+#: ../../07_support/issues/FCS-40-04-000001.md:46
 msgid "動画を、全体がASCII文字のパスに移動またはコピーしてください（例：C:/FCSProject/Facial/RecData/take01.mp4）。名前には英数字、ハイフン、アンダースコアを使用し、空白を含めないでください。親フォルダーが非ASCIIの場合、ファイル名だけ変更しても解決しません。移動先からインポートしてください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:51
-msgid "動画または親フォルダーの名前を変更し、フルパスからスペースなどの空白文字を除いてから、再インポートしてください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-04-000001.md:53
-msgid "動画のフルパスのどこかに、スペースやタブなどの空白文字が含まれています。"
+#: ../../07_support/issues/FCS-40-04-000001.md:52
+msgid "**動画のパスに空白がある**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-04-000001.md:54
+msgid "動画のフルパスのどこかに、スペースやタブなどの空白文字が含まれています。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000001.md:56
 msgid ""
 "動画のファイル名とすべての親フォルダーから空白を除去してください。例えばC:/FCS Project/RecData/take "
 "01.mp4ではなく、C:/FCSProject/RecData/take_01.mp4を使用してください。名前を変更またはコピーした動画を再度インポートしてください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:60
-#: ../../07_support/issues/FCS-40-04-000001.md:69
-msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
+#: ../../07_support/issues/FCS-40-04-000001.md:62
+msgid "**動画を読み取れない**"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:62
+#: ../../07_support/issues/FCS-40-04-000001.md:64
 msgid "選択した動画から有効なフレーム数とメタデータを読み取れませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:63
+#: ../../07_support/issues/FCS-40-04-000001.md:66
 msgid "動画のコピーや録画が完了し、プレーヤーで最後まで再生できることを確認してください。完全な元ファイルを選択してください。元動画が再生できてもFCSで読めない場合はコピーを再エンコードし、元ファイルをサポート用に保持してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:71
+#: ../../07_support/issues/FCS-40-04-000001.md:72
+msgid "**動画フレームを読み取れない**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000001.md:74
 msgid "選択されたファイルから動画フレームを読み取れませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:72
+#: ../../07_support/issues/FCS-40-04-000001.md:76
 msgid "コピーや録画の完了と、動画全体をプレーヤーで再生できることを確認してください。完全な元動画を選択するか、コピーを再エンコードしてください。再生できる動画でも読み取れない場合は、元ファイルをサポート用に保持してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:78
-msgid "動画のインポートで予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+#: ../../07_support/issues/FCS-40-04-000001.md:82
+msgid "**FCSで予期しない障害が発生**"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:80
+#: ../../07_support/issues/FCS-40-04-000001.md:84
 msgid "動画のインポートで、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:81
+#: ../../07_support/issues/FCS-40-04-000001.md:86
 msgid ""
 "現在のセッションと動画のインポートで作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
 " Feedbackで報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:87
-#: ../../07_support/issues/FCS-40-04-000001.md:90
-msgid ""
-"video.import の必須項目は video_paths "
-"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+#: ../../07_support/issues/FCS-40-04-000001.md:92
+msgid "**動画の選択**"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:89
-#: ../../07_support/issues/FCS-40-04-000001.md:98
-msgid "操作に必要なフィールドが指定されていません。"
+#: ../../07_support/issues/FCS-40-04-000001.md:94
+#: ../../07_support/issues/FCS-40-04-000001.md:104
+msgid "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-04-000001.md:96
-#: ../../07_support/issues/FCS-40-04-000001.md:99
-msgid ""
-"video.import.preview の必須項目は video_path "
-"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+msgid "インポート画面で既存の動画を1本以上選択して確定してください。ファイルを選択しても再発する場合は、画面を開き直してから問題を報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:101
+#: ../../07_support/issues/FCS-40-04-000001.md:102
+msgid "**動画のプレビュー**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000001.md:106
+msgid "インポート画面で元動画を選び直してください。選択済みで再生可能な動画でもプレビューが開かない場合は、動画の形式とFCSバージョンを添えて報告してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-04-000001.md:109
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-04-000001.md:103
+#: ../../07_support/issues/FCS-40-04-000001.md:111
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "動画のインポートを完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "動画のインポートには複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+#~ msgstr ""
+
+#~ msgid "以下の該当する条件を確認し、修正してから動画のインポートを再実行してください。"
+#~ msgstr ""
+
+#~ msgid "動画の拡張子は .avi, .m2ts, .m4v, .mkv, .mov, .mp4, .mts, .ts のいずれかを使用してください。"
+#~ msgstr ""
+
+#~ msgid "動画と親フォルダーを移動または名前変更し、フルパスにASCII文字だけが含まれるようにしてから、再インポートしてください。"
+#~ msgstr ""
+
+#~ msgid "動画または親フォルダーの名前を変更し、フルパスからスペースなどの空白文字を除いてから、再インポートしてください。"
+#~ msgstr ""
+
+#~ msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
+#~ msgstr ""
+
+#~ msgid "動画のインポートで予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "video.import の必須項目は video_paths "
+#~ "です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+#~ msgstr ""
+
+#~ msgid "操作に必要なフィールドが指定されていません。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "video.import.preview の必須項目は video_path "
+#~ "です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+#~ msgstr ""
 

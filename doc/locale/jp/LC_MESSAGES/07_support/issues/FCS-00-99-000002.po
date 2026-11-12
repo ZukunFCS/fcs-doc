@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,34 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-00-99-000002.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-00-99-000002.md:10
-msgid "要求された操作を完了できませんでした。このコードとログのメッセージをコピーしてサポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-00-99-000002.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-00-99-000002.md:14
+#: ../../07_support/issues/FCS-00-99-000002.md:10
 msgid "操作中の障害を、より具体的なユーザー向けの問題に分類できませんでした。このコードだけでは技術的な原因は特定できません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-00-99-000002.md:16
+#: ../../07_support/issues/FCS-00-99-000002.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-00-99-000002.md:18
+#: ../../07_support/issues/FCS-00-99-000002.md:14
 msgid ""
 "現在のセッションと出力済みのファイルを保持してください。失敗した操作と、その前後のログを記録してください。保存できる作業を保存してから一度再実行し、再発する場合はコード、FCSバージョン、再現手順をBug"
 " Feedbackで送信してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-00-99-000002.md:20
+#: ../../07_support/issues/FCS-00-99-000002.md:17
 msgid "[同じ種類の問題を見る](family-99.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-00-99-000002.md:22
+#: ../../07_support/issues/FCS-00-99-000002.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "要求された操作を完了できませんでした。このコードとログのメッセージをコピーしてサポートにお問い合わせください。"
+#~ msgstr ""
 

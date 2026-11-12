@@ -1,115 +1,216 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-55-04-000003.md:4
+msgid "FCS-55-04-000003"
+msgstr ""
 
+#: ../../07_support/issues/FCS-55-04-000003.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000003.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-55-04-000003.md:10
+msgid "名前変更のプレビューを適用できませんでした。新しい名前の空欄や重複、古い選択内容などで名前を変更できない場合があります。"
+msgstr ""
+"FCS could not apply the rename preview. Blank or duplicate new names and "
+"an out-of-date controller selection can block the rename."
+
+#: ../../07_support/issues/FCS-55-04-000003.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "コントローラー名を変更できませんでした。"
-msgstr "The controllers could not be renamed."
+#: ../../07_support/issues/FCS-55-04-000003.md:14
+msgid "以下の該当する条件とプレビューを比較してください。表示された名前がすべて正しいのに失敗する場合は、FCSの問題としてプレビューを報告してください。"
+msgstr ""
+"Check the preview against the matching condition below. If every "
+"displayed name is valid and the rename still fails, report the preview as"
+" an FCS problem."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:16
 msgid "考えられる原因"
 msgstr "Possible causes"
 
-msgid "名前変更のプレビューを適用できませんでした。新しい名前の空欄や重複、古い選択内容などで名前を変更できない場合があります。"
-msgstr "FCS could not apply the rename preview. Blank or duplicate new names and an out-of-date controller selection can block the rename."
-
-msgid "以下の該当する条件とプレビューを比較してください。表示された名前がすべて正しいのに失敗する場合は、FCSの問題としてプレビューを報告してください。"
-msgstr "Check the preview against the matching condition below. If every displayed name is valid and the rename still fails, report the preview as an FCS problem."
-
+#: ../../07_support/issues/FCS-55-04-000003.md:22
 msgid "**新しい名前が使用済み**"
 msgstr "**A new name is already in use**"
 
-msgid "変更後のコントローラー名は重複しないようにしてください。各コントローラーに異なる名前を指定してください。"
-msgstr "The new controller names must be unique. Choose a different name for each controller."
-
+#: ../../07_support/issues/FCS-55-04-000003.md:24
 msgid "変更後の名前同士、または変更対象外のコントローラー名と重複しています。"
-msgstr "The proposed names collide with one another or with another controller that is not being renamed."
+msgstr ""
+"The proposed names collide with one another or with another controller "
+"that is not being renamed."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:26
 msgid "名前変更のプレビューで、変更後の各名前が一意になるよう修正してください。変更しないコントローラーの名前とも重複しないことを確認してから、再度適用してください。"
-msgstr "Check the rename preview and give each resulting controller a unique name. Include unchanged controllers when checking for collisions, then apply the rename again."
+msgstr ""
+"Check the rename preview and give each resulting controller a unique "
+"name. Include unchanged controllers when checking for collisions, then "
+"apply the rename again."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:32
 msgid "**名前変更の対象が重複**"
 msgstr "**Rename selection was repeated**"
 
-msgid "名前変更の対象でコントローラーが重複しました。"
-msgstr "FCS repeated a controller in the rename selection."
-
+#: ../../07_support/issues/FCS-55-04-000003.md:34
 msgid "同じコントローラーが、名前変更の処理に複数回渡されました。"
 msgstr "The same controller reached the rename action more than once."
 
-msgid "Rename Controllersを開き直し、対象を選び直してください。プレビューに各コントローラーが1回ずつ表示されているのに再発する場合は、そのスクリーンショットを添えて報告してください。"
-msgstr "Reopen Rename Controllers and select the controllers again. If the preview contains each controller once and the error returns, report the problem with a screenshot of the preview."
+#: ../../07_support/issues/FCS-55-04-000003.md:36
+msgid ""
+"Rename "
+"Controllersを開き直し、対象を選び直してください。プレビューに各コントローラーが1回ずつ表示されているのに再発する場合は、そのスクリーンショットを添えて報告してください。"
+msgstr ""
+"Reopen Rename Controllers and select the controllers again. If the "
+"preview contains each controller once and the error returns, report the "
+"problem with a screenshot of the preview."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:42
 msgid "**名前変更のプレビューが不完全**"
 msgstr "**Rename preview is incomplete**"
 
-msgid "名前変更のプレビューを適用できませんでした。"
-msgstr "FCS could not apply the rename preview."
-
+#: ../../07_support/issues/FCS-55-04-000003.md:44
 msgid "選択した各コントローラーの新しい名前をFCSが正しく保持できず、変更前に処理を停止しました。"
-msgstr "FCS did not keep a complete new name for every selected controller. The rename was stopped before these names were changed."
+msgstr ""
+"FCS did not keep a complete new name for every selected controller. The "
+"rename was stopped before these names were changed."
 
-msgid "Rename Controllersを開き直し、対象を選び直してプレビューを作成してください。完全なプレビューでも失敗する場合は、FCSの名前変更の問題として報告してください。"
-msgstr "Close and reopen Rename Controllers, select the controllers again, and regenerate the preview. If the complete preview still fails, report this as an FCS rename problem."
+#: ../../07_support/issues/FCS-55-04-000003.md:46
+msgid ""
+"Rename "
+"Controllersを開き直し、対象を選び直してプレビューを作成してください。完全なプレビューでも失敗する場合は、FCSの名前変更の問題として報告してください。"
+msgstr ""
+"Close and reopen Rename Controllers, select the controllers again, and "
+"regenerate the preview. If the complete preview still fails, report this "
+"as an FCS rename problem."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:52
 msgid "**新しい名前が空欄**"
 msgstr "**A new name is blank**"
 
-msgid "変更後のコントローラー名が空欄です。"
-msgstr "A new controller name is blank."
-
+#: ../../07_support/issues/FCS-55-04-000003.md:54
 msgid "名前変更のプレビューで、少なくとも1つの新しい名前が空欄になっています。"
 msgstr "At least one selected controller has no new name in the rename preview."
 
-msgid "Rename Controllersでプレビューを確認し、選択したすべてのコントローラーの名前を入力してから適用してください。名前が表示されているのに拒否される場合は、プレビューのスクリーンショットを添えて報告してください。"
-msgstr "In Rename Controllers, check the preview and enter a name for every selected controller before applying. If every name is shown and FCS still rejects the rename, report a screenshot of the preview."
+#: ../../07_support/issues/FCS-55-04-000003.md:56
+msgid ""
+"Rename "
+"Controllersでプレビューを確認し、選択したすべてのコントローラーの名前を入力してから適用してください。名前が表示されているのに拒否される場合は、プレビューのスクリーンショットを添えて報告してください。"
+msgstr ""
+"In Rename Controllers, check the preview and enter a name for every "
+"selected controller before applying. If every name is shown and FCS still"
+" rejects the rename, report a screenshot of the preview."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:62
 msgid "**選択したコントローラーが存在しない**"
 msgstr "**A selected controller no longer exists**"
 
-msgid "選択したコントローラーを使用できません。"
-msgstr "The selected controller is no longer available."
-
+#: ../../07_support/issues/FCS-55-04-000003.md:64
 msgid "画面を開いた後に、コントローラーが名前変更または削除された可能性があります。"
-msgstr "The controller may have been renamed or removed since the window was opened."
+msgstr ""
+"The controller may have been renamed or removed since the window was "
+"opened."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:66
 msgid "コントローラ画面を開き直し、現在のコントローラーを選び直してください。一覧に表示されているのに使用できない場合は、名前と失敗した操作を報告してください。"
-msgstr "Open Window → Controllers again and select the current controller again. If it is listed but cannot be used, report its name and the action that failed."
+msgstr ""
+"Open Window → Controllers again and select the current controller again. "
+"If it is listed but cannot be used, report its name and the action that "
+"failed."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:72
 msgid "**FCSで予期しない障害が発生**"
 msgstr "**FCS stopped unexpectedly**"
 
-msgid "コントローラー名の変更で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
-msgstr "Rename Controllers stopped because of an unexpected failure. Keep your current work and the Log before retrying."
-
+#: ../../07_support/issues/FCS-55-04-000003.md:74
 msgid "コントローラー名の変更で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
-msgstr "The Rename Controllers operation failed outside the input checks listed on this page. Its technical cause requires the operation’s Log details."
+msgstr ""
+"The Rename Controllers operation failed outside the input checks listed "
+"on this page. Its technical cause requires the operation’s Log details."
 
-msgid "現在のセッションとコントローラー名の変更で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug Feedbackで報告してください。"
-msgstr "Preserve the current session and any files already created by Rename Controllers. Check the errors from the same operation in Log. Save available work, then retry once. If it repeats, send Bug Feedback with this code, FCS version, the operation settings and its Log."
+#: ../../07_support/issues/FCS-55-04-000003.md:76
+msgid ""
+"現在のセッションとコントローラー名の変更で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
+" Feedbackで報告してください。"
+msgstr ""
+"Preserve the current session and any files already created by Rename "
+"Controllers. Check the errors from the same operation in Log. Save "
+"available work, then retry once. If it repeats, send Bug Feedback with "
+"this code, FCS version, the operation settings and its Log."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:82
 msgid "**名前変更のプレビュー**"
 msgstr "**Rename preview**"
 
-msgid "続行に必要な情報をFCSが受け取れませんでした。"
-msgstr "FCS did not receive the information needed to continue."
-
+#: ../../07_support/issues/FCS-55-04-000003.md:84
 msgid "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
-msgstr "The operation was started with an incomplete selection, or FCS failed to carry the completed selection into the action."
+msgstr ""
+"The operation was started with an incomplete selection, or FCS failed to "
+"carry the completed selection into the action."
 
-msgid "Rename Controllersを開き直し、対象を選び直してプレビューを確認してから適用してください。完全なプレビューでも拒否される場合は報告してください。名前の変更は完了していません。"
-msgstr "Reopen Rename Controllers, select the controllers again, and check the preview before applying. If a complete preview is rejected, report the problem; FCS did not complete the rename."
+#: ../../07_support/issues/FCS-55-04-000003.md:86
+msgid ""
+"Rename "
+"Controllersを開き直し、対象を選び直してプレビューを確認してから適用してください。完全なプレビューでも拒否される場合は報告してください。名前の変更は完了していません。"
+msgstr ""
+"Reopen Rename Controllers, select the controllers again, and check the "
+"preview before applying. If a complete preview is rejected, report the "
+"problem; FCS did not complete the rename."
 
+#: ../../07_support/issues/FCS-55-04-000003.md:89
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr "[Browse this family](family-04.md)"
 
+#: ../../07_support/issues/FCS-55-04-000003.md:91
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "コントローラー名を変更できませんでした。"
+#~ msgstr "The controllers could not be renamed."
+
+#~ msgid "変更後のコントローラー名は重複しないようにしてください。各コントローラーに異なる名前を指定してください。"
+#~ msgstr ""
+#~ "The new controller names must be "
+#~ "unique. Choose a different name for "
+#~ "each controller."
+
+#~ msgid "名前変更の対象でコントローラーが重複しました。"
+#~ msgstr "FCS repeated a controller in the rename selection."
+
+#~ msgid "名前変更のプレビューを適用できませんでした。"
+#~ msgstr "FCS could not apply the rename preview."
+
+#~ msgid "変更後のコントローラー名が空欄です。"
+#~ msgstr "A new controller name is blank."
+
+#~ msgid "選択したコントローラーを使用できません。"
+#~ msgstr "The selected controller is no longer available."
+
+#~ msgid "コントローラー名の変更で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+#~ msgstr ""
+#~ "Rename Controllers stopped because of an"
+#~ " unexpected failure. Keep your current "
+#~ "work and the Log before retrying."
+
+#~ msgid "続行に必要な情報をFCSが受け取れませんでした。"
+#~ msgstr "FCS did not receive the information needed to continue."
+

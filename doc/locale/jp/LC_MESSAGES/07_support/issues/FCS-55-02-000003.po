@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-02-000003.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-02-000003.md:10
-msgid "コピー元のコントローラーは存在しません。既存のコントローラーからコピーして、もう一度お試しください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-02-000003.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000003.md:14
+#: ../../07_support/issues/FCS-55-02-000003.md:10
 msgid "コピーした対応コントローラーの設定が参照する元のコントローラーが存在しません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000003.md:16
+#: ../../07_support/issues/FCS-55-02-000003.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000003.md:18
+#: ../../07_support/issues/FCS-55-02-000003.md:14
 msgid "既存のコントローラーから設定をコピーし直し、対象に貼り付けてください。コントローラーを削除または名前変更した場合は一覧を更新してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000003.md:20
+#: ../../07_support/issues/FCS-55-02-000003.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-02-000003.md:22
+#: ../../07_support/issues/FCS-55-02-000003.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "コピー元のコントローラーは存在しません。既存のコントローラーからコピーして、もう一度お試しください。"
+#~ msgstr ""
 

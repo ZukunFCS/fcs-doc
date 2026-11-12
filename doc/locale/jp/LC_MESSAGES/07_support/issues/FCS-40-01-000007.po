@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-40-01-000007.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-01-000007.md:10
-msgid "同じ名前の動画フォルダーが既に存在します。別の名前を選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-40-01-000007.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000007.md:14
-msgid "Video Libraryに同じ名前の動画グループが存在します。"
+#: ../../07_support/issues/FCS-40-01-000007.md:10
+msgid "動画ライブラリに同じ名前の動画グループが存在します。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000007.md:16
+#: ../../07_support/issues/FCS-40-01-000007.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000007.md:18
-msgid ""
-"別のグループ名を指定するか、既存のグループを使用してください。これはVideo "
-"Library内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
+#: ../../07_support/issues/FCS-40-01-000007.md:14
+msgid "別のグループ名を指定するか、既存のグループを使用してください。これは動画ライブラリ内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000007.md:20
+#: ../../07_support/issues/FCS-40-01-000007.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-40-01-000007.md:22
+#: ../../07_support/issues/FCS-40-01-000007.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "同じ名前の動画フォルダーが既に存在します。別の名前を選択してください。"
+#~ msgstr ""
+
+#~ msgid "Video Libraryに同じ名前の動画グループが存在します。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "別のグループ名を指定するか、既存のグループを使用してください。これはVideo "
+#~ "Library内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
+#~ msgstr ""
 

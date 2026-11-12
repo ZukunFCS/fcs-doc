@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,34 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-90-04-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-90-04-000001.md:10
-msgid "指定されたスクリーンショットを保存できませんでした。もう一度試すか、サポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-90-04-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-90-04-000001.md:14
+#: ../../07_support/issues/FCS-90-04-000001.md:10
 msgid "スクリーンショットの取得または保存に失敗し、画像ファイルを確認できませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-90-04-000001.md:16
+#: ../../07_support/issues/FCS-90-04-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-90-04-000001.md:18
+#: ../../07_support/issues/FCS-90-04-000001.md:14
 msgid ""
 "スクリーンショットの保存先に書き込み権限と空き容量があることを確認し、再度取得してください。Bug "
 "Feedbackでは、添付されたと判断する前に画像の存在を確認してください。取得できない場合も、ログと再現手順を送信してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-90-04-000001.md:20
+#: ../../07_support/issues/FCS-90-04-000001.md:17
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-90-04-000001.md:22
+#: ../../07_support/issues/FCS-90-04-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "指定されたスクリーンショットを保存できませんでした。もう一度試すか、サポートにお問い合わせください。"
+#~ msgstr ""
 

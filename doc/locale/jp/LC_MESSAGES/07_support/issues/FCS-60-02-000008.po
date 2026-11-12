@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,31 +27,29 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-60-02-000008.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-60-02-000008.md:10
-#: ../../07_support/issues/FCS-60-02-000008.md:18
-msgid "学習を開始する前にプロファイルを追加してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-60-02-000008.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-02-000008.md:14
+#: ../../07_support/issues/FCS-60-02-000008.md:10
 msgid "キャラクターのコントローラーを学習するには、有効なプロファイルが少なくとも1つ必要ですが、使用可能なプロファイルが指定されていません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-02-000008.md:16
+#: ../../07_support/issues/FCS-60-02-000008.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-02-000008.md:20
+#: ../../07_support/issues/FCS-60-02-000008.md:14
+msgid "学習を開始する前にプロファイルを追加してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-60-02-000008.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-60-02-000008.md:22
+#: ../../07_support/issues/FCS-60-02-000008.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
 

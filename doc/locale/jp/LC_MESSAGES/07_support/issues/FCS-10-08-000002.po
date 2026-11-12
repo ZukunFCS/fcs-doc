@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,41 +27,39 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-10-08-000002.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-08-000002.md:10
-#: ../../07_support/issues/FCS-10-08-000002.md:18
-msgid "自動操作の接続が正常に終了しませんでした。再起動できない場合はサポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-08-000002.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000002.md:14
+#: ../../07_support/issues/FCS-10-08-000002.md:10
 msgid "自動操作の接続を閉じる際にエラーが発生しました。他の終了処理は続行できる場合があります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000002.md:16
+#: ../../07_support/issues/FCS-10-08-000002.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000002.md:19
+#: ../../07_support/issues/FCS-10-08-000002.md:14
+msgid "自動操作の接続が正常に終了しませんでした。再起動できない場合はサポートにお問い合わせください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-08-000002.md:15
 msgid "未保存の作業と出力済みのファイルを保持してください。表示されたコードとログのメッセージをコピーし、操作内容、時刻、FCSバージョン、対象の入力を記録してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000002.md:20
+#: ../../07_support/issues/FCS-10-08-000002.md:16
 msgid ""
 "指定された確認後も同じ操作で失敗する場合は、これらの情報を添えてBug "
 "Feedbackから報告してください。ローカルに保存された報告は、サーバーへの送信完了を意味しません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000002.md:22
+#: ../../07_support/issues/FCS-10-08-000002.md:19
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-08-000002.md:24
+#: ../../07_support/issues/FCS-10-08-000002.md:21
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
 

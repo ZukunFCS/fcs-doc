@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -49,7 +49,7 @@ msgid "[FCS-10-05-000001](FCS-10-05-000001.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-05.md:12
-msgid "DCCはMayaまたはBlenderを選択してください。"
+msgid "セッションのアプリ選択を使用できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-05.md:14
@@ -85,7 +85,7 @@ msgid "[FCS-80-05-000001](FCS-80-05-000001.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-05.md:30
-msgid "このシステムではMayaプラグインの自動インストールを使用できません。手動でインストールするか、サポートにお問い合わせください。"
+msgid "このOSではMayaプラグインの自動インストールを使用できません。"
 msgstr ""
 
 #: ../../07_support/issues/family-05.md:30
@@ -103,4 +103,10 @@ msgstr ""
 #: ../../07_support/issues/family-05.md:32
 msgid "設定で対応しているMayaのバージョンを選択してください。"
 msgstr ""
+
+#~ msgid "DCCはMayaまたはBlenderを選択してください。"
+#~ msgstr ""
+
+#~ msgid "このシステムではMayaプラグインの自動インストールを使用できません。手動でインストールするか、サポートにお問い合わせください。"
+#~ msgstr ""
 

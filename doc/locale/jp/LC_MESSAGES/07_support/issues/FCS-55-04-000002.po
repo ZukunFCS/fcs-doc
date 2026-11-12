@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,58 +27,68 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-04-000002.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-04-000002.md:10
-msgid "コントローラー設定を保存できませんでした。編集内容は残っています。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-04-000002.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000002.md:14
+#: ../../07_support/issues/FCS-55-04-000002.md:10
 msgid "保存時にコントローラー名、顔領域の割り当て、数値の範囲を検証します。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000002.md:16
+#: ../../07_support/issues/FCS-55-04-000002.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000002.md:18
+#: ../../07_support/issues/FCS-55-04-000002.md:14
 msgid "以下の該当する原因を確認し、コントローラー表を修正してから再度保存してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000002.md:24
-#: ../../07_support/issues/FCS-55-04-000002.md:26
-#: ../../07_support/issues/FCS-55-04-000002.md:27
+#: ../../07_support/issues/FCS-55-04-000002.md:16
+msgid "考えられる原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000002.md:22
+msgid "**コントローラーのない顔領域がある**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000002.md:25
 msgid "必要な各顔領域にコントローラーが1つ以上必要です。不足している領域に割り当ててから、再度保存してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000002.md:33
-#: ../../07_support/issues/FCS-55-04-000002.md:35
-#: ../../07_support/issues/FCS-55-04-000002.md:36
+#: ../../07_support/issues/FCS-55-04-000002.md:31
+msgid "**コントローラーの領域が未設定**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000002.md:34
 msgid "各コントローラーに顔の領域を指定する必要があります。未割り当てのコントローラーに領域を選択してから、再度保存してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000002.md:42
-#: ../../07_support/issues/FCS-55-04-000002.md:44
-#: ../../07_support/issues/FCS-55-04-000002.md:45
+#: ../../07_support/issues/FCS-55-04-000002.md:40
+msgid "**コントローラー名が重複**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000002.md:43
 msgid "コントローラー名は重複できません。重複する行の名前を変更するか、行を削除してから、再度保存してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000002.md:51
-#: ../../07_support/issues/FCS-55-04-000002.md:53
-#: ../../07_support/issues/FCS-55-04-000002.md:54
+#: ../../07_support/issues/FCS-55-04-000002.md:49
+msgid "**最小値と最大値が近すぎるか逆順**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-55-04-000002.md:52
 msgid "最大値は最小値より0.0001以上大きくする必要があります。最大値を上げるか最小値を下げてから、再度保存してください。例えば、最小値0、最大値1は有効です。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000002.md:56
+#: ../../07_support/issues/FCS-55-04-000002.md:55
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-04-000002.md:58
+#: ../../07_support/issues/FCS-55-04-000002.md:57
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "コントローラー設定を保存できませんでした。編集内容は残っています。"
+#~ msgstr ""
 

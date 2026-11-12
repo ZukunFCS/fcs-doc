@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,44 +27,42 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-70-99-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-99-000001.md:10
-msgid "処理に失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-99-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-99-000001.md:14
+#: ../../07_support/issues/FCS-70-99-000001.md:10
 msgid "動画処理中に未分類の例外が発生しました。このコードだけでは、障害が発生した技術的な依存先を特定できません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-99-000001.md:16
+#: ../../07_support/issues/FCS-70-99-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-99-000001.md:18
+#: ../../07_support/issues/FCS-70-99-000001.md:14
 msgid "動画を開けること、セッション設定、出力先へのアクセスを確認してください。バッチでは失敗した動画を特定し、成功した結果は保持してください。再発する場合は動画と選択した出力オプションを報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-99-000001.md:19
+#: ../../07_support/issues/FCS-70-99-000001.md:15
 msgid "未保存の作業と出力済みのファイルを保持してください。表示されたコードとログのメッセージをコピーし、操作内容、時刻、FCSバージョン、対象の入力を記録してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-99-000001.md:20
+#: ../../07_support/issues/FCS-70-99-000001.md:16
 msgid ""
 "指定された確認後も同じ操作で失敗する場合は、これらの情報を添えてBug "
 "Feedbackから報告してください。ローカルに保存された報告は、サーバーへの送信完了を意味しません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-99-000001.md:22
+#: ../../07_support/issues/FCS-70-99-000001.md:19
 msgid "[同じ種類の問題を見る](family-99.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-99-000001.md:24
+#: ../../07_support/issues/FCS-70-99-000001.md:21
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "処理に失敗しました。サポートにお問い合わせください。出力済みのファイルを保持し、ヘルプで復旧手順を確認してください。"
+#~ msgstr ""
 

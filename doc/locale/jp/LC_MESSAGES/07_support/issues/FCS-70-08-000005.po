@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,31 +27,29 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-70-08-000005.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-08-000005.md:10
-#: ../../07_support/issues/FCS-70-08-000005.md:18
-msgid "トラッキングシーケンスがこの動画と一致しないため、インポートしませんでした。対応する動画とシーケンスを選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-70-08-000005.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-08-000005.md:14
+#: ../../07_support/issues/FCS-70-08-000005.md:10
 msgid "選択したトラッキングデータが選択中の動画に対応していないため、その読み込みを適用しませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-08-000005.md:16
+#: ../../07_support/issues/FCS-70-08-000005.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-08-000005.md:20
+#: ../../07_support/issues/FCS-70-08-000005.md:14
+msgid "トラッキングシーケンスがこの動画と一致しないため、インポートしませんでした。対応する動画とシーケンスを選択してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-70-08-000005.md:17
 msgid "[同じ種類の問題を見る](family-08.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-70-08-000005.md:22
+#: ../../07_support/issues/FCS-70-08-000005.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
 

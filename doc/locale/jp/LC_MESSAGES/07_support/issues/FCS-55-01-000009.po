@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-55-01-000009.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000009.md:10
-msgid "変更後のコントローラー名は、すべて空でない名前にしてください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-55-01-000009.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000009.md:14
-msgid "変更後のコントローラー名の少なくとも1つが空の文字列です。"
+#: ../../07_support/issues/FCS-55-01-000009.md:10
+msgid "名前変更のプレビューで、少なくとも1つの新しい名前が空欄になっています。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000009.md:16
+#: ../../07_support/issues/FCS-55-01-000009.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000009.md:18
-msgid "選択した各コントローラーの新しい名前を入力してください。自動操作ではnew_namesの各要素を確認してください。要素数が合っていても、空の名前がある場合は変更できません。"
+#: ../../07_support/issues/FCS-55-01-000009.md:14
+msgid ""
+"Rename "
+"Controllersでプレビューを確認し、選択したすべてのコントローラーの名前を入力してから適用してください。名前が表示されているのに拒否される場合は、プレビューのスクリーンショットを添えて報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000009.md:20
+#: ../../07_support/issues/FCS-55-01-000009.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-55-01-000009.md:22
+#: ../../07_support/issues/FCS-55-01-000009.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "変更後のコントローラー名は、すべて空でない名前にしてください。"
+#~ msgstr ""
+
+#~ msgid "変更後のコントローラー名の少なくとも1つが空の文字列です。"
+#~ msgstr ""
+
+#~ msgid "選択した各コントローラーの新しい名前を入力してください。自動操作ではnew_namesの各要素を確認してください。要素数が合っていても、空の名前がある場合は変更できません。"
+#~ msgstr ""
 

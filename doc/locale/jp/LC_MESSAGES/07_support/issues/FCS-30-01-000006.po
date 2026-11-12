@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,46 +27,50 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-01-000006.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-01-000006.md:10
-msgid "プロジェクト、アクター、キャラクターの各項目を入力してから続行してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-01-000006.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-01-000006.md:14
+#: ../../07_support/issues/FCS-30-01-000006.md:10
 msgid "現在のセッションに、データの場所を決めるためのプロジェクト、Actor、Characterのいずれかがありません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-01-000006.md:15
+#: ../../07_support/issues/FCS-30-01-000006.md:11
 msgid "保存には、セッションのDCCに対応する既存のMaya .ma/.mbまたはBlender .blendシーンも必要です。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-01-000006.md:17
+#: ../../07_support/issues/FCS-30-01-000006.md:13
 msgid "対処方法"
 msgstr ""
 
+#: ../../07_support/issues/FCS-30-01-000006.md:15
+msgid "完全なセッションを開くか、［ファイル］→［セッション］→［情報...］でプロジェクトフォルダー、Actor、Characterを設定してください。例えばC:/FCSProject、Actor01、Character01の場合、データはC:/FCSProject/FCS/Actor01/Character01に配置されます。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-01-000006.md:16
+msgid "［ファイル］→［セッション］→［情報...］でProject、Actor、Characterの各フォルダーの存在を確認し、DCCに合う拡張子の既存のシーンを選択してください。相対パスはプロジェクトのルートを基準に解決されます。修正後にSaveを再実行してください。"
+msgstr ""
+
 #: ../../07_support/issues/FCS-30-01-000006.md:19
-msgid ""
-"完全なセッションを開くか、Session "
-"Settingsでプロジェクトフォルダー、Actor、Characterを設定してください。例えばC:/FCSProject、Actor01、Character01の場合、データはC:/FCSProject/FCS/Actor01/Character01に配置されます。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-01-000006.md:20
-msgid ""
-"Session "
-"InfoでProject、Actor、Characterの各フォルダーの存在を確認し、DCCに合う拡張子の既存のシーンを選択してください。相対パスはプロジェクトのルートを基準に解決されます。修正後にSaveを再実行してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-01-000006.md:22
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-01-000006.md:24
+#: ../../07_support/issues/FCS-30-01-000006.md:21
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "プロジェクト、アクター、キャラクターの各項目を入力してから続行してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "完全なセッションを開くか、Session "
+#~ "Settingsでプロジェクトフォルダー、Actor、Characterを設定してください。例えばC:/FCSProject、Actor01、Character01の場合、データはC:/FCSProject/FCS/Actor01/Character01に配置されます。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Session "
+#~ "InfoでProject、Actor、Characterの各フォルダーの存在を確認し、DCCに合う拡張子の既存のシーンを選択してください。相対パスはプロジェクトのルートを基準に解決されます。修正後にSaveを再実行してください。"
+#~ msgstr ""
 

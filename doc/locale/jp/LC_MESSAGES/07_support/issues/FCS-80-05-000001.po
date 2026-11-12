@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,31 +27,37 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-80-05-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-05-000001.md:10
-#: ../../07_support/issues/FCS-80-05-000001.md:18
-msgid "このシステムではMayaプラグインの自動インストールを使用できません。手動でインストールするか、サポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-05-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-05-000001.md:14
-msgid "このOSでは、Mayaプラグインの自動インストールに対応していません。"
+#: ../../07_support/issues/FCS-80-05-000001.md:10
+msgid "自動インストーラーがこのOSに対応していません。Mayaシーンを変更しても有効にはなりません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-05-000001.md:16
+#: ../../07_support/issues/FCS-80-05-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-05-000001.md:20
+#: ../../07_support/issues/FCS-80-05-000001.md:14
+msgid ""
+"Bug "
+"Feedbackまたはサポート窓口に、このOS用のMayaプラグインとインストール手順を依頼してください。OS、Mayaバージョン、FCSバージョンを添えてください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-80-05-000001.md:17
 msgid "[同じ種類の問題を見る](family-05.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-05-000001.md:22
+#: ../../07_support/issues/FCS-80-05-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "このシステムではMayaプラグインの自動インストールを使用できません。手動でインストールするか、サポートにお問い合わせください。"
+#~ msgstr ""
+
+#~ msgid "このOSでは、Mayaプラグインの自動インストールに対応していません。"
+#~ msgstr ""
 

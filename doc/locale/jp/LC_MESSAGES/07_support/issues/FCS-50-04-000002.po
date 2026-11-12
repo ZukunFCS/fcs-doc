@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,46 +27,42 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-04-000002.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-04-000002.md:10
-msgid "プロファイルの自動生成を完了できませんでした。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-04-000002.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:14
-msgid "プロファイルの自動生成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+#: ../../07_support/issues/FCS-50-04-000002.md:10
+msgid "選択した動画からプロファイルを作成できませんでした。元動画、参照プロファイル、生成の設定を使用できない場合があります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:16
+#: ../../07_support/issues/FCS-50-04-000002.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:18
-msgid "以下の該当する条件を確認し、修正してからプロファイルの自動生成を再実行してください。"
+#: ../../07_support/issues/FCS-50-04-000002.md:14
+msgid "以下の該当する説明で元動画と生成の設定を確認してから再実行してください。すべて選択済みでも拒否される場合は、生成画面の問題として報告してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-04-000002.md:16
+msgid "考えられる原因"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-04-000002.md:22
+msgid "**参照プロファイルがない**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-04-000002.md:24
-msgid "プロファイルの自動生成を使用する前に、少なくとも1つのプロファイルを作成してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-04-000002.md:26
 msgid "自動生成の参照に必要な既存のプロファイルが、このセッションにありません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:27
+#: ../../07_support/issues/FCS-50-04-000002.md:26
 msgid "現在のキャラクターのGalleryにプロファイルを1つ以上作成して保存し、再度自動生成してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:33
-msgid "プロファイルを生成する前に、少なくとも1つの顔領域を有効にしてください。"
+#: ../../07_support/issues/FCS-50-04-000002.md:32
+msgid "**有効な顔領域がない**"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:35
+#: ../../07_support/issues/FCS-50-04-000002.md:34
 msgid "Generalによるプロファイルの自動選択で、有効な顔領域がありません。"
 msgstr ""
 
@@ -75,71 +71,116 @@ msgid "自動生成のオプションでUpper、Eyelid、Gaze、Lowerの少な�
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-04-000002.md:42
-msgid "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
+msgid "**保存されたフレーム選択方法を使用できない**"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-04-000002.md:44
-msgid "自動生成の選択モードがGeneralでもROMでもありません。"
+msgid "プロファイルの自動生成画面で、保存された選択内容をFCSが適用できませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:45
-msgid "代表的なフレームを選ぶ場合はGeneral、参照プロファイルに対応するフレームを選ぶ場合はROMを選択してください。自動操作でもGeneralまたはROMをそのまま指定してください。"
+#: ../../07_support/issues/FCS-50-04-000002.md:46
+msgid "プロファイルの自動生成画面を開き直し、使用する方法を選び直してください。表示された選択肢でも失敗する場合は、問題を報告してください。無関係な動画設定を変更しても復旧できません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:51
+#: ../../07_support/issues/FCS-50-04-000002.md:52
+msgid "**元動画が見つからない**"
+msgstr ""
+
 #: ../../07_support/issues/FCS-50-04-000002.md:54
-msgid "動画が見つかりません。復元または再インポートしてからプロファイルを生成してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-04-000002.md:53
 msgid "プロファイルの自動生成で、選択した元動画を見つけられませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:60
-msgid "アクターとキャラクターが設定された完全なセッションを開いてから続行してください。"
+#: ../../07_support/issues/FCS-50-04-000002.md:56
+msgid "動画が見つかりません。復元または再インポートしてからプロファイルを生成してください。"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-04-000002.md:62
+msgid "**キャラクターのセッションが開かれていない**"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-04-000002.md:64
 msgid "セッションのキャラクターの場所が未設定のため、RetargetDataフォルダーを特定できません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:63
+#: ../../07_support/issues/FCS-50-04-000002.md:66
 msgid ""
 "プロジェクト、Actor、Characterが設定されたセッションを開いてください。キャラクターデータは "
 "プロジェクト/FCS/Actor/Character "
 "にあり、その下にRetargetDataがあります。対象のキャラクターを開いてからプロファイル操作を再実行してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:69
-msgid "プロファイルの自動生成で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+#: ../../07_support/issues/FCS-50-04-000002.md:72
+msgid "**FCSで予期しない障害が発生**"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:71
+#: ../../07_support/issues/FCS-50-04-000002.md:74
 msgid "プロファイルの自動生成で、このページに列挙した入力検証以外の障害が発生しました。技術的な原因の特定には、この操作のログが必要です。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:72
+#: ../../07_support/issues/FCS-50-04-000002.md:76
 msgid ""
 "現在のセッションとプロファイルの自動生成で作成済みのファイルを保持してください。同じ操作のログのエラーを確認してください。保存できる作業を保存し、一度再実行してください。再発する場合は、このコード、FCSバージョン、操作の設定、ログを添えてBug"
 " Feedbackで報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:78
-#: ../../07_support/issues/FCS-50-04-000002.md:81
-msgid ""
-"rom.gallery.auto_profile.generate の必須項目は video_path "
-"です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+#: ../../07_support/issues/FCS-50-04-000002.md:82
+msgid "**自動生成の設定**"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:80
-msgid "操作に必要なフィールドが指定されていません。"
+#: ../../07_support/issues/FCS-50-04-000002.md:84
+msgid "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:83
+#: ../../07_support/issues/FCS-50-04-000002.md:86
+msgid "元動画とプロファイル生成の設定を選択してから再実行してください。画面上の項目を設定済みでも再発する場合は、自動生成画面の問題として報告してください。"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-04-000002.md:89
 msgid "[同じ種類の問題を見る](family-04.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-04-000002.md:85
+#: ../../07_support/issues/FCS-50-04-000002.md:91
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "プロファイルの自動生成を完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "プロファイルの自動生成には複数の前提条件があります。以下に既知の原因と、それぞれの修正方法を示します。"
+#~ msgstr ""
+
+#~ msgid "以下の該当する条件を確認し、修正してからプロファイルの自動生成を再実行してください。"
+#~ msgstr ""
+
+#~ msgid "プロファイルの自動生成を使用する前に、少なくとも1つのプロファイルを作成してください。"
+#~ msgstr ""
+
+#~ msgid "プロファイルを生成する前に、少なくとも1つの顔領域を有効にしてください。"
+#~ msgstr ""
+
+#~ msgid "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
+#~ msgstr ""
+
+#~ msgid "自動生成の選択モードがGeneralでもROMでもありません。"
+#~ msgstr ""
+
+#~ msgid "代表的なフレームを選ぶ場合はGeneral、参照プロファイルに対応するフレームを選ぶ場合はROMを選択してください。自動操作でもGeneralまたはROMをそのまま指定してください。"
+#~ msgstr ""
+
+#~ msgid "アクターとキャラクターが設定された完全なセッションを開いてから続行してください。"
+#~ msgstr ""
+
+#~ msgid "プロファイルの自動生成で予期しない障害が発生しました。再実行する前に現在の作業とログを保持してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "rom.gallery.auto_profile.generate の必須項目は video_path "
+#~ "です。入力してから再実行してください。自動操作では、これらのパラメーター名をそのまま使用してください。"
+#~ msgstr ""
+
+#~ msgid "操作に必要なフィールドが指定されていません。"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -83,9 +83,7 @@ msgid "[FCS-30-04-000001](FCS-30-04-000001.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:20
-msgid ""
-"セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前にSession "
-"InfoでProject、Actor、Character、シーンを確認してください。"
+msgid "セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前に［ファイル］→［セッション］→［情報...］でProject、Actor、Character、シーンを確認してください。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:20
@@ -93,7 +91,7 @@ msgid "[FCS-30-04-000002](FCS-30-04-000002.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:21
-msgid "アクターの作成を完了できませんでした。"
+msgid "アクターフォルダーを作成できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:21
@@ -101,7 +99,7 @@ msgid "[FCS-30-04-000003](FCS-30-04-000003.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:22
-msgid "キャラクターの作成を完了できませんでした。"
+msgid "キャラクターフォルダーを作成できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:22
@@ -109,7 +107,7 @@ msgid "[FCS-30-04-000004](FCS-30-04-000004.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:23
-msgid "アクター名の変更を完了できませんでした。"
+msgid "アクター名を変更できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:23
@@ -117,7 +115,7 @@ msgid "[FCS-30-04-000005](FCS-30-04-000005.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:24
-msgid "キャラクター名の変更を完了できませんでした。"
+msgid "キャラクター名を変更できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:26
@@ -129,7 +127,7 @@ msgid "[FCS-40-04-000001](FCS-40-04-000001.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:30
-msgid "動画のインポートを完了できませんでした。"
+msgid "動画をインポートできませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:30
@@ -137,7 +135,7 @@ msgid "[FCS-40-04-000002](FCS-40-04-000002.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:31
-msgid "動画グループの作成を完了できませんでした。"
+msgid "動画グループを作成できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:33
@@ -157,7 +155,7 @@ msgid "[FCS-50-04-000002](FCS-50-04-000002.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:38
-msgid "プロファイルの自動生成を完了できませんでした。"
+msgid "プロファイルを自動生成できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:40
@@ -177,7 +175,7 @@ msgid "[FCS-55-04-000003](FCS-55-04-000003.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:45
-msgid "コントローラー名の変更を完了できませんでした。"
+msgid "コントローラー名を変更できませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:45
@@ -185,7 +183,7 @@ msgid "[FCS-55-04-000004](FCS-55-04-000004.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:46
-msgid "コントローラー上下限の貼り付けを完了できませんでした。"
+msgid "コントローラーの上下限を貼り付けられませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:48
@@ -213,7 +211,7 @@ msgid "[FCS-80-04-000003](FCS-80-04-000003.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:54
-msgid "Mayaプラグインをインストールできませんでした。サポートにお問い合わせください。"
+msgid "Mayaプラグインをインストールできませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-04.md:56
@@ -227,4 +225,39 @@ msgstr ""
 #: ../../07_support/issues/family-04.md:60
 msgid "指定されたスクリーンショットを保存できませんでした。もう一度試すか、サポートにお問い合わせください。"
 msgstr ""
+
+#~ msgid ""
+#~ "セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前にSession "
+#~ "InfoでProject、Actor、Character、シーンを確認してください。"
+#~ msgstr ""
+
+#~ msgid "アクターの作成を完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "キャラクターの作成を完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "アクター名の変更を完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "キャラクター名の変更を完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "動画のインポートを完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "動画グループの作成を完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "プロファイルの自動生成を完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "コントローラー名の変更を完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "コントローラー上下限の貼り付けを完了できませんでした。"
+#~ msgstr ""
+
+#~ msgid "Mayaプラグインをインストールできませんでした。サポートにお問い合わせください。"
+#~ msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-10-01-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000001.md:10
-msgid "保存された設定を読み込めませんでした。FCSは既定値を使用しています。続行する前に設定を確認してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-01-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000001.md:14
+#: ../../07_support/issues/FCS-10-01-000001.md:10
 msgid "保存されたアプリ設定を読み込めず、初期設定を使用しています。以前の設定が有効でない可能性があります。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000001.md:16
+#: ../../07_support/issues/FCS-10-01-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000001.md:18
+#: ../../07_support/issues/FCS-10-01-000001.md:14
 msgid "処理を始める前に、設定で言語、MayaまたはBlenderの場所、処理設定を確認してください。必要な値を入力し直して保存してください。読み取れない設定は繰り返し上書きせず、サポート用にコピーを保持してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000001.md:20
+#: ../../07_support/issues/FCS-10-01-000001.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-01-000001.md:22
+#: ../../07_support/issues/FCS-10-01-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "保存された設定を読み込めませんでした。FCSは既定値を使用しています。続行する前に設定を確認してください。"
+#~ msgstr ""
 

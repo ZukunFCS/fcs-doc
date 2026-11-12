@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-10-05-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-05-000001.md:10
-msgid "DCCはMayaまたはBlenderを選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-05-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-05-000001.md:14
-msgid "指定されたDCCが、対応するMayaまたはBlenderではありません。"
+#: ../../07_support/issues/FCS-10-05-000001.md:10
+msgid "保存されたアプリの選択がないか、このFCSバージョンで使用できません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-05-000001.md:16
+#: ../../07_support/issues/FCS-10-05-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-05-000001.md:18
-msgid ""
-"Session "
-"Settingsまたは出力設定でMayaかBlenderを選択してください。自動操作ではmayaまたはblenderを識別子として使用します。この選択で他のアプリは使用できません。"
+#: ../../07_support/issues/FCS-10-05-000001.md:14
+msgid "［ファイル］→［セッション］→［情報...］で、このシーンで使用するアプリを選択してください。FCSに表示されたMayaまたはBlenderでも失敗する場合は、セッション設定の問題として報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-05-000001.md:20
+#: ../../07_support/issues/FCS-10-05-000001.md:17
 msgid "[同じ種類の問題を見る](family-05.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-05-000001.md:22
+#: ../../07_support/issues/FCS-10-05-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "DCCはMayaまたはBlenderを選択してください。"
+#~ msgstr ""
+
+#~ msgid "指定されたDCCが、対応するMayaまたはBlenderではありません。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Session "
+#~ "Settingsまたは出力設定でMayaかBlenderを選択してください。自動操作ではmayaまたはblenderを識別子として使用します。この選択で他のアプリは使用できません。"
+#~ msgstr ""
 

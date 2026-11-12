@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -77,7 +77,7 @@ msgid "[FCS-10-02-000003](FCS-10-02-000003.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-02.md:14
-msgid "必須項目を入力してから、もう一度お試しください。"
+msgid "操作の開始に必要な情報をFCSが受け取れませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-02.md:14
@@ -85,7 +85,7 @@ msgid "[FCS-10-02-000004](FCS-10-02-000004.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-02.md:15
-msgid "動画処理に必要な項目を入力してから、もう一度お試しください。"
+msgid "処理対象の動画をFCSが受け取れませんでした。"
 msgstr ""
 
 #: ../../07_support/issues/family-02.md:15
@@ -385,7 +385,7 @@ msgid "[FCS-55-02-000004](FCS-55-02-000004.md)"
 msgstr ""
 
 #: ../../07_support/issues/family-02.md:72
-msgid "復元できるコントローラー設定が保存されていません。先に設定を保存してください。"
+msgid "復元できる保存済みのコントローラー値がありません。"
 msgstr ""
 
 #: ../../07_support/issues/family-02.md:72
@@ -576,4 +576,13 @@ msgstr ""
 #: ../../07_support/issues/family-02.md:118
 msgid "一部の元動画が見つかりません。復元または再リンクしてからエクスポートしてください。"
 msgstr ""
+
+#~ msgid "必須項目を入力してから、もう一度お試しください。"
+#~ msgstr ""
+
+#~ msgid "動画処理に必要な項目を入力してから、もう一度お試しください。"
+#~ msgstr ""
+
+#~ msgid "復元できるコントローラー設定が保存されていません。先に設定を保存してください。"
+#~ msgstr ""
 

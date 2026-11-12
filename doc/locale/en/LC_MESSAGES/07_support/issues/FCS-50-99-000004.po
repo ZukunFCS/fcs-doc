@@ -1,31 +1,67 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-50-99-000004.md:4
+msgid "FCS-50-99-000004"
+msgstr ""
 
+#: ../../07_support/issues/FCS-50-99-000004.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-50-99-000004.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-50-99-000004.md:10
+msgid "プロファイルの保存後、続く操作でエラーが発生しました。その操作を再実行するために、プロファイルを保存し直す必要はありません。"
+msgstr ""
+"The profile was saved successfully, but a subsequent requested action "
+"raised an error. Saving the profile again is not required merely to "
+"repeat that next action."
+
+#: ../../07_support/issues/FCS-50-99-000004.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "プロファイルは保存しましたが、次の操作を完了できませんでした。サポートにお問い合わせください。"
-msgstr "The profile was saved, but the next action could not be completed. Contact support."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "プロファイルの保存後、続く操作でエラーが発生しました。その操作を再実行するために、プロファイルを保存し直す必要はありません。"
-msgstr "The profile was saved successfully, but a subsequent requested action raised an error. Saving the profile again is not required merely to repeat that next action."
-
+#: ../../07_support/issues/FCS-50-99-000004.md:14
 msgid "Galleryでプロファイルを確認してください。保存自体は完了しています。続く別のプロファイルを開く、編集画面を閉じるなどの操作について、関連するエラーを確認してから再実行してください。再発する場合は保存済みプロファイルとログを保持してください。"
-msgstr "Verify the profile in Gallery; its save already completed. Retry the subsequent action, such as opening another profile or closing the editor, after checking its reported error. Preserve the saved profile and Log if the transition still fails."
+msgstr ""
+"Verify the profile in Gallery; its save already completed. Retry the "
+"subsequent action, such as opening another profile or closing the editor,"
+" after checking its reported error. Preserve the saved profile and Log if"
+" the transition still fails."
 
+#: ../../07_support/issues/FCS-50-99-000004.md:17
 msgid "[同じ種類の問題を見る](family-99.md)"
 msgstr "[Browse this family](family-99.md)"
 
+#: ../../07_support/issues/FCS-50-99-000004.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "プロファイルは保存しましたが、次の操作を完了できませんでした。サポートにお問い合わせください。"
+#~ msgstr ""
+#~ "The profile was saved, but the "
+#~ "next action could not be completed. "
+#~ "Contact support."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

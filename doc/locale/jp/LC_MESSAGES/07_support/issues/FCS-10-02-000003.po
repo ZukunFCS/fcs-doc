@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-10-02-000003.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-02-000003.md:10
-msgid "必須項目を入力してから、もう一度お試しください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-10-02-000003.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000003.md:14
-msgid "コマンドの仕様で必須とされるフィールドが指定されていません。"
+#: ../../07_support/issues/FCS-10-02-000003.md:10
+msgid "選択が不完全な状態で開始されたか、選択済みの内容をFCSが操作に渡せませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000003.md:16
+#: ../../07_support/issues/FCS-10-02-000003.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000003.md:18
-msgid "自動操作では、呼び出すコマンドの必須パラメーターを確認し、すべて指定してください。nullや空の文字列も未指定として扱います。アプリでは対象のダイアログを開き直し、必須項目を入力して再実行してください。入力済みでも未指定になる場合は、対象の操作を報告してください。"
+#: ../../07_support/issues/FCS-10-02-000003.md:14
+msgid ""
+"対象の画面を開き直し、表示されている入力項目を設定して一度再実行してください。設定済みだった場合は、画面名とクリックしたボタンをBug "
+"Feedbackで報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000003.md:20
+#: ../../07_support/issues/FCS-10-02-000003.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-10-02-000003.md:22
+#: ../../07_support/issues/FCS-10-02-000003.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "必須項目を入力してから、もう一度お試しください。"
+#~ msgstr ""
+
+#~ msgid "コマンドの仕様で必須とされるフィールドが指定されていません。"
+#~ msgstr ""
+
+#~ msgid "自動操作では、呼び出すコマンドの必須パラメーターを確認し、すべて指定してください。nullや空の文字列も未指定として扱います。アプリでは対象のダイアログを開き直し、必須項目を入力して再実行してください。入力済みでも未指定になる場合は、対象の操作を報告してください。"
+#~ msgstr ""
 

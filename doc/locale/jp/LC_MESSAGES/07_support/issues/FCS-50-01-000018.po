@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,38 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-01-000018.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-01-000018.md:10
-msgid "使用可能な処理パイプラインを選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-01-000018.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000018.md:14
-msgid "選択した処理プロファイル名が、このインストールでは使用できません。候補はビルドによって異なる場合があります。"
+#: ../../07_support/issues/FCS-50-01-000018.md:10
+msgid "セッションまたは保存された設定が、このインストールに含まれない処理プロファイルを参照しています。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000018.md:16
+#: ../../07_support/issues/FCS-50-01-000018.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000018.md:18
-msgid "処理設定に現在表示されているプロファイルから選択してください。自動操作ではprocessing.profilesで候補を取得できます。翻訳した名前や旧バージョンの名前ではなく、返された名前をそのまま使用してください。"
+#: ../../07_support/issues/FCS-50-01-000018.md:14
+msgid "ソルバーで、使用する処理プロファイルを表示された一覧から選択してください。必要なものがない場合は、FCSのエディションとバージョンを確認してください。表示されたものでも失敗する場合は、名前とFCSバージョンを報告してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000018.md:20
+#: ../../07_support/issues/FCS-50-01-000018.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000018.md:22
+#: ../../07_support/issues/FCS-50-01-000018.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "使用可能な処理パイプラインを選択してください。"
+#~ msgstr ""
+
+#~ msgid "選択した処理プロファイル名が、このインストールでは使用できません。候補はビルドによって異なる場合があります。"
+#~ msgstr ""
+
+#~ msgid "処理設定に現在表示されているプロファイルから選択してください。自動操作ではprocessing.profilesで候補を取得できます。翻訳した名前や旧バージョンの名前ではなく、返された名前をそのまま使用してください。"
+#~ msgstr ""
 

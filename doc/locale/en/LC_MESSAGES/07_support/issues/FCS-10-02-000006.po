@@ -1,28 +1,60 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-10-02-000006.md:4
+msgid "FCS-10-02-000006"
+msgstr ""
 
+#: ../../07_support/issues/FCS-10-02-000006.md:6
+msgid "WARNING"
+msgstr ""
+
+#: ../../07_support/issues/FCS-10-02-000006.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-10-02-000006.md:10
+msgid "プロファイルのプレビュー用ソルバーを読み込みまたは初期化できませんでした。別のアニメーション処理は実行できます。"
+msgstr ""
+"The solver required by profile preview could not be loaded or "
+"initialized; this does not prevent the separate animation-processing "
+"path."
+
+#: ../../07_support/issues/FCS-10-02-000006.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-10-02-000006.md:14
 msgid "プロファイルのプレビューを使用できません。アニメーション処理は続行できます。現在の設定で学習してプレビューの復旧を試み、解決しない場合はサポートにお問い合わせください。"
-msgstr "Profile preview is unavailable. Animation processing can continue; train with the current settings to restore preview, or contact support if it remains unavailable."
+msgstr ""
+"Profile preview is unavailable. Animation processing can continue; train "
+"with the current settings to restore preview, or contact support if it "
+"remains unavailable."
 
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "プロファイルのプレビュー用ソルバーを読み込みまたは初期化できませんでした。別のアニメーション処理は実行できます。"
-msgstr "The solver required by profile preview could not be loaded or initialized; this does not prevent the separate animation-processing path."
-
+#: ../../07_support/issues/FCS-10-02-000006.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr "[Browse this family](family-02.md)"
 
+#: ../../07_support/issues/FCS-10-02-000006.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

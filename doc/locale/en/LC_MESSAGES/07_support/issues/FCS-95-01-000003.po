@@ -1,28 +1,58 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-95-01-000003.md:4
+msgid "FCS-95-01-000003"
+msgstr ""
 
+#: ../../07_support/issues/FCS-95-01-000003.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-95-01-000003.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-95-01-000003.md:10
+msgid "All filesで異なる元動画のファイル名が重複し、同じ保存先に配置できません。"
+msgstr ""
+"All-files export found different source videos sharing a filename, which "
+"cannot coexist in its flattened destination."
+
+#: ../../07_support/issues/FCS-95-01-000003.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-95-01-000003.md:14
 msgid "2つの元動画のファイル名が同じです。一方の名前を変更するか、関連する動画だけをエクスポートしてください。"
-msgstr "Two source videos have the same filename. Rename one or export only the associated videos."
+msgstr ""
+"Two source videos have the same filename. Rename one or export only the "
+"associated videos."
 
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "All filesで異なる元動画のファイル名が重複し、同じ保存先に配置できません。"
-msgstr "All-files export found different source videos sharing a filename, which cannot coexist in its flattened destination."
-
+#: ../../07_support/issues/FCS-95-01-000003.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-95-01-000003.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

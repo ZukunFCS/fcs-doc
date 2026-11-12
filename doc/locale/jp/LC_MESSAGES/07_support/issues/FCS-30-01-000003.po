@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-01-000003.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-01-000003.md:10
-msgid "別のアクター名を入力してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-01-000003.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-01-000003.md:14
+#: ../../07_support/issues/FCS-30-01-000003.md:10
 msgid "新しいアクター名が現在の名前と同じため、名前を変更できません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-01-000003.md:16
+#: ../../07_support/issues/FCS-30-01-000003.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-01-000003.md:18
+#: ../../07_support/issues/FCS-30-01-000003.md:14
 msgid "空白以外の別のアクター名を入力して再実行するか、現在の名前でよければ名前の変更をキャンセルしてください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-01-000003.md:20
+#: ../../07_support/issues/FCS-30-01-000003.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-01-000003.md:22
+#: ../../07_support/issues/FCS-30-01-000003.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "別のアクター名を入力してください。"
+#~ msgstr ""
 

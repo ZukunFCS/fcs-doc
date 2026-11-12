@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,38 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-01-000001.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-01-000001.md:10
-msgid "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-01-000001.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000001.md:14
-msgid "自動生成の選択モードがGeneralでもROMでもありません。"
+#: ../../07_support/issues/FCS-50-01-000001.md:10
+msgid "プロファイルの自動生成画面で、保存された選択内容をFCSが適用できませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000001.md:16
+#: ../../07_support/issues/FCS-50-01-000001.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000001.md:18
-msgid "代表的なフレームを選ぶ場合はGeneral、参照プロファイルに対応するフレームを選ぶ場合はROMを選択してください。自動操作でもGeneralまたはROMをそのまま指定してください。"
+#: ../../07_support/issues/FCS-50-01-000001.md:14
+msgid "プロファイルの自動生成画面を開き直し、使用する方法を選び直してください。表示された選択肢でも失敗する場合は、問題を報告してください。無関係な動画設定を変更しても復旧できません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000001.md:20
+#: ../../07_support/issues/FCS-50-01-000001.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-01-000001.md:22
+#: ../../07_support/issues/FCS-50-01-000001.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "プロファイルの自動生成に使用可能な動画の範囲を選択してください。"
+#~ msgstr ""
+
+#~ msgid "自動生成の選択モードがGeneralでもROMでもありません。"
+#~ msgstr ""
+
+#~ msgid "代表的なフレームを選ぶ場合はGeneral、参照プロファイルに対応するフレームを選ぶ場合はROMを選択してください。自動操作でもGeneralまたはROMをそのまま指定してください。"
+#~ msgstr ""
 

@@ -1,31 +1,61 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-30-01-000003.md:4
+msgid "FCS-30-01-000003"
+msgstr ""
 
+#: ../../07_support/issues/FCS-30-01-000003.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-30-01-000003.md:8
 msgid "原因"
 msgstr "Why this happens"
 
+#: ../../07_support/issues/FCS-30-01-000003.md:10
+msgid "新しいアクター名が現在の名前と同じため、名前を変更できません。"
+msgstr ""
+"The requested new actor name matches the current actor name, so there is "
+"no rename to perform."
+
+#: ../../07_support/issues/FCS-30-01-000003.md:12
 msgid "対処方法"
 msgstr "How to resolve it"
 
-msgid "別のアクター名を入力してください。"
-msgstr "Enter a different actor name."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
-msgid "新しいアクター名が現在の名前と同じため、名前を変更できません。"
-msgstr "The requested new actor name matches the current actor name, so there is no rename to perform."
-
+#: ../../07_support/issues/FCS-30-01-000003.md:14
 msgid "空白以外の別のアクター名を入力して再実行するか、現在の名前でよければ名前の変更をキャンセルしてください。"
-msgstr "Enter a different nonblank actor name and retry, or cancel the rename if the current name is already correct."
+msgstr ""
+"Enter a different nonblank actor name and retry, or cancel the rename if "
+"the current name is already correct."
 
+#: ../../07_support/issues/FCS-30-01-000003.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-30-01-000003.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "別のアクター名を入力してください。"
+#~ msgstr "Enter a different actor name."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,36 +27,40 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-80-01-000017.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-01-000017.md:10
-msgid "Mayaでは .ma または .mb、Blenderでは .blend を選択してください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-80-01-000017.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-01-000017.md:14
+#: ../../07_support/issues/FCS-80-01-000017.md:10
 msgid "シーンの拡張子が、この操作で選択されているDCCに対応していません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-01-000017.md:16
+#: ../../07_support/issues/FCS-80-01-000017.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-01-000017.md:18
+#: ../../07_support/issues/FCS-80-01-000017.md:14
 msgid ""
-"Session Settingsで、Mayaでは既存の .ma または .mb、Blenderでは .blend "
+"［ファイル］→［セッション］→［情報...］で、Mayaでは既存の .ma または .mb、Blenderでは .blend "
 "シーンを選択してください。DCC起動時の拡張子検証では大文字・小文字を区別しません。元のアプリから正しい形式で保存または変換してください。別形式のファイル名を変更するだけでは変換できません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-01-000017.md:20
+#: ../../07_support/issues/FCS-80-01-000017.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-80-01-000017.md:22
+#: ../../07_support/issues/FCS-80-01-000017.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "Mayaでは .ma または .mb、Blenderでは .blend を選択してください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Session Settingsで、Mayaでは既存の .ma または "
+#~ ".mb、Blenderでは .blend "
+#~ "シーンを選択してください。DCC起動時の拡張子検証では大文字・小文字を区別しません。元のアプリから正しい形式で保存または変換してください。別形式のファイル名を変更するだけでは変換できません。"
+#~ msgstr ""
 

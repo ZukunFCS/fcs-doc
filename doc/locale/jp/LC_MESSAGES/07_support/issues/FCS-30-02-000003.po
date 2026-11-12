@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "ERROR"
 msgstr ""
 
 #: ../../07_support/issues/FCS-30-02-000003.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-02-000003.md:10
-msgid "続行する前にセッションを開いてください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-30-02-000003.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000003.md:14
+#: ../../07_support/issues/FCS-30-02-000003.md:10
 msgid "この操作には現在のセッションが必要ですが、セッションが開かれていません。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000003.md:16
+#: ../../07_support/issues/FCS-30-02-000003.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000003.md:18
+#: ../../07_support/issues/FCS-30-02-000003.md:14
 msgid "プロファイル、コントローラー、処理、エクスポートを使用する前に対象のセッションを開いてください。新規プロジェクトの場合は、先にActorとCharacterのセッションを作成してください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000003.md:20
+#: ../../07_support/issues/FCS-30-02-000003.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-30-02-000003.md:22
+#: ../../07_support/issues/FCS-30-02-000003.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "続行する前にセッションを開いてください。"
+#~ msgstr ""
 

@@ -1,295 +1,795 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
+#: ../../07_support/issues/family-01.md:4
 msgid "入力の確認"
 msgstr "Input validation"
 
+#: ../../07_support/issues/family-01.md:6
 msgid "[検索・種類の一覧に戻る](index.md)"
 msgstr "[Back to lookup and families](index.md)"
 
-msgid "コード"
-msgstr "Code"
-
-msgid "説明"
-msgstr "Description"
-
+#: ../../07_support/issues/family-01.md:8
 msgid "アプリケーションと設定"
 msgstr "Application and settings"
 
+#: ../../07_support/issues/family-01.md:10
+#: ../../07_support/issues/family-01.md:24
+#: ../../07_support/issues/family-01.md:31
+#: ../../07_support/issues/family-01.md:47
+#: ../../07_support/issues/family-01.md:65
+#: ../../07_support/issues/family-01.md:83
+#: ../../07_support/issues/family-01.md:106
+#: ../../07_support/issues/family-01.md:112
+#: ../../07_support/issues/family-01.md:120
+#: ../../07_support/issues/family-01.md:132
+#: ../../07_support/issues/family-01.md:138
+msgid "コード"
+msgstr "Code"
+
+#: ../../07_support/issues/family-01.md:10
+#: ../../07_support/issues/family-01.md:24
+#: ../../07_support/issues/family-01.md:31
+#: ../../07_support/issues/family-01.md:47
+#: ../../07_support/issues/family-01.md:65
+#: ../../07_support/issues/family-01.md:83
+#: ../../07_support/issues/family-01.md:106
+#: ../../07_support/issues/family-01.md:112
+#: ../../07_support/issues/family-01.md:120
+#: ../../07_support/issues/family-01.md:132
+#: ../../07_support/issues/family-01.md:138
+msgid "説明"
+msgstr "Description"
+
+#: ../../07_support/issues/family-01.md:10
+msgid "[FCS-10-01-000001](FCS-10-01-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:12
 msgid "保存された設定を読み込めませんでした。FCSは既定値を使用しています。続行する前に設定を確認してください。"
-msgstr "Saved settings could not be loaded. FCS is using defaults. Check your preferences before continuing."
+msgstr ""
+"Saved settings could not be loaded. FCS is using defaults. Check your "
+"preferences before continuing."
 
+#: ../../07_support/issues/family-01.md:12
+msgid "[FCS-10-01-000004](FCS-10-01-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:13
 msgid "クラッシュレポートを記録できませんでした。アプリケーションログを添えてサポートにお問い合わせください。"
-msgstr "The crash report could not be recorded. Contact support with the application log."
+msgstr ""
+"The crash report could not be recorded. Contact support with the "
+"application log."
 
+#: ../../07_support/issues/family-01.md:13
+msgid "[FCS-10-01-000006](FCS-10-01-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:14
 msgid "拡張子が.blendのBlenderシーンを選択してください。"
 msgstr "Choose a Blender scene with the .blend file extension."
 
+#: ../../07_support/issues/family-01.md:14
+msgid "[FCS-10-01-000007](FCS-10-01-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:15
 msgid "エクスポート先を選択してください。"
 msgstr "Choose an export destination."
 
+#: ../../07_support/issues/family-01.md:15
+msgid "[FCS-10-01-000008](FCS-10-01-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:16
 msgid "拡張子が.maまたは.mbのMayaシーンを選択してください。"
 msgstr "Choose a Maya scene with the .ma or .mb file extension."
 
+#: ../../07_support/issues/family-01.md:16
+msgid "[FCS-10-01-000009](FCS-10-01-000009.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:17
 msgid "ソルバーの設定を適用できませんでした。"
 msgstr "FCS could not apply the Solver settings."
 
+#: ../../07_support/issues/family-01.md:17
+msgid "[FCS-10-01-000013](FCS-10-01-000013.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:18
 msgid "更新をダウンロードする前に既存のダウンロード先フォルダーを選択してください。"
 msgstr "Choose an existing download folder before downloading the update."
 
+#: ../../07_support/issues/family-01.md:18
+msgid "[FCS-10-01-000014](FCS-10-01-000014.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:19
 msgid "ダウンロードする更新をFCSが特定できませんでした。"
 msgstr "FCS could not identify which update to download."
 
+#: ../../07_support/issues/family-01.md:19
+msgid "[FCS-10-01-000015](FCS-10-01-000015.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:20
 msgid "保存されたソルバーの設定を読み取れませんでした。"
 msgstr "FCS could not read the saved Solver settings."
 
+#: ../../07_support/issues/family-01.md:22
 msgid "ライセンス"
 msgstr "Licensing"
 
+#: ../../07_support/issues/family-01.md:24
+msgid "[FCS-20-01-000001](FCS-20-01-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:26
 msgid "［情報］→［ライセンス］でライセンスキーを確認してください。"
 msgstr "Check your license key in Info → License."
 
+#: ../../07_support/issues/family-01.md:26
+msgid "[FCS-20-01-000002](FCS-20-01-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:27
 msgid "続行する前に［情報］→［ライセンス］でライセンスを確認してください。"
 msgstr "Check your license in Info → License before continuing."
 
+#: ../../07_support/issues/family-01.md:29
 msgid "プロジェクトとセッション"
 msgstr "Projects and sessions"
 
+#: ../../07_support/issues/family-01.md:31
+msgid "[FCS-30-01-000001](FCS-30-01-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:33
 msgid "同じ名前のアクターフォルダーが既に存在します。別の名前を選ぶか、既存のアクターを開いてください。"
-msgstr "An actor folder with that name already exists. Choose another name or open the existing actor."
+msgstr ""
+"An actor folder with that name already exists. Choose another name or "
+"open the existing actor."
 
+#: ../../07_support/issues/family-01.md:33
+msgid "[FCS-30-01-000002](FCS-30-01-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:34
 msgid "このアクターのファイルやフォルダーを閉じてから、名前の変更をもう一度お試しください。"
-msgstr "Close files and folders belonging to this actor, then try renaming it again."
+msgstr ""
+"Close files and folders belonging to this actor, then try renaming it "
+"again."
 
+#: ../../07_support/issues/family-01.md:34
+msgid "[FCS-30-01-000003](FCS-30-01-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:35
 msgid "別のアクター名を入力してください。"
 msgstr "Enter a different actor name."
 
-msgid "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
-msgstr "A character folder with that name already exists. Choose another name or open the existing character."
+#: ../../07_support/issues/family-01.md:35
+msgid "[FCS-30-01-000004](FCS-30-01-000004.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-01.md:36
+msgid "同じ名前のキャラクターフォルダーが既に存在します。別の名前を選ぶか、既存のキャラクターを開いてください。"
+msgstr ""
+"A character folder with that name already exists. Choose another name or "
+"open the existing character."
+
+#: ../../07_support/issues/family-01.md:36
+msgid "[FCS-30-01-000005](FCS-30-01-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:37
 msgid "既存のプロジェクトフォルダーを選択してください。"
 msgstr "Choose an existing project folder."
 
+#: ../../07_support/issues/family-01.md:37
+msgid "[FCS-30-01-000006](FCS-30-01-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:38
 msgid "プロジェクト、アクター、キャラクターの各項目を入力してから続行してください。"
 msgstr "Complete the project, actor, and character fields before continuing."
 
+#: ../../07_support/issues/family-01.md:38
+msgid "[FCS-30-01-000007](FCS-30-01-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:39
 msgid "ActorとCharacterに空白以外の名前を入力して、再実行してください。"
 msgstr "Enter a nonblank Actor and Character name, then retry."
 
+#: ../../07_support/issues/family-01.md:39
+msgid "[FCS-30-01-000008](FCS-30-01-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:40
 msgid "新しいプロジェクトには空のフォルダーを選択するか、既存のプロジェクトを開いてください。"
 msgstr "Choose an empty folder for the new project or open the existing project."
 
-msgid "この場所には既にセッションが存在します。既存のセッションを開くか、別のアクターまたはキャラクターを選択してください。"
-msgstr "A session already exists at this location. Open it or choose a different actor or character."
+#: ../../07_support/issues/family-01.md:40
+msgid "[FCS-30-01-000009](FCS-30-01-000009.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-01.md:41
+msgid "この場所には既にセッションが存在します。既存のセッションを開くか、別のアクターまたはキャラクターを選択してください。"
+msgstr ""
+"A session already exists at this location. Open it or choose a different "
+"actor or character."
+
+#: ../../07_support/issues/family-01.md:41
+msgid "[FCS-30-01-000010](FCS-30-01-000010.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:42
 msgid "開くセッションファイルを選択してください。"
 msgstr "Choose a session file before opening it."
 
-msgid "セッションに必要なプロジェクトまたはシーンの設定がありません。続行する前にセッション設定を確認してください。"
-msgstr "The session is missing a required project or scene setting. Check File → Session → Info before continuing."
+#: ../../07_support/issues/family-01.md:42
+msgid "[FCS-30-01-000011](FCS-30-01-000011.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-01.md:43
+msgid "セッションに必要なプロジェクトまたはシーンの設定がありません。続行する前にセッション設定を確認してください。"
+msgstr ""
+"The session is missing a required project or scene setting. Check File → "
+"Session → Info before continuing."
+
+#: ../../07_support/issues/family-01.md:45
 msgid "動画とメディア"
 msgstr "Video and media"
 
+#: ../../07_support/issues/family-01.md:47
+msgid "[FCS-40-01-000002](FCS-40-01-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:49
 msgid "動画の解像度倍率には0より大きい値を指定してください。"
 msgstr "Choose a video resolution scale greater than zero."
 
+#: ../../07_support/issues/family-01.md:49
+msgid "[FCS-40-01-000003](FCS-40-01-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:50
 msgid "ランドマーク画像の保存先には既存のフォルダーを選択してください。"
 msgstr "Choose an existing folder for landmark images."
 
-msgid "顔が検出されませんでした。顔がはっきり映った映像を選び、映像の向きを確認してから、もう一度お試しください。"
-msgstr "No face was detected. Choose footage with a clearly visible face, check its orientation, and try again."
+#: ../../07_support/issues/family-01.md:50
+msgid "[FCS-40-01-000005](FCS-40-01-000005.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-01.md:51
+msgid "顔が検出されませんでした。顔がはっきり映った映像を選び、映像の向きを確認してから、もう一度お試しください。"
+msgstr ""
+"No face was detected. Choose footage with a clearly visible face, check "
+"its orientation, and try again."
+
+#: ../../07_support/issues/family-01.md:51
+msgid "[FCS-40-01-000006](FCS-40-01-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:52
 msgid "まだフォルダーに入っていない2つの動画を選択してください。"
 msgstr "Choose two videos that are not already in a folder."
 
+#: ../../07_support/issues/family-01.md:52
+msgid "[FCS-40-01-000007](FCS-40-01-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:53
 msgid "同じ名前の動画フォルダーが既に存在します。別の名前を選択してください。"
 msgstr "A video folder with that name already exists. Choose another name."
 
+#: ../../07_support/issues/family-01.md:53
+msgid "[FCS-40-01-000008](FCS-40-01-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:54
 msgid "動画フォルダー名を入力してください。"
 msgstr "Enter a video folder name."
 
+#: ../../07_support/issues/family-01.md:54
+msgid "[FCS-40-01-000009](FCS-40-01-000009.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:55
 msgid "フォルダーを作成するには、異なる2つの動画を選択してください。"
 msgstr "Choose two different videos to create a folder."
 
+#: ../../07_support/issues/family-01.md:55
+msgid "[FCS-40-01-000010](FCS-40-01-000010.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:56
+#: ../../07_support/issues/family-01.md:59
 msgid "選択した動画には読み取れるフレームがありません。有効な動画ファイルを選択してください。"
 msgstr "The selected video has no readable frames. Choose a valid video file."
 
+#: ../../07_support/issues/family-01.md:56
+msgid "[FCS-40-01-000011](FCS-40-01-000011.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:57
 msgid "動画と親フォルダーを移動または名前変更し、フルパスにASCII文字だけが含まれるようにしてから、再インポートしてください。"
-msgstr "Move or rename the video and its parent folders so the full path contains only ASCII characters, then import it again."
+msgstr ""
+"Move or rename the video and its parent folders so the full path contains"
+" only ASCII characters, then import it again."
 
+#: ../../07_support/issues/family-01.md:57
+msgid "[FCS-40-01-000012](FCS-40-01-000012.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:58
 msgid "動画または親フォルダーの名前を変更し、フルパスからスペースなどの空白文字を除いてから、再インポートしてください。"
-msgstr "Rename the video or its parent folders so the full path contains no spaces or other whitespace, then import it again."
+msgstr ""
+"Rename the video or its parent folders so the full path contains no "
+"spaces or other whitespace, then import it again."
 
+#: ../../07_support/issues/family-01.md:58
+msgid "[FCS-40-01-000013](FCS-40-01-000013.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:59
+msgid "[FCS-40-01-000014](FCS-40-01-000014.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:60
 msgid "続行する前に現在のセッションに動画をインポートしてください。"
 msgstr "Import the video into the current session before continuing."
 
-msgid "この動画はセッションに登録されていません。動画ライブラリに追加してから、もう一度お試しください。"
-msgstr "The video is not registered in this session. Add it to the Video Library and try again."
+#: ../../07_support/issues/family-01.md:60
+msgid "[FCS-40-01-000015](FCS-40-01-000015.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-01.md:61
+msgid "この動画はセッションに登録されていません。動画ライブラリに追加してから、もう一度お試しください。"
+msgstr ""
+"The video is not registered in this session. Add it to the Video Library "
+"and try again."
+
+#: ../../07_support/issues/family-01.md:63
 msgid "プロファイル"
 msgstr "Profiles"
 
+#: ../../07_support/issues/family-01.md:65
+msgid "[FCS-50-01-000001](FCS-50-01-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:67
 msgid "保存されたプロファイルの生成方法を使用できませんでした。"
 msgstr "FCS could not use the saved profile-generation mode."
 
+#: ../../07_support/issues/family-01.md:67
+msgid "[FCS-50-01-000002](FCS-50-01-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:68
 msgid "プロファイルを生成する前に、少なくとも1つの顔領域を有効にしてください。"
 msgstr "Enable at least one facial region before generating profiles."
 
+#: ../../07_support/issues/family-01.md:68
+msgid "[FCS-50-01-000003](FCS-50-01-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:69
 msgid "プロファイルの自動生成を使用する前に、少なくとも1つのプロファイルを作成してください。"
 msgstr "Create at least one profile before using automatic profile generation."
 
+#: ../../07_support/issues/family-01.md:69
+msgid "[FCS-50-01-000004](FCS-50-01-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:70
 msgid "プロファイルを生成する前に動画を選択してください。"
 msgstr "Select a video before generating profiles."
 
+#: ../../07_support/issues/family-01.md:70
+msgid "[FCS-50-01-000005](FCS-50-01-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:71
 msgid "プロファイル名を入力してください。"
 msgstr "Enter a profile name."
 
+#: ../../07_support/issues/family-01.md:71
+msgid "[FCS-50-01-000006](FCS-50-01-000006.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:72
 msgid "スムージングプリセットの名前を入力してください。"
 msgstr "Enter a name for the smoothing preset."
 
+#: ../../07_support/issues/family-01.md:72
+msgid "[FCS-50-01-000007](FCS-50-01-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:73
 msgid "追加するタグを入力してください。"
 msgstr "Enter a tag before adding it."
 
+#: ../../07_support/issues/family-01.md:73
+msgid "[FCS-50-01-000009](FCS-50-01-000009.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:74
 msgid "プロファイルに保存された顔領域を使用できませんでした。"
 msgstr "A profile’s saved facial region could not be used."
 
+#: ../../07_support/issues/family-01.md:74
+msgid "[FCS-50-01-000010](FCS-50-01-000010.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:75
 msgid "選択したスムージングプリセットを読み込めませんでした。"
 msgstr "The selected smoothing preset could not be loaded."
 
+#: ../../07_support/issues/family-01.md:75
+msgid "[FCS-50-01-000015](FCS-50-01-000015.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:76
 msgid "続行する前にプロファイルエディターでプロファイルを開いてください。"
 msgstr "Open a profile in the Editor window before continuing."
 
+#: ../../07_support/issues/family-01.md:76
+msgid "[FCS-50-01-000016](FCS-50-01-000016.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:77
 msgid "同じ名前のプロファイルが既に存在します。別の名前を選択してください。"
 msgstr "A profile with that name already exists. Choose another name."
 
+#: ../../07_support/issues/family-01.md:77
+msgid "[FCS-50-01-000017](FCS-50-01-000017.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:78
 msgid "同じ名前のスムージングプリセットが既に存在します。別の名前を選択してください。"
 msgstr "A smoothing preset with that name already exists. Choose another name."
 
+#: ../../07_support/issues/family-01.md:78
+msgid "[FCS-50-01-000018](FCS-50-01-000018.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:79
 msgid "保存された処理プロファイルを、このFCSビルドで使用できません。"
 msgstr "The saved processing profile is unavailable in this FCS build."
 
+#: ../../07_support/issues/family-01.md:81
 msgid "コントローラー"
 msgstr "Controllers"
 
+#: ../../07_support/issues/family-01.md:83
+msgid "[FCS-55-01-000001](FCS-55-01-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:85
 msgid "学習前に各コントローラーに顔の領域を割り当ててください。"
 msgstr "Assign a facial region to each controller before training."
 
-msgid "クリップボードに有効なコントローラーデータがありません。コントローラーデータをコピーしてから、もう一度お試しください。"
-msgstr "The clipboard does not contain recognized controller data. Copy controller data and try again."
+#: ../../07_support/issues/family-01.md:85
+msgid "[FCS-55-01-000002](FCS-55-01-000002.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-01.md:86
+msgid "クリップボードに有効なコントローラーデータがありません。コントローラーデータをコピーしてから、もう一度お試しください。"
+msgstr ""
+"The clipboard does not contain recognized controller data. Copy "
+"controller data and try again."
+
+#: ../../07_support/issues/family-01.md:86
+msgid "[FCS-55-01-000003](FCS-55-01-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:87
 msgid "コピーするコントローラーを選択してください。"
 msgstr "Select a controller to copy."
 
+#: ../../07_support/issues/family-01.md:87
+msgid "[FCS-55-01-000004](FCS-55-01-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:88
 msgid "値を貼り付ける前にコントローラーを選択してください。"
 msgstr "Select a controller before pasting values."
 
+#: ../../07_support/issues/family-01.md:88
+msgid "[FCS-55-01-000005](FCS-55-01-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:89
 msgid "これらのコントローラーは異なる領域に属しています。同じ領域のコントローラーを選択してください。"
-msgstr "These controllers belong to different regions. Choose controllers in the same region."
+msgstr ""
+"These controllers belong to different regions. Choose controllers in the "
+"same region."
 
+#: ../../07_support/issues/family-01.md:89
+msgid "[FCS-55-01-000007](FCS-55-01-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:90
 msgid "変更後のコントローラー名は重複しないようにしてください。各コントローラーに異なる名前を指定してください。"
-msgstr "The new controller names must be unique. Choose a different name for each controller."
+msgstr ""
+"The new controller names must be unique. Choose a different name for each"
+" controller."
 
+#: ../../07_support/issues/family-01.md:90
+msgid "[FCS-55-01-000008](FCS-55-01-000008.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:91
 msgid "名前変更の対象でコントローラーが重複しました。"
 msgstr "FCS repeated a controller in the rename selection."
 
+#: ../../07_support/issues/family-01.md:91
+msgid "[FCS-55-01-000009](FCS-55-01-000009.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:92
 msgid "変更後のコントローラー名が空欄です。"
 msgstr "A new controller name is blank."
 
+#: ../../07_support/issues/family-01.md:92
+msgid "[FCS-55-01-000010](FCS-55-01-000010.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:93
 msgid "名前変更のプレビューを適用できませんでした。"
 msgstr "FCS could not apply the rename preview."
 
+#: ../../07_support/issues/family-01.md:93
+msgid "[FCS-55-01-000011](FCS-55-01-000011.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:94
 msgid "MayaまたはBlenderでコントローラーを選択してから、「選択項目を追加」をクリックしてください。"
 msgstr "Select controllers in Maya or Blender, then click Add Selected."
 
-msgid "コントローラー名は重複できません。重複するコントローラーを削除するか名前を変更してください。"
-msgstr "Controller names must be unique. Remove or rename the duplicate controllers."
+#: ../../07_support/issues/family-01.md:94
+msgid "[FCS-55-01-000012](FCS-55-01-000012.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-01.md:95
+msgid "コントローラー名は重複できません。重複するコントローラーを削除するか名前を変更してください。"
+msgstr ""
+"Controller names must be unique. Remove or rename the duplicate "
+"controllers."
+
+#: ../../07_support/issues/family-01.md:95
+msgid "[FCS-55-01-000013](FCS-55-01-000013.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:96
 msgid "コントローラー名を入力してください。"
 msgstr "Enter a controller name."
 
+#: ../../07_support/issues/family-01.md:96
+msgid "[FCS-55-01-000014](FCS-55-01-000014.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:97
 msgid "削除するコントローラー名の接頭辞を入力してください。"
 msgstr "Enter the controller prefix to remove."
 
+#: ../../07_support/issues/family-01.md:97
+msgid "[FCS-55-01-000015](FCS-55-01-000015.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:98
 msgid "有効なコントローラーの制限値をコピーしてから貼り付けてください。"
 msgstr "Copy valid controller limits before pasting them."
 
-msgid "コントローラーの上下限には有限値を入力し、最大値を最小値より 0.0001 以上大きくしてください。"
-msgstr "Enter finite controller limits with Maximum at least 0.0001 greater than Minimum."
+#: ../../07_support/issues/family-01.md:98
+msgid "[FCS-55-01-000016](FCS-55-01-000016.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-01.md:99
+msgid "コントローラーの上下限には有限値を入力し、最大値を最小値より 0.0001 以上大きくしてください。"
+msgstr ""
+"Enter finite controller limits with Maximum at least 0.0001 greater than "
+"Minimum."
+
+#: ../../07_support/issues/family-01.md:99
+msgid "[FCS-55-01-000017](FCS-55-01-000017.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:100
 msgid "コントローラーに保存された顔領域を使用できませんでした。"
 msgstr "A controller’s saved facial region could not be used."
 
+#: ../../07_support/issues/family-01.md:100
+msgid "[FCS-55-01-000018](FCS-55-01-000018.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:101
 msgid "選択したコントローラーを使用できません。"
 msgstr "The selected controller is no longer available."
 
+#: ../../07_support/issues/family-01.md:101
+msgid "[FCS-55-01-000019](FCS-55-01-000019.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:102
 msgid "選択したコントローラープリセットを読み込めませんでした。"
 msgstr "The selected controller preset could not be loaded."
 
+#: ../../07_support/issues/family-01.md:104
 msgid "学習とソルバー"
 msgstr "Training and solvers"
 
+#: ../../07_support/issues/family-01.md:106
+msgid "[FCS-60-01-000001](FCS-60-01-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:108
 msgid "続行する前にソルバーを学習するか読み込んでください。"
 msgstr "Train or load a solver before continuing."
 
+#: ../../07_support/issues/family-01.md:110
 msgid "処理と予測"
 msgstr "Processing and prediction"
 
+#: ../../07_support/issues/family-01.md:112
+msgid "[FCS-70-01-000004](FCS-70-01-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:114
 msgid "現在のソルバーでは予測できません。学習し直すか、サポートにお問い合わせください。"
 msgstr "Prediction cannot use the current solver. Train again or contact support."
 
+#: ../../07_support/issues/family-01.md:114
+msgid "[FCS-70-01-000005](FCS-70-01-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:115
 msgid "顔のトラッキングで必要なデータを生成できませんでした。サポートにお問い合わせください。"
 msgstr "Face tracking could not produce the required data. Contact support."
 
+#: ../../07_support/issues/family-01.md:115
+msgid "[FCS-70-01-000007](FCS-70-01-000007.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:116
 msgid "続行する前にタイムラインにプロファイルを追加してください。"
 msgstr "Add profiles to the timeline before continuing."
 
+#: ../../07_support/issues/family-01.md:118
 msgid "Maya・Blenderへの出力"
 msgstr "Maya and Blender delivery"
 
+#: ../../07_support/issues/family-01.md:120
+msgid "[FCS-80-01-000001](FCS-80-01-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:122
 msgid "セッション設定でBlenderのシーンファイルを選択してください。"
 msgstr "Choose a Blender scene file in the session settings."
 
+#: ../../07_support/issues/family-01.md:122
+msgid "[FCS-80-01-000013](FCS-80-01-000013.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:123
 msgid "選択したアプリのシーン設定を適用できませんでした。"
 msgstr "FCS could not apply the scene settings for the selected application."
 
+#: ../../07_support/issues/family-01.md:123
+msgid "[FCS-80-01-000014](FCS-80-01-000014.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:124
 msgid "セッション設定でMayaのプロジェクトフォルダーを選択してください。"
 msgstr "Choose a Maya project folder in the session settings."
 
+#: ../../07_support/issues/family-01.md:124
+msgid "[FCS-80-01-000016](FCS-80-01-000016.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:125
 msgid "セッション設定でMayaのシーンファイルを選択してください。"
 msgstr "Choose a Maya scene file in the session settings."
 
+#: ../../07_support/issues/family-01.md:125
+msgid "[FCS-80-01-000017](FCS-80-01-000017.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:126
 msgid "Mayaでは .ma または .mb、Blenderでは .blend を選択してください。"
 msgstr "Choose .ma or .mb for Maya, or .blend for Blender."
 
+#: ../../07_support/issues/family-01.md:126
+msgid "[FCS-80-01-000018](FCS-80-01-000018.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:127
 msgid "MayaまたはBlenderのシーンとFCS設定を確認してから、もう一度お試しください。"
 msgstr "Check the scene and FCS settings in Maya or Blender, then try again."
 
+#: ../../07_support/issues/family-01.md:127
+msgid "[FCS-80-01-000019](FCS-80-01-000019.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:128
 msgid "選択したシーンのアプリを使用できませんでした。"
 msgstr "FCS could not use the selected scene application."
 
+#: ../../07_support/issues/family-01.md:130
 msgid "ストレージとNAS"
 msgstr "Storage and NAS"
 
+#: ../../07_support/issues/family-01.md:132
+msgid "[FCS-90-01-000001](FCS-90-01-000001.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:134
 msgid "保存されたファイルを読み取れませんでした。サポートにお問い合わせください。"
 msgstr "The saved file could not be read. Contact support."
 
+#: ../../07_support/issues/family-01.md:136
 msgid "セッションのエクスポート"
 msgstr "Session export"
 
-msgid "エクスポート先のキャラクターフォルダーが既に存在します。別のエクスポート先またはキャラクター名を選択してください。"
-msgstr "The destination character folder already exists. Choose another destination or character name."
+#: ../../07_support/issues/family-01.md:138
+msgid "[FCS-95-01-000001](FCS-95-01-000001.md)"
+msgstr ""
 
+#: ../../07_support/issues/family-01.md:140
+msgid "エクスポート先のキャラクターフォルダーが既に存在します。別のエクスポート先またはキャラクター名を選択してください。"
+msgstr ""
+"The destination character folder already exists. Choose another "
+"destination or character name."
+
+#: ../../07_support/issues/family-01.md:140
+msgid "[FCS-95-01-000002](FCS-95-01-000002.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:141
 msgid "現在のセッションフォルダーの外にエクスポート先を指定してください。"
 msgstr "Choose an export destination outside the current session folder."
 
+#: ../../07_support/issues/family-01.md:141
+msgid "[FCS-95-01-000003](FCS-95-01-000003.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:142
 msgid "2つの元動画のファイル名が同じです。一方の名前を変更するか、関連する動画だけをエクスポートしてください。"
-msgstr "Two source videos have the same filename. Rename one or export only the associated videos."
+msgstr ""
+"Two source videos have the same filename. Rename one or export only the "
+"associated videos."
 
+#: ../../07_support/issues/family-01.md:142
+msgid "[FCS-95-01-000004](FCS-95-01-000004.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:143
 msgid "動画のエクスポート先には現在のプロジェクトフォルダー以外のフォルダーを選択してください。"
-msgstr "Choose a different folder for exported videos; do not use the current project folder."
+msgstr ""
+"Choose a different folder for exported videos; do not use the current "
+"project folder."
 
+#: ../../07_support/issues/family-01.md:143
+msgid "[FCS-95-01-000005](FCS-95-01-000005.md)"
+msgstr ""
+
+#: ../../07_support/issues/family-01.md:144
 msgid "セッションをエクスポートできませんでした。"
 msgstr "The session could not be exported."
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Docs latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-12 11:00+0000\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: jp\n"
@@ -27,34 +27,32 @@ msgid "WARNING"
 msgstr ""
 
 #: ../../07_support/issues/FCS-50-02-000009.md:8
-msgid "メッセージ"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000009.md:10
-msgid "一部のプロファイル画像を読み込めませんでした。元画像を確認するか、サポートにお問い合わせください。"
-msgstr ""
-
-#: ../../07_support/issues/FCS-50-02-000009.md:12
 msgid "原因"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000009.md:14
+#: ../../07_support/issues/FCS-50-02-000009.md:10
 msgid "プロファイルに関連付けられた画像を、保存されている参照先から読み取れませんでした。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000009.md:16
+#: ../../07_support/issues/FCS-50-02-000009.md:12
 msgid "対処方法"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000009.md:18
+#: ../../07_support/issues/FCS-50-02-000009.md:14
 msgid "対象のプロファイルを開き、元画像または元動画のフレームを確認してください。移動や削除した元データを復元するか、使用可能なフレームからプロファイルを作成し直してください。画像が不足したGalleryを保存する前に、元のセッションをバックアップしてください。"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000009.md:20
+#: ../../07_support/issues/FCS-50-02-000009.md:17
 msgid "[同じ種類の問題を見る](family-02.md)"
 msgstr ""
 
-#: ../../07_support/issues/FCS-50-02-000009.md:22
+#: ../../07_support/issues/FCS-50-02-000009.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr ""
+
+#~ msgid "メッセージ"
+#~ msgstr ""
+
+#~ msgid "一部のプロファイル画像を読み込めませんでした。元画像を確認するか、サポートにお問い合わせください。"
+#~ msgstr ""
 

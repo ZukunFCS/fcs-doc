@@ -1,31 +1,59 @@
+
 msgid ""
 msgstr ""
-"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2026-11-12 12:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
 
-msgid "メッセージ"
-msgstr "Message"
+#: ../../07_support/issues/FCS-40-01-000003.md:4
+msgid "FCS-40-01-000003"
+msgstr ""
 
+#: ../../07_support/issues/FCS-40-01-000003.md:6
+msgid "ERROR"
+msgstr ""
+
+#: ../../07_support/issues/FCS-40-01-000003.md:8
 msgid "原因"
 msgstr "Why this happens"
 
-msgid "対処方法"
-msgstr "How to resolve it"
-
-msgid "ランドマーク画像の保存先には既存のフォルダーを選択してください。"
-msgstr "Choose an existing folder for landmark images."
-
-msgid "考えられる原因"
-msgstr "Possible causes"
-
+#: ../../07_support/issues/FCS-40-01-000003.md:10
 msgid "ランドマーク画像の保存先が既存のフォルダーではありません。"
 msgstr "The landmark-image destination is not an existing directory."
 
-msgid "先に保存先フォルダーを作成してから、ランドマーク画像の出力先として選択してください。フォルダーの代わりに画像ファイル名を指定しないでください。"
-msgstr "Create the destination folder first, then select that folder for landmark-image export. Do not select an image filename as the folder."
+#: ../../07_support/issues/FCS-40-01-000003.md:12
+msgid "対処方法"
+msgstr "How to resolve it"
 
+#: ../../07_support/issues/FCS-40-01-000003.md:14
+msgid "先に保存先フォルダーを作成してから、ランドマーク画像の出力先として選択してください。フォルダーの代わりに画像ファイル名を指定しないでください。"
+msgstr ""
+"Create the destination folder first, then select that folder for "
+"landmark-image export. Do not select an image filename as the folder."
+
+#: ../../07_support/issues/FCS-40-01-000003.md:17
 msgid "[同じ種類の問題を見る](family-01.md)"
 msgstr "[Browse this family](family-01.md)"
 
+#: ../../07_support/issues/FCS-40-01-000003.md:19
 msgid "[別のコードを検索](index.md)"
 msgstr "[Find another code](index.md)"
+
+#~ msgid "メッセージ"
+#~ msgstr "Message"
+
+#~ msgid "ランドマーク画像の保存先には既存のフォルダーを選択してください。"
+#~ msgstr "Choose an existing folder for landmark images."
+
+#~ msgid "考えられる原因"
+#~ msgstr "Possible causes"
+
