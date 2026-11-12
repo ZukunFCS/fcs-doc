@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "出力調整の一部を完了できませんでした。完成したアニメーションを確認し、このコードとログのメッセージをコピーしてサポートにお問い合わせください。復旧手順はヘルプで確認してください。"
+msgstr "A delivery adjustment could not complete. Review the completed animation, copy this code and the Log message to support, and open help for recovery steps."
+
+msgid "出力を中止しない調整で未分類の障害が発生しました。完了した結果を確認する必要があります。"
+msgstr "A nonblocking delivery adjustment failed without a recognized stage-specific classification; review of the completed result is required."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

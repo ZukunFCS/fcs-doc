@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルを生成する前に動画を選択してください。"
+msgstr "Select a video before generating profiles."
+
+msgid "プロファイルの自動生成に、元動画が選択されていません。"
+msgstr "Automatic profile generation was started without a source video selection."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

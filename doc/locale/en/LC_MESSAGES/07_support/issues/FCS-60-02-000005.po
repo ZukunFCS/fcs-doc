@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "学習前にニュートラルのプロファイルを選択してください。"
+msgstr "Choose a neutral profile before training."
+
+msgid "この学習方法で必要なニュートラルのプロファイルが未指定です。"
+msgstr "Training was requested without the neutral profile required by this training path."
+
+msgid "リラックスしたニュートラルの顔のプロファイルを保存し、学習設定でニュートラルとして選択してから再学習してください。"
+msgstr "Choose and save a profile showing a relaxed neutral face, select it as neutral in the training settings, then start training again."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

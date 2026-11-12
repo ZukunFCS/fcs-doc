@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルのプレビューを使用できません。アニメーション処理は続行できます。現在の設定で学習してプレビューの復旧を試み、解決しない場合はサポートにお問い合わせください。"
+msgstr "Profile preview is unavailable. Animation processing can continue; train with the current settings to restore preview, or contact support if it remains unavailable."
+
+msgid "プロファイルのプレビュー用ソルバーを読み込みまたは初期化できませんでした。別のアニメーション処理は実行できます。"
+msgstr "The solver required by profile preview could not be loaded or initialized; this does not prevent the separate animation-processing path."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "次の出力調整を使用できませんでした：{outputs}。完成した結果と選択した設定を確認し、対象の調整を再試行してください。"
+msgstr "Some delivery adjustments were unavailable: {outputs}. Review the completed result, check the selected settings, and retry the affected adjustments."
+
+msgid "完了済みアニメーションを使用できる状態で、出力時の調整の一部に失敗しました。"
+msgstr "Some nonblocking delivery adjustments failed while the completed animation remained available."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

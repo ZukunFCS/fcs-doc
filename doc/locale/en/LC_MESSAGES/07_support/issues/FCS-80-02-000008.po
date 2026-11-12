@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロジェクトフォルダーが見つかりません。既存のプロジェクトフォルダーを選択してください。"
+msgstr "Cannot find the project folder. Choose an existing project folder."
+
+msgid "DCC用に選択したワークスペースの場所が存在しません。"
+msgstr "The workspace location selected for the renderer does not exist."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "指定されたスクリーンショットを保存できませんでした。もう一度試すか、サポートにお問い合わせください。"
+msgstr "The requested screenshot was not saved. Try again or contact support."
+
+msgid "スクリーンショットの取得または保存に失敗し、画像ファイルを確認できませんでした。"
+msgstr "The screenshot-capture or save step failed; a screenshot file was not confirmed."
+
+msgid "スクリーンショットの保存先に書き込み権限と空き容量があることを確認し、再度取得してください。Bug Feedbackでは、添付されたと判断する前に画像の存在を確認してください。取得できない場合も、ログと再現手順を送信してください。"
+msgstr "Check that the screenshot destination is writable and has free space, then capture again. For Bug Feedback, verify that the image exists before assuming it is attached; send the Log and reproduction steps even if a screenshot remains unavailable."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

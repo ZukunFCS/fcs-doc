@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "学習前に各コントローラーに顔の領域を割り当ててください。"
+msgstr "Assign a facial region to each controller before training."
+
+msgid "顔領域が未割り当てのコントローラーがあり、学習で領域別に分類できません。"
+msgstr "One or more controllers still have no facial-region assignment, so training cannot group them by region."
+
+msgid "Controller Settingsで、すべてのコントローラーにUpper、Eyelid、Gaze、Lowerのいずれかを割り当て、表を保存してから再学習してください。"
+msgstr "In Controller Settings, assign Upper, Eyelid, Gaze or Lower to every controller, save the controller table, then train again."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

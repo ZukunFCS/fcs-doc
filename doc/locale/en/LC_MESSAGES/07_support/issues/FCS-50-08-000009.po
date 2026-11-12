@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のプロファイルを読み込めず、ギャラリーに表示されていません。元のセッションに上書き保存する前にサポートにお問い合わせください。"
+msgstr "Some profiles could not be loaded and are missing from Gallery. Contact support before saving over the original session."
+
+msgid "一部の保存済みプロファイルを読み取れず、省略して他のプロファイルを読み込みました。"
+msgstr "One or more saved profiles could not be read and were omitted while other profiles were loaded."
+
+msgid "未保存の作業と出力済みのファイルを保持してください。表示されたコードとログのメッセージをコピーし、操作内容、時刻、FCSバージョン、対象の入力を記録してください。"
+msgstr "Keep unsaved work and completed outputs. Copy the displayed code and Log message and note the action, time, FCS version, and affected inputs."
+
+msgid "指定された確認後も同じ操作で失敗する場合は、これらの情報を添えてBug Feedbackから報告してください。ローカルに保存された報告は、サーバーへの送信完了を意味しません。"
+msgstr "If the same action still fails after the stated checks, send a Bug Feedback report with those details. A report saved locally is not confirmation of server delivery."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

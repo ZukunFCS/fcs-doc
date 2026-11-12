@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "このセッションで選択されているレンダラーのシーン設定を指定してください。"
+msgstr "Choose scene settings for the renderer selected in this session."
+
+msgid "現在のセッションで選択されているDCCとは異なるDCC用のシーン設定が指定されています。"
+msgstr "The request supplied scene settings belonging to a renderer other than the one selected for this session."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のプロファイル画像を読み込めませんでした。元画像を確認するか、サポートにお問い合わせください。"
+msgstr "Some profile images could not be loaded. Check the source images or contact support."
+
+msgid "プロファイルに関連付けられた画像を、保存されている参照先から読み取れませんでした。"
+msgstr "The image associated with a profile could not be read from its stored source."
+
+msgid "対象のプロファイルを開き、元画像または元動画のフレームを確認してください。移動や削除した元データを復元するか、使用可能なフレームからプロファイルを作成し直してください。画像が不足したGalleryを保存する前に、元のセッションをバックアップしてください。"
+msgstr "Open the affected profile and locate its original image or source-video frame. Restore a moved or deleted source, or recreate the profile from an available frame. Keep the original session backup before saving a Gallery that is missing profile images."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

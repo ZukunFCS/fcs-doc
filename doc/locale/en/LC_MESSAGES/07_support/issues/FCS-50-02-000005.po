@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルのキャッシュを使用できません。学習は続行できますが、次回以降の学習に時間がかかる場合があります。"
+msgstr "Profile caching is unavailable. Training can continue, but future training may take longer."
+
+msgid "再利用するプロファイルのキャッシュを読み込みまたは作成できませんでした。学習時にデータを再計算できます。"
+msgstr "Reusable profile-cache data could not be loaded or created. Training can recalculate the data instead."
+
+msgid "学習は続けられます。次の学習前に、プロジェクトのキャッシュ保存先の空き容量と書き込み権限を確認してください。繰り返し学習しても遅い場合は、キャッシュが再利用されない原因を調べられるようログを保持してください。"
+msgstr "Training can continue. Check free space and write access to the project’s cache location before the next training run. If only repeated runs are slow, preserve the Log so support can investigate why the cache is not reused."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

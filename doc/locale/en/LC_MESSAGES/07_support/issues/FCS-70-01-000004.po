@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "現在のソルバーでは予測できません。学習し直すか、サポートにお問い合わせください。"
+msgstr "Prediction cannot use the current solver. Train again or contact support."
+
+msgid "指定されたソルバーデータを予測に使用できませんでした。"
+msgstr "The prediction task could not use the supplied solver data."
+
+msgid "対象のキャラクターと、現在のプロファイルおよびコントローラー構成を確認してください。同じキャラクター用のソルバーを学習または読み込み、再予測してください。学習し直しても失敗する場合は、セッションとログを保持してBug Feedbackで報告してください。"
+msgstr "Select the intended character and check its current profiles and controller schema. Train or load a solver for that same character, then retry prediction. If a newly trained solver also fails, preserve the session and Log for Bug Feedback."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

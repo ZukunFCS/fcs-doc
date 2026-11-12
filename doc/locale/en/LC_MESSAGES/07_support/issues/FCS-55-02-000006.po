@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "学習前に必要なすべての顔領域にコントローラーを割り当ててください。"
+msgstr "Assign controllers to every required facial region before training."
+
+msgid "必要なUpper、Eyelid、Gaze、Lowerのうち、コントローラーがない領域があります。"
+msgstr "At least one of the required Upper, Eyelid, Gaze and Lower groups has no controller."
+
+msgid "Controller Settingsで必要な各顔領域に1つ以上のコントローラーを割り当て、表を保存してから再実行してください。すべてを1つの領域に割り当てても、他の領域は満たされません。"
+msgstr "Assign at least one controller to each required facial region in Controller Settings, save the table, then retry. Assigning every controller to one region does not fill the other groups."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

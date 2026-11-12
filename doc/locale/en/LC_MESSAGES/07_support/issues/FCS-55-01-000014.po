@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "削除するコントローラー名の接頭辞を入力してください。"
+msgstr "Enter the controller prefix to remove."
+
+msgid "接頭辞の追加または削除で、接頭辞の文字列が指定されていません。"
+msgstr "The add/remove-prefix operation was submitted without a prefix string."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

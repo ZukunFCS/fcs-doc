@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "FCSを正常に終了できませんでした。アプリケーションが開いたままの場合は、サポートにお問い合わせください。"
+msgstr "FCS could not finish shutting down normally. Contact support if the application remains open."
+
+msgid "終了処理の少なくとも1つで例外が発生し、通常の終了処理が完了しませんでした。"
+msgstr "At least one application shutdown step raised an exception, so normal shutdown did not finish."
+
+msgid "操作可能な作業を保存してください。実行中の処理や出力が完了するまで待ち、再度終了してください。FCSが残り、強制終了が必要な場合は先にログを保持し、再起動後に終了時の障害を報告してください。"
+msgstr "Save any work still accessible. Wait for active processing or exports to finish, then try Exit again. If FCS remains open and must be terminated, preserve the Log first and report the shutdown failure after restarting."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

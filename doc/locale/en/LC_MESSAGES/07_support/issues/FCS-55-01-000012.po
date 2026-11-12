@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "コントローラー名は重複できません。重複するコントローラーを削除するか名前を変更してください。"
+msgstr "Controller names must be unique. Remove or rename the duplicate controllers."
+
+msgid "複数のコントローラー行に同じ名前が設定されています。"
+msgstr "Two or more controller rows use the same name."
+
+msgid "重複する行を削除するか、各コントローラー名が一意になるよう変更し、Controller Settingsを再度保存してください。"
+msgstr "Remove duplicate rows or rename them so every controller name is unique, then save Controller Settings again."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

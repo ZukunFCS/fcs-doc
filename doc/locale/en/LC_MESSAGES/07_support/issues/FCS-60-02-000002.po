@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "アライメントの平均化を使用できないため、より単純なアライメントを使用しました。ポーズを確認し、別の処理プロファイルを選択して再学習するか、サポートにお問い合わせください。"
+msgstr "Alignment averaging is unavailable; a simpler alignment was used. Review the poses, choose another processing profile and retrain, or contact support."
+
+msgid "平均化によるアライメントを作成できず、簡略化したアライメントで学習しました。"
+msgstr "The averaging stage could not construct its preferred alignment, so training used a simpler alignment instead."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

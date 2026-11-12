@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "名前変更リストでは各コントローラーを1回だけ選択してください。"
+msgstr "Select each controller only once in the rename list."
+
+msgid "名前変更の対象に、同じ元コントローラーが複数回指定されています。"
+msgstr "The rename request lists the same source controller more than once."
+
+msgid "元のコントローラーはそれぞれ1回だけ選択してください。自動操作ではold_namesの重複を除去し、各対象に対応する新しい名前を1つずつ指定してください。"
+msgstr "Select each source controller once. For automation, remove duplicate entries from old_names and retain one corresponding new name for each source."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

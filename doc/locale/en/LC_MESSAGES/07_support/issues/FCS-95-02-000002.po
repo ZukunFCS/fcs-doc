@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部の元動画が見つかりません。復元または再リンクしてからエクスポートしてください。"
+msgstr "Some source videos are missing. Restore or relink them before exporting."
+
+msgid "Associated videosまたはAll filesが選択されていますが、登録された元動画がディスクにありません。"
+msgstr "Associated videos or All files was selected, but one or more registered source videos are missing from disk."
+
+msgid "Video Libraryで不足する元動画を復元するか、ファイルの場所を更新してください。切断されたドライブは再接続してください。動画が読み取れる状態で再実行するか、動画のコピーが不要ならNo videoを選択してください。"
+msgstr "In Video Library, restore each missing source or update its file location. Reconnect a disconnected source drive. Retry export after the videos are readable, or choose No video when a media copy is not required."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

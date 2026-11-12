@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プロファイルに使用可能な顔の領域を選択してください。"
+msgstr "Choose an available facial region for the profile."
+
+msgid "指定されたプロファイルの領域名が、顔領域の識別子として認識されません。"
+msgstr "The supplied profile region is not a recognized facial-region identifier."
+
+msgid "プロファイル設定でUpper、Eyelid、Gaze、Lowerから選択してください。自動操作の識別子はupper、eyelid、gaze、lowerです。翻訳したラベルで置き換えないでください。"
+msgstr "Select Upper, Eyelid, Gaze or Lower in the profile controls. Automation identifiers are upper, eyelid, gaze and lower; do not substitute translated labels."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "Blenderが見つかりません。設定でインストール先フォルダーを選択してください。"
+msgstr "Blender could not be found. Choose its installation folder in Settings."
+
+msgid "設定された場所と既定の場所のどちらにも、Blenderの実行ファイルを見つけられませんでした。"
+msgstr "Neither the configured Blender executable location nor its default location yielded an installed Blender application."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

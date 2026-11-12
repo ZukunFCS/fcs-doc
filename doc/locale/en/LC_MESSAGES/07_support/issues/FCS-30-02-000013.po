@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "セッション設定でシーンファイルを選択してください。"
+msgstr "Choose a scene file in the session settings."
+
+msgid "選択したMayaまたはBlenderの操作に必要なシーンがセッションに指定されていません。"
+msgstr "The session does not specify the scene required for the selected Maya or Blender operation."
+
+msgid "Session Settingsで、Mayaなら既存の .ma または .mb、Blenderなら .blend シーンを選択してください。DCCの選択とシーンの形式が一致することを確認してから再実行してください。"
+msgstr "In Session Settings, select an existing .ma or .mb file for Maya, or a .blend file for Blender. Check that the selected renderer matches the scene, then retry the requested action."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

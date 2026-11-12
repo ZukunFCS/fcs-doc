@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "2つの元動画のファイル名が同じです。一方の名前を変更するか、関連する動画だけをエクスポートしてください。"
+msgstr "Two source videos have the same filename. Rename one or export only the associated videos."
+
+msgid "All filesで異なる元動画のファイル名が重複し、同じ保存先に配置できません。"
+msgstr "All-files export found different source videos sharing a filename, which cannot coexist in its flattened destination."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

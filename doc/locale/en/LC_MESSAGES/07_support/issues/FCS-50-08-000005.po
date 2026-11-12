@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のプロファイルで顔の位置を特定できなかったため、画像全体を使用しました。不鮮明な画像や向きが正しくない画像を置き換え、ランドマークを確認してから再学習してください。"
+msgstr "A face could not be located in some profiles; the full images were used. Replace unclear or incorrectly oriented images, check the landmarks, and retrain."
+
+msgid "一部のプロファイル画像で明確な顔の領域を特定できませんでした。FCSは処理を破棄せず、使用可能な画像を使用しました。"
+msgstr "A clear face region could not be located in one or more profile images. FCS used the available image instead of discarding the work."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

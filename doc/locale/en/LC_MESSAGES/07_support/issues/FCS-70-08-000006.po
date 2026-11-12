@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "保存済みのトラッキングシーケンスを読み取れませんでした。動画を再処理するか、サポートにお問い合わせください。"
+msgstr "A saved tracking sequence could not be read. Reprocess the video or contact support."
+
+msgid "他のセッション操作または処理は続行しましたが、保存済みのトラッキングデータを読み取れませんでした。"
+msgstr "A saved tracking sequence could not be read while the rest of the session or processing workflow continued."
+
+msgid "元動画とセッションのバックアップを保持してください。対象動画を再処理してトラッキングを作り直すか、対応する正常なデータを復元してください。調査に必要な情報を確保する前に、読み取れないデータの唯一のコピーを上書きしないでください。"
+msgstr "Keep the source video and session backup. Reprocess the affected video to recreate its tracking data, or restore a known-good matching sequence. Do not overwrite the only copy of the unreadable data before support has enough information to investigate."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

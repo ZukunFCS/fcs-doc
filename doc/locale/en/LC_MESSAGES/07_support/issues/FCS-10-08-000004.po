@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部の動画フレームをスキップしました。アニメーションが不完全、または同期がずれている可能性があります。再発する場合はサポートにお問い合わせください。"
+msgstr "Some video frames were skipped. The animation may be incomplete or out of sync. Contact support if this happens again."
+
+msgid "ネイティブ動画リーダーで一部のデコード済みフレームを転送できず、そのフレームが省略されました。"
+msgstr "The native video reader failed to transfer some decoded frames, so those frames were skipped."
+
+msgid "省略されたフレーム付近のアニメーションと元動画のタイミングを、使用前に比較してください。動画全体をローカルにコピーして再実行してください。同じフレームで失敗する場合は、元動画、FCSバージョン、ログを保持してください。修復や省略されたフレームが元動画と一致するとは判断しないでください。"
+msgstr "Review the animation around skipped frames and compare its timing with the source video before using it. Retry from a complete local copy of the video. If the same frames fail, keep the original video, FCS version and Log for support; do not assume repaired or skipped frames match the source."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

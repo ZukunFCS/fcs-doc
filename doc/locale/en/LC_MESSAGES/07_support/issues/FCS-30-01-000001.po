@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "同じ名前のアクターフォルダーが既に存在します。別の名前を選ぶか、既存のアクターを開いてください。"
+msgstr "An actor folder with that name already exists. Choose another name or open the existing actor."
+
+msgid "プロジェクトのFCSフォルダー内に、同じ名前のアクターフォルダーが存在します。"
+msgstr "An actor directory with this name already exists below the project’s FCS folder."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

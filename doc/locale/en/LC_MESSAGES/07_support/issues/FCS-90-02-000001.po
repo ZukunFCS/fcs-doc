@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "指定されたファイルが見つかりません。場所を確認してから、もう一度お試しください。"
+msgstr "The requested file could not be found. Check its location and try again."
+
+msgid "この操作で選択したファイルが、指定したパスにありません。"
+msgstr "The file selected for this action is absent at the requested path."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

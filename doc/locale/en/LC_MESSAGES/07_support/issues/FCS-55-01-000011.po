@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "MayaまたはBlenderでコントローラーを選択してから、「選択項目を追加」をクリックしてください。"
+msgstr "Select controllers in Maya or Blender, then click Add Selected."
+
+msgid "DCC側の選択に、FCSに追加できるコントローラーがありません。"
+msgstr "The DCC selection contains no controllers that can be added to FCS."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

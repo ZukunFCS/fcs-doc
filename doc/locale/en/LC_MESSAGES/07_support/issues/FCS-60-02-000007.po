@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "ソルバーファイルが見つかりません。既存のソルバーファイルを選択してください。"
+msgstr "The solver file could not be found. Select an existing solver file."
+
+msgid "指定した場所にソルバーファイルがありません。"
+msgstr "The chosen solver file is absent from the requested location."
+
+msgid "既存のソルバーファイルを選択するか、バックアップから復元してください。必要に応じてドライブを再接続してください。保存済みのソルバーがなければ、キャラクターを再学習してください。"
+msgstr "Select the existing solver file or restore it from backup. Reconnect its drive if necessary. If no saved solver is available, train the character again."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

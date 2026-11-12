@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "このセッションは別のFCSバージョンを使用しています。開く前に互換性の案内を確認してください。"
+msgstr "This session uses a different FCS version. Review the compatibility notice before opening it."
+
+msgid "セッションが古いデータ形式を使用しているため、読み込みを続けるには移行を明示的に許可する必要があります。"
+msgstr "The session uses an older data representation that requires an explicit migration before this load can proceed."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画の時間情報を読み取れなかったため、保存済みの時間情報を使用しました。結果を使用する前にフレームレートと範囲を確認し、正しくない場合は動画を再インポートしてください。"
+msgstr "Video timing could not be read; saved timing was used. Check the frame rate and range before using the result, and reimport the video if they are incorrect."
+
+msgid "出力時に元動画のタイミング情報を読み取れず、以前保存されたタイミングを使用しました。"
+msgstr "The source video’s timing could not be read during delivery, so previously saved timing was used."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

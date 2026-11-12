@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "ランドマークフレームのエクスポートは非推奨です。この出力を必要とするワークフローを使用している場合は、サポートにお問い合わせください。"
+msgstr "Landmark-frame export is deprecated. Contact support if your workflow depends on this output."
+
+msgid "選択したランドマークフレーム出力は非推奨の経路で、現在の推奨ワークフローではありません。"
+msgstr "The selected landmark-frame export path is deprecated and may not provide the current supported workflow."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

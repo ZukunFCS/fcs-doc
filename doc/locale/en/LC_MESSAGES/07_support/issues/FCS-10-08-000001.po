@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "{action}：制限付きで完了しました。関連する警告を確認し、問題を解決してから対象の結果を使用してください。"
+msgstr "{action}: finished with limitations. Review the related warnings and resolve them before relying on the affected result."
+
+msgid "各工程の少なくとも1つで制限が報告された状態で、操作が完了しました。"
+msgstr "The operation completed with at least one limitation reported by its individual steps."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "セッションファイルが見つかりません。既存のセッションファイルを選択してください。"
+msgstr "The session file could not be found. Choose an existing session file."
+
+msgid "指定した場所にセッションファイルがありません。"
+msgstr "The requested session file does not exist at the chosen location."
+
+msgid "Open Sessionで対象キャラクターの既存のセッションファイルを選択してください。移動または削除されている場合は、バックアップから復元するか移動先を選択してください。ドライブを再接続してから再実行してください。"
+msgstr "Use Open Session to choose an existing session file from the intended character folder. If it was moved or deleted, restore it from a backup or select its new location. Reconnect its drive before retrying."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

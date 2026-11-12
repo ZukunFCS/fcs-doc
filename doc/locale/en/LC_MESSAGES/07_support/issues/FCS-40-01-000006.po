@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "まだフォルダーに入っていない2つの動画を選択してください。"
+msgstr "Choose two videos that are not already in a folder."
+
+msgid "新しいグループに指定した動画の少なくとも1つが、既存のVideo Libraryグループに属しています。"
+msgstr "One of the videos selected for a new folder already belongs to a Video Library folder."
+
+msgid "現在どのグループにも属していない2本の動画を選択するか、先に対象の動画を既存のグループから外してください。その後で新しいグループを作成してください。"
+msgstr "Select two currently ungrouped videos, or first remove the desired video from its existing group. Then create the new group."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

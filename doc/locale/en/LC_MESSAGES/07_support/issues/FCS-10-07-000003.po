@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "要求された出力を作成できませんでした。出力先と書き込み権限を確認してから再試行してください。解決しない場合は、このメッセージをコピーしてサポートにお問い合わせください。"
+msgstr "The requested output was not created. Check the output destination and write access, then retry. If it still fails, copy this message and contact support."
+
+msgid "出力処理で作成されるはずの保存先に、指定した出力がありません。"
+msgstr "The requested output is absent at the location where FCS expected the export step to create it."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

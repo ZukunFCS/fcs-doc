@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "同じ名前のスムージングプリセットが既に存在します。別の名前を選択してください。"
+msgstr "A smoothing preset with that name already exists. Choose another name."
+
+msgid "同じ名前のスムージングプリセットが保存されています。"
+msgstr "A saved smoothing preset already uses the requested preset name."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

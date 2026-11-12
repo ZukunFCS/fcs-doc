@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "ランドマーク画像の保存先には既存のフォルダーを選択してください。"
+msgstr "Choose an existing folder for landmark images."
+
+msgid "ランドマーク画像の保存先が既存のフォルダーではありません。"
+msgstr "The landmark-image destination is not an existing directory."
+
+msgid "先に保存先フォルダーを作成してから、ランドマーク画像の出力先として選択してください。フォルダーの代わりに画像ファイル名を指定しないでください。"
+msgstr "Create the destination folder first, then select that folder for landmark-image export. Do not select an image filename as the folder."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

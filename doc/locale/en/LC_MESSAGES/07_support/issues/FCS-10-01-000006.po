@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "拡張子が.blendのBlenderシーンを選択してください。"
+msgstr "Choose a Blender scene with the .blend file extension."
+
+msgid "選択したシーンの拡張子が .blend ではありません。大文字・小文字は区別しません。"
+msgstr "The selected scene does not have the .blend extension; extension matching ignores case."
+
+msgid "既存のBlender .blend シーンを選択してください。変換が必要な場合はBlenderで開き、.blend形式で保存してください。"
+msgstr "Choose an existing Blender .blend scene. Open the source in Blender and save it as a .blend file if conversion is needed."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

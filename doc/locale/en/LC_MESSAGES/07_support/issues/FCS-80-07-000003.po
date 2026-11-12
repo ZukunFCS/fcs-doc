@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "音声を反映できませんでした。元動画の音声、出力先フォルダーの書き込み権限、MayaまたはBlenderとの接続を確認してから再試行してください。"
+msgstr "Audio could not be delivered. Check the source audio, output-folder write access, and the Maya or Blender connection, then retry."
+
+msgid "元音声の抽出、保存、またはDCCへの配置を完了できませんでした。"
+msgstr "The audio-delivery step could not extract, save or attach the requested source audio."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

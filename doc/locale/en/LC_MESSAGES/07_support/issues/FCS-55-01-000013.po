@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "コントローラー名を入力してください。"
+msgstr "Enter a controller name."
+
+msgid "コントローラーの操作で、名前が空になっています。"
+msgstr "The controller operation was submitted with an empty controller name."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

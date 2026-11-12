@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択された言語を適用できませんでした。別の言語を選択するか、サポートにお問い合わせください。"
+msgstr "The selected language could not be applied. Choose another language or contact support."
+
+msgid "指定されたUI言語を読み込み、または適用できませんでした。"
+msgstr "FCS could not load or apply the requested UI language."
+
+msgid "設定で別の使用可能な言語を選び、適用してください。再起動前にセッションを保存してください。特定の言語で再発する場合はFCSを修復し、失敗した言語とバージョンを報告してください。"
+msgstr "Choose another available language in Settings and apply it. Save your session before restarting. If the selected language repeatedly fails, repair the FCS installation and report which language and version failed."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

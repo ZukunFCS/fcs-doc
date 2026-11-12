@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "続行する前にプロファイルエディターでプロファイルを開いてください。"
+msgstr "Open a profile in the Profile Editor before continuing."
+
+msgid "Profile Editorでプロファイルが開かれていません。"
+msgstr "No profile is active in the Profile Editor."
+
+msgid "GalleryからプロファイルをProfile Editorで開くか、新しいプロファイルを作成してから、編集や保存を行ってください。"
+msgstr "Open a profile from Gallery in the Profile Editor, or create a new profile, before applying edits or saving."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

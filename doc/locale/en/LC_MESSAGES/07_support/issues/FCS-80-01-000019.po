@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "レンダラーとしてMayaまたはBlenderを選択してください。"
+msgstr "Choose Maya or Blender as the renderer."
+
+msgid "指定されたDCCの識別子が、対応するMayaまたはBlenderではありません。"
+msgstr "The requested renderer identifier is not a supported Maya or Blender backend."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

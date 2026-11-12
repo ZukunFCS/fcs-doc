@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部の元動画が見つかりません。動画ライブラリで場所を更新してください。"
+msgstr "Some source videos could not be found. Update their locations in the Video Library."
+
+msgid "セッションは開きましたが、登録されている動画が保存済みの場所に見つかりません。"
+msgstr "The session opened with video references whose files are no longer available at their saved locations."
+
+msgid "Video Libraryで不足する動画の場所を更新するか、元のパスに復元してください。動画のドライブを再接続してください。セッションの編集は続けられますが、その動画を使用する処理にはファイルの復元が必要です。"
+msgstr "In Video Library, update the locations of missing videos or restore them to their original paths. Reconnect their source drive. Session editing can continue, but operations requiring those videos need the files restored."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

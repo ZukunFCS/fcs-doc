@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "セッションに必要なプロジェクトまたはシーンの設定がありません。続行する前にセッション設定を確認してください。"
+msgstr "The session is missing a required project or scene setting. Check Session Settings before continuing."
+
+msgid "読み込んだセッションに、ファイルの場所の解決に必要なプロジェクトまたは旧形式のMayaシーン設定がありません。"
+msgstr "The loaded session is missing a project-folder or legacy Maya-scene setting required to resolve its files."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

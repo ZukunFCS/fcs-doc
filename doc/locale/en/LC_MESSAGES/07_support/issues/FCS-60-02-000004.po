@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "アライメントのスムージングを使用できないため、アライメントを平滑化していません。動きを確認し、別の処理プロファイルを選択して再学習するか、サポートにお問い合わせください。"
+msgstr "Alignment smoothing is unavailable; alignment was left unsmoothed. Review the motion, choose another processing profile and retrain, or contact support."
+
+msgid "アライメントの平滑化に失敗したため、平滑化していないアライメントで後続の処理を行いました。"
+msgstr "The alignment-smoothing stage failed, so the remaining workflow used unsmoothed alignment."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

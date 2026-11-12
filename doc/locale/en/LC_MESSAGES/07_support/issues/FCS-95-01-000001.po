@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "エクスポート先のキャラクターフォルダーが既に存在します。別のエクスポート先またはキャラクター名を選択してください。"
+msgstr "The destination character folder already exists. Choose another destination or character name."
+
+msgid "エクスポート先に 保存先/FCS/Actor/Character が既に存在します。"
+msgstr "The export destination already contains destination/FCS/Actor/Character."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

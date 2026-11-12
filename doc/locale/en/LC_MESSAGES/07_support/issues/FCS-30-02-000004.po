@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "続行する前にセッションを開いてください。"
+msgstr "Open a session before continuing."
+
+msgid "この操作には現在のセッションが必要ですが、セッションが開かれていません。"
+msgstr "The action needs a current session, but no session is open."
+
+msgid "プロファイル、コントローラー、処理、エクスポートを使用する前に対象のセッションを開いてください。新規プロジェクトの場合は、先にActorとCharacterのセッションを作成してください。"
+msgstr "Open the intended session before using profiles, controllers, processing or export. If starting a new project, create its Actor and Character session first."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

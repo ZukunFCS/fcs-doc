@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "追加するタグを入力してください。"
+msgstr "Enter a tag before adding it."
+
+msgid "タグの作成または編集で、タグ名が空になっています。"
+msgstr "Creating or editing a tag was requested with an empty tag name."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

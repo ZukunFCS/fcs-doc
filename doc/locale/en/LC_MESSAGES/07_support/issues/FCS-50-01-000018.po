@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "使用可能な処理パイプラインを選択してください。"
+msgstr "Choose an available processing pipeline."
+
+msgid "選択した処理プロファイル名が、このインストールでは使用できません。候補はビルドによって異なる場合があります。"
+msgstr "The selected processing-profile name is not available in this installation. Availability can differ by build."
+
+msgid "処理設定に現在表示されているプロファイルから選択してください。自動操作ではprocessing.profilesで候補を取得できます。翻訳した名前や旧バージョンの名前ではなく、返された名前をそのまま使用してください。"
+msgstr "Choose a processing profile from the current Processing Settings list. Automation can read available names through processing.profiles. Use the returned name exactly rather than a translated or older profile name."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

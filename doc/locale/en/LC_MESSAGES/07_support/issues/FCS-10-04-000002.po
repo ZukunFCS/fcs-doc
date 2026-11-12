@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "このセッションにはレイアウトを適用しましたが、次回起動用に保存できませんでした。設定フォルダーのアクセス権を確認するか、サポートにお問い合わせください。"
+msgstr "The layout is applied for this session but could not be saved for the next start. Check the settings-folder permissions or contact support."
+
+msgid "画面構成は現在のセッションに適用されましたが、次回起動用に保存できませんでした。"
+msgstr "The layout change was applied in memory, but FCS could not persist it for the next launch."
+
+msgid "現在の画面構成で作業を続けられます。設定の保存先に書き込み権限と空き容量があることを確認し、画面構成を保存し直してください。セッションを保存してから再起動してください。以前の画面構成に戻る場合があります。"
+msgstr "Continue working with the current layout. Check that the settings location is writable and the disk has free space, then save the layout again. Reopen FCS only after saving your session; the previous layout may return."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

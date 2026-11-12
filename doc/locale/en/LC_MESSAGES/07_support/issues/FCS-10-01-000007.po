@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "エクスポート先を選択してください。"
+msgstr "Choose an export destination."
+
+msgid "セッション、シーン、またはプレイブラストの保存先が未指定です。セッションのエクスポートではActorとCharacterも必要です。"
+msgstr "A destination required by session export, scene export, or playblast export was not supplied. Session export also requires Actor and Character."
+
+msgid "セッションのエクスポートでは保存先フォルダーを選び、ActorとCharacterを入力してください。Scene exportまたはPlayblastでは、その出力の設定で保存先を選択してから、同じ出力を再実行してください。"
+msgstr "For session export, select the destination folder and enter Actor and Character. For Scene export or Playblast, select that output’s destination in its export settings, then retry the same output."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画または親フォルダーの名前を変更し、フルパスからスペースなどの空白文字を除いてから、再インポートしてください。"
+msgstr "Rename the video or its parent folders so the full path contains no spaces or other whitespace, then import it again."
+
+msgid "動画のフルパスのどこかに、スペースやタブなどの空白文字が含まれています。"
+msgstr "At least one part of the full video path contains whitespace, such as a space or tab."
+
+msgid "動画のファイル名とすべての親フォルダーから空白を除去してください。例えばC:/FCS Project/RecData/take 01.mp4ではなく、C:/FCSProject/RecData/take_01.mp4を使用してください。名前を変更またはコピーした動画を再度インポートしてください。"
+msgstr "Remove whitespace from the video filename and every parent folder. For example, use C:/FCSProject/RecData/take_01.mp4 instead of C:/FCS Project/RecData/take 01.mp4. Import the renamed or copied file again."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "有効なスムージングプリセットファイルを選択してください。"
+msgstr "Choose a valid smoothing preset file."
+
+msgid "スムージングプリセットがYAMLとして読めない、マッピング形式でない、必要な領域やパラメーターがない、または非対応の方式を指定しています。"
+msgstr "The smoothing preset could not be read as YAML, is not a mapping, lacks a required region or parameter, or names an unsupported smoothing method."
+
+msgid "FCSで保存したプリセットを読み込んでください。手動編集する場合はupper、gaze、lower、eyelidのマッピングが必要です。各typeはSmoothing、Peak、1€、Rawのいずれかです。Smoothingにはweightとreps、Peakにはthreshold、width、linear_weightが必要です。1€にはmin_cutoffとbetaを任意で指定できます。YAMLを修正するか、スムージング設定から新しく保存してください。"
+msgstr "Load a preset saved by FCS. A hand-edited preset needs upper, gaze, lower and eyelid mappings. Each needs type: Smoothing, Peak, 1€ or Raw. Smoothing requires weight and reps; Peak requires threshold, width and linear_weight; 1€ optionally accepts min_cutoff and beta. Correct the YAML structure or save a fresh preset from the Smoothing controls."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

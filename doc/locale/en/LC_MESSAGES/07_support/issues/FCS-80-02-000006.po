@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "MayaまたはBlenderが見つかりません。設定でアプリケーションの場所を指定してください。"
+msgstr "Cannot find Maya or Blender. Choose its application location in Settings."
+
+msgid "起動対象のMayaまたはBlenderの実行ファイルを見つけられませんでした。"
+msgstr "FCS could not locate the Maya or Blender executable selected for launch."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

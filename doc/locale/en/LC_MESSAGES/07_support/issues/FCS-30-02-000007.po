@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "有効なセッションファイルが見つかりません。既存のFCSセッションを選択してください。"
+msgstr "Cannot find a valid session file. Choose an existing FCS session."
+
+msgid "選択したセッションのパスが、既存の .yaml セッションファイルではありません。"
+msgstr "The selected session path is not an existing .yaml session file."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

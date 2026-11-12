@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択したコントローラーは使用できなくなりました。コントローラー一覧を更新して選択し直してください。"
+msgstr "The selected controller is no longer available. Refresh the controller list and select it again."
+
+msgid "現在のキャラクターのコントローラー一覧に、指定したコントローラーがありません。"
+msgstr "The requested controller is not in the current character’s controller list."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

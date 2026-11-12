@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のプロファイルがコントローラー一覧と一致しないため、コントローラー値をリセットしました。保存前に対象のポーズを確認してください。"
+msgstr "Some profiles no longer matched the controller list and their controller values were reset. Review those poses before saving."
+
+msgid "コントローラーの構成変更により一部のプロファイル値が一致しなくなったため、その値をリセットしました。"
+msgstr "The controller schema changed and some saved profile values no longer matched it, so those values were reset."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

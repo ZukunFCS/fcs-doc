@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "ダウンロードするFCSのバージョンを選択してください。"
+msgstr "Choose an available FCS version to download."
+
+msgid "更新のダウンロードに必要なメジャーとマイナーのリリース識別子の少なくとも1つがありません。"
+msgstr "Downloading an update requires both the major and minor release identifiers; at least one is missing."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

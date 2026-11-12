@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "保存前に必要なすべての領域にコントローラーを割り当ててください。"
+msgstr "Assign controllers to every required region before saving."
+
+msgid "コントローラー設定の保存時に、コントローラーが割り当てられていない必須の顔領域があります。"
+msgstr "Saving controller settings found at least one required facial region without a controller assignment."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

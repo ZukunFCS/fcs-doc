@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "コントローラーに有効な顔の領域を選択してください。"
+msgstr "Choose a valid facial region for the controller."
+
+msgid "コントローラーの顔領域が未定義または未割り当てです。"
+msgstr "A controller has an unrecognized or unassigned facial region."
+
+msgid "コントローラーの領域をUpper、Eyelid、Gaze、Lowerから選んでください。自動操作ではupper、eyelid、gaze、lowerを使用します。保存対象のコントローラーにnullや未割り当ては使用できません。"
+msgstr "Choose Upper, Eyelid, Gaze or Lower for the controller. Automation uses upper, eyelid, gaze or lower. The null/unassigned value is not accepted when validating a saved controller."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

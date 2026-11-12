@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "領域のオーバーライド用のコントローラー値が選択されていません。"
+msgstr "No controller values were selected for the region override."
+
+msgid "領域の上書き対象となるコントローラー値がありません。"
+msgstr "The region-override request contains no controller values to override."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

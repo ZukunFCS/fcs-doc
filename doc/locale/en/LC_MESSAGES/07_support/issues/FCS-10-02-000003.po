@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "必須項目を入力してから、もう一度お試しください。"
+msgstr "Complete the required fields, then try again."
+
+msgid "コマンドの仕様で必須とされるフィールドが指定されていません。"
+msgstr "A command was invoked without one of the fields required by its command schema."
+
+msgid "自動操作では、呼び出すコマンドの必須パラメーターを確認し、すべて指定してください。nullや空の文字列も未指定として扱います。アプリでは対象のダイアログを開き直し、必須項目を入力して再実行してください。入力済みでも未指定になる場合は、対象の操作を報告してください。"
+msgstr "For automation, inspect the called command’s required-parameter schema and provide every required field. A field set to null or an empty string is treated as missing. In the app, reopen the action’s dialog, complete its required controls, and retry. Report the action if a completed dialog still submits a missing field."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "セッションの変更はメモリー上にありますが、保存されていません。FCSを閉じる前にSession InfoでProject、Actor、Character、シーンを確認してください。"
+msgstr "Session changes remain in memory but were not saved. Check the project, Actor, Character and scene in Session Info before closing FCS."
+
+msgid "プロジェクト、Actor、Characterのフォルダー、または選択したシーンの検証に失敗し、メモリー上のセッションを保存できませんでした。"
+msgstr "The in-memory session could not be persisted because its project, Actor or Character directory or selected scene failed validation."
+
+msgid "セッションを保存できませんでした。プロジェクトフォルダーとシーンの設定を確認してください。"
+msgstr "The session was not saved. Check its project folder and scene settings."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

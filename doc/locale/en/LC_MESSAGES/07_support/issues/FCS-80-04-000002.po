@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "プレイブラストを保存できませんでした。MayaまたはBlenderとの接続、選択したカメラ、出力先の書き込み権限を確認してから、Playblastを再試行してください。"
+msgstr "The playblast could not be saved. Check the Maya or Blender connection, selected camera, and destination write access, then retry Playblast."
+
+msgid "指定されたカメラのプレビュー動画を出力できませんでした。"
+msgstr "The playblast step did not complete its requested camera-preview output."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

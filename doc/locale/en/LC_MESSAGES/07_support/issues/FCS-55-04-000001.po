@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "コントローラー設定を保存できませんでした。編集内容は残っています。設定を確認するか、サポートにお問い合わせください。"
+msgstr "Controller settings were not saved. Your edits are still available. Check the settings or contact support."
+
+msgid "保存前のコントローラー表の検証に失敗しました。未保存の編集内容は画面に保持されています。"
+msgstr "The controller table failed validation before saving. The editor still contains the unsaved changes."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

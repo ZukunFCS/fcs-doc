@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "同じ名前の動画フォルダーが既に存在します。別の名前を選択してください。"
+msgstr "A video folder with that name already exists. Choose another name."
+
+msgid "Video Libraryに同じ名前の動画グループが存在します。"
+msgstr "The Video Library already contains a video-folder group with the requested name."
+
+msgid "別のグループ名を指定するか、既存のグループを使用してください。これはVideo Library内のグループ名の問題です。無関係なディスク上のフォルダーを変更しても解決しません。"
+msgstr "Choose a different group name or use the existing group. This refers to the Video Library group, so renaming an unrelated directory on disk will not resolve the duplicate."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

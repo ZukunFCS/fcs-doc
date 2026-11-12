@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "続行する前にライセンス設定でライセンスを確認してください。"
+msgstr "Check your license in License Settings before continuing."
+
+msgid "この操作には有効なライセンスが必要ですが、検証済みのライセンスを使用できません。"
+msgstr "This operation requires an active license, but FCS has no validated license available."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

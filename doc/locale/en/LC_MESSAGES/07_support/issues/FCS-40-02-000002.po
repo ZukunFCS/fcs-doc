@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のランドマーク画像は顔のオーバーレイなしで保存されました。エクスポートした画像を確認してください。"
+msgstr "Some landmark images were saved without face overlays. Check the exported images."
+
+msgid "画像の出力は完了しましたが、一部のフレームに顔ランドマークの重ね合わせ用データがありませんでした。"
+msgstr "Image export completed, but face-landmark overlay data was unavailable for some frames."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

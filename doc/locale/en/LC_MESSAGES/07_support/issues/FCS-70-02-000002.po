@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択した動画を再処理し、視線固定に必要なトラッキングデータを作成してください。"
+msgstr "Process the selected video again to create the tracking data needed for gaze freezing."
+
+msgid "視線固定に必要な、選択中の動画の保存済みトラッキングデータがありません。"
+msgstr "Gaze freezing requires saved tracking data for the selected video, but that cache is absent."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

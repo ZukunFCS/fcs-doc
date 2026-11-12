@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "キャラクターフォルダーが見つかりません。セッションを開き直すか、フォルダーを復元してください。"
+msgstr "Cannot find the character folder. Reopen the session or restore its folder."
+
+msgid "アクターのフォルダー内に、選択したキャラクターのフォルダーがありません。"
+msgstr "The selected character directory is missing below the actor directory."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "インポートしたアニメーションに一部のコントローラーがありません。既定値を使用しました。インポートしたアニメーションを確認してください。"
+msgstr "Some controls are missing from the imported animation. Default values were used. Check the imported animation."
+
+msgid "読み込んだアニメーションに、このキャラクターで必要なコントローラーがすべて含まれていないため、不足分にデフォルト値を使用しました。"
+msgstr "The imported animation does not include every controller required by this character, so missing controls were filled with defaults."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

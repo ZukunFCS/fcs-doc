@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "一部のギャラリーアイコンを読み込めませんでした。ギャラリーを使用できない場合はサポートにお問い合わせください。"
+msgstr "Some Gallery icons could not be loaded. Contact support if this prevents using Gallery."
+
+msgid "Galleryの一部の操作用アイコンを読み込めませんでした。プロファイルの画像データの読み込みとは別の問題です。"
+msgstr "Gallery could not load some of its interface icons; this is separate from loading profile image data."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

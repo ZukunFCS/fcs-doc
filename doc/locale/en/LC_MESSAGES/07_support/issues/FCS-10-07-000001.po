@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "要求された出力ファイルが存在しないか、空です。選択した出力先と書き込み権限を確認してから、その出力を再試行してください。出力済みのファイルは保持されています。"
+msgstr "A requested output file is missing or empty. Check the selected output destination and write access, then retry that output. Completed outputs have been kept."
+
+msgid "指定した出力処理の後に、保存先で空でない出力ファイルを確認できませんでした。"
+msgstr "A requested output step returned without leaving a nonempty output file at its expected destination."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

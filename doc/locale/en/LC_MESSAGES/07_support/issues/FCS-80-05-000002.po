@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "設定で対応しているBlenderのバージョンを選択してください。"
+msgstr "Choose a supported Blender version in Settings."
+
+msgid "選択したBlenderバージョンが対応するメジャー.マイナー形式の識別子と一致しません。"
+msgstr "The selected Blender version does not match a supported major.minor identifier."
+
+msgid "Blenderのバージョンは 4.0, 4.1, 4.2, 4.3, 4.4, 4.5 から選択してください。例えば4.5.0やBlender 4.5ではなく、4.5を指定してください。"
+msgstr "Select one of these Blender versions: 4.0, 4.1, 4.2, 4.3, 4.4, 4.5. For example, use 4.5 rather than 4.5.0 or Blender 4.5."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

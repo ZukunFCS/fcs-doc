@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "これらのコントローラーは異なる領域に属しています。同じ領域のコントローラーを選択してください。"
+msgstr "These controllers belong to different regions. Choose controllers in the same region."
+
+msgid "対応コントローラー設定の貼り付け元と貼り付け先で顔領域が異なります。"
+msgstr "The source and target of the corresponding-controller paste belong to different facial regions."
+
+msgid "対象と同じ顔領域のコントローラーからコピーしてください。領域の割り当てが誤っている場合は、先に修正してください。異なる領域間で対応付けを流用しないでください。"
+msgstr "Copy from a controller in the same region as the target. Change an incorrect region assignment before copying; do not apply mappings across unrelated regions."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

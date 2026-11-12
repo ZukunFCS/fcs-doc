@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画が見つかりません。既存の動画ファイルを選択してください。"
+msgstr "The video could not be found. Select an existing video file."
+
+msgid "この操作で使用する動画が、登録された場所に存在しません。"
+msgstr "The video selected for this operation is no longer present at its stored file location."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

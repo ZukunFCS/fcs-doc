@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "動画が見つかりません。復元または再インポートしてからプロファイルを生成してください。"
+msgstr "Cannot find the video. Restore or reimport it before generating profiles."
+
+msgid "プロファイルの自動生成で、選択した元動画を見つけられませんでした。"
+msgstr "Automatic profile generation cannot find its selected source video."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

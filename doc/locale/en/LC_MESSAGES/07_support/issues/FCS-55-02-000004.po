@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "復元できるコントローラー設定が保存されていません。先に設定を保存してください。"
+msgstr "No saved controller settings are available to restore. Save the settings first."
+
+msgid "数値の初期値を復元するための保存済みコントローラー表がありません。"
+msgstr "No saved controller table is available for restoring numeric defaults."
+
+msgid "必要な上下限とデフォルト値を設定してController Settingsを保存してください。その後は保存済みの表から復元できます。一度も保存していない設定は復元できません。"
+msgstr "Set the desired limits and defaults, then save Controller Settings. Restore can use that saved table afterward; it cannot recover settings that were never saved."
+
+msgid "別のコードを検索"
+msgstr "Find another code"

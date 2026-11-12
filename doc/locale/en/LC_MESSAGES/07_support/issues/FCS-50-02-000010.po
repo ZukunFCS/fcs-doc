@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "メッセージ"
+msgstr "Message"
+
+msgid "原因"
+msgstr "Why this happens"
+
+msgid "対処方法"
+msgstr "How to resolve it"
+
+msgid "選択した一部のプロファイルの動きを予測できませんでした。元画像と対応するコントローラーを確認してください。"
+msgstr "Some selected profile movements could not be predicted. Check their source images and corresponding controls."
+
+msgid "選択したプロファイルの動きに必要な対応コントローラーまたはARKitの係数がありません。"
+msgstr "The corresponding-controller or ARKit coefficients needed for some selected profile movements were unavailable."
+
+msgid "選択した各プロファイルに読み取り可能な顔画像があり、コントローラーが対象のキャラクターに対応していることを確認してください。画像や対応付けを修正してから、対象の動きを再計算してください。残りの結果を使用する前に、省略された動きを確認してください。"
+msgstr "Check that each selected profile has a readable face image and that its controls are mapped to the intended character. Recalculate the affected profile movements after correcting the image or mapping. Review skipped movements before using the remaining result."
+
+msgid "別のコードを検索"
+msgstr "Find another code"
